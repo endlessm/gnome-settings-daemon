@@ -37,7 +37,9 @@ Build-Depends: cdbs,
                librsvg2-dev (>= 2.36.2),
                libgweather-3-dev (>= 3.9.5),
                libgeocode-glib-dev (>= 3.10.0),
-               geoclue (>= 1.99.3)
+               geoclue-2.0 (>= 2.0.0),
+               gir1.2-glib-2.0,
+               python-gi
 Standards-Version: 3.9.4
 Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gnome-settings-daemon/
 Vcs-Svn: svn://anonscm.debian.org/pkg-gnome/desktop/unstable/gnome-settings-daemon/
