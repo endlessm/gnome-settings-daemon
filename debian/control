@@ -52,6 +52,7 @@ Depends: ${shlibs:Depends},
          systemd [!hurd-any !kfreebsd-any],
          gsettings-desktop-schemas (>= 3.10.0),
          nautilus-data (>= 2.91.3-1)
+         mousetweaks
 Recommends: pulseaudio
 Breaks: gnome-session (<< 2.24),
         gnome-screensaver (<< 2.28.0),
