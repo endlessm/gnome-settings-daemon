@@ -2788,6 +2788,14 @@ handle_screensaver_active (GsdPowerManager *manager,
 }
 
 static void
+handle_active_resumed (GsdPowerManager *manager)
+{
+        g_debug ("Received screensaver ActiveResumed signal");
+        if (manager->priv->screensaver_active)
+                idle_set_mode (manager, GSD_POWER_IDLE_MODE_BLANK);
+}
+
+static void
 screensaver_signal_cb (GDBusProxy *proxy,
                        const gchar *sender_name,
                        const gchar *signal_name,
@@ -2796,6 +2804,8 @@ screensaver_signal_cb (GDBusProxy *proxy,
 {
         if (g_strcmp0 (signal_name, "ActiveChanged") == 0)
                 handle_screensaver_active (GSD_POWER_MANAGER (user_data), parameters);
+        else if (g_strcmp0 (signal_name, "ActiveResumed") == 0)
+                handle_active_resumed (GSD_POWER_MANAGER (user_data));
 }
 
 static void
