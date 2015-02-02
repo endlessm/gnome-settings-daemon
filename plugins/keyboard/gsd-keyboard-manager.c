@@ -69,8 +69,6 @@
 #define INPUT_SOURCE_TYPE_XKB  "xkb"
 #define INPUT_SOURCE_TYPE_IBUS "ibus"
 
-#define DEFAULT_LAYOUT "us"
-
 #define GNOME_A11Y_APPLICATIONS_INTERFACE_DIR "org.gnome.desktop.a11y.applications"
 #define KEY_OSK_ENABLED "screen-keyboard-enabled"
 
@@ -347,12 +345,10 @@ get_sources_from_xkb_config (GsdKeyboardManager *manager)
                 g_variant_unref (v);
         }
 
-        init_builder_with_sources (&builder, manager->input_sources_settings);
+        if (!layouts)
+                return;
 
-        if (!layouts) {
-                g_variant_builder_add (&builder, "(ss)", INPUT_SOURCE_TYPE_XKB, DEFAULT_LAYOUT);
-                goto out;
-	}
+        init_builder_with_sources (&builder, manager->input_sources_settings);
 
         v = g_dbus_proxy_get_cached_property (manager->localed, "X11Variant");
         if (v) {
