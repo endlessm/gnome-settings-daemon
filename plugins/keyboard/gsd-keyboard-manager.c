@@ -1233,7 +1233,8 @@ set_devicepresence_handler (GsdKeyboardManager *manager)
 }
 
 static void
-get_sources_from_xkb_config (GsdKeyboardManager *manager)
+get_sources_from_xkb_config (GsdKeyboardManager *manager,
+                             gboolean include_default_layout)
 {
         GsdKeyboardManagerPrivate *priv = manager->priv;
         GVariantBuilder builder;
@@ -1284,7 +1285,7 @@ get_sources_from_xkb_config (GsdKeyboardManager *manager)
                 g_free (id);
         }
 
-        if (!have_default_layout)
+        if (!have_default_layout && include_default_layout)
                 g_variant_builder_add (&builder, "(ss)", INPUT_SOURCE_TYPE_XKB, DEFAULT_LAYOUT);
 
         g_settings_set_value (priv->input_sources_settings, KEY_INPUT_SOURCES, g_variant_builder_end (&builder));
@@ -1444,7 +1445,7 @@ maybe_create_initial_settings (GsdKeyboardManager *manager)
                 /* clean the settings and get them from the "system" */
                 g_variant_builder_init (&builder, G_VARIANT_TYPE ("a(ss)"));
                 g_settings_set_value (settings, KEY_INPUT_SOURCES, g_variant_builder_end (&builder));
-                get_sources_from_xkb_config (manager);
+                get_sources_from_xkb_config (manager, TRUE);
 
                 g_settings_set_strv (settings, KEY_KEYBOARD_OPTIONS, NULL);
                 get_options_from_xkb_config (manager);
@@ -1456,7 +1457,7 @@ maybe_create_initial_settings (GsdKeyboardManager *manager)
         /* if we still don't have anything do some educated guesses */
         sources = g_settings_get_value (settings, KEY_INPUT_SOURCES);
         if (g_variant_n_children (sources) < 1)
-                get_sources_from_xkb_config (manager);
+                get_sources_from_xkb_config (manager, FALSE);
         g_variant_unref (sources);
 
         options = g_settings_get_strv (settings, KEY_KEYBOARD_OPTIONS);
