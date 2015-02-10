@@ -41,6 +41,15 @@ gsd_power = executable(
   install_dir: gsd_libexecdir
 )
 
+led_breathe = executable(
+  'led-breathe',
+  files('led-breathe.c'),
+  install: true,
+  install_mode: 'u+s',
+  install_rpath: gsd_pkglibdir,
+  install_dir: gsd_libexecdir,
+)
+
 sources = files('gsd-power-enums-update.c')
 
 enums_headers = files(
