@@ -1,4 +1,5 @@
 BUILT_SOURCES =
+libexec_PROGRAMS =
 
 plugin_name = power
 
@@ -92,7 +93,7 @@ EXTRA_DIST = 						\
 	$(NULL)
 
 if HAVE_GUDEV
-libexec_PROGRAMS = gsd-backlight-helper
+libexec_PROGRAMS += gsd-backlight-helper
 
 gsd_backlight_helper_LDFLAGS =				\
 	$(BACKLIGHT_HELPER_LIBS)			\
@@ -104,6 +105,12 @@ gsd_backlight_helper_CFLAGS =				\
 EXTRA_DIST += 						\
 	org.gnome.settings-daemon.plugins.power.policy.in.in
 endif
+
+libexec_PROGRAMS += led-breathe
+led_breathe_SOURCES = led-breathe.c
+
+install-exec-hook:
+	chmod u+s $(DESTDIR)/$(libexecdir)/led-breathe
 
 # Enums
 GSD_POWER_ENUM_FILES = gsd-power-enums.c gsd-power-enums.h
