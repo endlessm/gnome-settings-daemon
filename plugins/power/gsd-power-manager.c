@@ -1028,6 +1028,9 @@ backlight_enable (GsdPowerManager *manager)
 
         screen_devices_enable (manager);
 
+	g_spawn_command_line_sync (LIBEXECDIR "/led-breathe 0", NULL, NULL,
+				   NULL, NULL);
+
         g_debug ("TESTSUITE: Unblanked screen");
 }
 
@@ -1051,6 +1054,9 @@ backlight_disable (GsdPowerManager *manager)
                 action_suspend (manager);
         else
                 screen_devices_disable (manager);
+
+	g_spawn_command_line_sync (LIBEXECDIR "/led-breathe 1", NULL, NULL,
+				   NULL, NULL);
 
         g_debug ("TESTSUITE: Blanked screen");
 }
