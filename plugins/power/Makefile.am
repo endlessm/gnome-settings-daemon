@@ -109,7 +109,7 @@ libexec_PROGRAMS += led-breathe
 led_breathe_SOURCES = led-breathe.c
 
 install-exec-hook:
-	chmod u+s $(libexecdir)/led-breathe
+	chmod u+s $(DESTDIR)/$(libexecdir)/led-breathe
 
 # Enums
 GSD_POWER_ENUM_FILES = gsd-power-enums.c gsd-power-enums.h
