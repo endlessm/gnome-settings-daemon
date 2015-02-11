@@ -8,6 +8,9 @@ include /usr/share/gnome-pkg-tools/1/rules/gnome-get-source.mk
 
 DEB_DH_AUTORECONF_ARGS = --as-needed
 
+# needs setuid root
+DEB_FIXPERMS_EXCLUDE := led-breathe
+
 ifneq ($(DEB_HOST_ARCH_CPU),$(filter $(DEB_HOST_ARCH_CPU),ia64 mipsel))
   LDFLAGS += -Wl,-z,defs
 endif
