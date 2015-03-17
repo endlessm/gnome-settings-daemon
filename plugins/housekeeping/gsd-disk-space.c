@@ -617,7 +617,6 @@ static void
 ldsm_notify_for_mount (LdsmMountInfo *mount,
                        gboolean       multiple_volumes)
 {
-        gboolean has_trash;
         gchar  *name;
         gint64 free_space;
         const gchar *path;
@@ -627,32 +626,13 @@ ldsm_notify_for_mount (LdsmMountInfo *mount,
 
         name = g_unix_mount_guess_name (mount->mount);
         path = g_unix_mount_get_mount_path (mount->mount);
-        has_trash = ldsm_mount_has_trash (path);
 
         free_space = (gint64) mount->buf.f_frsize * (gint64) mount->buf.f_bavail;
         free_space_str = g_format_size (free_space);
 
-        if (multiple_volumes) {
-                summary = g_strdup_printf (_("Low Disk Space on “%s”"), name);
-                if (has_trash) {
-                        body = g_strdup_printf (_("The volume “%s” has only %s disk space remaining.  You may free up some space by emptying the trash."),
-                                                name,
-                                                free_space_str);
-                } else {
-                        body = g_strdup_printf (_("The volume “%s” has only %s disk space remaining."),
-                                                name,
-                                                free_space_str);
-                }
-        } else {
-                summary = g_strdup (_("Low Disk Space"));
-                if (has_trash) {
-                        body = g_strdup_printf (_("This computer has only %s disk space remaining.  You may free up some space by emptying the trash."),
-                                                free_space_str);
-                } else {
-                        body = g_strdup_printf (_("This computer has only %s disk space remaining."),
-                                                free_space_str);
-                }
-        }
+        summary = g_strdup (_("Low Disk Space"));
+        body = g_strdup_printf (_("Your computer has only %s of space available.  To free up space, you can delete old files and empty the trash from the \"Documents\" file manager, or delete apps you may not need from the App Center."),
+                                free_space_str);
 
         ldsm_notify (summary, body, path);
 
