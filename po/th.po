@@ -11,9 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"settings-daemon&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-10-09 09:13+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-17 16:53-0700\n"
 "PO-Revision-Date: 2012-10-10 12:19+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -131,12 +130,15 @@ msgid "Device hotplug custom command"
 msgstr "คำสั่ง hotplug อุปกรณ์กำหนดเอง"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:22
-msgid "Command to be run when a device is added or removed."
-msgstr "คำสั่งที่จะเรียกเมื่อมีการเสียบหรือถอดอุปกรณ์"
+msgid ""
+"Command to be run when a device is added or removed. An exit value of 1 "
+"means that the device will not be handled further by gnome-settings-daemon."
+msgstr ""
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:1
+#: ../data/org.gnome.settings-daemon.plugins.datetime.gschema.xml.in.in.h:1
+#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:3
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:1
 #: ../data/org.gnome.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:1
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:1
@@ -151,7 +153,8 @@ msgstr "เรียกทำงานปลั๊กอินนี้"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:2
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:2
+#: ../data/org.gnome.settings-daemon.plugins.datetime.gschema.xml.in.in.h:2
+#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:4
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:2
 #: ../data/org.gnome.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:2
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:2
@@ -166,7 +169,8 @@ msgstr "กำหนดว่าจะเรียกใช้ปลั๊กอ
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:3
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:3
+#: ../data/org.gnome.settings-daemon.plugins.datetime.gschema.xml.in.in.h:3
+#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:5
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:13
 #: ../data/org.gnome.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:3
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:27
@@ -181,7 +185,8 @@ msgstr "ลำดับความสำคัญของปลั๊กอิ
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:4
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:4
+#: ../data/org.gnome.settings-daemon.plugins.datetime.gschema.xml.in.in.h:4
+#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:6
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:14
 #: ../data/org.gnome.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:4
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:28
@@ -241,12 +246,14 @@ msgid "Enable this to move the cursor when the user touches the tablet."
 msgstr "เปิดใช้ค่านี้เพื่อให้เคลื่อนเคอร์เซอร์เมื่อผู้ใช้แตะแท็บเล็ต"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:15
-msgid "Wacom tablet PC feature"
-msgstr "การใช้ Wacom แบบแท็บเล็ตพีซี"
+#, fuzzy
+msgid "Wacom last calibrated resolution"
+msgstr "การหมุนของแท็บเล็ต Wacom"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:16
-msgid "Enable this to only report stylus events when the tip is pressed."
-msgstr "เปิดใช้ค่านี้ถ้าต้องการให้รายงานเหตุการณ์ของปากกาชี้เมื่อหัวปากกาถูกกดเท่านั้น"
+msgid ""
+"Holds the last calibrated resolution to help check if calibration is needed."
+msgstr ""
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:17
 msgid "Wacom display mapping"
@@ -327,7 +334,8 @@ msgid ""
 msgstr "ปุ่มลัดแป้นพิมพ์ที่จะสร้างเมื่อมีการกดปุ่มสำหรับการกระทำที่กำหนดเอง"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:34
-msgid "Key combinations for an elevator custom action"
+#, fuzzy
+msgid "Key combinations for a touchring or touchstrip custom action"
 msgstr "ชุดปุ่มกดร่วมสำหรับการกระทำเลื่อนระดับที่กำหนดเอง"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:35
@@ -337,6 +345,16 @@ msgid ""
 msgstr ""
 "ปุ่มลัดแป้นพิมพ์ที่จะสร้างเมื่อมีการใช้วงแหวนสัมผัสหรือแถบสัมผัสสำหรับการกระทำที่กำหนดเอง (ขึ้น "
 "และตามด้วยลง)"
+
+#. Translators: This is the OLED display on an Intuos4 tablet:
+#. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:38
+msgid "Button label for OLED display."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:39
+msgid "Label will be rendered to OLED display belonging to the button"
+msgstr ""
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:5
 msgid "The duration a display profile is valid"
@@ -357,6 +375,17 @@ msgid ""
 "This is the number of days after which the printer color profile is "
 "considered invalid."
 msgstr "จำนวนวันที่จะใช้โพรไฟล์สีของเครื่องพิมพ์ ก่อนที่จะถือว่าใช้ไม่ได้อีกต่อไป"
+
+#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:1
+msgid "List of plugins that are allowed to be loaded"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:2
+msgid ""
+"A list of strings representing the plugins that are allowed to be loaded "
+"(default: 'all'). The plugins still need to be marked as active to get "
+"loaded. This is only evaluated on startup."
+msgstr ""
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:3
 msgid "Mount paths to ignore"
@@ -601,114 +630,102 @@ msgid "Binding to copy a screenshot of an area to clipboard."
 msgstr "ปุ่มลัดสำหรับคัดลอกภาพพื้นที่หน้าจอลงในคลิปบอร์ด"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:53
+msgid "Record a short video of the screen"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:54
 msgid "Launch web browser"
 msgstr "เรียกเว็บเบราว์เซอร์"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:54
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:55
 msgid "Binding to launch the web browser."
 msgstr "ปุ่มลัดสำหรับเรียกเว็บเบราว์เซอร์"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:55
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:56
 msgid "Toggle magnifier"
 msgstr "เปิด/ปิดแว่นขยาย"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:56
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:57
 msgid "Binding to show the screen magnifier"
 msgstr "ปุ่มลัดสำหรับแสดงแว่นขยายหน้าจอ"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:57
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:58
 msgid "Toggle screen reader"
 msgstr "เปิด/ปิดโปรแกรมอ่านหน้าจอ"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:58
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:59
 msgid "Binding to start the screen reader"
 msgstr "ปุ่มลัดสำหรับเปิดโปรแกรมอ่านหน้าจอ"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:59
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:60
 msgid "Toggle on-screen keyboard"
 msgstr "เปิด/ปิดแป้นพิมพ์บนจอ"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:60
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:61
 msgid "Binding to show the on-screen keyboard"
 msgstr "ปุ่มลัดสำหรับแสดงแป้นพิมพ์บนจอ"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:61
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:62
 msgid "Increase text size"
 msgstr "เพิ่มขนาดตัวอักษร"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:62
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:63
 msgid "Binding to increase the text size"
 msgstr "ปุ่มลัดสำหรับเพิ่มขนาดตัวอักษร"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:63
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:64
 msgid "Decrease text size"
 msgstr "ลดขนาดตัวอักษร"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:64
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:65
 msgid "Binding to decrease the text size"
 msgstr "ปุ่มลัดสำหรับลดขนาดตัวอักษร"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:65
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:66
 msgid "Toggle contrast"
 msgstr "เปิด/ปิดการใช้สีตัดกัน"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:66
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:67
 msgid "Binding to toggle the interface contrast"
 msgstr "ปุ่มลัดสำหรับเปิด/ปิดความตัดกันของสีส่วนติดต่อผู้ใช้"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:67
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:68
 msgid "Magnifier zoom in"
 msgstr "แว่นขยายซูมเข้า"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:68
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:69
 msgid "Binding for the magnifier to zoom in"
 msgstr "ปุ่มลัดสำหรับซูมแว่นขยายเข้า"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:69
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:70
 msgid "Magnifier zoom out"
 msgstr "แว่นขยายซูมออก"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:70
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:71
 msgid "Binding for the magnifier to zoom out"
 msgstr "ปุ่มลัดสำหรับซูมแว่นขยายออก"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:71
-msgid "Switch input source"
-msgstr "สลับช่องทางป้อนข้อความเข้า"
-
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:72
-msgid "Binding to select the next input source"
-msgstr "ปุ่มลัดสำหรับเลือกช่องทางป้อนข้อความเข้าถัดไป"
-
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:73
-msgid "Switch input source backward"
-msgstr "สลับช่องทางป้อนข้อความเข้าย้อนกลับ"
-
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:74
-msgid "Binding to select the previous input source"
-msgstr "ปุ่มลัดสำหรับเลือกช่องทางป้อนข้อความเข้าก่อนหน้า"
-
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:75
 msgid "Name"
 msgstr "ชื่อ"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:76
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:73
 msgid "Name of the custom binding"
 msgstr "ชื่อของปุ่มลัดที่กำหนดเอง"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:77
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:74
 msgid "Binding"
 msgstr "ปุ่มกด"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:78
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:75
 msgid "Binding for the custom binding"
 msgstr "ปุ่มกดสำหรับปุ่มลัดที่กำหนดเอง"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:79
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:76
 msgid "Command"
 msgstr "คำสั่ง"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:80
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:77
 msgid "Command to run when the binding is invoked"
 msgstr "คำสั่งที่จะเรียกเมื่อกดปุ่มลัด"
 
@@ -960,8 +977,8 @@ msgid ""
 "such a file, or has one that does not match the user's setup of monitors, "
 "then the file specified by this key will be used instead."
 msgstr ""
-"ปลั๊กอิน XRandR จะมองหาค่าตั้งปริยายจากแฟ้มที่ระบุในคีย์นี้ แฟ้มนี้จะมีรูปแบบคล้ายกับ "
-"~/.config/monitors.xml ที่โดยปกติจะเก็บไว้ที่ไดเรกทอรีบ้านของผู้ใช้ ถ้าผู้ใช้ไม่มีแฟ้มดังกล่าว "
+"ปลั๊กอิน XRandR จะมองหาค่าตั้งปริยายจากแฟ้มที่ระบุในคีย์นี้ แฟ้มนี้จะมีรูปแบบคล้ายกับ ~/.config/"
+"monitors.xml ที่โดยปกติจะเก็บไว้ที่ไดเรกทอรีบ้านของผู้ใช้ ถ้าผู้ใช้ไม่มีแฟ้มดังกล่าว "
 "หรือมีแต่ไม่ตรงกับค่าของจอภาพที่ผู้ใช้ตั้งไว้ ก็จะใช้แฟ้มที่ระบุในคีย์นี้แทน"
 
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:7
@@ -969,10 +986,13 @@ msgid "Whether to turn off specific monitors after boot"
 msgstr "กำหนดว่าจะเจาะจงปิดจอภาพบางจอหลังจากบูตเสร็จแล้วหรือไม่"
 
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:8
+#, fuzzy
 msgid ""
 "'clone' will display the same thing on all monitors, 'dock' will switch off "
 "the internal monitor, 'do-nothing' will use the default Xorg behaviour "
-"(extend the desktop in recent versions)"
+"(extend the desktop in recent versions). The default, 'follow-lid', will "
+"choose between 'do-nothing' and 'dock' depending on whether the lid is "
+"(respectively) open or closed."
 msgstr ""
 "'clone' จะแสดงเนื้อหาเหมือนกันในทุกจอภาพ, 'dock' จะปิดจอภาพภายใน, 'do-nothing' "
 "จะใช้พฤติกรรมปกติของ Xorg (ซึ่งในหลังๆ จะขยายพื้นที่เดสก์ท็อปให้คลุมทุกจอภาพ)"
@@ -1041,9 +1061,13 @@ msgstr ""
 "รายชื่อของมอดูล GTK+ ที่จะโหลด "
 "ซึ่งโดยปกติเป็นการระบุเพิ่มเติมจากมอดูลที่ปิดใช้แบบมีเงื่อนไขหรือบังคับปิด"
 
-#: ../gnome-settings-daemon/main.c:54
+#: ../gnome-settings-daemon/main.c:53
 msgid "Enable debugging code"
 msgstr "เปิดใช้โค้ดส่วนดีบั๊ก"
+
+#: ../gnome-settings-daemon/main.c:54
+msgid "Replace existing daemon"
+msgstr ""
 
 #: ../gnome-settings-daemon/main.c:55
 msgid "Exit after a time (for debugging)"
@@ -1057,23 +1081,15 @@ msgstr "สิ่งอำนวยความสะดวกสำหรับ
 msgid "Accessibility keyboard plugin"
 msgstr "ปลั๊กอินจัดการสิ่งอำนวยความสะดวกสำหรับแป้นพิมพ์"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:383
-#, c-format
-msgid "There was an error displaying help: %s"
-msgstr "เกิดข้อผิดพลาดขณะแสดงวิธีใช้: %s"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:507
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:570
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:400
 msgid "Slow Keys Turned On"
 msgstr "เปิดใช้การพิมพ์แบบช้าแล้ว"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:508
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:571
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:401
 msgid "Slow Keys Turned Off"
 msgstr "ปิดการพิมพ์แบบช้าแล้ว"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:509
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:572
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:402
 msgid ""
 "You just held down the Shift key for 8 seconds.  This is the shortcut for "
 "the Slow Keys feature, which affects the way your keyboard works."
@@ -1081,64 +1097,40 @@ msgstr ""
 "คุณเพิ่งกดปุ่ม Shift ค้างไว้แปดวินาที นี่เป็นสัญญาณเรียกใช้การพิมพ์แบบช้า "
 "ซึ่งจะมีผลต่อการทำงานของแป้นพิมพ์"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:528
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:663
-#: ../plugins/mouse/gsd-mouse-manager.c:920
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:412
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:480
 msgid "Universal Access"
 msgstr "การเข้าถึงหลากหลาย"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:534
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:669
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:418
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:486
 msgid "Turn Off"
 msgstr "ปิด"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:534
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:669
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:418
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:486
 msgid "Turn On"
 msgstr "เปิด"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:540
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:675
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:424
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:492
 msgid "Leave On"
 msgstr "เปิดไว้เหมือนเดิม"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:540
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:675
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:424
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:492
 msgid "Leave Off"
 msgstr "ปิดไว้เหมือนเดิม"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:593
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:731
-msgid "_Turn Off"
-msgstr "ปิ_ด"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:593
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:731
-msgid "_Turn On"
-msgstr "_เปิด"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:596
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:734
-msgid "_Leave On"
-msgstr "เปิดไ_ว้เหมือนเดิม"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:596
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:734
-msgid "_Leave Off"
-msgstr "ปิดไ_ว้เหมือนเดิม"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:639
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:705
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:465
 msgid "Sticky Keys Turned On"
 msgstr "เริ่มใช้การค้างปุ่มกด"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:640
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:706
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:466
 msgid "Sticky Keys Turned Off"
 msgstr "เลิกใช้การค้างปุ่มกด"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:642
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:708
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:468
 msgid ""
 "You just pressed the Shift key 5 times in a row.  This is the shortcut for "
 "the Sticky Keys feature, which affects the way your keyboard works."
@@ -1146,8 +1138,7 @@ msgstr ""
 "คุณเพิ่งกดปุ่ม Shift ห้าครั้งต่อเนื่องกัน นี่เป็นสัญญาณเรียกใช้การค้างปุ่มกด "
 "ซึ่งจะมีผลต่อการทำงานของแป้นพิมพ์"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:644
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:710
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:470
 msgid ""
 "You just pressed two keys at once, or pressed the Shift key 5 times in a "
 "row.  This turns off the Sticky Keys feature, which affects the way your "
@@ -1155,43 +1146,6 @@ msgid ""
 msgstr ""
 "คุณเพิ่งกดสองปุ่มพร้อมกัน หรือกดปุ่ม Shift ห้าครั้งต่อเนื่องกัน นี่เป็นสัญญาณสำหรับปิดการค้างปุ่มกด "
 "ซึ่งจะมีผลต่อการทำงานของแป้นพิมพ์"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.c:412
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:1
-msgid "Universal Access Preferences"
-msgstr "ปรับแต่งการเข้าถึงหลากหลาย"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:2
-msgid "Use on-screen _keyboard"
-msgstr "ใช้แ_ป้นพิมพ์บนจอ"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:3
-msgid "Use screen _reader"
-msgstr "ใช้โปรแกรม_อ่านหน้าจอ"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:4
-msgid "Use screen _magnifier"
-msgstr "ใช้แว่น_ขยายหน้าจอ"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:5
-msgid "Enhance _contrast in colors"
-msgstr "เพิ่มความ_ต่างของสี"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:6
-msgid "Make _text larger and easier to read"
-msgstr "แสดงตัว_อักษรใหญ่ขึ้นเพื่อให้อ่านง่าย"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:7
-msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
-msgstr "_กดปุ่มลัดโดยกดทีละปุ่ม (การค้างปุ่มกด)"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:8
-msgid "_Ignore duplicate keypresses (Bounce Keys)"
-msgstr "_ละเลยปุ่มกดซ้ำ (ป้องกันการกดแป้นรัว)"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:9
-msgid "Press and _hold keys to accept them (Slow Keys)"
-msgstr "รับปุ่มกดแบบแ_ช่ (การพิมพ์แบบช้า)"
 
 #: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:1
 msgid "Accessibility settings"
@@ -1201,151 +1155,17 @@ msgstr "ตั้งค่าสิ่งอำนวยความสะดว
 msgid "Accessibility settings plugin"
 msgstr "ปลั๊กอินตั้งค่าสิ่งอำนวยความสะดวก"
 
-#: ../plugins/automount/gnome-fallback-mount-helper.desktop.in.in.h:1
-msgid "Mount Helper"
-msgstr "เครื่องมือช่วยเมานท์"
-
-#: ../plugins/automount/gnome-fallback-mount-helper.desktop.in.in.h:2
-msgid "Automount and autorun plugged devices"
-msgstr "เมาทน์และเรียกทำงานอุปกรณ์ที่เสียบเข้ามาโดยอัตโนมัติ"
-
-#: ../plugins/automount/gsd-automount-manager.c:151
-#, c-format
-msgid "Unable to mount %s"
-msgstr "ไม่สามารถเมานท์ %s"
-
-#: ../plugins/automount/gsd-automount-manager.c:264
-#, c-format
-msgid "Unable to open a folder for %s"
-msgstr "ไม่สามารถเปิดโฟลเดอร์สำหรับ %s"
-
-#: ../plugins/automount/gsd-autorun.c:340
-msgid "Ask what to do"
-msgstr "ถามว่าจะให้ทำอะไร"
-
-#: ../plugins/automount/gsd-autorun.c:346
-msgid "Do Nothing"
-msgstr "ไม่ทำอะไร"
-
-#: ../plugins/automount/gsd-autorun.c:352
-msgid "Open Folder"
-msgstr "เปิดโฟลเดอร์"
-
-#: ../plugins/automount/gsd-autorun.c:495
-#, c-format
-msgid "Unable to eject %p"
-msgstr "ไม่สามารถเอา %p ออก"
-
-#: ../plugins/automount/gsd-autorun.c:497
-#, c-format
-msgid "Unable to unmount %p"
-msgstr "ไม่สามารถเลิกเมานท์ %p"
-
-#: ../plugins/automount/gsd-autorun.c:702
-msgid "You have just inserted an Audio CD."
-msgstr "คุณเพิ่งใส่แผ่นซีดีเพลงเข้ามา"
-
-#: ../plugins/automount/gsd-autorun.c:704
-msgid "You have just inserted an Audio DVD."
-msgstr "คุณเพิ่งใส่แผ่นดีวีดีเพลงเข้ามา"
-
-#: ../plugins/automount/gsd-autorun.c:706
-msgid "You have just inserted a Video DVD."
-msgstr "คุณเพิ่งใส่แผ่นดีวีดีภาพยนตร์เข้ามา"
-
-#: ../plugins/automount/gsd-autorun.c:708
-msgid "You have just inserted a Video CD."
-msgstr "คุณเพิ่งใส่แผ่นวีซีดีเข้ามา"
-
-#: ../plugins/automount/gsd-autorun.c:710
-msgid "You have just inserted a Super Video CD."
-msgstr "คุณเพิ่งใส่แผ่นซูเปอร์วีซีดีเข้ามา"
-
-#: ../plugins/automount/gsd-autorun.c:712
-msgid "You have just inserted a blank CD."
-msgstr "คุณเพิ่งใส่แผ่นซีดีเปล่าเข้ามา"
-
-#: ../plugins/automount/gsd-autorun.c:714
-msgid "You have just inserted a blank DVD."
-msgstr "คุณเพิ่งใส่แผ่นดีวีดีเปล่าเข้ามา"
-
-#: ../plugins/automount/gsd-autorun.c:716
-msgid "You have just inserted a blank Blu-Ray disc."
-msgstr "คุณเพิ่งใส่แผ่นบลูเรย์เปล่าเข้ามา"
-
-#: ../plugins/automount/gsd-autorun.c:718
-msgid "You have just inserted a blank HD DVD."
-msgstr "คุณเพิ่งใส่แผ่น HD DVD เปล่าเข้ามา"
-
-#: ../plugins/automount/gsd-autorun.c:720
-msgid "You have just inserted a Photo CD."
-msgstr "คุณเพิ่งใส่แผ่นซีดีภาพถ่ายเข้ามา"
-
-#: ../plugins/automount/gsd-autorun.c:722
-msgid "You have just inserted a Picture CD."
-msgstr "คุณเพิ่งใส่แผ่นซีดีรูปภาพเข้ามา"
-
-#: ../plugins/automount/gsd-autorun.c:724
-msgid "You have just inserted a medium with digital photos."
-msgstr "คุณเพิ่งใส่สื่อที่มีภาพถ่ายดิจิทัลเข้ามา"
-
-#: ../plugins/automount/gsd-autorun.c:726
-msgid "You have just inserted a digital audio player."
-msgstr "คุณเพิ่งใส่เครื่องเล่นเพลงดิจิทัลเข้ามา"
-
-#: ../plugins/automount/gsd-autorun.c:728
-msgid ""
-"You have just inserted a medium with software intended to be automatically "
-"started."
-msgstr "คุณเพิ่งใส่สื่อที่มีซอฟต์แวร์สำหรับเรียกทำงานอัตโนมัติเข้ามา"
-
-#. fallback to generic greeting
-#: ../plugins/automount/gsd-autorun.c:731
-msgid "You have just inserted a medium."
-msgstr "คุณเพิ่งใส่สื่อเข้ามา"
-
-#: ../plugins/automount/gsd-autorun.c:733
-msgid "Choose what application to launch."
-msgstr "เลือกโปรแกรมที่จะเรียก"
-
-#: ../plugins/automount/gsd-autorun.c:742
-#, c-format
-msgid ""
-"Select how to open \"%s\" and whether to perform this action in the future "
-"for other media of type \"%s\"."
-msgstr ""
-"เลือกวิธีการเปิด \"%s\" และกำหนดว่าจะทำอย่างเดียวกันนี้ในอนาคตกับสื่อชนิด \"%s\" ด้วยหรือไม่"
-
-#: ../plugins/automount/gsd-autorun.c:769
-msgid "_Always perform this action"
-msgstr "กระทำสิ่งนี้เ_สมอ"
-
-#: ../plugins/automount/gsd-autorun.c:785
-msgid "_Eject"
-msgstr "เ_อาสื่อออก"
-
-#: ../plugins/automount/gsd-autorun.c:790
-msgid "_Unmount"
-msgstr "เ_ลิกเมานท์"
-
-#: ../plugins/background/background.gnome-settings-plugin.in.h:1
-msgid "Background"
-msgstr "พื้นหลัง"
-
-#: ../plugins/background/background.gnome-settings-plugin.in.h:2
-msgid "Background plugin"
-msgstr "ปลั๊กอินจัดการพื้นหลัง"
-
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:1
+#. Priority=100
+#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:2
 msgid "Clipboard"
 msgstr "คลิปบอร์ด"
 
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:2
+#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:3
 msgid "Clipboard plugin"
 msgstr "ปลั๊กอินจัดการคลิปบอร์ด"
 
 #: ../plugins/color/color.gnome-settings-plugin.in.h:1
-#: ../plugins/color/gsd-color-manager.c:1801
+#: ../plugins/color/gsd-color-calibrate.c:140
 msgid "Color"
 msgstr "สี"
 
@@ -1353,42 +1173,82 @@ msgstr "สี"
 msgid "Color plugin"
 msgstr "ปลั๊กอินจัดการสี"
 
-#: ../plugins/color/gsd-color-manager.c:1806
+#: ../plugins/color/gsd-color-calibrate.c:145
 msgid "Recalibrate now"
 msgstr "เทียบมาตรฐานใหม่เดี๋ยวนี้"
 
 #. TRANSLATORS: this is when the device has not been recalibrated in a while
-#: ../plugins/color/gsd-color-manager.c:1849
+#: ../plugins/color/gsd-color-calibrate.c:188
 msgid "Recalibration required"
 msgstr "จำเป็นต้องเทียบมาตรฐานใหม่"
 
 #. TRANSLATORS: this is when the display has not been recalibrated in a while
-#: ../plugins/color/gsd-color-manager.c:1861
+#: ../plugins/color/gsd-color-calibrate.c:200
 #, c-format
 msgid "The display '%s' should be recalibrated soon."
 msgstr "จอแสดงผล '%s' ควรเทียบมาตรฐานใหม่เร็วๆ นี้"
 
 #. TRANSLATORS: this is when the printer has not been recalibrated in a while
-#: ../plugins/color/gsd-color-manager.c:1870
+#: ../plugins/color/gsd-color-calibrate.c:209
 #, c-format
 msgid "The printer '%s' should be recalibrated soon."
 msgstr "เครื่องพิมพ์ '%s' ควรเทียบมาตรฐานใหม่เร็วๆ นี้"
 
 #. TRANSLATORS: this is the application name
-#: ../plugins/color/gsd-color-manager.c:2194
-#: ../plugins/color/gsd-color-manager.c:2210
+#: ../plugins/color/gsd-color-calibrate.c:347
+#: ../plugins/color/gsd-color-calibrate.c:363
 msgid "GNOME Settings Daemon Color Plugin"
 msgstr "ปลั๊กอินจัดการสีของดีมอนค่าตั้ง GNOME"
 
 #. TRANSLATORS: this is a sound description
-#: ../plugins/color/gsd-color-manager.c:2196
+#: ../plugins/color/gsd-color-calibrate.c:349
 msgid "Color calibration device added"
 msgstr "เพิ่มอุปกรณ์เทียบมาตรฐานสี"
 
 #. TRANSLATORS: this is a sound description
-#: ../plugins/color/gsd-color-manager.c:2212
+#: ../plugins/color/gsd-color-calibrate.c:365
 msgid "Color calibration device removed"
 msgstr "เอาอุปกรณ์เทียบมาตรฐานสีออก"
+
+#. Priority=100
+#: ../plugins/cursor/cursor.gnome-settings-plugin.in.h:2
+msgid "Cursor"
+msgstr ""
+
+#: ../plugins/cursor/cursor.gnome-settings-plugin.in.h:3
+msgid "Show/hide cursor on tablet devices"
+msgstr ""
+
+#. Priority=100
+#: ../plugins/datetime/datetime.gnome-settings-plugin.in.h:2
+msgid "Date and Time"
+msgstr ""
+
+#: ../plugins/datetime/datetime.gnome-settings-plugin.in.h:3
+#, fuzzy
+msgid "Automatically update timezone and display notifications"
+msgstr "ปรับรุ่นรายการชนิดเหล่านี้โดยอัตโนมัติ"
+
+#. Translators: UTC here means the Coordinated Universal Time.
+#. * %:::z will be replaced by the offset from UTC e.g. UTC+02
+#: ../plugins/datetime/gsd-datetime-manager.c:104
+msgid "UTC%:::z"
+msgstr ""
+
+#: ../plugins/datetime/gsd-datetime-manager.c:108
+#, c-format
+msgid "Time Zone Updated to %s (%s)"
+msgstr ""
+
+#: ../plugins/datetime/gsd-datetime-manager.c:128
+#, fuzzy
+msgid "Date & Time Settings"
+msgstr "จัดการค่าตั้งของ X"
+
+#: ../plugins/datetime/gsd-datetime-manager.c:136
+#, fuzzy
+msgid "Settings"
+msgstr "ค่าตั้งของ X"
 
 #: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:1
 msgid "Dummy"
@@ -1398,58 +1258,35 @@ msgstr "หุ่น"
 msgid "Dummy plugin"
 msgstr "ปลั๊กอินหุ่น"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:334
-#, c-format
-msgid "Low Disk Space on \"%s\""
-msgstr "พื้นที่ดิสก์เหลือน้อยใน \"%s\""
-
-#: ../plugins/housekeeping/gsd-disk-space.c:336
-#, c-format
-msgid ""
-"The volume \"%s\" has only %s disk space remaining.  You may free up some "
-"space by emptying the trash."
-msgstr "โวลุม \"%s\" มีเนื้อที่ว่างเหลือเพียง %s  คุณอาจเทขยะทิ้งเพื่อให้ได้พื้นที่ว่างเพิ่มขึ้นได้"
-
-#: ../plugins/housekeeping/gsd-disk-space.c:340
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:81
-#, c-format
-msgid "The volume \"%s\" has only %s disk space remaining."
-msgstr "โวลุม \"%s\" มีเนื้อที่ว่างเหลือเพียง %s"
-
 #. Set up all the window stuff here
-#: ../plugins/housekeeping/gsd-disk-space.c:345
+#: ../plugins/housekeeping/gsd-disk-space.c:614
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:205
 msgid "Low Disk Space"
 msgstr "พื้นที่ดิสก์เหลือน้อย"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:347
+#: ../plugins/housekeeping/gsd-disk-space.c:615
 #, c-format
 msgid ""
-"This computer has only %s disk space remaining.  You may free up some space "
-"by emptying the trash."
+"Your computer has only %s of space available.  To free up space, you can "
+"delete old files and empty the trash from the \"Documents\" file manager, or "
+"delete apps you may not need from the App Center."
 msgstr "คอมพิวเตอร์เครื่องนี้มีเนื้อที่ว่างเหลือเพียง %s  คุณอาจเทขยะทิ้งเพื่อให้ได้พื้นที่ว่างเพิ่มขึ้นได้"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:350
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:84
-#, c-format
-msgid "This computer has only %s disk space remaining."
-msgstr "คอมพิวเตอร์เครื่องนี้มีเนื้อที่ว่างเหลือเพียง %s"
-
-#: ../plugins/housekeeping/gsd-disk-space.c:365
+#: ../plugins/housekeeping/gsd-disk-space.c:629
 msgid "Disk space"
 msgstr "พื้นที่ดิสก์"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:372
+#: ../plugins/housekeeping/gsd-disk-space.c:636
 msgid "Examine"
 msgstr "ตรวจสอบ"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:380
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:437
+#: ../plugins/housekeeping/gsd-disk-space.c:644
+#: ../plugins/housekeeping/gsd-ldsm-dialog.c:434
 msgid "Empty Trash"
 msgstr "เทขยะ"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:387
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:452
+#: ../plugins/housekeeping/gsd-disk-space.c:651
+#: ../plugins/housekeeping/gsd-ldsm-dialog.c:449
 msgid "Ignore"
 msgstr "ไม่สนใจ"
 
@@ -1460,6 +1297,16 @@ msgstr "ไม่ต้องแสดงคำเตือนอีกสำห
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:68
 msgid "Don't show any warnings again"
 msgstr "ไม่ต้องแสดงคำเตือนนี้อีก"
+
+#: ../plugins/housekeeping/gsd-ldsm-dialog.c:81
+#, c-format
+msgid "The volume \"%s\" has only %s disk space remaining."
+msgstr "โวลุม \"%s\" มีเนื้อที่ว่างเหลือเพียง %s"
+
+#: ../plugins/housekeeping/gsd-ldsm-dialog.c:84
+#, c-format
+msgid "This computer has only %s disk space remaining."
+msgstr "คอมพิวเตอร์เครื่องนี้มีเนื้อที่ว่างเหลือเพียง %s"
 
 #: ../plugins/housekeeping/gsd-ldsm-dialog.c:100
 msgid ""
@@ -1492,13 +1339,23 @@ msgid ""
 msgstr ""
 "คุณสามารถคืนเนื้อที่ว่างในดิสก์ได้โดยลบโปรแกรมหรือแฟ้มที่ไม่ใช้แล้ว หรือย้ายแฟ้มต่างๆ ไปที่ดิสก์ภายนอก"
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:445
+#: ../plugins/housekeeping/gsd-ldsm-dialog.c:442
 msgid "Examine…"
 msgstr "ตรวจสอบ…"
 
+#: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:1
+msgid "Housekeeping"
+msgstr ""
+
+#: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:2
+msgid ""
+"Automatically prunes thumbnail caches and other transient files, and warns "
+"about low disk space"
+msgstr ""
+
 #. TRANSLATORS: wireless keyboard with internal battery
 #: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
-#: ../plugins/power/gpm-common.c:585
+#: ../plugins/power/gpm-common.c:612
 msgid "Keyboard"
 msgid_plural "Keyboards"
 msgstr[0] "แป้นพิมพ์"
@@ -1507,15 +1364,37 @@ msgstr[0] "แป้นพิมพ์"
 msgid "Keyboard plugin"
 msgstr "ปลั๊กอินจัดการแป้นพิมพ์"
 
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2020
+msgid "Screencast from %d %t.webm"
+msgstr ""
+
+#: ../plugins/media-keys/gsd-screenshot-utils.c:84
+#, fuzzy
+msgid "Unable to capture a screenshot"
+msgstr "ปุ่มลัดสำหรับจับภาพหน้าจอ"
+
+#: ../plugins/media-keys/gsd-screenshot-utils.c:115
+#: ../plugins/media-keys/gsd-screenshot-utils.c:155
+#, fuzzy
+msgid "Screenshot taken"
+msgstr "โปรแกรมรักษาหน้าจอ"
+
+#. translators: this is the name of the file that gets made up
+#. * with the screenshot
+#: ../plugins/media-keys/gsd-screenshot-utils.c:304
+#, c-format
+msgid "Screenshot from %s"
+msgstr ""
+
 #. translators:
 #. * The device has been disabled
-#: ../plugins/media-keys/cut-n-paste/gvc-mixer-control.c:1087
+#: ../plugins/media-keys/gvc/gvc-mixer-control.c:1830
 msgid "Disabled"
 msgstr "ปิดใช้"
 
 #. translators:
 #. * The number of sound outputs on a particular device
-#: ../plugins/media-keys/cut-n-paste/gvc-mixer-control.c:1094
+#: ../plugins/media-keys/gvc/gvc-mixer-control.c:1837
 #, c-format
 msgid "%u Output"
 msgid_plural "%u Outputs"
@@ -1523,36 +1402,150 @@ msgstr[0] "เสียงออก %u ช่อง"
 
 #. translators:
 #. * The number of sound inputs on a particular device
-#: ../plugins/media-keys/cut-n-paste/gvc-mixer-control.c:1104
+#: ../plugins/media-keys/gvc/gvc-mixer-control.c:1847
 #, c-format
 msgid "%u Input"
 msgid_plural "%u Inputs"
 msgstr[0] "เสียงเข้า %u ช่อง"
 
-#: ../plugins/media-keys/cut-n-paste/gvc-mixer-control.c:1402
+#: ../plugins/media-keys/gvc/gvc-mixer-control.c:2371
 msgid "System Sounds"
 msgstr "เสียงของระบบ"
 
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:1
+#. Priority=100
+#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:2
 msgid "Media keys"
 msgstr "ปุ่มสั่งการสื่อ"
 
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:2
+#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:3
 msgid "Media keys plugin"
 msgstr "ปลั๊กอินจัดการปุ่มสั่งการสื่อ"
 
-#: ../plugins/mouse/gsd-mouse-manager.c:916
-msgid "Could not enable mouse accessibility features"
-msgstr "ไม่สามารถเปิดใช้สิ่งอำนวยความสะดวกสำหรับเมาส์"
+#: ../plugins/media-keys/shortcuts-list.h:110
+msgid "Touchpad toggle"
+msgstr ""
 
-#: ../plugins/mouse/gsd-mouse-manager.c:918
-msgid ""
-"Mouse accessibility requires Mousetweaks to be installed on your system."
-msgstr "การใช้สิ่งอำนวยความสะดวกสำหรับเมาส์ ต้องติดตั้ง Mousetweaks ในระบบด้วย"
+#: ../plugins/media-keys/shortcuts-list.h:111
+#, fuzzy
+msgid "Touchpad On"
+msgstr "สลับการใช้ทัชแพด"
+
+#: ../plugins/media-keys/shortcuts-list.h:112
+#, fuzzy
+msgid "Touchpad Off"
+msgstr "ปิด"
+
+#: ../plugins/media-keys/shortcuts-list.h:116
+#: ../plugins/media-keys/shortcuts-list.h:117
+msgid "Microphone Mute"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:118
+#, fuzzy
+msgid "Quiet Volume Mute"
+msgstr "ปิดเสียง"
+
+#: ../plugins/media-keys/shortcuts-list.h:119
+#, fuzzy
+msgid "Quiet Volume Down"
+msgstr "หรี่เสียง"
+
+#: ../plugins/media-keys/shortcuts-list.h:120
+#, fuzzy
+msgid "Quiet Volume Up"
+msgstr "เร่งเสียง"
+
+#: ../plugins/media-keys/shortcuts-list.h:129
+#, fuzzy
+msgid "Lock Screen"
+msgstr "ล็อคหน้าจอ"
+
+#: ../plugins/media-keys/shortcuts-list.h:144
+msgid "Rewind"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:145
+msgid "Forward"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:146
+msgid "Repeat"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:147
+msgid "Random Play"
+msgstr ""
+
+#. Key code of the XF86Display key (Fn-F7 on Thinkpads, Fn-F4 on HP machines, etc.)
+#: ../plugins/media-keys/shortcuts-list.h:148
+#: ../plugins/media-keys/shortcuts-list.h:150
+msgid "Video Out"
+msgstr ""
+
+#. Key code of the XF86RotateWindows key (present on some tablets)
+#: ../plugins/media-keys/shortcuts-list.h:152
+#, fuzzy
+msgid "Rotate Screen"
+msgstr "เปิดโปรแกรมรักษาหน้าจอ"
+
+#: ../plugins/media-keys/shortcuts-list.h:153
+msgid "Orientation Lock"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:162
+#: ../plugins/media-keys/shortcuts-list.h:168
+#, fuzzy
+msgid "Power Off"
+msgstr "พลังงาน"
+
+#. the kernel / Xorg names really are like this...
+#. translators: "Sleep" means putting the machine to sleep, either through hibernate or suspend
+#: ../plugins/media-keys/shortcuts-list.h:165
+#: ../plugins/media-keys/shortcuts-list.h:171
+msgid "Sleep"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:166
+#: ../plugins/media-keys/shortcuts-list.h:172
+msgid "Suspend"
+msgstr "พักเครื่อง"
+
+#: ../plugins/media-keys/shortcuts-list.h:167
+#: ../plugins/media-keys/shortcuts-list.h:173
+msgid "Hibernate"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:174
+msgid "Brightness Up"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:175
+msgid "Brightness Down"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:176
+#, fuzzy
+msgid "Keyboard Brightness Up"
+msgstr "แป้นพิมพ์ไม่มีประจุเหลืออยู่"
+
+#: ../plugins/media-keys/shortcuts-list.h:177
+#, fuzzy
+msgid "Keyboard Brightness Down"
+msgstr "แป้นพิมพ์เหลือไฟต่ำ"
+
+#: ../plugins/media-keys/shortcuts-list.h:178
+#, fuzzy
+msgid "Keyboard Brightness Toggle"
+msgstr "แป้นพิมพ์ประจุไฟเต็มแล้ว"
+
+#: ../plugins/media-keys/shortcuts-list.h:179
+#, fuzzy
+msgid "Battery Status"
+msgstr "แบตเตอรี่เหลือไฟต่ำ"
 
 #. TRANSLATORS: wireless mice with internal batteries
 #: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
-#: ../plugins/power/gpm-common.c:581
+#: ../plugins/power/gpm-common.c:608
 msgid "Mouse"
 msgid_plural "Mice"
 msgstr[0] "เมาส์"
@@ -1561,17 +1554,28 @@ msgstr[0] "เมาส์"
 msgid "Mouse plugin"
 msgstr "ปลั๊กอินจัดการเมาส์"
 
-#: ../plugins/power/gpm-common.c:47
+#. Priority=100
+#: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:2
+#, fuzzy
+msgid "Orientation"
+msgstr "การหมุนหน้าจอ"
+
+#: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:3
+#, fuzzy
+msgid "Orientation plugin"
+msgstr "ปลั๊กอินแจ้งเหตุเครื่องพิมพ์"
+
+#: ../plugins/power/gpm-common.c:74
 msgid "Unknown time"
 msgstr "ไม่ทราบเวลา"
 
-#: ../plugins/power/gpm-common.c:52
+#: ../plugins/power/gpm-common.c:79
 #, c-format
 msgid "%i minute"
 msgid_plural "%i minutes"
 msgstr[0] "%i นาที"
 
-#: ../plugins/power/gpm-common.c:62
+#: ../plugins/power/gpm-common.c:89
 #, c-format
 msgid "%i hour"
 msgid_plural "%i hours"
@@ -1579,24 +1583,24 @@ msgstr[0] "%i ชั่วโมง"
 
 #. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
 #. * Swap order with "%2$s %2$i %1$s %1$i if needed
-#: ../plugins/power/gpm-common.c:68
+#: ../plugins/power/gpm-common.c:95
 #, c-format
 msgid "%i %s %i %s"
 msgstr "%i %s %i %s"
 
-#: ../plugins/power/gpm-common.c:69
+#: ../plugins/power/gpm-common.c:96
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "ชั่วโมง"
 
-#: ../plugins/power/gpm-common.c:70
+#: ../plugins/power/gpm-common.c:97
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "นาที"
 
 #. TRANSLATORS: The laptop battery is charged, and we know a time.
 #. * The parameter is the time, e.g. 7 hours 6 minutes
-#: ../plugins/power/gpm-common.c:317
+#: ../plugins/power/gpm-common.c:344
 #, c-format
 msgid "provides %s laptop runtime"
 msgstr "จายไฟแล็ปท็อปได้ %s"
@@ -1604,7 +1608,7 @@ msgstr "จายไฟแล็ปท็อปได้ %s"
 #. TRANSLATORS: the device is discharging, and we have a time remaining
 #. * The first parameter is the device type, e.g. "Laptop battery" and
 #. * the second is the time, e.g. 7 hours 6 minutes
-#: ../plugins/power/gpm-common.c:328
+#: ../plugins/power/gpm-common.c:355
 #, c-format
 msgid "%s %s remaining"
 msgstr "%s อีก %sจะหมด"
@@ -1615,20 +1619,20 @@ msgstr "%s อีก %sจะหมด"
 #. TRANSLATORS: device is charging, and we have a time to full and a percentage.
 #. * The first parameter is the device type, e.g. "Laptop battery" and
 #. * the second is the time, e.g. "7 hours 6 minutes"
-#: ../plugins/power/gpm-common.c:349 ../plugins/power/gpm-common.c:366
+#: ../plugins/power/gpm-common.c:376 ../plugins/power/gpm-common.c:393
 #, c-format
 msgid "%s %s until charged"
 msgstr "%s อีก %sจะเต็ม"
 
 #. TRANSLATORS: the device is charging, and we have a time to full and empty.
 #. * The parameter is a time string, e.g. "7 hours 6 minutes"
-#: ../plugins/power/gpm-common.c:356
+#: ../plugins/power/gpm-common.c:383
 #, c-format
 msgid "provides %s battery runtime"
 msgstr "จ่ายไฟได้ %s"
 
 #. TRANSLATORS: the type of data, e.g. Laptop battery
-#: ../plugins/power/gpm-common.c:447
+#: ../plugins/power/gpm-common.c:474
 msgid "Product:"
 msgstr "ผลิตภัณฑ์:"
 
@@ -1636,613 +1640,621 @@ msgstr "ผลิตภัณฑ์:"
 #. TRANSLATORS: device is charged
 #. TRANSLATORS: device is charging
 #. TRANSLATORS: device is discharging
-#: ../plugins/power/gpm-common.c:451 ../plugins/power/gpm-common.c:454
-#: ../plugins/power/gpm-common.c:457 ../plugins/power/gpm-common.c:460
+#: ../plugins/power/gpm-common.c:478 ../plugins/power/gpm-common.c:481
+#: ../plugins/power/gpm-common.c:484 ../plugins/power/gpm-common.c:487
 msgid "Status:"
 msgstr "สถานะ:"
 
-#: ../plugins/power/gpm-common.c:451
+#: ../plugins/power/gpm-common.c:478
 msgid "Missing"
 msgstr "ไม่อยู่"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:454 ../plugins/power/gpm-common.c:723
+#: ../plugins/power/gpm-common.c:481 ../plugins/power/gpm-common.c:750
 msgid "Charged"
 msgstr "ประจุไฟเต็มแล้ว"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:457 ../plugins/power/gpm-common.c:711
+#: ../plugins/power/gpm-common.c:484 ../plugins/power/gpm-common.c:738
 msgid "Charging"
 msgstr "กำลังประจุไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:460 ../plugins/power/gpm-common.c:715
+#: ../plugins/power/gpm-common.c:487 ../plugins/power/gpm-common.c:742
 msgid "Discharging"
 msgstr "กำลังจ่ายไฟ"
 
 #. TRANSLATORS: percentage
-#: ../plugins/power/gpm-common.c:465
+#: ../plugins/power/gpm-common.c:492
 msgid "Percentage charge:"
 msgstr "เปอร์เซ็นต์ประจุ:"
 
 #. TRANSLATORS: manufacturer
-#: ../plugins/power/gpm-common.c:469
+#: ../plugins/power/gpm-common.c:496
 msgid "Vendor:"
 msgstr "ผู้ผลิต:"
 
 #. TRANSLATORS: how the battery is made, e.g. Lithium Ion
-#: ../plugins/power/gpm-common.c:474
+#: ../plugins/power/gpm-common.c:501
 msgid "Technology:"
 msgstr "เทคโนโลยี:"
 
 #. TRANSLATORS: serial number of the battery
-#: ../plugins/power/gpm-common.c:478
+#: ../plugins/power/gpm-common.c:505
 msgid "Serial number:"
 msgstr "หมายเลขลำดับ:"
 
 #. TRANSLATORS: model number of the battery
-#: ../plugins/power/gpm-common.c:482
+#: ../plugins/power/gpm-common.c:509
 msgid "Model:"
 msgstr "รุ่น:"
 
 #. TRANSLATORS: time to fully charged
-#: ../plugins/power/gpm-common.c:487
+#: ../plugins/power/gpm-common.c:514
 msgid "Charge time:"
 msgstr "เวลาประจุไฟ:"
 
 #. TRANSLATORS: time to empty
-#: ../plugins/power/gpm-common.c:493
+#: ../plugins/power/gpm-common.c:520
 msgid "Discharge time:"
 msgstr "เวลาจ่ายไฟ:"
 
 #. TRANSLATORS: Excellent, Good, Fair and Poor are all related to battery Capacity
-#: ../plugins/power/gpm-common.c:500
+#: ../plugins/power/gpm-common.c:527
 msgid "Excellent"
 msgstr "ดีเยี่ยม"
 
-#: ../plugins/power/gpm-common.c:502
+#: ../plugins/power/gpm-common.c:529
 msgid "Good"
 msgstr "ดี"
 
-#: ../plugins/power/gpm-common.c:504
+#: ../plugins/power/gpm-common.c:531
 msgid "Fair"
 msgstr "พอใช้"
 
-#: ../plugins/power/gpm-common.c:506
+#: ../plugins/power/gpm-common.c:533
 msgid "Poor"
 msgstr "แย่"
 
-#: ../plugins/power/gpm-common.c:510
+#: ../plugins/power/gpm-common.c:537
 msgid "Capacity:"
 msgstr "ความจุ:"
 
-#: ../plugins/power/gpm-common.c:516 ../plugins/power/gpm-common.c:541
+#: ../plugins/power/gpm-common.c:543 ../plugins/power/gpm-common.c:568
 msgid "Current charge:"
 msgstr "ประจุปัจจุบัน:"
 
-#: ../plugins/power/gpm-common.c:522
+#: ../plugins/power/gpm-common.c:549
 msgid "Last full charge:"
 msgstr "ประจุเต็มล่าสุด:"
 
-#: ../plugins/power/gpm-common.c:528 ../plugins/power/gpm-common.c:546
+#: ../plugins/power/gpm-common.c:555 ../plugins/power/gpm-common.c:573
 msgid "Design charge:"
 msgstr "ประจุที่ออกแบบไว้:"
 
-#: ../plugins/power/gpm-common.c:533
+#: ../plugins/power/gpm-common.c:560
 msgid "Charge rate:"
 msgstr "อัตราประจุ:"
 
 #. TRANSLATORS: system power cord
-#: ../plugins/power/gpm-common.c:565
+#: ../plugins/power/gpm-common.c:592
 msgid "AC adapter"
 msgid_plural "AC adapters"
 msgstr[0] "ที่แปลงไฟ AC"
 
 #. TRANSLATORS: laptop primary battery
-#: ../plugins/power/gpm-common.c:569
+#: ../plugins/power/gpm-common.c:596
 msgid "Laptop battery"
 msgid_plural "Laptop batteries"
 msgstr[0] "แบตเตอรี่แล็ปท็อป"
 
 #. TRANSLATORS: battery-backed AC power source
-#: ../plugins/power/gpm-common.c:573
+#: ../plugins/power/gpm-common.c:600
 msgid "UPS"
 msgid_plural "UPSs"
 msgstr[0] "UPS"
 
 #. TRANSLATORS: a monitor is a device to measure voltage and current
-#: ../plugins/power/gpm-common.c:577
+#: ../plugins/power/gpm-common.c:604
 msgid "Monitor"
 msgid_plural "Monitors"
 msgstr[0] "จอภาพ"
 
 #. TRANSLATORS: portable device
-#: ../plugins/power/gpm-common.c:589
+#: ../plugins/power/gpm-common.c:616
 msgid "PDA"
 msgid_plural "PDAs"
 msgstr[0] "PDA"
 
 #. TRANSLATORS: cell phone (mobile...)
-#: ../plugins/power/gpm-common.c:593
+#: ../plugins/power/gpm-common.c:620
 msgid "Cell phone"
 msgid_plural "Cell phones"
 msgstr[0] "โทรศัพท์มือถือ"
 
 #. TRANSLATORS: media player, mp3 etc
-#: ../plugins/power/gpm-common.c:598
+#: ../plugins/power/gpm-common.c:625
 msgid "Media player"
 msgid_plural "Media players"
 msgstr[0] "เครื่องเล่นสื่อ"
 
 #. TRANSLATORS: tablet device
-#: ../plugins/power/gpm-common.c:602
+#: ../plugins/power/gpm-common.c:629
 msgid "Tablet"
 msgid_plural "Tablets"
 msgstr[0] "แท็บเล็ต"
 
 #. TRANSLATORS: tablet device
-#: ../plugins/power/gpm-common.c:606
+#: ../plugins/power/gpm-common.c:633
 msgid "Computer"
 msgid_plural "Computers"
 msgstr[0] "คอมพิวเตอร์"
 
 #. TRANSLATORS: battery technology
-#: ../plugins/power/gpm-common.c:670
+#: ../plugins/power/gpm-common.c:697
 msgid "Lithium Ion"
 msgstr "ลิเทียมไอออน"
 
 #. TRANSLATORS: battery technology
-#: ../plugins/power/gpm-common.c:674
+#: ../plugins/power/gpm-common.c:701
 msgid "Lithium Polymer"
 msgstr "ลิเทียมพอลิเมอร์"
 
 #. TRANSLATORS: battery technology
-#: ../plugins/power/gpm-common.c:678
+#: ../plugins/power/gpm-common.c:705
 msgid "Lithium Iron Phosphate"
 msgstr "ลิเทียมไอรอนฟอสเฟต"
 
 #. TRANSLATORS: battery technology
-#: ../plugins/power/gpm-common.c:682
+#: ../plugins/power/gpm-common.c:709
 msgid "Lead acid"
 msgstr "กรดตะกั่ว"
 
 #. TRANSLATORS: battery technology
-#: ../plugins/power/gpm-common.c:686
+#: ../plugins/power/gpm-common.c:713
 msgid "Nickel Cadmium"
 msgstr "นิกเกิลแคดเมียม"
 
 #. TRANSLATORS: battery technology
-#: ../plugins/power/gpm-common.c:690
+#: ../plugins/power/gpm-common.c:717
 msgid "Nickel metal hydride"
 msgstr "นิกเกิลเมทัลไฮไดรด์"
 
 #. TRANSLATORS: battery technology
-#: ../plugins/power/gpm-common.c:694
+#: ../plugins/power/gpm-common.c:721
 msgid "Unknown technology"
 msgstr "ไม่ทราบเทคโนโลยี"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:719
+#: ../plugins/power/gpm-common.c:746
 msgid "Empty"
 msgstr "ไม่มีประจุเหลืออยู่"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:727
+#: ../plugins/power/gpm-common.c:754
 msgid "Waiting to charge"
 msgstr "กำลังรอประจุไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:731
+#: ../plugins/power/gpm-common.c:758
 msgid "Waiting to discharge"
 msgstr "กำลังรอจ่ายไฟ"
 
 #. TRANSLATORS: device not present
-#: ../plugins/power/gpm-common.c:759
+#: ../plugins/power/gpm-common.c:786
 msgid "Laptop battery not present"
 msgstr "ไม่มีแบตเตอรี่แล็ปท็อป"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:763
+#: ../plugins/power/gpm-common.c:790
 msgid "Laptop battery is charging"
 msgstr "แบตเตอรี่แล็ปท็อปกำลังประจุไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:767
+#: ../plugins/power/gpm-common.c:794
 msgid "Laptop battery is discharging"
 msgstr "แบตเตอรี่แล็ปท็อปกำลังจ่ายไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:771
+#: ../plugins/power/gpm-common.c:798
 msgid "Laptop battery is empty"
 msgstr "แบตเตอรี่แล็ปท็อปไม่มีประจุเหลืออยู่"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:775
+#: ../plugins/power/gpm-common.c:802
 msgid "Laptop battery is charged"
 msgstr "แบตเตอรี่แล็ปท็อปประจุไฟเต็มแล้ว"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:779
+#: ../plugins/power/gpm-common.c:806
 msgid "Laptop battery is waiting to charge"
 msgstr "แบตเตอรี่แล็ปท็อปกำลังรอประจุไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:783
+#: ../plugins/power/gpm-common.c:810
 msgid "Laptop battery is waiting to discharge"
 msgstr "แบตเตอรี่แล็ปท็อปกำลังรอจ่ายไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:792
+#: ../plugins/power/gpm-common.c:819
 msgid "UPS is charging"
 msgstr "UPS กำลังประจุไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:796
+#: ../plugins/power/gpm-common.c:823
 msgid "UPS is discharging"
 msgstr "UPS กำลังจ่ายไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:800
+#: ../plugins/power/gpm-common.c:827
 msgid "UPS is empty"
 msgstr "UPS ไม่มีประจุเหลืออยู่"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:804
+#: ../plugins/power/gpm-common.c:831
 msgid "UPS is charged"
 msgstr "UPS ประจุไฟเต็มแล้ว"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:813
+#: ../plugins/power/gpm-common.c:840
 msgid "Mouse is charging"
 msgstr "เมาส์กำลังประจุไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:817
+#: ../plugins/power/gpm-common.c:844
 msgid "Mouse is discharging"
 msgstr "เมาส์กำลังจ่ายไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:821
+#: ../plugins/power/gpm-common.c:848
 msgid "Mouse is empty"
 msgstr "เมาส์ไม่มีประจุเหลืออยู่"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:825
+#: ../plugins/power/gpm-common.c:852
 msgid "Mouse is charged"
 msgstr "เมาส์ประจุไฟเต็มแล้ว"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:834
+#: ../plugins/power/gpm-common.c:861
 msgid "Keyboard is charging"
 msgstr "แป้นพิมพ์กำลังประจุไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:838
+#: ../plugins/power/gpm-common.c:865
 msgid "Keyboard is discharging"
 msgstr "แป้นพิมพ์กำลังจ่ายไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:842
+#: ../plugins/power/gpm-common.c:869
 msgid "Keyboard is empty"
 msgstr "แป้นพิมพ์ไม่มีประจุเหลืออยู่"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:846
+#: ../plugins/power/gpm-common.c:873
 msgid "Keyboard is charged"
 msgstr "แป้นพิมพ์ประจุไฟเต็มแล้ว"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:855
+#: ../plugins/power/gpm-common.c:882
 msgid "PDA is charging"
 msgstr "PDA กำลังประจุไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:859
+#: ../plugins/power/gpm-common.c:886
 msgid "PDA is discharging"
 msgstr "PDA กำลังจ่ายไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:863
+#: ../plugins/power/gpm-common.c:890
 msgid "PDA is empty"
 msgstr "PDA ไม่มีประจุเหลืออยู่"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:867
+#: ../plugins/power/gpm-common.c:894
 msgid "PDA is charged"
 msgstr "PDA ประจุไฟเต็มแล้ว"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:876
+#: ../plugins/power/gpm-common.c:903
 msgid "Cell phone is charging"
 msgstr "โทรศัพท์มือถือกำลังประจุไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:880
+#: ../plugins/power/gpm-common.c:907
 msgid "Cell phone is discharging"
 msgstr "โทรศัพท์มือถือกำลังจ่ายไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:884
+#: ../plugins/power/gpm-common.c:911
 msgid "Cell phone is empty"
 msgstr "โทรศัพท์มือถือไม่มีประจุเหลืออยู่"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:888
+#: ../plugins/power/gpm-common.c:915
 msgid "Cell phone is charged"
 msgstr "โทรศัพท์มือถือประจุไฟเต็มแล้ว"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:898
+#: ../plugins/power/gpm-common.c:925
 msgid "Media player is charging"
 msgstr "เครื่องเล่นสื่อกำลังประจุไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:902
+#: ../plugins/power/gpm-common.c:929
 msgid "Media player is discharging"
 msgstr "เครื่องเล่นสื่อกำลังจ่ายไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:906
+#: ../plugins/power/gpm-common.c:933
 msgid "Media player is empty"
 msgstr "เครื่องเล่นสื่อไม่มีประจุเหลืออยู่"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:910
+#: ../plugins/power/gpm-common.c:937
 msgid "Media player is charged"
 msgstr "เครื่องเล่นสื่อประจุไฟเต็มแล้ว"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:919
+#: ../plugins/power/gpm-common.c:946
 msgid "Tablet is charging"
 msgstr "แท็บเล็ตกำลังประจุไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:923
+#: ../plugins/power/gpm-common.c:950
 msgid "Tablet is discharging"
 msgstr "แท็บเล็ตกำลังจ่ายไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:927
+#: ../plugins/power/gpm-common.c:954
 msgid "Tablet is empty"
 msgstr "แท็บเล็ตไม่มีประจุเหลืออยู่"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:931
+#: ../plugins/power/gpm-common.c:958
 msgid "Tablet is charged"
 msgstr "แท็บเล็ตประจุไฟเต็มแล้ว"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:940
+#: ../plugins/power/gpm-common.c:967
 msgid "Computer is charging"
 msgstr "คอมพิวเตอร์กำลังประจุไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:944
+#: ../plugins/power/gpm-common.c:971
 msgid "Computer is discharging"
 msgstr "คอมพิวเตอร์กำลังจ่ายไฟ"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:948
+#: ../plugins/power/gpm-common.c:975
 msgid "Computer is empty"
 msgstr "คอมพิวเตอร์ไม่มีประจุเหลืออยู่"
 
 #. TRANSLATORS: battery state
-#: ../plugins/power/gpm-common.c:952
+#: ../plugins/power/gpm-common.c:979
 msgid "Computer is charged"
 msgstr "คอมพิวเตอร์ประจุไฟเต็มแล้ว"
 
+#. TRANSLATORS: this is the sound description
+#: ../plugins/power/gpm-common.c:1740
+#: ../plugins/power/gsd-power-manager.c:1560
+#: ../plugins/power/gsd-power-manager.c:1690
+msgid "Battery is critically low"
+msgstr "แบตเตอรี่เหลือพลังงานต่ำถึงขั้นวิกฤติ"
+
 #. TRANSLATORS: the battery may be recalled by its vendor
-#: ../plugins/power/gsd-power-manager.c:997
+#: ../plugins/power/gsd-power-manager.c:842
 msgid "Battery may be recalled"
 msgstr "แบตเตอรี่อาจถูกเรียกคืน"
 
-#: ../plugins/power/gsd-power-manager.c:1000
+#: ../plugins/power/gsd-power-manager.c:845
 #, c-format
 msgid ""
 "A battery in your computer may have been recalled by %s and you may be at "
 "risk."
 msgstr "แบตเตอรี่ในคอมพิวเตอร์ของคุณอาจถูกเรียกคืนโดย %s และคุณอาจกำลังอยู่ในภาวะเสี่ยงภัย"
 
-#: ../plugins/power/gsd-power-manager.c:1003
+#: ../plugins/power/gsd-power-manager.c:848
 msgid "For more information visit the battery recall website."
 msgstr "ดูข้อมูลเพิ่มเติมได้จากเว็บไซต์เรียกคืนสินค้า"
 
 #. TRANSLATORS: button text, visit the manufacturers recall website
-#: ../plugins/power/gsd-power-manager.c:1014
+#: ../plugins/power/gsd-power-manager.c:859
 msgid "Visit recall website"
 msgstr "ดูเว็บไซต์เรียกคืนสินค้า"
 
 #. TRANSLATORS: button text, do not show this bubble again
-#: ../plugins/power/gsd-power-manager.c:1018
+#: ../plugins/power/gsd-power-manager.c:863
 msgid "Do not show me this again"
 msgstr "ไม่ต้องแสดงคำเตือนนี้อีก"
 
 #. TRANSLATORS: UPS is now discharging
-#: ../plugins/power/gsd-power-manager.c:1251
+#: ../plugins/power/gsd-power-manager.c:1114
 msgid "UPS Discharging"
 msgstr "UPS กำลังจ่ายไฟ"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:1256
+#: ../plugins/power/gsd-power-manager.c:1119
 #, c-format
 msgid "%s of UPS backup power remaining"
 msgstr "UPS มีพลังงานสำรองเหลือ %s"
 
 #. TRANSLATORS: this is the notification application name
-#: ../plugins/power/gsd-power-manager.c:1277
-#: ../plugins/power/gsd-power-manager.c:1459
-#: ../plugins/power/gsd-power-manager.c:1641
-#: ../plugins/power/gsd-power-manager.c:1788
+#: ../plugins/power/gsd-power-manager.c:1140
+#: ../plugins/power/gsd-power-manager.c:1370
+#: ../plugins/power/gsd-power-manager.c:1543
+#: ../plugins/power/gsd-power-manager.c:1681
+#: ../plugins/power/gsd-power-manager.c:2929
 #: ../plugins/power/power.gnome-settings-plugin.in.h:1
 msgid "Power"
 msgstr "พลังงาน"
 
 #. TRANSLATORS: laptop battery low, and we only have one battery
-#: ../plugins/power/gsd-power-manager.c:1369
+#: ../plugins/power/gsd-power-manager.c:1280
 msgid "Battery low"
 msgstr "แบตเตอรี่เหลือไฟต่ำ"
 
 #. TRANSLATORS: laptop battery low, and we have more than one kind of battery
-#: ../plugins/power/gsd-power-manager.c:1372
+#: ../plugins/power/gsd-power-manager.c:1283
 msgid "Laptop battery low"
 msgstr "แบตเตอรี่แล็ปท็อปเหลือไฟต่ำ"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:1379
+#: ../plugins/power/gsd-power-manager.c:1290
 #, c-format
 msgid "Approximately %s remaining (%.0f%%)"
 msgstr "อีกประมาณ %s จะหมด (%.0f%%)"
 
 #. TRANSLATORS: UPS is starting to get a little low
-#: ../plugins/power/gsd-power-manager.c:1384
+#: ../plugins/power/gsd-power-manager.c:1297
 msgid "UPS low"
 msgstr "UPS เหลือไฟต่ำ"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:1390
+#: ../plugins/power/gsd-power-manager.c:1303
 #, c-format
 msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
 msgstr "UPS มีพลังงานสำรองเหลืออยู่ประมาณ %s (%.0f%%)"
 
 #. TRANSLATORS: mouse is getting a little low
 #. TRANSLATORS: the mouse battery is very low
-#: ../plugins/power/gsd-power-manager.c:1395
-#: ../plugins/power/gsd-power-manager.c:1562
+#: ../plugins/power/gsd-power-manager.c:1308
+#: ../plugins/power/gsd-power-manager.c:1467
 msgid "Mouse battery low"
 msgstr "เมาส์เหลือไฟต่ำ"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1398
+#: ../plugins/power/gsd-power-manager.c:1311
 #, c-format
 msgid "Wireless mouse is low in power (%.0f%%)"
 msgstr "เมาส์ไร้สายเหลือพลังงานต่ำ (%.0f%%)"
 
 #. TRANSLATORS: keyboard is getting a little low
 #. TRANSLATORS: the keyboard battery is very low
-#: ../plugins/power/gsd-power-manager.c:1402
-#: ../plugins/power/gsd-power-manager.c:1570
+#: ../plugins/power/gsd-power-manager.c:1315
+#: ../plugins/power/gsd-power-manager.c:1475
 msgid "Keyboard battery low"
 msgstr "แป้นพิมพ์เหลือไฟต่ำ"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1405
+#: ../plugins/power/gsd-power-manager.c:1318
 #, c-format
 msgid "Wireless keyboard is low in power (%.0f%%)"
 msgstr "แป้นพิมพ์ไร้สายเหลือพลังงานต่ำ (%.0f%%)"
 
 #. TRANSLATORS: PDA is getting a little low
 #. TRANSLATORS: the PDA battery is very low
-#: ../plugins/power/gsd-power-manager.c:1409
-#: ../plugins/power/gsd-power-manager.c:1579
+#: ../plugins/power/gsd-power-manager.c:1322
+#: ../plugins/power/gsd-power-manager.c:1484
 msgid "PDA battery low"
 msgstr "แบตเตอรี่ PDA เหลือไฟต่ำ"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1412
+#: ../plugins/power/gsd-power-manager.c:1325
 #, c-format
 msgid "PDA is low in power (%.0f%%)"
 msgstr "แบตเตอรี่ PDA เหลือพลังงานต่ำ (%.0f%%)"
 
 #. TRANSLATORS: cell phone (mobile) is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:1416
-#: ../plugins/power/gsd-power-manager.c:1589
-#: ../plugins/power/gsd-power-manager.c:1600
+#: ../plugins/power/gsd-power-manager.c:1329
+#: ../plugins/power/gsd-power-manager.c:1494
+#: ../plugins/power/gsd-power-manager.c:1503
 msgid "Cell phone battery low"
 msgstr "โทรศัพท์มือถือเหลือไฟต่ำ"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1419
+#: ../plugins/power/gsd-power-manager.c:1332
 #, c-format
 msgid "Cell phone is low in power (%.0f%%)"
 msgstr "โทรศัพท์มือถือเหลือพลังงานต่ำ (%.0f%%)"
 
 #. TRANSLATORS: media player, e.g. mp3 is getting a little low
-#: ../plugins/power/gsd-power-manager.c:1424
+#: ../plugins/power/gsd-power-manager.c:1336
 msgid "Media player battery low"
 msgstr "เครื่องเล่นสื่อเหลือไฟต่ำ"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1427
+#: ../plugins/power/gsd-power-manager.c:1339
 #, c-format
 msgid "Media player is low in power (%.0f%%)"
 msgstr "เครื่องเล่นสื่อเหลือพลังงานต่ำ (%.0f%%)"
 
 #. TRANSLATORS: graphics tablet, e.g. wacom is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:1431
-#: ../plugins/power/gsd-power-manager.c:1609
+#: ../plugins/power/gsd-power-manager.c:1343
+#: ../plugins/power/gsd-power-manager.c:1512
 msgid "Tablet battery low"
 msgstr "แท็บเล็ตเหลือไฟต่ำ"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1434
+#: ../plugins/power/gsd-power-manager.c:1346
 #, c-format
 msgid "Tablet is low in power (%.0f%%)"
 msgstr "แท็บเล็ตเหลือพลังงานต่ำ (%.0f%%)"
 
 #. TRANSLATORS: computer, e.g. ipad is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:1438
-#: ../plugins/power/gsd-power-manager.c:1618
+#: ../plugins/power/gsd-power-manager.c:1350
+#: ../plugins/power/gsd-power-manager.c:1521
 msgid "Attached computer battery low"
 msgstr "คอมพิวเตอร์ที่เชื่อมต่ออยู่เหลือไฟต่ำ"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1441
+#: ../plugins/power/gsd-power-manager.c:1353
 #, c-format
 msgid "Attached computer is low in power (%.0f%%)"
 msgstr "คอมพิวเตอร์ที่เชื่อมต่ออยู่เหลือพลังงานต่ำ (%.0f%%)"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1476
+#: ../plugins/power/gsd-power-manager.c:1380
 msgid "Battery is low"
 msgstr "แบตเตอรี่เหลือไฟต่ำ"
 
 #. TRANSLATORS: laptop battery critically low, and only have one kind of battery
-#: ../plugins/power/gsd-power-manager.c:1518
+#: ../plugins/power/gsd-power-manager.c:1421
 msgid "Battery critically low"
 msgstr "แบตเตอรี่เหลือพลังงานต่ำถึงขั้นวิกฤติ"
 
 #. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
 #. TRANSLATORS: laptop battery is really, really, low
-#: ../plugins/power/gsd-power-manager.c:1521
-#: ../plugins/power/gsd-power-manager.c:1706
+#: ../plugins/power/gsd-power-manager.c:1424
+#: ../plugins/power/gsd-power-manager.c:1595
 msgid "Laptop battery critically low"
 msgstr "แบตเตอรี่แล็ปท็อปเหลือพลังงานต่ำถึงขั้นวิกฤติ"
 
 #. TRANSLATORS: tell the use to insert the plug, as we're not going to do anything
-#: ../plugins/power/gsd-power-manager.c:1530
+#: ../plugins/power/gsd-power-manager.c:1433
 msgid "Plug in your AC adapter to avoid losing data."
 msgstr "กรุณาต่อที่แปลงไฟ AC เพื่อป้องกันการสูญเสียข้อมูล"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:1534
+#: ../plugins/power/gsd-power-manager.c:1437
 #, c-format
 msgid "Computer will suspend very soon unless it is plugged in."
 msgstr "คอมพิวเตอร์จะพักเครื่องเร็วๆ นี้ ถ้าไม่เสียบปลั๊ก"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:1538
+#: ../plugins/power/gsd-power-manager.c:1441
 #, c-format
 msgid "Computer will hibernate very soon unless it is plugged in."
 msgstr "คอมพิวเตอร์จะจำศีลเร็วๆ นี้ ถ้าไม่เสียบปลั๊ก"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:1542
+#: ../plugins/power/gsd-power-manager.c:1445
 #, c-format
 msgid "Computer will shutdown very soon unless it is plugged in."
 msgstr "คอมพิวเตอร์จะปิดระบบเร็วๆ นี้ ถ้าไม่เสียบปลั๊ก"
 
 #. TRANSLATORS: the UPS is very low
 #. TRANSLATORS: UPS is really, really, low
-#: ../plugins/power/gsd-power-manager.c:1550
-#: ../plugins/power/gsd-power-manager.c:1742
+#: ../plugins/power/gsd-power-manager.c:1455
+#: ../plugins/power/gsd-power-manager.c:1633
 msgid "UPS critically low"
 msgstr "UPS เหลือพลังงานต่ำถึงขั้นวิกฤติ"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:1556
+#: ../plugins/power/gsd-power-manager.c:1461
 #, c-format
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
@@ -2252,7 +2264,7 @@ msgstr ""
 "ให้คอมพิวเตอร์ของคุณเพื่อป้องกันการสูญเสียข้อมูล"
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1565
+#: ../plugins/power/gsd-power-manager.c:1470
 #, c-format
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
@@ -2260,7 +2272,7 @@ msgid ""
 msgstr "เมาส์ไร้สายเหลือพลังงานต่ำมาก (%.0f%%) อุปกรณ์นี้จะหยุดทำงานเร็วๆ นี้ ถ้าไม่ประจุไฟ"
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1573
+#: ../plugins/power/gsd-power-manager.c:1478
 #, c-format
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
@@ -2268,7 +2280,7 @@ msgid ""
 msgstr "แป้นพิมพ์ไร้สายเหลือพลังงานต่ำมาก (%.0f%%) อุปกรณ์นี้จะหยุดทำงานเร็วๆ นี้ ถ้าไม่ประจุไฟ"
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1582
+#: ../plugins/power/gsd-power-manager.c:1487
 #, c-format
 msgid ""
 "PDA is very low in power (%.0f%%). This device will soon stop functioning if "
@@ -2276,7 +2288,7 @@ msgid ""
 msgstr "PDA เหลือพลังงานต่ำมาก (%.0f%%) อุปกรณ์นี้จะหยุดทำงานเร็วๆ นี้ ถ้าไม่ประจุไฟ"
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1592
+#: ../plugins/power/gsd-power-manager.c:1497
 #, c-format
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
@@ -2284,7 +2296,7 @@ msgid ""
 msgstr "โทรศัพท์มือถือเหลือพลังงานต่ำมาก (%.0f%%) อุปกรณ์นี้จะหยุดทำงานเร็วๆ นี้ ถ้าไม่ประจุไฟ"
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1603
+#: ../plugins/power/gsd-power-manager.c:1506
 #, c-format
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
@@ -2292,7 +2304,7 @@ msgid ""
 msgstr "เครื่องเล่นสื่อเหลือพลังงานต่ำมาก (%.0f%%) อุปกรณ์นี้จะหยุดทำงานเร็วๆ นี้ ถ้าไม่ประจุไฟ"
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1612
+#: ../plugins/power/gsd-power-manager.c:1515
 #, c-format
 msgid ""
 "Tablet is very low in power (%.0f%%). This device will soon stop functioning "
@@ -2300,7 +2312,7 @@ msgid ""
 msgstr "แท็บเล็ตเหลือพลังงานต่ำมาก (%.0f%%) อุปกรณ์นี้จะหยุดทำงานเร็วๆ นี้ ถ้าไม่ประจุไฟ"
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1621
+#: ../plugins/power/gsd-power-manager.c:1524
 #, c-format
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
@@ -2308,15 +2320,8 @@ msgid ""
 msgstr ""
 "คอมพิวเตอร์ที่เชื่อมต่ออยู่เหลือพลังงานต่ำมาก (%.0f%%) อุปกรณ์นี้จะปิดตัวเร็วๆ นี้ ถ้าไม่ประจุไฟ"
 
-#. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1659
-#: ../plugins/power/gsd-power-manager.c:1669
-#: ../plugins/power/gsd-power-manager.c:1803
-msgid "Battery is critically low"
-msgstr "แบตเตอรี่เหลือพลังงานต่ำถึงขั้นวิกฤติ"
-
 #. TRANSLATORS: computer will shutdown without saving data
-#: ../plugins/power/gsd-power-manager.c:1714
+#: ../plugins/power/gsd-power-manager.c:1603
 msgid ""
 "The battery is below the critical level and this computer will <b>power-off</"
 "b> when the battery becomes completely empty."
@@ -2325,7 +2330,7 @@ msgstr ""
 "เมื่อพลังงานแบตเตอรี่หมดเกลี้ยง"
 
 #. TRANSLATORS: computer will suspend
-#: ../plugins/power/gsd-power-manager.c:1720
+#: ../plugins/power/gsd-power-manager.c:1609
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "suspend.\n"
@@ -2336,21 +2341,21 @@ msgstr ""
 "<b>หมายเหตุ:</b> จะต้องใช้พลังงานอีกเล็กน้อยในการรักษาสถานะพักเครื่องของคอมพิวเตอร์"
 
 #. TRANSLATORS: computer will hibernate
-#: ../plugins/power/gsd-power-manager.c:1727
+#: ../plugins/power/gsd-power-manager.c:1616
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
 msgstr "แบตเตอรี่เหลือพลังงานต่ำกว่าขีดวิกฤติ และคอมพิวเตอร์นี้กำลังจะจำศีล"
 
 #. TRANSLATORS: computer will just shutdown
-#: ../plugins/power/gsd-power-manager.c:1732
+#: ../plugins/power/gsd-power-manager.c:1621
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "shutdown."
 msgstr "แบตเตอรี่เหลือพลังงานต่ำกว่าขีดวิกฤติ และคอมพิวเตอร์นี้กำลังจะปิดระบบ"
 
 #. TRANSLATORS: computer will shutdown without saving data
-#: ../plugins/power/gsd-power-manager.c:1750
+#: ../plugins/power/gsd-power-manager.c:1641
 msgid ""
 "UPS is below the critical level and this computer will <b>power-off</b> when "
 "the UPS becomes completely empty."
@@ -2358,31 +2363,48 @@ msgstr ""
 "UPS เหลือพลังงานต่ำกว่าขีดวิกฤติ และคอมพิวเตอร์นี้จะ <b>ปิด</b> เมื่อพลังงาน UPS หมดเกลี้ยง"
 
 #. TRANSLATORS: computer will hibernate
-#: ../plugins/power/gsd-power-manager.c:1756
+#: ../plugins/power/gsd-power-manager.c:1647
 msgid ""
 "UPS is below the critical level and this computer is about to hibernate."
 msgstr "UPS เหลือพลังงานต่ำกว่าขีดวิกฤติ และคอมพิวเตอร์นี้กำลังจะจำศีล"
 
 #. TRANSLATORS: computer will just shutdown
-#: ../plugins/power/gsd-power-manager.c:1761
+#: ../plugins/power/gsd-power-manager.c:1652
 msgid "UPS is below the critical level and this computer is about to shutdown."
 msgstr "UPS เหลือพลังงานต่ำกว่าขีดวิกฤติ และคอมพิวเตอร์นี้กำลังจะปิดระบบ"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:2149
+#: ../plugins/power/gsd-power-manager.c:2116
 msgid "Lid has been opened"
 msgstr "ฝาเครื่องเปิด"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:2305
+#: ../plugins/power/gsd-power-manager.c:2154
 msgid "Lid has been closed"
 msgstr "ฝาเครื่องปิด"
 
-#. TRANSLATORS: this is the title of the power manager status icon
-#. * that is only shown in fallback mode
-#: ../plugins/power/gsd-power-manager.c:3668
-msgid "Power Manager"
-msgstr "เครื่องมือจัดการพลังงาน"
+#: ../plugins/power/gsd-power-manager.c:2907
+#, fuzzy
+msgid "Automatic logout"
+msgstr "เมานท์อัตโนมัติ"
+
+#: ../plugins/power/gsd-power-manager.c:2907
+msgid "You will soon log out because of inactivity."
+msgstr ""
+
+#: ../plugins/power/gsd-power-manager.c:2912
+msgid "Automatic suspend"
+msgstr ""
+
+#: ../plugins/power/gsd-power-manager.c:2912
+#: ../plugins/power/gsd-power-manager.c:2917
+#, fuzzy
+msgid "Computer will suspend very soon because of inactivity."
+msgstr "คอมพิวเตอร์จะพักเครื่องเร็วๆ นี้ ถ้าไม่เสียบปลั๊ก"
+
+#: ../plugins/power/gsd-power-manager.c:2917
+msgid "Automatic hibernation"
+msgstr ""
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
@@ -2427,250 +2449,281 @@ msgid "No driver for this printer."
 msgstr "ไม่มีไดรเวอร์สำหรับเครื่องพิมพ์นี้"
 
 #: ../plugins/print-notifications/gsd-printer.c:1032
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:233
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:658
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:747
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:790
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:264
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:703
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:793
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:836
 msgid "Printers"
 msgstr "เครื่องพิมพ์"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:309
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:361
 msgid "Toner low"
 msgstr "ผงหมึกเหลือน้อย"
 
 #. Translators: The printer has no toner left (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:311
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:363
 msgid "Toner empty"
 msgstr "ผงหมึกหมด"
 
 #. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:313
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:365
 msgid "Not connected?"
 msgstr "ไม่ได้เชื่อมต่อหรือเปล่า?"
 
 #. Translators: One or more covers on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:315
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:367
 msgid "Cover open"
 msgstr "ฝาปิดเปิดอยู่"
 
 #. Translators: A filter or backend is not installed (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:317
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:369
 msgid "Printer configuration error"
 msgstr "เกิดข้อผิดพลาดในการตั้งค่าเครื่องพิมพ์"
 
 #. Translators: One or more doors on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:319
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:371
 msgid "Door open"
 msgstr "ประตูเครื่องพิมพ์เปิดอยู่"
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:321
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:373
 msgid "Marker supply low"
 msgstr "น้ำหมึกเหลือน้อย"
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:323
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:375
 msgid "Out of a marker supply"
 msgstr "น้ำหมึกหมด"
 
 #. Translators: At least one input tray is low on media (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:325
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:377
 msgid "Paper low"
 msgstr "กระดาษเหลือน้อย"
 
 #. Translators: At least one input tray is empty (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:327
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:379
 msgid "Out of paper"
 msgstr "กระดาษหมด"
 
 #. Translators: The printer is offline (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:329
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:381
 msgid "Printer off-line"
 msgstr "เครื่องพิมพ์ออฟไลน์"
 
 #. Translators: The printer has detected an error (same as in system-config-printer)
 #. Translators: This is a title of an error notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:331
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:733
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:383
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:779
 msgid "Printer error"
 msgstr "เครื่องพิมพ์มีปัญหา"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:335
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:387
 #, c-format
 msgid "Printer '%s' is low on toner."
 msgstr "เครื่องพิมพ์ '%s' เหลือผงหมึกน้อย"
 
 #. Translators: The printer has no toner left (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:337
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:389
 #, c-format
 msgid "Printer '%s' has no toner left."
 msgstr "เครื่องพิมพ์ '%s' ผงหมึกหมดแล้ว"
 
 #. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:339
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:391
 #, c-format
 msgid "Printer '%s' may not be connected."
 msgstr "เครื่องพิมพ์ '%s' อาจไม่ได้เชื่อมต่ออยู่"
 
 #. Translators: One or more covers on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:341
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:393
 #, c-format
 msgid "The cover is open on printer '%s'."
 msgstr "ฝาปิดเปิดอยู่ที่เครื่องพิมพ์ '%s'"
 
 #. Translators: A filter or backend is not installed (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:343
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "There is a missing print filter for printer '%s'."
 msgstr "ไม่มีตัวกรองงานพิมพ์สำหรับเครื่องพิมพ์ '%s'"
 
 #. Translators: One or more doors on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:346
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:398
 #, c-format
 msgid "The door is open on printer '%s'."
 msgstr "ประตูเปิดอยู่ที่เครื่องพิมพ์ '%s'"
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:348
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:400
 #, c-format
 msgid "Printer '%s' is low on a marker supply."
 msgstr "เครื่องพิมพ์ '%s' เหลือน้ำหมึกน้อย"
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:350
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:402
 #, c-format
 msgid "Printer '%s' is out of a marker supply."
 msgstr "เครื่องพิมพ์ '%s' น้ำหมึกหมดแล้ว"
 
 #. Translators: At least one input tray is low on media (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:352
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:404
 #, c-format
 msgid "Printer '%s' is low on paper."
 msgstr "เครื่องพิมพ์ '%s' เหลือกระดาษน้อย"
 
 #. Translators: At least one input tray is empty (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:354
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:406
 #, c-format
 msgid "Printer '%s' is out of paper."
 msgstr "เครื่องพิมพ์ '%s' กระดาษหมดแล้ว"
 
 #. Translators: The printer is offline (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:356
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:408
 #, c-format
 msgid "Printer '%s' is currently off-line."
 msgstr "เครื่องพิมพ์ '%s' ออฟไลน์อยู่"
 
 #. Translators: The printer has detected an error (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:358
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:410
 #, c-format
 msgid "There is a problem on printer '%s'."
 msgstr "เครื่องพิมพ์ '%s' มีปัญหา"
 
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:435
+#. Translators: New printer has been added
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:457
 msgid "Printer added"
 msgstr "เพิ่มเครื่องพิมพ์แล้ว"
 
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:443
+#. Translators: A printer has been removed
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:465
 msgid "Printer removed"
 msgstr "ลบเครื่องพิมพ์ออกแล้ว"
 
 #. Translators: A print job has been stopped
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:460
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:482
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:520
 msgctxt "print job state"
 msgid "Printing stopped"
 msgstr "หยุดงานพิมพ์แล้ว"
 
 #. Translators: "print-job xy" on a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:462
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:468
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:474
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:480
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:492
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:512
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:484
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:490
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:496
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:502
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:514
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:522
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:530
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:538
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:546
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:559
 #, c-format
 msgctxt "print job"
 msgid "\"%s\" on %s"
 msgstr "\"%s\" ที่ %s"
 
 #. Translators: A print job has been canceled
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:466
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:488
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:528
 msgctxt "print job state"
 msgid "Printing canceled"
 msgstr "ยกเลิกงานพิมพ์แล้ว"
 
 #. Translators: A print job has been aborted
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:472
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:494
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:536
 msgctxt "print job state"
 msgid "Printing aborted"
 msgstr "เลิกพิมพ์งานพิมพ์แล้ว"
 
 #. Translators: A print job has been completed
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:478
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:500
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:544
 msgctxt "print job state"
 msgid "Printing completed"
 msgstr "งานพิมพ์เสร็จสมบูรณ์"
 
 #. Translators: A job is printing
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:490
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:510
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:512
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:557
 msgctxt "print job state"
 msgid "Printing"
 msgstr "กำลังพิมพ์"
 
 #. Translators: This is a title of a report notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:727
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:773
 msgid "Printer report"
 msgstr "รายงานจากเครื่องพิมพ์"
 
 #. Translators: This is a title of a warning notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:730
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:776
 msgid "Printer warning"
 msgstr "คำเตือนจากเครื่องพิมพ์"
 
 #. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:740
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:786
 #, c-format
 msgid "Printer '%s': '%s'."
 msgstr "เครื่องพิมพ์ '%s': '%s'"
 
-#: ../plugins/print-notifications/print-notifications.gnome-settings-plugin.in.h:1
+#. Priority=100
+#: ../plugins/print-notifications/print-notifications.gnome-settings-plugin.in.h:2
 msgid "Print-notifications"
 msgstr "การแจ้งเหตุเครื่องพิมพ์"
 
-#: ../plugins/print-notifications/print-notifications.gnome-settings-plugin.in.h:2
+#: ../plugins/print-notifications/print-notifications.gnome-settings-plugin.in.h:3
 msgid "Print-notifications plugin"
 msgstr "ปลั๊กอินแจ้งเหตุเครื่องพิมพ์"
 
-#: ../plugins/smartcard/gsd-smartcard-manager.c:529
-msgid "received error or hang up from event source"
-msgstr "ได้รับข้อผิดพลาดหรือการตัดการเชื่อมต่อจากแหล่งเหตุการณ์"
+#: ../plugins/remote-display/remote-display.gnome-settings-plugin.in.h:1
+msgid "Remote Display"
+msgstr ""
 
-#: ../plugins/smartcard/gsd-smartcard-manager.c:663
-#, c-format
-msgid "NSS security system could not be initialized"
-msgstr "ไม่สามารถตั้งต้นระบบรักษาความปลอดภัย NSS"
+#: ../plugins/remote-display/remote-display.gnome-settings-plugin.in.h:2
+msgid "Disable animations on remote displays"
+msgstr ""
 
-#: ../plugins/smartcard/gsd-smartcard-manager.c:791
-#, c-format
-msgid "no suitable smartcard driver could be found"
-msgstr "ไม่พบไดรเวอร์สมาร์ตการ์ดที่เหมาะสม"
+#. Priority=100
+#: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:2
+msgid "Rfkill"
+msgstr ""
 
-#: ../plugins/smartcard/gsd-smartcard-manager.c:805
-#, c-format
-msgid "smartcard driver '%s' could not be loaded"
-msgstr "ไม่สามารถโหลดไดรเวอร์สมาร์ตการ์ด '%s'"
+#: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:3
+#, fuzzy
+msgid "Rfkill plugin"
+msgstr "ปลั๊กอินจัดการสี"
 
-#: ../plugins/smartcard/gsd-smartcard-manager.c:877
-#, c-format
-msgid "could not watch for incoming card events - %s"
-msgstr "ไม่สามารถเฝ้าสังเกตเหตุการณ์ขาเข้าของการ์ด - %s"
+#: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:1
+#, fuzzy
+msgid "Screensaver Proxy"
+msgstr "โปรแกรมรักษาหน้าจอ"
 
-#: ../plugins/smartcard/gsd-smartcard-manager.c:1275
-#, c-format
-msgid "encountered unexpected error while waiting for smartcard events"
-msgstr "พบข้อผิดพลาดที่ไม่คาดหมายระหว่างรอเหตุการณ์สมาร์ตการ์ด"
+#: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:2
+msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
+msgstr ""
+
+#: ../plugins/smartcard/gsd-smartcard-service.c:224
+msgid "User was not logged in with smartcard."
+msgstr ""
+
+#: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:1
+msgid "Smartcard"
+msgstr ""
+
+#: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:2
+#, fuzzy
+msgid "Smartcard plugin"
+msgstr "ปลั๊กอินจัดการพื้นหลัง"
+
+#: ../plugins/sound/sound.gnome-settings-plugin.in.h:1
+msgid "Sound"
+msgstr "เสียง"
+
+#: ../plugins/sound/sound.gnome-settings-plugin.in.h:2
+#, fuzzy
+msgid "Sound Sample Cache plugin"
+msgstr "ปลั๊กอินจัดการเสียง"
 
 #. TRANSLATORS: we need to restart so the new hardware can re-request the firmware
 #: ../plugins/updates/gsd-updates-firmware.c:250
@@ -2681,279 +2734,439 @@ msgstr "คุณต้องเปิดเครื่องคอมพิว
 
 #. TRANSLATORS: title of libnotify bubble
 #: ../plugins/updates/gsd-updates-firmware.c:253
-#: ../plugins/updates/gsd-updates-firmware.c:280
-#: ../plugins/updates/gsd-updates-firmware.c:307
+#: ../plugins/updates/gsd-updates-firmware.c:281
+#: ../plugins/updates/gsd-updates-firmware.c:309
 msgid "Additional software was installed"
 msgstr "ติดตั้งซอฟต์แวร์เพิ่มเติมแล้ว"
 
-#: ../plugins/updates/gsd-updates-firmware.c:254
-#: ../plugins/updates/gsd-updates-firmware.c:281
-#: ../plugins/updates/gsd-updates-firmware.c:308
-#: ../plugins/updates/gsd-updates-firmware.c:599
-#: ../plugins/updates/gsd-updates-manager.c:346
-#: ../plugins/updates/gsd-updates-manager.c:473
-#: ../plugins/updates/gsd-updates-manager.c:534
-#: ../plugins/updates/gsd-updates-manager.c:587
-#: ../plugins/updates/gsd-updates-manager.c:1292
+#: ../plugins/updates/gsd-updates-firmware.c:255
+#: ../plugins/updates/gsd-updates-firmware.c:283
+#: ../plugins/updates/gsd-updates-firmware.c:311
+#: ../plugins/updates/gsd-updates-firmware.c:603
+#: ../plugins/updates/gsd-updates-manager.c:387
+#: ../plugins/updates/gsd-updates-manager.c:523
+#: ../plugins/updates/gsd-updates-manager.c:604
+#: ../plugins/updates/gsd-updates-manager.c:677
+#: ../plugins/updates/gsd-updates-manager.c:1312
 msgid "Software Updates"
 msgstr "การปรับรุ่นซอฟต์แวร์"
 
 #. TRANSLATORS: we need to remove an replug so the new hardware can re-request the firmware
-#: ../plugins/updates/gsd-updates-firmware.c:277
+#: ../plugins/updates/gsd-updates-firmware.c:278
 msgid ""
 "You will need to remove and then reinsert the hardware before it will work "
 "correctly."
 msgstr "คุณต้องถอดฮาร์ดแวร์ออกแล้วใส่กลับเข้ามาใหม่เพื่อให้มันทำงานได้อย่างถูกต้อง"
 
 #. TRANSLATORS: we need to remove an replug so the new hardware can re-request the firmware
-#: ../plugins/updates/gsd-updates-firmware.c:304
+#: ../plugins/updates/gsd-updates-firmware.c:306
 msgid "Your hardware has been set up and is now ready to use."
 msgstr "ฮาร์ดแวร์ของคุณตั้งค่าเรียบร้อยและพร้อมใช้งานแล้ว"
 
 #. TRANSLATORS: we need another package to keep udev quiet
-#: ../plugins/updates/gsd-updates-firmware.c:584
+#: ../plugins/updates/gsd-updates-firmware.c:587
 msgid ""
 "Additional firmware is required to make hardware in this computer function "
 "correctly."
 msgstr "ต้องใช้เฟิร์มแวร์เพิ่มเติมเพื่อให้ฮาร์ดแวร์ในเครื่องนี้ทำงานได้อย่างถูกต้อง"
 
 #. TRANSLATORS: title of libnotify bubble
-#: ../plugins/updates/gsd-updates-firmware.c:598
+#: ../plugins/updates/gsd-updates-firmware.c:601
 msgid "Additional firmware required"
 msgstr "ต้องใช้เฟิร์มแวร์เพิ่มเติม"
 
 #. TRANSLATORS: button label
-#: ../plugins/updates/gsd-updates-firmware.c:604
+#: ../plugins/updates/gsd-updates-firmware.c:608
 msgid "Install firmware"
 msgstr "ติดตั้งเฟิร์มแวร์"
 
 #. TRANSLATORS: we should ignore this device and not ask anymore
-#: ../plugins/updates/gsd-updates-firmware.c:607
+#: ../plugins/updates/gsd-updates-firmware.c:611
 msgid "Ignore devices"
 msgstr "ไม่สนใจอุปกรณ์"
 
 #. TRANSLATORS: this is when the offline update failed
-#: ../plugins/updates/gsd-updates-manager.c:124
+#: ../plugins/updates/gsd-updates-manager.c:122
 msgid "Failed To Update"
 msgstr "ปรับรุ่นไม่สำเร็จ"
 
 #. TRANSLATORS: the transaction could not be completed
 #. * as a previous transaction was unfinished
-#: ../plugins/updates/gsd-updates-manager.c:130
+#: ../plugins/updates/gsd-updates-manager.c:128
 msgid "A previous update was unfinished."
 msgstr "การปรับรุ่นครั้งก่อนยังไม่แล้วเสร็จ"
 
 #. TRANSLATORS: the package manager needed to download
 #. * something with no network available
-#: ../plugins/updates/gsd-updates-manager.c:140
+#: ../plugins/updates/gsd-updates-manager.c:138
 msgid "Network access was required but not available."
 msgstr "ต้องเชื่อมต่อเครือข่ายแต่ไม่สามารถเชื่อมต่อได้"
 
 #. TRANSLATORS: if the package is not signed correctly
 #. *
-#: ../plugins/updates/gsd-updates-manager.c:149
+#: ../plugins/updates/gsd-updates-manager.c:147
 msgid "An update was not signed in the correct way."
 msgstr "รายการปรับรุ่นไม่ได้เซ็นกำกับอย่างถูกต้อง"
 
 #. TRANSLATORS: the transaction failed in a way the user
 #. * probably cannot comprehend. Package management systems
 #. * really are teh suck.
-#: ../plugins/updates/gsd-updates-manager.c:159
+#: ../plugins/updates/gsd-updates-manager.c:157
 msgid "The update could not be completed."
 msgstr "ไม่สามารถปรับรุ่นจนเสร็จสมบูรณ์ได้"
 
 #. TRANSLATORS: the user aborted the update manually
-#: ../plugins/updates/gsd-updates-manager.c:164
+#: ../plugins/updates/gsd-updates-manager.c:162
 msgid "The update was cancelled."
 msgstr "การปรับรุ่นถูกยกเลิก"
 
 #. TRANSLATORS: the user must have updated manually after
 #. * the updates were prepared
-#: ../plugins/updates/gsd-updates-manager.c:170
+#: ../plugins/updates/gsd-updates-manager.c:168
 msgid "An offline update was requested but no packages required updating."
 msgstr "มีการร้องขอการปรับรุ่นแบบออฟไลน์ แต่ไม่มีแพกเกจใดที่ต้องปรับรุ่น"
 
 #. TRANSLATORS: we ran out of disk space
-#: ../plugins/updates/gsd-updates-manager.c:174
+#: ../plugins/updates/gsd-updates-manager.c:172
 msgid "No space was left on the drive."
 msgstr "ไม่เหลือพื้นที่ว่างในไดรว์"
 
 #. TRANSLATORS: the update process failed in a general
 #. * way, usually this message will come from source distros
 #. * like gentoo
-#: ../plugins/updates/gsd-updates-manager.c:182
+#: ../plugins/updates/gsd-updates-manager.c:180
 msgid "An update failed to install correctly."
 msgstr "รายการปรับรุ่นไม่สามารถติดตั้งได้อย่างถูกต้อง"
 
 #. TRANSLATORS: We didn't handle the error type
-#: ../plugins/updates/gsd-updates-manager.c:187
+#: ../plugins/updates/gsd-updates-manager.c:185
 msgid "The offline update failed in an unexpected way."
 msgstr "ปรับรุ่นแบบออฟไลน์ไม่สำเร็จในแบบที่ไม่คาดหมาย"
 
 #. TRANSLATORS: these are geeky messages from the
 #. * package manager no mortal is supposed to understand,
 #. * but google might know what they mean
-#: ../plugins/updates/gsd-updates-manager.c:196
+#: ../plugins/updates/gsd-updates-manager.c:194
 msgid "Detailed errors from the package manager follow:"
 msgstr "รายละเอียดข้อผิดพลาดจากโปรแกรมจัดการแพกเกจคือ:"
 
 #. TRANSLATORS: a distro update is available, e.g. Fedora 8 to Fedora 9
-#: ../plugins/updates/gsd-updates-manager.c:342
+#: ../plugins/updates/gsd-updates-manager.c:382
 msgid "Distribution upgrades available"
 msgstr "มีรายการปรับรุ่นข้ามรุ่นจัดแจก"
 
+#. TRANSLATORS: don't install updates now
+#: ../plugins/updates/gsd-updates-manager.c:392
+#: ../plugins/updates/gsd-updates-manager.c:528
+#: ../plugins/updates/gsd-updates-manager.c:609
+msgid "Not Now"
+msgstr ""
+
 #. TRANSLATORS: provides more information about the upgrade
-#: ../plugins/updates/gsd-updates-manager.c:351
+#: ../plugins/updates/gsd-updates-manager.c:397
 msgid "More information"
 msgstr "ข้อมูลเพิ่มเติม"
 
 #. TRANSLATORS: title in the libnotify popup
-#: ../plugins/updates/gsd-updates-manager.c:456
-#: ../plugins/updates/gsd-updates-manager.c:517
+#: ../plugins/updates/gsd-updates-manager.c:505
+#: ../plugins/updates/gsd-updates-manager.c:586
 msgid "Update"
 msgid_plural "Updates"
 msgstr[0] "รายการปรับรุ่น"
 
 #. TRANSLATORS: message when there are security updates
-#: ../plugins/updates/gsd-updates-manager.c:459
+#: ../plugins/updates/gsd-updates-manager.c:508
 msgid "An important software update is available"
 msgid_plural "Important software updates are available"
 msgstr[0] "มีรายการปรับรุ่นซอฟต์แวร์ที่สำคัญ"
 
+#. TRANSLATORS: view available updates
+#: ../plugins/updates/gsd-updates-manager.c:534
+#: ../plugins/updates/gsd-updates-manager.c:615
+msgid "View"
+msgstr ""
+
+#. TRANSLATORS: install available updates
+#: ../plugins/updates/gsd-updates-manager.c:538
+#: ../plugins/updates/gsd-updates-manager.c:619
+msgid "Restart & Install"
+msgstr ""
+
 #. TRANSLATORS: button: open the update viewer to install updates
-#: ../plugins/updates/gsd-updates-manager.c:478
-#: ../plugins/updates/gsd-updates-manager.c:539
+#: ../plugins/updates/gsd-updates-manager.c:544
+#: ../plugins/updates/gsd-updates-manager.c:625
 msgid "Install updates"
 msgstr "ติดตั้งรายการปรับรุ่น"
 
 #. TRANSLATORS: message when there are non-security updates
-#: ../plugins/updates/gsd-updates-manager.c:520
+#: ../plugins/updates/gsd-updates-manager.c:589
 msgid "A software update is available."
 msgid_plural "Software updates are available."
 msgstr[0] "มีรายการปรับรุ่นซอฟต์แวร์"
 
 #. TRANSLATORS: the updates mechanism
-#: ../plugins/updates/gsd-updates-manager.c:575
+#: ../plugins/updates/gsd-updates-manager.c:664
+#: ../plugins/updates/updates.gnome-settings-plugin.in.h:1
 msgid "Updates"
 msgstr "รายการปรับรุ่น"
 
 #. TRANSLATORS: we failed to get the updates multiple times,
 #. * and now we need to inform the user that something might be wrong
-#: ../plugins/updates/gsd-updates-manager.c:579
+#: ../plugins/updates/gsd-updates-manager.c:668
 msgid "Unable to access software updates"
 msgstr "ไม่สามารถเข้าถึงรายการปรับรุ่นซอฟต์แวร์"
 
 #. TRANSLATORS: try again, this time launching the update viewer
-#: ../plugins/updates/gsd-updates-manager.c:582
+#: ../plugins/updates/gsd-updates-manager.c:671
 msgid "Try again"
 msgstr "ลองใหม่"
 
 #. TRANSLATORS: the reason why we've inhibited it
-#: ../plugins/updates/gsd-updates-manager.c:960
+#: ../plugins/updates/gsd-updates-manager.c:1045
 msgid "A transaction that cannot be interrupted is running"
 msgstr "รายการเปลี่ยนแปลงที่ไม่สามารถหยุดกลางคันกำลังทำงานอยู่"
 
 #. TRANSLATORS: title in the libnotify popup
-#: ../plugins/updates/gsd-updates-manager.c:1253
+#: ../plugins/updates/gsd-updates-manager.c:1265
 msgid "Software Update Installed"
 msgid_plural "Software Updates Installed"
 msgstr[0] "ติดตั้งรายการปรับรุ่นซอฟต์แวร์แล้ว"
 
 #. TRANSLATORS: message when we've done offline updates
-#: ../plugins/updates/gsd-updates-manager.c:1258
+#: ../plugins/updates/gsd-updates-manager.c:1270
 msgid "An important OS update has been installed."
 msgid_plural "Important OS updates have been installed."
 msgstr[0] "ติดตั้งรายการปรับรุ่น OS ที่สำคัญแล้ว"
 
 #. TRANSLATORS: title in the libnotify popup
-#: ../plugins/updates/gsd-updates-manager.c:1281
+#: ../plugins/updates/gsd-updates-manager.c:1293
 msgid "Software Updates Failed"
 msgstr "ปรับรุ่นซอฟต์แวร์ไม่สำเร็จ"
 
 #. TRANSLATORS: message when we've not done offline updates
-#: ../plugins/updates/gsd-updates-manager.c:1284
+#: ../plugins/updates/gsd-updates-manager.c:1296
 msgid "An important OS update failed to be installed."
 msgstr "ไม่สามารถติดตั้งรายการปรับรุ่น OS ที่สำคัญได้"
 
 #. TRANSLATORS: button: review the offline update changes
-#: ../plugins/updates/gsd-updates-manager.c:1299
+#: ../plugins/updates/gsd-updates-manager.c:1319
 msgid "Review"
 msgstr "ตรวจทาน"
 
 #. TRANSLATORS: button: review the offline update changes
-#: ../plugins/updates/gsd-updates-manager.c:1304
+#: ../plugins/updates/gsd-updates-manager.c:1323
 msgid "Show details"
 msgstr "แสดงรายละเอียด"
 
 #. TRANSLATORS: button: clear notification
-#: ../plugins/updates/gsd-updates-manager.c:1308
+#: ../plugins/updates/gsd-updates-manager.c:1327
 msgid "OK"
 msgstr "ตกลง"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1012
+#: ../plugins/updates/updates.gnome-settings-plugin.in.h:2
+#, fuzzy
+msgid "Updates plugin"
+msgstr "ปลั๊กอินจัดการปุ่มสั่งการสื่อ"
+
+#: ../plugins/wacom/gsd-wacom-button-editor.c:52
+msgctxt "Wacom action-type"
+msgid "None"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-button-editor.c:53
+msgctxt "Wacom action-type"
+msgid "Send Keystroke"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-button-editor.c:54
+#, fuzzy
+msgctxt "Wacom action-type"
+msgid "Switch Monitor"
+msgstr "สลับช่องทางป้อนข้อความเข้า"
+
+#: ../plugins/wacom/gsd-wacom-button-editor.c:55
+msgctxt "Wacom action-type"
+msgid "Show On-Screen Help"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-button-editor.c:155
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1096
+msgctxt "Action type"
+msgid "Show On-Screen Help"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-button-editor.c:158
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1099
+#, fuzzy
+msgctxt "Action type"
+msgid "Switch Monitor"
+msgstr "สลับช่องทางป้อนข้อความเข้า"
+
+#: ../plugins/wacom/gsd-wacom-button-editor.c:202
+msgctxt "keyboard shortcut"
+msgid "None"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-button-editor.c:488
+msgid "Done"
+msgstr ""
+
+#. If no mode is available, we use "left-ring-mode-1" for backward compat
+#: ../plugins/wacom/gsd-wacom-device.c:1063
+#, fuzzy
+msgid "Left Ring"
+msgstr "โหมดวงแหวนสัมผัสซ้าย #%d"
+
+#: ../plugins/wacom/gsd-wacom-device.c:1074
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "โหมดวงแหวนสัมผัสซ้าย #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1021
+#. If no mode is available, we use "right-ring-mode-1" for backward compat
+#: ../plugins/wacom/gsd-wacom-device.c:1094
+#, fuzzy
+msgid "Right Ring"
+msgstr "โหมดวงแหวนสัมผัสขวา #%d"
+
+#: ../plugins/wacom/gsd-wacom-device.c:1105
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "โหมดวงแหวนสัมผัสขวา #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1051
+#. If no mode is available, we use "left-strip-mode-1" for backward compat
+#: ../plugins/wacom/gsd-wacom-device.c:1147
+#, fuzzy
+msgid "Left Touchstrip"
+msgstr "โหมดแถบสัมผัสซ้าย #%d"
+
+#: ../plugins/wacom/gsd-wacom-device.c:1158
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "โหมดแถบสัมผัสซ้าย #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1060
+#. If no mode is available, we use "right-strip-mode-1" for backward compat
+#: ../plugins/wacom/gsd-wacom-device.c:1178
+#, fuzzy
+msgid "Right Touchstrip"
+msgstr "โหมดแถบสัมผัสขวา #%d"
+
+#: ../plugins/wacom/gsd-wacom-device.c:1189
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "โหมดแถบสัมผัสขวา #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1077
+#: ../plugins/wacom/gsd-wacom-device.c:1215
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "ปุ่มเปลี่ยนโหมดวงแหวนสัมผัสซ้าย"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1079
+#: ../plugins/wacom/gsd-wacom-device.c:1217
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "ปุ่มเปลี่ยนโหมดวงแหวนสัมผัสขวา"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1082
+#: ../plugins/wacom/gsd-wacom-device.c:1220
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "ปุ่มเปลี่ยนโหมดแถบสัมผัสซ้าย"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1084
+#: ../plugins/wacom/gsd-wacom-device.c:1222
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "ปุ่มเปลี่ยนโหมดแถบสัมผัสขวา"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1089
+#: ../plugins/wacom/gsd-wacom-device.c:1227
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "ปุ่มเปลี่ยนโหมด #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1161
+#: ../plugins/wacom/gsd-wacom-device.c:1335
 #, c-format
 msgid "Left Button #%d"
 msgstr "ปุ่มซ้าย #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1164
+#: ../plugins/wacom/gsd-wacom-device.c:1338
 #, c-format
 msgid "Right Button #%d"
 msgstr "ปุ่มขวา #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1167
+#: ../plugins/wacom/gsd-wacom-device.c:1341
 #, c-format
 msgid "Top Button #%d"
 msgstr "ปุ่มบน #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1170
+#: ../plugins/wacom/gsd-wacom-device.c:1344
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "ปุ่มล่าง #%d"
+
+#: ../plugins/wacom/gsd-wacom-key-shortcut-button.c:264
+msgid "New shortcut…"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-manager.c:1081
+#, c-format
+msgid "The \"%s\" tablet may not work as expected."
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-manager.c:1082
+msgid "Unknown Tablet Connected"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-manager.c:1085
+#: ../plugins/wacom/gsd-wacom-manager.c:1660
+#, fuzzy
+msgid "Wacom Settings"
+msgstr "ค่าตั้งของ X"
+
+#: ../plugins/wacom/gsd-wacom-manager.c:1653
+#, fuzzy, c-format
+msgid "Tablet %s needs to be calibrated."
+msgstr "เครื่องพิมพ์ '%s' ควรเทียบมาตรฐานใหม่เร็วๆ นี้"
+
+#: ../plugins/wacom/gsd-wacom-manager.c:1655
+#, fuzzy
+msgid "Calibration needed"
+msgstr "เพิ่มอุปกรณ์เทียบมาตรฐานสี"
+
+#: ../plugins/wacom/gsd-wacom-manager.c:1669
+#, fuzzy
+msgid "Calibrate"
+msgstr "เทียบมาตรฐานใหม่เดี๋ยวนี้"
+
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1073
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1093
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1104
+msgctxt "Action type"
+msgid "None"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1078
+#, c-format
+msgctxt "Action type"
+msgid "Send Keystroke %s"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1137
+#, c-format
+msgid "Mode %d: %s"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1347
+msgid "(press any key to exit)"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1356
+msgid "Push a button to configure"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1356
+msgid "(Esc to cancel)"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1986
+msgid "Edit"
+msgstr ""
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
@@ -2967,53 +3180,33 @@ msgstr "ปรับ LED ส่องสว่างของแท็บเล�
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
 msgstr "ต้องยืนยันตัวบุคคลก่อนปรับ LED ส่องสว่างของแท็บเล็ต Wacom"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:508
-msgid "Could not switch the monitor configuration"
-msgstr "ไม่สามารถเปลี่ยนค่าตั้งของจอภาพ"
+#. SECURITY:
+#. - A normal active user on the local machine does not need permission
+#. to change the OLED images for a Wacom tablet
+#.
+#: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:11
+#, fuzzy
+msgid "Modify the OLED image for a Wacom tablet"
+msgstr "ปรับ LED ส่องสว่างของแท็บเล็ต Wacom"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:532
-msgid "Could not restore the display's configuration"
-msgstr "ไม่สามารถเรียกคืนค่าตั้งของจอแสดงผลได้"
+#: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:12
+#, fuzzy
+msgid "Authentication is required to modify the OLED image for a Wacom tablet"
+msgstr "ต้องยืนยันตัวบุคคลก่อนปรับ LED ส่องสว่างของแท็บเล็ต Wacom"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:557
-msgid "Could not restore the display's configuration from a backup"
-msgstr "ไม่สามารถเรียกคืนค่าตั้งของจอแสดงผลจากข้อมูลที่สำรองไว้ได้"
+#: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:1
+msgid "Wacom"
+msgstr ""
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:578
-#, c-format
-msgid "The display will be reset to its previous configuration in %d second"
-msgid_plural ""
-"The display will be reset to its previous configuration in %d seconds"
-msgstr[0] "จอแสดงผลจะคืนค่าสู่ค่าตั้งก่อนหน้านี้ภายใน %d วินาที"
+#: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:2
+#, fuzzy
+msgid "Wacom plugin"
+msgstr "ปลั๊กอินจัดการพื้นหลัง"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:627
-msgid "Does the display look OK?"
-msgstr "จอแสดงผลดูใช้ได้หรือยัง?"
-
-#: ../plugins/xrandr/gsd-xrandr-manager.c:634
-msgid "_Restore Previous Configuration"
-msgstr "เ_รียกคืนค่าตั้งก่อนหน้า"
-
-#: ../plugins/xrandr/gsd-xrandr-manager.c:635
-msgid "_Keep This Configuration"
-msgstr "ใ_ช้ค่าตั้งนี้"
-
-#: ../plugins/xrandr/gsd-xrandr-manager.c:716
-msgid "The selected configuration for displays could not be applied"
-msgstr "ไม่สามารถเริ่มใช้ค่าตั้งจอแสดงผลที่เลือก"
-
-#: ../plugins/xrandr/gsd-xrandr-manager.c:1374
+#: ../plugins/xrandr/gsd-xrandr-manager.c:963
 #, c-format
 msgid "Could not refresh the screen information: %s"
 msgstr "ไม่สามารถปรับแสดงข้อมูลของหน้าจอ: %s"
-
-#: ../plugins/xrandr/gsd-xrandr-manager.c:1378
-msgid "Trying to switch the monitor configuration anyway."
-msgstr "จะพยายามเปลี่ยนค่าตั้งของจอภาพต่อไป"
-
-#: ../plugins/xrandr/gsd-xrandr-manager.c:1848
-msgid "Could not apply the stored configuration for monitors"
-msgstr "ไม่สามารถเริ่มใช้ค่าตั้งของจอภาพที่บันทึกไว้"
 
 #: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:1
 msgid "XRandR"
@@ -3030,6 +3223,230 @@ msgstr "ค่าตั้งของ X"
 #: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
 msgid "Manage X Settings"
 msgstr "จัดการค่าตั้งของ X"
+
+#~ msgid "Command to be run when a device is added or removed."
+#~ msgstr "คำสั่งที่จะเรียกเมื่อมีการเสียบหรือถอดอุปกรณ์"
+
+#~ msgid "Wacom tablet PC feature"
+#~ msgstr "การใช้ Wacom แบบแท็บเล็ตพีซี"
+
+#~ msgid "Enable this to only report stylus events when the tip is pressed."
+#~ msgstr "เปิดใช้ค่านี้ถ้าต้องการให้รายงานเหตุการณ์ของปากกาชี้เมื่อหัวปากกาถูกกดเท่านั้น"
+
+#~ msgid "Binding to select the next input source"
+#~ msgstr "ปุ่มลัดสำหรับเลือกช่องทางป้อนข้อความเข้าถัดไป"
+
+#~ msgid "Switch input source backward"
+#~ msgstr "สลับช่องทางป้อนข้อความเข้าย้อนกลับ"
+
+#~ msgid "Binding to select the previous input source"
+#~ msgstr "ปุ่มลัดสำหรับเลือกช่องทางป้อนข้อความเข้าก่อนหน้า"
+
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "เกิดข้อผิดพลาดขณะแสดงวิธีใช้: %s"
+
+#~ msgid "_Turn Off"
+#~ msgstr "ปิ_ด"
+
+#~ msgid "_Turn On"
+#~ msgstr "_เปิด"
+
+#~ msgid "_Leave On"
+#~ msgstr "เปิดไ_ว้เหมือนเดิม"
+
+#~ msgid "_Leave Off"
+#~ msgstr "ปิดไ_ว้เหมือนเดิม"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "ปรับแต่งการเข้าถึงหลากหลาย"
+
+#~ msgid "Use on-screen _keyboard"
+#~ msgstr "ใช้แ_ป้นพิมพ์บนจอ"
+
+#~ msgid "Use screen _reader"
+#~ msgstr "ใช้โปรแกรม_อ่านหน้าจอ"
+
+#~ msgid "Use screen _magnifier"
+#~ msgstr "ใช้แว่น_ขยายหน้าจอ"
+
+#~ msgid "Enhance _contrast in colors"
+#~ msgstr "เพิ่มความ_ต่างของสี"
+
+#~ msgid "Make _text larger and easier to read"
+#~ msgstr "แสดงตัว_อักษรใหญ่ขึ้นเพื่อให้อ่านง่าย"
+
+#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
+#~ msgstr "_กดปุ่มลัดโดยกดทีละปุ่ม (การค้างปุ่มกด)"
+
+#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
+#~ msgstr "_ละเลยปุ่มกดซ้ำ (ป้องกันการกดแป้นรัว)"
+
+#~ msgid "Press and _hold keys to accept them (Slow Keys)"
+#~ msgstr "รับปุ่มกดแบบแ_ช่ (การพิมพ์แบบช้า)"
+
+#~ msgid "Mount Helper"
+#~ msgstr "เครื่องมือช่วยเมานท์"
+
+#~ msgid "Automount and autorun plugged devices"
+#~ msgstr "เมาทน์และเรียกทำงานอุปกรณ์ที่เสียบเข้ามาโดยอัตโนมัติ"
+
+#~ msgid "Unable to mount %s"
+#~ msgstr "ไม่สามารถเมานท์ %s"
+
+#~ msgid "Unable to open a folder for %s"
+#~ msgstr "ไม่สามารถเปิดโฟลเดอร์สำหรับ %s"
+
+#~ msgid "Ask what to do"
+#~ msgstr "ถามว่าจะให้ทำอะไร"
+
+#~ msgid "Do Nothing"
+#~ msgstr "ไม่ทำอะไร"
+
+#~ msgid "Open Folder"
+#~ msgstr "เปิดโฟลเดอร์"
+
+#~ msgid "Unable to eject %p"
+#~ msgstr "ไม่สามารถเอา %p ออก"
+
+#~ msgid "Unable to unmount %p"
+#~ msgstr "ไม่สามารถเลิกเมานท์ %p"
+
+#~ msgid "You have just inserted an Audio CD."
+#~ msgstr "คุณเพิ่งใส่แผ่นซีดีเพลงเข้ามา"
+
+#~ msgid "You have just inserted an Audio DVD."
+#~ msgstr "คุณเพิ่งใส่แผ่นดีวีดีเพลงเข้ามา"
+
+#~ msgid "You have just inserted a Video DVD."
+#~ msgstr "คุณเพิ่งใส่แผ่นดีวีดีภาพยนตร์เข้ามา"
+
+#~ msgid "You have just inserted a Video CD."
+#~ msgstr "คุณเพิ่งใส่แผ่นวีซีดีเข้ามา"
+
+#~ msgid "You have just inserted a Super Video CD."
+#~ msgstr "คุณเพิ่งใส่แผ่นซูเปอร์วีซีดีเข้ามา"
+
+#~ msgid "You have just inserted a blank CD."
+#~ msgstr "คุณเพิ่งใส่แผ่นซีดีเปล่าเข้ามา"
+
+#~ msgid "You have just inserted a blank DVD."
+#~ msgstr "คุณเพิ่งใส่แผ่นดีวีดีเปล่าเข้ามา"
+
+#~ msgid "You have just inserted a blank Blu-Ray disc."
+#~ msgstr "คุณเพิ่งใส่แผ่นบลูเรย์เปล่าเข้ามา"
+
+#~ msgid "You have just inserted a blank HD DVD."
+#~ msgstr "คุณเพิ่งใส่แผ่น HD DVD เปล่าเข้ามา"
+
+#~ msgid "You have just inserted a Photo CD."
+#~ msgstr "คุณเพิ่งใส่แผ่นซีดีภาพถ่ายเข้ามา"
+
+#~ msgid "You have just inserted a Picture CD."
+#~ msgstr "คุณเพิ่งใส่แผ่นซีดีรูปภาพเข้ามา"
+
+#~ msgid "You have just inserted a medium with digital photos."
+#~ msgstr "คุณเพิ่งใส่สื่อที่มีภาพถ่ายดิจิทัลเข้ามา"
+
+#~ msgid "You have just inserted a digital audio player."
+#~ msgstr "คุณเพิ่งใส่เครื่องเล่นเพลงดิจิทัลเข้ามา"
+
+#~ msgid ""
+#~ "You have just inserted a medium with software intended to be "
+#~ "automatically started."
+#~ msgstr "คุณเพิ่งใส่สื่อที่มีซอฟต์แวร์สำหรับเรียกทำงานอัตโนมัติเข้ามา"
+
+#~ msgid "You have just inserted a medium."
+#~ msgstr "คุณเพิ่งใส่สื่อเข้ามา"
+
+#~ msgid "Choose what application to launch."
+#~ msgstr "เลือกโปรแกรมที่จะเรียก"
+
+#~ msgid ""
+#~ "Select how to open \"%s\" and whether to perform this action in the "
+#~ "future for other media of type \"%s\"."
+#~ msgstr ""
+#~ "เลือกวิธีการเปิด \"%s\" และกำหนดว่าจะทำอย่างเดียวกันนี้ในอนาคตกับสื่อชนิด \"%s\" "
+#~ "ด้วยหรือไม่"
+
+#~ msgid "_Always perform this action"
+#~ msgstr "กระทำสิ่งนี้เ_สมอ"
+
+#~ msgid "_Eject"
+#~ msgstr "เ_อาสื่อออก"
+
+#~ msgid "_Unmount"
+#~ msgstr "เ_ลิกเมานท์"
+
+#~ msgid "Background"
+#~ msgstr "พื้นหลัง"
+
+#~ msgid "Low Disk Space on \"%s\""
+#~ msgstr "พื้นที่ดิสก์เหลือน้อยใน \"%s\""
+
+#~ msgid ""
+#~ "The volume \"%s\" has only %s disk space remaining.  You may free up some "
+#~ "space by emptying the trash."
+#~ msgstr "โวลุม \"%s\" มีเนื้อที่ว่างเหลือเพียง %s  คุณอาจเทขยะทิ้งเพื่อให้ได้พื้นที่ว่างเพิ่มขึ้นได้"
+
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr "ไม่สามารถเปิดใช้สิ่งอำนวยความสะดวกสำหรับเมาส์"
+
+#~ msgid ""
+#~ "Mouse accessibility requires Mousetweaks to be installed on your system."
+#~ msgstr "การใช้สิ่งอำนวยความสะดวกสำหรับเมาส์ ต้องติดตั้ง Mousetweaks ในระบบด้วย"
+
+#~ msgid "Power Manager"
+#~ msgstr "เครื่องมือจัดการพลังงาน"
+
+#~ msgid "received error or hang up from event source"
+#~ msgstr "ได้รับข้อผิดพลาดหรือการตัดการเชื่อมต่อจากแหล่งเหตุการณ์"
+
+#~ msgid "NSS security system could not be initialized"
+#~ msgstr "ไม่สามารถตั้งต้นระบบรักษาความปลอดภัย NSS"
+
+#~ msgid "no suitable smartcard driver could be found"
+#~ msgstr "ไม่พบไดรเวอร์สมาร์ตการ์ดที่เหมาะสม"
+
+#~ msgid "smartcard driver '%s' could not be loaded"
+#~ msgstr "ไม่สามารถโหลดไดรเวอร์สมาร์ตการ์ด '%s'"
+
+#~ msgid "could not watch for incoming card events - %s"
+#~ msgstr "ไม่สามารถเฝ้าสังเกตเหตุการณ์ขาเข้าของการ์ด - %s"
+
+#~ msgid "encountered unexpected error while waiting for smartcard events"
+#~ msgstr "พบข้อผิดพลาดที่ไม่คาดหมายระหว่างรอเหตุการณ์สมาร์ตการ์ด"
+
+#~ msgid "Could not switch the monitor configuration"
+#~ msgstr "ไม่สามารถเปลี่ยนค่าตั้งของจอภาพ"
+
+#~ msgid "Could not restore the display's configuration"
+#~ msgstr "ไม่สามารถเรียกคืนค่าตั้งของจอแสดงผลได้"
+
+#~ msgid "Could not restore the display's configuration from a backup"
+#~ msgstr "ไม่สามารถเรียกคืนค่าตั้งของจอแสดงผลจากข้อมูลที่สำรองไว้ได้"
+
+#~ msgid "The display will be reset to its previous configuration in %d second"
+#~ msgid_plural ""
+#~ "The display will be reset to its previous configuration in %d seconds"
+#~ msgstr[0] "จอแสดงผลจะคืนค่าสู่ค่าตั้งก่อนหน้านี้ภายใน %d วินาที"
+
+#~ msgid "Does the display look OK?"
+#~ msgstr "จอแสดงผลดูใช้ได้หรือยัง?"
+
+#~ msgid "_Restore Previous Configuration"
+#~ msgstr "เ_รียกคืนค่าตั้งก่อนหน้า"
+
+#~ msgid "_Keep This Configuration"
+#~ msgstr "ใ_ช้ค่าตั้งนี้"
+
+#~ msgid "The selected configuration for displays could not be applied"
+#~ msgstr "ไม่สามารถเริ่มใช้ค่าตั้งจอแสดงผลที่เลือก"
+
+#~ msgid "Trying to switch the monitor configuration anyway."
+#~ msgstr "จะพยายามเปลี่ยนค่าตั้งของจอภาพต่อไป"
+
+#~ msgid "Could not apply the stored configuration for monitors"
+#~ msgstr "ไม่สามารถเริ่มใช้ค่าตั้งของจอภาพที่บันทึกไว้"
 
 #~ msgid ""
 #~ "Priority to use for this plugin in gnome-settings-daemon startup queue."
@@ -3051,12 +3468,6 @@ msgstr "จัดการค่าตั้งของ X"
 #~ msgstr ""
 #~ "ถ้าเป็นค่าไม่ว่างเปล่า ปุ่มลัดต่างๆ จะถูกละเลย ยกเว้นปุ่มที่มีไดเรกทอรีค่าตั้งอยู่ในรายชื่อนี้ "
 #~ "คีย์นี้เป็นประโยชน์สำหรับการจำกัดการใช้งาน"
-
-#~ msgid "Toggle touchpad"
-#~ msgstr "สลับการใช้ทัชแพด"
-
-#~ msgid "Automatically update these types of updates"
-#~ msgstr "ปรับรุ่นรายการชนิดเหล่านี้โดยอัตโนมัติ"
 
 #~ msgid "Automatically update these types of updates."
 #~ msgstr "ปรับรุ่นรายการชนิดเหล่านี้โดยอัตโนมัติ"
@@ -3136,9 +3547,6 @@ msgstr "จัดการค่าตั้งของ X"
 
 #~ msgid "Do you want to deactivate Sticky Keys?"
 #~ msgstr "จะเลิกใช้การค้างปุ่มกดหรือไม่?"
-
-#~ msgid "Automount"
-#~ msgstr "เมานท์อัตโนมัติ"
 
 #~ msgid "Automounter plugin"
 #~ msgstr "ปลั๊กอินเมานท์อัตโนมัติ"
@@ -3506,9 +3914,6 @@ msgstr "จัดการค่าตั้งของ X"
 #~ msgid "Binding to suspend the computer."
 #~ msgstr "ปุ่มลัดสำหรับพักเครื่องคอมพิวเตอร์"
 
-#~ msgid "Suspend"
-#~ msgstr "พักเครื่อง"
-
 #~ msgid ""
 #~ "Set to True to display a dialog when there are errors running the "
 #~ "screensaver."
@@ -3519,9 +3924,6 @@ msgstr "จัดการค่าตั้งของ X"
 
 #~ msgid "Show startup errors"
 #~ msgstr "เตือนถ้าผิดพลาดเมื่อเริ่มทำงาน"
-
-#~ msgid "Start screensaver"
-#~ msgstr "เปิดโปรแกรมรักษาหน้าจอ"
 
 #~ msgid "Enable screensaver plugin"
 #~ msgstr "เปิดใช้ปลั๊กอินจัดการโปรแกรมรักษาหน้าจอ"
@@ -3557,9 +3959,6 @@ msgstr "จัดการค่าตั้งของ X"
 #~ "%s\n"
 #~ "\n"
 #~ "โปรแกรมรักษาหน้าจอจะไม่ทำงานในวาระนี้"
-
-#~ msgid "Screensaver"
-#~ msgstr "โปรแกรมรักษาหน้าจอ"
 
 #~ msgid "Screensaver plugin"
 #~ msgstr "ปลั๊กอินจัดการโปรแกรมรักษาหน้าจอ"
@@ -3625,20 +4024,11 @@ msgstr "จัดการค่าตั้งของ X"
 #~ msgid "Select sound file..."
 #~ msgstr "เลือกแฟ้มเสียง..."
 
-#~ msgid "Sound"
-#~ msgstr "เสียง"
-
-#~ msgid "Sound plugin"
-#~ msgstr "ปลั๊กอินจัดการเสียง"
-
 #~ msgid "An error occurred while configuring the screen"
 #~ msgstr "เกิดข้อผิดพลาดขณะตั้งค่าหน้าจอ"
 
 #~ msgid "gtk-close"
 #~ msgstr "gtk-close"
-
-#~ msgid "Screen Rotation"
-#~ msgstr "การหมุนหน้าจอ"
 
 #~ msgid ""
 #~ "Set to True to keep the handlers for text/plain and text/* MIME types "
