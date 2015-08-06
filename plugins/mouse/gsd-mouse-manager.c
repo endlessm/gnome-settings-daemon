@@ -1160,7 +1160,8 @@ device_removed_cb (GdkDeviceManager *device_manager,
                 /* If a touchpad was to disappear... */
                 set_disable_w_typing (manager, g_settings_get_boolean (manager->priv->touchpad_settings, KEY_TOUCHPAD_DISABLE_W_TYPING));
 
-                ensure_touchpad_active (manager);
+                if (gdk_device_get_source (device) != GDK_SOURCE_TOUCHPAD)
+                        ensure_touchpad_active (manager);
         }
 }
 
