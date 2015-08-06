@@ -1314,7 +1314,8 @@ device_removed_cb (GdkDeviceManager *device_manager,
         if (device_is_ignored (manager, device) == FALSE) {
                 run_custom_command (device, COMMAND_DEVICE_REMOVED);
 
-                ensure_touchpad_active (manager);
+                if (gdk_device_get_source (device) != GDK_SOURCE_TOUCHPAD)
+                        ensure_touchpad_active (manager);
         }
 }
 
