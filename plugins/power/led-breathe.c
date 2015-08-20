@@ -11,6 +11,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sys/io.h>
+#include <unistd.h>
 
 /* Port addresses for access to SuperIO chip on LPC bus */
 #define PORT_ADDR	0x2e
@@ -113,30 +114,53 @@ static void it8772_gp37_setup(bool high)
 	superio_outb(tmp | (1 << 7), IT8772_GPIO3_OUTPUT_EN);
 }
 
-int main(int argc, char *argv[])
+static bool ec100_detect(void)
+{
+	FILE *fd = fopen("/proc/device-tree/compatible", "r");
+	char compatible[14];
+
+	if (!fd)
+		return false;
+
+	fread(compatible, 1, sizeof(compatible), fd);
+	fclose(fd);
+
+	return strncmp(compatible, "endless,ec100", sizeof(compatible)) == 0;
+}
+
+static void ec100_breathe(int enable)
+{
+	FILE *fd;
+
+	if (access("/sys/class/meson_gpio", F_OK) != 0)
+		return;
+
+	fd = fopen("/sys/class/meson_gpio/breathing", "w");
+	if (!fd)
+		return;
+
+	fputs(enable ? "0" : "1", fd);
+	fclose(fd);
+}
+
+static bool ec200_detect(void)
 {
 	FILE *fd;
 	char product_name[7];
 
-	if (argc < 2) {
-		fprintf(stderr, "Usage: %s <0/1>\n", argv[0]);
-		return 1;
-	}
-
 	/* Check that this is an EC-200 */
 	fd = fopen("/sys/class/dmi/id/product_name", "r");
-	if (!fd) {
-		fprintf(stderr, "Can't open DMI product_name\n");
-		return 1;
-	}
+	if (!fd)
+		return false;
 
 	fread(product_name, 1, sizeof(product_name), fd);
 	fclose(fd);
-	if (strncmp(product_name, "EC-200\n", sizeof(product_name))) {
-		fprintf(stderr, "Unexpected DMI product_name\n");
-		return 1;
-	}
 
+	return strncmp(product_name, "EC-200\n", sizeof(product_name)) == 0;
+}
+
+static int ec200_breathe(int enable)
+{
 	/* Request access to required ports */
 	if (ioperm(PORT_ADDR, 1, 1)) {
 		perror("ioperm ADDR");
@@ -156,8 +180,26 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 
-	it8772_gp37_setup(!!atoi(argv[1]));
+	it8772_gp37_setup(enable);
 
 	isapnp_exit();
+}
+
+int main(int argc, char *argv[])
+{
+	int enable;
+
+	if (argc < 2) {
+		fprintf(stderr, "Usage: %s <0/1>\n", argv[0]);
+		return 1;
+	}
+
+	enable = !!atoi(argv[1]);
+
+	if (ec100_detect())
+		ec100_breathe(enable);
+	else if (ec200_detect())
+		ec200_breathe(enable);
+
 	return 0;
 }
