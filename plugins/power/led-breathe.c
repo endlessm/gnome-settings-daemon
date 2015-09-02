@@ -114,16 +114,6 @@ static void it8772_gp37_setup(bool high)
 	superio_outb(tmp | (1 << 7), IT8772_GPIO3_OUTPUT_EN);
 }
 
-static void sysfs_export_gpio(int num)
-{
-	FILE *fd = fopen("/sys/class/gpio/export", "w");
-	if (!fd)
-		return;
-
-	fprintf(fd, "%d", num);
-	fclose(fd);
-}
-
 static bool ec100_detect(void)
 {
 	FILE *fd = fopen("/proc/device-tree/compatible", "r");
@@ -142,14 +132,14 @@ static void ec100_breathe(int enable)
 {
 	FILE *fd;
 
-	if (access("/sys/class/gpio/gpio7", F_OK) != 0)
-		sysfs_export_gpio(7);
+	if (access("/sys/class/meson_gpio", F_OK) != 0)
+		return;
 
-	fd = fopen("/sys/class/gpio/gpio7/direction", "w");
+	fd = fopen("/sys/class/meson_gpio/breathing", "w");
 	if (!fd)
 		return;
 
-	fputs(enable ? "low" : "high", fd);
+	fputs(enable ? "0" : "1", fd);
 	fclose(fd);
 }
 
