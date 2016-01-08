@@ -56,6 +56,7 @@
 #define WM_SETTINGS_SCHEMA        "org.gnome.desktop.wm.preferences"
 #define A11Y_SCHEMA               "org.gnome.desktop.a11y"
 #define CLASSIC_WM_SETTINGS_SCHEMA "org.gnome.shell.extensions.classic-overrides"
+#define COMPOSITE_MODE_SCHEMA     "com.endlessm.CompositeMode"
 
 #define XSETTINGS_PLUGIN_SCHEMA "org.gnome.settings-daemon.plugins.xsettings"
 #define XSETTINGS_OVERRIDE_KEY  "overrides"
@@ -270,6 +271,7 @@ struct GnomeXSettingsManagerPrivate
 
         GSettings         *plugin_settings;
         FcMonitor         *fontconfig_monitor;
+        GSettings         *composite_settings;
 
         GsdXSettingsGtk   *gtk;
 
@@ -488,13 +490,19 @@ get_dpi_from_gsettings (GnomeXSettingsManager *manager)
 	GSettings  *interface_settings;
         double      dpi;
         double      factor;
+        double      composite_factor;
 
 	interface_settings = g_hash_table_lookup (manager->priv->settings, INTERFACE_SETTINGS_SCHEMA);
         factor = g_settings_get_double (interface_settings, TEXT_SCALING_FACTOR_KEY);
 
+        /* The com.endlessm.CompositeMode schema will be present in some configurations only. */
+        composite_factor = manager->priv->composite_settings != NULL
+                ? g_settings_get_double (manager->priv->composite_settings, TEXT_SCALING_FACTOR_KEY)
+                : 1.0;
+
 	dpi = DPI_FALLBACK;
 
-        return dpi * factor;
+        return dpi * factor * composite_factor;
 }
 
 static gboolean
@@ -854,6 +862,15 @@ plugin_callback (GSettings             *settings,
         } else {
                 xft_callback (settings, key, manager);
         }
+}
+
+static void
+composite_mode_callback (GSettings             *settings,
+                         const char            *key,
+                         GnomeXSettingsManager *manager)
+{
+        update_xft_settings (manager);
+        queue_notify (manager);
 }
 
 static void
@@ -1248,6 +1265,27 @@ gnome_xsettings_manager_start (GnomeXSettingsManager *manager,
         /* Animation settings */
         force_disable_animation_changed (G_OBJECT (manager->priv->remote_display), NULL, manager);
 
+        /* Composite mode settings */
+        GSettingsSchema *composite_schema;
+        composite_schema = g_settings_schema_source_lookup (g_settings_schema_source_get_default (),
+                                                            COMPOSITE_MODE_SCHEMA, FALSE);
+
+        /* The com.endlessm.CompositeMode schema will be present in some configurations only,
+         * so we need to do some checks on startup, before creating and storing the GSettings. */
+        if (composite_schema != NULL) {
+                if (g_settings_schema_has_key (composite_schema, TEXT_SCALING_FACTOR_KEY)) {
+                        manager->priv->composite_settings = g_settings_new (COMPOSITE_MODE_SCHEMA);
+                        g_signal_connect_object (manager->priv->composite_settings, "changed",
+                                                 G_CALLBACK (composite_mode_callback), manager, 0);
+                }
+
+                g_settings_schema_unref (composite_schema);
+        } else {
+                /* This NULL pointer will be used as a flag in get_dpi_from_gsettings()
+                 * to know that the com.endlessm.CompositeMode schema is not available. */
+                manager->priv->composite_settings = NULL;
+        }
+
         /* Xft settings */
         update_xft_settings (manager);
 
@@ -1311,6 +1349,11 @@ gnome_xsettings_manager_stop (GnomeXSettingsManager *manager)
                 fc_monitor_stop (p->fontconfig_monitor);
                 g_object_unref (p->fontconfig_monitor);
                 p->fontconfig_monitor = NULL;
+        }
+
+        if (p->composite_settings != NULL) {
+                g_object_unref (p->composite_settings);
+                p->composite_settings = NULL;
         }
 
         if (p->settings != NULL) {
