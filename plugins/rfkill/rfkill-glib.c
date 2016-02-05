@@ -147,6 +147,8 @@ op_to_string (unsigned int op)
 		return "CHANGE";
 	case RFKILL_OP_CHANGE_ALL:
 		return "CHANGE_ALL";
+	case RFKILL_OP_AIRPLANE_MODE_CHANGE:
+		return "AIRPLANE_MODE_CHANGE";
 	default:
 		g_assert_not_reached ();
 	}
