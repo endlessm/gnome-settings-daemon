@@ -128,6 +128,7 @@ static struct {
         { SCREENSAVER_KEY, "screensaver", NULL, NULL, SCREENSAVER_MODE },
         { SCREENSAVER_KEY, NULL, N_("Lock Screen"), "XF86ScreenSaver", SCREENSAVER_MODE },
         { HELP_KEY, "help", NULL, NULL, GSD_KEYBINDING_MODE_LAUNCHER },
+        { HELP_KEY, NULL, NULL, "<Super>F1", GSD_KEYBINDING_MODE_LAUNCHER },
         { SCREENSHOT_KEY, "screenshot", NULL, NULL, SHELL_KEYBINDING_MODE_ALL },
         { WINDOW_SCREENSHOT_KEY, "window-screenshot", NULL, NULL, SHELL_KEYBINDING_MODE_NORMAL },
         { AREA_SCREENSHOT_KEY, "area-screenshot", NULL, NULL, SHELL_KEYBINDING_MODE_ALL },
