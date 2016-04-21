@@ -60,6 +60,7 @@
 #define UPOWER_DBUS_INTERFACE                   "org.freedesktop.UPower"
 #define UPOWER_DBUS_INTERFACE_KBDBACKLIGHT      "org.freedesktop.UPower.KbdBacklight"
 
+#define GSD_MEDIA_KEYS_SETTINGS_SCHEMA          "org.gnome.settings-daemon.plugins.media-keys"
 #define GSD_POWER_SETTINGS_SCHEMA               "org.gnome.settings-daemon.plugins.power"
 #define GSD_XRANDR_SETTINGS_SCHEMA              "org.gnome.settings-daemon.plugins.xrandr"
 
@@ -144,6 +145,7 @@ struct GsdPowerManagerPrivate
         GSettings               *settings_bus;
         GSettings               *settings_screensaver;
         GSettings               *settings_xrandr;
+        GSettings               *settings_media_keys;
 
         gboolean                 use_time_primary;
         guint                    action_percentage;
@@ -3179,10 +3181,25 @@ on_randr_event (GnomeRRScreen *screen, gpointer user_data)
 }
 
 static void
+media_keys_disable (GsdPowerManager *manager)
+{
+        g_settings_set_boolean (manager->priv->settings_media_keys, "active", FALSE);
+}
+
+static void
+media_keys_enable (GsdPowerManager *manager)
+{
+        g_settings_set_boolean (manager->priv->settings_media_keys, "active", TRUE);
+}
+
+static void
 handle_suspend_actions (GsdPowerManager *manager)
 {
         backlight_disable (manager);
         uninhibit_suspend (manager);
+
+        /* prevent disabling the touchpad on suspend */
+        media_keys_disable (manager);
 }
 
 static void
@@ -3203,6 +3220,9 @@ handle_resume_actions (GsdPowerManager *manager)
 
         /* set up the delay again */
         inhibit_suspend (manager);
+
+        /* handle media-keys again */
+        media_keys_enable (manager);
 }
 
 static void
@@ -3396,6 +3416,7 @@ gsd_power_manager_start (GsdPowerManager *manager,
         manager->priv->settings_screensaver = g_settings_new ("org.gnome.desktop.screensaver");
         manager->priv->settings_bus = g_settings_new ("org.gnome.desktop.session");
         manager->priv->settings_xrandr = g_settings_new (GSD_XRANDR_SETTINGS_SCHEMA);
+        manager->priv->settings_media_keys = g_settings_new (GSD_MEDIA_KEYS_SETTINGS_SCHEMA);
 
         gnome_settings_profile_end (NULL);
         return TRUE;
