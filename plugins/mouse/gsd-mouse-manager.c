@@ -1247,6 +1247,9 @@ ensure_touchpad_active (GsdMouseManager *manager)
         gboolean state;
 
         state = get_touchpad_enabled (manager);
+
+        set_disable_w_typing (manager, state);
+
         if (state) {
                 devices = get_disabled_synaptics ();
                 for (l = devices; l != NULL; l = l->next) {
@@ -1275,8 +1278,6 @@ ensure_touchpad_active (GsdMouseManager *manager)
 
                 g_list_free (devices);
         }
-
-        set_disable_w_typing (manager, state);
 }
 
 static void
