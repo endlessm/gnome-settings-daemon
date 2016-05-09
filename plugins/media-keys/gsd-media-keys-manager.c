@@ -212,6 +212,10 @@ struct GsdMediaKeysManagerPrivate
         GDBusProxy      *logind_proxy;
         gint             inhibit_keys_fd;
 
+        /* UPower stuff */
+        UpClient        *up_client;
+        gboolean         lid_is_closed;
+
         GList           *media_players;
 
         GDBusNodeInfo   *introspection_data;
@@ -1059,6 +1063,11 @@ do_touchpad_action (GsdMediaKeysManager *manager)
 {
         GSettings *settings;
         gboolean state;
+
+        if (manager->priv->lid_is_closed) {
+                g_debug ("lid is currently closed, ignoring touchpad-toggle media key");
+                return;
+        }
 
         if (touchpad_is_present () == FALSE) {
                 do_touchpad_osd_action (manager, FALSE);
@@ -3007,6 +3016,7 @@ gsd_media_keys_manager_stop (GsdMediaKeysManager *manager)
         g_clear_object (&priv->power_proxy);
         g_clear_object (&priv->power_screen_proxy);
         g_clear_object (&priv->power_keyboard_proxy);
+        g_clear_object (&priv->up_client);
         g_clear_object (&priv->composite_device);
         g_clear_object (&priv->mpris_controller);
         g_clear_object (&priv->screencast_proxy);
@@ -3249,13 +3259,23 @@ power_keyboard_ready_cb (GObject             *source_object,
 }
 
 static void
+lid_state_changed_cb (UpClient *client, GParamSpec *pspec, GsdMediaKeysManager *manager)
+{
+        gboolean closed;
+
+        closed = up_client_get_lid_is_closed (manager->priv->up_client);
+
+        g_debug ("up changed: lid is now %s", closed ? "closed" : "open");
+        manager->priv->lid_is_closed = closed;
+}
+
+static void
 on_bus_gotten (GObject             *source_object,
                GAsyncResult        *res,
                GsdMediaKeysManager *manager)
 {
         GDBusConnection *connection;
         GError *error = NULL;
-        UpClient *up_client;
 
         connection = g_bus_get_finish (res, &error);
         if (connection == NULL) {
@@ -3323,9 +3343,16 @@ on_bus_gotten (GObject             *source_object,
                           (GAsyncReadyCallback) power_keyboard_ready_cb,
                           manager);
 
-        up_client = up_client_new ();
-        manager->priv->composite_device = up_client_get_display_device (up_client);
-        g_object_unref (up_client);
+        manager->priv->up_client = up_client_new ();
+        if (up_client_get_lid_is_present (manager->priv->up_client)) {
+                g_signal_connect (manager->priv->up_client,
+                                  "notify::lid-is-closed",
+                                  G_CALLBACK (lid_state_changed_cb), manager);
+                manager->priv->lid_is_closed =
+                        up_client_get_lid_is_closed (manager->priv->up_client);
+        }
+
+        manager->priv->composite_device = up_client_get_display_device (manager->priv->up_client);
 }
 
 static void
