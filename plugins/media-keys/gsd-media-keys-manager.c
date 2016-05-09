@@ -221,6 +221,11 @@ struct GsdMediaKeysManagerPrivate
         gint             inhibit_suspend_fd;
         gboolean         inhibit_suspend_taken;
 
+        /* UPower stuff */
+        UpClient        *up_client;
+        gboolean         lid_is_closed;
+        guint            inhibit_tp_toggle_timer_id;
+
         GList           *media_players;
 
         GDBusNodeInfo   *introspection_data;
@@ -1084,6 +1089,11 @@ do_touchpad_action (GsdMediaKeysManager *manager)
 {
         GSettings *settings;
         gboolean state;
+
+        if (manager->priv->lid_is_closed) {
+                g_debug ("lid is currently closed, ignoring touchpad-toggle media key");
+                return;
+        }
 
         if (touchpad_is_present () == FALSE) {
                 do_touchpad_osd_action (manager, FALSE);
@@ -2928,6 +2938,11 @@ gsd_media_keys_manager_stop (GsdMediaKeysManager *manager)
 
         g_debug ("Stopping media_keys manager");
 
+        if (manager->priv->inhibit_tp_toggle_timer_id != 0) {
+                g_source_remove (manager->priv->inhibit_tp_toggle_timer_id);
+                manager->priv->inhibit_tp_toggle_timer_id = 0;
+        }
+
         if (priv->start_idle_id != 0) {
                 g_source_remove (priv->start_idle_id);
                 priv->start_idle_id = 0;
@@ -2983,6 +2998,7 @@ gsd_media_keys_manager_stop (GsdMediaKeysManager *manager)
         g_clear_object (&priv->power_proxy);
         g_clear_object (&priv->power_screen_proxy);
         g_clear_object (&priv->power_keyboard_proxy);
+        g_clear_object (&priv->up_client);
         g_clear_object (&priv->composite_device);
         g_clear_object (&priv->mpris_controller);
         g_clear_object (&priv->screencast_proxy);
@@ -3368,6 +3384,41 @@ power_keyboard_ready_cb (GObject             *source_object,
                           manager);
 }
 
+static gboolean
+lid_opened (GsdMediaKeysManager *manager)
+{
+        g_debug ("lid is now open");
+        manager->priv->lid_is_closed = FALSE;
+        manager->priv->inhibit_tp_toggle_timer_id = 0;
+        return G_SOURCE_REMOVE;
+}
+
+static void
+lid_state_changed_cb (UpClient *client, GParamSpec *pspec, GsdMediaKeysManager *manager)
+{
+        gboolean closed;
+
+        closed = up_client_get_lid_is_closed (manager->priv->up_client);
+
+        /* we need to consider the lid closed for an extra period, so we can
+         * ignore spurious touchpad-toggle events that may arrive right after
+         * opening the lid */
+        if (!closed) {
+                if (manager->priv->inhibit_tp_toggle_timer_id != 0)
+                        return;
+                manager->priv->inhibit_tp_toggle_timer_id =
+                        g_timeout_add_seconds (5, (GSourceFunc) lid_opened,
+                                               manager);
+        } else {
+                g_debug ("lid is now closed");
+                if (manager->priv->inhibit_tp_toggle_timer_id != 0) {
+                        g_source_remove (manager->priv->inhibit_tp_toggle_timer_id);
+                        manager->priv->inhibit_tp_toggle_timer_id = 0;
+                }
+                manager->priv->lid_is_closed = TRUE;
+        }
+}
+
 static void
 on_bus_gotten (GObject             *source_object,
                GAsyncResult        *res,
@@ -3375,7 +3426,6 @@ on_bus_gotten (GObject             *source_object,
 {
         GDBusConnection *connection;
         GError *error = NULL;
-        UpClient *up_client;
 
         connection = g_bus_get_finish (res, &error);
         if (connection == NULL) {
@@ -3429,9 +3479,16 @@ on_bus_gotten (GObject             *source_object,
                           (GAsyncReadyCallback) power_keyboard_ready_cb,
                           manager);
 
-        up_client = up_client_new ();
-        manager->priv->composite_device = up_client_get_display_device (up_client);
-        g_object_unref (up_client);
+        manager->priv->up_client = up_client_new ();
+        if (up_client_get_lid_is_present (manager->priv->up_client)) {
+                g_signal_connect (manager->priv->up_client,
+                                  "notify::lid-is-closed",
+                                  G_CALLBACK (lid_state_changed_cb), manager);
+                manager->priv->lid_is_closed =
+                        up_client_get_lid_is_closed (manager->priv->up_client);
+        }
+
+        manager->priv->composite_device = up_client_get_display_device (manager->priv->up_client);
 }
 
 static void
