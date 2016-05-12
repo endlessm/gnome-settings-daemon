@@ -82,6 +82,9 @@ static guint              purge_after;
 static guint              purge_trash_id = 0;
 static guint              purge_temp_id = 0;
 
+static GDBusConnection   *session_bus = NULL;
+static guint              dconf_error_id = 0;
+
 static gchar*
 ldsm_get_fs_id_for_path (const gchar *path)
 {
@@ -104,7 +107,7 @@ ldsm_get_fs_id_for_path (const gchar *path)
 }
 
 static gboolean
-ldsm_mount_has_trash (LdsmMountInfo *mount)
+ldsm_mount_has_trash (const char *path)
 {
         const gchar *user_data_dir;
         gchar *user_data_attr_id_fs;
@@ -113,12 +116,10 @@ ldsm_mount_has_trash (LdsmMountInfo *mount)
         gchar *trash_files_dir;
         gboolean has_trash = FALSE;
         GDir *dir;
-        const gchar *path;
 
         user_data_dir = g_get_user_data_dir ();
         user_data_attr_id_fs = ldsm_get_fs_id_for_path (user_data_dir);
 
-        path = g_unix_mount_get_mount_path (mount->mount);
         path_attr_id_fs = ldsm_get_fs_id_for_path (path);
 
         if (g_strcmp0 (user_data_attr_id_fs, path_attr_id_fs) == 0) {
@@ -554,46 +555,20 @@ on_notification_closed (NotifyNotification *n)
         notification = NULL;
 }
 
-static gboolean
-ldsm_notify_for_mount (LdsmMountInfo *mount,
-                       gboolean       multiple_volumes,
-                       gboolean       other_usable_volumes)
+static void
+ldsm_notify (const char *summary,
+             const char *body,
+             const char *mount_path)
 {
-        gchar  *name, *program;
-        gint64 free_space;
-        gboolean has_trash;
+        gchar *program;
         gboolean has_disk_analyzer;
-        gboolean retval = TRUE;
-        gchar *path;
-        char *free_space_str;
-        char *summary;
-        char *body;
+        gboolean has_trash;
 
         /* Don't show a notice if one is already displayed */
         if (notification != NULL)
-                return retval;
-
-        name = g_unix_mount_guess_name (mount->mount);
-        free_space = (gint64) mount->buf.f_frsize * (gint64) mount->buf.f_bavail;
-        has_trash = ldsm_mount_has_trash (mount);
-        path = g_strdup (g_unix_mount_get_mount_path (mount->mount));
-
-        program = g_find_program_in_path (DISK_SPACE_ANALYZER);
-        has_disk_analyzer = (program != NULL);
-        g_free (program);
-
-        free_space_str = g_format_size (free_space);
-
-        summary = g_strdup (_("Low Disk Space"));
-        body = g_strdup_printf (_("Your computer has only %s of space available.  To free up space, you can delete old files and empty the trash from the \"Documents\" file manager, or delete apps you may not need from the App Center."),
-                                free_space_str);
-
-        g_free (free_space_str);
+                return;
 
         notification = notify_notification_new (summary, body, "drive-harddisk-symbolic");
-        g_free (summary);
-        g_free (body);
-
         g_signal_connect (notification,
                           "closed",
                           G_CALLBACK (on_notification_closed),
@@ -603,14 +578,22 @@ ldsm_notify_for_mount (LdsmMountInfo *mount,
         notify_notification_set_hint (notification, "transient", g_variant_new_boolean (TRUE));
         notify_notification_set_urgency (notification, NOTIFY_URGENCY_CRITICAL);
         notify_notification_set_timeout (notification, NOTIFY_EXPIRES_DEFAULT);
+
+        program = g_find_program_in_path (DISK_SPACE_ANALYZER);
+        has_disk_analyzer = (program != NULL);
+        g_free (program);
+
         if (has_disk_analyzer) {
                 notify_notification_add_action (notification,
                                                 "examine",
                                                 _("Examine"),
                                                 (NotifyActionCallback) examine_callback,
-                                                g_strdup (path),
+                                                g_strdup (mount_path),
                                                 g_free);
         }
+
+        has_trash = ldsm_mount_has_trash (mount_path);
+
         if (has_trash) {
                 notify_notification_add_action (notification,
                                                 "empty-trash",
@@ -619,6 +602,7 @@ ldsm_notify_for_mount (LdsmMountInfo *mount,
                                                 NULL,
                                                 NULL);
         }
+
         notify_notification_add_action (notification,
                                         "ignore",
                                         _("Ignore"),
@@ -630,11 +614,63 @@ ldsm_notify_for_mount (LdsmMountInfo *mount,
         if (!notify_notification_show (notification, NULL)) {
                 g_warning ("failed to send disk space notification\n");
         }
+}
 
+static void
+ldsm_dconf_error_notification (GDBusConnection *connection,
+                               const gchar     *sender_name,
+                               const gchar     *object_path,
+                               const gchar     *interface_name,
+                               const gchar     *signal_name,
+                               GVariant        *parameters,
+                               gpointer         user_data)
+{
+        const char *dbus_error_name;
+        const char *summary, *body;
+        const char *home_dir;
+
+        g_variant_get (parameters, "(&s&s)", &dbus_error_name, NULL);
+
+        if (g_strcmp0 (dbus_error_name, "ca.desrt.dconf.Writer.Error.OutOfSpace") != 0) {
+                return;
+        }
+
+        summary = _("Low Disk Space");
+        body = _("Your computer is out of space.  To free up space, you can delete old files and empty the trash from the \"Documents\" file manager, or delete apps you may not need from the App Center.");
+
+        home_dir = g_get_home_dir ();
+        ldsm_notify (summary, body, home_dir);
+}
+
+static void
+ldsm_notify_for_mount (LdsmMountInfo *mount,
+                       gboolean       multiple_volumes)
+{
+        gboolean has_trash;
+        gchar  *name;
+        gint64 free_space;
+        const gchar *path;
+        char *free_space_str;
+        char *summary;
+        char *body;
+
+        name = g_unix_mount_guess_name (mount->mount);
+        path = g_unix_mount_get_mount_path (mount->mount);
+        has_trash = ldsm_mount_has_trash (path);
+
+        free_space = (gint64) mount->buf.f_frsize * (gint64) mount->buf.f_bavail;
+        free_space_str = g_format_size (free_space);
+
+        summary = g_strdup (_("Low Disk Space"));
+        body = g_strdup_printf (_("Your computer has only %s of space available.  To free up space, you can delete old files and empty the trash from the \"Documents\" file manager, or delete apps you may not need from the App Center."),
+                                free_space_str);
+
+        ldsm_notify (summary, body, path);
+
+        g_free (free_space_str);
+        g_free (summary);
+        g_free (body);
         g_free (name);
-        g_free (path);
-
-        return retval;
 }
 
 static gboolean
@@ -695,8 +731,7 @@ ldsm_free_mount_info (gpointer data)
 
 static void
 ldsm_maybe_warn_mounts (GList *mounts,
-                        gboolean multiple_volumes,
-                        gboolean other_usable_volumes)
+                        gboolean multiple_volumes)
 {
         GList *l;
         gboolean done = FALSE;
@@ -753,8 +788,8 @@ ldsm_maybe_warn_mounts (GList *mounts,
                 }
 
                 if (show_notify) {
-                        if (ldsm_notify_for_mount (mount_info, multiple_volumes, other_usable_volumes))
-                                done = TRUE;
+                        ldsm_notify_for_mount (mount_info, multiple_volumes);
+                        done = TRUE;
                 }
         }
 }
@@ -767,9 +802,7 @@ ldsm_check_all_mounts (gpointer data)
         GList *check_mounts = NULL;
         GList *full_mounts = NULL;
         guint number_of_mounts;
-        guint number_of_full_mounts;
         gboolean multiple_volumes = FALSE;
-        gboolean other_usable_volumes = FALSE;
 
         /* We iterate through the static mounts in /etc/fstab first, seeing if
          * they're mounted by checking if the GUnixMountPoint has a corresponding GUnixMountEntry.
@@ -801,7 +834,7 @@ ldsm_check_all_mounts (gpointer data)
                         continue;
                 }
 
-                if (ldsm_mount_is_user_ignore (g_unix_mount_get_mount_path (mount))) {
+                if (ldsm_mount_is_user_ignore (path)) {
                         ldsm_free_mount_info (mount_info);
                         continue;
                 }
@@ -841,12 +874,7 @@ ldsm_check_all_mounts (gpointer data)
                 }
         }
 
-        number_of_full_mounts = g_list_length (full_mounts);
-        if (number_of_mounts > number_of_full_mounts)
-                other_usable_volumes = TRUE;
-
-        ldsm_maybe_warn_mounts (full_mounts, multiple_volumes,
-                                other_usable_volumes);
+        ldsm_maybe_warn_mounts (full_mounts, multiple_volumes);
 
         g_list_free (check_mounts);
         g_list_free (full_mounts);
@@ -979,6 +1007,18 @@ gsd_ldsm_setup (gboolean check_now)
 
         purge_trash_id = g_timeout_add_seconds (3600, ldsm_purge_trash_and_temp, NULL);
         g_source_set_name_by_id (purge_trash_id, "[gnome-settings-daemon] ldsm_purge_trash_and_temp");
+
+        session_bus = g_bus_get_sync (G_BUS_TYPE_SESSION, NULL, NULL);
+        if (session_bus)
+                dconf_error_id = g_dbus_connection_signal_subscribe (session_bus,
+                                                                     "ca.desrt.dconf",
+                                                                     "ca.desrt.dconf.Writer",
+                                                                     "Error",
+                                                                     NULL,
+                                                                     NULL,
+                                                                     G_DBUS_SIGNAL_FLAGS_NONE,
+                                                                     ldsm_dconf_error_notification,
+                                                                     NULL, NULL);
 }
 
 void
@@ -996,7 +1036,12 @@ gsd_ldsm_clean (void)
                 g_source_remove (ldsm_timeout_id);
         ldsm_timeout_id = 0;
 
+        if (dconf_error_id)
+                g_dbus_connection_signal_unsubscribe (session_bus, dconf_error_id);
+        dconf_error_id = 0;
+
         g_clear_pointer (&ldsm_notified_hash, g_hash_table_destroy);
+        g_clear_object (&session_bus);
         g_clear_object (&ldsm_monitor);
         g_clear_object (&settings);
         g_clear_object (&privacy_settings);
