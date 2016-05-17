@@ -85,6 +85,9 @@ static guint              purge_after;
 static guint              purge_trash_id = 0;
 static guint              purge_temp_id = 0;
 
+static GDBusConnection   *session_bus = NULL;
+static guint              dconf_error_id = 0;
+
 static gchar*
 ldsm_get_fs_id_for_path (const gchar *path)
 {
@@ -107,7 +110,7 @@ ldsm_get_fs_id_for_path (const gchar *path)
 }
 
 static gboolean
-ldsm_mount_has_trash (LdsmMountInfo *mount)
+ldsm_mount_has_trash (const char *path)
 {
         const gchar *user_data_dir;
         gchar *user_data_attr_id_fs;
@@ -116,12 +119,10 @@ ldsm_mount_has_trash (LdsmMountInfo *mount)
         gchar *trash_files_dir;
         gboolean has_trash = FALSE;
         GDir *dir;
-        const gchar *path;
 
         user_data_dir = g_get_user_data_dir ();
         user_data_attr_id_fs = ldsm_get_fs_id_for_path (user_data_dir);
 
-        path = g_unix_mount_get_mount_path (mount->mount);
         path_attr_id_fs = ldsm_get_fs_id_for_path (path);
 
         if (g_strcmp0 (user_data_attr_id_fs, path_attr_id_fs) == 0) {
@@ -578,6 +579,93 @@ on_notification_closed (NotifyNotification *n)
         notification = NULL;
 }
 
+static void
+ldsm_notify (const char *summary,
+             const char *body,
+             const char *mount_path)
+{
+        gchar *program;
+        gboolean has_disk_analyzer;
+        gboolean has_trash;
+
+        /* Don't show a notice if one is already displayed */
+        if (notification != NULL)
+                return;
+
+        notification = notify_notification_new (summary, body, "drive-harddisk-symbolic");
+        g_signal_connect (notification,
+                          "closed",
+                          G_CALLBACK (on_notification_closed),
+                          NULL);
+
+        notify_notification_set_app_name (notification, _("Disk space"));
+        notify_notification_set_hint (notification, "transient", g_variant_new_boolean (TRUE));
+        notify_notification_set_urgency (notification, NOTIFY_URGENCY_CRITICAL);
+        notify_notification_set_timeout (notification, NOTIFY_EXPIRES_DEFAULT);
+
+        program = g_find_program_in_path (DISK_SPACE_ANALYZER);
+        has_disk_analyzer = (program != NULL);
+        g_free (program);
+
+        if (has_disk_analyzer) {
+                notify_notification_add_action (notification,
+                                                "examine",
+                                                _("Examine"),
+                                                (NotifyActionCallback) examine_callback,
+                                                g_strdup (mount_path),
+                                                g_free);
+        }
+
+        has_trash = ldsm_mount_has_trash (mount_path);
+
+        if (has_trash) {
+                notify_notification_add_action (notification,
+                                                "empty-trash",
+                                                _("Empty Trash"),
+                                                (NotifyActionCallback) empty_trash_callback,
+                                                NULL,
+                                                NULL);
+        }
+
+        notify_notification_add_action (notification,
+                                        "ignore",
+                                        _("Ignore"),
+                                        (NotifyActionCallback) ignore_callback,
+                                        NULL,
+                                        NULL);
+        notify_notification_set_category (notification, "device");
+
+        if (!notify_notification_show (notification, NULL)) {
+                g_warning ("failed to send disk space notification\n");
+        }
+}
+
+static void
+ldsm_dconf_error_notification (GDBusConnection *connection,
+                               const gchar     *sender_name,
+                               const gchar     *object_path,
+                               const gchar     *interface_name,
+                               const gchar     *signal_name,
+                               GVariant        *parameters,
+                               gpointer         user_data)
+{
+        const char *dbus_error_name;
+        const char *summary, *body;
+        const char *home_dir;
+
+        g_variant_get (parameters, "(&s&s)", &dbus_error_name, NULL);
+
+        if (g_strcmp0 (dbus_error_name, "ca.desrt.dconf.Writer.Error.OutOfSpace") != 0) {
+                return;
+        }
+
+        summary = _("Low Disk Space");
+        body = _("Your computer is out of space.  To free up space, you can delete old files and empty the trash from the \"Documents\" file manager, or delete apps you may not need from the App Center.");
+
+        home_dir = g_get_home_dir ();
+        ldsm_notify (summary, body, home_dir);
+}
+
 static gboolean
 ldsm_notify_for_mount (LdsmMountInfo *mount,
                        gboolean       multiple_volumes,
@@ -597,8 +685,8 @@ ldsm_notify_for_mount (LdsmMountInfo *mount,
 
         name = g_unix_mount_guess_name (mount->mount);
         free_space = (gint64) mount->buf.f_frsize * (gint64) mount->buf.f_bavail;
-        has_trash = ldsm_mount_has_trash (mount);
         path = g_strdup (g_unix_mount_get_mount_path (mount->mount));
+        has_trash = ldsm_mount_has_trash (path);
 
         program = g_find_program_in_path (DISK_SPACE_ANALYZER);
         has_disk_analyzer = (program != NULL);
@@ -617,47 +705,10 @@ ldsm_notify_for_mount (LdsmMountInfo *mount,
 
                 g_free (free_space_str);
 
-                notification = notify_notification_new (summary, body, "drive-harddisk-symbolic");
+                ldsm_notify (summary, body, path);
+
                 g_free (summary);
                 g_free (body);
-
-                g_signal_connect (notification,
-                                  "closed",
-                                  G_CALLBACK (on_notification_closed),
-                                  NULL);
-
-                notify_notification_set_app_name (notification, _("Disk space"));
-                notify_notification_set_hint (notification, "transient", g_variant_new_boolean (TRUE));
-                notify_notification_set_urgency (notification, NOTIFY_URGENCY_CRITICAL);
-                notify_notification_set_timeout (notification, NOTIFY_EXPIRES_DEFAULT);
-                if (has_disk_analyzer) {
-                        notify_notification_add_action (notification,
-                                                        "examine",
-                                                        _("Examine"),
-                                                        (NotifyActionCallback) examine_callback,
-                                                        g_strdup (path),
-                                                        g_free);
-                }
-                if (has_trash) {
-                        notify_notification_add_action (notification,
-                                                        "empty-trash",
-                                                        _("Empty Trash"),
-                                                        (NotifyActionCallback) empty_trash_callback,
-                                                        NULL,
-                                                        NULL);
-                }
-                notify_notification_add_action (notification,
-                                                "ignore",
-                                                _("Ignore"),
-                                                (NotifyActionCallback) ignore_callback,
-                                                NULL,
-                                                NULL);
-                notify_notification_set_category (notification, "device");
-
-                if (!notify_notification_show (notification, NULL)) {
-                        g_warning ("failed to send disk space notification\n");
-                }
-
         } else {
                 dialog = gsd_ldsm_dialog_new (other_usable_volumes,
                                               multiple_volumes,
@@ -1040,6 +1091,18 @@ gsd_ldsm_setup (gboolean check_now)
                                                  ldsm_check_all_mounts, NULL);
 
         purge_trash_id = g_timeout_add_seconds (3600, ldsm_purge_trash_and_temp, NULL);
+
+        session_bus = g_bus_get_sync (G_BUS_TYPE_SESSION, NULL, NULL);
+        if (session_bus)
+                dconf_error_id = g_dbus_connection_signal_subscribe (session_bus,
+                                                                     "ca.desrt.dconf",
+                                                                     "ca.desrt.dconf.Writer",
+                                                                     "Error",
+                                                                     NULL,
+                                                                     NULL,
+                                                                     G_DBUS_SIGNAL_FLAGS_NONE,
+                                                                     ldsm_dconf_error_notification,
+                                                                     NULL, NULL);
 }
 
 void
@@ -1057,7 +1120,12 @@ gsd_ldsm_clean (void)
                 g_source_remove (ldsm_timeout_id);
         ldsm_timeout_id = 0;
 
+        if (dconf_error_id)
+                g_dbus_connection_signal_unsubscribe (session_bus, dconf_error_id);
+        dconf_error_id = 0;
+
         g_clear_pointer (&ldsm_notified_hash, g_hash_table_destroy);
+        g_clear_object (&session_bus);
         g_clear_object (&ldsm_monitor);
         g_clear_object (&settings);
         g_clear_object (&privacy_settings);
