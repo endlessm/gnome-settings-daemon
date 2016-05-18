@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-16 22:13-0700\n"
-"PO-Revision-Date: 2016-05-17 05:20+0000\n"
+"PO-Revision-Date: 2016-05-17 13:18+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -31,13 +31,13 @@ msgstr "عفريت إعدادات جنوم"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:1
 msgid "Smartcard removal action"
-msgstr ""
+msgstr "إجراء نزع البطاقة الذكية"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:2
 msgid ""
 "Set this to one of \"none\", \"lock-screen\", or \"force-logout\". The "
 "action will get performed when the smartcard used for log in is removed."
-msgstr ""
+msgstr "اضبط هذا بقيمة من القيم \"لا شيء\" أو \"قَفْل الشاشة\" أو \"فرض تسجيل الخروج\". سيتم تنفيذ هذا الإجراء عندما يتم نزع البطاقة الذكية المستخدمة في تسجيل الدخول."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:3
 msgid ""
@@ -51,7 +51,7 @@ msgstr "وقت النقر الثنائي"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:5
 msgid "Length of a double click in milliseconds."
-msgstr ""
+msgstr "المدة الزمنية للنقرة المزدوجة بالمللي ثانية."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:6
 msgid "Drag threshold"
@@ -63,17 +63,17 @@ msgstr "المسافة قبل بدأ النقل."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:8
 msgid "Whether the tablet's orientation is locked, or rotated automatically."
-msgstr ""
+msgstr "سواء كان تدوير الجهاز اللوحي مُغلق أو مضبوط على وضع التدوير التلقائي."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:9
 msgid "Device hotplug custom command"
-msgstr ""
+msgstr "الأمر المُخَصَّص الخاص بالتوصيل الفوري للأجهزة"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:10
 msgid ""
 "Command to be run when a device is added or removed. An exit value of 1 "
 "means that the device will not be handled further by gnome-settings-daemon."
-msgstr ""
+msgstr "الأمر المطلوب تشغيله عند إضافة جهاز أو حذف آخر. خروج بقيمة 1 تعني أن هذا الجهاز لن تتم إدارته بعد ذلك من قبل gnome-settings-daemon."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:1
@@ -105,7 +105,7 @@ msgstr "فعِّل هذه الملحقة"
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:2
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:2
 msgid "Whether this plugin would be activated by gnome-settings-daemon or not"
-msgstr ""
+msgstr "سواء كانت هذه الإضافة ستُنَشَط من قبل gnome-settings-daemon أم لا."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:3
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:3
@@ -121,7 +121,7 @@ msgstr ""
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:5
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:7
 msgid "Priority to use for this plugin"
-msgstr ""
+msgstr "أولوية الاستخدام لهذه الإضافة"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:4
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:4
@@ -137,216 +137,216 @@ msgstr ""
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:6
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:8
 msgid "Priority to use for this plugin in gnome-settings-daemon startup queue"
-msgstr ""
+msgstr "أولوية الاستخدام لهذه الإضافة موجودة في طابور بدء تشغيل gnome-settings-daemon"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:5
 msgid "Wacom stylus absolute mode"
-msgstr ""
+msgstr "وضع قلم Wacom المطلق"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:6
 msgid "Enable this to set the tablet to absolute mode."
-msgstr ""
+msgstr "تمكين هذا الخيار لضبط الجهاز اللوحي على الوضع المُطلق."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:7
 msgid "Wacom tablet area"
-msgstr ""
+msgstr "منطقة جهاز Wacom اللوحي"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:8
 msgid "Set this to x1, y1 and x2, y2 of the area usable by the tools."
-msgstr ""
+msgstr "اضبط هذا بالقيم x1، y1 وx2، y2 للمنطقة التي يمكن استخدامها من قبل هذه الأدوات."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:9
 msgid "Wacom tablet aspect ratio"
-msgstr ""
+msgstr "نسبة الباعية لجهاز Wacom اللوحي"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:10
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
-msgstr ""
+msgstr "مَكِّن هذا لتقييد مساحة جهاز Wacom اللوحي، ليُطابق النسبة الباعية للمخرجات."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:11
 msgid "Wacom tablet rotation"
-msgstr ""
+msgstr "تدوير جهاز Wacom اللوحي"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:12
 msgid ""
 "Set this to 'none', 'cw' for 90 degree clockwise, 'half' for 180 degree, and"
 " 'ccw' for 90 degree counterclockwise."
-msgstr ""
+msgstr "اضبط هذا بقيمة 'لا شيء'، 'ا س' للحصول على 90 درجة باتجاه عقارب الساعة، وبقيمة 'النصف'، للحصول على 180 درجة، وبقيمة 'ع ع س' للحصول على 90 درجة عكس عقارب الساعة. "
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:13
 msgid "Wacom touch feature"
-msgstr ""
+msgstr "وظيفة اللمس الخاصة بـ Wacom"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:14
 msgid "Enable this to move the cursor when the user touches the tablet."
-msgstr ""
+msgstr "مُكٍّنْ هذا لنقل المؤشر عندما يلمس المستخدم الجهاز اللوحي."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:15
 msgid "Wacom stylus pressure curve"
-msgstr ""
+msgstr "منحنى ضغط قلم Wacom"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:16
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
-msgstr ""
+msgstr "اضبط هذا بقيم x1، y1 وx2، y2 لمنحنى الضغط الذي يتم تطبيقه على القلم."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:17
 msgid "Wacom stylus button mapping"
-msgstr ""
+msgstr "تعيين زر قلم Wacom"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:18
 msgid "Set this to the logical button mapping."
-msgstr ""
+msgstr "اضبط هذا على تعيين الزر المنطقي."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:19
 msgid "Wacom stylus pressure threshold"
-msgstr ""
+msgstr "عتبة ضغط قلم Wacom"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:20
 msgid ""
 "Set this to the pressure value at which a stylus click event is generated."
-msgstr ""
+msgstr "اضبط هذا على قيمة الضغط الذي يتولد عنده حدث النقر بالقلم."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:21
 msgid "Wacom eraser pressure curve"
-msgstr ""
+msgstr "منحنى ضغط ممحاة Wacom"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:22
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
-msgstr ""
+msgstr "اضبط هذا للقيم x1، y1 وx2، y2 لمنحنى الضغط المُطبق على الممحاة."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:23
 msgid "Wacom eraser button mapping"
-msgstr ""
+msgstr "تعيين زر ممحاة Wacom"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:24
 msgid "Wacom eraser pressure threshold"
-msgstr ""
+msgstr "عتبة مقدار ضغط ممحاة Wacom"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:25
 msgid ""
 "Set this to the pressure value at which an eraser click event is generated."
-msgstr ""
+msgstr "اضبط هذا على قيمة الضغط التي عندها يتم توليد حدث نقرة ممحاة."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:26
 msgid "Wacom button action type"
-msgstr ""
+msgstr "نوع إجراء زر Wacom"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:27
 msgid "The type of action triggered by the button being pressed."
-msgstr ""
+msgstr "نوع العمل الذي يُطلقه الضغط على الزر."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:28
 msgid "Key combination for the custom action"
-msgstr ""
+msgstr "توليفة المفاتيح الخاصة بالإجراء المُخَصَّصْ"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:29
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
-msgstr ""
+msgstr "اختصارات لوحة المفاتيح التي يتم توليدها عند الضغط على الزر، لتشكيل إجراءات مُخَصَّصَة."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:30
 msgid "Key combinations for a touchring or touchstrip custom action"
-msgstr ""
+msgstr "توليفة مفاتيح الإجراء المُخصص الخاص بحلقة اللمس أو بشريط اللمس"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:31
 msgid ""
 "The keyboard shortcuts generated when a touchring or touchstrip is used for "
 "custom actions (up followed by down)."
-msgstr ""
+msgstr "اختصارات لوحة المفاتيح التي يتم توليدها عند استخدام حلقة لمس أو شريحة لمس لإجراء مُخَصَّصْ (أعلى متبوع بأسفل)."
 
 #. Translators: This is the OLED display on an Intuos4 tablet:
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:34
 msgid "Button label for OLED display."
-msgstr ""
+msgstr "عنوان الزر الخاص بشاشة OLED."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:35
 msgid "Label will be rendered to OLED display belonging to the button"
-msgstr ""
+msgstr "سيتم تشكيل صورة العنوان على شاشة OLED المرتبطة بهذا الزر"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:5
 msgid "The duration a display profile is valid"
-msgstr ""
+msgstr "الفترة الزمنية التي سيُعتبر خلالها تشكيل خصائص العرض صالحاً"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:6
 msgid ""
 "This is the number of days after which the display color profile is "
 "considered invalid."
-msgstr ""
+msgstr "هذا هو عدد الأيام التي سيُعتبر بعدها تشكيل خصائص الألوان غير صالح."
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:7
 msgid "The duration a printer profile is valid"
-msgstr ""
+msgstr "المدة التي يظل خلالها تشكيل خصائص الطابعة صالحاً"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:8
 msgid ""
 "This is the number of days after which the printer color profile is "
 "considered invalid."
-msgstr ""
+msgstr "هذا هو عدد الأيام التي سيُعتبرتشكيل خصائص ألوان الطابعة بعدها غير صالح."
 
 #: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:1
 msgid "List of plugins that are allowed to be loaded"
-msgstr ""
+msgstr "قائمة الإضافات المسموح بتحميلها"
 
 #: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:2
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: 'all'). The plugins still need to be marked as active to get "
 "loaded. This is only evaluated on startup."
-msgstr ""
+msgstr "قائمة سلاسل نصية تُمثل الإضافات المسموح بتحميلها (الافتراضي: 'الكل'). تظل الإضافات بحاجة لوضع علامة تنشيط عليها، ليتم تحميلها. يتم تقييم هذا عند بدء التشغيل فقط."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:3
 msgid "Mount paths to ignore"
-msgstr ""
+msgstr "مسارات التحميل المطلوب تجاهلها"
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:4
 msgid "Specify a list of mount paths to ignore when they run low on space."
-msgstr ""
+msgstr "حَدِّدْ قائمة لمسارات تحميل، لكي يتم تجاهُلِهَا عند وجود عجز في المساحة التخزينية."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:5
 msgid "Free percentage notify threshold"
-msgstr ""
+msgstr "عتبة التنبيه الخاص بنسبة مساحة التخزين المتوفرة"
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:6
 msgid ""
 "Percentage free space threshold for initial warning of low disk space. If "
 "the percentage free space drops below this, a warning will be shown."
-msgstr ""
+msgstr "عتبة نسبة المساحة الفارغة، للتحذير المبدئي الخاص بانخفاض المساحة المتاحة على القرص. إذا انخفضت المساحة التخزينية المتاحة عن هذا الحد، سيظهر تحذير بذلك."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:7
 msgid "Subsequent free space percentage notify threshold"
-msgstr ""
+msgstr "عتبة التنبيه الخاص بنسبة المساحة التخزينية المتاحة"
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:8
 msgid ""
 "Specify the percentage that the free disk space should reduce by before "
 "issuing a subsequent warning."
-msgstr ""
+msgstr "حدد نسبة مساحة القرص الفارغة، التي لا ينبغي إصدار تحذير لاحق، إلا بعد الوصول إليها."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:9
 msgid "Free space notify threshold"
-msgstr ""
+msgstr "عتبة التنبيه الخاص بمساحة التخزين المتوفرة"
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:10
 msgid ""
 "Specify an amount in GB. If the amount of free space is more than this, no "
 "warning will be shown."
-msgstr ""
+msgstr "حدد مساحة بالجيجا بايت. إذا كانت المساحة المتاحة أكبر منها، فلن يظهر تحذير."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:11
 msgid "Minimum notify period for repeated warnings"
-msgstr ""
+msgstr "الحد الأدنى للفاصل الزمني لتكرار التنبيه"
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:12
 msgid ""
 "Specify a time in minutes. Subsequent warnings for a volume will not appear "
 "more often than this period."
-msgstr ""
+msgstr "حدد مدة بالدقيقة. لن يتكرر ظهور تحذير المساحة التخزينية إلا بفواصل زمنية تزيد عن تلك المدة."
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:3
 msgid "Custom keybindings"
@@ -366,11 +366,11 @@ msgstr "ارتباط إطلاق الحاسبة."
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:7
 msgid "Launch settings"
-msgstr ""
+msgstr "تدشين الإعدادات"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:8
 msgid "Binding to launch GNOME settings."
-msgstr ""
+msgstr "الربط لتدشين إعدادات GNOME."
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:9
 msgid "Launch email client"
@@ -550,7 +550,7 @@ msgstr "ارتباط نسخ لقطة منطقة محددة إلى الحافظة
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:55
 msgid "Record a short video of the screen"
-msgstr ""
+msgstr "تسجيل فيديو قصير للشاشة"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:56
 msgid "Launch web browser"
@@ -602,27 +602,27 @@ msgstr "ارتباط تصغير النص"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:68
 msgid "Toggle contrast"
-msgstr ""
+msgstr "تبديل درجة التباين"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:69
 msgid "Binding to toggle the interface contrast"
-msgstr ""
+msgstr "الربط لتبديل درجة تباين الواجهة"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:70
 msgid "Magnifier zoom in"
-msgstr ""
+msgstr "عدسة تكبير"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:71
 msgid "Binding for the magnifier to zoom in"
-msgstr ""
+msgstr "الربط لجعل العدسة تُكبر"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:72
 msgid "Magnifier zoom out"
-msgstr ""
+msgstr "عدسة تصغير"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:73
 msgid "Binding for the magnifier to zoom out"
-msgstr ""
+msgstr "الربط للتصغير بالعدسة"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:74
 msgid "Name"
@@ -650,17 +650,17 @@ msgstr "الأمر الذي سيُشغل عند استخدام الارتباط"
 
 #: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:5
 msgid "On which connections the service is enabled"
-msgstr ""
+msgstr "على الاتصالات المُمَكَّنْةُ عليها الخدمة"
 
 #: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:6
 msgid ""
 "The list of NetworkManager connections (each one represented with its UUID) "
 "on which this service is enabled and started."
-msgstr ""
+msgstr "قائمة اتصالات NetworkManager (كل اتصال يمثل UUID الخاص به) الممكن عليه هذه الخدمة وتم بد."
 
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:3
 msgid "File for default configuration for RandR"
-msgstr ""
+msgstr "ملف التهيئة الافتراضية الخاصة بـ RandR"
 
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:4
 msgid ""
@@ -669,11 +669,11 @@ msgid ""
 "normally gets stored in users' home directories. If a user does not have "
 "such a file, or has one that does not match the user's setup of monitors, "
 "then the file specified by this key will be used instead."
-msgstr ""
+msgstr "ستبحث إضافة XRandR على التهيئة الافتراضية في الملف المحدد بهذا المفتاح. هذا مشابه لـ ~/.config/monitors.xml الذي يتم تخزينه في الأحوال الطبيعية في دلائل المستخدم الرئيسية. إذا كان هناك مستخدم ليس لديه ملف من هذا النوع، أو لديه ملف لا يطابق إعدادات المستخدم للشاشات، سيتم استخدام الملف المحدد بهذا المفتاح بدلاً منه."
 
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:7
 msgid "Whether to turn off specific monitors after boot"
-msgstr ""
+msgstr "تحديد إن كان سيتم إطفاء شاشات مُحددة بعد الإقلاع"
 
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:8
 msgid ""
@@ -682,7 +682,7 @@ msgid ""
 "(extend the desktop in recent versions). The default, 'follow-lid', will "
 "choose between 'do-nothing' and 'dock' depending on whether the lid is "
 "(respectively) open or closed."
-msgstr ""
+msgstr "وضع 'استنساخ'، يعرض نفس الشيء على جميع الشاشات، و'إرساء' يقوم بإطفاء الشاشة الداخلية، في حين يقوم 'لا تفعل شيء' باتباع تصرف Xorg الافتراضي (تمديد سطح المكتب، في الإصدارات القديمة). أما وضع 'اتَبِعْ الغطاء' الافتراضي، سيختار بين 'لا تفعل شيء' و'إرساء'، بناءً على وضع الغطاء (على التوالي)، هل هو مفتوح أم مغلق."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
 msgid "Antialiasing"
@@ -720,23 +720,23 @@ msgstr "ترتيب عناصر أجزاء البكسل على شاشة LCD؛ يُ
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:11
 msgid "List of explicitly disabled GTK+ modules"
-msgstr ""
+msgstr "قائمة بوحدات GTK+ المُعطَّلة عمداً"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:12
 msgid ""
 "A list of strings representing the GTK+ modules that will not be loaded, "
 "even if enabled by default in their configuration."
-msgstr ""
+msgstr "قائمة سلاسل نصية، تمثل وحدات GTK+ التي لن يتم تحميلها، حتى مع تمكينها كوضع افتراضي في التهيئة الخاصة بها."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:13
 msgid "List of explicitly enabled GTK+ modules"
-msgstr ""
+msgstr "قائمة بوحدات GTK+ المُمَكَّنة"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:14
 msgid ""
 "A list of strings representing the GTK+ modules that will be loaded, usually"
 " in addition to conditional and forcibly disabled ones."
-msgstr ""
+msgstr "قائمة سلاسل نصية تمثل وحدات GTK+ التي سيتم تحميلها، ويكون هذا عادةً بالإضافة إلى للوحدات المشروطة والوحدات المُعطلة كرهاً."
 
 #: ../gnome-settings-daemon/main.c:53
 msgid "Enable debugging code"
@@ -744,7 +744,7 @@ msgstr "فعّل كود تتبع الأخطاء"
 
 #: ../gnome-settings-daemon/main.c:54
 msgid "Replace existing daemon"
-msgstr ""
+msgstr "استبدل الرقيب الموجود"
 
 #: ../gnome-settings-daemon/main.c:55
 msgid "Exit after a time (for debugging)"
@@ -888,7 +888,7 @@ msgstr "التاريخ و الوقت"
 
 #: ../plugins/datetime/datetime.gnome-settings-plugin.in.h:3
 msgid "Automatically update timezone"
-msgstr ""
+msgstr "تحديث المنطقة الزمنية تلقائياً"
 
 #. Translators: UTC here means the Coordinated Universal Time.
 #. * %:::z will be replaced by the offset from UTC e.g. UTC+02
@@ -943,7 +943,7 @@ msgid ""
 "Your computer is out of space.  To free up space, you can delete old files "
 "and empty the trash from the \"Documents\" file manager, or delete apps you "
 "may not need from the App Center."
-msgstr ""
+msgstr "نفدت المساحة التخزينية بحاسوبك. لتوفير بعض المساحة، يمكنك مسح الملفات القديمة وتفريغ المهملات من مدير ملفات \"المستندات\"، أو حذف التطبيقات التي قد لا تحتاجها، وذلك من مركز التطبيقات."
 
 #: ../plugins/housekeeping/gsd-disk-space.c:665
 #, c-format
@@ -951,7 +951,7 @@ msgid ""
 "Your computer has only %s of space available.  To free up space, you can "
 "delete old files and empty the trash from the \"Documents\" file manager, or"
 " delete apps you may not need from the App Center."
-msgstr ""
+msgstr "مُتاحٌ على جهاز الحاسوب الخاص بك %s من المساحة التخزينية فقط. لتوفير مساحة تخزينية، يمكنك حذف الملفات القديمة أو تفريغ المهملات من مدير ملفات \"المستندات\"، أو حذف التطبيقات التي قد لا تحتاج إليها، وذلك من مركز التطبيقات."
 
 #: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:1
 msgid "Housekeeping"
@@ -973,31 +973,31 @@ msgstr "ملحق لوحة المفاتيح"
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:2095
 msgid "Bluetooth disabled"
-msgstr ""
+msgstr "البلوتوث مُعطل"
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:2098
 msgid "Bluetooth enabled"
-msgstr ""
+msgstr "البلوتوث مُمَكَّنْ"
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:2102
 msgid "Airplane mode enabled"
-msgstr ""
+msgstr "وضع الطائرة مُمَكَّنْ"
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:2105
 msgid "Airplane mode disabled"
-msgstr ""
+msgstr "وضع الطائرة مُعَطَل"
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:2133
 msgid "Hardware Airplane Mode"
-msgstr ""
+msgstr "وضع الطائرة المادي"
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:2193
 msgid "Screencast from %d %t.webm"
-msgstr ""
+msgstr "لقطة شاشة من %d %t.webm"
 
 #: ../plugins/media-keys/gsd-screenshot-utils.c:84
 msgid "Unable to capture a screenshot"
-msgstr ""
+msgstr "غير قادر على أخذ لقطة شاشة"
 
 #: ../plugins/media-keys/gsd-screenshot-utils.c:115
 #: ../plugins/media-keys/gsd-screenshot-utils.c:155
@@ -1071,19 +1071,19 @@ msgstr "لوحة اللمس معطّّلة"
 #: ../plugins/media-keys/shortcuts-list.h:51
 #: ../plugins/media-keys/shortcuts-list.h:52
 msgid "Microphone Mute"
-msgstr ""
+msgstr "كتم الميكروفون"
 
 #: ../plugins/media-keys/shortcuts-list.h:53
 msgid "Quiet Volume Mute"
-msgstr ""
+msgstr "كتم تحذيرات انخفاض المساحة التخزينية"
 
 #: ../plugins/media-keys/shortcuts-list.h:54
 msgid "Quiet Volume Down"
-msgstr ""
+msgstr "عجز كبير في المساحة التخزينية"
 
 #: ../plugins/media-keys/shortcuts-list.h:55
 msgid "Quiet Volume Up"
-msgstr ""
+msgstr "رفع قيمة انخفاض المساحة التخزينية"
 
 #: ../plugins/media-keys/shortcuts-list.h:65
 msgid "Lock Screen"
@@ -1091,35 +1091,35 @@ msgstr "أوصد الشاشة"
 
 #: ../plugins/media-keys/shortcuts-list.h:81
 msgid "Rewind"
-msgstr ""
+msgstr "الإرجاع"
 
 #: ../plugins/media-keys/shortcuts-list.h:82
 msgid "Forward"
-msgstr ""
+msgstr "إعادة التوجيه"
 
 #: ../plugins/media-keys/shortcuts-list.h:83
 msgid "Repeat"
-msgstr ""
+msgstr "التكرار"
 
 #: ../plugins/media-keys/shortcuts-list.h:84
 msgid "Random Play"
-msgstr ""
+msgstr "تشغيل عشوائي"
 
 #. Key code of the XF86Display key (Fn-F7 on Thinkpads, Fn-F4 on HP machines,
 #. etc.)
 #: ../plugins/media-keys/shortcuts-list.h:85
 #: ../plugins/media-keys/shortcuts-list.h:87
 msgid "Video Out"
-msgstr ""
+msgstr "مخرج الفيديو"
 
 #. Key code of the XF86RotateWindows key (present on some tablets)
 #: ../plugins/media-keys/shortcuts-list.h:89
 msgid "Rotate Screen"
-msgstr ""
+msgstr "تدوير الشاشة"
 
 #: ../plugins/media-keys/shortcuts-list.h:90
 msgid "Orientation Lock"
-msgstr ""
+msgstr "قفل التدوير"
 
 #: ../plugins/media-keys/shortcuts-list.h:99
 msgid "Power Off"
@@ -1150,15 +1150,15 @@ msgstr "أخفض الإضاءة"
 
 #: ../plugins/media-keys/shortcuts-list.h:107
 msgid "Keyboard Brightness Up"
-msgstr ""
+msgstr "رفع درجة إضاءة لوحة المفاتيح"
 
 #: ../plugins/media-keys/shortcuts-list.h:108
 msgid "Keyboard Brightness Down"
-msgstr ""
+msgstr "تخفيض درجة إضاءة لوحة المفاتيح"
 
 #: ../plugins/media-keys/shortcuts-list.h:109
 msgid "Keyboard Brightness Toggle"
-msgstr ""
+msgstr "تبديل درجة إضاءة لوحة المفاتيح"
 
 #: ../plugins/media-keys/shortcuts-list.h:110
 msgid "Battery Status"
@@ -1167,11 +1167,11 @@ msgstr "حالة البطارية"
 #: ../plugins/media-keys/shortcuts-list.h:111
 #: ../plugins/media-keys/shortcuts-list.h:112
 msgid "Toggle Airplane Mode"
-msgstr ""
+msgstr "التبديل إلى وضع الطائرة"
 
 #: ../plugins/media-keys/shortcuts-list.h:113
 msgid "Toggle Bluetooth"
-msgstr ""
+msgstr "تبديل وضع البلوتوث"
 
 #: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
 msgid "Mouse"
@@ -1184,11 +1184,11 @@ msgstr "ملحق الفأرة"
 #. Priority=100
 #: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:2
 msgid "Orientation"
-msgstr ""
+msgstr "الاتجاه"
 
 #: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:3
 msgid "Orientation plugin"
-msgstr ""
+msgstr "إضافة الاتجاه"
 
 #: ../plugins/power/gpm-common.c:81
 msgid "Unknown time"
@@ -1532,12 +1532,12 @@ msgstr "أُغلق الغطاء"
 #. TRANSLATORS: this is the sound description
 #: ../plugins/power/gsd-power-manager.c:1864
 msgid "On battery power"
-msgstr ""
+msgstr "عند انخفاض شحن البطارية"
 
 #. TRANSLATORS: this is the sound description
 #: ../plugins/power/gsd-power-manager.c:1869
 msgid "On AC power"
-msgstr ""
+msgstr "عند توصيل التيار"
 
 #: ../plugins/power/gsd-power-manager.c:2061
 msgid "Automatic logout"
@@ -1844,39 +1844,39 @@ msgstr "ملحقة تنبيهات الطباعة"
 #. Priority=100
 #: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:2
 msgid "Rfkill"
-msgstr ""
+msgstr "Rfkill"
 
 #: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:3
 msgid "Rfkill plugin"
-msgstr ""
+msgstr "إضافة Rfkill"
 
 #: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:1
 msgid "Screensaver Proxy"
-msgstr ""
+msgstr "وكيل حافظ الشاشة"
 
 #: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:2
 msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
-msgstr ""
+msgstr "حظر وكيل حافظ شاشة سطح المكتب لجلسة gnome"
 
 #: ../plugins/smartcard/gsd-smartcard-service.c:222
 msgid "User was not logged in with smartcard."
-msgstr ""
+msgstr "لم يُسجل المستخدم الدخول مستخدماً البطاقة الذكية."
 
 #: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:1
 msgid "Smartcard"
-msgstr ""
+msgstr "بطاقة ذكية"
 
 #: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:2
 msgid "Smartcard plugin"
-msgstr ""
+msgstr "إضافة البطاقة الذكية"
 
 #: ../plugins/sound/sound.gnome-settings-plugin.in.h:1
 msgid "Sound"
-msgstr ""
+msgstr "الصوت"
 
 #: ../plugins/sound/sound.gnome-settings-plugin.in.h:2
 msgid "Sound Sample Cache plugin"
-msgstr ""
+msgstr "إضافة التخزين المؤقت لعينة صوت"
 
 #: ../plugins/wacom/gsd-wacom-button-editor.c:51
 msgctxt "Wacom action-type"
@@ -1922,168 +1922,168 @@ msgstr "تمّ"
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
 #: ../plugins/wacom/gsd-wacom-device.c:1028
 msgid "Left Ring"
-msgstr ""
+msgstr "الحلقة اليسرى"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1039
 #, c-format
 msgid "Left Ring Mode #%d"
-msgstr ""
+msgstr "#%d الخاص بوضع الحلقة اليسرى"
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
 #: ../plugins/wacom/gsd-wacom-device.c:1059
 msgid "Right Ring"
-msgstr ""
+msgstr "الحلقة اليمنى"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1070
 #, c-format
 msgid "Right Ring Mode #%d"
-msgstr ""
+msgstr "#%d الخاص بوضع الحلقة اليمنى"
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
 #: ../plugins/wacom/gsd-wacom-device.c:1112
 msgid "Left Touchstrip"
-msgstr ""
+msgstr "شريط اللمس الأيسر"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1123
 #, c-format
 msgid "Left Touchstrip Mode #%d"
-msgstr ""
+msgstr "#%d الخاص بوضع شريط اللمس الأيسر"
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
 #: ../plugins/wacom/gsd-wacom-device.c:1143
 msgid "Right Touchstrip"
-msgstr ""
+msgstr "شريط اللمس الأيمن"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1154
 #, c-format
 msgid "Right Touchstrip Mode #%d"
-msgstr ""
+msgstr "#%d الخاص بوضع شريط اللمس الأيمن"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1180
 #, c-format
 msgid "Left Touchring Mode Switch"
-msgstr ""
+msgstr "التبديل إلى وضع حلقة اللمس اليسرى"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1182
 #, c-format
 msgid "Right Touchring Mode Switch"
-msgstr ""
+msgstr "التبديل إلى وضع حلقة اللمس اليمنى"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1185
 #, c-format
 msgid "Left Touchstrip Mode Switch"
-msgstr ""
+msgstr "التبديل إلى وضع حلقة اللمس اليسرى"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1187
 #, c-format
 msgid "Right Touchstrip Mode Switch"
-msgstr ""
+msgstr "التبديل لوضع شريط اللمس الأيمن"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1192
 #, c-format
 msgid "Mode Switch #%d"
-msgstr ""
+msgstr "التبديل إلى وضع #%d"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1300
 #, c-format
 msgid "Left Button #%d"
-msgstr ""
+msgstr "#%d الخاص بالزر الأيسر"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1303
 #, c-format
 msgid "Right Button #%d"
-msgstr ""
+msgstr "الزر الأيمن #%d"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1306
 #, c-format
 msgid "Top Button #%d"
-msgstr ""
+msgstr "#%d الخاص بالزر الأعلى"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1309
 #, c-format
 msgid "Bottom Button #%d"
-msgstr ""
+msgstr "زر #%d السفلي"
 
 #: ../plugins/wacom/gsd-wacom-key-shortcut-button.c:263
 msgid "New shortcut…"
-msgstr ""
+msgstr "اختصار جديد..."
 
 #: ../plugins/wacom/gsd-wacom-manager.c:1029
 #, c-format
 msgid "The \"%s\" tablet may not work as expected."
-msgstr ""
+msgstr "قد لا يعمل جهاز \"%s\" اللوحي كما هو متوقع."
 
 #: ../plugins/wacom/gsd-wacom-manager.c:1030
 msgid "Unknown Tablet Connected"
-msgstr ""
+msgstr "تم توصيل جهاز لوحي غير معروف"
 
 #: ../plugins/wacom/gsd-wacom-manager.c:1034
 msgid "Wacom Settings"
-msgstr ""
+msgstr "إعدادات Wacom"
 
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1073
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1093
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1104
 msgctxt "Action type"
 msgid "None"
-msgstr ""
+msgstr "لا شيء"
 
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1078
 #, c-format
 msgctxt "Action type"
 msgid "Send Keystroke %s"
-msgstr ""
+msgstr "إرسال ضغطة مفتاح %s"
 
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1137
 #, c-format
 msgid "Mode %d: %s"
-msgstr ""
+msgstr "وضع %d: %s"
 
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1347
 msgid "(press any key to exit)"
-msgstr ""
+msgstr "(المس أي مفتاح للخروج)"
 
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1356
 msgid "Push a button to configure"
-msgstr ""
+msgstr "اضغط زر ما لتهيئته"
 
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1356
 msgid "(Esc to cancel)"
-msgstr ""
+msgstr "(Esc للإلغاء)"
 
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1983
 msgid "Edit"
-msgstr ""
+msgstr "تحرير"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the LED setting for a Wacom tablet
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:5
 msgid "Modify the lit LED for a Wacom tablet"
-msgstr ""
+msgstr "تعديل إضاءة LED الخاصة بجهاز Wacom اللوحي"
 
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:6
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
-msgstr ""
+msgstr "مطلوب الحصول على تصريح بتعديل إضاءة LED الخاصة بأجهزة Wacom اللوحية"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the OLED images for a Wacom tablet
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:11
 msgid "Modify the OLED image for a Wacom tablet"
-msgstr ""
+msgstr "تعديل صورة OLED الخاصة بجهاز Wacom اللوحي"
 
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:12
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
-msgstr ""
+msgstr "مطلوب الحصول على تصريح لتعديل صورة OLED الخاصة بجهاز Wacom اللوحي"
 
 #: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:1
 msgid "Wacom"
-msgstr ""
+msgstr "Wacom"
 
 #: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:2
 msgid "Wacom plugin"
-msgstr ""
+msgstr "إضافة Wacom"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:965
 #, c-format
