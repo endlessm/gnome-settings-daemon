@@ -1380,15 +1380,20 @@ msgstr "Greffon factice"
 msgid "Low Disk Space"
 msgstr "Espace disque faible"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:615
+#: ../plugins/housekeeping/gsd-disk-space.c:639
+msgid ""
+"Your computer is out of space.  To free up space, you can delete old files "
+"and empty the trash from the \"Documents\" file manager, or delete apps you "
+"may not need from the App Center."
+msgstr "Votre ordinateur n'a plus d'espace disponible. Pour libérer de l'espace, vous pouvez supprimer les fichiers devenus obsolètes et vider la corbeille depuis le gestionnaire de fichiers « Documents », ou effacer les applications dont vous n'avez pas l'utilité depuis le gestionnaire des applications (App Center)."
+
+#: ../plugins/housekeeping/gsd-disk-space.c:665
 #, c-format
 msgid ""
 "Your computer has only %s of space available.  To free up space, you can "
-"delete old files and empty the trash from the \"Documents\" file manager, or "
-"delete apps you may not need from the App Center."
-msgstr ""
-"Cet ordinateur n'a plus que %s d'espace disque disponible. Vous pouvez "
-"libérer de l'espace en vidant la corbeille."
+"delete old files and empty the trash from the \"Documents\" file manager, or"
+" delete apps you may not need from the App Center."
+msgstr "Votre ordinateur n'a plus que %s d'espace disponible. Pour libérer de l'espace, vous pouvez supprimer les fichiers devenus obsolètes et vider la corbeille depuis le gestionnaire de fichiers « Documents », ou effacer les applications dont vous n'avez pas l'utilité depuis le gestionnaire des applications (App Center)."
 
 #: ../plugins/housekeeping/gsd-disk-space.c:629
 msgid "Disk space"

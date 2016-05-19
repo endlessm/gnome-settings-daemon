@@ -1360,16 +1360,20 @@ msgstr "Complemento de prueba"
 msgid "Low Disk Space"
 msgstr "Poco espacio en disco"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:615
+#: ../plugins/housekeeping/gsd-disk-space.c:639
+msgid ""
+"Your computer is out of space.  To free up space, you can delete old files "
+"and empty the trash from the \"Documents\" file manager, or delete apps you "
+"may not need from the App Center."
+msgstr "Tu disco duro ya no tiene espacio libre. Para hacer más espacio, puedes eliminar archivos desde la papelera en tus «Documentos», o puedes eliminar programas que no uses frecuentemente desde el Centro de programas."
+
+#: ../plugins/housekeeping/gsd-disk-space.c:665
 #, c-format
 msgid ""
 "Your computer has only %s of space available.  To free up space, you can "
-"delete old files and empty the trash from the \"Documents\" file manager, or "
-"delete apps you may not need from the App Center."
-msgstr ""
-"Tu disco duro tiene sólo %s de espacio libre.  Para hacer más espacio, "
-"puedes eliminar archivos desde la papelera en tus «Documentos», o puedes "
-"eliminar programas que no uses frecuentemente desde el Centro de Programas."
+"delete old files and empty the trash from the \"Documents\" file manager, or"
+" delete apps you may not need from the App Center."
+msgstr "Tu disco duro tiene sólo %s de espacio libre. Para hacer más espacio, puedes eliminar archivos desde la papelera en tus «Documentos», o puedes eliminar programas que no uses frecuentemente desde el Centro de programas."
 
 #: ../plugins/housekeeping/gsd-disk-space.c:629
 msgid "Disk space"
