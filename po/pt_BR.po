@@ -19,6 +19,7 @@
 # Og Maciel <ogmaciel@gnome.org>, 2007,2011
 # Rafael Ferreira <rafael.f.f1@gmail.com>, 2012-2013
 # Raul Pereira <contato@raulpereira.com>, 2007
+# Roddy Shuler <roddy@endlessm.com>, 2016
 # Sandro Nunes Henrique <sandro@conectiva.com.br>, 1999
 # Tiago Cardoso Menezes <zion@via-rs.net>, 2003
 # Vladimir Melo <vmelo@gnome.org>, 2009
@@ -28,7 +29,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-16 22:13-0700\n"
-"PO-Revision-Date: 2016-05-18 19:43+0000\n"
+"PO-Revision-Date: 2016-05-19 01:07+0000\n"
 "Last-Translator: Mariana Barbosa <mari@endlessm.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +56,7 @@ msgstr "Defina isto como \"none\", \"lock-screen\", ou \"force-logout\". A açã
 msgid ""
 "Highlights the current location of the pointer when the Control key is "
 "pressed and released."
-msgstr "Realça a localização atual do ponteiro quando a tecla de controle é pressiona e solta."
+msgstr "Realça a localização atual do ponteiro quando a tecla de controle é pressionada e solta."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:4
 msgid "Double click time"
@@ -85,7 +86,7 @@ msgstr "Comando customizado de hotplug de dispositivo"
 msgid ""
 "Command to be run when a device is added or removed. An exit value of 1 "
 "means that the device will not be handled further by gnome-settings-daemon."
-msgstr "Comando para ser executado quando um dispositivo é adicionado ou removido. Um valor de saída de 1 significa que o dispositivo não via ser manipulado posteriormente pelo gnome-settings-daemon."
+msgstr "Comando para ser executado quando um dispositivo é adicionado ou removido. Um valor de saída de 1 significa que o dispositivo não vai ser manipulado posteriormente pelo gnome-settings-daemon."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:1
@@ -175,7 +176,7 @@ msgstr "Taxa de proporção do tablet Wacom"
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
-msgstr "Habilite isso para restringir a área do tablet Wacom para ajustar à proporção da saída."
+msgstr "Habilite isto para restringir a área do tablet Wacom para ajustar à proporção da saída."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:11
 msgid "Wacom tablet rotation"
@@ -283,7 +284,7 @@ msgstr "Rótulo vai ser renderizado para a tela OLED pertencente a este botão"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:5
 msgid "The duration a display profile is valid"
-msgstr "A duração de um perfil de exibição é válido"
+msgstr "A duração de um perfil de exibição é válida"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:6
 msgid ""
@@ -303,7 +304,7 @@ msgstr "Este é o número de dias após o qual o perfil da cor de impressora é 
 
 #: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:1
 msgid "List of plugins that are allowed to be loaded"
-msgstr "Lista de plug-ins que estão permitidos de serem carregados"
+msgstr "Lista de plug-ins permitidos para serem carregados"
 
 #: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:2
 msgid ""
@@ -694,7 +695,7 @@ msgid ""
 "(extend the desktop in recent versions). The default, 'follow-lid', will "
 "choose between 'do-nothing' and 'dock' depending on whether the lid is "
 "(respectively) open or closed."
-msgstr "\"clone\" irá exibir a mesma coisa em todos os monitores \"dock\" irá alternar o monitor interno, \"do-nothing\" irá usar o comportamento padrão do Xorg (estende o ambiente de trabalho em versões recentes). O padrão, \"follow-lid\", vai escolher entre \"do-nothing\" e \"dock\", dependendo de se a tampa está (respectivamente) aberta ou fechada."
+msgstr "\"clone\" irá exibir a mesma coisa em todos os monitores, \"dock\" irá alternar o monitor interno, \"do-nothing\" irá usar o comportamento padrão do Xorg (estende o ambiente de trabalho em versões recentes). O padrão, \"follow-lid\", vai escolher entre \"do-nothing\" e \"dock\", dependendo se a tampa está (respectivamente) aberta ou fechada."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
 msgid "Antialiasing"
@@ -955,7 +956,7 @@ msgid ""
 "Your computer is out of space.  To free up space, you can delete old files "
 "and empty the trash from the \"Documents\" file manager, or delete apps you "
 "may not need from the App Center."
-msgstr "O seu computador está sem capacidade. Para liberar espaço, você pode apagar arquivos antigos ou esvaziar a lata de lixo no gerenciador de \"Documentos\", ou apagar aplicativos que você não costuma usar em \"Mais Programas\""
+msgstr "O computador está sem espaço suficiente em disco. Para liberar espaço, você pode apagar arquivos antigos ou esvaziar a lixeira no gerenciador de \"Documentos\", ou apagar aplicativos que você não costuma usar em \"Mais Programas\""
 
 #: ../plugins/housekeeping/gsd-disk-space.c:665
 #, c-format
@@ -963,7 +964,7 @@ msgid ""
 "Your computer has only %s of space available.  To free up space, you can "
 "delete old files and empty the trash from the \"Documents\" file manager, or"
 " delete apps you may not need from the App Center."
-msgstr "Seu computador tem apenas %s de capacidade disponível. Para liberar espaço, você pode apagar arquivos antigos ou esvaziar a lata de lixo no gerenciador de \"Documentos\", ou apagar aplicativos que você não costuma usar em \"Mais Programas\""
+msgstr "O computador tem apenas %s de espaço restante em disco. Para liberar espaço, você pode apagar arquivos antigos ou esvaziar a lixeira no gerenciador de \"Documentos\", ou apagar aplicativos que você não costuma usar em \"Mais Programas\""
 
 #: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:1
 msgid "Housekeeping"
