@@ -1,3 +1,46 @@
+gnome-settings-daemon (3.20.1-2) unstable; urgency=medium
+
+  * debian/gnome-settings-daemon.install,
+    debian/gnome-settings-daemon.maintscript: Move gnome-settings-daemon.desktop
+    back to etc/xdg/autostart. We are trying to remove the non-standard
+    /usr/share/gnome/autostart/ path.
+  * debian/control.in: Bump gsettings-desktop-schemas (build-)dependency to
+    3.20, gnome-settings-daemon needs the always-show-text-caret key
+
+ -- Laurent Bigonville <bigon@debian.org>  Sat, 04 Jun 2016 23:09:35 +0200
+
+gnome-settings-daemon (3.20.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Depends on gsettings-desktop-schemas to (>= 3.19.3) for the mouse
+    plugin changes.
+  * Upload to unstable.
+
+ -- Michael Biebl <biebl@debian.org>  Sun, 17 Apr 2016 23:20:38 +0200
+
+gnome-settings-daemon (3.20.0-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Wed, 30 Mar 2016 19:37:44 +0200
+
+gnome-settings-daemon (3.19.92-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update build-dependencies according to configure.ac changes:
+    - Add libasound2-dev [linux-any] for alsa.pc check
+    - Replace libnm-glib-dev and libnm-util-dev with
+      libnm-dev (>= 1.0) [linux-any]
+    - Bump gsettings-desktop-schemas-dev (>= 3.19.3)
+    - Replace geoclue-2.0 with libgeoclue-2-dev (>= 2.3.1)
+  * Add --disable-alsa configure flag on non-linux.
+  * Bump Standards-Version to 3.9.7
+  * Stop ship input-devices-example.sh
+    (and usr/share/gnome-settings-daemon-* directory)
+    - upstream removed support for non-libinput mouse configurations
+
+ -- Andreas Henriksson <andreas@fatal.se>  Thu, 17 Mar 2016 12:24:55 +0100
+
 gnome-settings-daemon (3.18.2-1) unstable; urgency=medium
 
   * New upstream release.
