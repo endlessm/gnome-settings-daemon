@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-29 23:08-0700\n"
-"PO-Revision-Date: 2016-06-30 06:11+0000\n"
+"PO-Revision-Date: 2016-07-04 06:07+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Thai (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/th/)\n"
 "MIME-Version: 1.0\n"
@@ -238,7 +238,7 @@ msgstr "ปุ่มลัดแป้นพิมพ์ที่จะสร้
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:30
 msgid "Key combinations for a touchring or touchstrip custom action"
-msgstr ""
+msgstr "ชุดคำสั่งของปุ่มสำหรับคำสั่งแบบกำหนดเองของ touchring หรือ touchstrip"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:31
 msgid ""
@@ -250,11 +250,11 @@ msgstr "ปุ่มลัดแป้นพิมพ์ที่จะสร้
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:34
 msgid "Button label for OLED display."
-msgstr ""
+msgstr "ป้ายปุ่มสำหรับการแสดงผล OLED "
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:35
 msgid "Label will be rendered to OLED display belonging to the button"
-msgstr ""
+msgstr "ป้ายจะประมวลผลจับคู่กับการแสดงผล OLED ที่ตรงกับปุ่ม"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:5
 msgid "The duration a display profile is valid"
@@ -278,14 +278,14 @@ msgstr "จำนวนวันที่จะใช้โพรไฟล์ส
 
 #: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:1
 msgid "List of plugins that are allowed to be loaded"
-msgstr ""
+msgstr "รายชื่อปลั๊กอินที่ได้รับอนุญาตให้โหลด"
 
 #: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:2
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: 'all'). The plugins still need to be marked as active to get "
 "loaded. This is only evaluated on startup."
-msgstr ""
+msgstr "รายการข้อความอธิบายปลั๊กอินที่อนุญาตให้โหลดได้ (ตัวเลือกอัตโนมัติ: 'ทั้งหมด')  ปลั๊กอินยังคงต้องทำเครื่องหมายทำงานเพื่อโหลด  ค่านี้จะประเมินผลเมื่อเริ่มงานเครื่อง"
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:3
 msgid "Mount paths to ignore"
@@ -353,11 +353,11 @@ msgstr "ปุ่มลัดสำหรับเรียกเครื่อ
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:7
 msgid "Launch settings"
-msgstr ""
+msgstr "การตั้งค่าการเปิดใช้งาน"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:8
 msgid "Binding to launch GNOME settings."
-msgstr ""
+msgstr "ตกลงเพื่อเปิดการตั้งค่า GNOME "
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:9
 msgid "Launch email client"
@@ -537,7 +537,7 @@ msgstr "ปุ่มลัดสำหรับคัดลอกภาพพื
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:55
 msgid "Record a short video of the screen"
-msgstr ""
+msgstr "บันทึกวิดีโอหน้าจอแบบสั้น"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:56
 msgid "Launch web browser"
@@ -637,13 +637,13 @@ msgstr "คำสั่งที่จะเรียกเมื่อกดป
 
 #: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:5
 msgid "On which connections the service is enabled"
-msgstr ""
+msgstr "บนการเชื่อมต่อที่มีการเปิดใช้บริการ"
 
 #: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:6
 msgid ""
 "The list of NetworkManager connections (each one represented with its UUID) "
 "on which this service is enabled and started."
-msgstr ""
+msgstr "รายการของการเชื่อมต่อ NetworkManager (แต่ละอันแทนด้วย UUID) ที่บริการนี้เปิดใช้งานและเริ่มต้นอยู่"
 
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:3
 msgid "File for default configuration for RandR"
@@ -669,7 +669,7 @@ msgid ""
 "(extend the desktop in recent versions). The default, 'follow-lid', will "
 "choose between 'do-nothing' and 'dock' depending on whether the lid is "
 "(respectively) open or closed."
-msgstr ""
+msgstr "\"จำลอง\" จะแสดงภาพเดียวกันกับบนหน้าจอ, \"ด็อค\" จะปิดหน้าจอด้านใน, \"ไม่ทำอะไร\" จะใช้งานพฤติกรรมมาตรฐานของ Xorg (ขยายหน้าจอในเวอร์ชั่นปัจจุบัน)  ค่ามาตรฐาน \"ขึ้นอยู่กับฝา\" จะเลือกระหว่าง \"ไม่ทำอะไร\" กับ \"ด็อค\" ขึ้นอยู่กับว่าฝาเปิดหรือปิด (ตามลำดับ)"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
 msgid "Antialiasing"
@@ -698,7 +698,7 @@ msgid ""
 "both the X and the Y axis (except for .otf: Y-only). This can lead to "
 "distortion and/or inconsistent rendering depending on the quality of the "
 "font, the font format and the state of FreeType's font engines."
-msgstr ""
+msgstr "ประเภทของ Hinting สำหรับใช้เมื่อแสดงแบบอักษร ค่าที่เป็นไปได้ได้แก่ \"none\" ซึ่งหมายถึงไม่มี Hinting และ \"slight\" ซึ่งหมายถึงให้จัดอักษรตามแกน Y เท่านั้น ดังเช่น ClearType และ DirectWrite ของ Microsoft และระบบแสดงแบบอักษรที่เป็นกรรมสิทธิ์ของ Adobe ไม่ใช้ Hinting ที่อยู่ในแบบอักษร แต่สร้าง Hint ขึ้นตามอัลกอริทึม ใช้ใน Ubuntu โดยค่าดีฟอลต์ ขอแนะนำ ความหมายของ \"medium\" และ \"full\" ขึ้นอยู่กับรูปแบบของแบบอักษร (.ttf, .otf, .pfa/.pfb) และเวอร์ชันของ FreeType ที่ติดตั้ง รูปแบบของแบบอักษรเหล่านี้มักจะพยายามจัด Glyph ทั้งตามแกน X และ Y (ยกเว้น .otf ที่จะจัดตามแกน Y เท่านั้น) ซึ่งอาจทำให้เกิดการแสดงผลแบบบิดเบี้ยวและ/หรือไม่เสมอต้นเสมอปลาย ทั้งนี้ขึ้นอยู่กับคุณภาพของแบบอักษร รูปแบบของแบบอักษร และสถานะของระบบแบบอักษรของ FreeType"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:9
 msgid "RGBA order"
@@ -738,7 +738,7 @@ msgstr "เปิดใช้โค้ดส่วนดีบั๊ก"
 
 #: ../gnome-settings-daemon/main.c:54
 msgid "Replace existing daemon"
-msgstr ""
+msgstr "แทนที่เดมอนที่มีอยู่แล้ว"
 
 #: ../gnome-settings-daemon/main.c:55
 msgid "Exit after a time (for debugging)"
@@ -878,30 +878,30 @@ msgstr "เอาอุปกรณ์เทียบมาตรฐานสี
 #. Priority=100
 #: ../plugins/datetime/datetime.gnome-settings-plugin.in.h:2
 msgid "Date and Time"
-msgstr ""
+msgstr "วันและเวลา"
 
 #: ../plugins/datetime/datetime.gnome-settings-plugin.in.h:3
 msgid "Automatically update timezone"
-msgstr ""
+msgstr "อัพเดตเขตเวลาอัตโนมัติ"
 
 #. Translators: UTC here means the Coordinated Universal Time.
 #. * %:::z will be replaced by the offset from UTC e.g. UTC+02
 #: ../plugins/datetime/gsd-datetime-manager.c:88
 msgid "UTC%:::z"
-msgstr ""
+msgstr "UTC%:::z"
 
 #: ../plugins/datetime/gsd-datetime-manager.c:92
 #, c-format
 msgid "Time Zone Updated to %s (%s)"
-msgstr ""
+msgstr "อัพเดตเขตเวลาเป็น %s (%s)"
 
 #: ../plugins/datetime/gsd-datetime-manager.c:108
 msgid "Settings"
-msgstr ""
+msgstr "การตั้งค่า"
 
 #: ../plugins/datetime/gsd-datetime-manager.c:118
 msgid "Date & Time Settings"
-msgstr ""
+msgstr "การตั้งค่าวันและเวลา"
 
 #: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:1
 msgid "Dummy"
@@ -937,7 +937,7 @@ msgid ""
 "Your computer is out of space.  To free up space, you can delete old files "
 "and empty the trash from the \"Documents\" file manager, or delete apps you "
 "may not need from the App Center."
-msgstr ""
+msgstr "คอมพิวเตอร์ของคุณมีพื้นที่ไม่เพียงพอ  เพื่อเพิ่มพื้นที่ คุณสามารถลบไฟล์เก่าและล้างไฟล์ขยะจากตัวจัดการไฟล์ \"เอกสาร\" หรือลบแอพที่คุณไม่ต้องการจาก App Center"
 
 #: ../plugins/housekeeping/gsd-disk-space.c:665
 #, c-format
@@ -945,21 +945,21 @@ msgid ""
 "Your computer has only %s of space available.  To free up space, you can "
 "delete old files and empty the trash from the \"Documents\" file manager, or"
 " delete apps you may not need from the App Center."
-msgstr ""
+msgstr "คอมพิวเตอร์ของคุณมีพื้นที่เพียง %s เพื่อเพิ่มพื้นที่ คุณสามารถลบไฟล์เก่าและล้างไฟล์ขยะจากตัวจัดการไฟล์ \"เอกสาร\" หรือลบแอพที่คุณไม่ต้องการจาก App Center"
 
 #: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:1
 msgid "Housekeeping"
-msgstr ""
+msgstr "งานดูแลทั่วไป "
 
 #: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:2
 msgid ""
 "Automatically prunes thumbnail caches and other transient files, and warns "
 "about low disk space"
-msgstr ""
+msgstr "ตรวจสอบแคชทัมป์เนลและไฟล์ชั่วคราวอัตโนมัติ และเตือนเมื่อพื้นที่ดิสก์เหลือน้อย"
 
 #: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
 msgid "Keyboard"
-msgstr ""
+msgstr "แป้นพิมพ์"
 
 #: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:2
 msgid "Keyboard plugin"
@@ -967,43 +967,43 @@ msgstr "ปลั๊กอินจัดการแป้นพิมพ์"
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:2120
 msgid "Bluetooth disabled"
-msgstr ""
+msgstr "ปิดใช้งาน Bluetooth"
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:2123
 msgid "Bluetooth enabled"
-msgstr ""
+msgstr "เปิดใช้งานบลูทูธ"
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:2127
 msgid "Airplane mode enabled"
-msgstr ""
+msgstr "เปิดใช้งานโหมดการบิน"
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:2130
 msgid "Airplane mode disabled"
-msgstr ""
+msgstr "ปิดโหมดเครื่องบิน"
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:2158
 msgid "Hardware Airplane Mode"
-msgstr ""
+msgstr "ฮาร์ดแวร์โหมดเครื่องบิน"
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:2218
 msgid "Screencast from %d %t.webm"
-msgstr ""
+msgstr "Screencast จาก %d %t.webm"
 
 #: ../plugins/media-keys/gsd-screenshot-utils.c:82
 msgid "Unable to capture a screenshot"
-msgstr ""
+msgstr "ไม่สามารถบันทึกภาพหน้าจอได้"
 
 #: ../plugins/media-keys/gsd-screenshot-utils.c:113
 #: ../plugins/media-keys/gsd-screenshot-utils.c:155
 msgid "Screenshot taken"
-msgstr ""
+msgstr "ถ่ายภาพหน้าจอแล้ว"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot
 #: ../plugins/media-keys/gsd-screenshot-utils.c:306
 #, c-format
 msgid "Screenshot from %s"
-msgstr ""
+msgstr "ภาพหน้าจอจาก %s"
 
 #. translators:
 #. * The device has been disabled
@@ -1042,124 +1042,124 @@ msgstr "ปลั๊กอินจัดการปุ่มสั่งกา
 
 #: ../plugins/media-keys/shortcuts-list.h:45
 msgid "Touchpad toggle"
-msgstr ""
+msgstr "ทัชแพดสวิตซ์เปิดปิด"
 
 #: ../plugins/media-keys/shortcuts-list.h:46
 msgid "Touchpad On"
-msgstr ""
+msgstr "ทัชแพดเปิดอยู่"
 
 #: ../plugins/media-keys/shortcuts-list.h:47
 msgid "Touchpad Off"
-msgstr ""
+msgstr "ปิดทัชแพด"
 
 #: ../plugins/media-keys/shortcuts-list.h:51
 #: ../plugins/media-keys/shortcuts-list.h:52
 msgid "Microphone Mute"
-msgstr ""
+msgstr "ปิดเสียงไมโครโฟน"
 
 #: ../plugins/media-keys/shortcuts-list.h:53
 msgid "Quiet Volume Mute"
-msgstr ""
+msgstr "ปิดเสียง"
 
 #: ../plugins/media-keys/shortcuts-list.h:54
 msgid "Quiet Volume Down"
-msgstr ""
+msgstr "ลดความดัง"
 
 #: ../plugins/media-keys/shortcuts-list.h:55
 msgid "Quiet Volume Up"
-msgstr ""
+msgstr "เพิ่มเสียงแบบเงียบ"
 
 #: ../plugins/media-keys/shortcuts-list.h:65
 msgid "Lock Screen"
-msgstr ""
+msgstr "หน้าจอล็อค"
 
 #: ../plugins/media-keys/shortcuts-list.h:81
 msgid "Rewind"
-msgstr ""
+msgstr "ย้อนกลับ"
 
 #: ../plugins/media-keys/shortcuts-list.h:82
 msgid "Forward"
-msgstr ""
+msgstr "ส่งต่อ"
 
 #: ../plugins/media-keys/shortcuts-list.h:83
 msgid "Repeat"
-msgstr ""
+msgstr "ทำซ้ำ"
 
 #: ../plugins/media-keys/shortcuts-list.h:84
 msgid "Random Play"
-msgstr ""
+msgstr "เล่นแบบสุ่ม"
 
 #. Key code of the XF86Display key (Fn-F7 on Thinkpads, Fn-F4 on HP machines,
 #. etc.)
 #: ../plugins/media-keys/shortcuts-list.h:85
 #: ../plugins/media-keys/shortcuts-list.h:87
 msgid "Video Out"
-msgstr ""
+msgstr "ช่องวิดีโอออก"
 
 #. Key code of the XF86RotateWindows key (present on some tablets)
 #: ../plugins/media-keys/shortcuts-list.h:89
 msgid "Rotate Screen"
-msgstr ""
+msgstr "หมุนหน้าจอ"
 
 #: ../plugins/media-keys/shortcuts-list.h:90
 msgid "Orientation Lock"
-msgstr ""
+msgstr "ล็อคการหมุน"
 
 #: ../plugins/media-keys/shortcuts-list.h:99
 msgid "Power Off"
-msgstr ""
+msgstr "ปิดเครื่อง"
 
 #. the kernel / Xorg names really are like this...
 #. translators: "Sleep" means putting the machine to sleep, either through
 #. hibernate or suspend
 #: ../plugins/media-keys/shortcuts-list.h:102
 msgid "Sleep"
-msgstr ""
+msgstr "นอน"
 
 #: ../plugins/media-keys/shortcuts-list.h:103
 msgid "Suspend"
-msgstr ""
+msgstr "ระงับ"
 
 #: ../plugins/media-keys/shortcuts-list.h:104
 msgid "Hibernate"
-msgstr ""
+msgstr "จำศีล"
 
 #: ../plugins/media-keys/shortcuts-list.h:105
 msgid "Brightness Up"
-msgstr ""
+msgstr "เพิ่มความสว่าง"
 
 #: ../plugins/media-keys/shortcuts-list.h:106
 msgid "Brightness Down"
-msgstr ""
+msgstr "ลดความสว่างลง"
 
 #: ../plugins/media-keys/shortcuts-list.h:107
 msgid "Keyboard Brightness Up"
-msgstr ""
+msgstr "เพิ่มความสว่างของคีย์บอร์ด"
 
 #: ../plugins/media-keys/shortcuts-list.h:108
 msgid "Keyboard Brightness Down"
-msgstr ""
+msgstr "ลดความสว่างของคีย์บอร์ด"
 
 #: ../plugins/media-keys/shortcuts-list.h:109
 msgid "Keyboard Brightness Toggle"
-msgstr ""
+msgstr "ท็อกเกิลความสว่างแป้นพิมพ์"
 
 #: ../plugins/media-keys/shortcuts-list.h:110
 msgid "Battery Status"
-msgstr ""
+msgstr "สถานะแบตเตอรี่"
 
 #: ../plugins/media-keys/shortcuts-list.h:111
 #: ../plugins/media-keys/shortcuts-list.h:112
 msgid "Toggle Airplane Mode"
-msgstr ""
+msgstr "สวิตซ์เปิดปิดโหมดการบิน"
 
 #: ../plugins/media-keys/shortcuts-list.h:113
 msgid "Toggle Bluetooth"
-msgstr ""
+msgstr "บลูทูธท็อกเกิล"
 
 #: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
 msgid "Mouse"
-msgstr ""
+msgstr "เมาส์"
 
 #: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:2
 msgid "Mouse plugin"
@@ -1168,11 +1168,11 @@ msgstr "ปลั๊กอินจัดการเมาส์"
 #. Priority=100
 #: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:2
 msgid "Orientation"
-msgstr ""
+msgstr "ทิศทาง"
 
 #: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:3
 msgid "Orientation plugin"
-msgstr ""
+msgstr "ปลั๊กอินการหมุน"
 
 #: ../plugins/power/gpm-common.c:81
 msgid "Unknown time"
@@ -1232,7 +1232,7 @@ msgstr "UPS มีพลังงานสำรองเหลือ %s"
 
 #: ../plugins/power/gsd-power-manager.c:359
 msgid "Unknown amount of UPS backup power remaining"
-msgstr ""
+msgstr "ยังคงเหลือพลังงาน UPS สำรองไม่ทราบจำนวน"
 
 #. TRANSLATORS: laptop battery low, and we only have one battery
 #: ../plugins/power/gsd-power-manager.c:434
@@ -1492,33 +1492,33 @@ msgstr "ฝาเครื่องปิด"
 #. TRANSLATORS: this is the sound description
 #: ../plugins/power/gsd-power-manager.c:1856
 msgid "On battery power"
-msgstr ""
+msgstr "ใช้พลังงานแบตเตอรี่"
 
 #. TRANSLATORS: this is the sound description
 #: ../plugins/power/gsd-power-manager.c:1861
 msgid "On AC power"
-msgstr ""
+msgstr "ใช้พลังงาน AC"
 
 #: ../plugins/power/gsd-power-manager.c:2053
 msgid "Automatic logout"
-msgstr ""
+msgstr "ออกจากระบบอัตโนมัติ"
 
 #: ../plugins/power/gsd-power-manager.c:2053
 msgid "You will soon log out because of inactivity."
-msgstr ""
+msgstr "คุณจะออกจากระบบเร็วๆ นี้เนื่องจากไม่มีการใช้งาน"
 
 #: ../plugins/power/gsd-power-manager.c:2058
 msgid "Automatic suspend"
-msgstr ""
+msgstr "เลื่อนออกไปอัตโนมัติ"
 
 #: ../plugins/power/gsd-power-manager.c:2058
 #: ../plugins/power/gsd-power-manager.c:2063
 msgid "Computer will suspend very soon because of inactivity."
-msgstr ""
+msgstr "คอมพิวเตอร์จะถูกระงับทันทีเมื่อไม่มีการใช้งาน"
 
 #: ../plugins/power/gsd-power-manager.c:2063
 msgid "Automatic hibernation"
-msgstr ""
+msgstr "พักเครื่องอัตโนมัติ"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
@@ -1804,85 +1804,85 @@ msgstr "ปลั๊กอินแจ้งเหตุเครื่องพ
 #. Priority=100
 #: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:2
 msgid "Rfkill"
-msgstr ""
+msgstr "Rfkill"
 
 #: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:3
 msgid "Rfkill plugin"
-msgstr ""
+msgstr "ปลั๊กอิน Rfkill"
 
 #: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:1
 msgid "Screensaver Proxy"
-msgstr ""
+msgstr "Screensaver Proxy"
 
 #: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:2
 msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
-msgstr ""
+msgstr "สกรีนเซฟเวอร์ Proxy FreeDesktop ขัดขวางนอม-เซสชั่น"
 
 #: ../plugins/smartcard/gsd-smartcard-service.c:222
 msgid "User was not logged in with smartcard."
-msgstr ""
+msgstr "ผู้ใช้ไม่ได้เข้าสู่ระบบด้วยสมาร์ทการ์ด"
 
 #: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:1
 msgid "Smartcard"
-msgstr ""
+msgstr "สมาร์ทการ์ด"
 
 #: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:2
 msgid "Smartcard plugin"
-msgstr ""
+msgstr "ปลั๊กอินสมาร์ทการ์ด"
 
 #: ../plugins/sound/sound.gnome-settings-plugin.in.h:1
 msgid "Sound"
-msgstr ""
+msgstr "เสียง"
 
 #: ../plugins/sound/sound.gnome-settings-plugin.in.h:2
 msgid "Sound Sample Cache plugin"
-msgstr ""
+msgstr "ปลั๊กอิน Sound Sample Cache"
 
 #: ../plugins/wacom/gsd-wacom-button-editor.c:51
 msgctxt "Wacom action-type"
 msgid "None"
-msgstr ""
+msgstr "ไม่มี"
 
 #: ../plugins/wacom/gsd-wacom-button-editor.c:52
 msgctxt "Wacom action-type"
 msgid "Send Keystroke"
-msgstr ""
+msgstr "แป้นพิมพ์ส่ง"
 
 #: ../plugins/wacom/gsd-wacom-button-editor.c:53
 msgctxt "Wacom action-type"
 msgid "Switch Monitor"
-msgstr ""
+msgstr "สลับหน้าจอ"
 
 #: ../plugins/wacom/gsd-wacom-button-editor.c:54
 msgctxt "Wacom action-type"
 msgid "Show On-Screen Help"
-msgstr ""
+msgstr "แสดงความช่วยเหลือบนหน้าจอ"
 
 #: ../plugins/wacom/gsd-wacom-button-editor.c:154
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1098
 msgctxt "Action type"
 msgid "Show On-Screen Help"
-msgstr ""
+msgstr "แสดงความช่วยเหลือบนหน้าจอ"
 
 #: ../plugins/wacom/gsd-wacom-button-editor.c:157
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1101
 msgctxt "Action type"
 msgid "Switch Monitor"
-msgstr ""
+msgstr "สลับเครื่องควบคุม"
 
 #: ../plugins/wacom/gsd-wacom-button-editor.c:201
 msgctxt "keyboard shortcut"
 msgid "None"
-msgstr ""
+msgstr "ไม่มี"
 
 #: ../plugins/wacom/gsd-wacom-button-editor.c:487
 msgid "Done"
-msgstr ""
+msgstr "เสร็จสิ้น"
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
 #: ../plugins/wacom/gsd-wacom-device.c:1028
 msgid "Left Ring"
-msgstr ""
+msgstr "วงซ้าย"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1039
 #, c-format
@@ -1892,7 +1892,7 @@ msgstr "โหมดวงแหวนสัมผัสซ้าย #%d"
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
 #: ../plugins/wacom/gsd-wacom-device.c:1059
 msgid "Right Ring"
-msgstr ""
+msgstr "วงแหวนด้านขวา"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1070
 #, c-format
@@ -1902,7 +1902,7 @@ msgstr "โหมดวงแหวนสัมผัสขวา #%d"
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
 #: ../plugins/wacom/gsd-wacom-device.c:1112
 msgid "Left Touchstrip"
-msgstr ""
+msgstr "Touchstrip ซ้าย"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1123
 #, c-format
@@ -1912,7 +1912,7 @@ msgstr "โหมดแถบสัมผัสซ้าย #%d"
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
 #: ../plugins/wacom/gsd-wacom-device.c:1143
 msgid "Right Touchstrip"
-msgstr ""
+msgstr "แถบสัมผัสด้านขวา"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1154
 #, c-format
@@ -1966,54 +1966,54 @@ msgstr "ปุ่มล่าง #%d"
 
 #: ../plugins/wacom/gsd-wacom-key-shortcut-button.c:263
 msgid "New shortcut…"
-msgstr ""
+msgstr "ปุ่มลัดใหม่..."
 
 #: ../plugins/wacom/gsd-wacom-manager.c:1037
 #, c-format
 msgid "The \"%s\" tablet may not work as expected."
-msgstr ""
+msgstr "แท็บเล็ต \"%s\" อาจไม่ทำงานตามที่ต้องการ"
 
 #: ../plugins/wacom/gsd-wacom-manager.c:1038
 msgid "Unknown Tablet Connected"
-msgstr ""
+msgstr "เชื่อมต่อกับแท็บเล็ตไม่ทราบที่มาแล้ว"
 
 #: ../plugins/wacom/gsd-wacom-manager.c:1042
 msgid "Wacom Settings"
-msgstr ""
+msgstr "การตั้งค่า Wacom"
 
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1075
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1095
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1106
 msgctxt "Action type"
 msgid "None"
-msgstr ""
+msgstr "ไม่มี"
 
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1080
 #, c-format
 msgctxt "Action type"
 msgid "Send Keystroke %s"
-msgstr ""
+msgstr "ส่งคีย์สโตรก %s"
 
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1139
 #, c-format
 msgid "Mode %d: %s"
-msgstr ""
+msgstr "โหมด %d: %s "
 
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1349
 msgid "(press any key to exit)"
-msgstr ""
+msgstr "(กดปุ่มใดก็ได้เพื่อออก)"
 
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1358
 msgid "Push a button to configure"
-msgstr ""
+msgstr "กดปุ่มเพื่อปรับเปลี่ยนค่า"
 
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1358
 msgid "(Esc to cancel)"
-msgstr ""
+msgstr "(กด Esc เพื่อยกเลิก)"
 
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1985
 msgid "Edit"
-msgstr ""
+msgstr "แก้ไข"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
@@ -2031,19 +2031,19 @@ msgstr "ต้องยืนยันตัวบุคคลก่อนปร
 #. to change the OLED images for a Wacom tablet
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:11
 msgid "Modify the OLED image for a Wacom tablet"
-msgstr ""
+msgstr "แก้ไขภาพ OLED สำหรับแท็บเล็ต Wacom"
 
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:12
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
-msgstr ""
+msgstr "จำเป็นต้องยืนยันตัวตนเพื่อแก้ไขภาพ OLED สำหรับแท็บเล็ต Wacom"
 
 #: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:1
 msgid "Wacom"
-msgstr ""
+msgstr "Wacom"
 
 #: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:2
 msgid "Wacom plugin"
-msgstr ""
+msgstr "ปลั๊กอิน Wacom"
 
 #: ../plugins/xrandr/gsd-xrandr-manager.c:965
 #, c-format
