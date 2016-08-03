@@ -205,7 +205,8 @@ struct GsdMediaKeysManagerPrivate
         gint             inhibit_keys_fd;
 
         /* UPower stuff */
-        UpClient                *up_client;
+        UpClient        *up_client;
+        gboolean         lid_is_closed;
 
         GList           *media_players;
 
@@ -967,8 +968,7 @@ do_touchpad_action (GsdMediaKeysManager *manager)
         GSettings *settings;
         gboolean state;
 
-        if (up_client_get_lid_is_present (manager->priv->up_client) &&
-            up_client_get_lid_is_closed (manager->priv->up_client)) {
+        if (manager->priv->lid_is_closed) {
                 g_debug ("lid is currently closed, ignoring touchpad-toggle media key");
                 return;
         }
@@ -3145,6 +3145,17 @@ power_keyboard_ready_cb (GObject             *source_object,
 }
 
 static void
+lid_state_changed_cb (UpClient *client, GParamSpec *pspec, GsdMediaKeysManager *manager)
+{
+        gboolean closed;
+
+        closed = up_client_get_lid_is_closed (manager->priv->up_client);
+
+        g_debug ("up changed: lid is now %s", closed ? "closed" : "open");
+        manager->priv->lid_is_closed = closed;
+}
+
+static void
 on_bus_gotten (GObject             *source_object,
                GAsyncResult        *res,
                GsdMediaKeysManager *manager)
@@ -3210,6 +3221,14 @@ on_bus_gotten (GObject             *source_object,
                           manager);
 
         manager->priv->up_client = up_client_new ();
+        if (up_client_get_lid_is_present (manager->priv->up_client)) {
+                g_signal_connect (manager->priv->up_client,
+                                  "notify::lid-is-closed",
+                                  G_CALLBACK (lid_state_changed_cb), manager);
+                manager->priv->lid_is_closed =
+                        up_client_get_lid_is_closed (manager->priv->up_client);
+        }
+
         manager->priv->composite_device = up_client_get_display_device (manager->priv->up_client);
 }
 
