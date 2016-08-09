@@ -3287,7 +3287,7 @@ lid_state_changed_cb (UpClient *client, GParamSpec *pspec, GsdMediaKeysManager *
                 if (manager->priv->inhibit_tp_toggle_timer_id != 0)
                         return;
                 manager->priv->inhibit_tp_toggle_timer_id =
-                        g_timeout_add_seconds (2, (GSourceFunc) lid_opened,
+                        g_timeout_add_seconds (5, (GSourceFunc) lid_opened,
                                                manager);
         } else {
                 g_debug ("lid is now closed");
