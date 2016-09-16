@@ -1919,6 +1919,51 @@ do_config_power_action (GsdMediaKeysManager *manager,
         }
 }
 
+static gboolean
+supports_power_action (GsdMediaKeysManager *manager,
+                       GsdPowerActionType   action_type)
+{
+        const char *method_name = NULL;
+        GVariant *variant = NULL;
+        char *reply;
+
+        switch (action_type) {
+        case GSD_POWER_ACTION_SUSPEND:
+                method_name = "CanSuspend";
+                break;
+        case GSD_POWER_ACTION_SHUTDOWN:
+                method_name = "CanPowerOff";
+                break;
+        case GSD_POWER_ACTION_HIBERNATE:
+                method_name = "CanHibernate";
+                break;
+        case GSD_POWER_ACTION_INTERACTIVE:
+        case GSD_POWER_ACTION_BLANK:
+        case GSD_POWER_ACTION_LOGOUT:
+        case GSD_POWER_ACTION_NOTHING:
+                break;
+        }
+
+        if (method_name == NULL)
+                return FALSE;
+
+        variant = g_dbus_proxy_call_sync (manager->priv->logind_proxy,
+                                          method_name,
+                                          NULL,
+                                          G_DBUS_CALL_FLAGS_NONE,
+                                          -1,
+                                          manager->priv->bus_cancellable,
+                                          NULL);
+
+        if (variant == NULL)
+                return FALSE;
+
+        g_variant_get (variant, "(&s)", &reply);
+        g_variant_unref (variant);
+
+        return g_strcmp0 (reply, "yes") == 0;
+}
+
 static void
 do_config_power_button_action (GsdMediaKeysManager *manager,
                                gboolean             in_lock_screen)
@@ -1940,10 +1985,18 @@ do_config_power_button_action (GsdMediaKeysManager *manager,
         action_type = g_settings_get_enum (manager->priv->power_settings, "power-button-action");
         switch (action_type) {
         case GSD_POWER_BUTTON_ACTION_SUSPEND:
-                do_config_power_action (manager, GSD_POWER_ACTION_SUSPEND, in_lock_screen);
+                do_config_power_action (manager,
+                                        supports_power_action (manager,
+                                                               GSD_POWER_ACTION_SUSPEND) ? GSD_POWER_ACTION_SUSPEND :
+                                                                                           GSD_POWER_ACTION_INTERACTIVE,
+                                        in_lock_screen);
                 break;
         case GSD_POWER_BUTTON_ACTION_HIBERNATE:
-                do_config_power_action (manager, GSD_POWER_ACTION_HIBERNATE, in_lock_screen);
+                do_config_power_action (manager,
+                                        supports_power_action (manager,
+                                                               GSD_POWER_ACTION_HIBERNATE) ? GSD_POWER_ACTION_HIBERNATE :
+                                                                                             GSD_POWER_ACTION_INTERACTIVE,
+                                        in_lock_screen);
                 break;
         case GSD_POWER_BUTTON_ACTION_NOTHING:
                 /* do nothing */
