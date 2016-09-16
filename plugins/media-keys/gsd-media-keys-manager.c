@@ -1925,7 +1925,8 @@ supports_power_action (GsdMediaKeysManager *manager,
 {
         const char *method_name = NULL;
         GVariant *variant = NULL;
-        char *reply;
+        const char *reply;
+        gboolean result = FALSE;
 
         switch (action_type) {
         case GSD_POWER_ACTION_SUSPEND:
@@ -1959,9 +1960,12 @@ supports_power_action (GsdMediaKeysManager *manager,
                 return FALSE;
 
         g_variant_get (variant, "(&s)", &reply);
+        if (g_strcmp0 (reply, "yes") == 0)
+                result = TRUE;
+
         g_variant_unref (variant);
 
-        return g_strcmp0 (reply, "yes") == 0;
+        return result;
 }
 
 static void
