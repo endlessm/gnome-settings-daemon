@@ -1,530 +1,908 @@
-# translation of gnome-control-center to Kinyarwanda.
-# Copyright (C) 2005 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-control-center package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Augustin KIBERWA  <akiberwa@yahoo.co.uk>, 2005
+# Carole Karema <karemacarole@hotmail.com>, 2005
+# JEAN BAPTISTE NGENDAHAYO <ngenda_denis@yahoo.co.uk>, 2005
+# Noëlla Mupole <s24211045@tuks.co.za>, 2005
+# Philibert Ndandali  <ndandali@yahoo.fr>, 2005
 # Steve Murphy <murf@e-tools.com>, 2005
-# Steve performed initial rough translation from compendium built from translations provided by the following translators:
-# Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
-# Viateur MUGENZI <muvia1@yahoo.fr>, 2005.
-# Noëlla Mupole <s24211045@tuks.co.za>, 2005.
-# Carole Karema <karemacarole@hotmail.com>, 2005.
-# JEAN BAPTISTE NGENDAHAYO <ngenda_denis@yahoo.co.uk>, 2005.
-# Augustin KIBERWA  <akiberwa@yahoo.co.uk>, 2005.
-# Donatien NSENGIYUMVA <ndonatienuk@yahoo.co.uk>, 2005..
-#
+# Viateur MUGENZI <muvia1@yahoo.fr>, 2005
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center HEAD\n"
+"Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-02-26 21:06-0500\n"
-"PO-Revision-Date: 2005-03-31 20:55-0700\n"
-"Last-Translator: Steve Murphy <murf@e-tools.com>\n"
-"Language-Team: Kinyarwanda <translation-team-rw@lists.sourceforge.net>\n"
+"POT-Creation-Date: 2016-10-04 03:32+0000\n"
+"PO-Revision-Date: 2016-10-04 23:17+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Kinyarwanda (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/rw/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"ULL NAME <EMAIL@ADDRESS>\n"
+"Language: rw\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/apps_gnome_settings_daemon_default_editor.schemas.in.h:1
-#, fuzzy
+#: ../data/gnome-settings-daemon.desktop.in.in.h:1
+msgid "GNOME Settings Daemon"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:1
+msgid "Smartcard removal action"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:2
 msgid ""
-"Set to True to keep the handlers for text/plain and text/* MIME types "
-"synchronized."
-msgstr "NIBYO i kugirango Umwandiko Byuzuye Na Umwandiko in"
-
-#: ../data/apps_gnome_settings_daemon_default_editor.schemas.in.h:2
-#, fuzzy
-msgid "Sync text/plain and text/* handlers"
-msgstr "Umwandiko Byuzuye Na Umwandiko"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:1
-msgid "Binding to eject an optical disk."
+"Set this to one of \"none\", \"lock-screen\", or \"force-logout\". The "
+"action will get performed when the smartcard used for log in is removed."
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:2
-msgid "Binding to launch the calculator."
+#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:3
+msgid ""
+"Highlights the current location of the pointer when the Control key is "
+"pressed and released."
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:3
-msgid "Binding to launch the email client."
+#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:4
+msgid "Double click time"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:4
-#, fuzzy
-msgid "Binding to launch the help browser."
-msgstr "Ifashayobora Mucukumbuzi"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:5
-msgid "Binding to launch the media player."
+#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:5
+msgid "Length of a double click in milliseconds."
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:6
-msgid "Binding to launch the search tool."
+#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:6
+msgid "Drag threshold"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:7
-#, fuzzy
-msgid "Binding to launch the web browser."
-msgstr "Urubuga Mucukumbuzi"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:8
-msgid "Binding to lock the screen."
+#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:7
+msgid "Distance before a drag is started."
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:9
-msgid "Binding to log out."
+#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:8
+msgid "Whether the tablet's orientation is locked, or rotated automatically."
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:10
-msgid "Binding to lower the system volume."
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:1
+#: ../data/org.gnome.settings-daemon.plugins.datetime.gschema.xml.in.in.h:1
+#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:3
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:1
+#: ../data/org.gnome.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:1
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:1
+#: ../data/org.gnome.settings-daemon.plugins.orientation.gschema.xml.in.in.h:1
+#: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:1
+#: ../data/org.gnome.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:1
+#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:1
+#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:1
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:1
+msgid "Activation of this plugin"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:11
-msgid "Binding to mute the system volume."
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:2
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:2
+#: ../data/org.gnome.settings-daemon.plugins.datetime.gschema.xml.in.in.h:2
+#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:4
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:2
+#: ../data/org.gnome.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:2
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:2
+#: ../data/org.gnome.settings-daemon.plugins.orientation.gschema.xml.in.in.h:2
+#: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:2
+#: ../data/org.gnome.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:2
+#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:2
+#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:2
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:2
+msgid "Whether this plugin would be activated by gnome-settings-daemon or not"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:12
-msgid "Binding to open the Home folder."
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:3
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:3
+#: ../data/org.gnome.settings-daemon.plugins.datetime.gschema.xml.in.in.h:3
+#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:5
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:13
+#: ../data/org.gnome.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:3
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:29
+#: ../data/org.gnome.settings-daemon.plugins.orientation.gschema.xml.in.in.h:3
+#: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:3
+#: ../data/org.gnome.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:3
+#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:3
+#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:5
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:7
+msgid "Priority to use for this plugin"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:13
-msgid "Binding to pause playback."
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:4
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:4
+#: ../data/org.gnome.settings-daemon.plugins.datetime.gschema.xml.in.in.h:4
+#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:6
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:14
+#: ../data/org.gnome.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:4
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:30
+#: ../data/org.gnome.settings-daemon.plugins.orientation.gschema.xml.in.in.h:4
+#: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:4
+#: ../data/org.gnome.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:4
+#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:4
+#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:6
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:8
+msgid "Priority to use for this plugin in gnome-settings-daemon startup queue"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:14
-msgid "Binding to raise the system volume."
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:5
+msgid "Wacom stylus absolute mode"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:15
-#, fuzzy
-msgid "Binding to skip to next track."
-msgstr "Kuri Komeza>>"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:16
-#, fuzzy
-msgid "Binding to skip to previous track."
-msgstr "Kuri Ibanjirije"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:17
-msgid "Binding to start playback (or toggle play/pause)."
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:6
+msgid "Enable this to set the tablet to absolute mode."
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:18
-msgid "Binding to stop playback."
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:7
+msgid "Wacom tablet area"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:19
-msgid "Binding to suspend the computer."
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:8
+msgid "Set this to x1, y1 and x2, y2 of the area usable by the tools."
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:20
-msgid "Eject"
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:9
+msgid "Wacom tablet aspect ratio"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:21
-#, fuzzy
-msgid "Home folder"
-msgstr "Ububiko"
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:10
+msgid ""
+"Enable this to restrict the Wacom tablet area to match the aspect ratio of "
+"the output."
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:22
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:11
+msgid "Wacom tablet rotation"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:12
+msgid ""
+"Set this to 'none', 'cw' for 90 degree clockwise, 'half' for 180 degree, and"
+" 'ccw' for 90 degree counterclockwise."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:13
+msgid "Wacom touch feature"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:14
+msgid "Enable this to move the cursor when the user touches the tablet."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:15
+msgid "Wacom stylus pressure curve"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:16
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:17
+msgid "Wacom stylus button mapping"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:18
+msgid "Set this to the logical button mapping."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:19
+msgid "Wacom stylus pressure threshold"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:20
+msgid ""
+"Set this to the pressure value at which a stylus click event is generated."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:21
+msgid "Wacom eraser pressure curve"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:22
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:23
+msgid "Wacom eraser button mapping"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:24
+msgid "Wacom eraser pressure threshold"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:25
+msgid ""
+"Set this to the pressure value at which an eraser click event is generated."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:26
+msgid "Wacom button action type"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:27
+msgid "The type of action triggered by the button being pressed."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:28
+msgid "Key combination for the custom action"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:29
+msgid ""
+"The keyboard shortcut generated when the button is pressed for custom "
+"actions."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:30
+msgid "Key combinations for a touchring or touchstrip custom action"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:31
+msgid ""
+"The keyboard shortcuts generated when a touchring or touchstrip is used for "
+"custom actions (up followed by down)."
+msgstr ""
+
+#. Translators: This is the OLED display on an Intuos4 tablet:
+#. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:34
+msgid "Button label for OLED display."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:35
+msgid "Label will be rendered to OLED display belonging to the button"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:5
+msgid "The duration a display profile is valid"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:6
+msgid ""
+"This is the number of days after which the display color profile is "
+"considered invalid."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:7
+msgid "The duration a printer profile is valid"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:8
+msgid ""
+"This is the number of days after which the printer color profile is "
+"considered invalid."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:1
+msgid "List of plugins that are allowed to be loaded"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:2
+msgid ""
+"A list of strings representing the plugins that are allowed to be loaded "
+"(default: 'all'). The plugins still need to be marked as active to get "
+"loaded. This is only evaluated on startup."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:3
+msgid "Mount paths to ignore"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:4
+msgid "Specify a list of mount paths to ignore when they run low on space."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:5
+msgid "Free percentage notify threshold"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:6
+msgid ""
+"Percentage free space threshold for initial warning of low disk space. If "
+"the percentage free space drops below this, a warning will be shown."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:7
+msgid "Subsequent free space percentage notify threshold"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:8
+msgid ""
+"Specify the percentage that the free disk space should reduce by before "
+"issuing a subsequent warning."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:9
+msgid "Free space notify threshold"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:10
+msgid ""
+"Specify an amount in GB. If the amount of free space is more than this, no "
+"warning will be shown."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:11
+msgid "Minimum notify period for repeated warnings"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:12
+msgid ""
+"Specify a time in minutes. Subsequent warnings for a volume will not appear "
+"more often than this period."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:3
+msgid "Custom keybindings"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:4
+msgid "List of custom keybindings"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:5
 msgid "Launch calculator"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:23
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:6
+msgid "Binding to launch the calculator."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:7
+msgid "Launch settings"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:8
+msgid "Binding to launch GNOME settings."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:9
 msgid "Launch email client"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:24
-#, fuzzy
-msgid "Launch help browser"
-msgstr "Ifashayobora Mucukumbuzi"
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:10
+msgid "Binding to launch the email client."
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:25
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:11
+msgid "Eject"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:12
+msgid "Binding to eject an optical disc."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:13
+msgid "Launch help browser"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:14
+msgid "Binding to launch the help browser."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:15
+msgid "Home folder"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:16
+msgid "Binding to open the Home folder."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:17
 msgid "Launch media player"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:26
-#, fuzzy
-msgid "Launch web browser"
-msgstr "Urubuga Mucukumbuzi"
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:18
+msgid "Binding to launch the media player."
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:27
-#, fuzzy
-msgid "Lock screen"
-msgstr "Mugaragaza"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:28
-#, fuzzy
-msgid "Log out"
-msgstr "Kuvamo"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:29
-#, fuzzy
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:19
 msgid "Next track"
-msgstr "Kuri Komeza>>"
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:30
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:20
+msgid "Binding to skip to next track."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:21
 msgid "Pause playback"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:31
-#, fuzzy
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:22
+msgid "Binding to pause playback."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:23
 msgid "Play (or play/pause)"
-msgstr "Cyangwa Gukina Akaruhuko..."
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:32
-#, fuzzy
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:24
+msgid "Binding to start playback (or toggle play/pause)."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:25
+msgid "Log out"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:26
+msgid "Binding to log out."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:27
 msgid "Previous track"
-msgstr "Kuri Ibanjirije"
+msgstr ""
 
-# #-#-#-#-#  offmgr.pot (PACKAGE VERSION)  #-#-#-#-#
-# offmgr/source\offapp\dialog\inetdlg.src:RID_OFADLG_INTERNET.1.RID_SVXPAGE_INET_SEARCH.text
-# #-#-#-#-#  offmgr.pot (PACKAGE VERSION)  #-#-#-#-#
-# offmgr/source\offapp\dialog\treeopt.src:RID_OFADLG_OPTIONS_TREE_PAGES.SID_INET_DLG.3.text
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:33
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:28
+msgid "Binding to skip to previous track."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:31
+msgid "Lock screen"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:32
+msgid "Binding to lock the screen."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:33
 msgid "Search"
 msgstr "Gushaka"
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:34
-#, fuzzy
-msgid "Stop playback"
-msgstr "Urufunguzo"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:35
-#, fuzzy
-msgid "Suspend"
-msgstr "Ijwi"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:36
-#, fuzzy
-msgid "Volume down"
-msgstr "Hasi"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:37
-#, fuzzy
-msgid "Volume mute"
-msgstr "Mute"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:38
-#, fuzzy
-msgid "Volume step"
-msgstr "Intera"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:39
-#, fuzzy
-msgid "Volume step as percentage of volume."
-msgstr "Intera Nka Ijanisha Bya Igice"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:40
-#, fuzzy
-msgid "Volume up"
-msgstr "Hejuru"
-
-#: ../data/apps_gnome_settings_daemon_screensaver.schemas.in.h:1
-#, fuzzy
-msgid ""
-"Set to True to display a dialog when there are errors running the "
-"screensaver."
-msgstr "a Ikiganiro Ryari: Amakosa"
-
-#: ../data/apps_gnome_settings_daemon_screensaver.schemas.in.h:2
-#, fuzzy
-msgid "Set to True to run the screensaver at login."
-msgstr "ku Ifashayinjira"
-
-#: ../data/apps_gnome_settings_daemon_screensaver.schemas.in.h:3
-msgid "Show startup errors"
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:34
+msgid "Binding to launch the search tool."
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_screensaver.schemas.in.h:4
-#, fuzzy
-msgid "Start screensaver"
-msgstr "Gutangira"
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:35
+msgid "Stop playback"
+msgstr ""
 
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:1
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:36
+msgid "Binding to stop playback."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:37
+msgid "Volume down"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:38
+msgid "Binding to lower the system volume."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:39
+msgid "Volume mute"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:40
+msgid "Binding to mute the system volume."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:41
+msgid "Volume up"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:42
+msgid "Binding to raise the system volume."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:43
+msgid "Take a screenshot"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:44
+msgid "Binding to take a screenshot."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:45
+msgid "Take a screenshot of a window"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:46
+msgid "Binding to take a screenshot of a window."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:47
+msgid "Take a screenshot of an area"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:48
+msgid "Binding to take a screenshot of an area."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:49
+msgid "Copy a screenshot to clipboard"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:50
+msgid "Binding to copy a screenshot to clipboard."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:51
+msgid "Copy a screenshot of a window to clipboard"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:52
+msgid "Binding to copy a screenshot of a window to clipboard."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:53
+msgid "Copy a screenshot of an area to clipboard"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:54
+msgid "Binding to copy a screenshot of an area to clipboard."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:55
+msgid "Record a short video of the screen"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:56
+msgid "Launch web browser"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:57
+msgid "Binding to launch the web browser."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:58
+msgid "Toggle magnifier"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:59
+msgid "Binding to show the screen magnifier"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:60
+msgid "Toggle screen reader"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:61
+msgid "Binding to start the screen reader"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:62
+msgid "Toggle on-screen keyboard"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:63
+msgid "Binding to show the on-screen keyboard"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:64
+msgid "Increase text size"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:65
+msgid "Binding to increase the text size"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:66
+msgid "Decrease text size"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:67
+msgid "Binding to decrease the text size"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:68
+msgid "Toggle contrast"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:69
+msgid "Binding to toggle the interface contrast"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:70
+msgid "Magnifier zoom in"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:71
+msgid "Binding for the magnifier to zoom in"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:72
+msgid "Magnifier zoom out"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:73
+msgid "Binding for the magnifier to zoom out"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:74
+msgid "Name"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:75
+msgid "Name of the custom binding"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:76
+msgid "Binding"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:77
+msgid "Binding for the custom binding"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:78
+msgid "Command"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:79
+msgid "Command to run when the binding is invoked"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:5
+msgid "On which connections the service is enabled"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:6
+msgid ""
+"The list of NetworkManager connections (each one represented with its UUID) "
+"on which this service is enabled and started."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:3
+msgid "File for default configuration for RandR"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:4
+msgid ""
+"The XRandR plugin will look for a default configuration in the file "
+"specified by this key. This is similar to the ~/.config/monitors.xml that "
+"normally gets stored in users' home directories. If a user does not have "
+"such a file, or has one that does not match the user's setup of monitors, "
+"then the file specified by this key will be used instead."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:7
+msgid "Whether to turn off specific monitors after boot"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:8
+msgid ""
+"'clone' will display the same thing on all monitors, 'dock' will switch off "
+"the internal monitor, 'do-nothing' will use the default Xorg behaviour "
+"(extend the desktop in recent versions). The default, 'follow-lid', will "
+"choose between 'do-nothing' and 'dock' depending on whether the lid is "
+"(respectively) open or closed."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
 msgid "Antialiasing"
 msgstr ""
 
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:2
-msgid "DPI"
-msgstr ""
-
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:3
-#, fuzzy
-msgid "Hinting"
-msgstr "<B B"
-
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:4
-msgid "RGBA order"
-msgstr ""
-
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:5
-msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
-"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red "
-"on bottom."
-msgstr ""
-
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:6
-msgid ""
-"The resolution used for converting font sizes to pixel sizes, in dots per "
-"inch."
-msgstr ""
-
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:7
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:4
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "\"none\" for no antialiasing, \"grayscale\" for standard grayscale "
 "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
 msgstr ""
 
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:8
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
+msgid "Hinting"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:6
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: \"none"
-"\" for no hinting, \"slight\" for basic, \"medium\" for moderate, and \"full"
-"\" for maximum hinting (may cause distortion of letter forms)."
+"The type of hinting to use when rendering fonts. Possible values are: "
+"\"none\" for no hinting and \"slight\" for fitting only to the Y-axis like "
+"Microsoft's ClearType, DirectWrite and Adobe's proprietary font rendering "
+"engine. Ignores native hinting within the font, generates hints "
+"algorithmically. Used on Ubuntu by default. Recommended. The meaning of "
+"\"medium\" and \"full\" depends on the font format (.ttf, .otf, .pfa/.pfb) "
+"and the installed version of FreeType. They usually try to fit glyphs to "
+"both the X and the Y axis (except for .otf: Y-only). This can lead to "
+"distortion and/or inconsistent rendering depending on the quality of the "
+"font, the font format and the state of FreeType's font engines."
 msgstr ""
 
-#: ../data/gnome-settings-daemon.schemas.in.h:1
-#, fuzzy
-msgid "Enable accessibility keyboard plugin"
-msgstr "Mwandikisho Ubushobozi bwo gukoreshwa Ibiranga"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:2
-msgid "Enable background plugin"
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:9
+msgid "RGBA order"
 msgstr ""
 
-#: ../data/gnome-settings-daemon.schemas.in.h:3
-msgid "Enable clipboard plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:4
-msgid "Enable default editor plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:5
-msgid "Enable font plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:6
-msgid "Enable keybindings plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:7
-msgid "Enable keyboard plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:8
-msgid "Enable media keys plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:9
-msgid "Enable mouse plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:10
-#, fuzzy
-msgid "Enable screensaver plugin"
-msgstr "ku Ifashayinjira"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:11
-msgid "Enable sound plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:12
-msgid "Enable typing breaks plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:13
-msgid "Enable xrandr plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:14
-msgid "Enable xrdb plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:15
-msgid "Enable xsettings plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:16
-msgid "Set to True to enable the plugin to manage clipboard settings."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:17
-msgid "Set to True to enable the plugin to manage desktop background settings."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:18
-msgid "Set to True to enable the plugin to manage font settings."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:19
-msgid "Set to True to enable the plugin to manage keyboard settings."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:20
-msgid "Set to True to enable the plugin to manage mouse settings."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:21
-msgid "Set to True to enable the plugin to manage multimedia keys settings."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:22
-msgid "Set to True to enable the plugin to manage screensaver settings."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:23
-msgid "Set to True to enable the plugin to manage sound settings."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:24
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:10
 msgid ""
-"Set to True to enable the plugin to manage the accessibility keyboard "
-"settings."
+"The order of subpixel elements on an LCD screen; only used when antialiasing"
+" is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
+"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red"
+" on bottom."
 msgstr ""
 
-#: ../data/gnome-settings-daemon.schemas.in.h:25
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:11
+msgid "List of explicitly disabled GTK+ modules"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:12
 msgid ""
-"Set to True to enable the plugin to manage the default text editor setting."
+"A list of strings representing the GTK+ modules that will not be loaded, "
+"even if enabled by default in their configuration."
 msgstr ""
 
-#: ../data/gnome-settings-daemon.schemas.in.h:26
-msgid "Set to True to enable the plugin to manage the keybindings."
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:13
+msgid "List of explicitly enabled GTK+ modules"
 msgstr ""
 
-#: ../data/gnome-settings-daemon.schemas.in.h:27
-msgid "Set to True to enable the plugin to manage typing breaks."
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:14
+msgid ""
+"A list of strings representing the GTK+ modules that will be loaded, usually"
+" in addition to conditional and forcibly disabled ones."
 msgstr ""
 
-#: ../data/gnome-settings-daemon.schemas.in.h:28
-msgid "Set to True to enable the plugin to manage xrandr settings."
+#: ../gnome-settings-daemon/main.c:53
+msgid "Enable debugging code"
 msgstr ""
 
-#: ../data/gnome-settings-daemon.schemas.in.h:29
-msgid "Set to True to enable the plugin to manage xrdb settings."
+#: ../gnome-settings-daemon/main.c:54
+msgid "Replace existing daemon"
 msgstr ""
 
-#: ../data/gnome-settings-daemon.schemas.in.h:30
-msgid "Set to True to enable the plugin to manage xsettings."
+#: ../gnome-settings-daemon/main.c:55
+msgid "Exit after a time (for debugging)"
 msgstr ""
 
-#: ../gnome-settings-daemon/main.c:49
-msgid "Don't become a daemon"
-msgstr ""
-
-#: ../gnome-settings-daemon/main.c:50
-msgid "GConf prefix from which to load plugin settings"
-msgstr ""
-
-# offmgr/source\offapp\dialog\treeopt.src:RID_OFADLG_OPTIONS_TREE_PAGES.SID_GENERAL_OPTIONS.13.text
 #: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:1
-#, fuzzy
 msgid "Accessibility Keyboard"
-msgstr "Ubushobozi bwo gukoreshwa"
+msgstr ""
 
-# offmgr/source\offapp\dialog\treeopt.src:RID_OFADLG_OPTIONS_TREE_PAGES.SID_GENERAL_OPTIONS.13.text
 #: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:2
-#, fuzzy
 msgid "Accessibility keyboard plugin"
-msgstr "Ubushobozi bwo gukoreshwa"
+msgstr ""
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:393
-#, fuzzy, c-format
-msgid "There was an error displaying help: %s"
-msgstr "Ikosa Ifashayobora"
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:398
+msgid "Slow Keys Turned On"
+msgstr ""
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:445
-#, fuzzy
-msgid "Do you want to activate Slow Keys?"
-msgstr "Kuri Kureka bigakora"
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:399
+msgid "Slow Keys Turned Off"
+msgstr ""
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:446
-#, fuzzy
-msgid "Do you want to deactivate Slow Keys?"
-msgstr "Kuri Kubuza gukora"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:449
-#, fuzzy
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:400
 msgid ""
 "You just held down the Shift key for 8 seconds.  This is the shortcut for "
 "the Slow Keys feature, which affects the way your keyboard works."
 msgstr ""
-"Hasi i Urufunguzo kugirango 8 amasogonda ni i Iy'ibusamo kugirango i i "
-"Mwandikisho"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:456
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:508
-msgid "Do_n't activate"
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:410
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:478
+msgid "Universal Access"
 msgstr ""
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:456
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:508
-msgid "Do_n't deactivate"
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:416
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:484
+msgid "Turn Off"
 msgstr ""
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:459
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:511
-msgid "_Activate"
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:416
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:484
+msgid "Turn On"
 msgstr ""
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:459
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:511
-msgid "_Deactivate"
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:422
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:490
+msgid "Leave On"
+msgstr ""
+
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:422
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:490
+msgid "Leave Off"
 msgstr ""
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:463
-msgid "Slow Keys Alert"
+msgid "Sticky Keys Turned On"
 msgstr ""
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:495
-#, fuzzy
-msgid "Do you want to activate Sticky Keys?"
-msgstr "Kuri Kureka bigakora"
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:464
+msgid "Sticky Keys Turned Off"
+msgstr ""
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:496
-#, fuzzy
-msgid "Do you want to deactivate Sticky Keys?"
-msgstr "Kuri Kubuza gukora"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:499
-#, fuzzy
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:466
 msgid ""
 "You just pressed the Shift key 5 times in a row.  This is the shortcut for "
 "the Sticky Keys feature, which affects the way your keyboard works."
 msgstr ""
-"i Urufunguzo 5 Times in a Urubariro ni i Iy'ibusamo kugirango i i Mwandikisho"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:501
-#, fuzzy
+#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:468
 msgid ""
 "You just pressed two keys at once, or pressed the Shift key 5 times in a "
 "row.  This turns off the Sticky Keys feature, which affects the way your "
 "keyboard works."
 msgstr ""
-"Utubuto ku Rimwe Cyangwa i Urufunguzo 5 Times in a Urubariro Bidakora i i "
-"Mwandikisho"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:515
-msgid "Sticky Keys Alert"
+#: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:1
+msgid "Accessibility settings"
 msgstr ""
 
-#: ../plugins/background/background.gnome-settings-plugin.in.h:1
-msgid "Background"
+#: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:2
+msgid "Accessibility settings plugin"
 msgstr ""
 
-#: ../plugins/background/background.gnome-settings-plugin.in.h:2
-msgid "Background plugin"
-msgstr ""
-
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:1
+#. Priority=100
+#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:2
 msgid "Clipboard"
 msgstr ""
 
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:2
+#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:3
 msgid "Clipboard plugin"
+msgstr ""
+
+#: ../plugins/color/color.gnome-settings-plugin.in.h:1
+#: ../plugins/color/gsd-color-calibrate.c:139
+msgid "Color"
+msgstr ""
+
+#: ../plugins/color/color.gnome-settings-plugin.in.h:2
+msgid "Color plugin"
+msgstr ""
+
+#: ../plugins/color/gsd-color-calibrate.c:144
+msgid "Recalibrate now"
+msgstr ""
+
+#. TRANSLATORS: this is when the device has not been recalibrated in a while
+#: ../plugins/color/gsd-color-calibrate.c:187
+msgid "Recalibration required"
+msgstr ""
+
+#. TRANSLATORS: this is when the display has not been recalibrated in a while
+#: ../plugins/color/gsd-color-calibrate.c:199
+#, c-format
+msgid "The display '%s' should be recalibrated soon."
+msgstr ""
+
+#. TRANSLATORS: this is when the printer has not been recalibrated in a while
+#: ../plugins/color/gsd-color-calibrate.c:208
+#, c-format
+msgid "The printer '%s' should be recalibrated soon."
+msgstr ""
+
+#. TRANSLATORS: this is the application name
+#: ../plugins/color/gsd-color-calibrate.c:346
+#: ../plugins/color/gsd-color-calibrate.c:362
+msgid "GNOME Settings Daemon Color Plugin"
+msgstr ""
+
+#. TRANSLATORS: this is a sound description
+#: ../plugins/color/gsd-color-calibrate.c:348
+msgid "Color calibration device added"
+msgstr ""
+
+#. TRANSLATORS: this is a sound description
+#: ../plugins/color/gsd-color-calibrate.c:364
+msgid "Color calibration device removed"
+msgstr ""
+
+#. Priority=100
+#: ../plugins/datetime/datetime.gnome-settings-plugin.in.h:2
+msgid "Date and Time"
+msgstr ""
+
+#: ../plugins/datetime/datetime.gnome-settings-plugin.in.h:3
+msgid "Automatically update timezone"
+msgstr ""
+
+#. Translators: UTC here means the Coordinated Universal Time.
+#. * %:::z will be replaced by the offset from UTC e.g. UTC+02
+#: ../plugins/datetime/gsd-datetime-manager.c:88
+msgid "UTC%:::z"
+msgstr ""
+
+#: ../plugins/datetime/gsd-datetime-manager.c:92
+#, c-format
+msgid "Time Zone Updated to %s (%s)"
+msgstr ""
+
+#: ../plugins/datetime/gsd-datetime-manager.c:108
+msgid "Settings"
+msgstr ""
+
+#: ../plugins/datetime/gsd-datetime-manager.c:118
+msgid "Date & Time Settings"
 msgstr ""
 
 #: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:1
@@ -535,165 +913,254 @@ msgstr ""
 msgid "Dummy plugin"
 msgstr ""
 
-#: ../plugins/font/font.gnome-settings-plugin.in.h:1
-msgid "Font"
-msgstr "Intego-nyuguti"
-
-#: ../plugins/font/font.gnome-settings-plugin.in.h:2
-msgid "Font plugin"
+#: ../plugins/housekeeping/gsd-disk-space.c:577
+msgid "Disk space"
 msgstr ""
 
-#: ../plugins/font/gsd-font-manager.c:208
-#, fuzzy, c-format
-msgid ""
-"Cannot create the directory \"%s\".\n"
-"This is needed to allow changing the mouse pointer theme."
-msgstr "Kurema i bushyinguro ni Kuri Kwemerera"
-
-#: ../plugins/font/gsd-font-manager.c:231
-#, fuzzy, c-format
-msgid ""
-"Cannot create the directory \"%s\".\n"
-"This is needed to allow changing cursors."
-msgstr "Kurema i bushyinguro ni Kuri Kwemerera"
-
-#: ../plugins/keybindings/gsd-keybindings-manager.c:195
-#, fuzzy, c-format
-msgid "Key Binding (%s) has its action defined multiple times\n"
-msgstr "Igikorwa Igikubo"
-
-#: ../plugins/keybindings/gsd-keybindings-manager.c:202
-#, fuzzy, c-format
-msgid "Key Binding (%s) has its binding defined multiple times\n"
-msgstr "Bifatanya Igikubo"
-
-#: ../plugins/keybindings/gsd-keybindings-manager.c:211
-#, fuzzy, c-format
-msgid "Key Binding (%s) is incomplete\n"
-msgstr "ni"
-
-#: ../plugins/keybindings/gsd-keybindings-manager.c:239
-#, fuzzy, c-format
-msgid "Key Binding (%s) is invalid\n"
-msgstr "ni"
-
-#: ../plugins/keybindings/gsd-keybindings-manager.c:292
-#, fuzzy, c-format
-msgid "It seems that another application already has access to key '%u'."
-msgstr "Porogaramu Kuri Urufunguzo"
-
-#: ../plugins/keybindings/gsd-keybindings-manager.c:365
-#, fuzzy, c-format
-msgid "Key Binding (%s) is already in use\n"
-msgstr "ni in"
-
-#: ../plugins/keybindings/gsd-keybindings-manager.c:502
-#, fuzzy, c-format
-msgid ""
-"Error while trying to run (%s)\n"
-"which is linked to the key (%s)"
-msgstr "Kuri Gukoresha ni Kuri i Urufunguzo"
-
-#: ../plugins/keybindings/keybindings.gnome-settings-plugin.in.h:1
-msgid "Keybindings"
+#: ../plugins/housekeeping/gsd-disk-space.c:589
+msgid "Examine"
 msgstr ""
 
-#: ../plugins/keybindings/keybindings.gnome-settings-plugin.in.h:2
-msgid "Keybindings plugin"
+#: ../plugins/housekeeping/gsd-disk-space.c:600
+msgid "Empty Trash"
 msgstr ""
 
-# #-#-#-#-#  sfx2.pot (PACKAGE VERSION)  #-#-#-#-#
-# sfx2/source\accel\accel.src:STR_ACCEL_CFGITEM.text
-# #-#-#-#-#  sfx2.pot (PACKAGE VERSION)  #-#-#-#-#
-# sfx2/source\dialog\cfg.src:DLG_CONFIG.1.TP_CONFIG_ACCEL.text
+#: ../plugins/housekeeping/gsd-disk-space.c:608
+msgid "Ignore"
+msgstr ""
+
+#: ../plugins/housekeeping/gsd-disk-space.c:638
+#: ../plugins/housekeeping/gsd-disk-space.c:664
+msgid "Low Disk Space"
+msgstr ""
+
+#: ../plugins/housekeeping/gsd-disk-space.c:639
+msgid ""
+"Your computer is out of space.  To free up space, you can delete old files "
+"and empty the trash from the \"Documents\" file manager, or delete apps you "
+"may not need from the App Center."
+msgstr ""
+
+#: ../plugins/housekeeping/gsd-disk-space.c:665
+#, c-format
+msgid ""
+"Your computer has only %s of space available.  To free up space, you can "
+"delete old files and empty the trash from the \"Documents\" file manager, or"
+" delete apps you may not need from the App Center."
+msgstr ""
+
+#: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:1
+msgid "Housekeeping"
+msgstr ""
+
+#: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:2
+msgid ""
+"Automatically prunes thumbnail caches and other transient files, and warns "
+"about low disk space"
+msgstr ""
+
 #: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
 msgid "Keyboard"
 msgstr "Mwandikisho"
 
 #: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:2
-#, fuzzy
 msgid "Keyboard plugin"
-msgstr "Amahitamo"
-
-#: ../plugins/keyboard/modmap-dialog.glade.h:1
-#, fuzzy
-msgid "A_vailable files:"
-msgstr "Idosiye"
-
-#: ../plugins/keyboard/modmap-dialog.glade.h:2
-#, fuzzy
-msgid "Do _not show this warning again."
-msgstr "Nta kongera kwerekana iri burira"
-
-#: ../plugins/keyboard/modmap-dialog.glade.h:3
-#, fuzzy
-msgid "Load modmap files"
-msgstr "Idosiye"
-
-#: ../plugins/keyboard/modmap-dialog.glade.h:4
-#, fuzzy
-msgid "Would you like to load the modmap file(s)?"
-msgstr "nka Kuri Ibirimo i IDOSIYE S"
-
-# basctl/source\basicide\basidesh.src:RID_STR_OPEN.text
-#: ../plugins/keyboard/modmap-dialog.glade.h:5
-#, fuzzy
-msgid "_Load"
-msgstr "Ibirimo"
-
-#: ../plugins/keyboard/modmap-dialog.glade.h:6
-#, fuzzy
-msgid "_Loaded files:"
-msgstr "Idosiye"
-
-#: ../plugins/media-keys/actions/acme.glade.h:1
-msgid "Volume"
-msgstr "Igice"
-
-#: ../plugins/media-keys/gsd-media-keys-manager.c:200
-msgid ""
-"Could not get default terminal. Verify that your default terminal command is "
-"set and points to a valid application."
 msgstr ""
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:240
-#, fuzzy, c-format
-msgid ""
-"Couldn't execute command: %s\n"
-"Verify that this is a valid command."
-msgstr "Gukora Komandi: iyi Komandi:"
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2178
+msgid "Bluetooth disabled"
+msgstr ""
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:256
-#, fuzzy
-msgid ""
-"Couldn't put the machine to sleep.\n"
-"Verify that the machine is correctly configured."
-msgstr "Gushyira i Kuri i ni"
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2181
+msgid "Bluetooth enabled"
+msgstr ""
 
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:1
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2185
+msgid "Airplane mode enabled"
+msgstr ""
+
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2188
+msgid "Airplane mode disabled"
+msgstr ""
+
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2216
+msgid "Hardware Airplane Mode"
+msgstr ""
+
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2276
+msgid "Screencast from %d %t.webm"
+msgstr ""
+
+#: ../plugins/media-keys/gsd-screenshot-utils.c:82
+msgid "Unable to capture a screenshot"
+msgstr ""
+
+#: ../plugins/media-keys/gsd-screenshot-utils.c:113
+#: ../plugins/media-keys/gsd-screenshot-utils.c:155
+msgid "Screenshot taken"
+msgstr ""
+
+#. translators: this is the name of the file that gets made up
+#. * with the screenshot
+#: ../plugins/media-keys/gsd-screenshot-utils.c:306
+#, c-format
+msgid "Screenshot from %s"
+msgstr ""
+
+#. translators:
+#. * The device has been disabled
+#: ../plugins/media-keys/gvc/gvc-mixer-control.c:1866
+msgid "Disabled"
+msgstr ""
+
+#. translators:
+#. * The number of sound outputs on a particular device
+#: ../plugins/media-keys/gvc/gvc-mixer-control.c:1873
+#, c-format
+msgid "%u Output"
+msgid_plural "%u Outputs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators:
+#. * The number of sound inputs on a particular device
+#: ../plugins/media-keys/gvc/gvc-mixer-control.c:1883
+#, c-format
+msgid "%u Input"
+msgid_plural "%u Inputs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../plugins/media-keys/gvc/gvc-mixer-control.c:2738
+msgid "System Sounds"
+msgstr ""
+
+#. Priority=100
+#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:2
 msgid "Media keys"
 msgstr ""
 
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:2
+#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:3
 msgid "Media keys plugin"
 msgstr ""
 
-#: ../plugins/mouse/gsd-mouse-manager.c:566
-#, fuzzy
-msgid "Could not enable mouse accessibility features"
-msgstr "Mwandikisho Ubushobozi bwo gukoreshwa Ibiranga"
-
-#: ../plugins/mouse/gsd-mouse-manager.c:568
-msgid ""
-"Mouse accessibility requires the mousetweaks daemon to be installed on your "
-"system."
+#: ../plugins/media-keys/shortcuts-list.h:45
+msgid "Touchpad toggle"
 msgstr ""
 
-#: ../plugins/mouse/gsd-mouse-manager.c:571
-msgid "Mouse Preferences"
+#: ../plugins/media-keys/shortcuts-list.h:46
+msgid "Touchpad On"
 msgstr ""
 
-# offmgr/source\offapp\dialog\optgdlg.src:OFA_TP_VIEW.FL_MOUSE.text
+#: ../plugins/media-keys/shortcuts-list.h:47
+msgid "Touchpad Off"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:51
+#: ../plugins/media-keys/shortcuts-list.h:52
+msgid "Microphone Mute"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:53
+msgid "Quiet Volume Mute"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:54
+msgid "Quiet Volume Down"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:55
+msgid "Quiet Volume Up"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:65
+msgid "Lock Screen"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:81
+msgid "Rewind"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:82
+msgid "Forward"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:83
+msgid "Repeat"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:84
+msgid "Random Play"
+msgstr ""
+
+#. Key code of the XF86Display key (Fn-F7 on Thinkpads, Fn-F4 on HP machines,
+#. etc.)
+#: ../plugins/media-keys/shortcuts-list.h:85
+#: ../plugins/media-keys/shortcuts-list.h:87
+msgid "Video Out"
+msgstr ""
+
+#. Key code of the XF86RotateWindows key (present on some tablets)
+#: ../plugins/media-keys/shortcuts-list.h:89
+msgid "Rotate Screen"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:90
+msgid "Orientation Lock"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:99
+msgid "Power Off"
+msgstr ""
+
+#. the kernel / Xorg names really are like this...
+#. translators: "Sleep" means putting the machine to sleep, either through
+#. hibernate or suspend
+#: ../plugins/media-keys/shortcuts-list.h:102
+msgid "Sleep"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:103
+msgid "Suspend"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:104
+msgid "Hibernate"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:105
+msgid "Brightness Up"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:106
+msgid "Brightness Down"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:107
+msgid "Keyboard Brightness Up"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:108
+msgid "Keyboard Brightness Down"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:109
+msgid "Keyboard Brightness Toggle"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:110
+msgid "Battery Status"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:111
+#: ../plugins/media-keys/shortcuts-list.h:112
+msgid "Toggle Airplane Mode"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:113
+msgid "Toggle Bluetooth"
+msgstr ""
+
 #: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
 msgid "Mouse"
 msgstr "Imbeba"
@@ -702,2307 +1169,907 @@ msgstr "Imbeba"
 msgid "Mouse plugin"
 msgstr ""
 
-#: ../plugins/screensaver/gsd-screensaver-manager.c:151
-#, fuzzy, c-format
+#. Priority=100
+#: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:2
+msgid "Orientation"
+msgstr ""
+
+#: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:3
+msgid "Orientation plugin"
+msgstr ""
+
+#: ../plugins/power/gpm-common.c:81
+msgid "Unknown time"
+msgstr ""
+
+#: ../plugins/power/gpm-common.c:86
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../plugins/power/gpm-common.c:96
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
+#. * Swap order with "%2$s %2$i %1$s %1$i if needed
+#: ../plugins/power/gpm-common.c:102
+#, c-format
+msgid "%i %s %i %s"
+msgstr ""
+
+#: ../plugins/power/gpm-common.c:103
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../plugins/power/gpm-common.c:104
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: this is the sound description
+#: ../plugins/power/gpm-common.c:909 ../plugins/power/gsd-power-manager.c:681
+#: ../plugins/power/gsd-power-manager.c:778
+msgid "Battery is critically low"
+msgstr ""
+
+#. TRANSLATORS: this is the notification application name
+#: ../plugins/power/gsd-power-manager.c:319
+#: ../plugins/power/power.gnome-settings-plugin.in.h:1
+msgid "Power"
+msgstr ""
+
+#. TRANSLATORS: UPS is now discharging
+#: ../plugins/power/gsd-power-manager.c:351
+msgid "UPS Discharging"
+msgstr ""
+
+#. TRANSLATORS: tell the user how much time they have got
+#: ../plugins/power/gsd-power-manager.c:356
+#, c-format
+msgid "%s of UPS backup power remaining"
+msgstr ""
+
+#: ../plugins/power/gsd-power-manager.c:359
+msgid "Unknown amount of UPS backup power remaining"
+msgstr ""
+
+#. TRANSLATORS: laptop battery low, and we only have one battery
+#: ../plugins/power/gsd-power-manager.c:434
+msgid "Battery low"
+msgstr ""
+
+#. TRANSLATORS: laptop battery low, and we have more than one kind of battery
+#: ../plugins/power/gsd-power-manager.c:437
+msgid "Laptop battery low"
+msgstr ""
+
+#. TRANSLATORS: tell the user how much time they have got
+#: ../plugins/power/gsd-power-manager.c:444
+#, c-format
+msgid "Approximately %s remaining (%.0f%%)"
+msgstr ""
+
+#. TRANSLATORS: UPS is starting to get a little low
+#: ../plugins/power/gsd-power-manager.c:449
+msgid "UPS low"
+msgstr ""
+
+#. TRANSLATORS: tell the user how much time they have got
+#: ../plugins/power/gsd-power-manager.c:455
+#, c-format
+msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
+msgstr ""
+
+#. TRANSLATORS: mouse is getting a little low
+#. TRANSLATORS: the mouse battery is very low
+#: ../plugins/power/gsd-power-manager.c:460
+#: ../plugins/power/gsd-power-manager.c:594
+msgid "Mouse battery low"
+msgstr ""
+
+#. TRANSLATORS: tell user more details
+#: ../plugins/power/gsd-power-manager.c:463
+#, c-format
+msgid "Wireless mouse is low in power (%.0f%%)"
+msgstr ""
+
+#. TRANSLATORS: keyboard is getting a little low
+#. TRANSLATORS: the keyboard battery is very low
+#: ../plugins/power/gsd-power-manager.c:467
+#: ../plugins/power/gsd-power-manager.c:602
+msgid "Keyboard battery low"
+msgstr ""
+
+#. TRANSLATORS: tell user more details
+#: ../plugins/power/gsd-power-manager.c:470
+#, c-format
+msgid "Wireless keyboard is low in power (%.0f%%)"
+msgstr ""
+
+#. TRANSLATORS: PDA is getting a little low
+#. TRANSLATORS: the PDA battery is very low
+#: ../plugins/power/gsd-power-manager.c:474
+#: ../plugins/power/gsd-power-manager.c:611
+msgid "PDA battery low"
+msgstr ""
+
+#. TRANSLATORS: tell user more details
+#: ../plugins/power/gsd-power-manager.c:477
+#, c-format
+msgid "PDA is low in power (%.0f%%)"
+msgstr ""
+
+#. TRANSLATORS: cell phone (mobile) is getting a little low
+#. TRANSLATORS: the cell battery is very low
+#: ../plugins/power/gsd-power-manager.c:481
+#: ../plugins/power/gsd-power-manager.c:621
+#: ../plugins/power/gsd-power-manager.c:630
+msgid "Cell phone battery low"
+msgstr ""
+
+#. TRANSLATORS: tell user more details
+#: ../plugins/power/gsd-power-manager.c:484
+#, c-format
+msgid "Cell phone is low in power (%.0f%%)"
+msgstr ""
+
+#. TRANSLATORS: media player, e.g. mp3 is getting a little low
+#: ../plugins/power/gsd-power-manager.c:488
+msgid "Media player battery low"
+msgstr ""
+
+#. TRANSLATORS: tell user more details
+#: ../plugins/power/gsd-power-manager.c:491
+#, c-format
+msgid "Media player is low in power (%.0f%%)"
+msgstr ""
+
+#. TRANSLATORS: graphics tablet, e.g. wacom is getting a little low
+#. TRANSLATORS: the cell battery is very low
+#: ../plugins/power/gsd-power-manager.c:495
+#: ../plugins/power/gsd-power-manager.c:639
+msgid "Tablet battery low"
+msgstr ""
+
+#. TRANSLATORS: tell user more details
+#: ../plugins/power/gsd-power-manager.c:498
+#, c-format
+msgid "Tablet is low in power (%.0f%%)"
+msgstr ""
+
+#. TRANSLATORS: computer, e.g. ipad is getting a little low
+#. TRANSLATORS: the cell battery is very low
+#: ../plugins/power/gsd-power-manager.c:502
+#: ../plugins/power/gsd-power-manager.c:648
+msgid "Attached computer battery low"
+msgstr ""
+
+#. TRANSLATORS: tell user more details
+#: ../plugins/power/gsd-power-manager.c:505
+#, c-format
+msgid "Attached computer is low in power (%.0f%%)"
+msgstr ""
+
+#. TRANSLATORS: this is the sound description
+#: ../plugins/power/gsd-power-manager.c:526
+msgid "Battery is low"
+msgstr ""
+
+#. TRANSLATORS: laptop battery critically low, and only have one kind of
+#. battery
+#: ../plugins/power/gsd-power-manager.c:558
+msgid "Battery critically low"
+msgstr ""
+
+#. TRANSLATORS: laptop battery critically low, and we have more than one type
+#. of battery
+#. TRANSLATORS: laptop battery is really, really, low
+#: ../plugins/power/gsd-power-manager.c:561
+#: ../plugins/power/gsd-power-manager.c:708
+msgid "Laptop battery critically low"
+msgstr ""
+
+#. TRANSLATORS: give the user a ultimatum
+#: ../plugins/power/gsd-power-manager.c:570
+#, c-format
+msgid "Computer will hibernate very soon unless it is plugged in."
+msgstr ""
+
+#. TRANSLATORS: give the user a ultimatum
+#: ../plugins/power/gsd-power-manager.c:574
+#, c-format
+msgid "Computer will shutdown very soon unless it is plugged in."
+msgstr ""
+
+#. TRANSLATORS: the UPS is very low
+#. TRANSLATORS: UPS is really, really, low
+#: ../plugins/power/gsd-power-manager.c:582
+#: ../plugins/power/gsd-power-manager.c:733
+msgid "UPS critically low"
+msgstr ""
+
+#. TRANSLATORS: give the user a ultimatum
+#: ../plugins/power/gsd-power-manager.c:588
+#, c-format
 msgid ""
-"There was an error starting up the screensaver:\n"
-"\n"
-"%s\n"
-"\n"
-"Screensaver functionality will not work in this session."
-msgstr "Ikosa Hejuru i OYA Akazi in iyi Umukoro"
-
-#: ../plugins/screensaver/gsd-screensaver-manager.c:160
-#, fuzzy
-msgid "_Do not show this message again"
-msgstr "OYA Garagaza iyi Ubutumwa"
-
-#: ../plugins/screensaver/screensaver.gnome-settings-plugin.in.h:1
-#, fuzzy
-msgid "Screensaver"
-msgstr "Gutangira"
-
-#: ../plugins/screensaver/screensaver.gnome-settings-plugin.in.h:2
-#, fuzzy
-msgid "Screensaver plugin"
-msgstr "ku Ifashayinjira"
-
-#: ../plugins/sound/gsd-sound-manager.c:164
-#, fuzzy, c-format
-msgid "Couldn't load sound file %s as sample %s"
-msgstr "Ibirimo Ijwi IDOSIYE Nka Urugero"
-
-#: ../plugins/sound/libsounds/sound-view.c:44
-msgid "Login"
+"Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
+"computer to avoid losing data."
 msgstr ""
 
-#: ../plugins/sound/libsounds/sound-view.c:45
-#, fuzzy
-msgid "Logout"
-msgstr "Kuvamo"
-
-#: ../plugins/sound/libsounds/sound-view.c:46
-msgid "Boing"
-msgstr ""
-
-# offmgr/source\offapp\dialog\fontsubs.src:RID_SVX_FONT_SUBSTITUTION.STR_HEADER2.text
-#: ../plugins/sound/libsounds/sound-view.c:47
-#, fuzzy
-msgid "Siren"
-msgstr "Mugaragaza"
-
-#: ../plugins/sound/libsounds/sound-view.c:48
-msgid "Clink"
-msgstr ""
-
-#: ../plugins/sound/libsounds/sound-view.c:49
-msgid "Beep"
-msgstr ""
-
-#: ../plugins/sound/libsounds/sound-view.c:50
-#, fuzzy
-msgid "No sound"
-msgstr "Ijwi"
-
-#: ../plugins/sound/libsounds/sound-view.c:132
-#, fuzzy
-msgid "Sound not set for this event."
-msgstr "kugirango Ibyabaye"
-
-#: ../plugins/sound/libsounds/sound-view.c:141
-#, fuzzy
+#. TRANSLATORS: the device is just going to stop working
+#: ../plugins/power/gsd-power-manager.c:597
+#, c-format
 msgid ""
-"The sound file for this event does not exist.\n"
-"You may want to install the gnome-audio package for a set of default sounds."
+"Wireless mouse is very low in power (%.0f%%). This device will soon stop "
+"functioning if not charged."
 msgstr ""
-"Ijwi IDOSIYE kugirango iyi Icyabaye OYA Gicurasi Kuri Kwinjiza porogaramu i "
-"a Gushyiraho Bya Mburabuzi Amajwi"
 
-#: ../plugins/sound/libsounds/sound-view.c:152
-#, fuzzy
-msgid "The sound file for this event does not exist."
-msgstr "Ijwi IDOSIYE kugirango iyi Icyabaye OYA"
+#. TRANSLATORS: the device is just going to stop working
+#: ../plugins/power/gsd-power-manager.c:605
+#, c-format
+msgid ""
+"Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
+"functioning if not charged."
+msgstr ""
 
-#: ../plugins/sound/libsounds/sound-view.c:183
-#, fuzzy
-msgid "Select Sound File"
-msgstr "Idosiye"
+#. TRANSLATORS: the device is just going to stop working
+#: ../plugins/power/gsd-power-manager.c:614
+#, c-format
+msgid ""
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if"
+" not charged."
+msgstr ""
 
-#: ../plugins/sound/libsounds/sound-view.c:210
-#, fuzzy, c-format
-msgid "The file %s is not a valid wav file"
-msgstr "IDOSIYE ni OYA a Byemewe IDOSIYE"
+#. TRANSLATORS: the device is just going to stop working
+#: ../plugins/power/gsd-power-manager.c:624
+#, c-format
+msgid ""
+"Cell phone is very low in power (%.0f%%). This device will soon stop "
+"functioning if not charged."
+msgstr ""
 
-#: ../plugins/sound/libsounds/sound-view.c:271
-#, fuzzy
-msgid "Select sound file..."
-msgstr "Idosiye"
+#. TRANSLATORS: the device is just going to stop working
+#: ../plugins/power/gsd-power-manager.c:633
+#, c-format
+msgid ""
+"Media player is very low in power (%.0f%%). This device will soon stop "
+"functioning if not charged."
+msgstr ""
 
-# offmgr/source\offapp\dialog\optgdlg.src:OFA_TP_MISC.FT_HELPAGENT_TIME_UNIT.text
-#: ../plugins/sound/libsounds/sound-view.c:373
-#, fuzzy
-msgid "System Sounds"
-msgstr "amasogonda"
+#. TRANSLATORS: the device is just going to stop working
+#: ../plugins/power/gsd-power-manager.c:642
+#, c-format
+msgid ""
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning"
+" if not charged."
+msgstr ""
+
+#. TRANSLATORS: the device is just going to stop working
+#: ../plugins/power/gsd-power-manager.c:651
+#, c-format
+msgid ""
+"Attached computer is very low in power (%.0f%%). The device will soon "
+"shutdown if not charged."
+msgstr ""
+
+#. TRANSLATORS: computer will hibernate
+#: ../plugins/power/gsd-power-manager.c:716
+msgid ""
+"The battery is below the critical level and this computer is about to "
+"hibernate."
+msgstr ""
+
+#. TRANSLATORS: computer will just shutdown
+#: ../plugins/power/gsd-power-manager.c:721
+msgid ""
+"The battery is below the critical level and this computer is about to "
+"shutdown."
+msgstr ""
+
+#. TRANSLATORS: computer will hibernate
+#: ../plugins/power/gsd-power-manager.c:741
+msgid ""
+"UPS is below the critical level and this computer is about to hibernate."
+msgstr ""
+
+#. TRANSLATORS: computer will just shutdown
+#: ../plugins/power/gsd-power-manager.c:746
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
+msgstr ""
+
+#. TRANSLATORS: this is the sound description
+#: ../plugins/power/gsd-power-manager.c:1259
+msgid "Lid has been opened"
+msgstr ""
+
+#. TRANSLATORS: this is the sound description
+#: ../plugins/power/gsd-power-manager.c:1297
+msgid "Lid has been closed"
+msgstr ""
+
+#. TRANSLATORS: this is the sound description
+#: ../plugins/power/gsd-power-manager.c:1856
+msgid "On battery power"
+msgstr ""
+
+#. TRANSLATORS: this is the sound description
+#: ../plugins/power/gsd-power-manager.c:1861
+msgid "On AC power"
+msgstr ""
+
+#: ../plugins/power/gsd-power-manager.c:2053
+msgid "Automatic logout"
+msgstr ""
+
+#: ../plugins/power/gsd-power-manager.c:2053
+msgid "You will soon log out because of inactivity."
+msgstr ""
+
+#: ../plugins/power/gsd-power-manager.c:2058
+msgid "Automatic suspend"
+msgstr ""
+
+#: ../plugins/power/gsd-power-manager.c:2058
+#: ../plugins/power/gsd-power-manager.c:2063
+msgid "Computer will suspend very soon because of inactivity."
+msgstr ""
+
+#: ../plugins/power/gsd-power-manager.c:2063
+msgid "Automatic hibernation"
+msgstr ""
+
+#. SECURITY:
+#. - A normal active user on the local machine does not need permission
+#. to change the backlight brightness.
+#: ../plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in.h:5
+msgid "Modify the laptop brightness"
+msgstr ""
+
+#: ../plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in.h:6
+msgid "Authentication is required to modify the laptop brightness"
+msgstr ""
+
+#: ../plugins/power/power.gnome-settings-plugin.in.h:2
+msgid "Power plugin"
+msgstr ""
+
+#. Translators: We are configuring new printer
+#: ../plugins/print-notifications/gsd-printer.c:890
+msgid "Configuring new printer"
+msgstr ""
+
+#. Translators: Just wait
+#: ../plugins/print-notifications/gsd-printer.c:892
+msgid "Please wait..."
+msgstr ""
+
+#. Translators: We have no driver installed for this printer
+#: ../plugins/print-notifications/gsd-printer.c:919
+msgid "Missing printer driver"
+msgstr ""
+
+#. Translators: We have no driver installed for the device
+#: ../plugins/print-notifications/gsd-printer.c:928
+#, c-format
+msgid "No printer driver for %s."
+msgstr ""
+
+#. Translators: We have no driver installed for this printer
+#: ../plugins/print-notifications/gsd-printer.c:933
+msgid "No driver for this printer."
+msgstr ""
+
+#: ../plugins/print-notifications/gsd-printer.c:1031
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:274
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:752
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:842
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:885
+msgid "Printers"
+msgstr ""
+
+#. Translators: The printer is low on toner (same as in system-config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:350
+#, c-format
+msgid "Printer '%s' is low on toner."
+msgstr ""
+
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:354
+#, c-format
+msgid "Printer '%s' has no toner left."
+msgstr ""
+
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:358
+#, c-format
+msgid "Printer '%s' may not be connected."
+msgstr ""
+
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:362
+#, c-format
+msgid "The cover is open on printer '%s'."
+msgstr ""
+
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:366
+#, c-format
+msgid "There is a missing print filter for printer '%s'."
+msgstr ""
+
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:371
+#, c-format
+msgid "The door is open on printer '%s'."
+msgstr ""
+
+#. Translators: "marker" is one color bin of the printer
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:375
+#, c-format
+msgid "Printer '%s' is low on a marker supply."
+msgstr ""
+
+#. Translators: "marker" is one color bin of the printer
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:379
+#, c-format
+msgid "Printer '%s' is out of a marker supply."
+msgstr ""
+
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:383
+#, c-format
+msgid "Printer '%s' is low on paper."
+msgstr ""
+
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:387
+#, c-format
+msgid "Printer '%s' is out of paper."
+msgstr ""
+
+#. Translators: The printer is offline (same as in system-config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:391
+#, c-format
+msgid "Printer '%s' is currently off-line."
+msgstr ""
+
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:395
+#, c-format
+msgid "There is a problem on printer '%s'."
+msgstr ""
+
+#. Translators: The printer is low on toner (same as in system-config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:443
+msgid "Toner low"
+msgstr ""
+
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:445
+msgid "Toner empty"
+msgstr ""
+
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:447
+msgid "Not connected?"
+msgstr ""
+
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:449
+msgid "Cover open"
+msgstr ""
+
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:451
+msgid "Printer configuration error"
+msgstr ""
+
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:453
+msgid "Door open"
+msgstr ""
+
+#. Translators: "marker" is one color bin of the printer
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:455
+msgid "Marker supply low"
+msgstr ""
+
+#. Translators: "marker" is one color bin of the printer
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:457
+msgid "Out of a marker supply"
+msgstr ""
+
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:459
+msgid "Paper low"
+msgstr ""
+
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:461
+msgid "Out of paper"
+msgstr ""
+
+#. Translators: The printer is offline (same as in system-config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:463
+msgid "Printer off-line"
+msgstr ""
+
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
+#. Translators: This is a title of an error notification for a printer
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:465
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:828
+msgid "Printer error"
+msgstr ""
+
+#. Translators: New printer has been added
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:513
+msgid "Printer added"
+msgstr ""
+
+#. Translators: A print job has been stopped
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:530
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:568
+msgctxt "print job state"
+msgid "Printing stopped"
+msgstr ""
+
+#. Translators: "print-job xy" on a printer
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:532
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:538
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:544
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:550
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:562
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:570
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:578
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:586
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:594
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:607
+#, c-format
+msgctxt "print job"
+msgid "\"%s\" on %s"
+msgstr ""
+
+#. Translators: A print job has been canceled
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:536
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:576
+msgctxt "print job state"
+msgid "Printing canceled"
+msgstr ""
+
+#. Translators: A print job has been aborted
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:542
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:584
+msgctxt "print job state"
+msgid "Printing aborted"
+msgstr ""
+
+#. Translators: A print job has been completed
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:548
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:592
+msgctxt "print job state"
+msgid "Printing completed"
+msgstr ""
+
+#. Translators: A job is printing
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:560
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:605
+msgctxt "print job state"
+msgid "Printing"
+msgstr ""
+
+#. Translators: This is a title of a report notification for a printer
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:822
+msgid "Printer report"
+msgstr ""
+
+#. Translators: This is a title of a warning notification for a printer
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:825
+msgid "Printer warning"
+msgstr ""
+
+#. Translators: "Printer 'MyPrinterName': 'Description of the
+#. report/warning/error from a PPD file'."
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:835
+#, c-format
+msgid "Printer '%s': '%s'."
+msgstr ""
+
+#. Priority=100
+#: ../plugins/print-notifications/print-notifications.gnome-settings-plugin.in.h:2
+msgid "Print-notifications"
+msgstr ""
+
+#: ../plugins/print-notifications/print-notifications.gnome-settings-plugin.in.h:3
+msgid "Print-notifications plugin"
+msgstr ""
+
+#. Priority=100
+#: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:2
+msgid "Rfkill"
+msgstr ""
+
+#: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:3
+msgid "Rfkill plugin"
+msgstr ""
+
+#: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:1
+msgid "Screensaver Proxy"
+msgstr ""
+
+#: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:2
+msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
+msgstr ""
+
+#: ../plugins/smartcard/gsd-smartcard-service.c:222
+msgid "User was not logged in with smartcard."
+msgstr ""
+
+#: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:1
+msgid "Smartcard"
+msgstr ""
+
+#: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:2
+msgid "Smartcard plugin"
+msgstr ""
 
 #: ../plugins/sound/sound.gnome-settings-plugin.in.h:1
 msgid "Sound"
 msgstr "Ijwi"
 
 #: ../plugins/sound/sound.gnome-settings-plugin.in.h:2
-#, fuzzy
-msgid "Sound plugin"
-msgstr "Idosiye"
-
-#: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:1
-msgid "Typing Break"
+msgid "Sound Sample Cache plugin"
 msgstr ""
 
-#: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:2
-msgid "Typing break plugin"
+#: ../plugins/wacom/gsd-wacom-button-editor.c:51
+msgctxt "Wacom action-type"
+msgid "None"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-button-editor.c:52
+msgctxt "Wacom action-type"
+msgid "Send Keystroke"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-button-editor.c:53
+msgctxt "Wacom action-type"
+msgid "Switch Monitor"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-button-editor.c:54
+msgctxt "Wacom action-type"
+msgid "Show On-Screen Help"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-button-editor.c:154
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1098
+msgctxt "Action type"
+msgid "Show On-Screen Help"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-button-editor.c:157
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1101
+msgctxt "Action type"
+msgid "Switch Monitor"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-button-editor.c:201
+msgctxt "keyboard shortcut"
+msgid "None"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-button-editor.c:487
+msgid "Done"
+msgstr ""
+
+#. If no mode is available, we use "left-ring-mode-1" for backward compat
+#: ../plugins/wacom/gsd-wacom-device.c:1028
+msgid "Left Ring"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-device.c:1039
+#, c-format
+msgid "Left Ring Mode #%d"
+msgstr ""
+
+#. If no mode is available, we use "right-ring-mode-1" for backward compat
+#: ../plugins/wacom/gsd-wacom-device.c:1059
+msgid "Right Ring"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-device.c:1070
+#, c-format
+msgid "Right Ring Mode #%d"
+msgstr ""
+
+#. If no mode is available, we use "left-strip-mode-1" for backward compat
+#: ../plugins/wacom/gsd-wacom-device.c:1112
+msgid "Left Touchstrip"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-device.c:1123
+#, c-format
+msgid "Left Touchstrip Mode #%d"
+msgstr ""
+
+#. If no mode is available, we use "right-strip-mode-1" for backward compat
+#: ../plugins/wacom/gsd-wacom-device.c:1143
+msgid "Right Touchstrip"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-device.c:1154
+#, c-format
+msgid "Right Touchstrip Mode #%d"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-device.c:1180
+#, c-format
+msgid "Left Touchring Mode Switch"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-device.c:1182
+#, c-format
+msgid "Right Touchring Mode Switch"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-device.c:1185
+#, c-format
+msgid "Left Touchstrip Mode Switch"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-device.c:1187
+#, c-format
+msgid "Right Touchstrip Mode Switch"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-device.c:1192
+#, c-format
+msgid "Mode Switch #%d"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-device.c:1238
+#, c-format
+msgid "Left Button #%d"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-device.c:1241
+#, c-format
+msgid "Right Button #%d"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-device.c:1244
+#, c-format
+msgid "Top Button #%d"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-device.c:1247
+#, c-format
+msgid "Bottom Button #%d"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-key-shortcut-button.c:263
+msgid "New shortcut…"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-manager.c:1037
+#, c-format
+msgid "The \"%s\" tablet may not work as expected."
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-manager.c:1038
+msgid "Unknown Tablet Connected"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-manager.c:1042
+msgid "Wacom Settings"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1075
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1095
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1106
+msgctxt "Action type"
+msgid "None"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1080
+#, c-format
+msgctxt "Action type"
+msgid "Send Keystroke %s"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1139
+#, c-format
+msgid "Mode %d: %s"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1349
+msgid "(press any key to exit)"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1358
+msgid "Push a button to configure"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1358
+msgid "(Esc to cancel)"
+msgstr ""
+
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1985
+msgid "Edit"
+msgstr ""
+
+#. SECURITY:
+#. - A normal active user on the local machine does not need permission
+#. to change the LED setting for a Wacom tablet
+#: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:5
+msgid "Modify the lit LED for a Wacom tablet"
+msgstr ""
+
+#: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:6
+msgid "Authentication is required to modify the lit LED for a Wacom tablet"
+msgstr ""
+
+#. SECURITY:
+#. - A normal active user on the local machine does not need permission
+#. to change the OLED images for a Wacom tablet
+#: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:11
+msgid "Modify the OLED image for a Wacom tablet"
+msgstr ""
+
+#: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:12
+msgid "Authentication is required to modify the OLED image for a Wacom tablet"
+msgstr ""
+
+#: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:1
+msgid "Wacom"
+msgstr ""
+
+#: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:2
+msgid "Wacom plugin"
+msgstr ""
+
+#: ../plugins/xrandr/gsd-xrandr-manager.c:965
+#, c-format
+msgid "Could not refresh the screen information: %s"
 msgstr ""
 
 #: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:1
-msgid "Set up screen size and rotation settings"
-msgstr ""
-
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:2
 msgid "XRandR"
 msgstr ""
 
-#: ../plugins/xrdb/gsd-xrdb-manager.c:258
-#: ../plugins/xrdb/gsd-xrdb-manager.c:327
-#, fuzzy
-msgid "Cannot determine user's home directory"
-msgstr "Ku Ntangiriro bushyinguro"
-
-#: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:1
-msgid "Manage the X resource database"
+#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:2
+msgid "Set up screen size and rotation settings"
 msgstr ""
-
-#: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:2
-msgid "X Resource Database"
-msgstr ""
-
-#: ../plugins/xsettings/gsd-xsettings-manager.c:551
-#, fuzzy, c-format
-msgid "GConf key %s set to type %s but its expected type was %s\n"
-msgstr "Urufunguzo Gushyiraho Kuri Ubwoko Ikitezwe: Ubwoko"
 
 #: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:1
-#, fuzzy
-msgid "Manage X Settings"
-msgstr "Amagenamiterere"
+msgid "X Settings"
+msgstr ""
 
 #: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
-#, fuzzy
-msgid "X Settings"
-msgstr "Amagenamiterere"
-
-#, fuzzy
-#~ msgid "The type of alert"
-#~ msgstr "Ubwoko Bya"
-
-# sfx2/source\toolbox\tbxcust.src:RID_USERDEFBMP.GB_FUNCTION.text
-#, fuzzy
-#~ msgid "Alert Buttons"
-#~ msgstr "Utubuto"
-
-#, fuzzy
-#~ msgid "About Me"
-#~ msgstr "/Bigyanye"
-
-#, fuzzy
-#~ msgid "Set your personal information"
-#~ msgstr "Mburabuzi Porogaramu"
-
-# basctl/source\basicide\tbxctl.src:RID_TOOLBOX.SID_INSERT_SELECT.text
-#, fuzzy
-#~ msgid "Select Image"
-#~ msgstr "Guhitamo"
-
-#, fuzzy
-#~ msgid "About %s"
-#~ msgstr "/Bigyanye"
-
-#~ msgid " "
-#~ msgstr " "
-
-#, fuzzy
-#~ msgid "<b>Email</b>"
-#~ msgstr "<i i"
-
-#, fuzzy
-#~ msgid "<b>Home</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>Instant Messaging</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>Job</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>Telephone</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>Web</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>Work</b>"
-#~ msgstr "<B B"
-
-# sfx2/source\dialog\filedlghelper.src:STR_LB_IMAGE_TEMPLATE.text
-#, fuzzy
-#~ msgid "C_ity:"
-#~ msgstr "Imisusire"
-
-# padmin/source\padialog.src:RID_PADIALOG.RID_PA_TXT_COMMAND.text
-#, fuzzy
-#~ msgid "C_ompany:"
-#~ msgstr "Komandi:"
-
-#, fuzzy
-#~ msgid "Change Password"
-#~ msgstr "Gushyiraho"
-
-# sfx2/source\dialog\filedlghelper.src:STR_LB_IMAGE_TEMPLATE.text
-#, fuzzy
-#~ msgid "Ci_ty:"
-#~ msgstr "Imisusire"
-
-#, fuzzy
-#~ msgid "Co_untry:"
-#~ msgstr "Igenzura"
-
-#, fuzzy
-#~ msgid "Cou_ntry:"
-#~ msgstr "Igenzura"
-
-# basctl/source\basicide\moduldlg.src:RID_TP_LIBS.RID_PB_PASSWORD.text
-#, fuzzy
-#~ msgid "Old pa_ssword:"
-#~ msgstr "Ijambobanga..."
-
-#, fuzzy
-#~ msgid "User name:"
-#~ msgstr "Izina ry'ukoresha"
-
-#, fuzzy
-#~ msgid "_Home page:"
-#~ msgstr "Izina:"
-
-# basctl/source\basicide\moduldlg.src:RID_DLG_NEWLIB.RID_FT_NEWLIB.text
-#, fuzzy
-#~ msgid "_Home:"
-#~ msgstr "Izina:"
-
-#, fuzzy
-#~ msgid "_Manager:"
-#~ msgstr "Umuyobozi w'idirishya"
-
-#, fuzzy
-#~ msgid "_Mobile:"
-#~ msgstr "Ingerofatizo"
-
-# basctl/source\basicide\moduldlg.src:RID_TP_LIBS.RID_PB_PASSWORD.text
-#, fuzzy
-#~ msgid "_New password:"
-#~ msgstr "Ijambobanga..."
-
-#, fuzzy
-#~ msgid "_Profession:"
-#~ msgstr "Verisiyo:"
-
-# sfx2/source\dialog\filedlghelper.src:STR_LB_IMAGE_TEMPLATE.text
-#, fuzzy
-#~ msgid "_Title:"
-#~ msgstr "Imisusire"
-
-#, fuzzy
-#~ msgid "<b>Applications</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>Support</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid ""
-#~ "<small><i><b>Note:</b> Changes to this setting will not take effect until "
-#~ "you next log in.</i></small>"
-#~ msgstr ""
-#~ "<Gitoya i B B Kuri iyi Igenamiterere OYA INGARUKA Komeza>> LOG in i Gitoya"
-
-#, fuzzy
-#~ msgid "Close and _Log Out"
-#~ msgstr "Funga Na"
-
-#, fuzzy
-#~ msgid "Start these assistive technologies every time you log in:"
-#~ msgstr "Gutangira buri Igihe LOG in"
-
-#, fuzzy
-#~ msgid "_On-screen keyboard"
-#~ msgstr "Mugaragaza Mwandikisho"
-
-#, fuzzy
-#~ msgid "Enable support for GNOME assistive technologies at login"
-#~ msgstr "Gushigikira kugirango ku Ifashayinjira"
-
-#, fuzzy
-#~ msgid ""
-#~ "No Assistive Technology is available on your system.  The 'gok' package "
-#~ "must be installed in order to get on-screen keyboard support, and the "
-#~ "'gnopernicus' package must be installed for screenreading and magnifying "
-#~ "capabilities."
-#~ msgstr ""
-#~ "ni Bihari ku Sisitemu in Itondekanya Kuri Kubona ku Mugaragaza "
-#~ "Mwandikisho Gushigikira Na i kugirango Na"
-
-#, fuzzy
-#~ msgid ""
-#~ "Not all available assistive technologies are installed on your system.  "
-#~ "The 'gok' package must be installed in order to get on-screen keyboard "
-#~ "support."
-#~ msgstr ""
-#~ "Byose Bihari ku Sisitemu in Itondekanya Kuri Kubona ku Mugaragaza "
-#~ "Mwandikisho Gushigikira"
-
-#, fuzzy
-#~ msgid ""
-#~ "Not all available assistive technologies are installed on your system.  "
-#~ "The 'gnopernicus' package must be installed for screenreading and "
-#~ "magnifying capabilities."
-#~ msgstr "Byose Bihari ku Sisitemu kugirango Na"
-
-#, fuzzy
-#~ msgid "There was an error launching the mouse preferences dialog: %s"
-#~ msgstr "Ikosa i Imbeba Ibyahiswemo Ikiganiro"
-
-#, fuzzy
-#~ msgid "Unable to import AccessX settings from file '%s'"
-#~ msgstr "Kuri Kuzana Amagenamiterere Bivuye IDOSIYE"
-
-#, fuzzy
-#~ msgid "Import Feature Settings File"
-#~ msgstr "Idosiye"
-
-# filter/source\xsltdialog\xmlfiltertestdialog.src:DLG_XML_FILTER_TEST_DIALOG.FL_IMPORT.text
-#, fuzzy
-#~ msgid "_Import"
-#~ msgstr "Kuzana"
-
-#, fuzzy
-#~ msgid "Set your keyboard accessibility preferences"
-#~ msgstr "Mwandikisho Ubushobozi bwo gukoreshwa Ibyahiswemo"
-
-#, fuzzy
-#~ msgid ""
-#~ "This system does not seem to have the XKB extension.  The keyboard "
-#~ "accessibility features will not operate without it."
-#~ msgstr ""
-#~ "Sisitemu OYA Kuri i Umugereka Mwandikisho Ubushobozi bwo gukoreshwa "
-#~ "Ibiranga OYA"
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#, fuzzy
-#~ msgid "<b>Enable Bo_unce Keys</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>Enable Slo_w Keys</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>Enable _Mouse Keys</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>Enable _Repeat Keys</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>Enable _Sticky Keys</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>Features</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>Toggle Keys</b>"
-#~ msgstr "<B B"
-
-#~ msgid "Basic"
-#~ msgstr "By'ibanze"
-
-#, fuzzy
-#~ msgid "Beep if key is re_jected"
-#~ msgstr "NIBA Urufunguzo ni Byanzwe"
-
-#, fuzzy
-#~ msgid "Beep when _features turned on or off from keyboard"
-#~ msgstr "Ryari: Ibiranga ku Cyangwa Bidakora Bivuye Mwandikisho"
-
-#, fuzzy
-#~ msgid "Beep when _modifier is pressed"
-#~ msgstr "Ryari: ni"
-
-#, fuzzy
-#~ msgid "Beep when an LED is turned on and two beeps when one is turned off."
-#~ msgstr "Ryari: ni ku Na Ryari: ni Bidakora"
-
-#, fuzzy
-#~ msgid "Beep when key is:"
-#~ msgstr "Ryari: Urufunguzo ni"
-
-# svx/source\dialog\textanim.src:RID_SVXPAGE_TEXTANIMATION.FT_DELAY.text
-#, fuzzy
-#~ msgid "Del_ay:"
-#~ msgstr "Gutinda"
-
-#, fuzzy
-#~ msgid "Delay between keypress and pointer mo_vement:"
-#~ msgstr "hagati Na Mweretsi Igenda"
-
-#, fuzzy
-#~ msgid "Disa_ble if two keys pressed together"
-#~ msgstr "NIBA Utubuto"
-
-# framework/source\classes\fltdlg.src:DLG_FILTER_SELECT.FL_FILTER.text
-#~ msgid "Filters"
-#~ msgstr "Muyunguruzi"
-
-#, fuzzy
-#~ msgid "I_gnore duplicate keypresses within:"
-#~ msgstr "Gusubiramo muri"
-
-#, fuzzy
-#~ msgid ""
-#~ "Ignore all subsequent presses of the SAME key if they happen within a "
-#~ "user selectable period of time."
-#~ msgstr "Byose Bya i Urufunguzo NIBA muri a Ukoresha: Igihe Bya Igihe"
-
-#, fuzzy
-#~ msgid "Ma_ximum pointer speed:"
-#~ msgstr "Mweretsi Umuvuduko"
-
-#, fuzzy
-#~ msgid ""
-#~ "Only accept keys after they have been pressed and held for a user "
-#~ "adjustable amount of time."
-#~ msgstr "Kwemera Utubuto Nyuma Na kugirango a Ukoresha: Igiteranyo Bya Igihe"
-
-#, fuzzy
-#~ msgid ""
-#~ "Perform multiple simultaneous key press operations by pressing modifier "
-#~ "keys in sequence."
-#~ msgstr "Igikubo Urufunguzo Kanda Ibikorwa: ku Utubuto in"
-
-#, fuzzy
-#~ msgid "S_peed:"
-#~ msgstr "Umuvuduko"
-
-#, fuzzy
-#~ msgid "Time to acce_lerate to maximum speed:"
-#~ msgstr "Kuri Kuri Kinini Umuvuduko"
-
-#, fuzzy
-#~ msgid "Turn the numeric keypad into a mouse control pad."
-#~ msgstr "i Bikurikije umubare a Imbeba Igenzura"
-
-#, fuzzy
-#~ msgid "_Disable if unused for:"
-#~ msgstr "NIBA Kidakoreshwa kugirango"
-
-#, fuzzy
-#~ msgid "_Only accept keys held for:"
-#~ msgstr "Kwemera Utubuto kugirango"
-
-#, fuzzy
-#~ msgid "_Type to test settings:"
-#~ msgstr "Kuri Igerageza Amagenamiterere"
-
-# sc/source\ui\miscdlgs\acredlin.src:RID_SCDLG_CHANGES.STR_ACCEPTED.text
-#, fuzzy
-#~ msgid "_accepted"
-#~ msgstr "Byemewe"
-
-# sc/source\ui\miscdlgs\acredlin.src:RID_SCDLG_CHANGES.STR_REJECTED.text
-#, fuzzy
-#~ msgid "_rejected"
-#~ msgstr "Byanzwe"
-
-#, fuzzy
-#~ msgid "characters/second"
-#~ msgstr "Inyuguti ISEGONDA"
-
-#, fuzzy
-#~ msgid "pixels/second"
-#~ msgstr "Pigiseli ISEGONDA"
-
-#, fuzzy
-#~ msgid "Change your Desktop Background settings"
-#~ msgstr "Amagenamiterere"
-
-#, fuzzy
-#~ msgid "<b>Desktop _Wallpaper</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>_Desktop Colors</b>"
-#~ msgstr "<B B"
-
-# sfx2/source\dialog\filedlghelper.src:STR_LB_IMAGE_TEMPLATE.text
-#, fuzzy
-#~ msgid "_Style:"
-#~ msgstr "Imisusire"
-
-#~ msgid "Centered"
-#~ msgstr "Biri hagati"
-
-#~ msgid "Scaled"
-#~ msgstr "Scaled"
-
-# #-#-#-#-#  wizards.pot (PACKAGE VERSION)  #-#-#-#-#
-# wizards/source\formwizard\dbwizres.src:RID_DB_FORM_WIZARD_START_+_56.text
-# #-#-#-#-#  wizards.pot (PACKAGE VERSION)  #-#-#-#-#
-# wizards/source\webwizard\webwizar.src:WEBDIALOG_+_7.text
-#, fuzzy
-#~ msgid "Tiled"
-#~ msgstr "Cy'udukaro"
-
-#, fuzzy
-#~ msgid ""
-#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#~ "Without the GNOME settings manager running, some preferences may not take "
-#~ "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. "
-#~ "KDE) settings manager may already be active and conflicting with the "
-#~ "GNOME settings manager."
-#~ msgstr "g."
-
-#, fuzzy
-#~ msgid "Unable to load capplet stock icon '%s'\n"
-#~ msgstr "Kuri Ibirimo Agashushondanga"
-
-#, fuzzy
-#~ msgid "Just apply settings and quit"
-#~ msgstr "Gukurikiza Amagenamiterere Na Kuvamo"
-
-#, fuzzy
-#~ msgid "Retrieve and store legacy settings"
-#~ msgstr "Na Amagenamiterere"
-
-#, fuzzy
-#~ msgid "URI currently transferring from"
-#~ msgstr "Bivuye"
-
-#, fuzzy
-#~ msgid "URI currently transferring to"
-#~ msgstr "Kuri"
-
-#, fuzzy
-#~ msgid "Fraction of transfer currently completed"
-#~ msgstr "Bya"
-
-#, fuzzy
-#~ msgid "Current URI index"
-#~ msgstr "Umubarendanga"
-
-#, fuzzy
-#~ msgid "Current URI index - starts from 1"
-#~ msgstr "Umubarendanga Bivuye 1."
-
-#, fuzzy
-#~ msgid "Total number of URIs"
-#~ msgstr "Umubare Bya"
-
-# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Wizard.Memo.Elements.From.text
-#, fuzzy
-#~ msgid "From:"
-#~ msgstr "Bivuye"
-
-# Buttons
-#, fuzzy
-#~ msgid "To:"
-#~ msgstr "Kuri->"
-
-# sw/source\ui\app\app.src:STR_STATSTR_LAYOUTINIT.text
-#~ msgid "Connecting..."
-#~ msgstr "Kwihuza..."
-
-# 3348
-#~ msgid "Key"
-#~ msgstr "Urufunguzo"
-
-#, fuzzy
-#~ msgid "GConf key to which this property editor is attached"
-#~ msgstr "Urufunguzo Kuri iyi indangakintu Muhinduzi ni"
-
-#, fuzzy
-#~ msgid "Issue this callback when the value associated with key gets changed"
-#~ msgstr "iyi Ryari: i Agaciro Na: Urufunguzo Byahinduwe"
-
-#, fuzzy
-#~ msgid "Change set"
-#~ msgstr "Gushyiraho"
-
-#, fuzzy
-#~ msgid ""
-#~ "GConf change set containing data to be forwarded to the gconf client on "
-#~ "apply"
-#~ msgstr ""
-#~ "Guhindura>> Gushyiraho Ibyatanzwe Kuri Kuri i Umukiriya ku Gukurikiza"
-
-#, fuzzy
-#~ msgid "Conversion to widget callback"
-#~ msgstr "Kuri"
-
-#, fuzzy
-#~ msgid ""
-#~ "Callback to be issued when data are to be converted from GConf to the "
-#~ "widget"
-#~ msgstr "Kuri Byasohowe Ryari: Ibyatanzwe Kuri Bivuye Kuri i"
-
-#, fuzzy
-#~ msgid "Conversion from widget callback"
-#~ msgstr "Bivuye"
-
-#, fuzzy
-#~ msgid ""
-#~ "Callback to be issued when data are to be converted to GConf from the "
-#~ "widget"
-#~ msgstr "Kuri Byasohowe Ryari: Ibyatanzwe Kuri Kuri Bivuye i"
-
-#, fuzzy
-#~ msgid "Object that controls the property (normally a widget)"
-#~ msgstr "Amagenzura i indangakintu a"
-
-#, fuzzy
-#~ msgid "Property editor object data"
-#~ msgstr "Muhinduzi Igikoresho Ibyatanzwe"
-
-#, fuzzy
-#~ msgid "Custom data required by the specific property editor"
-#~ msgstr "Kugena Ibyatanzwe Bya ngombwa ku i indangakintu Muhinduzi"
-
-#, fuzzy
-#~ msgid "Property editor data freeing callback"
-#~ msgstr "Muhinduzi Ibyatanzwe"
-
-#, fuzzy
-#~ msgid ""
-#~ "Callback to be issued when property editor object data is to be freed"
-#~ msgstr ""
-#~ "Kuri Byasohowe Ryari: indangakintu Muhinduzi Igikoresho Ibyatanzwe ni Kuri"
-
-#, fuzzy
-#~ msgid ""
-#~ "Couldn't find the file '%s'.\n"
-#~ "\n"
-#~ "Please make sure it exists and try again, or choose a different "
-#~ "background picture."
-#~ msgstr ""
-#~ "Gushaka i IDOSIYE Ubwoko Na Cyangwa Guhitamo a Mbuganyuma() y'Ishusho"
-
-#, fuzzy
-#~ msgid ""
-#~ "I don't know how to open the file '%s'.\n"
-#~ "Perhaps it's a kind of picture that is not yet supported.\n"
-#~ "\n"
-#~ "Please select a different picture instead."
-#~ msgstr ""
-#~ "Kuri Gufungura i IDOSIYE a Bya() y'Ishusho ni OYA Guhitamo a() y'Ishusho"
-
-#, fuzzy
-#~ msgid "Please select an image."
-#~ msgstr "Guhitamo Ishusho"
-
-# basctl/source\basicide\tbxctl.src:RID_TOOLBOX.SID_INSERT_SELECT.text
-#, fuzzy
-#~ msgid "_Select"
-#~ msgstr "Guhitamo"
-
-#, fuzzy
-#~ msgid "Select your default applications"
-#~ msgstr "Mburabuzi Porogaramu"
-
-#~ msgid "Mozilla"
-#~ msgstr "Mozilla"
-
-#, fuzzy
-#~ msgid "Netscape Communicator"
-#~ msgstr "Netscape"
-
-#, fuzzy
-#~ msgid "Mozilla Mail"
-#~ msgstr "Mozilla"
-
-#, fuzzy
-#~ msgid "Please specify a name and a command for this editor."
-#~ msgstr "a Izina: Na a Komandi: kugirango iyi Muhinduzi"
-
-#~ msgid "Add..."
-#~ msgstr "Kingeraho"
-
-#, fuzzy
-#~ msgid "C_ustom"
-#~ msgstr "Guhanga"
-
-#, fuzzy
-#~ msgid "C_ustom:"
-#~ msgstr "Kunoza"
-
-#, fuzzy
-#~ msgid "Can open _URIs"
-#~ msgstr "Gufungura"
-
-#, fuzzy
-#~ msgid "Can open multiple _files"
-#~ msgstr "Gufungura Igikubo Idosiye"
-
-# padmin/source\padialog.src:RID_PADIALOG.RID_PA_TXT_COMMAND.text
-#, fuzzy
-#~ msgid "Co_mmand:"
-#~ msgstr "Komandi:"
-
-#, fuzzy
-#~ msgid "Custom Editor Properties"
-#~ msgstr "Kugena"
-
-# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
-# basctl/source\basicide\basidesh.src:RID_POPUP_TABBAR.SID_BASICIDE_DELETECURRENT.text
-# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
-# basctl/source\basicide\brkdlg.src:RID_BASICIDE_BREAKPOINTDLG.RID_PB_DEL.text
-#~ msgid "Delete"
-#~ msgstr "Gusiba"
-
-# dbaccess/source/ui/inc/toolbox.hrc:MID_DBUI_QUERY_EDIT_JOINCONNECTION.text
-#~ msgid "Edit..."
-#~ msgstr "Kwandika..."
-
-#, fuzzy
-#~ msgid "Run in a _terminal"
-#~ msgstr "in a"
-
-#, fuzzy
-#~ msgid "Run in a t_erminal"
-#~ msgstr "in a"
-
-#, fuzzy
-#~ msgid ""
-#~ "Select the window manager you want.  You will need to hit apply, wave the "
-#~ "magic wand, and do a magic dance for it to work."
-#~ msgstr ""
-#~ "i Idirishya Muyobozi Kuri kanda Gukurikiza UMUVUMBA i Na a kugirango Kuri "
-#~ "Akazi"
-
-#~ msgid "Text Editor"
-#~ msgstr "Umuhinduzi w'inyandiko"
-
-#, fuzzy
-#~ msgid "Understands _Netscape Remote Control"
-#~ msgstr "Netscape"
-
-#, fuzzy
-#~ msgid "Use this _editor to open text files in the file manager"
-#~ msgstr ""
-#~ "iyi Muhinduzi Kuri Gufungura Umwandiko Idosiye in i IDOSIYE Muyobozi"
-
-#~ msgid "Window Manager"
-#~ msgstr "Umuyobozi w'idirishya"
-
-# padmin/source\padialog.src:RID_PADIALOG.RID_PA_TXT_COMMAND.text
-#, fuzzy
-#~ msgid "_Command:"
-#~ msgstr "Komandi:"
-
-# basctl/source\basicide\moduldlg.src:RID_DLG_NEWLIB.RID_FT_NEWLIB.text
-#, fuzzy
-#~ msgid "_Name:"
-#~ msgstr "Izina:"
-
-# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
-# basctl/source\basicide\basidesh.src:RID_POPUP_BRKPROPS.RID_BRKPROPS.text
-# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
-# basctl/source\basicide\basidesh.src:RID_POPUP_DLGED.SID_SHOW_PROPERTYBROWSER.text
-#, fuzzy
-#~ msgid "_Properties..."
-#~ msgstr "Indangakintu..."
-
-# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
-# sc/source\ui\src\menue.src:SCCFG_PLUGINMENU.SUBMENU_EDIT.SUBMENU_EDIT_TABLE.SID_SELECT_TABLES.text
-# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
-# sc/source\ui\src\menue.src:SCCFG_MENUBAR.SUBMENU_EDIT.SUBMENU_EDIT_TABLE.SID_SELECT_TABLES.text
-#, fuzzy
-#~ msgid "_Select:"
-#~ msgstr "Guhitamo..."
-
-#, fuzzy
-#~ msgid "Change screen resolution"
-#~ msgstr "Mugaragaza Imikemurire"
-
-# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Filter.Graphic.Export.BMP.Resolution.text
-#, fuzzy
-#~ msgid "_Resolution:"
-#~ msgstr "Imikemurire"
-
-#, fuzzy
-#~ msgid "Re_fresh rate:"
-#~ msgstr "Igipimo"
-
-# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
-# sc/source\ui\src\solvrdlg.src:RID_SCDLG_SOLVER.FL_VARIABLES.text
-# #-#-#-#-#  sc.pot (PACKAGE VERSION)  #-#-#-#-#
-# sc/source\ui\src\tabopdlg.src:RID_SCDLG_TABOP.FL_VARIABLES.text
-#, fuzzy
-#~ msgid "Default Settings"
-#~ msgstr "Amaboneza mburabuzi"
-
-#, fuzzy
-#~ msgid "_Make default for this computer (%s) only"
-#~ msgstr "Mburabuzi kugirango iyi"
-
-# basctl/source\basicide\moduldlg.src:RID_DLG_LIBS.RID_FL_OPTIONS.text
-#~ msgid "Options"
-#~ msgstr "Amahitamo"
-
-#, fuzzy
-#~ msgid ""
-#~ "Testing the new settings. If you don't respond in %d second the previous "
-#~ "settings will be restored."
-#~ msgid_plural ""
-#~ "Testing the new settings. If you don't respond in %d seconds the previous "
-#~ "settings will be restored."
-#~ msgstr[0] ""
-#~ "i Gishya Amagenamiterere in ISEGONDA i Ibanjirije Amagenamiterere"
-
-#, fuzzy
-#~ msgid "Do you want to keep this resolution?"
-#~ msgstr "Kuri Gumana: iyi Imikemurire"
-
-#, fuzzy
-#~ msgid "Use _previous resolution"
-#~ msgstr "Ibanjirije Imikemurire"
-
-#, fuzzy
-#~ msgid "_Keep resolution"
-#~ msgstr "Imikemurire"
-
-#, fuzzy
-#~ msgid ""
-#~ "The X Server does not support the XRandR extension.  Runtime resolution "
-#~ "changes to the display size are not available."
-#~ msgstr ""
-#~ "OYA Gushigikira i Umugereka Imikemurire Amahinduka Kuri i Kugaragaza "
-#~ "Ingano OYA Bihari"
-
-#, fuzzy
-#~ msgid ""
-#~ "The version of the XRandR extension is incompatible with this program. "
-#~ "Runtime changes to the display size are not available."
-#~ msgstr ""
-#~ "Verisiyo Bya i Umugereka ni Na: iyi Porogaramu Amahinduka Kuri i "
-#~ "Kugaragaza Ingano OYA Bihari"
-
-#, fuzzy
-#~ msgid "Select fonts for the desktop"
-#~ msgstr "Imyandikire kugirango i Ibiro"
-
-#, fuzzy
-#~ msgid "<b>Font Rendering</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>Smoothing</b>:"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>Subpixel order</b>:"
-#~ msgstr "<B Itondekanya B"
-
-#, fuzzy
-#~ msgid "Best _shapes"
-#~ msgstr "Imisusire- shusho"
-
-#, fuzzy
-#~ msgid "Best co_ntrast"
-#~ msgstr "Inyuranyamigaragarire"
-
-#, fuzzy
-#~ msgid "D_etails..."
-#~ msgstr "Isesengurabyose..."
-
-#, fuzzy
-#~ msgid "Go _to font folder"
-#~ msgstr "Kuri Intego- nyuguti Ububiko"
-
-# goodies/source\filter.vcl\eps\dlgeps.src:DLG_EXPORT_EPS.RB_GRAYSCALE.text
-#, fuzzy
-#~ msgid "Gra_yscale"
-#~ msgstr "Ingano y'ubwijime"
-
-#, fuzzy
-#~ msgid "N_one"
-#~ msgstr "Ntacyo"
-
-# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Filter.Graphic.Export.BMP.Resolution.text
-#, fuzzy
-#~ msgid "R_esolution:"
-#~ msgstr "Imikemurire"
-
-#, fuzzy
-#~ msgid "_Application font:"
-#~ msgstr "Intego- nyuguti"
-
-#, fuzzy
-#~ msgid "_Desktop font:"
-#~ msgstr "Intego- nyuguti"
-
-# officecfg/registry\schema\org\openoffice\Office\Math.xcs:....FontFormat.Weight..6.text
-#, fuzzy
-#~ msgid "_Medium"
-#~ msgstr "biringaniye"
-
-# 3916
-#, fuzzy
-#~ msgid "_Monochrome"
-#~ msgstr "bararimwe"
-
-#, fuzzy
-#~ msgid "_None"
-#~ msgstr "Ntacyo"
-
-# svx/source\dialog\tabarea.src:RID_SVXPAGE_COLOR.LB_COLORMODEL.1.text
-#, fuzzy
-#~ msgid "_RGB"
-#~ msgstr "UmutukuIcyatsiUbururu"
-
-#, fuzzy
-#~ msgid "_Terminal font:"
-#~ msgstr "Intego- nyuguti"
-
-#, fuzzy
-#~ msgid "_Window title font:"
-#~ msgstr "Umutwe Intego- nyuguti"
-
-#, fuzzy
-#~ msgid "dots per inch"
-#~ msgstr "Utudomo Inci"
-
-#, fuzzy
-#~ msgid "Font may be too large"
-#~ msgstr "Gicurasi Binini"
-
-#, fuzzy
-#~ msgid ""
-#~ "The font selected is %d point large, and may make it difficult to "
-#~ "effectively use the computer.  It is recommended that you select a size "
-#~ "smaller than %d."
-#~ msgid_plural ""
-#~ "The font selected is %d points large, and may make it difficult to "
-#~ "effectively use the computer. It is recommended that you select a size "
-#~ "smaller than %d."
-#~ msgstr[0] ""
-#~ "Intego- nyuguti Byahiswemo ni Akadomo Binini Na Gicurasi Ubwoko Kuri "
-#~ "Gukoresha i ni Guhitamo a Ingano Gitoya"
-
-#, fuzzy
-#~ msgid ""
-#~ "The font selected is %d point large, and may make it difficult to "
-#~ "effectively use the computer.  It is recommended that you select a "
-#~ "smaller sized font."
-#~ msgid_plural ""
-#~ "The font selected is %d points large, and may make it difficult to "
-#~ "effectively use the computer. It is recommended that you select a smaller "
-#~ "sized font."
-#~ msgstr[0] ""
-#~ "Intego- nyuguti Byahiswemo ni Akadomo Binini Na Gicurasi Ubwoko Kuri "
-#~ "Gukoresha i ni Guhitamo a Gitoya Intego- nyuguti"
-
-#, fuzzy
-#~ msgid "Accelerator key"
-#~ msgstr "Ifunguzo yihutisha:"
-
-#, fuzzy
-#~ msgid "The type of accelerator."
-#~ msgstr "Ubwoko Bya"
-
-#~ msgid "Disabled"
-#~ msgstr "Yahagaritswe"
-
-# sfx2/source\explorer\explorer.src:STR_SFX_DESKTOP.text
-#~ msgid "Desktop"
-#~ msgstr "Ibiro"
-
-#, fuzzy
-#~ msgid ""
-#~ "The shortcut \"%s\" is already used for:\n"
-#~ " \"%s\"\n"
-#~ msgstr "Iy'ibusamo ni kugirango"
-
-#, fuzzy
-#~ msgid "Error setting new accelerator in configuration database: %s\n"
-#~ msgstr "Igenamiterere Gishya in Iboneza Ububikoshingiro"
-
-#, fuzzy
-#~ msgid "Error unsetting accelerator in configuration database: %s\n"
-#~ msgstr "in Iboneza Ububikoshingiro"
-
-# sc/source\ui\miscdlgs\acredlin.src:RID_POPUP_CHANGES.SC_SUB_SORT.SC_SORT_ACTION.text
-#~ msgid "Action"
-#~ msgstr "Igikorwa"
-
-#~ msgid "Shortcut"
-#~ msgstr "Iy'ubusamo"
-
-#, fuzzy
-#~ msgid ""
-#~ "To edit a shortcut key, click on the corresponding row and type a new "
-#~ "accelerator, or press backspace to clear."
-#~ msgstr ""
-#~ "Guhindura a Iy'ibusamo Urufunguzo Kanda ku i Urubariro Na Ubwoko a Gishya "
-#~ "Cyangwa Kanda Gusiba usubira inyuma Kuri Gusiba"
-
-#, fuzzy
-#~ msgid "Assign shortcut keys to commands"
-#~ msgstr "Iy'ibusamo Utubuto Kuri Amabwiriza"
-
-# filter/source\xsltdialog\xmlfilterdialogstrings.src:STR_UNKNOWN_APPLICATION.text
-#~ msgid "Unknown"
-#~ msgstr "Kitazwi"
-
-# #-#-#-#-#  sch.pot (PACKAGE VERSION)  #-#-#-#-#
-# sch/source\core\glob.src:STR_LAYOUT.text
-# #-#-#-#-#  sch.pot (PACKAGE VERSION)  #-#-#-#-#
-# sch/source\ui\dlg\attrib.src:TAB_DATA_POINT.1.TP_LAYOUT.text
-#~ msgid "Layout"
-#~ msgstr "Imigaragarire"
-
-#~ msgid "Default"
-#~ msgstr "Mburabuzi"
-
-#, fuzzy
-#~ msgid "Models"
-#~ msgstr "Ingerofatizo"
-
-#, fuzzy
-#~ msgid "There was an error launching the keyboard capplet : %s"
-#~ msgstr "Ikosa i Mwandikisho"
-
-#, fuzzy
-#~ msgid ""
-#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
-#~ msgstr "Gukurikiza Amagenamiterere Na Kuvamo Bihuye neza NONEAHA ku"
-
-#, fuzzy
-#~ msgid "Start the page with the typing break settings showing"
-#~ msgstr "Gutangira i Ipaji Na: i Kwandika: itandukanya Amagenamiterere"
-
-# #-#-#-#-#  svx.pot (PACKAGE VERSION)  #-#-#-#-#
-# svx/source\dialog\ctredlin.src:SID_REDLIN_FILTER_PAGE.BTN_REF.text
-# #-#-#-#-#  svx.pot (PACKAGE VERSION)  #-#-#-#-#
-# svx/source\form\fmsearch.src:RID_SVXDLG_SEARCHFORM.PB_APPROXSETTINGS.text
-# #-#-#-#-#  svx.pot (PACKAGE VERSION)  #-#-#-#-#
-# svx/source\form\fmsearch.src:RID_SVXDLG_SEARCHFORM.PB_SOUNDSLIKESETTINGS.text
-#~ msgid "..."
-#~ msgstr "..."
-
-#, fuzzy
-#~ msgid "<b>Cursor Blinking</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>Repeat Keys</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>_Lock screen to enforce typing break</b>"
-#~ msgstr "<B Mugaragaza Kuri Kwandika: itandukanya B"
-
-#, fuzzy
-#~ msgid "<small><i>Fast</i></small>"
-#~ msgstr "<Gitoya i i Gitoya"
-
-#, fuzzy
-#~ msgid "<small><i>Long</i></small>"
-#~ msgstr "<Gitoya i i Gitoya"
-
-#, fuzzy
-#~ msgid "<small><i>Short</i></small>"
-#~ msgstr "<Gitoya i i Gitoya"
-
-#, fuzzy
-#~ msgid "<small><i>Slow</i></small>"
-#~ msgstr "<Gitoya i i Gitoya"
-
-#, fuzzy
-#~ msgid "A_vailable layouts:"
-#~ msgstr "Imigaragarire"
-
-#, fuzzy
-#~ msgid "All_ow postponing of breaks"
-#~ msgstr "Bya Amataruka"
-
-#, fuzzy
-#~ msgid "Check if breaks are allowed to be postponed"
-#~ msgstr "NIBA Amataruka Kuri"
-
-#, fuzzy
-#~ msgid "Choose A Keyboard Model"
-#~ msgstr "A"
-
-#, fuzzy
-#~ msgid "Choose A Layout"
-#~ msgstr "A"
-
-#, fuzzy
-#~ msgid "Cursor _blinks in text boxes and fields"
-#~ msgstr "in Umwandiko Na Imyanya"
-
-#, fuzzy
-#~ msgid "Duration of the break when typing is disallowed"
-#~ msgstr "Igihebimara Bya i itandukanya Ryari: Kwandika: ni"
-
-#, fuzzy
-#~ msgid "Duration of work before forcing a break"
-#~ msgstr "Igihebimara Bya Akazi Mbere a itandukanya"
-
-#, fuzzy
-#~ msgid "Key presses _repeat when key is held down"
-#~ msgstr "Gusubiramo Ryari: Urufunguzo ni Hasi"
-
-#, fuzzy
-#~ msgid "Keyboard _model:"
-#~ msgstr "Urugero"
-
-# #-#-#-#-#  sch.pot (PACKAGE VERSION)  #-#-#-#-#
-# sch/source\core\glob.src:STR_LAYOUT.text
-# #-#-#-#-#  sch.pot (PACKAGE VERSION)  #-#-#-#-#
-# sch/source\ui\dlg\attrib.src:TAB_DATA_POINT.1.TP_LAYOUT.text
-#~ msgid "Layouts"
-#~ msgstr "Imigaragarire"
-
-#, fuzzy
-#~ msgid ""
-#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
-#~ "use injuries"
-#~ msgstr ""
-#~ "Mugaragaza Nyuma a Igihe- ngombwa Kuri Ifashayobora Mwandikisho Gukoresha"
-
-# svx/source\dialog\rubydialog.src:RID_SVXDLG_RUBY.FT_PREVIEW.text
-#~ msgid "Preview:"
-#~ msgstr "Igaragazambere:"
-
-#, fuzzy
-#~ msgid "Separate _group for each window"
-#~ msgstr "Itsinda kugirango Idirishya"
-
-# offmgr/source\offapp\dialog\treeopt.src:RID_OFADLG_OPTIONS_TREE_PAGES.SID_GENERAL_OPTIONS.13.text
-#, fuzzy
-#~ msgid "_Accessibility..."
-#~ msgstr "Ubushobozi bwo gukoreshwa"
-
-# padmin/source\padialog.src:RID_FONTNAMEDIALOG.RID_FNTNM_BTN_IMPORT.text
-#, fuzzy
-#~ msgid "_Add..."
-#~ msgstr "Kongeraho"
-
-#, fuzzy
-#~ msgid "_Break interval lasts:"
-#~ msgstr "Intera"
-
-# svx/source\dialog\textanim.src:RID_SVXPAGE_TEXTANIMATION.FT_DELAY.text
-#, fuzzy
-#~ msgid "_Delay:"
-#~ msgstr "Gutinda"
-
-#, fuzzy
-#~ msgid "_Models:"
-#~ msgstr "Ingerofatizo"
-
-#, fuzzy
-#~ msgid "_Selected layouts:"
-#~ msgstr "Imigaragarire"
-
-#, fuzzy
-#~ msgid "_Speed:"
-#~ msgstr "Umuvuduko"
-
-#, fuzzy
-#~ msgid "_Work interval lasts:"
-#~ msgstr "Intera"
-
-#~ msgid "minutes"
-#~ msgstr "iminota"
-
-#, fuzzy
-#~ msgid "Set your keyboard preferences"
-#~ msgstr "Mwandikisho Ibyahiswemo"
-
-#, fuzzy
-#~ msgid "The default cursor that ships with X"
-#~ msgstr "Mburabuzi indanga Na:"
-
-#, fuzzy
-#~ msgid "The default cursor inverted"
-#~ msgstr "Mburabuzi indanga"
-
-#, fuzzy
-#~ msgid "Large version of normal cursor"
-#~ msgstr "Verisiyo Bya Bisanzwe indanga"
-
-#, fuzzy
-#~ msgid "Large version of white cursor"
-#~ msgstr "Verisiyo Bya Umweru indanga"
-
-#, fuzzy
-#~ msgid "<b>Double-Click Timeout </b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>Drag and Drop</b>"
-#~ msgstr "<B Na B"
-
-#, fuzzy
-#~ msgid "<b>Locate Pointer</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>Mouse Orientation</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>Speed</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<i>Fast</i>"
-#~ msgstr "<i i"
-
-#, fuzzy
-#~ msgid "<i>High</i>"
-#~ msgstr "<i i"
-
-#, fuzzy
-#~ msgid "<i>Large</i>"
-#~ msgstr "<i i"
-
-#, fuzzy
-#~ msgid "<i>Low</i>"
-#~ msgstr "<i i"
-
-#, fuzzy
-#~ msgid "<i>Slow</i>"
-#~ msgstr "<i i"
-
-#, fuzzy
-#~ msgid "<i>Small</i>"
-#~ msgstr "<i i"
-
-# sfx2/source\toolbox\tbxcust.src:RID_USERDEFBMP.GB_FUNCTION.text
-#~ msgid "Buttons"
-#~ msgstr "Utubuto"
-
-#, fuzzy
-#~ msgid "Highlight the _pointer when you press Ctrl"
-#~ msgstr "i Mweretsi Ryari: Kanda"
-
-# offmgr/source\offapp\dialog\optgdlg.src:OFA_TP_VIEW.LB_BIG.3.text
-#, fuzzy
-#~ msgid "Large"
-#~ msgstr "Binini"
-
-# officecfg/registry\schema\org\openoffice\Office\Math.xcs:....FontFormat.Weight..6.text
-#, fuzzy
-#~ msgid "Medium"
-#~ msgstr "biringaniye"
-
-# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....View.Window.Flag..02.text
-#, fuzzy
-#~ msgid "Small"
-#~ msgstr "Gitoya"
-
-#, fuzzy
-#~ msgid "_Left-handed mouse"
-#~ msgstr "Imbeba"
-
-#, fuzzy
-#~ msgid "_Timeout:"
-#~ msgstr "Igihe cyarenze:"
-
-#, fuzzy
-#~ msgid "Set your mouse preferences"
-#~ msgstr "Imbeba Ibyahiswemo"
-
-#, fuzzy
-#~ msgid "Set your network proxy preferences"
-#~ msgstr "urusobe Porogisi Ibyahiswemo"
-
-#, fuzzy
-#~ msgid "<b>D_irect internet connection</b>"
-#~ msgstr "<B Interineti Ukwihuza B"
-
-#, fuzzy
-#~ msgid "<b>Ignore Host List</b>"
-#~ msgstr "<B Ubuturo Urutonde B"
-
-#, fuzzy
-#~ msgid "<b>_Automatic proxy configuration</b>"
-#~ msgstr "<B Porogisi Iboneza B"
-
-#, fuzzy
-#~ msgid "<b>_Manual proxy configuration</b>"
-#~ msgstr "<B Porogisi Iboneza B"
-
-#, fuzzy
-#~ msgid "<b>_Use authentication</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "H_TTP proxy:"
-#~ msgstr "Porogosi ya HTTP"
-
-#~ msgid "Port:"
-#~ msgstr "Impagikiro:"
-
-#, fuzzy
-#~ msgid "Proxy Configuration"
-#~ msgstr "Iboneza rya porogosi..."
-
-#, fuzzy
-#~ msgid "S_ocks host:"
-#~ msgstr "Inturo SOCKS:"
-
-#, fuzzy
-#~ msgid "U_sername:"
-#~ msgstr "Izina ry'ukoresha"
-
-# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
-# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
-#, fuzzy
-#~ msgid "_Details"
-#~ msgstr "Birambuye"
-
-#, fuzzy
-#~ msgid "_FTP proxy:"
-#~ msgstr "Porogosi ya FTP:"
-
-# basctl/source\basicide\moduldlg.src:RID_TP_LIBS.RID_PB_PASSWORD.text
-#, fuzzy
-#~ msgid "_Password:"
-#~ msgstr "Ijambobanga..."
-
-#, fuzzy
-#~ msgid "_Secure HTTP proxy:"
-#~ msgstr "Porogisi"
-
-#, fuzzy
-#~ msgid "Enable sound and associate sounds with events"
-#~ msgstr "Ijwi Na Amajwi Na: Ibyabaye"
-
-#, fuzzy
-#~ msgid "E_nable sound server startup"
-#~ msgstr "Ijwi Seriveri"
-
-#, fuzzy
-#~ msgid "Flash _entire screen"
-#~ msgstr "Mugaragaza"
-
-#, fuzzy
-#~ msgid "Flash _window titlebar"
-#~ msgstr "Idirishya"
-
-# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
-# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
-# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
-# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
-# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
-# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
-# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
-# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
-# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
-#~ msgid "General"
-#~ msgstr "Rusange"
-
-#, fuzzy
-#~ msgid ""
-#~ "No themes could be found on your system.  This probably means that your "
-#~ "\"Theme Preferences\" dialog was improperly installed, or you haven't "
-#~ "installed the \"gnome-themes\" package."
-#~ msgstr ""
-#~ "Insanganyamatsiko Byabonetse ku Sisitemu Ikiganiro Cyangwa i "
-#~ "Insanganyamatsiko"
-
-#, fuzzy
-#~ msgid "This theme is not in a supported format."
-#~ msgstr "ni OYA in a Imiterere"
-
-#, fuzzy
-#~ msgid "Failed to create temporary directory"
-#~ msgstr "Kuri Kurema By'igihe gito bushyinguro"
-
-#, fuzzy
-#~ msgid ""
-#~ "Can not install theme. \n"
-#~ "The bzip2 utility is not installed."
-#~ msgstr "OYA Kwinjiza porogaramu ni OYA"
-
-#, fuzzy
-#~ msgid ""
-#~ "Can not install themes. \n"
-#~ "The gzip utility is not installed."
-#~ msgstr "OYA Kwinjiza porogaramu Insanganyamatsiko ni OYA"
-
-#, fuzzy
-#~ msgid ""
-#~ "Icon Theme %s correctly installed.\n"
-#~ "You can select it in the theme details."
-#~ msgstr "Guhitamo in i Birambuye"
-
-#, fuzzy
-#~ msgid ""
-#~ "Windows Border Theme %s correctly installed.\n"
-#~ "You can select it in the theme details."
-#~ msgstr "Guhitamo in i Birambuye"
-
-#, fuzzy
-#~ msgid ""
-#~ "Controls Theme %s correctly installed.\n"
-#~ "You can select it in the theme details."
-#~ msgstr "Guhitamo in i Birambuye"
-
-#, fuzzy
-#~ msgid "The theme is an engine. You need to compile the theme."
-#~ msgstr "ni Kuri Gukusanya i"
-
-#, fuzzy
-#~ msgid "The file format is invalid"
-#~ msgstr "IDOSIYE Imiterere ni Sibyo"
-
-#, fuzzy
-#~ msgid "No theme file location specified to install"
-#~ msgstr "IDOSIYE Ahantu Kuri Kwinjiza porogaramu"
-
-#, fuzzy
-#~ msgid "The theme file location specified to install is invalid"
-#~ msgstr "IDOSIYE Ahantu Kuri Kwinjiza porogaramu ni Sibyo"
-
-#, fuzzy
-#~ msgid ""
-#~ "Insufficient permissions to install the theme in:\n"
-#~ "%s"
-#~ msgstr "Uruhushya Kuri Kwinjiza porogaramu i in"
-
-#, fuzzy
-#~ msgid "The file format is invalid."
-#~ msgstr "IDOSIYE Imiterere ni Sibyo"
-
-#, fuzzy
-#~ msgid ""
-#~ "%s is the path where the theme files will be installed. This can not be "
-#~ "selected as the source location"
-#~ msgstr "%sni i Inzira i Idosiye OYA Byahiswemo Nka i Inkomoko Ahantu"
-
-#, fuzzy
-#~ msgid ""
-#~ "Cannot install theme.\n"
-#~ "The tar program is not installed on your system."
-#~ msgstr "Kwinjiza porogaramu Porogaramu ni OYA ku Sisitemu"
-
-#, fuzzy
-#~ msgid "Custom theme"
-#~ msgstr "Kugena"
-
-#, fuzzy
-#~ msgid "You can save this theme by pressing the Save Theme button."
-#~ msgstr "Kubika iyi ku i Kubika Akabuto"
-
-#, fuzzy
-#~ msgid ""
-#~ "The default theme schemas could not be found on your system.  This means "
-#~ "that you probably don't have metacity installed, or that your gconf is "
-#~ "configured incorrectly."
-#~ msgstr "Mburabuzi OYA Byabonetse ku Sisitemu Cyangwa ni"
-
-#, fuzzy
-#~ msgid "Theme name must be present"
-#~ msgstr "Izina:"
-
-#, fuzzy
-#~ msgid "The theme already exists. Would you like to replace it?"
-#~ msgstr "nka Kuri Gusimbura"
-
-#, fuzzy
-#~ msgid "Select themes for various parts of the desktop"
-#~ msgstr "Insanganyamatsiko kugirango Bya i Ibiro"
-
-#, fuzzy
-#~ msgid "<span size=\"larger\" weight=\"bold\">Install a Theme</span>"
-#~ msgstr "<Ingano Kinini Uburemere UTSINDAGIYE a"
-
-# #-#-#-#-#  setup2.pot (PACKAGE VERSION)  #-#-#-#-#
-# setup2/source\ui\pages\plang.src:RESID_PAGE_PAGELANGUAGE.STR_PROG.text
-# #-#-#-#-#  setup2.pot (PACKAGE VERSION)  #-#-#-#-#
-# setup2/source\uibase\agentdlg.src:RC_AGENTDLG.RESID_DLG_AGENT_STR_INSTALL.text
-#, fuzzy
-#~ msgid "_Install"
-#~ msgstr "Kwinjiza porogaramu"
-
-# padmin/source\padialog.src:RID_PADIALOG.RID_PA_TXT_LOCATION.text
-#, fuzzy
-#~ msgid "_Location:"
-#~ msgstr "Intaho:"
-
-#, fuzzy
-#~ msgid "<span size=\"larger\" weight=\"bold\">Save Theme to Disk</span>"
-#~ msgstr "<Ingano Kinini Uburemere UTSINDAGIYE Kubika Kuri"
-
-# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
-# basctl/source\basicide\basidesh.src:RID_BASICIDE_OBJECTBAR.SID_CHOOSE_CONTROLS.text
-# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
-# basctl/source\basicide\tbxctl.src:RID_TBXCONTROLS.RID_TOOLBOX.text
-# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
-# basctl/source\basicide\tbxctl.src:RID_TBXCONTROLS.text
-#~ msgid "Controls"
-#~ msgstr "Amagenzura"
-
-# sfx2/source\appl\app.src:STR_KEY_BITMAP_PATH.text
-#~ msgid "Icons"
-#~ msgstr "Udushushondanga"
-
-#, fuzzy
-#~ msgid "New themes can also be installed by dragging them into the window."
-#~ msgstr "Insanganyamatsiko ku i Idirishya"
-
-#, fuzzy
-#~ msgid "Save Theme"
-#~ msgstr "Kubika"
-
-#, fuzzy
-#~ msgid "Select theme for the desktop"
-#~ msgstr "kugirango i Ibiro"
-
-#, fuzzy
-#~ msgid "Short _description:"
-#~ msgstr "Isobanuramiterere"
-
-#, fuzzy
-#~ msgid "This theme does not suggest any particular font or background."
-#~ msgstr "OYA Intego- nyuguti Cyangwa Mbuganyuma"
-
-#, fuzzy
-#~ msgid "This theme suggests a background:"
-#~ msgstr "a Mbuganyuma"
-
-#, fuzzy
-#~ msgid "This theme suggests a font and a background:"
-#~ msgstr "a Intego- nyuguti Na a Mbuganyuma"
-
-#, fuzzy
-#~ msgid "This theme suggests a font:"
-#~ msgstr "a Intego- nyuguti"
-
-#, fuzzy
-#~ msgid "_Revert"
-#~ msgstr "Kugaruza"
-
-#, fuzzy
-#~ msgid "_Save Theme..."
-#~ msgstr "Kubika"
-
-#, fuzzy
-#~ msgid "_Theme name:"
-#~ msgstr "Izina:"
-
-#, fuzzy
-#~ msgid "theme selection tree"
-#~ msgstr "Ihitamo"
-
-#, fuzzy
-#~ msgid "Customize the appearance of toolbars and menubars in applications"
-#~ msgstr "i Imigaragarire Bya Imyanya y'ibikoresho Na in Porogaramu"
-
-#, fuzzy
-#~ msgid "<b>Behavior and Appearance</b>"
-#~ msgstr "<B Na B"
-
-#, fuzzy
-#~ msgid "<b>Preview</b>"
-#~ msgstr "<B B"
-
-# dbaccess/source/ui/inc/toolbox.hrc:MID_SBA_QRY_CUT.text
-#, fuzzy
-#~ msgid "C_ut"
-#~ msgstr "Gukata"
-
-#, fuzzy
-#~ msgid "Icons only"
-#~ msgstr "Udushushondanga Gusa"
-
-#, fuzzy
-#~ msgid "Menu and Toolbar Preferences"
-#~ msgstr "Na"
-
-#, fuzzy
-#~ msgid "New File"
-#~ msgstr "Idosiye"
-
-# sfx2/sdi\sfxslots.src:SID_OPENDOC.text
-#~ msgid "Open File"
-#~ msgstr "Gufungura Dosiye"
-
-#~ msgid "Save File"
-#~ msgstr "Bika idosiye"
-
-# offmgr/source\offapp\dialog\optgdlg.src:OFA_TP_VIEW.CB_MENU_ICONS.text
-#, fuzzy
-#~ msgid "Show _icons in menus"
-#~ msgstr "Kugaragaza udushushondanga mu bikubiyemo"
-
-#, fuzzy
-#~ msgid "Text below icons"
-#~ msgstr "munsi Udushushondanga"
-
-#, fuzzy
-#~ msgid "Text beside icons"
-#~ msgstr "Udushushondanga"
-
-#~ msgid "Text only"
-#~ msgstr "Umwandiko gusa"
-
-#, fuzzy
-#~ msgid "Toolbar _button labels:"
-#~ msgstr "Akabuto Uturango..."
-
-# dbaccess/source/ui/inc/toolbox.hrc:MID_SBA_QRY_COPY.text
-#, fuzzy
-#~ msgid "_Copy"
-#~ msgstr "Gukoporora"
-
-#, fuzzy
-#~ msgid "_Detachable toolbars"
-#~ msgstr "Imyanya y'ibikoresho"
-
-# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
-# basctl/source\basicide\basidesh.src:RID_BASICMENU.MN_EDIT.text
-# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
-# basctl/source\basicide\basidesh.src:RID_BASICPLUGINMENU.MN_PLEDIT.text
-# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
-# basctl/source\basicide\macrodlg.src:RID_MACROCHOOSER.RID_PB_EDIT.text
-# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
-# basctl/source\basicide\moduldlg.src:RID_TP_MODULS.RID_PB_EDIT.text
-# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
-# basctl/source\basicide\moduldlg.src:RID_TP_LIBS.RID_PB_EDIT.text
-#, fuzzy
-#~ msgid "_Edit"
-#~ msgstr "Guhindura"
-
-#, fuzzy
-#~ msgid "_Editable menu accelerators"
-#~ msgstr "Ibikubiyemo"
-
-# sc/source\ui\src\globstr.src:RID_GLOBSTR.STR_HFCMD_FILE.text
-#, fuzzy
-#~ msgid "_File"
-#~ msgstr "IDOSIYE"
-
-# basctl/source\basicide\brkdlg.src:RID_BASICIDE_BREAKPOINTDLG.RID_PB_NEW.text
-#, fuzzy
-#~ msgid "_New"
-#~ msgstr "Gishya"
-
-# #-#-#-#-#  sfx2.pot (PACKAGE VERSION)  #-#-#-#-#
-# sfx2/source\accel\accel.src:STR_OPEN.text
-# #-#-#-#-#  sfx2.pot (PACKAGE VERSION)  #-#-#-#-#
-# sfx2/source\dialog\cfg.src:STR_OPEN.text
-# #-#-#-#-#  sfx2.pot (PACKAGE VERSION)  #-#-#-#-#
-# sfx2/source\dialog\versdlg.src:DLG_VERSIONS.PB_OPEN.text
-#, fuzzy
-#~ msgid "_Open"
-#~ msgstr "Gufungura"
-
-# dbaccess/source/ui/inc/toolbox.hrc:MID_SBA_QRY_PASTE.text
-#, fuzzy
-#~ msgid "_Paste"
-#~ msgstr "Komeka"
-
-# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
-# #-#-#-#-#  dbaccess.pot (PACKAGE VERSION)  #-#-#-#-#
-#, fuzzy
-#~ msgid "_Print"
-#~ msgstr "Gucapa"
-
-#, fuzzy
-#~ msgid "_Quit"
-#~ msgstr "Kuvamo"
-
-# basctl/source\basicide\basidesh.src:RID_STR_SAVE.text
-#, fuzzy
-#~ msgid "_Save"
-#~ msgstr "Kubika"
-
-#, fuzzy
-#~ msgid ""
-#~ "<b>Cannot start the preferences application for your window manager</b>\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "<B Gutangira i Ibyahiswemo Porogaramu kugirango Idirishya Muyobozi B"
-
-#~ msgid "Control"
-#~ msgstr "Igenzura"
-
-#~ msgid "Alt"
-#~ msgstr "Alt"
-
-#, fuzzy
-#~ msgid "Super (or \"Windows logo\")"
-#~ msgstr "Cyangwa ikirango"
-
-# the command key
-#~ msgid "Meta"
-#~ msgstr "Meta"
-
-#, fuzzy
-#~ msgid "<b>Movement Key</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>Titlebar Action</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "<b>Window Selection</b>"
-#~ msgstr "<B B"
-
-#, fuzzy
-#~ msgid "To _move a window, press-and-hold this key then grab the window:"
-#~ msgstr "Kwimura a Idirishya Kanda Na iyi Urufunguzo Hanyuma i Idirishya"
-
-#, fuzzy
-#~ msgid "_Double-click titlebar to perform this action:"
-#~ msgstr "Kanda Kuri iyi Igikorwa"
-
-#, fuzzy
-#~ msgid "_Interval before raising:"
-#~ msgstr "Mbere"
-
-#, fuzzy
-#~ msgid "_Raise selected windows after an interval"
-#~ msgstr "Byahiswemo Nyuma Intera"
-
-#, fuzzy
-#~ msgid "_Select windows when the mouse moves over them"
-#~ msgstr "Ryari: i Imbeba KURI"
-
-#, fuzzy
-#~ msgid "Set your window properties"
-#~ msgstr "Idirishya Indangakintu..."
-
-# starmath/source\smres.src:RID_TOOLBOXWINDOW.10.RID_MISC_CAT.text
-#~ msgid "Others"
-#~ msgstr "Ibindi"
-
-#, fuzzy
-#~ msgid "The GNOME configuration tool"
-#~ msgstr "Iboneza"
-
-#, fuzzy
-#~ msgid "Could not initialize Bonobo"
-#~ msgstr "OYA gutangiza"
-
-#, fuzzy
-#~ msgid ""
-#~ "Error activating XKB configuration.\n"
-#~ "It can happen under various circumstances:\n"
-#~ "- a bug in libxklavier library\n"
-#~ "- a bug in X server (xkbcomp, xmodmap utilities)\n"
-#~ "- X server with incompatible libxkbfile implementation\n"
-#~ "\n"
-#~ "X server version data:\n"
-#~ "%s\n"
-#~ "%d\n"
-#~ "%s\n"
-#~ "If you report this situation as a bug, please include:\n"
-#~ "- The result of <b>%s</b>\n"
-#~ "- The result of <b>%s</b>"
-#~ msgstr ""
-#~ "Iboneza a in a in Seriveri Seriveri Na: Seriveri Verisiyo Ibyatanzwe "
-#~ "Icyegeranyo iyi Nka a Gushyiramo Igisubizo Bya Igisubizo Bya"
-
-#, fuzzy
-#~ msgid ""
-#~ "You are using XFree 4.3.0.\n"
-#~ "There are known problems with complex XKB configurations.\n"
-#~ "Try using a simpler configuration or taking a fresher version of XFree "
-#~ "software."
-#~ msgstr "3.. 0."
-
-#, fuzzy
-#~ msgid "Do _not show this warning again"
-#~ msgstr "Nta kongera kwerekana iri burira"
-
-#, fuzzy
-#~ msgid ""
-#~ "The X system keyboard settings differ from your current GNOME keyboard "
-#~ "settings.  Which set would you like to use?"
-#~ msgstr ""
-#~ "Sisitemu Mwandikisho Amagenamiterere Bivuye KIGEZWEHO Mwandikisho "
-#~ "Amagenamiterere Gushyiraho nka Kuri Gukoresha"
-
-#, fuzzy
-#~ msgid "Use GNOME settings"
-#~ msgstr "Amagenamiterere"
-
-#, fuzzy
-#~ msgid "Permissions on the file %s are broken\n"
-#~ msgstr "ku i IDOSIYE"
-
-#, fuzzy
-#~ msgid ""
-#~ "Couldn't load the Glade file.\n"
-#~ "Make sure that this daemon is properly installed."
-#~ msgstr "Ibirimo i IDOSIYE iyi ni"
-
-# filter/source\xsltdialog\xmlfilterdialogstrings.src:STR_COLUMN_HEADER_TYPE.text
-#~ msgid "Type"
-#~ msgstr "Ubwoko"
-
-#, fuzzy
-#~ msgid ""
-#~ "Type of bg_applier: BG_APPLIER_ROOT for root window or BG_APPLIER_PREVIEW "
-#~ "for preview"
-#~ msgstr "Bya kugirango Imizi Idirishya Cyangwa kugirango Igaragazambere"
-
-#, fuzzy
-#~ msgid "Width if applier is a preview: Defaults to 64."
-#~ msgstr "NIBA ni a Igaragazambere Kuri"
-
-#, fuzzy
-#~ msgid "Height if applier is a preview: Defaults to 48."
-#~ msgstr "NIBA ni a Igaragazambere Kuri"
-
-#, fuzzy
-#~ msgid "Screen on which BGApplier is to draw"
-#~ msgstr "ku ni Kuri Gushushanya"
-
-#, fuzzy
-#~ msgid "There was an error loading an image: %s"
-#~ msgstr "Ikosa Ifashayobora"
-
-# #-#-#-#-#  sfx2.pot (PACKAGE VERSION)  #-#-#-#-#
-# sfx2/source\dialog\eventdlg.src:TP_CONFIG_EVENT.STR_EVENT.text
-# #-#-#-#-#  sfx2.pot (PACKAGE VERSION)  #-#-#-#-#
-# sfx2/source\dialog\macropg.src:RID_SFX_TP_MACROASSIGN.STR_EVENT.text
-#~ msgid "Event"
-#~ msgstr "Icyabaye"
-
-# svx/source\gallery2\galtheme.src:RID_GALLERYSTR_THEME_SOUNDS.text
-#, fuzzy
-#~ msgid "_Sounds:"
-#~ msgstr "Amajwi"
-
-#, fuzzy
-#~ msgid "Sound _file:"
-#~ msgstr "IDOSIYE"
-
-#, fuzzy
-#~ msgid "_Play"
-#~ msgstr "Gukina"
-
-# #-#-#-#-#  padmin.pot (PACKAGE VERSION)  #-#-#-#-#
-# padmin/source\rtsetup.src:RID_RTS_FONTSUBSTPAGE.RID_RTS_FS_REMOVE_BTN.text
-# #-#-#-#-#  padmin.pot (PACKAGE VERSION)  #-#-#-#-#
-# padmin/source\rtsetup.src:RID_RTS_COMMANDPAGE.RID_RTS_CMD_BTN_REMOVE.text
-#, fuzzy
-#~ msgid "_Remove"
-#~ msgstr "Gukuraho"
-
-#, fuzzy
-#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
-#~ msgstr "Muyobozi OYA a Iboneza"
-
-# sc/source\ui\formdlg\formdlgs.src:RID_SCDLG_FORMULA.RB_REF.quickhelptext
-#~ msgid "Maximize"
-#~ msgstr "Kugira kinini"
-
-# vcl/source\src\helptext.src:SV_HELPTEXT_ROLLUP.text
-#~ msgid "Roll up"
-#~ msgstr "Kuzamura"
-
-#, fuzzy
-#~ msgid "Brightness down"
-#~ msgstr "Hasi"
-
-#, fuzzy
-#~ msgid "Brightness down's shortcut."
-#~ msgstr "Iy'ibusamo"
-
-#, fuzzy
-#~ msgid "Brightness up"
-#~ msgstr "Hejuru"
-
-#, fuzzy
-#~ msgid "Brightness up's shortcut."
-#~ msgstr "Iy'ibusamo"
-
-# #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
-# officecfg/registry\data\org\openoffice\Office\DataAccess.xcu:..DataAccess.DriverSettings.com.sun.star.comp.sdbc.MozabDriver.ColumnAliases.PrimaryEmail.text
-# #-#-#-#-#  officecfg.pot (PACKAGE VERSION)  #-#-#-#-#
-# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....BusinessCard.PrivateAddress.Email.text
-#~ msgid "E-mail"
-#~ msgstr "Imeli"
-
-#, fuzzy
-#~ msgid "E-mail's shortcut."
-#~ msgstr "E Iy'ibusamo"
-
-#, fuzzy
-#~ msgid "Eject's shortcut."
-#~ msgstr "Iy'ibusamo"
-
-#, fuzzy
-#~ msgid "Home folder's shortcut."
-#~ msgstr "Iy'ibusamo"
-
-#, fuzzy
-#~ msgid "Launch help browser's shortcut."
-#~ msgstr "Ifashayobora Iy'ibusamo"
-
-#, fuzzy
-#~ msgid "Launch web browser's shortcut."
-#~ msgstr "Urubuga Iy'ibusamo"
-
-#, fuzzy
-#~ msgid "Lock screen's shortcut."
-#~ msgstr "Iy'ibusamo"
-
-#, fuzzy
-#~ msgid "Log out's shortcut."
-#~ msgstr "Iy'ibusamo"
-
-#, fuzzy
-#~ msgid "Next track key's shortcut."
-#~ msgstr "Iy'ibusamo"
-
-# 4630
-#~ msgid "Pause"
-#~ msgstr "akaruhuko"
-
-#, fuzzy
-#~ msgid "Pause key's shortcut."
-#~ msgstr "Iy'ibusamo"
-
-#, fuzzy
-#~ msgid "Play (or play/pause) key's shortcut."
-#~ msgstr "Cyangwa Gukina Akaruhuko... Iy'ibusamo"
-
-#, fuzzy
-#~ msgid "Previous track key's shortcut."
-#~ msgstr "Iy'ibusamo"
-
-#, fuzzy
-#~ msgid "Search's shortcut."
-#~ msgstr "Iy'ibusamo"
-
-#, fuzzy
-#~ msgid "Sleep's shortcut."
-#~ msgstr "Iy'ibusamo"
-
-#, fuzzy
-#~ msgid "Stop playback key's shortcut."
-#~ msgstr "Iy'ibusamo"
-
-#, fuzzy
-#~ msgid "Volume down's shortcut."
-#~ msgstr "Iy'ibusamo"
-
-#, fuzzy
-#~ msgid "Volume mute's shortcut"
-#~ msgstr "Iy'ibusamo"
-
-#, fuzzy
-#~ msgid "Volume up's shortcut."
-#~ msgstr "Iy'ibusamo"
-
-#, fuzzy
-#~ msgid ""
-#~ "A collection of scripts to run whenever the keyboard state is reloaded. "
-#~ "Useful for re-applying xmodmap based adjustments"
-#~ msgstr ""
-#~ "A Bya Inyandikoporogaramu Kuri Gukoresha i Mwandikisho Leta ni kugirango"
-
-#, fuzzy
-#~ msgid "A list of modmap files available in the $HOME directory."
-#~ msgstr "A Urutonde Bya Idosiye Bihari in i bushyinguro"
-
-#, fuzzy
-#~ msgid "Default group, assigned on window creation"
-#~ msgstr "Itsinda ku Idirishya"
-
-#, fuzzy
-#~ msgid "Keep and manage separate group per window"
-#~ msgstr "Na kuyobora Itsinda Idirishya"
-
-#, fuzzy
-#~ msgid "Keyboard layout"
-#~ msgstr "Imigaragarire"
-
-#, fuzzy
-#~ msgid "Keyboard model"
-#~ msgstr "Urugero"
-
-#, fuzzy
-#~ msgid ""
-#~ "Keyboard settings in gconf will be overridden from the system ASAP "
-#~ "(deprecated)"
-#~ msgstr "Amagenamiterere in Bivuye i Sisitemu"
-
-#, fuzzy
-#~ msgid "Save/restore indicators together with layout groups"
-#~ msgstr "Kubika Kugarura Na: Imigaragarire Amatsinda"
-
-#, fuzzy
-#~ msgid "Show layout names instead of group names"
-#~ msgstr "Imigaragarire Amazina Bya Itsinda Amazina"
-
-#, fuzzy
-#~ msgid ""
-#~ "Show layout names instead of group names (only for versions of XFree "
-#~ "supporting multiple layouts)"
-#~ msgstr ""
-#~ "Imigaragarire Amazina Bya Itsinda Amazina kugirango Uburyo Bya Igikubo "
-#~ "Imigaragarire"
-
-#, fuzzy
-#~ msgid "Suppress the \"X sysconfig changed\" warning message"
-#~ msgstr "i Byahinduwe Iburira Ubutumwa"
-
-#, fuzzy
-#~ msgid "keyboard layout"
-#~ msgstr "Mwandikisho Imigaragarire"
-
-#, fuzzy
-#~ msgid "keyboard model"
-#~ msgstr "Mwandikisho Urugero"
-
-#, fuzzy
-#~ msgid "modmap file list"
-#~ msgstr "IDOSIYE Urutonde"
-
-#, fuzzy
-#~ msgid "_Postpone break"
-#~ msgstr "itandukanya"
-
-#, fuzzy
-#~ msgid "Take a break!"
-#~ msgstr "a itandukanya"
-
-#, fuzzy
-#~ msgid "/_About"
-#~ msgstr "/Bigyanye"
-
-#, fuzzy
-#~ msgid "/_Take a Break"
-#~ msgstr "/a"
-
-#, fuzzy
-#~ msgid "%d minute until the next break"
-#~ msgid_plural "%d minutes until the next break"
-#~ msgstr[0] "%dUMUNOTA i Komeza>> itandukanya"
-
-#, fuzzy
-#~ msgid "Less than one minute until the next break"
-#~ msgstr "UMUNOTA i Komeza>> itandukanya"
-
-#, fuzzy
-#~ msgid ""
-#~ "Unable to bring up the typing break properties dialog with the following "
-#~ "error: %s"
-#~ msgstr ""
-#~ "Kuri Hejuru i Kwandika: itandukanya Indangakintu... Ikiganiro Na: i Ikosa"
-
-#, fuzzy
-#~ msgid "A computer break reminder."
-#~ msgstr "A itandukanya Mwibutsa"
-
-#, fuzzy
-#~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
-#~ msgstr "ku"
-
-#, fuzzy
-#~ msgid "Eye candy added by Anders Carlsson"
-#~ msgstr "Kyongewe ku"
-
-#, fuzzy
-#~ msgid "Break reminder"
-#~ msgstr "Mwibutsa"
-
-#, fuzzy
-#~ msgid "The typing monitor is already running."
-#~ msgstr "Kwandika: ni"
-
-#, fuzzy
-#~ msgid ""
-#~ "The typing monitor uses the notification area to display information. You "
-#~ "don't seem to have a notification area on your panel. You can add it by "
-#~ "right-clicking on your panel and choosing 'Add to panel', selecting "
-#~ "'Notification area' and clicking 'Add'."
-#~ msgstr ""
-#~ "Kwandika: i Ikimenyetso Ubuso Kuri Kugaragaza Ibisobanuro Kuri a "
-#~ "Ikimenyetso Ubuso ku Kongeramo ku Iburyo: ku Na Kuri Na"
-
-#, fuzzy
-#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
-#~ msgstr "Igihogo KURI i"
-
-# sc/source\ui\dbgui\pvfundlg.src:RID_SCDLG_PIVOTSUBT.FT_NAMELABEL.text
-#~ msgid "Name:"
-#~ msgstr "Izina:"
-
-# sfx2/source\dialog\filedlghelper.src:STR_LB_IMAGE_TEMPLATE.text
-#~ msgid "Style:"
-#~ msgstr "Imisusire"
-
-# sfx2/source\dialog\dinfdlg.src:TP_DOCINFODOC.FT_FILE_TYP.text
-#~ msgid "Type:"
-#~ msgstr "Ubwoko"
-
-# sfx2/source\dialog\dinfdlg.src:TP_DOCINFODOC.FT_FILE_SIZE.text
-#~ msgid "Size:"
-#~ msgstr "Ingano"
-
-#~ msgid "Version:"
-#~ msgstr "Verisiyo:"
-
-#, fuzzy
-#~ msgid "Copyright:"
-#~ msgstr "Uburenganzira bw'umuhimbyi"
-
-#~ msgid "Description:"
-#~ msgstr "Umwirondoro"
-
-#, fuzzy
-#~ msgid "usage: %s fontfile\n"
-#~ msgstr "Ikoresha:"
-
-#, fuzzy
-#~ msgid "Set as Application Font"
-#~ msgstr "Nka"
-
-#, fuzzy
-#~ msgid "Sets the default application font"
-#~ msgstr "i Mburabuzi Porogaramu Intego- nyuguti"
-
-#, fuzzy
-#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
-#~ msgstr "Gushyiraho Kuri NIBYO Hanyuma Imyandikire"
-
-#, fuzzy
-#~ msgid "If set to true, then PCF fonts will be thumbnailed."
-#~ msgstr "Gushyiraho Kuri NIBYO Hanyuma Imyandikire"
-
-#, fuzzy
-#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
-#~ msgstr "Gushyiraho Kuri NIBYO Hanyuma Imyandikire"
-
-#, fuzzy
-#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
-#~ msgstr "Gushyiraho Kuri NIBYO Hanyuma Imyandikire"
-
-#, fuzzy
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for OpenType fonts."
-#~ msgstr "iyi Urufunguzo Kuri i Komandi: Kuri Kurema kugirango Imyandikire"
-
-#, fuzzy
-#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
-#~ msgstr "iyi Urufunguzo Kuri i Komandi: Kuri Kurema kugirango Imyandikire"
-
-#, fuzzy
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for TrueType fonts."
-#~ msgstr "iyi Urufunguzo Kuri i Komandi: Kuri Kurema kugirango Imyandikire"
-
-#, fuzzy
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for Type1 fonts."
-#~ msgstr "iyi Urufunguzo Kuri i Komandi: Kuri Kurema kugirango Imyandikire"
-
-#, fuzzy
-#~ msgid "Thumbnail command for OpenType fonts"
-#~ msgstr "Komandi: kugirango Imyandikire"
-
-#, fuzzy
-#~ msgid "Thumbnail command for PCF fonts"
-#~ msgstr "Komandi: kugirango Imyandikire"
-
-#, fuzzy
-#~ msgid "Thumbnail command for TrueType fonts"
-#~ msgstr "Komandi: kugirango Imyandikire"
-
-#, fuzzy
-#~ msgid "Thumbnail command for Type1 fonts"
-#~ msgstr "Komandi: kugirango Imyandikire"
-
-#, fuzzy
-#~ msgid "Whether to thumbnail OpenType fonts"
-#~ msgstr "Kuri Imyandikire"
-
-#, fuzzy
-#~ msgid "Whether to thumbnail PCF fonts"
-#~ msgstr "Kuri Imyandikire"
-
-#, fuzzy
-#~ msgid "Whether to thumbnail TrueType fonts"
-#~ msgstr "Kuri Imyandikire"
-
-#, fuzzy
-#~ msgid "Whether to thumbnail Type1 fonts"
-#~ msgstr "Kuri Imyandikire"
-
-#, fuzzy
-#~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
-#~ msgstr "<Uburemere UTSINDAGIYE Ingano Kinini Gishya Intego- nyuguti"
-
-#, fuzzy
-#~ msgid "Do _not apply font"
-#~ msgstr "OYA Gukurikiza Intego- nyuguti"
-
-#, fuzzy
-#~ msgid ""
-#~ "The theme you have selected suggests a new font. A preview of the font is "
-#~ "shown below."
-#~ msgstr ""
-#~ "Byahiswemo a Gishya Intego- nyuguti A Igaragazambere Bya i Intego- "
-#~ "nyuguti ni munsi"
-
-#, fuzzy
-#~ msgid "_Apply font"
-#~ msgstr "Intego- nyuguti"
-
-# LOCALIZATION NOTE : FILE Theme management prefs
-#~ msgid "Themes"
-#~ msgstr "Insanganyamatsiko"
-
-# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
-# basctl/source\basicide\moptions.src:RID_MACROOPTIONS.RID_FT_DESCR.text
-# #-#-#-#-#  basctl.pot (PACKAGE VERSION)  #-#-#-#-#
-# basctl/source\basicide\moptions.src:RID_MACROOPTIONS.text
-#~ msgid "Description"
-#~ msgstr "Isobanuramiterere"
-
-#, fuzzy
-#~ msgid "Window border theme"
-#~ msgstr "Imbibi"
-
-#, fuzzy
-#~ msgid "Apply theme"
-#~ msgstr "Gushyiraho insanganyamatsiko"
-
-#, fuzzy
-#~ msgid "Sets the default theme"
-#~ msgstr "i Mburabuzi"
-
-#, fuzzy
-#~ msgid "If set to true, then installed themes will be thumbnailed."
-#~ msgstr "Gushyiraho Kuri NIBYO Hanyuma Insanganyamatsiko"
-
-#, fuzzy
-#~ msgid "If set to true, then themes will be thumbnailed."
-#~ msgstr "Gushyiraho Kuri NIBYO Hanyuma Insanganyamatsiko"
-
-#, fuzzy
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for installed "
-#~ "themes."
-#~ msgstr ""
-#~ "iyi Urufunguzo Kuri i Komandi: Kuri Kurema kugirango Insanganyamatsiko"
-
-#, fuzzy
-#~ msgid "Set this key to the command used to create thumbnails for themes."
-#~ msgstr ""
-#~ "iyi Urufunguzo Kuri i Komandi: Kuri Kurema kugirango Insanganyamatsiko"
-
-#, fuzzy
-#~ msgid "Thumbnail command for installed themes"
-#~ msgstr "Komandi: kugirango Insanganyamatsiko"
-
-#, fuzzy
-#~ msgid "Thumbnail command for themes"
-#~ msgstr "Komandi: kugirango Insanganyamatsiko"
-
-#, fuzzy
-#~ msgid "Whether to thumbnail installed themes"
-#~ msgstr "Kuri Insanganyamatsiko"
-
-#, fuzzy
-#~ msgid "Whether to thumbnail themes"
-#~ msgstr "Kuri Insanganyamatsiko"
+msgid "Manage X Settings"
+msgstr ""

@@ -4,13 +4,14 @@
 # 
 # Translators:
 # dirgita <dirgitadevina@yahoo.co.id>, 2011
+# dirgita <dirgitadevina@yahoo.co.id>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-16 04:07+0000\n"
-"PO-Revision-Date: 2016-07-02 00:05+0000\n"
-"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"POT-Creation-Date: 2016-10-04 03:32+0000\n"
+"PO-Revision-Date: 2016-10-04 23:25+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -694,7 +695,7 @@ msgid ""
 "both the X and the Y axis (except for .otf: Y-only). This can lead to "
 "distortion and/or inconsistent rendering depending on the quality of the "
 "font, the font format and the state of FreeType's font engines."
-msgstr "Jenis petunjuk untuk digunakan saat merender font. Nilai yang diizinkan: \"tidak ada\" untuk tanpa petunjuk dan \"sedikit\" untuk memuat hanya ke Y-axis seperti ClearType, DirectWrite dari Microsoft dan engine render font milik Adobe. Mengabaikan petunjuk asli di dalam font, menghasilkan petunjuk secara algoritmis. Digunakan pada Ubuntu secara default. Disarankan. Arti dari \"Medium\" dan \"penuh\" tergantung pada format font (.ttf, .otf, .pfa/.pfb) dan versi FreeType yang terinstal. Umumnya mencoba memuat glyph ke X dan Y axis (kecuali untuk .otf: hanya Y). Ini dapat menimbulkan distorsi dan/atau render yang inkonsisten tergantung dari kualitas font, format font serta kondisi engine font FreeType."
+msgstr "Tipe hint yang dipakai ketika merender fonta. Nilai yang mungkin adalah: \"none\" (nihil) untuk tanpa hintm dan \"slight\" (sedikit) untuk mengepaskan hanya ke sumbu-Y seperti Microsoft CelarType, DirectWrite, dan mesin render fonta proprietari Adobe. Mengabaikan hint native dari dalam fonta, membangkitkan hint secara algoritmis. Dipakai pada Ubuntu secara baku. Disarankan. Arti dari \"medium\" (sedang) dan \"full\" (penuh) bergantung kepada format fonta (.ttf, .otf, .pfa/.pfb) dan versi FreeType yang dipasang. Mereka biasanya mencoba mengepaskan glyph ke sumbu X dan Y (kecuali .otf: hanya-Y). Ini bisa menyebabkan distorsi dan/atau ketidakkonsistenan perenderan bergantung kepada kualitas fonta, format fonta, dan keadaan dari mesin fonta FreeType."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:9
 msgid "RGBA order"
@@ -961,27 +962,27 @@ msgstr "Papan tik"
 msgid "Keyboard plugin"
 msgstr "Pengaya papan tik"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2121
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2178
 msgid "Bluetooth disabled"
-msgstr "Bluetooth dinonaktifkan"
+msgstr "Bluetooth dimatikan"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2124
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2181
 msgid "Bluetooth enabled"
 msgstr "Bluetooth diaktifkan"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2128
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2185
 msgid "Airplane mode enabled"
 msgstr "Mode pesawat terbang diaktifkan"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2131
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2188
 msgid "Airplane mode disabled"
-msgstr "Mode pesawat terbang dinonaktifkan"
+msgstr "Mode pesawat terbang dimatikan"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2159
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2216
 msgid "Hardware Airplane Mode"
 msgstr "Mode Pesawat Terbang Perangkat Keras"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2219
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2276
 msgid "Screencast from %d %t.webm"
 msgstr "Screencast dari %d %t.webm"
 
@@ -1147,11 +1148,11 @@ msgstr "Status Baterai"
 #: ../plugins/media-keys/shortcuts-list.h:111
 #: ../plugins/media-keys/shortcuts-list.h:112
 msgid "Toggle Airplane Mode"
-msgstr "Beralih ke Mode Pesawat Terbang"
+msgstr "Jungkitkan Mode Pesawat Terbang"
 
 #: ../plugins/media-keys/shortcuts-list.h:113
 msgid "Toggle Bluetooth"
-msgstr "Beralih ke Bluetooth"
+msgstr "Jungkitkan Bluetooth"
 
 #: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
 msgid "Mouse"

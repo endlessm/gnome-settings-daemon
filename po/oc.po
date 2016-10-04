@@ -1,27 +1,23 @@
-# Translation of oc.po to Occitan
-# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2006-2008.
-# Translation of oc.po to Occitan
-# Occitan translation of gnome-control-center
-# This file is distributed under the same license as the PACKAGE package.#
-# Cédric Valmary (Tot en òc) <cvalmary@yahoo.fr>, 2015.
-# Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>, 2016.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Cédric Valmary <cvalmary@yahoo.fr>, 2015
+# Cédric Valmary <cvalmary@yahoo.fr>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: oc\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"settings-daemon&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-02-18 04:21+0000\n"
-"PO-Revision-Date: 2016-02-26 21:23+0200\n"
-"Last-Translator: Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>\n"
-"Language-Team: Tot En Òc\n"
-"Language: oci\n"
+"Project-Id-Version: gnome-settings-daemon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-04 03:32+0000\n"
+"PO-Revision-Date: 2016-10-04 23:26+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Occitan (post 1500) (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Virtaal 0.7.1\n"
-"X-Launchpad-Export-Date: 2015-05-20 16:48+0000\n"
-"X-Project-Style: gnome\n"
+"Language: oc\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../data/gnome-settings-daemon.desktop.in.in.h:1
 msgid "GNOME Settings Daemon"
@@ -35,19 +31,13 @@ msgstr "Accion quand la carta de piuse es levada"
 msgid ""
 "Set this to one of \"none\", \"lock-screen\", or \"force-logout\". The "
 "action will get performed when the smartcard used for log in is removed."
-msgstr ""
-"Definissètz aquesta clau segon una de las valors seguentas : « none » (pas "
-"cap), « lock-screen » (verrolhar l'ecran) o « force-logout » (forçar la "
-"desconnexion). Aquesta accion es efectuada quand la carta de piuse utilizada "
-"per se connectar es levada."
+msgstr "Definissètz aquesta clau segon una de las valors seguentas : « none » (pas cap), « lock-screen » (verrolhar l'ecran) o « force-logout » (forçar la desconnexion). Aquesta accion es efectuada quand la carta de piuse utilizada per se connectar es levada."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:3
 msgid ""
 "Highlights the current location of the pointer when the Control key is "
 "pressed and released."
-msgstr ""
-"Met en evidéncia l'emplaçament actual del puntador quand la tòca Ctrl es "
-"quichada e relachada."
+msgstr "Met en evidéncia l'emplaçament actual del puntador quand la tòca Ctrl es quichada e relachada."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:4
 msgid "Double click time"
@@ -67,9 +57,7 @@ msgstr "Distància abans qu'un lisar siá iniciat."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:8
 msgid "Whether the tablet's orientation is locked, or rotated automatically."
-msgstr ""
-"Indica se l'orientacion de la tableta es verrolhada o se la rotacion es "
-"automatica."
+msgstr "Indica se l'orientacion de la tauleta es verrolhada o se la rotacion es automatica."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:1
@@ -133,9 +121,7 @@ msgstr "Prioritat d'utilizacion d'aqueste empeuton"
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:6
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:8
 msgid "Priority to use for this plugin in gnome-settings-daemon startup queue"
-msgstr ""
-"Prioritat d'utilizacion d'aqueste empeuton dins la lista d'aviada de gnome-"
-"settings-daemon"
+msgstr "Prioritat d'utilizacion d'aqueste empeuton dins la lista d'aviada de gnome-settings-daemon"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:5
 msgid "Wacom stylus absolute mode"
@@ -143,41 +129,35 @@ msgstr "Estilet Wacom en mòde absolut"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:6
 msgid "Enable this to set the tablet to absolute mode."
-msgstr "Activatz aquesta opcion per metre la tableta en mòde absolut."
+msgstr "Activatz aquesta opcion per metre la tauleta en mòde absolut."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:7
 msgid "Wacom tablet area"
-msgstr "Zòna de la tableta Wacom"
+msgstr "Zòna de la tauleta Wacom"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:8
 msgid "Set this to x1, y1 and x2, y2 of the area usable by the tools."
-msgstr ""
-"Definís las coordenadas x1, y1 e x2, y2 de la susfàcia utilizabla per las "
-"aisinas."
+msgstr "Definís las coordenadas x1, y1 e x2, y2 de la susfàcia utilizabla per las aisinas."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:9
 msgid "Wacom tablet aspect ratio"
-msgstr "Proporcions de la tableta Wacom"
+msgstr "Proporcions de la tauleta Wacom"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:10
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
-msgstr ""
-"Activatz aquesta opcion per tal de limitar la susfàcia de la tableta Wacom "
-"per correspondre a las proporcions de l'afichatge."
+msgstr "Activatz aquesta opcion per tal de limitar la susfàcia de la tauleta Wacom per correspondre a las proporcions de l'afichatge."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:11
 msgid "Wacom tablet rotation"
-msgstr "Rotacion de la tableta Wacom"
+msgstr "Rotacion de la tauleta Wacom"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:12
 msgid ""
-"Set this to 'none', 'cw' for 90 degree clockwise, 'half' for 180 degree, and "
-"'ccw' for 90 degree counterclockwise."
-msgstr ""
-"Reglatz aquò a « pas cap », « cw » per 90 grases dins lo sens orari, "
-"« half » per 180 grases e « ccw » per 90 grases dins lo sens antiorari."
+"Set this to 'none', 'cw' for 90 degree clockwise, 'half' for 180 degree, and"
+" 'ccw' for 90 degree counterclockwise."
+msgstr "Reglatz aquò a « pas cap », « cw » per 90 grases dins lo sens orari, « half » per 180 grases e « ccw » per 90 grases dins lo sens antiorari."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:13
 msgid "Wacom touch feature"
@@ -185,9 +165,7 @@ msgstr "Foncionalitats tactilas Wacom"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:14
 msgid "Enable this to move the cursor when the user touches the tablet."
-msgstr ""
-"Activar aquesta opcion per desplaçar lo cursor quand l'utilizaire tòca la "
-"tableta."
+msgstr "Activar aquesta opcion per desplaçar lo cursor quand l'utilizaire tòca la tauleta."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:15
 msgid "Wacom stylus pressure curve"
@@ -196,9 +174,7 @@ msgstr "Corba de pression de l'estilet Wacom"
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:16
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
-msgstr ""
-"Definissètz aicí las coordenadas x1, y1 e x2, y2 segon la corba de pression "
-"aplicada a l'estilet."
+msgstr "Definissètz aicí las coordenadas x1, y1 e x2, y2 segon la corba de pression aplicada a l'estilet."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:17
 msgid "Wacom stylus button mapping"
@@ -215,9 +191,7 @@ msgstr "Sulhet de pression per l'estilet Wacom"
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:20
 msgid ""
 "Set this to the pressure value at which a stylus click event is generated."
-msgstr ""
-"Definissètz aicí la valor de pression per la quala un eveniment clic de "
-"l'estilet es generat."
+msgstr "Definissètz aicí la valor de pression per la quala un eveniment clic de l'estilet es generat."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:21
 msgid "Wacom eraser pressure curve"
@@ -226,9 +200,7 @@ msgstr "Corba de pression de la goma Wacom"
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:22
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
-msgstr ""
-"Definissètz aicí las coordenadas x1, y1 e x2, y2 segon la corba de pression "
-"aplicada a la goma."
+msgstr "Definissètz aicí las coordenadas x1, y1 e x2, y2 segon la corba de pression aplicada a la goma."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:23
 msgid "Wacom eraser button mapping"
@@ -241,9 +213,7 @@ msgstr "Sulhet de pression de la goma Wacom"
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:25
 msgid ""
 "Set this to the pressure value at which an eraser click event is generated."
-msgstr ""
-"Definissètz aicí la valor de pression per la quala un eveniment clic de la "
-"goma es generat."
+msgstr "Definissètz aicí la valor de pression per la quala un eveniment clic de la goma es generat."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:26
 msgid "Wacom button action type"
@@ -261,23 +231,17 @@ msgstr "Combinason de tòcas per l'accion personalizada"
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
-msgstr ""
-"L'acorchi de clavièr generat quand lo boton es quichat per d'accions "
-"personalizadas."
+msgstr "L'acorchi de clavièr generat quand lo boton es quichat per d'accions personalizadas."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:30
 msgid "Key combinations for a touchring or touchstrip custom action"
-msgstr ""
-"Combinasons de tòcas per una accion personalizada del tipe touchring o "
-"touchstrip"
+msgstr "Combinasons de tòcas per una accion personalizada del tipe touchring o touchstrip"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:31
 msgid ""
 "The keyboard shortcuts generated when a touchring or touchstrip is used for "
 "custom actions (up followed by down)."
-msgstr ""
-"Los acorchis de clavièr generats quand lo touchring o lo touchstrip es "
-"utilizat per d'accions personalizadas (movement cap amont puèi cap aval)."
+msgstr "Los acorchis de clavièr generats quand lo touchring o lo touchstrip es utilizat per d'accions personalizadas (movement cap amont puèi cap aval)."
 
 #. Translators: This is the OLED display on an Intuos4 tablet:
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
@@ -297,9 +261,7 @@ msgstr "La durada de validitat d'un perfil d'ecran"
 msgid ""
 "This is the number of days after which the display color profile is "
 "considered invalid."
-msgstr ""
-"Nombre de jorns aprèp qué lo perfil colorimetric de l'afichatge es "
-"considerat coma perimit."
+msgstr "Nombre de jorns aprèp qué lo perfil colorimetric de l'afichatge es considerat coma perimit."
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:7
 msgid "The duration a printer profile is valid"
@@ -309,9 +271,7 @@ msgstr "La durada de validitat d'un perfil d'impression"
 msgid ""
 "This is the number of days after which the printer color profile is "
 "considered invalid."
-msgstr ""
-"Nombre de jorns aprèp qué lo perfil colorimetric de l'impression es "
-"considerat coma perimit."
+msgstr "Nombre de jorns aprèp qué lo perfil colorimetric de l'impression es considerat coma perimit."
 
 #: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:1
 msgid "List of plugins that are allowed to be loaded"
@@ -322,11 +282,7 @@ msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: 'all'). The plugins still need to be marked as active to get "
 "loaded. This is only evaluated on startup."
-msgstr ""
-"Una lista de cadenas que descrivon los empeutons que son autorizats al "
-"cargament (la valor per defaut es « all », totes). Los empeutons devon "
-"encara èsser marcats coma actius per èsser cargats. Aquò es pas evaluat qu'a "
-"l'aviada."
+msgstr "Una lista de cadenas que descrivon los empeutons que son autorizats al cargament (la valor per defaut es « all », totes). Los empeutons devon encara èsser marcats coma actius per èsser cargats. Aquò es pas evaluat qu'a l'aviada."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:3
 msgid "Mount paths to ignore"
@@ -334,9 +290,7 @@ msgstr "Camins de montatge d'ignorar"
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:4
 msgid "Specify a list of mount paths to ignore when they run low on space."
-msgstr ""
-"Indica una lista de camins de montatge d'ignorar quand lor espaci de disc es "
-"feble."
+msgstr "Indica una lista de camins de montatge d'ignorar quand lor espaci de disc es feble."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:5
 msgid "Free percentage notify threshold"
@@ -346,10 +300,7 @@ msgstr "Sulhet d'avertiment en percentatge d'espaci liure"
 msgid ""
 "Percentage free space threshold for initial warning of low disk space. If "
 "the percentage free space drops below this, a warning will be shown."
-msgstr ""
-"Sulhet d'espaci liure, en percentatge, per l'alèrta iniciala d'espaci de "
-"disc feble. Se lo percentatge d'espaci liure tomba en dejós d'aqueste "
-"sulhet, una alèrta es afichada."
+msgstr "Sulhet d'espaci liure, en percentatge, per l'alèrta iniciala d'espaci de disc feble. Se lo percentatge d'espaci liure tomba en dejós d'aqueste sulhet, una alèrta es afichada."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:7
 msgid "Subsequent free space percentage notify threshold"
@@ -359,9 +310,7 @@ msgstr "Sulhet seguent d'avertiment d'espaci liure, en percentatge"
 msgid ""
 "Specify the percentage that the free disk space should reduce by before "
 "issuing a subsequent warning."
-msgstr ""
-"Indica lo percentatge de reduccion d'espaci de disc abans d'emetre un novèl "
-"avertiment."
+msgstr "Indica lo percentatge de reduccion d'espaci de disc abans d'emetre un novèl avertiment."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:9
 msgid "Free space notify threshold"
@@ -371,9 +320,7 @@ msgstr "Sulhet d'avertiment d'espaci liure"
 msgid ""
 "Specify an amount in GB. If the amount of free space is more than this, no "
 "warning will be shown."
-msgstr ""
-"Indica una talha en Go. Se la quantitat d'espaci de disc disponibla es "
-"superiora a aqueste paramètre, cap d'alèrta serà pas afichada."
+msgstr "Indica una talha en Go. Se la quantitat d'espaci de disc disponibla es superiora a aqueste paramètre, cap d'alèrta serà pas afichada."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:11
 msgid "Minimum notify period for repeated warnings"
@@ -383,9 +330,7 @@ msgstr "Interval minimum de repeticion dels avertiments"
 msgid ""
 "Specify a time in minutes. Subsequent warnings for a volume will not appear "
 "more often than this period."
-msgstr ""
-"Indica un interval en minutas. Aqueste paramètre constituís l'interval de "
-"temps minimum entre mantuna alèrtas per un meteis volum."
+msgstr "Indica un interval en minutas. Aqueste paramètre constituís l'interval de temps minimum entre mantuna alèrtas per un meteis volum."
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:3
 msgid "Custom keybindings"
@@ -577,8 +522,7 @@ msgstr "Copiar una captura d'ecran d'una fenèstra dins lo quichapapièrs"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:52
 msgid "Binding to copy a screenshot of a window to clipboard."
-msgstr ""
-"Acorchi per copiar una captura d'ecran d'una fenèstra cap al quichapapièrs."
+msgstr "Acorchi per copiar una captura d'ecran d'una fenèstra cap al quichapapièrs."
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:53
 msgid "Copy a screenshot of an area to clipboard"
@@ -586,8 +530,7 @@ msgstr "Copiar una captura d'una partida de l'ecran dins lo quichapapièrs"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:54
 msgid "Binding to copy a screenshot of an area to clipboard."
-msgstr ""
-"Acorchi per copiar una captura d'una partie de l'ecran cap al quichapapièr."
+msgstr "Acorchi per copiar una captura d'una partie de l'ecran cap al quichapapièr."
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:55
 msgid "Record a short video of the screen"
@@ -734,11 +677,7 @@ msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "\"none\" for no antialiasing, \"grayscale\" for standard grayscale "
 "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
-msgstr ""
-"Lo tipe d'anticrenelatge utilizat pel rendut de las poliças. Las valors "
-"possiblas son : « none » per cap d'anticrenelatge, « grayscale » per "
-"l'anticrenelatge classic per nivèls de gris e « rgba » per l'anticrenelatge "
-"per sospixèls (ecrans LCD unicament)."
+msgstr "Lo tipe d'anticrenelatge utilizat pel rendut de las poliças. Las valors possiblas son : « none » per cap d'anticrenelatge, « grayscale » per l'anticrenelatge classic per nivèls de gris e « rgba » per l'anticrenelatge per sospixèls (ecrans LCD unicament)."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
 msgid "Hinting"
@@ -746,8 +685,8 @@ msgstr "Optimizacion"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:6
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: \"none"
-"\" for no hinting and \"slight\" for fitting only to the Y-axis like "
+"The type of hinting to use when rendering fonts. Possible values are: "
+"\"none\" for no hinting and \"slight\" for fitting only to the Y-axis like "
 "Microsoft's ClearType, DirectWrite and Adobe's proprietary font rendering "
 "engine. Ignores native hinting within the font, generates hints "
 "algorithmically. Used on Ubuntu by default. Recommended. The meaning of "
@@ -764,15 +703,11 @@ msgstr "Òrdre RVBA"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:10
 msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
-"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red "
-"on bottom."
-msgstr ""
-"L'òrdre dels elements sospixèls sus un ecran LCD ; unicament utilizat se "
-"l'anticrenelatge es definit a « rgba ». Las valors possiblas son « rgb » pel "
-"roge a esquèrra (lo mai corrent), « bgr » pel blau a esquèrra, « vrgb » pel "
-"roge amont, « vbgr » pel roge aval."
+"The order of subpixel elements on an LCD screen; only used when antialiasing"
+" is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
+"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red"
+" on bottom."
+msgstr "L'òrdre dels elements sospixèls sus un ecran LCD ; unicament utilizat se l'anticrenelatge es definit a « rgba ». Las valors possiblas son « rgb » pel roge a esquèrra (lo mai corrent), « bgr » pel blau a esquèrra, « vrgb » pel roge amont, « vbgr » pel roge aval."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:11
 msgid "List of explicitly disabled GTK+ modules"
@@ -790,13 +725,13 @@ msgstr "Lista de moduls GTK+ activats d'un biais explicit"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:14
 msgid ""
-"A list of strings representing the GTK+ modules that will be loaded, usually "
-"in addition to conditional and forcibly disabled ones."
+"A list of strings representing the GTK+ modules that will be loaded, usually"
+" in addition to conditional and forcibly disabled ones."
 msgstr ""
 
 #: ../gnome-settings-daemon/main.c:53
 msgid "Enable debugging code"
-msgstr "Activa lo còde de desbugatge"
+msgstr "Activa lo còdi de desbugatge"
 
 #: ../gnome-settings-daemon/main.c:54
 msgid "Replace existing daemon"
@@ -973,55 +908,41 @@ msgstr "Factici"
 msgid "Dummy plugin"
 msgstr "Empeuton factici"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:587
-#, c-format
-#| msgid "Low Disk Space on \"%s\""
-msgid "Low Disk Space on “%s”"
-msgstr "Espaci de disc feble sus « %s »"
-
-#: ../plugins/housekeeping/gsd-disk-space.c:589
-#, c-format
-msgid ""
-"The volume “%s” has only %s disk space remaining.  You may free up some "
-"space by emptying the trash."
-msgstr ""
-
-#: ../plugins/housekeeping/gsd-disk-space.c:593
-#, c-format
-msgid "The volume “%s” has only %s disk space remaining."
-msgstr ""
-
-#: ../plugins/housekeeping/gsd-disk-space.c:598
-msgid "Low Disk Space"
-msgstr "Espaci de disc feble"
-
-#: ../plugins/housekeeping/gsd-disk-space.c:600
-#, c-format
-msgid ""
-"This computer has only %s disk space remaining.  You may free up some space "
-"by emptying the trash."
-msgstr ""
-
-#: ../plugins/housekeeping/gsd-disk-space.c:603
-#, c-format
-msgid "This computer has only %s disk space remaining."
-msgstr ""
-
-#: ../plugins/housekeeping/gsd-disk-space.c:618
+#: ../plugins/housekeeping/gsd-disk-space.c:577
 msgid "Disk space"
 msgstr "Espaci de disc"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:625
+#: ../plugins/housekeeping/gsd-disk-space.c:589
 msgid "Examine"
 msgstr "Examinar"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:633
+#: ../plugins/housekeeping/gsd-disk-space.c:600
 msgid "Empty Trash"
 msgstr "Voidar l'escobilhièr"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:640
+#: ../plugins/housekeeping/gsd-disk-space.c:608
 msgid "Ignore"
 msgstr "Ignorar"
+
+#: ../plugins/housekeeping/gsd-disk-space.c:638
+#: ../plugins/housekeeping/gsd-disk-space.c:664
+msgid "Low Disk Space"
+msgstr "Espaci de disc feble"
+
+#: ../plugins/housekeeping/gsd-disk-space.c:639
+msgid ""
+"Your computer is out of space.  To free up space, you can delete old files "
+"and empty the trash from the \"Documents\" file manager, or delete apps you "
+"may not need from the App Center."
+msgstr ""
+
+#: ../plugins/housekeeping/gsd-disk-space.c:665
+#, c-format
+msgid ""
+"Your computer has only %s of space available.  To free up space, you can "
+"delete old files and empty the trash from the \"Documents\" file manager, or"
+" delete apps you may not need from the App Center."
+msgstr ""
 
 #: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:1
 msgid "Housekeeping"
@@ -1041,42 +962,42 @@ msgstr "Clavièr"
 msgid "Keyboard plugin"
 msgstr "Empeuton del clavièr"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2095
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2178
 msgid "Bluetooth disabled"
 msgstr ""
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2098
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2181
 msgid "Bluetooth enabled"
 msgstr ""
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2102
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2185
 msgid "Airplane mode enabled"
 msgstr ""
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2105
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2188
 msgid "Airplane mode disabled"
 msgstr ""
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2133
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2216
 msgid "Hardware Airplane Mode"
 msgstr ""
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2193
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2276
 msgid "Screencast from %d %t.webm"
 msgstr ""
 
-#: ../plugins/media-keys/gsd-screenshot-utils.c:84
+#: ../plugins/media-keys/gsd-screenshot-utils.c:82
 msgid "Unable to capture a screenshot"
 msgstr ""
 
-#: ../plugins/media-keys/gsd-screenshot-utils.c:115
+#: ../plugins/media-keys/gsd-screenshot-utils.c:113
 #: ../plugins/media-keys/gsd-screenshot-utils.c:155
 msgid "Screenshot taken"
 msgstr ""
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot
-#: ../plugins/media-keys/gsd-screenshot-utils.c:304
+#: ../plugins/media-keys/gsd-screenshot-utils.c:306
 #, c-format
 msgid "Screenshot from %s"
 msgstr ""
@@ -1105,7 +1026,7 @@ msgid_plural "%u Inputs"
 msgstr[0] "%u entrada"
 msgstr[1] "%u entradas"
 
-#: ../plugins/media-keys/gvc/gvc-mixer-control.c:2740
+#: ../plugins/media-keys/gvc/gvc-mixer-control.c:2738
 msgid "System Sounds"
 msgstr "Sons sistèma"
 
@@ -1151,86 +1072,87 @@ msgstr ""
 msgid "Lock Screen"
 msgstr ""
 
-#: ../plugins/media-keys/shortcuts-list.h:80
+#: ../plugins/media-keys/shortcuts-list.h:81
 msgid "Rewind"
 msgstr ""
 
-#: ../plugins/media-keys/shortcuts-list.h:81
+#: ../plugins/media-keys/shortcuts-list.h:82
 msgid "Forward"
 msgstr ""
 
-#: ../plugins/media-keys/shortcuts-list.h:82
+#: ../plugins/media-keys/shortcuts-list.h:83
 msgid "Repeat"
 msgstr ""
 
-#: ../plugins/media-keys/shortcuts-list.h:83
+#: ../plugins/media-keys/shortcuts-list.h:84
 msgid "Random Play"
 msgstr ""
 
-#. Key code of the XF86Display key (Fn-F7 on Thinkpads, Fn-F4 on HP machines, etc.)
-#: ../plugins/media-keys/shortcuts-list.h:84
-#: ../plugins/media-keys/shortcuts-list.h:86
+#. Key code of the XF86Display key (Fn-F7 on Thinkpads, Fn-F4 on HP machines,
+#. etc.)
+#: ../plugins/media-keys/shortcuts-list.h:85
+#: ../plugins/media-keys/shortcuts-list.h:87
 msgid "Video Out"
 msgstr ""
 
 #. Key code of the XF86RotateWindows key (present on some tablets)
-#: ../plugins/media-keys/shortcuts-list.h:88
+#: ../plugins/media-keys/shortcuts-list.h:89
 msgid "Rotate Screen"
 msgstr ""
 
-#: ../plugins/media-keys/shortcuts-list.h:89
+#: ../plugins/media-keys/shortcuts-list.h:90
 msgid "Orientation Lock"
 msgstr ""
 
-#: ../plugins/media-keys/shortcuts-list.h:98
+#: ../plugins/media-keys/shortcuts-list.h:99
 msgid "Power Off"
 msgstr ""
 
 #. the kernel / Xorg names really are like this...
-#. translators: "Sleep" means putting the machine to sleep, either through hibernate or suspend
-#: ../plugins/media-keys/shortcuts-list.h:101
+#. translators: "Sleep" means putting the machine to sleep, either through
+#. hibernate or suspend
+#: ../plugins/media-keys/shortcuts-list.h:102
 msgid "Sleep"
 msgstr ""
 
-#: ../plugins/media-keys/shortcuts-list.h:102
+#: ../plugins/media-keys/shortcuts-list.h:103
 msgid "Suspend"
 msgstr "Suspendre"
 
-#: ../plugins/media-keys/shortcuts-list.h:103
+#: ../plugins/media-keys/shortcuts-list.h:104
 msgid "Hibernate"
 msgstr ""
 
-#: ../plugins/media-keys/shortcuts-list.h:104
+#: ../plugins/media-keys/shortcuts-list.h:105
 msgid "Brightness Up"
 msgstr ""
 
-#: ../plugins/media-keys/shortcuts-list.h:105
+#: ../plugins/media-keys/shortcuts-list.h:106
 msgid "Brightness Down"
 msgstr ""
 
-#: ../plugins/media-keys/shortcuts-list.h:106
+#: ../plugins/media-keys/shortcuts-list.h:107
 msgid "Keyboard Brightness Up"
 msgstr ""
 
-#: ../plugins/media-keys/shortcuts-list.h:107
+#: ../plugins/media-keys/shortcuts-list.h:108
 msgid "Keyboard Brightness Down"
 msgstr ""
 
-#: ../plugins/media-keys/shortcuts-list.h:108
+#: ../plugins/media-keys/shortcuts-list.h:109
 msgid "Keyboard Brightness Toggle"
 msgstr ""
 
-#: ../plugins/media-keys/shortcuts-list.h:109
+#: ../plugins/media-keys/shortcuts-list.h:110
 msgid "Battery Status"
 msgstr ""
 
-#: ../plugins/media-keys/shortcuts-list.h:110
 #: ../plugins/media-keys/shortcuts-list.h:111
-#| msgid "Toggle screen reader"
+#: ../plugins/media-keys/shortcuts-list.h:112
 msgid "Toggle Airplane Mode"
 msgstr ""
 
-#: ../plugins/media-keys/shortcuts-list.h:112
+#: ../plugins/media-keys/shortcuts-list.h:113
 msgid "Toggle Bluetooth"
 msgstr ""
 
@@ -1289,188 +1211,189 @@ msgstr[0] "minuta"
 msgstr[1] "minuta"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gpm-common.c:909 ../plugins/power/gsd-power-manager.c:680
-#: ../plugins/power/gsd-power-manager.c:777
+#: ../plugins/power/gpm-common.c:909 ../plugins/power/gsd-power-manager.c:681
+#: ../plugins/power/gsd-power-manager.c:778
 msgid "Battery is critically low"
 msgstr ""
 
 #. TRANSLATORS: this is the notification application name
-#: ../plugins/power/gsd-power-manager.c:318
+#: ../plugins/power/gsd-power-manager.c:319
 #: ../plugins/power/power.gnome-settings-plugin.in.h:1
 msgid "Power"
 msgstr "Alimentacion"
 
 #. TRANSLATORS: UPS is now discharging
-#: ../plugins/power/gsd-power-manager.c:350
+#: ../plugins/power/gsd-power-manager.c:351
 msgid "UPS Discharging"
 msgstr ""
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:355
+#: ../plugins/power/gsd-power-manager.c:356
 #, c-format
 msgid "%s of UPS backup power remaining"
 msgstr ""
 
-#: ../plugins/power/gsd-power-manager.c:358
+#: ../plugins/power/gsd-power-manager.c:359
 msgid "Unknown amount of UPS backup power remaining"
 msgstr ""
 
 #. TRANSLATORS: laptop battery low, and we only have one battery
-#: ../plugins/power/gsd-power-manager.c:433
+#: ../plugins/power/gsd-power-manager.c:434
 msgid "Battery low"
 msgstr "Batariá febla"
 
 #. TRANSLATORS: laptop battery low, and we have more than one kind of battery
-#: ../plugins/power/gsd-power-manager.c:436
+#: ../plugins/power/gsd-power-manager.c:437
 msgid "Laptop battery low"
 msgstr "La batariá del portable es febla"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:443
+#: ../plugins/power/gsd-power-manager.c:444
 #, c-format
 msgid "Approximately %s remaining (%.0f%%)"
 msgstr ""
 
 #. TRANSLATORS: UPS is starting to get a little low
-#: ../plugins/power/gsd-power-manager.c:448
+#: ../plugins/power/gsd-power-manager.c:449
 msgid "UPS low"
 msgstr "L'ondulador es feble"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:454
+#: ../plugins/power/gsd-power-manager.c:455
 #, c-format
 msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
 msgstr ""
 
 #. TRANSLATORS: mouse is getting a little low
 #. TRANSLATORS: the mouse battery is very low
-#: ../plugins/power/gsd-power-manager.c:459
-#: ../plugins/power/gsd-power-manager.c:593
+#: ../plugins/power/gsd-power-manager.c:460
+#: ../plugins/power/gsd-power-manager.c:594
 msgid "Mouse battery low"
 msgstr "La batariá de la mirga es febla"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:462
+#: ../plugins/power/gsd-power-manager.c:463
 #, c-format
 msgid "Wireless mouse is low in power (%.0f%%)"
 msgstr "La poténcia de la mirga sens fial es febla (%.0f %%)"
 
 #. TRANSLATORS: keyboard is getting a little low
 #. TRANSLATORS: the keyboard battery is very low
-#: ../plugins/power/gsd-power-manager.c:466
-#: ../plugins/power/gsd-power-manager.c:601
+#: ../plugins/power/gsd-power-manager.c:467
+#: ../plugins/power/gsd-power-manager.c:602
 msgid "Keyboard battery low"
 msgstr "La batariá del clavièr es febla"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:469
+#: ../plugins/power/gsd-power-manager.c:470
 #, c-format
 msgid "Wireless keyboard is low in power (%.0f%%)"
 msgstr "La poténcia del clavièr sens fial es febla (%.0f %%)"
 
 #. TRANSLATORS: PDA is getting a little low
 #. TRANSLATORS: the PDA battery is very low
-#: ../plugins/power/gsd-power-manager.c:473
-#: ../plugins/power/gsd-power-manager.c:610
+#: ../plugins/power/gsd-power-manager.c:474
+#: ../plugins/power/gsd-power-manager.c:611
 msgid "PDA battery low"
 msgstr "La batariá de l'assistent personal es febla"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:476
+#: ../plugins/power/gsd-power-manager.c:477
 #, c-format
 msgid "PDA is low in power (%.0f%%)"
 msgstr "La poténcia de l'assistent personal es febla (%.0f %%)"
 
 #. TRANSLATORS: cell phone (mobile) is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:480
-#: ../plugins/power/gsd-power-manager.c:620
-#: ../plugins/power/gsd-power-manager.c:629
+#: ../plugins/power/gsd-power-manager.c:481
+#: ../plugins/power/gsd-power-manager.c:621
+#: ../plugins/power/gsd-power-manager.c:630
 msgid "Cell phone battery low"
 msgstr "La batariá del telefonet es febla"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:483
+#: ../plugins/power/gsd-power-manager.c:484
 #, c-format
 msgid "Cell phone is low in power (%.0f%%)"
 msgstr "La poténcia del telefonet es febla (%.0f %%)"
 
 #. TRANSLATORS: media player, e.g. mp3 is getting a little low
-#: ../plugins/power/gsd-power-manager.c:487
+#: ../plugins/power/gsd-power-manager.c:488
 msgid "Media player battery low"
 msgstr "La batariá del lector multimèdia es febla"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:490
+#: ../plugins/power/gsd-power-manager.c:491
 #, c-format
 msgid "Media player is low in power (%.0f%%)"
 msgstr "La poténcia del lector multimèdia es febla (%.0f %%)"
 
 #. TRANSLATORS: graphics tablet, e.g. wacom is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:494
-#: ../plugins/power/gsd-power-manager.c:638
+#: ../plugins/power/gsd-power-manager.c:495
+#: ../plugins/power/gsd-power-manager.c:639
 msgid "Tablet battery low"
-msgstr "La batariá de la tableta es febla"
+msgstr "La batariá de la tauleta es febla"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:497
+#: ../plugins/power/gsd-power-manager.c:498
 #, c-format
 msgid "Tablet is low in power (%.0f%%)"
-msgstr "La poténcia de la tableta es febla (%.0f %%)"
+msgstr "La poténcia de la tauleta es febla (%.0f %%)"
 
 #. TRANSLATORS: computer, e.g. ipad is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:501
-#: ../plugins/power/gsd-power-manager.c:647
+#: ../plugins/power/gsd-power-manager.c:502
+#: ../plugins/power/gsd-power-manager.c:648
 msgid "Attached computer battery low"
 msgstr "La batariá de l'ordenador es febla"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:504
+#: ../plugins/power/gsd-power-manager.c:505
 #, c-format
 msgid "Attached computer is low in power (%.0f%%)"
 msgstr "La poténcia de l'ordenador es febla (%.0f %%)"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:525
+#: ../plugins/power/gsd-power-manager.c:526
 msgid "Battery is low"
 msgstr "Lo nivèl de la batariá es feble"
 
-#. TRANSLATORS: laptop battery critically low, and only have one kind of battery
-#: ../plugins/power/gsd-power-manager.c:557
+#. TRANSLATORS: laptop battery critically low, and only have one kind of
+#. battery
+#: ../plugins/power/gsd-power-manager.c:558
 msgid "Battery critically low"
 msgstr "Nivèl de batariá fòrça bas"
 
-#. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
+#. TRANSLATORS: laptop battery critically low, and we have more than one type
+#. of battery
 #. TRANSLATORS: laptop battery is really, really, low
-#: ../plugins/power/gsd-power-manager.c:560
-#: ../plugins/power/gsd-power-manager.c:707
+#: ../plugins/power/gsd-power-manager.c:561
+#: ../plugins/power/gsd-power-manager.c:708
 msgid "Laptop battery critically low"
 msgstr "Lo nivèl de la batariá del portable es fòrça feble"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:569
+#: ../plugins/power/gsd-power-manager.c:570
 #, c-format
 msgid "Computer will hibernate very soon unless it is plugged in."
-msgstr ""
-"L'ordenador se va metre en ivernacion dins pauc de temps s'es pas brancat."
+msgstr "L'ordenador se va metre en ivernacion dins pauc de temps s'es pas brancat."
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:573
+#: ../plugins/power/gsd-power-manager.c:574
 #, c-format
 msgid "Computer will shutdown very soon unless it is plugged in."
 msgstr "L'ordenador se va atudar dins pauc de temps s'es pas brancat."
 
 #. TRANSLATORS: the UPS is very low
 #. TRANSLATORS: UPS is really, really, low
-#: ../plugins/power/gsd-power-manager.c:581
-#: ../plugins/power/gsd-power-manager.c:732
+#: ../plugins/power/gsd-power-manager.c:582
+#: ../plugins/power/gsd-power-manager.c:733
 msgid "UPS critically low"
 msgstr "Lo nivèl de l'ondulador es critic"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:587
+#: ../plugins/power/gsd-power-manager.c:588
 #, c-format
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
@@ -1478,7 +1401,7 @@ msgid ""
 msgstr ""
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:596
+#: ../plugins/power/gsd-power-manager.c:597
 #, c-format
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
@@ -1486,7 +1409,7 @@ msgid ""
 msgstr ""
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:604
+#: ../plugins/power/gsd-power-manager.c:605
 #, c-format
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
@@ -1494,15 +1417,15 @@ msgid ""
 msgstr ""
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:613
+#: ../plugins/power/gsd-power-manager.c:614
 #, c-format
 msgid ""
-"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
-"not charged."
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if"
+" not charged."
 msgstr ""
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:623
+#: ../plugins/power/gsd-power-manager.c:624
 #, c-format
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
@@ -1510,7 +1433,7 @@ msgid ""
 msgstr ""
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:632
+#: ../plugins/power/gsd-power-manager.c:633
 #, c-format
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
@@ -1518,15 +1441,15 @@ msgid ""
 msgstr ""
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:641
+#: ../plugins/power/gsd-power-manager.c:642
 #, c-format
 msgid ""
-"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
-"if not charged."
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning"
+" if not charged."
 msgstr ""
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:650
+#: ../plugins/power/gsd-power-manager.c:651
 #, c-format
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
@@ -1534,77 +1457,75 @@ msgid ""
 msgstr ""
 
 #. TRANSLATORS: computer will hibernate
-#: ../plugins/power/gsd-power-manager.c:715
+#: ../plugins/power/gsd-power-manager.c:716
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
-msgstr ""
-"La batariá es en dejós de son nivèl critic ; l'ordenador va <b>ivernar</b>."
+msgstr "La batariá es en dejós de son nivèl critic ; l'ordenador va <b>ivernar</b>."
 
 #. TRANSLATORS: computer will just shutdown
-#: ../plugins/power/gsd-power-manager.c:720
+#: ../plugins/power/gsd-power-manager.c:721
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "shutdown."
-msgstr ""
-"La batariá es en dejós de son nivèl critic ; l'ordenador se va <b>atudar</b>."
+msgstr "La batariá es en dejós de son nivèl critic ; l'ordenador se va <b>atudar</b>."
 
 #. TRANSLATORS: computer will hibernate
-#: ../plugins/power/gsd-power-manager.c:740
+#: ../plugins/power/gsd-power-manager.c:741
 msgid ""
 "UPS is below the critical level and this computer is about to hibernate."
 msgstr ""
 
 #. TRANSLATORS: computer will just shutdown
-#: ../plugins/power/gsd-power-manager.c:745
-msgid "UPS is below the critical level and this computer is about to shutdown."
+#: ../plugins/power/gsd-power-manager.c:746
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
 msgstr ""
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1250
+#: ../plugins/power/gsd-power-manager.c:1259
 msgid "Lid has been opened"
 msgstr ""
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1288
+#: ../plugins/power/gsd-power-manager.c:1297
 msgid "Lid has been closed"
 msgstr ""
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1849
+#: ../plugins/power/gsd-power-manager.c:1856
 msgid "On battery power"
 msgstr ""
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1854
+#: ../plugins/power/gsd-power-manager.c:1861
 msgid "On AC power"
 msgstr ""
 
-#: ../plugins/power/gsd-power-manager.c:2036
+#: ../plugins/power/gsd-power-manager.c:2053
 msgid "Automatic logout"
 msgstr ""
 
-#: ../plugins/power/gsd-power-manager.c:2036
+#: ../plugins/power/gsd-power-manager.c:2053
 msgid "You will soon log out because of inactivity."
 msgstr ""
 
-#: ../plugins/power/gsd-power-manager.c:2041
+#: ../plugins/power/gsd-power-manager.c:2058
 msgid "Automatic suspend"
 msgstr ""
 
-#: ../plugins/power/gsd-power-manager.c:2041
-#: ../plugins/power/gsd-power-manager.c:2046
+#: ../plugins/power/gsd-power-manager.c:2058
+#: ../plugins/power/gsd-power-manager.c:2063
 msgid "Computer will suspend very soon because of inactivity."
 msgstr ""
 
-#: ../plugins/power/gsd-power-manager.c:2046
+#: ../plugins/power/gsd-power-manager.c:2063
 msgid "Automatic hibernation"
 msgstr ""
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the backlight brightness.
-#.
 #: ../plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in.h:5
 msgid "Modify the laptop brightness"
 msgstr ""
@@ -1645,215 +1566,231 @@ msgstr "Pas cap de pilòt per aquesta imprimenta."
 
 #: ../plugins/print-notifications/gsd-printer.c:1031
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:274
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:716
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:806
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:849
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:752
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:842
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:885
 msgid "Printers"
 msgstr "Imprimentas"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:380
-msgid "Toner low"
-msgstr "Nivèl de toner feble"
-
-#. Translators: The printer has no toner left (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:382
-msgid "Toner empty"
-msgstr "Toner void"
-
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:384
-msgid "Not connected?"
-msgstr ""
-
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:386
-msgid "Cover open"
-msgstr "Capòt dobèrt"
-
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:388
-msgid "Printer configuration error"
-msgstr "Error de configuracion de l'imprimenta"
-
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:390
-msgid "Door open"
-msgstr "Pòrta dobèrta"
-
-#. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:392
-msgid "Marker supply low"
-msgstr ""
-
-#. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:394
-msgid "Out of a marker supply"
-msgstr ""
-
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:396
-msgid "Paper low"
-msgstr "Pas gaire de papièr"
-
-#. Translators: At least one input tray is empty (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:398
-msgid "Out of paper"
-msgstr "Pas pus de papièr"
-
-#. Translators: The printer is offline (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:400
-msgid "Printer off-line"
-msgstr "Imprimenta desconnectada"
-
-#. Translators: The printer has detected an error (same as in system-config-printer)
-#. Translators: This is a title of an error notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:402
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:792
-msgid "Printer error"
-msgstr "Error d'impression"
-
-#. Translators: The printer is low on toner (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:406
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:350
 #, c-format
 msgid "Printer '%s' is low on toner."
 msgstr "Lo toner de l'imprimenta « %s » es gaireben void."
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:408
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:354
 #, c-format
 msgid "Printer '%s' has no toner left."
 msgstr "Lo toner de l'imprimenta « %s » es void."
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:410
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:358
 #, c-format
-#| msgid "Printer '%s' has no toner left."
 msgid "Printer '%s' may not be connected."
 msgstr "Benlèu que l'imprimenta « %s » es pas connectada."
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:412
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:362
 #, c-format
 msgid "The cover is open on printer '%s'."
 msgstr "Lo capòt de l'imprimenta « %s » es dobèrt."
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:414
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:366
 #, c-format
 msgid "There is a missing print filter for printer '%s'."
 msgstr "Manca un filtre d'impression per l'imprimenta « %s »."
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:417
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:371
 #, c-format
 msgid "The door is open on printer '%s'."
 msgstr "La pòrta de l'imprimenta « %s » es dobèrta."
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:419
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:375
 #, c-format
 msgid "Printer '%s' is low on a marker supply."
 msgstr ""
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:421
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:379
 #, c-format
 msgid "Printer '%s' is out of a marker supply."
 msgstr ""
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:423
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:383
 #, c-format
 msgid "Printer '%s' is low on paper."
 msgstr "I a gaireben pas pus de papièr dins l'imprimenta « %s »."
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:425
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:387
 #, c-format
 msgid "Printer '%s' is out of paper."
 msgstr "L'imprimenta « %s » a pas pus de papièr."
 
 #. Translators: The printer is offline (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:427
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:391
 #, c-format
 msgid "Printer '%s' is currently off-line."
 msgstr "L'imprimenta « %s » es desconnectada."
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:429
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "There is a problem on printer '%s'."
 msgstr "I a un problèma amb l'imprimenta « %s »."
 
+#. Translators: The printer is low on toner (same as in system-config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:443
+msgid "Toner low"
+msgstr "Nivèl de toner feble"
+
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:445
+msgid "Toner empty"
+msgstr "Toner void"
+
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:447
+msgid "Not connected?"
+msgstr ""
+
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:449
+msgid "Cover open"
+msgstr "Capòt dobèrt"
+
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:451
+msgid "Printer configuration error"
+msgstr "Error de configuracion de l'imprimenta"
+
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:453
+msgid "Door open"
+msgstr "Pòrta dobèrta"
+
+#. Translators: "marker" is one color bin of the printer
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:455
+msgid "Marker supply low"
+msgstr ""
+
+#. Translators: "marker" is one color bin of the printer
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:457
+msgid "Out of a marker supply"
+msgstr ""
+
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:459
+msgid "Paper low"
+msgstr "Pas gaire de papièr"
+
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:461
+msgid "Out of paper"
+msgstr "Pas pus de papièr"
+
+#. Translators: The printer is offline (same as in system-config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:463
+msgid "Printer off-line"
+msgstr "Imprimenta desconnectada"
+
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
+#. Translators: This is a title of an error notification for a printer
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:465
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:828
+msgid "Printer error"
+msgstr "Error d'impression"
+
 #. Translators: New printer has been added
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:477
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:513
 msgid "Printer added"
 msgstr "L'imprimenta es estada aponduda"
 
 #. Translators: A print job has been stopped
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:494
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:532
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:530
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:568
 msgctxt "print job state"
 msgid "Printing stopped"
 msgstr ""
 
 #. Translators: "print-job xy" on a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:496
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:502
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:508
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:514
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:526
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:534
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:542
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:532
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:538
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:544
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:550
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:558
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:571
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:562
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:570
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:578
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:586
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:594
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:607
 #, c-format
 msgctxt "print job"
 msgid "\"%s\" on %s"
 msgstr ""
 
 #. Translators: A print job has been canceled
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:500
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:540
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:536
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:576
 msgctxt "print job state"
 msgid "Printing canceled"
 msgstr ""
 
 #. Translators: A print job has been aborted
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:506
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:548
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:542
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:584
 msgctxt "print job state"
 msgid "Printing aborted"
 msgstr ""
 
 #. Translators: A print job has been completed
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:512
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:556
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:548
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:592
 msgctxt "print job state"
 msgid "Printing completed"
 msgstr ""
 
 #. Translators: A job is printing
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:524
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:569
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:560
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:605
 msgctxt "print job state"
 msgid "Printing"
 msgstr "Impression"
 
 #. Translators: This is a title of a report notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:786
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:822
 msgid "Printer report"
 msgstr ""
 
 #. Translators: This is a title of a warning notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:789
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:825
 msgid "Printer warning"
 msgstr ""
 
-#. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:799
+#. Translators: "Printer 'MyPrinterName': 'Description of the
+#. report/warning/error from a PPD file'."
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:835
 #, c-format
 msgid "Printer '%s': '%s'."
 msgstr "Imprimenta '%s': '%s'."
@@ -1925,13 +1862,13 @@ msgid "Show On-Screen Help"
 msgstr ""
 
 #: ../plugins/wacom/gsd-wacom-button-editor.c:154
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1096
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1098
 msgctxt "Action type"
 msgid "Show On-Screen Help"
 msgstr "Aficha l'ajuda a l'ecran"
 
 #: ../plugins/wacom/gsd-wacom-button-editor.c:157
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1099
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1101
 msgctxt "Action type"
 msgid "Switch Monitor"
 msgstr "Càmbia d'ecran"
@@ -1943,7 +1880,7 @@ msgstr "Pas cap"
 
 #: ../plugins/wacom/gsd-wacom-button-editor.c:487
 msgid "Done"
-msgstr "Fach"
+msgstr "Fait"
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
 #: ../plugins/wacom/gsd-wacom-device.c:1028
@@ -1958,12 +1895,12 @@ msgstr ""
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
 #: ../plugins/wacom/gsd-wacom-device.c:1059
 msgid "Right Ring"
-msgstr "Ring drech"
+msgstr "Ring dreit"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1070
 #, c-format
 msgid "Right Ring Mode #%d"
-msgstr "Mòde Ring drech numèro %d"
+msgstr "Mòde Ring dreit numèro %d"
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
 #: ../plugins/wacom/gsd-wacom-device.c:1112
@@ -1978,12 +1915,12 @@ msgstr "Mòde Touchstrip esquèrre numèro %d"
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
 #: ../plugins/wacom/gsd-wacom-device.c:1143
 msgid "Right Touchstrip"
-msgstr "Touchstrip drech"
+msgstr "Touchstrip dreit"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1154
 #, c-format
 msgid "Right Touchstrip Mode #%d"
-msgstr "Mòde Touchstrip drech numèro %d"
+msgstr "Mòde Touchstrip dreit numèro %d"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1180
 #, c-format
@@ -1993,7 +1930,7 @@ msgstr "Commutator del mòde Touchring esquèrre"
 #: ../plugins/wacom/gsd-wacom-device.c:1182
 #, c-format
 msgid "Right Touchring Mode Switch"
-msgstr "Commutator del mòde Touchring drech"
+msgstr "Commutator del mòde Touchring dreit"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1185
 #, c-format
@@ -2003,29 +1940,29 @@ msgstr "Commutator del mòde Touchstrip esquèrre"
 #: ../plugins/wacom/gsd-wacom-device.c:1187
 #, c-format
 msgid "Right Touchstrip Mode Switch"
-msgstr "Commutator del mòde Touchstrip drech"
+msgstr "Commutator del mòde Touchstrip dreit"
 
 #: ../plugins/wacom/gsd-wacom-device.c:1192
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "Commutator de mòde numèro %d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1300
+#: ../plugins/wacom/gsd-wacom-device.c:1238
 #, c-format
 msgid "Left Button #%d"
 msgstr "Boton d'esquèrra numèro %d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1303
+#: ../plugins/wacom/gsd-wacom-device.c:1241
 #, c-format
 msgid "Right Button #%d"
-msgstr "Boton de drecha numèro %d"
+msgstr "Boton de dreita numèro %d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1306
+#: ../plugins/wacom/gsd-wacom-device.c:1244
 #, c-format
 msgid "Top Button #%d"
 msgstr "Boton superior numèro %d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1309
+#: ../plugins/wacom/gsd-wacom-device.c:1247
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "Boton inferior numèro %d"
@@ -2034,60 +1971,59 @@ msgstr "Boton inferior numèro %d"
 msgid "New shortcut…"
 msgstr "Acorchi novèl..."
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1029
+#: ../plugins/wacom/gsd-wacom-manager.c:1037
 #, c-format
 msgid "The \"%s\" tablet may not work as expected."
 msgstr ""
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1030
+#: ../plugins/wacom/gsd-wacom-manager.c:1038
 msgid "Unknown Tablet Connected"
 msgstr ""
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1034
+#: ../plugins/wacom/gsd-wacom-manager.c:1042
 msgid "Wacom Settings"
 msgstr ""
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1073
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1093
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1104
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1075
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1095
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1106
 msgctxt "Action type"
 msgid "None"
 msgstr "Pas cap"
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1078
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1080
 #, c-format
 msgctxt "Action type"
 msgid "Send Keystroke %s"
 msgstr "Simula la quichada sus la tòca %s"
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1137
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1139
 #, c-format
 msgid "Mode %d: %s"
 msgstr "Mòde %d : %s"
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1347
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1349
 msgid "(press any key to exit)"
 msgstr ""
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1356
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1358
 msgid "Push a button to configure"
 msgstr ""
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1356
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1358
 msgid "(Esc to cancel)"
 msgstr "(Esc per anullar)"
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1983
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1985
 msgid "Edit"
 msgstr "Editar"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the LED setting for a Wacom tablet
-#.
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:5
 msgid "Modify the lit LED for a Wacom tablet"
-msgstr "Modifica los lums alucat d'una tableta Wacom"
+msgstr "Modifica los lums alucat d'una tauleta Wacom"
 
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:6
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
@@ -2096,7 +2032,6 @@ msgstr ""
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the OLED images for a Wacom tablet
-#.
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:11
 msgid "Modify the OLED image for a Wacom tablet"
 msgstr ""
@@ -2133,457 +2068,3 @@ msgstr "Paramètres X"
 #: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
 msgid "Manage X Settings"
 msgstr "Gestion dels paramètres X"
-
-#~ msgid "Disable touchpad while typing"
-#~ msgstr "Desactivar lo pavat tactil al moment de la picada al clavièr"
-
-#~ msgid ""
-#~ "Set this to TRUE if you have problems with accidentally hitting the "
-#~ "touchpad while typing."
-#~ msgstr ""
-#~ "Activatz aquesta clau se vos arriba de tocar accidentalament lo pavat "
-#~ "tactil quand escrivètz al clavièr."
-
-#~ msgid "Enable horizontal scrolling"
-#~ msgstr "Activar lo desfilament orizontal"
-
-#~ msgid ""
-#~ "Set this to TRUE to allow horizontal scrolling by the same method "
-#~ "selected with the scroll_method key."
-#~ msgstr ""
-#~ "Activatz aquesta clau per permetre lo desfilament orizontal segon lo "
-#~ "metòde seleccionat dins la clau « scroll_method »."
-
-#~ msgid "Select the touchpad scroll method"
-#~ msgstr "Metòde de desfilament del pavat tactil"
-
-#~ msgid ""
-#~ "Select the touchpad scroll method. Supported values are: \"disabled\", "
-#~ "\"edge-scrolling\", \"two-finger-scrolling\"."
-#~ msgstr ""
-#~ "Selecciona lo metòde de desfilament amb lo pavat tactil. Las valors "
-#~ "admesas sont : « disabled » (desactivat), « edge-scrolling » (desfilament "
-#~ "suls bòrds), « two-finger-scrolling » (desfilament amb dos dets)."
-
-#~ msgid "Enable mouse clicks with touchpad"
-#~ msgstr "Activar los clics de mirga amb lo pavat tactil"
-
-#~ msgid ""
-#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
-#~ "touchpad."
-#~ msgstr ""
-#~ "Activatz aquesta clau per poder efectuar de clics de mirgas en picant sul "
-#~ "pavat tactil."
-
-#~ msgid "Enable touchpad"
-#~ msgstr "Activar lo pavat tactil"
-
-#~ msgid "Set this to TRUE to enable all touchpads."
-#~ msgstr "Activatz aquesta clau per activar totes los pavats tactils."
-
-#~ msgid "Middle button emulation"
-#~ msgstr "Emulacion del boton central de la mirga"
-
-#~ msgid ""
-#~ "Enables middle mouse button emulation through simultaneous left and right "
-#~ "button click."
-#~ msgstr ""
-#~ "Activa la simulacion del boton central de la mirga amb un clic simultanèu "
-#~ "suls botons de drecha e esquèrra."
-
-#~ msgid "Device hotplug custom command"
-#~ msgstr "Comanda personalizada per las connexions a caud de periferics"
-
-#~ msgid ""
-#~ "Command to be run when a device is added or removed. An exit value of 1 "
-#~ "means that the device will not be handled further by gnome-settings-"
-#~ "daemon."
-#~ msgstr ""
-#~ "Comanda d'activar al moment de l'apondon o del levament d'un periferic. "
-#~ "Una valor de sortida de 1 significa que lo periferic serà pas mai pres en "
-#~ "carga per gnome-settings-daemon."
-
-#~ msgid "Wacom tablet PC feature"
-#~ msgstr "Foncionalitat de la tableta PC Wacom"
-
-#~ msgid "Enable this to only report stylus events when the tip is pressed."
-#~ msgstr ""
-#~ "Activar aquesta opcion per tenir pas compte de las accions de l'estilet "
-#~ "que quand la punta es quichada."
-
-#~ msgid "Wacom display mapping"
-#~ msgstr "Correspondéncia de l'afichatge Wacom"
-
-#~ msgid ""
-#~ "EDID information of monitor to map tablet to. Must be in the format "
-#~ "[vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
-#~ msgstr ""
-#~ "Informacion EDID de l'ecran de far correspondre a la tableta grafica. Deu "
-#~ "èsser al format [constructor, produch, seria]. [\"\",\"\",\"\"] desactiva "
-#~ "la correspondéncia."
-
-#~ msgid "Launch terminal"
-#~ msgstr "Aviar un terminal"
-
-#~ msgid "Binding to launch the terminal."
-#~ msgstr "Acorchi per aviar un terminal"
-
-#~ msgid "Percentage considered low"
-#~ msgstr "Percentatge considerat coma feble"
-
-#~ msgid ""
-#~ "The percentage of the battery when it is considered low. Only valid when "
-#~ "use-time-for-policy is false."
-#~ msgstr ""
-#~ "Lo percentatge de la batariá quand es considerat coma feble. Valable "
-#~ "unicament quand use-time-for-policy es fals."
-
-#~ msgid "Percentage considered critical"
-#~ msgstr "Percentatge considerat coma critic"
-
-#~ msgid ""
-#~ "The percentage of the battery when it is considered critical. Only valid "
-#~ "when use-time-for-policy is false."
-#~ msgstr ""
-#~ "Lo percentatge de la batariá quand es considerat coma critic. Valable "
-#~ "unicament quand use-time-for-policy es fals."
-
-#~ msgid "Percentage action is taken"
-#~ msgstr "Percentatge ont l'accion es efectuada"
-
-#~ msgid ""
-#~ "The percentage of the battery when the critical action is performed. Only "
-#~ "valid when use-time-for-policy is false."
-#~ msgstr ""
-#~ "Lo percentatge de la batariá quand l'accion critica es efectuada. Valable "
-#~ "unicament quand use-time-for-policy es fals."
-
-#~ msgid "The time remaining when low"
-#~ msgstr "Lo temps que demòra quand feble"
-
-#~ msgid "The time remaining when critical"
-#~ msgstr "Lo temps que demòra quand critic"
-
-#~ msgid "The time remaining when action is taken"
-#~ msgstr "Lo temps que demòra quand l'accion es efectuada"
-
-#~ msgid "Whether to use time-based notifications"
-#~ msgstr ""
-#~ "Indica se las notificacions basadas sul temps devon èsser utilizadas"
-
-#~ msgid ""
-#~ "If time based notifications should be used. If set to false, then the "
-#~ "percentage change is used instead, which may fix a broken ACPI BIOS."
-#~ msgstr ""
-#~ "Indica se cal utilizar de notificacions basadas sul temps. A defaut, la "
-#~ "variacion en percentatge serà utilizada. Aquò pòt permetre de corregir lo "
-#~ "foncionament d'unes BIOS ACPI defectuoses."
-
-#~ msgid "If we should show the recalled battery warning for a broken battery"
-#~ msgstr ""
-#~ "Indica se cal afichar l'avertiment de rapèl de batariá en preséncia d'una "
-#~ "batariá defectuosa"
-
-#~ msgid ""
-#~ "If we should show the recalled battery warning for a broken battery. Set "
-#~ "this to false only if you know your battery is okay."
-#~ msgstr ""
-#~ "Indica se cal afichar l'avertiment de rapèl de batariá en preséncia d'una "
-#~ "batariá defectuosa. Definissètz aquesta opcion a FALS unicament se sètz "
-#~ "segur que vòstra batariá es en bon estat."
-
-#~ msgid "Use mobile broadband connections"
-#~ msgstr "Utilizacion de connexions per telefonet"
-
-#~ msgid "How often to check for updates"
-#~ msgstr "Frequéncia de verificacion de las mesas a jorn"
-
-#~ msgid "How often to refresh the package cache"
-#~ msgstr "Frequéncia de refrescament de lo cache dels paquets"
-
-#~ msgid "Check for updates when running on battery power"
-#~ msgstr "Recercar las mesas a jorn quand l'ordenador fonciona sus batariá"
-
-#~ msgid "Check for updates when running on battery power."
-#~ msgstr "Recercar las mesas a jorn quand l'ordenador fonciona sus batariá."
-
-#~ msgid "Notify the user when distribution upgrades are available"
-#~ msgstr ""
-#~ "Avertir l'utilizaire que de mesas a nivèl de sa distribucion son "
-#~ "disponiblas"
-
-#~ msgid "Notify the user when distribution upgrades are available."
-#~ msgstr ""
-#~ "Avertir l'utilizaire que de mesas a nivèl de sa distribucion son "
-#~ "disponiblas."
-
-#~ msgid "Ask the user if additional firmware should be installed"
-#~ msgstr ""
-#~ "Demandar a l'utilizaire se un microprograma suplementari deu èsser "
-#~ "installat"
-
-#~ msgid ""
-#~ "Ask the user if additional firmware should be installed if it is "
-#~ "available."
-#~ msgstr ""
-#~ "Demandar a l'utilizaire se un microprograma suplementari deu èsser "
-#~ "installat se es disponible."
-
-#~ msgid "Firmware files that should not be searched for"
-#~ msgstr "Fichièrs de microprogramas que la recèrca n'es interdicha"
-
-#~ msgid ""
-#~ "Firmware files that should not be searched for, separated by commas. "
-#~ "These can include '*' and '?' characters."
-#~ msgstr ""
-#~ "Fichièrs de microprogramas que la recèrca n'es interdicha, separats per "
-#~ "de virgulas. Los caractèrs « * » e « ? » son autorizats tanben."
-
-#~ msgid "Devices that should be ignored"
-#~ msgstr "Periferics que devon èsser ignorats"
-
-#~ msgid ""
-#~ "Devices that should be ignored, separated by commas. These can include "
-#~ "'*' and '?' characters."
-#~ msgstr ""
-#~ "Periferics que devon èsser ignorats, separats per de virgulas. Los "
-#~ "caractèrs « * » e « ? » son autorizats tanben."
-
-#~ msgid ""
-#~ "The filenames on removable media that designate it a software source."
-#~ msgstr ""
-#~ "Noms de fichièrs sus un periferic amovible que lo designan coma font de "
-#~ "logicials."
-
-#~ msgid ""
-#~ "The type of hinting to use when rendering fonts. Possible values are: "
-#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
-#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
-#~ msgstr ""
-#~ "Lo tipe d'optimizacion utilizat pel rendut de las poliças. Las valors "
-#~ "possiblas son : « none » per cap d'optimizacion, « slight » pel minimum, "
-#~ "« medium » per una optimizacion mejana e « full » pel maximum possible "
-#~ "(pòt ocasionar de distorsions sus la forma de las letras)."
-
-#~ msgid "Cursor"
-#~ msgstr "Cursor"
-
-#~ msgid "Show/hide cursor on tablet devices"
-#~ msgstr "Aficha/amaga lo cursor dels periferics de la tableta"
-
-#~ msgid "Examine…"
-#~ msgstr "Examinar…"
-
-#~ msgid "Additional software was installed"
-#~ msgstr "Un logicial suplementari es estat installat"
-
-#~ msgid "Software Updates"
-#~ msgstr "Mesa a jorn dels logicials"
-
-#~ msgid "Additional firmware required"
-#~ msgstr "Un microprograma suplementari es necessari"
-
-#~ msgid "Install firmware"
-#~ msgstr "Installar lo microprograma"
-
-#~ msgid "Ignore devices"
-#~ msgstr "Ignorar los periferics"
-
-#~ msgid "Distribution upgrades available"
-#~ msgstr "Mesas a nivèl disponiblas per aquesta distribucion"
-
-#~ msgid "More information"
-#~ msgstr "Mai d'entresenhas"
-
-#~ msgid "Update"
-#~ msgid_plural "Updates"
-#~ msgstr[0] "Mesa a jorn"
-#~ msgstr[1] "Mesas a jorn"
-
-#~ msgid "Install updates"
-#~ msgstr "Installar las mesas a jorn"
-
-#~ msgid "A software update is available."
-#~ msgid_plural "Software updates are available."
-#~ msgstr[0] "Una mese a jorn logiciala es disponibla."
-#~ msgstr[1] "De mesas a jorn logicialas son disponiblas."
-
-#~ msgid "Updates"
-#~ msgstr "Mesas a jorn"
-
-#~ msgid "Unable to access software updates"
-#~ msgstr "Impossible d'accedir a las mesas a jorn logicialas"
-
-#~ msgid "Try again"
-#~ msgstr "Tornar ensajar"
-
-#~ msgid "Computer will suspend very soon unless it is plugged in."
-#~ msgstr ""
-#~ "L'ordenador se va metre en velha dins pauc de temps s'es pas brancat."
-
-#~ msgid "Plug in your AC adapter to avoid losing data."
-#~ msgstr ""
-#~ "Brancatz vòstre adaptador de sector per evitar de pèrdre de donadas."
-
-#~ msgid ""
-#~ "The battery is below the critical level and this computer will <b>power-"
-#~ "off</b> when the battery becomes completely empty."
-#~ msgstr ""
-#~ "La batariá es en dejós de son nivèl critic ; l'ordenador se va <b>atudar</"
-#~ "b> quand la batariá serà completament descargada."
-
-#~ msgid "Battery may be recalled"
-#~ msgstr "Un rapèl de la batariá es possible"
-
-#~ msgid "Visit recall website"
-#~ msgstr "Visitar lo site de rapèl"
-
-#~ msgid "Do not show me this again"
-#~ msgstr "Afichar pas pus"
-
-#~ msgid "Waiting to discharge"
-#~ msgstr "En espèra de descarga"
-
-#~ msgid "Nickel metal hydride"
-#~ msgstr "Niquèl metal idrur"
-
-#~ msgid "Unknown technology"
-#~ msgstr "Tecnologia desconeguda"
-
-#~ msgid "Empty"
-#~ msgstr "Void"
-
-#~ msgid "Waiting to charge"
-#~ msgstr "En espèra de carga"
-
-#~ msgid "Lithium Polymer"
-#~ msgstr "Liti polimèr"
-
-#~ msgid "Lithium Iron Phosphate"
-#~ msgstr "Liti fosfat de fèrre"
-
-#~ msgid "Lead acid"
-#~ msgstr "Batariá al plomb"
-
-#~ msgid "Nickel Cadmium"
-#~ msgstr "Niquèl Cadmi"
-
-#~ msgid "Tablet"
-#~ msgid_plural "Tablets"
-#~ msgstr[0] "Tableta"
-#~ msgstr[1] "Tabletas"
-
-#~ msgid "Media player"
-#~ msgid_plural "Media players"
-#~ msgstr[0] "Lector multimèdia"
-#~ msgstr[1] "Lectors multimèdia"
-
-#~ msgid "Lithium Ion"
-#~ msgstr "Liti-ion"
-
-#~ msgid "Computer"
-#~ msgid_plural "Computers"
-#~ msgstr[0] "Ordenador"
-#~ msgstr[1] "Ordenadors"
-
-#~ msgid "Monitor"
-#~ msgid_plural "Monitors"
-#~ msgstr[0] "Ecran"
-#~ msgstr[1] "Ecrans"
-
-#~ msgid "Cell phone"
-#~ msgid_plural "Cell phones"
-#~ msgstr[0] "Telefonet"
-#~ msgstr[1] "Telefonets"
-
-#~ msgid "PDA"
-#~ msgid_plural "PDAs"
-#~ msgstr[0] "Assistent personal"
-#~ msgstr[1] "Assistents personals"
-
-#~ msgid "Design charge:"
-#~ msgstr "Carga teorica :"
-
-#~ msgid "Charge rate:"
-#~ msgstr "Taus de carga :"
-
-#~ msgid "Current charge:"
-#~ msgstr "Carga actuala :"
-
-#~ msgid "Last full charge:"
-#~ msgstr "Darrièra carga completa :"
-
-#~ msgid "Capacity:"
-#~ msgstr "Capacitat :"
-
-#~ msgid "AC adapter"
-#~ msgid_plural "AC adapters"
-#~ msgstr[0] "Adaptador sector"
-#~ msgstr[1] "Adaptadors sector"
-
-#~ msgid "Laptop battery"
-#~ msgid_plural "Laptop batteries"
-#~ msgstr[0] "Batariá de l'ordenador"
-#~ msgstr[1] "Batariás de l'ordenador"
-
-#~ msgid "UPS"
-#~ msgid_plural "UPSs"
-#~ msgstr[0] "Ondulator"
-#~ msgstr[1] "Onduladors"
-
-#~ msgid "Poor"
-#~ msgstr "Marrit estat"
-
-#~ msgid "Good"
-#~ msgstr "Bon"
-
-#~ msgid "Fair"
-#~ msgstr "Corrècte"
-
-#~ msgid "Charge time:"
-#~ msgstr "Durada de carga :"
-
-#~ msgid "Model:"
-#~ msgstr "Modèl :"
-
-#~ msgid "Serial number:"
-#~ msgstr "Numèro de seria :"
-
-#~ msgid "Technology:"
-#~ msgstr "Tecnologia :"
-
-#~ msgid "Excellent"
-#~ msgstr "Excellent"
-
-#~ msgid "Discharge time:"
-#~ msgstr "Durada de descarga :"
-
-#~ msgid "Product:"
-#~ msgstr "Produch :"
-
-#~ msgid "Status:"
-#~ msgstr "Estat :"
-
-#~ msgid "Charged"
-#~ msgstr "Cargat"
-
-#~ msgid "Vendor:"
-#~ msgstr "Vendeire :"
-
-#~ msgid "Percentage charge:"
-#~ msgstr "Percentatge de carga :"
-
-#~ msgid "Discharging"
-#~ msgstr "En descarga"
-
-#~ msgid "Charging"
-#~ msgstr "En carga"
-
-#~ msgid "%s %s until charged"
-#~ msgstr "%s : %s abans l'estat cargat"
-
-#~ msgid "Missing"
-#~ msgstr "Mancant"
-
-#~ msgid "%s %s remaining"
-#~ msgstr "%s : demòra %s"
