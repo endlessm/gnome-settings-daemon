@@ -88,8 +88,11 @@ do_stop (void)
          * disconnected. Will need to be revisited when that bug is
          * fixed in gnome-session. */
         ignore_name_lost = TRUE;
-        g_bus_unown_name (name_id);
-        name_id = 0;
+
+        if (name_id > 0) {
+                g_bus_unown_name (name_id);
+                name_id = 0;
+        }
 }
 
 static void
@@ -318,8 +321,10 @@ name_lost_handler (GDBusConnection *connection,
                    const gchar *name,
                    gpointer user_data)
 {
-        if (ignore_name_lost)
+        if (ignore_name_lost) {
+                name_id = 0;
                 return;
+        }
 
         /* Name was already taken, or the bus went away */
 
