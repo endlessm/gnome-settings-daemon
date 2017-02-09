@@ -1,4 +1,4 @@
-AC_PREREQ([2.60])
+AC_PREREQ([2.69])
 
 AC_INIT([gnome-settings-daemon],
         [3.22.2],
@@ -17,10 +17,10 @@ m4_define([gsd_api_version],[gsd_api_version_major.gsd_api_version_minor])
 GSD_API_VERSION="gsd_api_version"
 AC_SUBST(GSD_API_VERSION)
 
-AC_STDC_HEADERS
+AC_HEADER_STDC
 AC_PROG_CXX
 AM_PROG_CC_C_O
-AC_PROG_LIBTOOL
+LT_INIT
 
 AC_HEADER_STDC
 
@@ -158,7 +158,7 @@ dnl ---------------------------------------------------------------------------
 dnl - Check for libwayland-client
 dnl ---------------------------------------------------------------------------
 AC_ARG_ENABLE(wayland,
-        AC_HELP_STRING([--disable-wayland], [Disable wayland support (default: auto)]),
+        AS_HELP_STRING([--disable-wayland],[Disable wayland support (default: auto)]),
         enable_wayland=$enableval, enable_wayland=auto)
 if test x$enable_wayland != xno; then
         PKG_CHECK_MODULES(WAYLAND, wayland-client, have_wayland=yes, have_wayland=no)
@@ -251,7 +251,7 @@ dnl ---------------------------------------------------------------------------
 dnl - datetime
 dnl ---------------------------------------------------------------------------
 
-AC_CHECK_LIBM
+LT_LIB_M
 AC_SUBST(LIBM)
 
 PKG_CHECK_MODULES(DATETIME,
@@ -292,8 +292,7 @@ dnl smartcard section
 dnl ==============================================
 have_smartcard_support=false
 AC_ARG_ENABLE(smartcard-support,
-  AC_HELP_STRING([--disable-smartcard-support],
-                 [turn off smartcard support]),
+  AS_HELP_STRING([--disable-smartcard-support],[turn off smartcard support]),
        [case "${enableval}" in
                yes) WANT_SMARTCARD_SUPPORT=yes ;;
                no)  WANT_SMARTCARD_SUPPORT=no ;;
@@ -314,8 +313,7 @@ AC_SUBST(NSS_CFLAGS)
 AC_SUBST(NSS_LIBS)
 
 AC_ARG_WITH(nssdb,
-  AC_HELP_STRING([--with-nssdb],
-                 [where system NSS database is]))
+  AS_HELP_STRING([--with-nssdb],[where system NSS database is]))
 
 NSS_DATABASE=""
 if test "x$have_smartcard_support" = "xtrue"; then
@@ -416,8 +414,7 @@ PKG_CHECK_MODULES(SHARING, gio-2.0 $NM_MODULE)
 # Enable Profiling
 # ---------------------------------------------------------------------------
 AC_ARG_ENABLE(profiling,
-	[AC_HELP_STRING([--enable-profiling],
-	[turn on profiling])],
+	[AS_HELP_STRING([--enable-profiling],[turn on profiling])],
 	, enable_profiling=no)
 if test "x$enable_profiling" = "xyes"; then
     AC_DEFINE(ENABLE_PROFILING,1,[enable profiling])
@@ -453,8 +450,7 @@ dnl ---------------------------------------------------------------------------
 # Turn on the additional warnings last, so warnings don't affect other tests.
 
 AC_ARG_ENABLE(more-warnings,
-	[AC_HELP_STRING([--enable-more-warnings],
-	[Maximum compiler warnings])],
+	[AS_HELP_STRING([--enable-more-warnings],[Maximum compiler warnings])],
 	set_more_warnings="$enableval",[
 		if test -d $srcdir/.git; then
 			set_more_warnings=yes
@@ -476,9 +472,7 @@ if test "$GCC" = "yes" -a "$set_more_warnings" != "no"; then
                 SAVE_CFLAGS="$CFLAGS"
                 CFLAGS="$CFLAGS $option"
                 AC_MSG_CHECKING([whether gcc understands $option])
-                AC_TRY_COMPILE([], [],
-                        has_option=yes,
-                        has_option=no,)
+                AC_COMPILE_IFELSE([AC_LANG_PROGRAM([[]], [[]])],[has_option=yes],[has_option=no])
                 if test $has_option = no; then
                         CFLAGS="$SAVE_CFLAGS"
                 fi
@@ -495,8 +489,7 @@ fi
 # Enable Debug
 #
 AC_ARG_ENABLE(debug,
-	[AC_HELP_STRING([--enable-debug],
-	[turn on debugging])],
+	[AS_HELP_STRING([--enable-debug],[turn on debugging])],
 	, enable_debug=yes)
 if test "$enable_debug" = "yes"; then
 	DEBUG_CFLAGS="-DG_ENABLE_DEBUG"
@@ -509,7 +502,7 @@ else
 fi
 AC_SUBST(DEBUG_CFLAGS)
 
-AC_OUTPUT([
+AC_CONFIG_FILES([
 Makefile
 gnome-settings-daemon/Makefile
 plugins/Makefile
@@ -557,6 +550,7 @@ po/Makefile.in
 man/Makefile
 tests/Makefile
 ])
+AC_OUTPUT
 
 dnl ---------------------------------------------------------------------------
 dnl - Show summary
