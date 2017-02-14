@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-17 04:30+0000\n"
+"POT-Creation-Date: 2017-02-07 04:30+0000\n"
 "PO-Revision-Date: 2016-10-04 23:26+0000\n"
 "Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
 "Language-Team: Polish (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/pl/)\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>=14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #: ../data/gnome-settings-daemon.desktop.in.in.h:1
 msgid "GNOME Settings Daemon"
@@ -1016,6 +1016,7 @@ msgid_plural "%u Outputs"
 msgstr[0] "%u wyjście"
 msgstr[1] "%u wyjścia"
 msgstr[2] "%u wyjść"
+msgstr[3] "%u wyjść"
 
 #. translators:
 #. * The number of sound inputs on a particular device
@@ -1026,6 +1027,7 @@ msgid_plural "%u Inputs"
 msgstr[0] "%u wejście"
 msgstr[1] "%u wejścia"
 msgstr[2] "%u wejść"
+msgstr[3] "%u wejść"
 
 #: ../plugins/media-keys/gvc/gvc-mixer-control.c:2738
 msgid "System Sounds"
@@ -1185,6 +1187,7 @@ msgid_plural "%i minutes"
 msgstr[0] "%i minuta"
 msgstr[1] "%i minuty"
 msgstr[2] "%i minut"
+msgstr[3] "%i minut"
 
 #: ../plugins/power/gpm-common.c:96
 #, c-format
@@ -1193,6 +1196,7 @@ msgid_plural "%i hours"
 msgstr[0] "%i godzina"
 msgstr[1] "%i godziny"
 msgstr[2] "%i godzin"
+msgstr[3] "%i godzin"
 
 #. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
 #. * Swap order with "%2$s %2$i %1$s %1$i if needed
@@ -1207,6 +1211,7 @@ msgid_plural "hours"
 msgstr[0] "godzinę"
 msgstr[1] "godziny"
 msgstr[2] "godzin"
+msgstr[3] "godzin"
 
 #: ../plugins/power/gpm-common.c:104
 msgid "minute"
@@ -1214,6 +1219,7 @@ msgid_plural "minutes"
 msgstr[0] "minutę"
 msgstr[1] "minuty"
 msgstr[2] "minut"
+msgstr[3] "minut"
 
 #. TRANSLATORS: this is the sound description
 #: ../plugins/power/gpm-common.c:909 ../plugins/power/gsd-power-manager.c:681
