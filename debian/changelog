@@ -1,3 +1,56 @@
+gnome-settings-daemon (3.22.2-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 14 Mar 2017 18:22:17 +0100
+
+gnome-settings-daemon (3.22.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Tue, 11 Oct 2016 14:39:33 +0200
+
+gnome-settings-daemon (3.22.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh debian/patches/04_superP.patch.
+  * Bump debhelper compat level to 10.
+
+ -- Michael Biebl <biebl@debian.org>  Wed, 21 Sep 2016 02:16:25 +0200
+
+gnome-settings-daemon (3.21.92.1-1) unstable; urgency=medium
+
+  * New upstream beta release.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Tue, 13 Sep 2016 14:18:41 +0200
+
+gnome-settings-daemon (3.21.90-2) unstable; urgency=medium
+
+  * Drop translations for strings introduced by
+    debian/patches/01_reinstate_updates_plugin.patch, this patch has been
+    removed a while ago.
+  * Install man page provided by upstream and remove the outdated one we
+    shipped downstream.
+  * Drop conffile removal code from pre-wheezy.
+  * Convert from cdbs to dh.
+  * Use dh-exec to install architecture specific files and switch from
+    --list-missing to --fail-missing, to avoid missing uninstalled files.
+  * Upload to unstable.
+
+ -- Michael Biebl <biebl@debian.org>  Thu, 01 Sep 2016 01:03:20 +0200
+
+gnome-settings-daemon (3.21.90-1) experimental; urgency=medium
+
+  [ Jeremy Bicha ]
+  * debian/control.in:
+    - Remove obsolete "typing break" from description
+
+  [ Andreas Henriksson ]
+  * New upstream beta release.
+  * Bump Standards-Version to 3.9.8
+
+ -- Andreas Henriksson <andreas@fatal.se>  Fri, 26 Aug 2016 11:07:08 +0200
+
 gnome-settings-daemon (3.20.1-2) unstable; urgency=medium
 
   * debian/gnome-settings-daemon.install,
