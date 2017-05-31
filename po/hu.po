@@ -1,31 +1,30 @@
-# Hungarian translation of gnome-settings-daemon.
-# Copyright (C) 1998-2016 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-settings-daemon package.
-#
-# Szabolcs Ban <shooby at gnome dot hu>, 1998, 1999, 2000.
-# Emese Kovacs <emese at gnome dot hu>, 2001.
-# Peter Doma <zelin at pointernet dot hu>, 2002.
-# Andras Timar <timar at gnome dot hu>, 2001, 2002, 2003.
-# Gabor Sari <saga at gnome dot hu>, 2003.
-# Laszlo Dvornik <dvornik at gnome dot hu>, 2004.
-# Gabor Kelemen <kelemeng at gnome dot hu>, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2016.
-# Mate ORY <orymate at gmail d0t com>, 2006.
-# Balázs Úr <urbalazs at gmail dot com>, 2013, 2014, 2015, 2016.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Andras Timar <timar at gnome dot hu>, 2001-2003
+# Balázs Úr <urbalazs at gmail dot com>, 2013-2016
+# Emese Kovacs <emese at gnome dot hu>, 2001
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2004-2013,2016
+# Gabor Sari <saga at gnome dot hu>, 2003
+# Laszlo Dvornik <dvornik at gnome dot hu>, 2004
+# Mate ORY <orymate at gmail d0t com>, 2006
+# Peter Doma <zelin at pointernet dot hu>, 2002
+# Szabolcs Ban <shooby at gnome dot hu>, 1998-2000
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-settings-daemon master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"settings-daemon&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-04-27 09:37+0000\n"
-"PO-Revision-Date: 2016-04-27 12:03+0200\n"
-"Last-Translator: Meskó Balázs <meskobalazs@gmail.com>\n"
-"Language-Team: Hungarian <openscope at googlegroups dot com>\n"
-"Language: hu\n"
+"Project-Id-Version: gnome-settings-daemon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-28 03:31+0000\n"
+"PO-Revision-Date: 2016-10-04 23:14+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7\n"
 
 #: ../data/gnome-settings-daemon.desktop.in.in.h:1
 msgid "GNOME Settings Daemon"
@@ -39,18 +38,13 @@ msgstr "Intelligenskártya-eltávolítási művelet"
 msgid ""
 "Set this to one of \"none\", \"lock-screen\", or \"force-logout\". The "
 "action will get performed when the smartcard used for log in is removed."
-msgstr ""
-"Állítsa a „none” (semmi), „lock-screen” (képernyő zárolása) vagy „force-"
-"logout” (kijelentkeztetés) egyikére. A művelet a bejelentkezéshez használt "
-"intelligens kártya eltávolításakor kerül végrehajtásra."
+msgstr "Állítsa a „none” (semmi), „lock-screen” (képernyő zárolása) vagy „force-logout” (kijelentkeztetés) egyikére. A művelet a bejelentkezéshez használt intelligens kártya eltávolításakor kerül végrehajtásra."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:3
 msgid ""
 "Highlights the current location of the pointer when the Control key is "
 "pressed and released."
-msgstr ""
-"Az egérmutató jelenlegi helyének kiemelése a Control billentyű lenyomásakor "
-"és felengedésekor."
+msgstr "Az egérmutató jelenlegi helyének kiemelése a Control billentyű lenyomásakor és felengedésekor."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:4
 msgid "Double click time"
@@ -160,9 +154,7 @@ msgstr "Wacom táblagép méretaránya"
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
-msgstr ""
-"Ha engedélyezett, a táblagép területe le lesz korlátozva, hogy megegyezzen a "
-"kimenet méretarányával."
+msgstr "Ha engedélyezett, a táblagép területe le lesz korlátozva, hogy megegyezzen a kimenet méretarányával."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:11
 msgid "Wacom tablet rotation"
@@ -170,11 +162,9 @@ msgstr "Wacom táblagép forgatása"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:12
 msgid ""
-"Set this to 'none', 'cw' for 90 degree clockwise, 'half' for 180 degree, and "
-"'ccw' for 90 degree counterclockwise."
-msgstr ""
-"Lehetséges értékek: „none” (semmi), „cw” (90 fok órajárás irányában), "
-"„half” (180 fok), és „ccw” (90 fok órajárással ellentétes irányban)."
+"Set this to 'none', 'cw' for 90 degree clockwise, 'half' for 180 degree, and"
+" 'ccw' for 90 degree counterclockwise."
+msgstr "Lehetséges értékek: „none” (semmi), „cw” (90 fok órajárás irányában), „half” (180 fok), és „ccw” (90 fok órajárással ellentétes irányban)."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:13
 msgid "Wacom touch feature"
@@ -182,9 +172,7 @@ msgstr "Wacom érintőképernyős szolgáltatás"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:14
 msgid "Enable this to move the cursor when the user touches the tablet."
-msgstr ""
-"Ha engedélyezett, a kurzor akkor mozog, ha a felhasználó megérinti a "
-"rajztáblát."
+msgstr "Ha engedélyezett, a kurzor akkor mozog, ha a felhasználó megérinti a rajztáblát."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:15
 msgid "Wacom stylus pressure curve"
@@ -250,10 +238,8 @@ msgstr "Az egyéni művelet billentyűkombinációja"
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
-msgstr ""
-"Az egyéni műveletek gombjának megnyomásakor generált billentyűkombináció."
+msgstr "Az egyéni műveletek gombjának megnyomásakor generált billentyűkombináció."
 
-# FIXME: jobb ötlet?
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:30
 msgid "Key combinations for a touchring or touchstrip custom action"
 msgstr "Billentyűkombinációk az érintőgyűrű vagy érintősáv egyéni műveletéhez"
@@ -262,9 +248,7 @@ msgstr "Billentyűkombinációk az érintőgyűrű vagy érintősáv egyéni mű
 msgid ""
 "The keyboard shortcuts generated when a touchring or touchstrip is used for "
 "custom actions (up followed by down)."
-msgstr ""
-"Az érintőgyűrű vagy érintősáv egyéni műveletekre való használatakor (fel, "
-"majd le) előállított gyorsbillentyűk."
+msgstr "Az érintőgyűrű vagy érintősáv egyéni műveletekre való használatakor (fel, majd le) előállított gyorsbillentyűk."
 
 #. Translators: This is the OLED display on an Intuos4 tablet:
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
@@ -305,10 +289,7 @@ msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: 'all'). The plugins still need to be marked as active to get "
 "loaded. This is only evaluated on startup."
-msgstr ""
-"A betölthető bővítményeket képviselő karakterláncok listája "
-"(alapértelmezett: „all”). A bővítményeket továbbra is meg kell jelölni "
-"aktívként a betöltésükhöz. Ez csak indításkor kerül kiértékelésre."
+msgstr "A betölthető bővítményeket képviselő karakterláncok listája (alapértelmezett: „all”). A bővítményeket továbbra is meg kell jelölni aktívként a betöltésükhöz. Ez csak indításkor kerül kiértékelésre."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:3
 msgid "Mount paths to ignore"
@@ -316,9 +297,7 @@ msgstr "Figyelmen kívül hagyandó csatolások"
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:4
 msgid "Specify a list of mount paths to ignore when they run low on space."
-msgstr ""
-"Adja meg azon csatolási útvonalak listáját, amelyeken az elfogyó szabad hely "
-"figyelmen kívül hagyandó."
+msgstr "Adja meg azon csatolási útvonalak listáját, amelyeken az elfogyó szabad hely figyelmen kívül hagyandó."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:5
 msgid "Free percentage notify threshold"
@@ -328,10 +307,7 @@ msgstr "Szabad hely százalékos arányának értesítési küszöbe"
 msgid ""
 "Percentage free space threshold for initial warning of low disk space. If "
 "the percentage free space drops below this, a warning will be shown."
-msgstr ""
-"Szabad hely százalékos arányának küszöbértéke az első figyelmeztetéshez a "
-"kevés szabad helyről. Ha a szabad terület százalékos aránya ez alá csökken, "
-"akkor megjelenik egy figyelmeztetés."
+msgstr "Szabad hely százalékos arányának küszöbértéke az első figyelmeztetéshez a kevés szabad helyről. Ha a szabad terület százalékos aránya ez alá csökken, akkor megjelenik egy figyelmeztetés."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:7
 msgid "Subsequent free space percentage notify threshold"
@@ -341,9 +317,7 @@ msgstr "Szabad hely százalékos arányáról szóló újabb értesítés küsz�
 msgid ""
 "Specify the percentage that the free disk space should reduce by before "
 "issuing a subsequent warning."
-msgstr ""
-"Adja meg azt a százalékos arányt, amelyet a szabad lemezterületnek el kell "
-"érnie újabb figyelmeztetés kiadásához."
+msgstr "Adja meg azt a százalékos arányt, amelyet a szabad lemezterületnek el kell érnie újabb figyelmeztetés kiadásához."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:9
 msgid "Free space notify threshold"
@@ -353,9 +327,7 @@ msgstr "Szabad hely értesítés küszöbe"
 msgid ""
 "Specify an amount in GB. If the amount of free space is more than this, no "
 "warning will be shown."
-msgstr ""
-"Adjon meg egy értéket GB-ban. Ha a szabad hely mennyisége ennél több, nem "
-"jelenik meg figyelmeztetés."
+msgstr "Adjon meg egy értéket GB-ban. Ha a szabad hely mennyisége ennél több, nem jelenik meg figyelmeztetés."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:11
 msgid "Minimum notify period for repeated warnings"
@@ -365,9 +337,7 @@ msgstr "Minimális értesítési időköz ismételt figyelmeztetésekhez"
 msgid ""
 "Specify a time in minutes. Subsequent warnings for a volume will not appear "
 "more often than this period."
-msgstr ""
-"A kötetre vonatkozó figyelmeztetések nem jelennek meg ennyi percnél "
-"gyakrabban."
+msgstr "A kötetre vonatkozó figyelmeztetések nem jelennek meg ennyi percnél gyakrabban."
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:3
 msgid "Custom keybindings"
@@ -455,8 +425,7 @@ msgstr "Lejátszás (vagy lejátszás/szünet)"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:24
 msgid "Binding to start playback (or toggle play/pause)."
-msgstr ""
-"Gyorsbillentyű a lejátszás indításához (vagy a lejátszás/szünet váltáshoz)."
+msgstr "Gyorsbillentyű a lejátszás indításához (vagy a lejátszás/szünet váltáshoz)."
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:25
 msgid "Log out"
@@ -678,9 +647,7 @@ msgstr "Amely kapcsolatokon a szolgáltatás engedélyezve van"
 msgid ""
 "The list of NetworkManager connections (each one represented with its UUID) "
 "on which this service is enabled and started."
-msgstr ""
-"A hálózatkezelő kapcsolatainak listája (mindegyik az UUID-jával van "
-"ábrázolva), amelyen ez a szolgáltatás engedélyezett és el van indítva."
+msgstr "A hálózatkezelő kapcsolatainak listája (mindegyik az UUID-jával van ábrázolva), amelyen ez a szolgáltatás engedélyezett és el van indítva."
 
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:3
 msgid "File for default configuration for RandR"
@@ -693,12 +660,7 @@ msgid ""
 "normally gets stored in users' home directories. If a user does not have "
 "such a file, or has one that does not match the user's setup of monitors, "
 "then the file specified by this key will be used instead."
-msgstr ""
-"Az XRandR bővítmény az itt megadott fájlban keresi az alapértelmezett "
-"beállításokat. Ez hasonló felhasználók saját könyvtárában tárolt ~/.config/"
-"monitors.xml fájlhoz. Ha a felhasználónak nincs ilyen fájlja, vagy a meglévő "
-"nem nem felel meg a felhasználó monitorainak, akkor az itt megadott fájl "
-"kerül felhasználásra."
+msgstr "Az XRandR bővítmény az itt megadott fájlban keresi az alapértelmezett beállításokat. Ez hasonló felhasználók saját könyvtárában tárolt ~/.config/monitors.xml fájlhoz. Ha a felhasználónak nincs ilyen fájlja, vagy a meglévő nem nem felel meg a felhasználó monitorainak, akkor az itt megadott fájl kerül felhasználásra."
 
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:7
 msgid "Whether to turn off specific monitors after boot"
@@ -711,12 +673,7 @@ msgid ""
 "(extend the desktop in recent versions). The default, 'follow-lid', will "
 "choose between 'do-nothing' and 'dock' depending on whether the lid is "
 "(respectively) open or closed."
-msgstr ""
-"A „clone” (klónozás) hatására minden monitor képe azonos lesz, a "
-"„dock” (dokkolás) kikapcsolja a belső monitort, a „do-nothing” (semmi) az "
-"alapértelmezett X.org viselkedést használja (újabban az asztal "
-"kiterjesztése). Az alapértelmezett „follow-lid” a „do-nothing” és a „dock” "
-"között fog választani attól függően, hogy a fedél nyitva van-e vagy sem."
+msgstr "A „clone” (klónozás) hatására minden monitor képe azonos lesz, a „dock” (dokkolás) kikapcsolja a belső monitort, a „do-nothing” (semmi) az alapértelmezett X.org viselkedést használja (újabban az asztal kiterjesztése). Az alapértelmezett „follow-lid” a „do-nothing” és a „dock” között fog választani attól függően, hogy a fedél nyitva van-e vagy sem."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
 msgid "Antialiasing"
@@ -727,10 +684,7 @@ msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "\"none\" for no antialiasing, \"grayscale\" for standard grayscale "
 "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
-msgstr ""
-"A betűkészletek megjelenítéséhez használandó élsimítás típusa. A lehetséges "
-"értékek: „none” (élsimítás kikapcsolása), „grayscale” (szürkeárnyalatos "
-"élsimítás) és „rgba” (képponton belüli élsimítás, csak LCD képernyőkhöz)."
+msgstr "A betűkészletek megjelenítéséhez használandó élsimítás típusa. A lehetséges értékek: „none” (élsimítás kikapcsolása), „grayscale” (szürkeárnyalatos élsimítás) és „rgba” (képponton belüli élsimítás, csak LCD képernyőkhöz)."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
 msgid "Hinting"
@@ -738,8 +692,8 @@ msgstr "Hinting"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:6
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: \"none"
-"\" for no hinting and \"slight\" for fitting only to the Y-axis like "
+"The type of hinting to use when rendering fonts. Possible values are: "
+"\"none\" for no hinting and \"slight\" for fitting only to the Y-axis like "
 "Microsoft's ClearType, DirectWrite and Adobe's proprietary font rendering "
 "engine. Ignores native hinting within the font, generates hints "
 "algorithmically. Used on Ubuntu by default. Recommended. The meaning of "
@@ -748,18 +702,7 @@ msgid ""
 "both the X and the Y axis (except for .otf: Y-only). This can lead to "
 "distortion and/or inconsistent rendering depending on the quality of the "
 "font, the font format and the state of FreeType's font engines."
-msgstr ""
-"A szövegek renderelése során használt hinting típusa. A lehetséges értékek: "
-"„none” (nincs) a hinting elhagyásához, és „slight” (enyhe) a csak Y "
-"tengelyen történő feszítéshez, amit a Microsoft ClearType-ja, DirectWrite-ja "
-"és az Adobe zárt szövegrenderelési motorja is használ. Figyelmen kívül "
-"hagyja a betűkészletben lévő natív hintinget, algoritmikusan generálja őket. "
-"Ubuntun alapértelmezett. Ajánlott. A „medium” (közepes) vagy „full” (teljes) "
-"a betűkészlet formátumától (.ttf, .otf, .pfa/.pfb) és a FreeType telepített "
-"változatától függ. Általában megpróbálják az X és Y tengelyeket is igazítani "
-"(kivéve .otf esetén: ott csak Y). Ez torzuláshoz vagy inkonzisztens "
-"rendereléshez vezethet a betűkészlet minőségétől, a betűkészlet "
-"formátumától, és a FreeType betűkészlet-motorjaitól függően."
+msgstr "A szövegek renderelése során használt hinting típusa. A lehetséges értékek: „none” (nincs) a hinting elhagyásához, és „slight” (enyhe) a csak Y tengelyen történő feszítéshez, amit a Microsoft ClearType-ja, DirectWrite-ja és az Adobe zárt szövegrenderelési motorja is használ. Figyelmen kívül hagyja a betűkészletben lévő natív hintinget, algoritmikusan generálja őket. Ubuntun alapértelmezett. Ajánlott. A „medium” (közepes) vagy „full” (teljes) a betűkészlet formátumától (.ttf, .otf, .pfa/.pfb) és a FreeType telepített változatától függ. Általában megpróbálják az X és Y tengelyeket is igazítani (kivéve .otf esetén: ott csak Y). Ez torzuláshoz vagy inkonzisztens rendereléshez vezethet a betűkészlet minőségétől, a betűkészlet formátumától, és a FreeType betűkészlet-motorjaitól függően."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:9
 msgid "RGBA order"
@@ -767,15 +710,11 @@ msgstr "RGBA sorrend"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:10
 msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
-"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red "
-"on bottom."
-msgstr ""
-"Az LCD képernyő alképpont-elemeinek sorrendje; csak akkor kerül "
-"felhasználásra, ha az élsimítás típusa „rgba”. A lehetséges értékek: "
-"„rgb” (vörös a bal oldalon - a leggyakoribb), „bgr” (kék a bal oldalon), "
-"„vrgb” (vörös fent), „vbgr” (vörös lent)."
+"The order of subpixel elements on an LCD screen; only used when antialiasing"
+" is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
+"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red"
+" on bottom."
+msgstr "Az LCD képernyő alképpont-elemeinek sorrendje; csak akkor kerül felhasználásra, ha az élsimítás típusa „rgba”. A lehetséges értékek: „rgb” (vörös a bal oldalon - a leggyakoribb), „bgr” (kék a bal oldalon), „vrgb” (vörös fent), „vbgr” (vörös lent)."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:11
 msgid "List of explicitly disabled GTK+ modules"
@@ -785,9 +724,7 @@ msgstr "Kifejezetten letiltott GTK+ modulok listája"
 msgid ""
 "A list of strings representing the GTK+ modules that will not be loaded, "
 "even if enabled by default in their configuration."
-msgstr ""
-"A be nem töltendő GTK+ modulokat képviselő karakterláncok listája, még ha a "
-"beállításaikban alapértelmezetten engedélyezve is vannak."
+msgstr "A be nem töltendő GTK+ modulokat képviselő karakterláncok listája, még ha a beállításaikban alapértelmezetten engedélyezve is vannak."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:13
 msgid "List of explicitly enabled GTK+ modules"
@@ -795,11 +732,9 @@ msgstr "Kifejezetten engedélyezett GTK+ modulok listája"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:14
 msgid ""
-"A list of strings representing the GTK+ modules that will be loaded, usually "
-"in addition to conditional and forcibly disabled ones."
-msgstr ""
-"A betöltendő GTK+ modulokat képviselő karakterláncok listája, általában a "
-"feltételeseken és a kifejezetten letiltottakon túl."
+"A list of strings representing the GTK+ modules that will be loaded, usually"
+" in addition to conditional and forcibly disabled ones."
+msgstr "A betöltendő GTK+ modulokat képviselő karakterláncok listája, általában a feltételeseken és a kifejezetten letiltottakon túl."
 
 #: ../gnome-settings-daemon/main.c:53
 msgid "Enable debugging code"
@@ -833,9 +768,7 @@ msgstr "A lassú billentyűk kikapcsolva"
 msgid ""
 "You just held down the Shift key for 8 seconds.  This is the shortcut for "
 "the Slow Keys feature, which affects the way your keyboard works."
-msgstr ""
-"Lenyomva tartotta a Shift billentyűt 8 másodpercig. Ez a Lassú billentyűk "
-"szolgáltatás gyorsbillentyűje, ami a billentyűzet működését befolyásolja."
+msgstr "Lenyomva tartotta a Shift billentyűt 8 másodpercig. Ez a Lassú billentyűk szolgáltatás gyorsbillentyűje, ami a billentyűzet működését befolyásolja."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:410
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:478
@@ -874,19 +807,14 @@ msgstr "A ragadós billentyűk kikapcsolva"
 msgid ""
 "You just pressed the Shift key 5 times in a row.  This is the shortcut for "
 "the Sticky Keys feature, which affects the way your keyboard works."
-msgstr ""
-"Egymás után ötször nyomta meg a Shift billentyűt. Ez a Ragadós billentyűk "
-"szolgáltatás gyorsbillentyűje, ami a billentyűzet viselkedését befolyásolja."
+msgstr "Egymás után ötször nyomta meg a Shift billentyűt. Ez a Ragadós billentyűk szolgáltatás gyorsbillentyűje, ami a billentyűzet viselkedését befolyásolja."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:468
 msgid ""
 "You just pressed two keys at once, or pressed the Shift key 5 times in a "
 "row.  This turns off the Sticky Keys feature, which affects the way your "
 "keyboard works."
-msgstr ""
-"Egyszerre két, vagy a Shift billentyűt egymás után ötször nyomta meg. Ez "
-"kikapcsolja a Ragadós billentyűk szolgáltatást, ami a billentyűzet "
-"viselkedését befolyásolja."
+msgstr "Egyszerre két, vagy a Shift billentyűt egymás után ötször nyomta meg. Ez kikapcsolja a Ragadós billentyűk szolgáltatást, ami a billentyűzet viselkedését befolyásolja."
 
 #: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:1
 msgid "Accessibility settings"
@@ -987,58 +915,41 @@ msgstr "Hamis"
 msgid "Dummy plugin"
 msgstr "Hamis bővítmény"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:588
-#, c-format
-msgid "Low Disk Space on “%s”"
-msgstr "Kevés a lemezterület ezen: „%s”"
-
-#: ../plugins/housekeeping/gsd-disk-space.c:590
-#, c-format
-msgid ""
-"The volume “%s” has only %s disk space remaining.  You may free up some "
-"space by emptying the trash."
-msgstr ""
-"A(z) „%s” köteten már csak %s lemezhely maradt. A Kuka kiürítésével "
-"felszabadíthat némi helyet."
-
-#: ../plugins/housekeeping/gsd-disk-space.c:594
-#, c-format
-msgid "The volume “%s” has only %s disk space remaining."
-msgstr "A(z) „%s” köteten már csak %s lemezhely maradt."
-
-#: ../plugins/housekeeping/gsd-disk-space.c:599
-msgid "Low Disk Space"
-msgstr "Kevés a lemezterület"
-
-#: ../plugins/housekeeping/gsd-disk-space.c:601
-#, c-format
-msgid ""
-"This computer has only %s disk space remaining.  You may free up some space "
-"by emptying the trash."
-msgstr ""
-"A számítógépen már csak %s lemezhely maradt. A Kuka kiürítésével "
-"felszabadíthat némi helyet."
-
-#: ../plugins/housekeeping/gsd-disk-space.c:604
-#, c-format
-msgid "This computer has only %s disk space remaining."
-msgstr "A számítógépen már csak %s lemezhely maradt."
-
-#: ../plugins/housekeeping/gsd-disk-space.c:619
+#: ../plugins/housekeeping/gsd-disk-space.c:577
 msgid "Disk space"
 msgstr "Lemezterület"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:626
+#: ../plugins/housekeeping/gsd-disk-space.c:589
 msgid "Examine"
 msgstr "Vizsgálat"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:634
+#: ../plugins/housekeeping/gsd-disk-space.c:600
 msgid "Empty Trash"
 msgstr "Kuka ürítése"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:641
+#: ../plugins/housekeeping/gsd-disk-space.c:608
 msgid "Ignore"
 msgstr "Mellőzés"
+
+#: ../plugins/housekeeping/gsd-disk-space.c:638
+#: ../plugins/housekeeping/gsd-disk-space.c:664
+msgid "Low Disk Space"
+msgstr "Kevés a lemezterület"
+
+#: ../plugins/housekeeping/gsd-disk-space.c:639
+msgid ""
+"Your computer is out of space.  To free up space, you can delete old files "
+"and empty the trash from the \"Documents\" file manager, or delete apps you "
+"may not need from the App Center."
+msgstr ""
+
+#: ../plugins/housekeeping/gsd-disk-space.c:665
+#, c-format
+msgid ""
+"Your computer has only %s of space available.  To free up space, you can "
+"delete old files and empty the trash from the \"Documents\" file manager, or"
+" delete apps you may not need from the App Center."
+msgstr ""
 
 #: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:1
 msgid "Housekeeping"
@@ -1048,9 +959,7 @@ msgstr "Karbantartás"
 msgid ""
 "Automatically prunes thumbnail caches and other transient files, and warns "
 "about low disk space"
-msgstr ""
-"Automatikusan törli a bélyegkép-gyorsítótárakat és más átmeneti fájlokat, és "
-"figyelmeztet a lemezhely elfogyására"
+msgstr "Automatikusan törli a bélyegkép-gyorsítótárakat és más átmeneti fájlokat, és figyelmeztet a lemezhely elfogyására"
 
 #: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
 msgid "Keyboard"
@@ -1060,27 +969,27 @@ msgstr "Billentyűzet"
 msgid "Keyboard plugin"
 msgstr "Billentyűzet bővítmény"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2111
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2178
 msgid "Bluetooth disabled"
 msgstr "Bluetooth letiltva"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2114
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2181
 msgid "Bluetooth enabled"
 msgstr "Bluetooth engedélyezve"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2118
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2185
 msgid "Airplane mode enabled"
 msgstr "Repülőgép üzemmód engedélyezve"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2121
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2188
 msgid "Airplane mode disabled"
 msgstr "Repülőgép üzemmód letiltva"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2149
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2216
 msgid "Hardware Airplane Mode"
 msgstr "Hardveres repülőgépmód"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2209
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2276
 msgid "Screencast from %d %t.webm"
 msgstr "Képernyővideó ekkor: %d %t.webm"
 
@@ -1170,10 +1079,6 @@ msgstr "Alacsony hangerő hangosítása"
 msgid "Lock Screen"
 msgstr "Képernyő zárolása"
 
-#: ../plugins/media-keys/shortcuts-list.h:67
-msgid "Help"
-msgstr "Súgó"
-
 #: ../plugins/media-keys/shortcuts-list.h:81
 msgid "Rewind"
 msgstr "Visszatekerés"
@@ -1190,7 +1095,8 @@ msgstr "Ismétlés"
 msgid "Random Play"
 msgstr "Véletlenszerű lejátszás"
 
-#. Key code of the XF86Display key (Fn-F7 on Thinkpads, Fn-F4 on HP machines, etc.)
+#. Key code of the XF86Display key (Fn-F7 on Thinkpads, Fn-F4 on HP machines,
+#. etc.)
 #: ../plugins/media-keys/shortcuts-list.h:85
 #: ../plugins/media-keys/shortcuts-list.h:87
 msgid "Video Out"
@@ -1210,7 +1116,8 @@ msgid "Power Off"
 msgstr "Kikapcsolás"
 
 #. the kernel / Xorg names really are like this...
-#. translators: "Sleep" means putting the machine to sleep, either through hibernate or suspend
+#. translators: "Sleep" means putting the machine to sleep, either through
+#. hibernate or suspend
 #: ../plugins/media-keys/shortcuts-list.h:102
 msgid "Sleep"
 msgstr "Alvás"
@@ -1362,9 +1269,7 @@ msgstr "A szünetmentes táp gyenge"
 #: ../plugins/power/gsd-power-manager.c:455
 #, c-format
 msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
-msgstr ""
-"A szünetmentes táp áthidalási idejéből még megközelítőleg %s van hátra (%.0f"
-"%%)"
+msgstr "A szünetmentes táp áthidalási idejéből még megközelítőleg %s van hátra (%.0f%%)"
 
 #. TRANSLATORS: mouse is getting a little low
 #. TRANSLATORS: the mouse battery is very low
@@ -1461,12 +1366,14 @@ msgstr "A csatlakozó számítógép akkumulátora gyenge (%.0f%%)"
 msgid "Battery is low"
 msgstr "Az akkumulátor gyenge"
 
-#. TRANSLATORS: laptop battery critically low, and only have one kind of battery
+#. TRANSLATORS: laptop battery critically low, and only have one kind of
+#. battery
 #: ../plugins/power/gsd-power-manager.c:558
 msgid "Battery critically low"
 msgstr "Az akkumulátor kritikusan gyenge"
 
-#. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
+#. TRANSLATORS: laptop battery critically low, and we have more than one type
+#. of battery
 #. TRANSLATORS: laptop battery is really, really, low
 #: ../plugins/power/gsd-power-manager.c:561
 #: ../plugins/power/gsd-power-manager.c:708
@@ -1498,10 +1405,7 @@ msgstr "A szünetmentes táp kritikusan gyenge"
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
 "computer to avoid losing data."
-msgstr ""
-"A szünetmentes táp áthidalási idejéből még megközelítőleg %s van hátra (%.0f"
-"%%). Az adatvesztés elkerülése érdekében állítsa vissza a hálózati "
-"tápellátást."
+msgstr "A szünetmentes táp áthidalási idejéből még megközelítőleg %s van hátra (%.0f%%). Az adatvesztés elkerülése érdekében állítsa vissza a hálózati tápellátást."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:597
@@ -1509,9 +1413,7 @@ msgstr ""
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"A vezeték nélküli egér akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti "
-"fel, az eszköz le fog állni."
+msgstr "A vezeték nélküli egér akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az eszköz le fog állni."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:605
@@ -1519,19 +1421,15 @@ msgstr ""
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"A vezeték nélküli billentyűzet akkumulátora nagyon gyenge (%.0f%%). Ha nem "
-"tölti fel, az eszköz le fog állni."
+msgstr "A vezeték nélküli billentyűzet akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az eszköz le fog állni."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:614
 #, c-format
 msgid ""
-"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
-"not charged."
-msgstr ""
-"A PDA akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az eszköz le "
-"fog állni."
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if"
+" not charged."
+msgstr "A PDA akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az eszköz le fog állni."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:624
@@ -1539,9 +1437,7 @@ msgstr ""
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"A mobiltelefon akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az "
-"eszköz le fog állni."
+msgstr "A mobiltelefon akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az eszköz le fog állni."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:633
@@ -1549,19 +1445,15 @@ msgstr ""
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"A médialejátszó akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az "
-"eszköz le fog állni."
+msgstr "A médialejátszó akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az eszköz le fog állni."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:642
 #, c-format
 msgid ""
-"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
-"if not charged."
-msgstr ""
-"A táblagép akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az eszköz "
-"le fog állni."
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning"
+" if not charged."
+msgstr "A táblagép akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az eszköz le fog állni."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:651
@@ -1569,88 +1461,78 @@ msgstr ""
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
 "shutdown if not charged."
-msgstr ""
-"A csatlakozó számítógép akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti "
-"fel, az eszköz le fog állni."
+msgstr "A csatlakozó számítógép akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az eszköz le fog állni."
 
 #. TRANSLATORS: computer will hibernate
 #: ../plugins/power/gsd-power-manager.c:716
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
-msgstr ""
-"Az akkumulátor kapacitása a kritikus szint alá esett, és a gép hibernálásra "
-"készül."
+msgstr "Az akkumulátor kapacitása a kritikus szint alá esett, és a gép hibernálásra készül."
 
 #. TRANSLATORS: computer will just shutdown
 #: ../plugins/power/gsd-power-manager.c:721
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "shutdown."
-msgstr ""
-"Az akkumulátor kapacitása a kritikus szint alá esett, és a gép leállni "
-"készül."
+msgstr "Az akkumulátor kapacitása a kritikus szint alá esett, és a gép leállni készül."
 
 #. TRANSLATORS: computer will hibernate
 #: ../plugins/power/gsd-power-manager.c:741
 msgid ""
 "UPS is below the critical level and this computer is about to hibernate."
-msgstr ""
-"A szünetmentes táp kapacitása a kritikus szint alá esett, és a gép "
-"hibernálásra készül."
+msgstr "A szünetmentes táp kapacitása a kritikus szint alá esett, és a gép hibernálásra készül."
 
 #. TRANSLATORS: computer will just shutdown
 #: ../plugins/power/gsd-power-manager.c:746
-msgid "UPS is below the critical level and this computer is about to shutdown."
-msgstr ""
-"A szünetmentes táp kapacitása a kritikus szint alá esett, és a gép leállni "
-"készül."
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
+msgstr "A szünetmentes táp kapacitása a kritikus szint alá esett, és a gép leállni készül."
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1253
+#: ../plugins/power/gsd-power-manager.c:1259
 msgid "Lid has been opened"
 msgstr "Fedél kinyitva"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1291
+#: ../plugins/power/gsd-power-manager.c:1297
 msgid "Lid has been closed"
 msgstr "Fedél lezárva"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1850
+#: ../plugins/power/gsd-power-manager.c:1856
 msgid "On battery power"
 msgstr "Akkumulátoron"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1855
+#: ../plugins/power/gsd-power-manager.c:1861
 msgid "On AC power"
 msgstr "Hálózaton"
 
-#: ../plugins/power/gsd-power-manager.c:2037
+#: ../plugins/power/gsd-power-manager.c:2053
 msgid "Automatic logout"
 msgstr "Automatikus kijelentkezés"
 
-#: ../plugins/power/gsd-power-manager.c:2037
+#: ../plugins/power/gsd-power-manager.c:2053
 msgid "You will soon log out because of inactivity."
 msgstr "Hamarosan kijelentkezik inaktivitás miatt."
 
-#: ../plugins/power/gsd-power-manager.c:2042
+#: ../plugins/power/gsd-power-manager.c:2058
 msgid "Automatic suspend"
 msgstr "Automatikus felfüggesztés"
 
-#: ../plugins/power/gsd-power-manager.c:2042
-#: ../plugins/power/gsd-power-manager.c:2047
+#: ../plugins/power/gsd-power-manager.c:2058
+#: ../plugins/power/gsd-power-manager.c:2063
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "A számítógép inaktivitás miatt hamarosan fel lesz függesztve."
 
-#: ../plugins/power/gsd-power-manager.c:2047
+#: ../plugins/power/gsd-power-manager.c:2063
 msgid "Automatic hibernation"
 msgstr "Automatikus hibernálás"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the backlight brightness.
-#.
 #: ../plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in.h:5
 msgid "Modify the laptop brightness"
 msgstr "A noteszgép fényerejének módosítása"
@@ -1703,31 +1585,36 @@ msgstr "Nyomtatók"
 msgid "Printer '%s' is low on toner."
 msgstr "A nyomtatóban („%s”) kevés a festék."
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:354
 #, c-format
 msgid "Printer '%s' has no toner left."
 msgstr "A nyomtatóból („%s”) kifogyott a festék."
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:358
 #, c-format
 msgid "Printer '%s' may not be connected."
 msgstr "Lehet, hogy a nyomtató („%s”) nincs csatlakoztatva."
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:362
 #, c-format
 msgid "The cover is open on printer '%s'."
 msgstr "A nyomtató („%s”) fedele nyitva van."
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:366
 #, c-format
 msgid "There is a missing print filter for printer '%s'."
 msgstr "Hiányzik a nyomtatószűrő a következő nyomtatóhoz: „%s”."
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:371
 #, c-format
 msgid "The door is open on printer '%s'."
@@ -1745,13 +1632,15 @@ msgstr "A nyomtató („%s”) tintapatronja kifogyóban van."
 msgid "Printer '%s' is out of a marker supply."
 msgstr "A nyomtató („%s”) tintapatronja kifogyott."
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:383
 #, c-format
 msgid "Printer '%s' is low on paper."
 msgstr "A nyomtatóban („%s”) kevés a papír."
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:387
 #, c-format
 msgid "Printer '%s' is out of paper."
@@ -1763,7 +1652,8 @@ msgstr "A nyomtatóból („%s”) kifogyott a papír."
 msgid "Printer '%s' is currently off-line."
 msgstr "A nyomtató („%s”) nem érhető el."
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "There is a problem on printer '%s'."
@@ -1774,27 +1664,32 @@ msgstr "A nyomtató („%s”) problémát észlelt."
 msgid "Toner low"
 msgstr "A festékkazetta kimerülőben"
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:445
 msgid "Toner empty"
 msgstr "A festékkazetta üres"
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:447
 msgid "Not connected?"
 msgstr "Nincs csatlakoztatva?"
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:449
 msgid "Cover open"
 msgstr "Nyitva a nyomtatófedél"
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:451
 msgid "Printer configuration error"
 msgstr "Nyomtatóbeállítási hiba"
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:453
 msgid "Door open"
 msgstr "Az ajtó nyitva van"
@@ -1809,12 +1704,14 @@ msgstr "A tintapatron kifogyóban"
 msgid "Out of a marker supply"
 msgstr "A tintapatron kifogyott"
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:459
 msgid "Paper low"
 msgstr "Kevés a papír"
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:461
 msgid "Out of paper"
 msgstr "Kifogyott a papír"
@@ -1824,7 +1721,8 @@ msgstr "Kifogyott a papír"
 msgid "Printer off-line"
 msgstr "A nyomtató nem érhető el"
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #. Translators: This is a title of an error notification for a printer
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:465
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:828
@@ -1897,7 +1795,8 @@ msgstr "Nyomtatójelentés"
 msgid "Printer warning"
 msgstr "Nyomtatófigyelmeztetés"
 
-#. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
+#. Translators: "Printer 'MyPrinterName': 'Description of the
+#. report/warning/error from a PPD file'."
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:835
 #, c-format
 msgid "Printer '%s': '%s'."
@@ -2079,16 +1978,16 @@ msgstr "%d. alsó gomb"
 msgid "New shortcut…"
 msgstr "Új gyorsbillentyű…"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1029
+#: ../plugins/wacom/gsd-wacom-manager.c:1037
 #, c-format
 msgid "The \"%s\" tablet may not work as expected."
 msgstr "A(z) „%s” táblagép nem biztos, hogy a várt módon működik majd."
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1030
+#: ../plugins/wacom/gsd-wacom-manager.c:1038
 msgid "Unknown Tablet Connected"
 msgstr "Ismeretlen táblagép csatlakoztatva"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1034
+#: ../plugins/wacom/gsd-wacom-manager.c:1042
 msgid "Wacom Settings"
 msgstr "Wacom beállítások"
 
@@ -2129,20 +2028,17 @@ msgstr "Szerkesztés"
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the LED setting for a Wacom tablet
-#.
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:5
 msgid "Modify the lit LED for a Wacom tablet"
 msgstr "Wacom táblagép megvilágított LED-jének módosítása"
 
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:6
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
-msgstr ""
-"Hitelesítés szükséges a Wacom táblagép megvilágított LED-jének módosításához"
+msgstr "Hitelesítés szükséges a Wacom táblagép megvilágított LED-jének módosításához"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the OLED images for a Wacom tablet
-#.
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:11
 msgid "Modify the OLED image for a Wacom tablet"
 msgstr "Wacom táblagép OLED képének módosítása"
@@ -2179,1430 +2075,3 @@ msgstr "X-beállítások"
 #: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
 msgid "Manage X Settings"
 msgstr "X-beállítások kezelése"
-
-#~ msgid "Device hotplug custom command"
-#~ msgstr "Eszközcsatlakoztatási egyéni parancs"
-
-#~ msgid ""
-#~ "Command to be run when a device is added or removed. An exit value of 1 "
-#~ "means that the device will not be handled further by gnome-settings-"
-#~ "daemon."
-#~ msgstr ""
-#~ "Eszköz hozzáadásakor vagy eltávolításakor futtatandó parancs. Az 1 "
-#~ "kilépési érték azt jelenti, hogy az eszközt tovább nem kezeli a gnome-"
-#~ "settings-daemon."
-
-#~ msgid ""
-#~ "The type of hinting to use when rendering fonts. Possible values are: "
-#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
-#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
-#~ msgstr ""
-#~ "A betűkészletek megjelenítéséhez használandó hinting típusa. A lehetséges "
-#~ "értékek: „none” (hinting kikapcsolása), „slight” (alapszintű), "
-#~ "„medium” (mérsékelt) és „full” (teljes - ez torzíthatja a betűformákat)."
-
-#~ msgid "Wacom last calibrated resolution"
-#~ msgstr "Wacom táblagép utoljára kalibrált felbontása"
-
-#~ msgid ""
-#~ "Holds the last calibrated resolution to help check if calibration is "
-#~ "needed."
-#~ msgstr ""
-#~ "Az utoljára kalibrált felbontást tárolja, ezzel segít ellenőrizni a "
-#~ "kalibrálás szükségességét."
-
-#~ msgid "Cursor"
-#~ msgstr "Kurzor"
-
-#~ msgid "Show/hide cursor on tablet devices"
-#~ msgstr "A kurzor megjelenítése/elrejtése táblagépeken"
-
-#~ msgid "Don't show any warnings again for this file system"
-#~ msgstr "Ne jelenítsen meg figyelmeztetéseket ehhez a fájlrendszerhez"
-
-#~ msgid "Don't show any warnings again"
-#~ msgstr "Ne jelenjen meg több figyelmeztetés"
-
-#~ msgid "The volume \"%s\" has only %s disk space remaining."
-#~ msgstr "A(z) „%s” köteten már csak %s lemezhely maradt."
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to another disk or partition."
-#~ msgstr ""
-#~ "Lemezterületet szabadíthat fel a Kuka ürítésével, használaton kívüli "
-#~ "programok vagy fájlok törlésével, vagy fájlok másik lemezre vagy "
-#~ "partícióra mozgatásával."
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to another disk or partition."
-#~ msgstr ""
-#~ "Lemezterületet szabadíthat fel a használaton kívüli programok vagy fájlok "
-#~ "törlésével, vagy fájlok másik lemezre vagy partícióra mozgatásával."
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to an external disk."
-#~ msgstr ""
-#~ "Lemezterületet szabadíthat fel a Kuka ürítésével, használaton kívüli "
-#~ "programok vagy fájlok törlésével, vagy fájlok külső lemezre mozgatásával."
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to an external disk."
-#~ msgstr ""
-#~ "Lemezterületet szabadíthat fel a használaton kívüli programok vagy fájlok "
-#~ "törlésével, vagy fájlok külső lemezre mozgatásával."
-
-#~ msgid "Examine…"
-#~ msgstr "Vizsgálat…"
-
-#~ msgid "Printer removed"
-#~ msgstr "Nyomtató eltávolítva"
-
-#~ msgid "Tablet %s needs to be calibrated."
-#~ msgstr "A(z) „%s” táblagépet kalibrálni kell."
-
-#~ msgid "Calibration needed"
-#~ msgstr "Kalibráció szükséges"
-
-#~ msgid "Calibrate"
-#~ msgstr "Kalibrálás"
-
-#~ msgid "Disable touchpad while typing"
-#~ msgstr "Érintőtábla letiltása gépelés közben"
-
-#~ msgid ""
-#~ "Set this to TRUE if you have problems with accidentally hitting the "
-#~ "touchpad while typing."
-#~ msgstr ""
-#~ "Állítsa igazra, ha problémát okoz az érintőtábla véletlen megérintése "
-#~ "gépelés közben."
-
-#~ msgid "Enable horizontal scrolling"
-#~ msgstr "Vízszintes görgetés engedélyezése"
-
-#~ msgid ""
-#~ "Set this to TRUE to allow horizontal scrolling by the same method "
-#~ "selected with the scroll_method key."
-#~ msgstr ""
-#~ "Állítsa igazra a vízszintes görgetés engedélyezéséhez a scroll_method "
-#~ "kulcsban kiválasztott módon."
-
-#~ msgid "Select the touchpad scroll method"
-#~ msgstr "Válassza ki az érintőtábla görgetési módját"
-
-#~ msgid ""
-#~ "Select the touchpad scroll method. Supported values are: \"disabled\", "
-#~ "\"edge-scrolling\", \"two-finger-scrolling\"."
-#~ msgstr ""
-#~ "Válassza ki az érintőtábla görgetési módját. Lehetséges értékek: "
-#~ "„disabled” (letiltva), „edge-scrolling” (görgetés a szélen), „two-finger-"
-#~ "scrolling” (kétujjas görgetés)."
-
-#~ msgid "Enable mouse clicks with touchpad"
-#~ msgstr "Egérkattintások engedélyezése az érintőtáblán"
-
-#~ msgid ""
-#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
-#~ "touchpad."
-#~ msgstr ""
-#~ "Állítsa igazra egérkattintások küldéséhez az érintőtáblára koppintással."
-
-#~ msgid "Enable touchpad"
-#~ msgstr "Érintőtábla engedélyezése"
-
-#~ msgid "Set this to TRUE to enable all touchpads."
-#~ msgstr ""
-#~ "Állítsa igazra egérkattintások küldéséhez az érintőtáblára koppintással."
-
-#~ msgid "Middle button emulation"
-#~ msgstr "Középső gomb emulációja"
-
-#~ msgid ""
-#~ "Enables middle mouse button emulation through simultaneous left and right "
-#~ "button click."
-#~ msgstr ""
-#~ "Középső egérgomb emulációjának engedélyezése a bal és jobb gomb együttes "
-#~ "megnyomásával."
-
-#~ msgid "Mouse wheel emulation button. 0 to disable the feature."
-#~ msgstr "Egérgörgő emulációs gomb. 0 értékkel letiltható a funkció."
-
-#~ msgid "Wacom display mapping"
-#~ msgstr "Wacom kijelző leképezése"
-
-#~ msgid ""
-#~ "EDID information of monitor to map tablet to. Must be in the format "
-#~ "[vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
-#~ msgstr ""
-#~ "A monitor EDID információi, amelyre a táblagép leképezendő. A [szállító, "
-#~ "termék, sorozatszám] formátumban kell lennie. A [\"\",\"\",\"\"] letiltja "
-#~ "a leképzést."
-
-#~ msgid "Use mobile broadband connections"
-#~ msgstr "Mobil széles sávú kapcsolatok használata"
-
-#~ msgid ""
-#~ "Use mobile broadband connections such as GSM and CDMA to check for "
-#~ "updates."
-#~ msgstr ""
-#~ "Mobil széles sávú kapcsolatok, például GSM és CDMA használata frissítések "
-#~ "kereséséhez."
-
-#~ msgid ""
-#~ "Automatically download updates in the background without confirmation"
-#~ msgstr "Frissítések automatikus letöltése a háttérben, megerősítés nélkül"
-
-#~ msgid ""
-#~ "Automatically download updates in the background without confirmation. "
-#~ "Updates will be auto-downloaded when using wired network connnections, "
-#~ "and mobile broadband if 'connection-use-mobile' is enabled."
-#~ msgstr ""
-#~ "Frissítések automatikus letöltése a háttérben, megerősítés nélkül. A "
-#~ "frissítések automatikusan letöltődnek vezetékes hálózati kapcsolat "
-#~ "használatakor, és mobil széles sáv használatakor pedig csak ha a "
-#~ "„connection-use-mobile” kulcs engedélyezett."
-
-#~ msgid "How often to check for updates"
-#~ msgstr "Frissítések keresésének gyakorisága"
-
-#~ msgid ""
-#~ "How often to check for updates. Value is in seconds. This is a maximum "
-#~ "amount of time that can pass between a security update being published, "
-#~ "and the update being automatically installed or the user notified."
-#~ msgstr ""
-#~ "Frissítések keresésének gyakorisága. Az érték másodpercben van megadva. "
-#~ "Ez a legnagyobb idő, ami egy biztonsági frissítés közzététele, és "
-#~ "automatikus telepítése vagy a felhasználó értesítése között eltelhet."
-
-#~ msgid "How often to notify the user that non-critical updates are available"
-#~ msgstr ""
-#~ "A felhasználó értesítésének gyakorisága nem kritikus frissítések "
-#~ "elérhetőségéről"
-
-#~ msgid ""
-#~ "How often to tell the user there are non-critical updates. Value is in "
-#~ "seconds. Security update notifications are always shown after the check "
-#~ "for updates, but non-critical notifications should be shown a lot less "
-#~ "frequently."
-#~ msgstr ""
-#~ "A felhasználó értesítésének gyakorisága nem kritikus frissítések "
-#~ "elérhetőségéről. Az érték másodpercben van megadva. A biztonsági "
-#~ "frissítésekről szóló értesítések a frissítések keresése után mindig "
-#~ "megjelennek, de a nem kritikus frissítésekről szóló értesítéseket sokkal "
-#~ "ritkábban is elég megjeleníteni."
-
-#~ msgid "The last time we told the user about non-critical notifications"
-#~ msgstr "A felhasználó utolsó értesítésének ideje nem kritikus frissítésről"
-
-#~ msgid ""
-#~ "The last time we notified the user about non-critical updates. Value is "
-#~ "in seconds since the epoch, or zero for never."
-#~ msgstr ""
-#~ "A felhasználó nem kritikus frissítésekről való utolsó értesítésének "
-#~ "ideje. Az érték másodpercben van megadva, az epochtól, vagy nulla ha soha."
-
-#~ msgid "How often to check for distribution upgrades"
-#~ msgstr "Disztribúciófrissítések keresésének gyakorisága"
-
-#~ msgid "How often to check for distribution upgrades. Value is in seconds."
-#~ msgstr ""
-#~ "Disztribúciófrissítések keresésének gyakorisága. Az érték másodpercben "
-#~ "van megadva."
-
-#~ msgid "How often to refresh the package cache"
-#~ msgstr "A csomaggyorsítótár frissítésének gyakorisága"
-
-#~ msgid "How often to refresh the package cache. Value is in seconds."
-#~ msgstr ""
-#~ "A csomaggyorsítótár frissítésének gyakorisága. Az érték másodpercben van "
-#~ "megadva."
-
-#~ msgid "Check for updates when running on battery power"
-#~ msgstr "Frissítések automatikus telepítése akkumulátoros működés esetén"
-
-#~ msgid "Check for updates when running on battery power."
-#~ msgstr "Frissítések automatikus telepítése akkumulátoros működés esetén."
-
-#~ msgid "Notify the user when distribution upgrades are available"
-#~ msgstr "Felhasználó értesítése disztribúciófrissítések elérhetővé válásakor"
-
-#~ msgid "Notify the user when distribution upgrades are available."
-#~ msgstr ""
-#~ "Felhasználó értesítése disztribúciófrissítések elérhetővé válásakor."
-
-#~ msgid "Ask the user if additional firmware should be installed"
-#~ msgstr "A felhasználó megkérdezése további firmware telepítéséről"
-
-#~ msgid ""
-#~ "Ask the user if additional firmware should be installed if it is "
-#~ "available."
-#~ msgstr ""
-#~ "A felhasználó megkérdezése további firmware telepítéséről, ha az elérhető."
-
-#~ msgid "Firmware files that should not be searched for"
-#~ msgstr "Firmware fájlok, amelyeket nem kell keresni"
-
-#~ msgid ""
-#~ "Firmware files that should not be searched for, separated by commas. "
-#~ "These can include '*' and '?' characters."
-#~ msgstr ""
-#~ "Firmware fájlok, amelyeket nem kell keresni, vesszőkkel elválasztva. "
-#~ "Tartalmazhat „*” és „?” karaktereket."
-
-#~ msgid "Devices that should be ignored"
-#~ msgstr "Figyelmen kívül hagyandó eszközök"
-
-#~ msgid ""
-#~ "Devices that should be ignored, separated by commas. These can include "
-#~ "'*' and '?' characters."
-#~ msgstr ""
-#~ "Figyelmen kívül hagyandó eszközök, vesszőkkel elválasztva. Tartalmazhat "
-#~ "„*” és „?” karaktereket."
-
-#~ msgid ""
-#~ "The filenames on removable media that designate it a software source."
-#~ msgstr ""
-#~ "A cserélhető adathordozón lévő fájlok nevei, amelyek szoftverforrássá "
-#~ "teszik azt."
-
-#~ msgid ""
-#~ "When removable media is inserted, it is checked to see if it contains any "
-#~ "important filenames in the root directory. If the filename matches, then "
-#~ "an updates check is performed. This allows post-install disks to be used "
-#~ "to update running systems."
-#~ msgstr ""
-#~ "Cserélhető adathordozó behelyezésekor ellenőrzésre kerül, hogy tartalmaz-"
-#~ "e bizonyos fontos fájlneveket a gyökérkönyvtárban. Ha a fájlnév egyezik, "
-#~ "frissítéskeresés kerül végrehajtásra. Ez lehetővé teszi telepítés után "
-#~ "lemezek használatát futó rendszerek frissítésére."
-
-#~ msgid ""
-#~ "You will need to restart this computer before the hardware will work "
-#~ "correctly."
-#~ msgstr "Újra kell indítani a számítógépet a hardver megfelelő működéséhez."
-
-#~ msgid "Additional software was installed"
-#~ msgstr "További szoftverek lettek telepítve"
-
-#~ msgid "Software Updates"
-#~ msgstr "Szoftverfrissítések"
-
-#~ msgid ""
-#~ "You will need to remove and then reinsert the hardware before it will "
-#~ "work correctly."
-#~ msgstr ""
-#~ "El kell távolítani, majd újra kell csatlakoztatni a hardvert a megfelelő "
-#~ "működéséhez."
-
-#~ msgid "Your hardware has been set up and is now ready to use."
-#~ msgstr "A hardver beállítása sikerült, immár használatra kész."
-
-#~ msgid ""
-#~ "Additional firmware is required to make hardware in this computer "
-#~ "function correctly."
-#~ msgstr ""
-#~ "A számítógép hardverének megfelelő működéséhez további firmware szükséges."
-
-#~ msgid "Additional firmware required"
-#~ msgstr "További firmware szükséges"
-
-#~ msgid "Install firmware"
-#~ msgstr "Firmware telepítése"
-
-#~ msgid "Ignore devices"
-#~ msgstr "Eszközök figyelmen kívül hagyása"
-
-#~ msgid "Failed To Update"
-#~ msgstr "A frissítés meghiúsult"
-
-#~ msgid "A previous update was unfinished."
-#~ msgstr "Egy korábbi frissítés nem fejeződött be."
-
-#~ msgid "Network access was required but not available."
-#~ msgstr "Hálózati hozzáférés szükséges, de nem érhető el."
-
-#~ msgid "An update was not signed in the correct way."
-#~ msgstr "Egy frissítés nem a megfelelő módon volt aláírva."
-
-#~ msgid "The update could not be completed."
-#~ msgstr "A frissítés nem fejezhető be."
-
-#~ msgid "The update was cancelled."
-#~ msgstr "A rendszer megszakítva."
-
-#~ msgid "An offline update was requested but no packages required updating."
-#~ msgstr ""
-#~ "Kapcsolat nélküli frissítés lett kérve, de nem kellett egy csomagot sem "
-#~ "frissíteni."
-
-#~ msgid "No space was left on the drive."
-#~ msgstr "Nincs több hely a meghajtón."
-
-#~ msgid "An update failed to install correctly."
-#~ msgstr "Egy frissítés megfelelő telepítése sikertelen."
-
-#~ msgid "The offline update failed in an unexpected way."
-#~ msgstr "A kapcsolat nélküli frissítés váratlan módon hiúsult meg."
-
-#~ msgid "Detailed errors from the package manager follow:"
-#~ msgstr "A részletes hibaüzenetek a következők voltak a csomagkezelőtől:"
-
-#~ msgid "Distribution upgrades available"
-#~ msgstr "Disztribúciófrissítés érhető el"
-
-#~ msgid "Not Now"
-#~ msgstr "Most nem"
-
-#~ msgid "More information"
-#~ msgstr "További információk"
-
-#~ msgid "Update"
-#~ msgid_plural "Updates"
-#~ msgstr[0] "Frissítés"
-#~ msgstr[1] "Frissítések"
-
-#~ msgid "An important software update is available"
-#~ msgid_plural "Important software updates are available"
-#~ msgstr[0] "Fontos szoftverfrissítés érhető el"
-#~ msgstr[1] "Fontos szoftverfrissítések érhetők el"
-
-#~ msgid "View"
-#~ msgstr "Nézet"
-
-#~ msgid "Restart & Install"
-#~ msgstr "Újraindítás és telepítés"
-
-#~ msgid "Install updates"
-#~ msgstr "Frissítések telepítése"
-
-#~ msgid "A software update is available."
-#~ msgid_plural "Software updates are available."
-#~ msgstr[0] "Szoftverfrissítés érhető el."
-#~ msgstr[1] "Szoftverfrissítések érhetők el."
-
-#~ msgid "Updates"
-#~ msgstr "Frissítések"
-
-#~ msgid "Unable to access software updates"
-#~ msgstr "A szoftverfrissítések nem érhetők el"
-
-#~ msgid "Try again"
-#~ msgstr "Próbálja újra"
-
-#~ msgid "A transaction that cannot be interrupted is running"
-#~ msgstr "Megszakíthatatlan tranzakció fut"
-
-#~ msgid "Software Update Installed"
-#~ msgid_plural "Software Updates Installed"
-#~ msgstr[0] "Szoftverfrissítés telepítve"
-#~ msgstr[1] "Szoftverfrissítések telepítve"
-
-#~ msgid "An important OS update has been installed."
-#~ msgid_plural "Important OS updates have been installed."
-#~ msgstr[0] "Fontos rendszerfrissítés lett telepítve."
-#~ msgstr[1] "Fontos rendszerfrissítések lett telepítve."
-
-#~ msgid "Software Updates Failed"
-#~ msgstr "A szoftverfrissítések meghiúsultak"
-
-#~ msgid "An important OS update failed to be installed."
-#~ msgstr "Fontos rendszerfrissítés telepítése hiúsult meg."
-
-#~ msgid "Review"
-#~ msgstr "Áttekintés"
-
-#~ msgid "Show details"
-#~ msgstr "Részletek megjelenítése"
-
-#~ msgid "OK"
-#~ msgstr "OK"
-
-#~ msgid "Updates plugin"
-#~ msgstr "Frissítések bővítmény"
-
-#~ msgid "Wacom tablet PC feature"
-#~ msgstr "Wacom táblagép PC szolgáltatása"
-
-#~ msgid "Enable this to only report stylus events when the tip is pressed."
-#~ msgstr ""
-#~ "Ha engedélyezett, a stylus események csak a hegy megnyomásakor kerülnek "
-#~ "jelentésre."
-
-#~ msgid "Percentage considered low"
-#~ msgstr "Alacsonyként kezelt százalékos arány"
-
-#~ msgid ""
-#~ "The percentage of the battery when it is considered low. Only valid when "
-#~ "use-time-for-policy is false."
-#~ msgstr ""
-#~ "Az akkumulátor alacsonynak tekintett százalékos töltöttsége. Csak a use-"
-#~ "time-for-policy kulcs hamis értéke esetén érvényes."
-
-#~ msgid "Percentage considered critical"
-#~ msgstr "Kritikusként kezelt százalékos arány"
-
-#~ msgid ""
-#~ "The percentage of the battery when it is considered critical. Only valid "
-#~ "when use-time-for-policy is false."
-#~ msgstr ""
-#~ "Az akkumulátor kritikusnak tekintett százalékos töltöttsége. Csak a use-"
-#~ "time-for-policy kulcs hamis értéke esetén érvényes."
-
-#~ msgid "Percentage action is taken"
-#~ msgstr "Százalékos arány művelet végrehajtásához"
-
-#~ msgid ""
-#~ "The percentage of the battery when the critical action is performed. Only "
-#~ "valid when use-time-for-policy is false."
-#~ msgstr ""
-#~ "Az akkumulátor százalékos töltöttsége, amikor a kritikus művelet "
-#~ "végrehajtandó. Csak a use-time-for-policy kulcs hamis értéke esetén "
-#~ "érvényes."
-
-#~ msgid "The time remaining when low"
-#~ msgstr "A hátralévő idő annak alacsonyként kezeléséhez"
-
-#~ msgid ""
-#~ "The time remaining in seconds of the battery when it is considered low. "
-#~ "Only valid when use-time-for-policy is true."
-#~ msgstr ""
-#~ "Az akkumulátor töltöttségéből hátralévő idő másodpercben annak "
-#~ "alacsonyként kezeléséhez. Csak a use-time-for-policy kulcs igaz értéke "
-#~ "esetén érvényes."
-
-#~ msgid "The time remaining when critical"
-#~ msgstr "A hátralévő idő annak kritikusként kezeléséhez"
-
-#~ msgid ""
-#~ "The time remaining in seconds of the battery when it is considered "
-#~ "critical. Only valid when use-time-for-policy is true."
-#~ msgstr ""
-#~ "Az akkumulátor töltöttségéből hátralévő idő másodpercben annak "
-#~ "kritikusként kezeléséhez. Csak a use-time-for-policy kulcs igaz értéke "
-#~ "esetén érvényes."
-
-#~ msgid "The time remaining when action is taken"
-#~ msgstr "A hátralévő idő, amikor művelet kerül végrehajtásra"
-
-#~ msgid ""
-#~ "The time remaining in seconds of the battery when critical action is "
-#~ "taken. Only valid when use-time-for-policy is true."
-#~ msgstr ""
-#~ "Az akkumulátor töltöttségéből hátralévő idő másodpercben, amikor a "
-#~ "kritikus művelet végrehajtandó. Csak a use-time-for-policy kulcs igaz "
-#~ "értéke esetén érvényes."
-
-#~ msgid "Whether to use time-based notifications"
-#~ msgstr "Legyenek-e idő alapú értesítések"
-
-#~ msgid ""
-#~ "If time based notifications should be used. If set to false, then the "
-#~ "percentage change is used instead, which may fix a broken ACPI BIOS."
-#~ msgstr ""
-#~ "Használandók-e az idő alapú értesítések. Hamis értékre állítva a "
-#~ "százalékos változás kerül alkalmazásra, ez hibás ACPI BIOS esetén "
-#~ "megoldhatja a problémát."
-
-#~ msgid "If we should show the recalled battery warning for a broken battery"
-#~ msgstr ""
-#~ "Megjelenjen-e a visszahívott akkumulátor figyelmeztetés hibás akkumulátor "
-#~ "esetén"
-
-#~ msgid ""
-#~ "If we should show the recalled battery warning for a broken battery. Set "
-#~ "this to false only if you know your battery is okay."
-#~ msgstr ""
-#~ "Megjelenjen-e a visszahívott akkumulátor figyelmeztetés hibás akkumulátor "
-#~ "esetén? Csak akkor állítsa hamisra, ha tudja, hogy az akkumulátora "
-#~ "hibátlan."
-
-#~ msgid "provides %s laptop runtime"
-#~ msgstr "a noteszgép várható működési ideje: %s"
-
-#~ msgid "%s %s remaining"
-#~ msgstr "%s: %s van hátra"
-
-#~ msgid "%s %s until charged"
-#~ msgstr "%s: %s a feltöltésig"
-
-#~ msgid "provides %s battery runtime"
-#~ msgstr "várható működési idő akkumulátorról: %s"
-
-#~ msgid "Product:"
-#~ msgstr "Termék:"
-
-#~ msgid "Status:"
-#~ msgstr "Állapot:"
-
-#~ msgid "Missing"
-#~ msgstr "Hiányzik"
-
-#~ msgid "Charged"
-#~ msgstr "Feltöltve"
-
-#~ msgid "Charging"
-#~ msgstr "Töltődik"
-
-#~ msgid "Discharging"
-#~ msgstr "Kisül"
-
-#~ msgid "Percentage charge:"
-#~ msgstr "Százalékos töltöttség:"
-
-#~ msgid "Vendor:"
-#~ msgstr "Gyártó:"
-
-#~ msgid "Technology:"
-#~ msgstr "Technológia:"
-
-#~ msgid "Serial number:"
-#~ msgstr "Sorozatszám:"
-
-#~ msgid "Model:"
-#~ msgstr "Modell:"
-
-#~ msgid "Charge time:"
-#~ msgstr "Töltési idő:"
-
-#~ msgid "Discharge time:"
-#~ msgstr "Kisülési idő:"
-
-#~ msgid "Excellent"
-#~ msgstr "Kitűnő"
-
-#~ msgid "Good"
-#~ msgstr "Jó"
-
-#~ msgid "Fair"
-#~ msgstr "Elfogadható"
-
-#~ msgid "Poor"
-#~ msgstr "Gyenge"
-
-#~ msgid "Capacity:"
-#~ msgstr "Kapacitás:"
-
-#~ msgid "Current charge:"
-#~ msgstr "Jelenlegi töltés:"
-
-#~ msgid "Last full charge:"
-#~ msgstr "Utolsó teljes töltés:"
-
-#~ msgid "Design charge:"
-#~ msgstr "Tervezett töltés:"
-
-#~ msgid "Charge rate:"
-#~ msgstr "Töltés sebessége:"
-
-#~ msgid "AC adapter"
-#~ msgid_plural "AC adapters"
-#~ msgstr[0] "Hálózati csatlakozó"
-#~ msgstr[1] "Hálózati csatlakozók"
-
-#~ msgid "Laptop battery"
-#~ msgid_plural "Laptop batteries"
-#~ msgstr[0] "Noteszgép-akkumulátor"
-#~ msgstr[1] "Noteszgép-akkumulátorok"
-
-#~ msgid "UPS"
-#~ msgid_plural "UPSs"
-#~ msgstr[0] "Szünetmentes táp"
-#~ msgstr[1] "Szünetmentes tápok"
-
-#~ msgid "Monitor"
-#~ msgid_plural "Monitors"
-#~ msgstr[0] "Monitor"
-#~ msgstr[1] "Monitorok"
-
-#~ msgid "PDA"
-#~ msgid_plural "PDAs"
-#~ msgstr[0] "PDA"
-#~ msgstr[1] "PDA-k"
-
-#~ msgid "Cell phone"
-#~ msgid_plural "Cell phones"
-#~ msgstr[0] "Mobiltelefon"
-#~ msgstr[1] "Mobiltelefonok"
-
-#~ msgid "Media player"
-#~ msgid_plural "Media players"
-#~ msgstr[0] "Médialejátszó"
-#~ msgstr[1] "Médialejátszók"
-
-#~ msgid "Tablet"
-#~ msgid_plural "Tablets"
-#~ msgstr[0] "Táblagép"
-#~ msgstr[1] "Táblagépek"
-
-#~ msgid "Computer"
-#~ msgid_plural "Computers"
-#~ msgstr[0] "Számítógép"
-#~ msgstr[1] "Számítógépek"
-
-#~ msgid "Lithium Ion"
-#~ msgstr "Lítiumion"
-
-#~ msgid "Lithium Polymer"
-#~ msgstr "Lítiumpolimer"
-
-#~ msgid "Lithium Iron Phosphate"
-#~ msgstr "Lítium-vasfoszfát"
-
-#~ msgid "Lead acid"
-#~ msgstr "Ólmos-savas"
-
-#~ msgid "Nickel Cadmium"
-#~ msgstr "Nikkel-kadmium"
-
-#~ msgid "Nickel metal hydride"
-#~ msgstr "Nikkel-fém hidrid"
-
-#~ msgid "Unknown technology"
-#~ msgstr "Ismeretlen technológia"
-
-#~ msgid "Empty"
-#~ msgstr "Üres"
-
-#~ msgid "Waiting to charge"
-#~ msgstr "Várakozás töltésre"
-
-#~ msgid "Waiting to discharge"
-#~ msgstr "Várakozás kisülésre"
-
-#~ msgid "Laptop battery not present"
-#~ msgstr "A noteszgép akkumulátora nincs jelen"
-
-#~ msgid "Laptop battery is charging"
-#~ msgstr "A noteszgép akkumulátora töltődik"
-
-#~ msgid "Laptop battery is discharging"
-#~ msgstr "A noteszgép akkumulátora kisül"
-
-#~ msgid "Laptop battery is empty"
-#~ msgstr "A noteszgép akkumulátora lemerült"
-
-#~ msgid "Laptop battery is charged"
-#~ msgstr "A noteszgép akkumulátora feltöltve"
-
-#~ msgid "Laptop battery is waiting to charge"
-#~ msgstr "A noteszgép akkumulátora feltöltésre vár"
-
-#~ msgid "Laptop battery is waiting to discharge"
-#~ msgstr "A noteszgép akkumulátora kisülésre vár"
-
-#~ msgid "UPS is charging"
-#~ msgstr "A szünetmentes táp töltődik"
-
-#~ msgid "UPS is discharging"
-#~ msgstr "A szünetmentes táp kisül"
-
-#~ msgid "UPS is empty"
-#~ msgstr "A szünetmentes táp üres"
-
-#~ msgid "UPS is charged"
-#~ msgstr "A szünetmentes táp feltöltve"
-
-#~ msgid "Mouse is charging"
-#~ msgstr "Az egér töltődik"
-
-#~ msgid "Mouse is discharging"
-#~ msgstr "Az egér kisül"
-
-#~ msgid "Mouse is empty"
-#~ msgstr "Az egér lemerült"
-
-#~ msgid "Mouse is charged"
-#~ msgstr "Az egér feltöltve"
-
-#~ msgid "Keyboard is charging"
-#~ msgstr "A billentyűzet töltődik"
-
-#~ msgid "Keyboard is discharging"
-#~ msgstr "A billentyűzet kisül"
-
-#~ msgid "Keyboard is empty"
-#~ msgstr "A billentyűzet lemerült"
-
-#~ msgid "Keyboard is charged"
-#~ msgstr "A billentyűzet feltöltve"
-
-#~ msgid "PDA is charging"
-#~ msgstr "A PDA töltődik"
-
-#~ msgid "PDA is discharging"
-#~ msgstr "A PDA kisül"
-
-#~ msgid "PDA is empty"
-#~ msgstr "A PDA lemerült"
-
-#~ msgid "PDA is charged"
-#~ msgstr "A PDA feltöltve"
-
-#~ msgid "Cell phone is charging"
-#~ msgstr "A mobiltelefon töltődik"
-
-#~ msgid "Cell phone is discharging"
-#~ msgstr "A mobiltelefon kisül"
-
-#~ msgid "Cell phone is empty"
-#~ msgstr "A mobiltelefon lemerült"
-
-#~ msgid "Cell phone is charged"
-#~ msgstr "A mobiltelefon feltöltve"
-
-#~ msgid "Media player is charging"
-#~ msgstr "A médialejátszó töltődik"
-
-#~ msgid "Media player is discharging"
-#~ msgstr "A médialejátszó kisül"
-
-#~ msgid "Media player is empty"
-#~ msgstr "A médialejátszó lemerült"
-
-#~ msgid "Media player is charged"
-#~ msgstr "A médialejátszó feltöltve"
-
-#~ msgid "Tablet is charging"
-#~ msgstr "A táblagép töltődik"
-
-#~ msgid "Tablet is discharging"
-#~ msgstr "A táblagép kisül"
-
-#~ msgid "Tablet is empty"
-#~ msgstr "A táblagép lemerült"
-
-#~ msgid "Tablet is charged"
-#~ msgstr "A táblagép feltöltve"
-
-#~ msgid "Computer is charging"
-#~ msgstr "A számítógép töltődik"
-
-#~ msgid "Computer is discharging"
-#~ msgstr "A számítógép kisül"
-
-#~ msgid "Computer is empty"
-#~ msgstr "A számítógép lemerült"
-
-#~ msgid "Computer is charged"
-#~ msgstr "A számítógép feltöltve"
-
-#~ msgid "Battery may be recalled"
-#~ msgstr "Az akkumulátort visszahívhatták"
-
-#~ msgid ""
-#~ "A battery in your computer may have been recalled by %s and you may be at "
-#~ "risk."
-#~ msgstr ""
-#~ "Lehetséges, hogy a számítógép akkumulátorát visszahívta a gyártó (%s). Ez "
-#~ "kockázatos lehet."
-
-#~ msgid "For more information visit the battery recall website."
-#~ msgstr "További információkért lásd az akkumulátor-visszahívási webhelyet."
-
-#~ msgid "Visit recall website"
-#~ msgstr "Visszahívási webhely felkeresése"
-
-#~ msgid "Do not show me this again"
-#~ msgstr "Ne jelenjen meg többé ez az üzenet"
-
-#~ msgid "Plug in your AC adapter to avoid losing data."
-#~ msgstr ""
-#~ "Az adatvesztés elkerülése érdekében csatlakoztassa a hálózati csatlakozót."
-
-#~ msgid "Computer will suspend very soon unless it is plugged in."
-#~ msgstr "A számítógép hamarosan fel lesz függesztve, ha nem csatlakoztatja."
-
-#~ msgid ""
-#~ "The battery is below the critical level and this computer will <b>power-"
-#~ "off</b> when the battery becomes completely empty."
-#~ msgstr ""
-#~ "Az akkumulátor a kritikus szint alatt van, és ez a számítógép <b>ki fog "
-#~ "kapcsolni</b>, amint az akkumulátor teljesen lemerül."
-
-#~ msgid ""
-#~ "The battery is below the critical level and this computer is about to "
-#~ "suspend.\n"
-#~ "<b>NOTE:</b> A small amount of power is required to keep your computer in "
-#~ "a suspended state."
-#~ msgstr ""
-#~ "Az akkumulátor kapacitása a kritikus szint alá esett, és a gép "
-#~ "felfüggesztésre készül.\n"
-#~ "<b>Megjegyzés:</b> Minimális mértékben a számítógép felfüggesztett "
-#~ "állapotban is fogyaszt áramot."
-
-#~ msgid ""
-#~ "UPS is below the critical level and this computer will <b>power-off</b> "
-#~ "when the UPS becomes completely empty."
-#~ msgstr ""
-#~ "A szünetmentes táp kapacitása a kritikus szint alá esett, és teljes "
-#~ "lemerülésekor a számítógép <b>ki fog kapcsolni</b>."
-
-#~ msgid "Remote Display"
-#~ msgstr "Távoli kijelző"
-
-#~ msgid "Disable animations on remote displays"
-#~ msgstr "Animációk kikapcsolása távoli kijelzőkön"
-
-#~ msgid "Software Updates available"
-#~ msgstr "Szoftverfrissítések érhetők el"
-
-#~ msgid "Important OS and application updates are ready to be installed"
-#~ msgstr ""
-#~ "A fontos rendszer- és alkalmazásfrissítések készen állnak a telepítésre"
-
-#~ msgid "GNOME Software"
-#~ msgstr "GNOME szoftver"
-
-#~ msgid "Could not restore the display's configuration"
-#~ msgstr "A kijelző beállításai nem állíthatók vissza"
-
-#~ msgid "Could not restore the display's configuration from a backup"
-#~ msgstr "A kijelző beállításai nem állíthatók vissza a mentésből"
-
-#~ msgid "The display will be reset to its previous configuration in %d second"
-#~ msgid_plural ""
-#~ "The display will be reset to its previous configuration in %d seconds"
-#~ msgstr[0] "A kijelző visszaáll a korábbi beállításaira %d másodpercen belül"
-#~ msgstr[1] "A kijelző visszaáll a korábbi beállításaira %d másodpercen belül"
-
-#~ msgid "Does the display look OK?"
-#~ msgstr "Megfelelően jelenik meg a kép?"
-
-#~ msgid "_Restore Previous Configuration"
-#~ msgstr "A korábbi beállítások _visszaállítása"
-
-#~ msgid "_Keep This Configuration"
-#~ msgstr "Ezen beállítások _megtartása"
-
-#~ msgid "The selected configuration for displays could not be applied"
-#~ msgstr "A kiválasztott kijelzőbeállítás nem alkalmazható"
-
-#~ msgid "Could not apply the stored configuration for monitors"
-#~ msgstr "A tárolt beállítás nem alkalmazható a monitorokra"
-
-#~ msgid "Could not enable mouse accessibility features"
-#~ msgstr ""
-#~ "A billentyűzet akadálymentesítési szolgáltatásai nem engedélyezhetők"
-
-#~ msgid ""
-#~ "Mouse accessibility requires Mousetweaks to be installed on your system."
-#~ msgstr ""
-#~ "Az egér akadálymentesítése megköveteli a Mousetweaks jelenlétét a "
-#~ "rendszeren."
-
-#~ msgid "received error or hang up from event source"
-#~ msgstr "Hiba vagy bontás érkezett az eseményforrásból"
-
-#~ msgid "NSS security system could not be initialized"
-#~ msgstr "Az NSS biztonsági rendszer nem készíthető elő"
-
-#~ msgid "no suitable smartcard driver could be found"
-#~ msgstr "Nem található megfelelő intelligenskártya-illesztőprogram"
-
-#~ msgid "smartcard driver '%s' could not be loaded"
-#~ msgstr "A(z) „%s” intelligenskártya-illesztőprogram nem tölthető be"
-
-#~ msgid "could not watch for incoming card events - %s"
-#~ msgstr "Nem figyelhetők a bejövő kártyaeseményeket - %s"
-
-#~ msgid "encountered unexpected error while waiting for smartcard events"
-#~ msgstr ""
-#~ "Váratlan hiba történt az intelligenskártya-eseményekre várakozás közben"
-
-#~ msgid "Could not switch the monitor configuration"
-#~ msgstr "A monitor beállításai nem válthatók át"
-
-#~ msgid "Trying to switch the monitor configuration anyway."
-#~ msgstr "Kísérlet a monitor beállításainak átváltására mindenképp."
-
-#~ msgid "Command to be run when a device is added or removed."
-#~ msgstr "Eszköz hozzáadásakor vagy eltávolításakor futtatandó parancs."
-
-#~| msgid "Binding to skip to next track."
-#~ msgid "Binding to select the next input source"
-#~ msgstr "Gyorsbillentyű a következő bemeneti forrás kiválasztásához"
-
-#~ msgid "Switch input source backward"
-#~ msgstr "Bemeneti forrás váltása visszafelé"
-
-#~| msgid "Binding to skip to previous track."
-#~ msgid "Binding to select the previous input source"
-#~ msgstr "Gyorsbillentyű az előző bemeneti forrás kiválasztásához"
-
-#~ msgid "There was an error displaying help: %s"
-#~ msgstr "Hiba történt a súgó megjelenítése közben: %s"
-
-#~ msgid "_Turn Off"
-#~ msgstr "_Kikapcsolás"
-
-#~ msgid "_Turn On"
-#~ msgstr "_Bekapcsolás"
-
-#~ msgid "_Leave On"
-#~ msgstr "B_ekapcsolva hagyás"
-
-#~ msgid "_Leave Off"
-#~ msgstr "Kik_apcsolva hagyás"
-
-#~ msgid "Universal Access Preferences"
-#~ msgstr "Akadálymentesítés beállításai"
-
-#~ msgid "Use on-screen _keyboard"
-#~ msgstr "Ké_pernyő-billentyűzet használata"
-
-#~ msgid "Use screen _reader"
-#~ msgstr "Képernyő-_olvasó használata"
-
-#~ msgid "Use screen _magnifier"
-#~ msgstr "Képernyő-_nagyító használata"
-
-#~ msgid "Enhance _contrast in colors"
-#~ msgstr "Színek _kontrasztjának növelése"
-
-#~ msgid "Make _text larger and easier to read"
-#~ msgstr "S_zöveg megnövelése a jobb olvashatóságért"
-
-#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
-#~ msgstr "_Gyorsbillentyűk egymás utáni lenyomása (ragadós billentyűk)"
-
-#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
-#~ msgstr "_Kettőzött billentyűleütések mellőzése (billentyűszűrés)"
-
-#~ msgid "Press and _hold keys to accept them (Slow Keys)"
-#~ msgstr "Billentyűk lenyomva _tartása az elfogadásukhoz (lassú billentyűk)"
-
-#~ msgid "Mount Helper"
-#~ msgstr "Csatolássegítő"
-
-#~ msgid "Automount and autorun plugged devices"
-#~ msgstr "Csatlakoztatott eszközök automatikus csatolása és futtatása"
-
-#~ msgid "Unable to mount %s"
-#~ msgstr "A(z) %s nem csatolható"
-
-#~ msgid "Unable to open a folder for %s"
-#~ msgstr "Nem nyitható meg mappa ehhez: %s"
-
-#~ msgid "Ask what to do"
-#~ msgstr "Kérdezze meg, mi a teendő"
-
-#~ msgid "Do Nothing"
-#~ msgstr "Ne tegyen semmit"
-
-#~ msgid "Open Folder"
-#~ msgstr "Mappa megnyitása"
-
-#~ msgid "Unable to eject %p"
-#~ msgstr "%p nem adható ki"
-
-#~ msgid "Unable to unmount %p"
-#~ msgstr "%p nem választható le"
-
-#~ msgid "You have just inserted an Audio CD."
-#~ msgstr "Hang CD-t helyezett be."
-
-#~ msgid "You have just inserted an Audio DVD."
-#~ msgstr "Hang DVD-t helyezett be."
-
-#~ msgid "You have just inserted a Video DVD."
-#~ msgstr "Videó DVD-t helyezett be."
-
-#~ msgid "You have just inserted a Video CD."
-#~ msgstr "Videó CD-t helyezett be."
-
-#~ msgid "You have just inserted a Super Video CD."
-#~ msgstr "SVCD-t helyezett be."
-
-#~ msgid "You have just inserted a blank CD."
-#~ msgstr "Üres CD-t helyezett be."
-
-#~ msgid "You have just inserted a blank DVD."
-#~ msgstr "Üres DVD-t helyezett be."
-
-#~ msgid "You have just inserted a blank Blu-Ray disc."
-#~ msgstr "Üres Blu-ray lemezt helyezett be."
-
-#~ msgid "You have just inserted a blank HD DVD."
-#~ msgstr "Üres HD DVD-t helyezett be."
-
-#~ msgid "You have just inserted a Photo CD."
-#~ msgstr "Fotó CD-t helyezett be."
-
-#~ msgid "You have just inserted a Picture CD."
-#~ msgstr "Kép CD-t helyezett be."
-
-#~ msgid "You have just inserted a medium with digital photos."
-#~ msgstr "Digitális fényképeket tartalmazó adathordozót helyezett be."
-
-#~ msgid "You have just inserted a digital audio player."
-#~ msgstr "Digitális zenelejátszót csatlakoztatott."
-
-#~ msgid ""
-#~ "You have just inserted a medium with software intended to be "
-#~ "automatically started."
-#~ msgstr ""
-#~ "Automatikus futtatásra tervezett szoftvert tartalmazó adathordozót "
-#~ "helyezett be."
-
-#~ msgid "You have just inserted a medium."
-#~ msgstr "Adathordozót helyezett be."
-
-#~ msgid "Choose what application to launch."
-#~ msgstr "Válassza ki az elindítandó alkalmazást."
-
-#~ msgid ""
-#~ "Select how to open \"%s\" and whether to perform this action in the "
-#~ "future for other media of type \"%s\"."
-#~ msgstr ""
-#~ "Válassza ki „%s” megnyitási módját és hogy végre kívánja-e hajtani ezt a "
-#~ "műveletet a jövőben más „%s” típusú adathordozókon."
-
-#~ msgid "_Always perform this action"
-#~ msgstr "Mindig ezen művelet végreh_ajtása"
-
-#~ msgid "_Eject"
-#~ msgstr "_Kiadás"
-
-#~ msgid "_Unmount"
-#~ msgstr "_Leválasztás"
-
-#~ msgid "Background"
-#~ msgstr "Háttér"
-
-#~ msgid "Power Manager"
-#~ msgstr "Energiakezelő"
-
-#~ msgid "Automatically install these types of updates"
-#~ msgstr "Ezen frissítéstípusok automatikus telepítése"
-
-#~ msgid "Automatically install these types of updates."
-#~ msgstr "Ezen frissítéstípusok automatikus telepítése."
-
-#~ msgid "Get the update list when the session starts"
-#~ msgstr "A frissítéslista lekérése a munkamenet indításakor"
-
-#~ msgid ""
-#~ "Get the update list when the session starts, even if not scheduled to."
-#~ msgstr ""
-#~ "A munkamenet indításakor lekérendő-e a frissítéslista, még ha nincs is "
-#~ "ütemezve."
-
-#~ msgid "Notify the user for completed updates"
-#~ msgstr "Felhasználó értesítése frissítések befejezésekor"
-
-#~ msgid ""
-#~ "Notify the user for completed updates where the user needs to restart"
-#~ msgstr ""
-#~ "Felhasználó értesítése frissítések befejezésekor, ha újraindítás szükséges"
-
-#~ msgid ""
-#~ "Notify the user for completed updates where the user needs to restart."
-#~ msgstr ""
-#~ "Felhasználó értesítése frissítések befejezésekor, ha újraindítás "
-#~ "szükséges."
-
-#~ msgid ""
-#~ "Notify the user for completed updates. This may be a useful notification "
-#~ "for some users as installing updates prevents shutdown."
-#~ msgstr ""
-#~ "Felhasználó értesítése frissítések befejezésekor. Ez hasznos lehet egyes "
-#~ "esetekben, mert a telepítés megakadályozza a leállítást."
-
-#~ msgid ""
-#~ "Notify the user when the automatic update was not started on battery power"
-#~ msgstr ""
-#~ "Felhasználó értesítése, ha az automatikus frissítés nem indult el "
-#~ "akkumulátoros működés esetén"
-
-#~ msgid ""
-#~ "Notify the user when the update was not automatically started because the "
-#~ "machine is running on battery power."
-#~ msgstr ""
-#~ "Felhasználó értesítése, ha a frissítés nem indult el automatikusan, mert "
-#~ "a gép akkumulátorról működik."
-
-#~ msgid "Notify the user when the update was started"
-#~ msgstr "Felhasználó értesítése a frissítés indulásakor"
-
-#~ msgid "Notify the user when the update was started."
-#~ msgstr "Felhasználó értesítése a frissítés indulásakor."
-
-#~ msgid "The install root to use when adding and removing packages"
-#~ msgstr "A telepítési gyökér csomagok telepítéséhez és eltávolításához"
-
-#~ msgid ""
-#~ "The install root to use when processing packages, which is changed when "
-#~ "using LTSP or when testing."
-#~ msgstr ""
-#~ "A csomagok feldolgozásakor használt telepítési gyökér, amely változik "
-#~ "LTSP használatakor vagy teszteléskor."
-
-#~ msgid ""
-#~ "The number of seconds at session startup to wait before checking for "
-#~ "updates"
-#~ msgstr ""
-#~ "A munkamenet indítása után várakozás ennyi másodpercig a frissítések "
-#~ "keresése előtt"
-
-#~ msgid ""
-#~ "The number of seconds at session startup to wait before checking for "
-#~ "updates. Value is in seconds."
-#~ msgstr ""
-#~ "A munkamenet indítása után várakozás ennyi másodpercig a frissítések "
-#~ "keresése előtt. Az érték másodpercben van megadva."
-
-#~ msgid ""
-#~ "Use WiFi (wireless LAN) connections to check for updates. It may be "
-#~ "faster to download packages when on a wired connection, and the VPN or "
-#~ "proxy required may also only be available on wired connections."
-#~ msgstr ""
-#~ "WiFi kapcsolat használata frissítések kereséséhez. Vezetékes kapcsolaton "
-#~ "gyorsabb lehet a csomagok letöltése, és a szükséges VPN vagy proxy is "
-#~ "lehet, hogy csak a vezetékes kapcsolatokon érhető el."
-
-#~ msgid "Use WiFi connections"
-#~ msgstr "WiFi kapcsolatok használata"
-
-#~ msgid "A dictionary of XSETTINGS to override"
-#~ msgstr "Felülbírálandó XSETTINGS beállítások szótára"
-
-#~ msgid ""
-#~ "This dictionary maps XSETTINGS names to overrides values. The values must "
-#~ "be either strings, signed int32s or (in the case of colors), 4-tuples of "
-#~ "uint16 (red, green, blue, alpha; 65535 is fully opaque)."
-#~ msgstr ""
-#~ "Ez a szótár XSETTINGS neveket képez le felülbírálási értékekre. Az "
-#~ "értékek karakterláncok, előjeles int32-k vagy (színek esetén) uin16-ok "
-#~ "négyes tuple-jai (vörös, zöld, kék, alfa - a 65535 = teljesen "
-#~ "átlátszatlan)."
-
-#~ msgid ""
-#~ "Error activating XKB configuration.\n"
-#~ "There can be various reasons for that.\n"
-#~ "\n"
-#~ "If you report this situation as a bug, include the results of\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>"
-#~ msgstr ""
-#~ "Hiba az XKB-beállítások aktiválásakor.\n"
-#~ "Ennek számos oka lehet.\n"
-#~ "\n"
-#~ "Ha ezt a helyzetet hibaként jelenti, mellékelje a következők eredményét "
-#~ "is:\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>"
-
-#~ msgid "_Layouts"
-#~ msgstr "_Kiosztások"
-
-#~ msgid "Show _Keyboard Layout..."
-#~ msgstr "Billentyűzet_kiosztás megjelenítése…"
-
-#~ msgid "Region and Language Settings"
-#~ msgstr "Területi és nyelvi beállítások"
-
-#~ msgid ""
-#~ "Automatic updates are not being installed as the computer is running on "
-#~ "battery power"
-#~ msgstr ""
-#~ "Az automatikus frissítések nem kerülnek telepítésre, mivel a számítógép "
-#~ "akkumulátorról működik"
-
-#~ msgid "Updates not installed"
-#~ msgstr "A frissítések nem kerültek telepítésre"
-
-#~ msgid "Install the updates anyway"
-#~ msgstr "Frissítések telepítése mindenképp"
-
-#~ msgid "No restart is required."
-#~ msgstr "Nincs szükség újraindításra."
-
-#~ msgid "A restart is required."
-#~ msgstr "Újraindítás szükséges."
-
-#~ msgid "You need to log out and log back in."
-#~ msgstr "Ki, majd újra be kell jelentkeznie."
-
-#~ msgid "You need to restart the application."
-#~ msgstr "Újra kell indítania az alkalmazást."
-
-#~ msgid "You need to log out and log back in to remain secure."
-#~ msgstr "A biztonság fenntartásához ki, majd újra be kell jelentkeznie."
-
-#~ msgid "A restart is required to remain secure."
-#~ msgstr "A biztonság fenntartásához újraindítás szükséges."
-
-#~ msgid "One package was skipped:"
-#~ msgid_plural "Some packages were skipped:"
-#~ msgstr[0] "Egy csomag kimaradt:"
-#~ msgstr[1] "Néhány csomag kimaradt:"
-
-#~ msgid "Restart computer now"
-#~ msgstr "Indítsa újra a számítógépet"
-
-#~ msgid "Allowed keys"
-#~ msgstr "Engedélyezett billentyűk"
-
-#~ msgid ""
-#~ "If non-empty, keybindings will be ignored unless their settings directory "
-#~ "is in the list. This is useful for lockdown."
-#~ msgstr ""
-#~ "Ha nem üres, a gyorsbillentyűk figyelmen kívül maradnak, hacsak a "
-#~ "beállításkönyvtáruk nincs a listában. Ez zároláshoz hasznos."
-
-#~ msgid "Enable this to set the cursor to absolute mode."
-#~ msgstr "Ha engedélyezett, a kurzor abszolút módba kerül."
-
-#~ msgid "Enable this to set the stylus to absolute mode."
-#~ msgstr "Ha engedélyezett, a stylus abszolút módba kerül."
-
-#~ msgid "Set this to x1, y1 and x2, y2 of the area usable by the cursor."
-#~ msgstr "A kurzor által használható terület x1, y1 és x2, y2 koordinátái."
-
-#~ msgid "Set this to x1, y1 and x2, y2 of the area usable by the eraser."
-#~ msgstr "A törlő által használható terület x1, y1 és x2, y2 koordinátái."
-
-#~ msgid "Set this to x1, y1 and x2, y2 of the area usable by the pad."
-#~ msgstr "A pad által használható terület x1, y1 és x2, y2 koordinátái."
-
-#~ msgid "Wacom cursor absolute mode"
-#~ msgstr "Wacom kurzor abszolút módja"
-
-#~ msgid "Wacom cursor button mapping"
-#~ msgstr "Wacom kurzor gombleképezése"
-
-#~ msgid "Wacom cursor tablet area"
-#~ msgstr "Wacom kurzor táblagép területe"
-
-#~ msgid "Wacom eraser absolute mode"
-#~ msgstr "Wacom törlő abszolút módja"
-
-#~ msgid "Wacom eraser tablet area"
-#~ msgstr "Wacom törlő táblagép területe"
-
-#~ msgid "Wacom stylus tablet area"
-#~ msgstr "Wacom stylus táblagép területe"
-
-#~ msgid "Default"
-#~ msgstr "Alapértelmezett"
-
-#~ msgid "Key binding (%s) is invalid (%d)"
-#~ msgstr "A gyorsbillentyű (%s) érvénytelen (%d)"
-
-#~ msgid "Key binding (%s) is incomplete"
-#~ msgstr "A gyorsbillentyű (%s) hiányos"
-
-#~ msgid ""
-#~ "Error while trying to run (%s)\n"
-#~ "which is linked to the key (%s)"
-#~ msgstr ""
-#~ "Hiba (%s) futtatása közben\n"
-#~ "ami ehhez a billentyűhöz van kapcsolva: (%s)"
-
-#~ msgid "Keybindings plugin"
-#~ msgstr "Billentyűparancsok bővítmény"
-
-#~ msgid ""
-#~ "Could not get default terminal. Verify that your default terminal command "
-#~ "is set and points to a valid application."
-#~ msgstr ""
-#~ "Nem kérhető le az alapértelmezett terminál. Ellenőrizze, hogy az "
-#~ "alapértelmezett terminál parancs be van állítva és érvényes alkalmazásra "
-#~ "mutat."
-
-#~ msgid ""
-#~ "Couldn't execute command: %s\n"
-#~ "Verify that this is a valid command."
-#~ msgstr ""
-#~ "A(z) %s parancs nem hajtható végre.\n"
-#~ "Ellenőrizze, hogy ez a parancs érvényes-e."
-
-#~ msgid "Module Path"
-#~ msgstr "Modulútvonal"
-
-#~ msgid "path to smartcard PKCS #11 driver"
-#~ msgstr "Az intelligens kártya PKCS #11 illesztőprogramjának útvonala"
-
-#~ msgid "Slot ID"
-#~ msgstr "Nyílásazonosító"
-
-#~ msgid "The slot the card is in"
-#~ msgstr "A kártyát tartalmazó nyílás"
-
-#~ msgid "Slot Series"
-#~ msgstr "Nyílássorozatok"
-
-#~ msgid "per-slot card identifier"
-#~ msgstr "nyílásonkénti kártyaazonosító"
-
-#~ msgid "Module"
-#~ msgstr "Modul"
-
-#~ msgid "Change system time and date settings"
-#~ msgstr "Rendszer dátum- és időbeállításainak módosítása"
-
-#~ msgid "To change time or date settings, you need to authenticate."
-#~ msgstr "Hitelesítés szükséges a dátum- és időbeállítások módosításához."
-
-#~ msgid "Do you want to activate Slow Keys?"
-#~ msgstr "Szeretné aktiválni a Lassú billentyűket?"
-
-#~ msgid "Do you want to deactivate Slow Keys?"
-#~ msgstr "Ki szeretné kapcsolni a Lassú billentyűket?"
-
-#~ msgid "Don't activate"
-#~ msgstr "Ne kerüljön aktiválásra"
-
-#~ msgid "Don't deactivate"
-#~ msgstr "Ne kerüljön deaktiválásra"
-
-#~ msgid "Activate"
-#~ msgstr "Aktiválás"
-
-#~ msgid "Deactivate"
-#~ msgstr "Deaktiválás"
-
-#~ msgid "Do_n't activate"
-#~ msgstr "_Ne kerüljön aktiválásra"
-
-#~ msgid "Do_n't deactivate"
-#~ msgstr "N_e kerüljön deaktiválásra"
-
-#~ msgid "_Activate"
-#~ msgstr "_Aktiválás"
-
-#~ msgid "_Deactivate"
-#~ msgstr "_Deaktiválás"
-
-#~ msgid "Do you want to activate Sticky Keys?"
-#~ msgstr "Szeretné bekapcsolni a Ragadós billentyűket?"
-
-#~ msgid "Do you want to deactivate Sticky Keys?"
-#~ msgstr "Ki szeretné kapcsolni a Ragadós billentyűket?"
-
-#~ msgid ""
-#~ "Priority to use for this plugin in gnome-settings-daemon startup queue."
-#~ msgstr "A bővítmény prioritása a gnome-settings-daemon indítási sorában."
-
-#~ msgid ""
-#~ "Whether this plugin would be activated by gnome-settings-daemon or not."
-#~ msgstr "A bővítményt aktiválja-e a gnome-settings-daemon."
-
-#~ msgid "Binding to enable or disable the touchpad."
-#~ msgstr "Gyorsbillentyű az érintőtábla engedélyezéséhez vagy letiltásához."
-
-#~ msgid "Automounter plugin"
-#~ msgstr "Automatikus csatolás bővítmény"
-
-#~ msgid "Keyboard _Preferences"
-#~ msgstr "Billentyűzet _beállításai"
-
-#~ msgid "Privileges are required to configure time and date settings."
-#~ msgstr "Hitelesítés szükséges a dátum- és időbeállítások módosításához."

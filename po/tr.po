@@ -1,33 +1,29 @@
-# Turkish translation of gnome-control-center.
-# Copyright (C) 2000-2003, 2004, 2005, 2008, 2009, 2011 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-control-center package.
-#
-#
-# Nilgün Belma Bugüner <nilgun@fide.org>, 2001.
-# Fatih Demir <kabalak@gtranslator.org>, 2000.
-# Baris Cicek <baris@teamforce.name.tr>, 2004, 2005, 2008, 2009.
-# Mustafa Arici <me@mustafaarici.info>, 2011.
-# Osman Karagöz <osmank3@gmail.com>, 2013.
-# Gökhan Gurbetoğlu <ggurbet@gmail.com>, 2013.
-# Necdet Yücel <necdetyucel@gmail.com>, 2014.
-# Muhammet Kara <muhammetk@gmail.com>, 2011, 2015.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Baris Cicek <baris@teamforce.name.tr>, 2004-2005,2008-2009
+# Fatih Demir <kabalak@gtranslator.org>, 2000
+# Gökhan Gurbetoğlu <ggurbet@gmail.com>, 2013
+# Muhammet Kara <muhammetk@gmail.com>, 2011,2015
+# marici <me@mustafaarici.info>, 2011
+# Necdet Yücel <necdetyucel@gmail.com>, 2014
+# Nilgün Belma Bugüner <nilgun@fide.org>, 2001
+# Osman Karagöz <osmank3@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"settings-daemon&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-09-05 20:07+0000\n"
-"PO-Revision-Date: 2015-09-06 07:18+0300\n"
-"Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
-"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
-"Language: tr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-28 03:31+0000\n"
+"PO-Revision-Date: 2016-10-04 23:18+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Turkish (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Gtranslator 2.91.7\n"
-"X-POOTLE-MTIME: 1417554148.000000\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../data/gnome-settings-daemon.desktop.in.in.h:1
 msgid "GNOME Settings Daemon"
@@ -41,10 +37,7 @@ msgstr "Akıllı kart çıkartıldığında uygulanacak eylem"
 msgid ""
 "Set this to one of \"none\", \"lock-screen\", or \"force-logout\". The "
 "action will get performed when the smartcard used for log in is removed."
-msgstr ""
-"Bunu \"hiçbiri\", \"ekranı kilitle\" veya \"çıkmaya zorla\" seçeneklerinden "
-"birine ayarlayın. Giriş için kullanılan akıllı kart çıkartıldığında "
-"seçtiğiniz eylem gerçekleşecektir."
+msgstr "Bunu \"hiçbiri\", \"ekranı kilitle\" veya \"çıkmaya zorla\" seçeneklerinden birine ayarlayın. Giriş için kullanılan akıllı kart çıkartıldığında seçtiğiniz eylem gerçekleşecektir."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:3
 msgid ""
@@ -71,19 +64,6 @@ msgstr "Bir sürükleme başlamadan önceki mesafe."
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:8
 msgid "Whether the tablet's orientation is locked, or rotated automatically."
 msgstr "Tabletin ekran yönlendirmesinin kilitli veya otomatik döndürme olması."
-
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:9
-msgid "Device hotplug custom command"
-msgstr "Cihaz takıldığında çalıştırılacak özelleştirilmiş komut"
-
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:10
-msgid ""
-"Command to be run when a device is added or removed. An exit value of 1 "
-"means that the device will not be handled further by gnome-settings-daemon."
-msgstr ""
-"Bir cihaz eklendiğinde ya da kaldırıldığında çalıştırılacak komut. Çıkış "
-"değerinin 1 olması cihazın artık gnome-settings-daemon tarafından idare "
-"edilmeyeceği anlamına gelir."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:1
@@ -115,9 +95,7 @@ msgstr "Bu eklentinin aktifleştirilmesi"
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:2
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:2
 msgid "Whether this plugin would be activated by gnome-settings-daemon or not"
-msgstr ""
-"Bu eklentinin gnome ayarlar servisi tarafından aktifleştirilip "
-"aktifleştirilmeyeceği"
+msgstr "Bu eklentinin gnome ayarlar servisi tarafından aktifleştirilip aktifleştirilmeyeceği"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:3
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:3
@@ -149,9 +127,7 @@ msgstr "Bu eklenti için kullanım önceliği"
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:6
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:8
 msgid "Priority to use for this plugin in gnome-settings-daemon startup queue"
-msgstr ""
-"Bu eklentinin gnome ayarlar servisinin başlangıç kuyruğundaki kullanım "
-"önceliği"
+msgstr "Bu eklentinin gnome ayarlar servisinin başlangıç kuyruğundaki kullanım önceliği"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:5
 msgid "Wacom stylus absolute mode"
@@ -167,9 +143,7 @@ msgstr "Wacom tablet alanı"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:8
 msgid "Set this to x1, y1 and x2, y2 of the area usable by the tools."
-msgstr ""
-"Bunu, araçlar tarafından kullanılabilen alanın başlangıç ve bitiş noktası "
-"olarak ayarlayın."
+msgstr "Bunu, araçlar tarafından kullanılabilen alanın başlangıç ve bitiş noktası olarak ayarlayın."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:9
 msgid "Wacom tablet aspect ratio"
@@ -179,9 +153,7 @@ msgstr "Wacom tablet en-boy oranı"
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
-msgstr ""
-"Wacom tablet alanını çıktının en-boy oranına uyacak şekilde sınırlandırmak "
-"için bunu etkinleştirin."
+msgstr "Wacom tablet alanını çıktının en-boy oranına uyacak şekilde sınırlandırmak için bunu etkinleştirin."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:11
 msgid "Wacom tablet rotation"
@@ -189,11 +161,9 @@ msgstr "Wacom tablet rotasyonu"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:12
 msgid ""
-"Set this to 'none', 'cw' for 90 degree clockwise, 'half' for 180 degree, and "
-"'ccw' for 90 degree counterclockwise."
-msgstr ""
-"Bunu 'hiçbiri', saat yönünde 90 derece için 'cw', 180 derece için 'half' ve "
-"saat yönünün tersinde 90 derece için 'ccw' olarak işaretleyin."
+"Set this to 'none', 'cw' for 90 degree clockwise, 'half' for 180 degree, and"
+" 'ccw' for 90 degree counterclockwise."
+msgstr "Bunu 'hiçbiri', saat yönünde 90 derece için 'cw', 180 derece için 'half' ve saat yönünün tersinde 90 derece için 'ccw' olarak işaretleyin."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:13
 msgid "Wacom touch feature"
@@ -201,9 +171,7 @@ msgstr "Wacom dokunma özelliği"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:14
 msgid "Enable this to move the cursor when the user touches the tablet."
-msgstr ""
-"Kullanıcı tablete dokunduğunda imleci hareket ettirmek için bunu "
-"etkinleştirin."
+msgstr "Kullanıcı tablete dokunduğunda imleci hareket ettirmek için bunu etkinleştirin."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:15
 msgid "Wacom stylus pressure curve"
@@ -212,9 +180,7 @@ msgstr "Wacom stylus basınç eğrisi"
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:16
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
-msgstr ""
-"Bunu, stilusa uygulanan basınç eğrisinin başlangıç ve bitiş noktası olarak "
-"ayarlayın."
+msgstr "Bunu, stilusa uygulanan basınç eğrisinin başlangıç ve bitiş noktası olarak ayarlayın."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:17
 msgid "Wacom stylus button mapping"
@@ -231,9 +197,7 @@ msgstr "Wacom stylus basınç eşiği"
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:20
 msgid ""
 "Set this to the pressure value at which a stylus click event is generated."
-msgstr ""
-"Bunu bir staylus tıklaması olayı oluşturulması için gereken basınç değeri "
-"olarak girin."
+msgstr "Bunu bir staylus tıklaması olayı oluşturulması için gereken basınç değeri olarak girin."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:21
 msgid "Wacom eraser pressure curve"
@@ -242,8 +206,7 @@ msgstr "Wacom silgi basınç eğrisi"
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:22
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
-msgstr ""
-"Bunu silgiye uygulanan basınç eğrisi manasında x1,y1 ve x2,y2 olarak girin."
+msgstr "Bunu silgiye uygulanan basınç eğrisi manasında x1,y1 ve x2,y2 olarak girin."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:23
 msgid "Wacom eraser button mapping"
@@ -256,9 +219,7 @@ msgstr "Wacom silgi basınç eşiği"
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:25
 msgid ""
 "Set this to the pressure value at which an eraser click event is generated."
-msgstr ""
-"Bunu bir silgi tıklaması olayı oluşturulması için gereken basınç değeri "
-"olarak girin."
+msgstr "Bunu bir silgi tıklaması olayı oluşturulması için gereken basınç değeri olarak girin."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:26
 msgid "Wacom button action type"
@@ -280,17 +241,13 @@ msgstr "Düğme özel eylemler için basıldığında oluşturulacak klavye kıs
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:30
 msgid "Key combinations for a touchring or touchstrip custom action"
-msgstr ""
-"Dokunmatik yüzük veya dokunmatik şerit özel eylemleri için tuş "
-"kombinasyonları"
+msgstr "Dokunmatik yüzük veya dokunmatik şerit özel eylemleri için tuş kombinasyonları"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:31
 msgid ""
 "The keyboard shortcuts generated when a touchring or touchstrip is used for "
 "custom actions (up followed by down)."
-msgstr ""
-"Özel eylemler için bir dokunmatik yüzük veya dokunmatik şerit "
-"kullanıldığında oluşturulacak klavye kısayolları (önce yukarı sonra aşağı)."
+msgstr "Özel eylemler için bir dokunmatik yüzük veya dokunmatik şerit kullanıldığında oluşturulacak klavye kısayolları (önce yukarı sonra aşağı)."
 
 #. Translators: This is the OLED display on an Intuos4 tablet:
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
@@ -310,9 +267,7 @@ msgstr "Bir görüntü profilinin geçerli olacağı süre"
 msgid ""
 "This is the number of days after which the display color profile is "
 "considered invalid."
-msgstr ""
-"Bu sayı, ekran renk profilinin kaç gün sora geçersiz kabul edileceğini "
-"belirtir."
+msgstr "Bu sayı, ekran renk profilinin kaç gün sora geçersiz kabul edileceğini belirtir."
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:7
 msgid "The duration a printer profile is valid"
@@ -322,9 +277,7 @@ msgstr "Bir yazıcı profilinin geçerli olacağı süre"
 msgid ""
 "This is the number of days after which the printer color profile is "
 "considered invalid."
-msgstr ""
-"Bu sayı, yazıcı renk profilinin kaç gün sora geçersiz kabul edileceğini "
-"belirtir."
+msgstr "Bu sayı, yazıcı renk profilinin kaç gün sora geçersiz kabul edileceğini belirtir."
 
 #: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:1
 msgid "List of plugins that are allowed to be loaded"
@@ -335,10 +288,7 @@ msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: 'all'). The plugins still need to be marked as active to get "
 "loaded. This is only evaluated on startup."
-msgstr ""
-"Yüklenmesine izin verilen eklentileri temsil eden bir dizge listesi "
-"(öntanımlı: 'tümü'). Yine de eklentilerin yüklenebilmeleri için etkin olarak "
-"işaretlenmesi gerekir. Bu yalnızca başlangıçta değerlendirilir."
+msgstr "Yüklenmesine izin verilen eklentileri temsil eden bir dizge listesi (öntanımlı: 'tümü'). Yine de eklentilerin yüklenebilmeleri için etkin olarak işaretlenmesi gerekir. Bu yalnızca başlangıçta değerlendirilir."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:3
 msgid "Mount paths to ignore"
@@ -346,9 +296,7 @@ msgstr "Yok sayılacak bağlama yolları"
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:4
 msgid "Specify a list of mount paths to ignore when they run low on space."
-msgstr ""
-"Boş alanı düşük olduğunda gözardı edilecek bağlama yollarının listesini "
-"belirtin."
+msgstr "Boş alanı düşük olduğunda gözardı edilecek bağlama yollarının listesini belirtin."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:5
 msgid "Free percentage notify threshold"
@@ -358,9 +306,7 @@ msgstr "Boş yüzdesi bildirme eşiği"
 msgid ""
 "Percentage free space threshold for initial warning of low disk space. If "
 "the percentage free space drops below this, a warning will be shown."
-msgstr ""
-"İlk düşük disk alanı uyarısı için boş alan oranı (yüzde) eşiği. Eğer boş "
-"alan yüzdesi bu değerin altına düşerse, bir uyarı gösterilir."
+msgstr "İlk düşük disk alanı uyarısı için boş alan oranı (yüzde) eşiği. Eğer boş alan yüzdesi bu değerin altına düşerse, bir uyarı gösterilir."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:7
 msgid "Subsequent free space percentage notify threshold"
@@ -380,9 +326,7 @@ msgstr "Boş alan bildirim eşiği"
 msgid ""
 "Specify an amount in GB. If the amount of free space is more than this, no "
 "warning will be shown."
-msgstr ""
-"GB cinsinden bir miktar belirtin. Eğer boş alan miktarı bu değerden daha "
-"fazla ise, hiçbir uyarı gösterilmez."
+msgstr "GB cinsinden bir miktar belirtin. Eğer boş alan miktarı bu değerden daha fazla ise, hiçbir uyarı gösterilmez."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:11
 msgid "Minimum notify period for repeated warnings"
@@ -392,9 +336,7 @@ msgstr "Tekrarlanan uyarılar için azami süre"
 msgid ""
 "Specify a time in minutes. Subsequent warnings for a volume will not appear "
 "more often than this period."
-msgstr ""
-"Dakika olarak bir süre belirleyin. Bir birim için birbirini izleyen uyarılar "
-"bu dönemden daha sık gösterilmeyecek."
+msgstr "Dakika olarak bir süre belirleyin. Bir birim için birbirini izleyen uyarılar bu dönemden daha sık gösterilmeyecek."
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:3
 msgid "Custom keybindings"
@@ -482,9 +424,7 @@ msgstr "Yürüt (veya yürüt/duraklat)"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:24
 msgid "Binding to start playback (or toggle play/pause)."
-msgstr ""
-"Yürütmeyi başlatmak (veya yürütme/duraklatma arasında geçiş yapmak) için "
-"kısayol."
+msgstr "Yürütmeyi başlatmak (veya yürütme/duraklatma arasında geçiş yapmak) için kısayol."
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:25
 msgid "Log out"
@@ -706,9 +646,7 @@ msgstr "Servisin etkin olduğu bağlantılarda"
 msgid ""
 "The list of NetworkManager connections (each one represented with its UUID) "
 "on which this service is enabled and started."
-msgstr ""
-"Bu servisin etkin ve başlatılmış olduğu NetworkManager bağlantılarının (her "
-"biri UUID ile temsil edilir) listesi."
+msgstr "Bu servisin etkin ve başlatılmış olduğu NetworkManager bağlantılarının (her biri UUID ile temsil edilir) listesi."
 
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:3
 msgid "File for default configuration for RandR"
@@ -721,17 +659,11 @@ msgid ""
 "normally gets stored in users' home directories. If a user does not have "
 "such a file, or has one that does not match the user's setup of monitors, "
 "then the file specified by this key will be used instead."
-msgstr ""
-"XRandR eklentisi bu anahtar ile belirlenmiş dosyanın içinde öntanımlı "
-"yapılandırmaları arayacaktır. Bu ~/.config/monitors.xml gibi normalde "
-"kullanıcının ev klasöründe saklanır. Eğer kullanıcı böyle bir dosyaya sahip "
-"değilse, veya monitör kurulumuyla eşleşmeyen bir tanesi ne sahipse, o zaman "
-"bu anahtar ile belirlenmiş dosya diğerinin yerine kullanılacaktır."
+msgstr "XRandR eklentisi bu anahtar ile belirlenmiş dosyanın içinde öntanımlı yapılandırmaları arayacaktır. Bu ~/.config/monitors.xml gibi normalde kullanıcının ev klasöründe saklanır. Eğer kullanıcı böyle bir dosyaya sahip değilse, veya monitör kurulumuyla eşleşmeyen bir tanesi ne sahipse, o zaman bu anahtar ile belirlenmiş dosya diğerinin yerine kullanılacaktır."
 
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:7
 msgid "Whether to turn off specific monitors after boot"
-msgstr ""
-"Sistemi başlattıktan sonra belirli monitörlerin kapatılıp kapatılmayacağı"
+msgstr "Sistemi başlattıktan sonra belirli monitörlerin kapatılıp kapatılmayacağı"
 
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:8
 msgid ""
@@ -740,11 +672,7 @@ msgid ""
 "(extend the desktop in recent versions). The default, 'follow-lid', will "
 "choose between 'do-nothing' and 'dock' depending on whether the lid is "
 "(respectively) open or closed."
-msgstr ""
-"'clone' tüm monitörlerde aynı şeyi gösterir, 'dock' dahili monitörü kapatır, "
-"'do-nothing' öntanımlı Xorg davranışlarını kullanır (yeni versiyonlarda "
-"masaüstünü uzat). Öntanımlı olarak, 'follow-lid', bilgisayar ekranının "
-"kapalı olup olmamasına göre 'do-noting' ile 'dock' arasında geçiş yapar."
+msgstr "'clone' tüm monitörlerde aynı şeyi gösterir, 'dock' dahili monitörü kapatır, 'do-nothing' öntanımlı Xorg davranışlarını kullanır (yeni versiyonlarda masaüstünü uzat). Öntanımlı olarak, 'follow-lid', bilgisayar ekranının kapalı olup olmamasına göre 'do-noting' ile 'dock' arasında geçiş yapar."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
 msgid "Antialiasing"
@@ -755,10 +683,7 @@ msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "\"none\" for no antialiasing, \"grayscale\" for standard grayscale "
 "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
-msgstr ""
-"Yazıtipleri taranırken kullanılacak yumuşatma türü. Geçerli değerler: \"none"
-"\" - yumuşatma yok. \"grayscale\" - standart gri ölçek yumuşatma ve \"rgba"
-"\"  - alt piksel yumuşatma (sadece LCD ekranlar)."
+msgstr "Yazıtipleri taranırken kullanılacak yumuşatma türü. Geçerli değerler: \"none\" - yumuşatma yok. \"grayscale\" - standart gri ölçek yumuşatma ve \"rgba\"  - alt piksel yumuşatma (sadece LCD ekranlar)."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
 msgid "Hinting"
@@ -766,13 +691,17 @@ msgstr "Düzeltme"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:6
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: \"none"
-"\" for no hinting, \"slight\" for basic, \"medium\" for moderate, and \"full"
-"\" for maximum hinting (may cause distortion of letter forms)."
+"The type of hinting to use when rendering fonts. Possible values are: "
+"\"none\" for no hinting and \"slight\" for fitting only to the Y-axis like "
+"Microsoft's ClearType, DirectWrite and Adobe's proprietary font rendering "
+"engine. Ignores native hinting within the font, generates hints "
+"algorithmically. Used on Ubuntu by default. Recommended. The meaning of "
+"\"medium\" and \"full\" depends on the font format (.ttf, .otf, .pfa/.pfb) "
+"and the installed version of FreeType. They usually try to fit glyphs to "
+"both the X and the Y axis (except for .otf: Y-only). This can lead to "
+"distortion and/or inconsistent rendering depending on the quality of the "
+"font, the font format and the state of FreeType's font engines."
 msgstr ""
-"Yazıtiplerinde kullanılacak düzeltme türü. Geçerli değerler \"none\" - "
-"düzeltme yok, \"slight\", \"medium\", ve \"full\" - mümkün olduğunca çok "
-"düzeltme (harf biçimlerinde bozulmalara sebep olabilir)."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:9
 msgid "RGBA order"
@@ -780,15 +709,11 @@ msgstr "RGBA sırası"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:10
 msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
-"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red "
-"on bottom."
-msgstr ""
-"LCD ekranında kullanılacak alt piksel öğelerinin sırası; sadece yumuşatma "
-"\"rgba\" olarak atandığında kullanılır. Geçerli değerler: \"rgb\" - kırmızı "
-"solda (en yaygın), \"bgr\" - mavi solda. \"vrgb\"- kırmızı yukarıda. \"vbgr"
-"\" - kırmızı aşağıda."
+"The order of subpixel elements on an LCD screen; only used when antialiasing"
+" is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
+"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red"
+" on bottom."
+msgstr "LCD ekranında kullanılacak alt piksel öğelerinin sırası; sadece yumuşatma \"rgba\" olarak atandığında kullanılır. Geçerli değerler: \"rgb\" - kırmızı solda (en yaygın), \"bgr\" - mavi solda. \"vrgb\"- kırmızı yukarıda. \"vbgr\" - kırmızı aşağıda."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:11
 msgid "List of explicitly disabled GTK+ modules"
@@ -798,10 +723,7 @@ msgstr "Alenen devredışı bırakılmış GTK+ modüllerinin listesi"
 msgid ""
 "A list of strings representing the GTK+ modules that will not be loaded, "
 "even if enabled by default in their configuration."
-msgstr ""
-"Yüklenmeyecek GTK+ modüllerini temsil eden karakter katarlarını tutan liste; "
-"kendi yapılandırmalarında öntanımlı olarak etkin hale getirilecek olsalar "
-"bile."
+msgstr "Yüklenmeyecek GTK+ modüllerini temsil eden karakter katarlarını tutan liste; kendi yapılandırmalarında öntanımlı olarak etkin hale getirilecek olsalar bile."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:13
 msgid "List of explicitly enabled GTK+ modules"
@@ -809,11 +731,9 @@ msgstr "Alenen etkinleştirilmiş GTK+ modüllerinin listesi"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:14
 msgid ""
-"A list of strings representing the GTK+ modules that will be loaded, usually "
-"in addition to conditional and forcibly disabled ones."
-msgstr ""
-"Yüklenecek GTK+ modüllerini temsil eden karakter katarlarını tutan liste; "
-"Genellikle ek olarak durumsal veya zorla kapatılmış olanları."
+"A list of strings representing the GTK+ modules that will be loaded, usually"
+" in addition to conditional and forcibly disabled ones."
+msgstr "Yüklenecek GTK+ modüllerini temsil eden karakter katarlarını tutan liste; Genellikle ek olarak durumsal veya zorla kapatılmış olanları."
 
 #: ../gnome-settings-daemon/main.c:53
 msgid "Enable debugging code"
@@ -847,9 +767,7 @@ msgstr "Tuş Yavaşlatması Kapatıldı"
 msgid ""
 "You just held down the Shift key for 8 seconds.  This is the shortcut for "
 "the Slow Keys feature, which affects the way your keyboard works."
-msgstr ""
-"Sadece Shift tuşunu 8 saniye basılı tutun.  Bu klavyenizin çalışma biçimini "
-"etkileyecek Tuş Yavaşlatması özelliği için bir kısayoldur."
+msgstr "Sadece Shift tuşunu 8 saniye basılı tutun.  Bu klavyenizin çalışma biçimini etkileyecek Tuş Yavaşlatması özelliği için bir kısayoldur."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:410
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:478
@@ -888,18 +806,14 @@ msgstr "Yapışkan Tuşlar Kapatıldı"
 msgid ""
 "You just pressed the Shift key 5 times in a row.  This is the shortcut for "
 "the Sticky Keys feature, which affects the way your keyboard works."
-msgstr ""
-"Sadece Shift tuşuna 5 kere ard arda basın.  Bu klavyenizin çalışma biçimini "
-"etkileyecek Yapışkan Tuşlar özelliği için bir kısayoldur."
+msgstr "Sadece Shift tuşuna 5 kere ard arda basın.  Bu klavyenizin çalışma biçimini etkileyecek Yapışkan Tuşlar özelliği için bir kısayoldur."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:468
 msgid ""
 "You just pressed two keys at once, or pressed the Shift key 5 times in a "
 "row.  This turns off the Sticky Keys feature, which affects the way your "
 "keyboard works."
-msgstr ""
-"Aynı anda iki tuşa bastınız veya Shift tuşuna ard arda 5 kere bastınız.  Bu "
-"klavyenizin çalışma biçimini etkileyecek Yapışkan Tuşlar özelliğini kapatır."
+msgstr "Aynı anda iki tuşa bastınız veya Shift tuşuna ard arda 5 kere bastınız.  Bu klavyenizin çalışma biçimini etkileyecek Yapışkan Tuşlar özelliğini kapatır."
 
 #: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:1
 msgid "Accessibility settings"
@@ -970,7 +884,6 @@ msgid "Date and Time"
 msgstr "Tarih ve Saat"
 
 #: ../plugins/datetime/datetime.gnome-settings-plugin.in.h:3
-#| msgid "Automatically update timezone and display notifications"
 msgid "Automatically update timezone"
 msgstr "Saat dilimini otomatik olarak güncelle"
 
@@ -1001,58 +914,41 @@ msgstr "Aptal"
 msgid "Dummy plugin"
 msgstr "Yalancı eklenti"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:587
-#, c-format
-msgid "Low Disk Space on “%s”"
-msgstr "“%s” üzerinde Düşük Disk Alanı"
-
-#: ../plugins/housekeeping/gsd-disk-space.c:589
-#, c-format
-msgid ""
-"The volume “%s” has only %s disk space remaining.  You may free up some "
-"space by emptying the trash."
-msgstr ""
-"Birim “%s” üzerinde sadece %s disk alanı kaldı.  Çöpü boşaltarak biraz yer "
-"açabilirsiniz."
-
-#: ../plugins/housekeeping/gsd-disk-space.c:593
-#, c-format
-msgid "The volume “%s” has only %s disk space remaining."
-msgstr "Birim “%s” üzerinde sadece %s disk alanı kaldı."
-
-#: ../plugins/housekeeping/gsd-disk-space.c:598
-msgid "Low Disk Space"
-msgstr "Düşük Disk Alanı"
-
-#: ../plugins/housekeeping/gsd-disk-space.c:600
-#, c-format
-msgid ""
-"This computer has only %s disk space remaining.  You may free up some space "
-"by emptying the trash."
-msgstr ""
-"Bu bilgisayarda sadece %s disk alanı kaldı.  Çöpü boşaltarak biraz yer "
-"açabilirsiniz."
-
-#: ../plugins/housekeeping/gsd-disk-space.c:603
-#, c-format
-msgid "This computer has only %s disk space remaining."
-msgstr "Bu bilgisayarda sadece %s disk alanı kaldı."
-
-#: ../plugins/housekeeping/gsd-disk-space.c:618
+#: ../plugins/housekeeping/gsd-disk-space.c:577
 msgid "Disk space"
 msgstr "Disk alanı"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:625
+#: ../plugins/housekeeping/gsd-disk-space.c:589
 msgid "Examine"
 msgstr "İncele"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:633
+#: ../plugins/housekeeping/gsd-disk-space.c:600
 msgid "Empty Trash"
 msgstr "Çöpü Boşalt"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:640
+#: ../plugins/housekeeping/gsd-disk-space.c:608
 msgid "Ignore"
 msgstr "Yoksay"
+
+#: ../plugins/housekeeping/gsd-disk-space.c:638
+#: ../plugins/housekeeping/gsd-disk-space.c:664
+msgid "Low Disk Space"
+msgstr "Düşük Disk Alanı"
+
+#: ../plugins/housekeeping/gsd-disk-space.c:639
+msgid ""
+"Your computer is out of space.  To free up space, you can delete old files "
+"and empty the trash from the \"Documents\" file manager, or delete apps you "
+"may not need from the App Center."
+msgstr ""
+
+#: ../plugins/housekeeping/gsd-disk-space.c:665
+#, c-format
+msgid ""
+"Your computer has only %s of space available.  To free up space, you can "
+"delete old files and empty the trash from the \"Documents\" file manager, or"
+" delete apps you may not need from the App Center."
+msgstr ""
 
 #: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:1
 msgid "Housekeeping"
@@ -1062,9 +958,7 @@ msgstr "Temizlik"
 msgid ""
 "Automatically prunes thumbnail caches and other transient files, and warns "
 "about low disk space"
-msgstr ""
-"Otomatik olarak küçük resim belleklerini ve diğer geçici dosyaları siler ve "
-"düşük disk alanı ile ilgili uyarı verir"
+msgstr "Otomatik olarak küçük resim belleklerini ve diğer geçici dosyaları siler ve düşük disk alanı ile ilgili uyarı verir"
 
 #: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
 msgid "Keyboard"
@@ -1074,49 +968,71 @@ msgstr "Klavye"
 msgid "Keyboard plugin"
 msgstr "Klavye eklentisi"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:1985
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2178
+msgid "Bluetooth disabled"
+msgstr ""
+
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2181
+msgid "Bluetooth enabled"
+msgstr ""
+
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2185
+msgid "Airplane mode enabled"
+msgstr ""
+
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2188
+msgid "Airplane mode disabled"
+msgstr ""
+
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2216
+msgid "Hardware Airplane Mode"
+msgstr ""
+
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2276
 msgid "Screencast from %d %t.webm"
 msgstr "%d %t.webm ekran görüntüsü"
 
-#: ../plugins/media-keys/gsd-screenshot-utils.c:84
+#: ../plugins/media-keys/gsd-screenshot-utils.c:82
 msgid "Unable to capture a screenshot"
 msgstr "Ekran görüntüsü alınamadı"
 
-#: ../plugins/media-keys/gsd-screenshot-utils.c:115
+#: ../plugins/media-keys/gsd-screenshot-utils.c:113
 #: ../plugins/media-keys/gsd-screenshot-utils.c:155
 msgid "Screenshot taken"
 msgstr "Ekran görüntüsü alındı"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot
-#: ../plugins/media-keys/gsd-screenshot-utils.c:304
+#: ../plugins/media-keys/gsd-screenshot-utils.c:306
 #, c-format
 msgid "Screenshot from %s"
 msgstr "%s ekran görüntüsü"
 
 #. translators:
 #. * The device has been disabled
-#: ../plugins/media-keys/gvc/gvc-mixer-control.c:1830
+#: ../plugins/media-keys/gvc/gvc-mixer-control.c:1866
 msgid "Disabled"
 msgstr "Devre Dışı"
 
 #. translators:
 #. * The number of sound outputs on a particular device
-#: ../plugins/media-keys/gvc/gvc-mixer-control.c:1837
+#: ../plugins/media-keys/gvc/gvc-mixer-control.c:1873
 #, c-format
 msgid "%u Output"
 msgid_plural "%u Outputs"
-msgstr[0] "%u Çıkış"
+msgstr[0] ""
+msgstr[1] ""
 
 #. translators:
 #. * The number of sound inputs on a particular device
-#: ../plugins/media-keys/gvc/gvc-mixer-control.c:1847
+#: ../plugins/media-keys/gvc/gvc-mixer-control.c:1883
 #, c-format
 msgid "%u Input"
 msgid_plural "%u Inputs"
-msgstr[0] "%u Giriş"
+msgstr[0] ""
+msgstr[1] ""
 
-#: ../plugins/media-keys/gvc/gvc-mixer-control.c:2371
+#: ../plugins/media-keys/gvc/gvc-mixer-control.c:2738
 msgid "System Sounds"
 msgstr "Sistem Sesleri"
 
@@ -1162,78 +1078,89 @@ msgstr "Yavaşça Sesi Artır"
 msgid "Lock Screen"
 msgstr "Ekranı Kilitle"
 
-#: ../plugins/media-keys/shortcuts-list.h:80
+#: ../plugins/media-keys/shortcuts-list.h:81
 msgid "Rewind"
 msgstr "Geri Sar"
 
-#: ../plugins/media-keys/shortcuts-list.h:81
+#: ../plugins/media-keys/shortcuts-list.h:82
 msgid "Forward"
 msgstr "İleri Sar"
 
-#: ../plugins/media-keys/shortcuts-list.h:82
+#: ../plugins/media-keys/shortcuts-list.h:83
 msgid "Repeat"
 msgstr "Tekrarla"
 
-#: ../plugins/media-keys/shortcuts-list.h:83
+#: ../plugins/media-keys/shortcuts-list.h:84
 msgid "Random Play"
 msgstr "Rasgele Yürüt"
 
-#. Key code of the XF86Display key (Fn-F7 on Thinkpads, Fn-F4 on HP machines, etc.)
-#: ../plugins/media-keys/shortcuts-list.h:84
-#: ../plugins/media-keys/shortcuts-list.h:86
+#. Key code of the XF86Display key (Fn-F7 on Thinkpads, Fn-F4 on HP machines,
+#. etc.)
+#: ../plugins/media-keys/shortcuts-list.h:85
+#: ../plugins/media-keys/shortcuts-list.h:87
 msgid "Video Out"
 msgstr "Görüntü Çıkışı"
 
 #. Key code of the XF86RotateWindows key (present on some tablets)
-#: ../plugins/media-keys/shortcuts-list.h:88
+#: ../plugins/media-keys/shortcuts-list.h:89
 msgid "Rotate Screen"
 msgstr "Ekranı Döndür"
 
-#: ../plugins/media-keys/shortcuts-list.h:89
+#: ../plugins/media-keys/shortcuts-list.h:90
 msgid "Orientation Lock"
 msgstr "Yönelim Kilidi"
 
-#: ../plugins/media-keys/shortcuts-list.h:98
+#: ../plugins/media-keys/shortcuts-list.h:99
 msgid "Power Off"
 msgstr "Kapat"
 
 #. the kernel / Xorg names really are like this...
-#. translators: "Sleep" means putting the machine to sleep, either through hibernate or suspend
-#: ../plugins/media-keys/shortcuts-list.h:101
+#. translators: "Sleep" means putting the machine to sleep, either through
+#. hibernate or suspend
+#: ../plugins/media-keys/shortcuts-list.h:102
 msgid "Sleep"
 msgstr "Uyku"
 
-#: ../plugins/media-keys/shortcuts-list.h:102
+#: ../plugins/media-keys/shortcuts-list.h:103
 msgid "Suspend"
 msgstr "Beklet"
 
-#: ../plugins/media-keys/shortcuts-list.h:103
+#: ../plugins/media-keys/shortcuts-list.h:104
 msgid "Hibernate"
 msgstr "Derin Uyku"
 
-#: ../plugins/media-keys/shortcuts-list.h:104
+#: ../plugins/media-keys/shortcuts-list.h:105
 msgid "Brightness Up"
 msgstr "Parlaklığı Artır"
 
-#: ../plugins/media-keys/shortcuts-list.h:105
+#: ../plugins/media-keys/shortcuts-list.h:106
 msgid "Brightness Down"
 msgstr "Parlaklığı Azalt"
 
-#: ../plugins/media-keys/shortcuts-list.h:106
+#: ../plugins/media-keys/shortcuts-list.h:107
 msgid "Keyboard Brightness Up"
 msgstr "Klavye Parlaklığını Artır"
 
-#: ../plugins/media-keys/shortcuts-list.h:107
+#: ../plugins/media-keys/shortcuts-list.h:108
 msgid "Keyboard Brightness Down"
 msgstr "Klavye Parlaklığını Azalt"
 
-#: ../plugins/media-keys/shortcuts-list.h:108
+#: ../plugins/media-keys/shortcuts-list.h:109
 msgid "Keyboard Brightness Toggle"
 msgstr "Klavye Parlaklığını Değiştir"
 
-#: ../plugins/media-keys/shortcuts-list.h:109
+#: ../plugins/media-keys/shortcuts-list.h:110
 msgid "Battery Status"
 msgstr "Pil Durumu"
+
+#: ../plugins/media-keys/shortcuts-list.h:111
+#: ../plugins/media-keys/shortcuts-list.h:112
+msgid "Toggle Airplane Mode"
+msgstr ""
+
+#: ../plugins/media-keys/shortcuts-list.h:113
+msgid "Toggle Bluetooth"
+msgstr ""
 
 #: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
 msgid "Mouse"
@@ -1260,13 +1187,15 @@ msgstr "Bilinmeyen süre"
 #, c-format
 msgid "%i minute"
 msgid_plural "%i minutes"
-msgstr[0] "%i dakika"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../plugins/power/gpm-common.c:96
 #, c-format
 msgid "%i hour"
 msgid_plural "%i hours"
-msgstr[0] "%i saat"
+msgstr[0] ""
+msgstr[1] ""
 
 #. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
 #. * Swap order with "%2$s %2$i %1$s %1$i if needed
@@ -1278,354 +1207,331 @@ msgstr "%i %s %i %s"
 #: ../plugins/power/gpm-common.c:103
 msgid "hour"
 msgid_plural "hours"
-msgstr[0] "saat"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../plugins/power/gpm-common.c:104
 msgid "minute"
 msgid_plural "minutes"
-msgstr[0] "dakika"
+msgstr[0] ""
+msgstr[1] ""
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gpm-common.c:909 ../plugins/power/gsd-power-manager.c:685
-#: ../plugins/power/gsd-power-manager.c:785
+#: ../plugins/power/gpm-common.c:909 ../plugins/power/gsd-power-manager.c:681
+#: ../plugins/power/gsd-power-manager.c:778
 msgid "Battery is critically low"
 msgstr "Pil gücü tehlikeli biçimde düşük"
 
-#. TRANSLATORS: UPS is now discharging
-#: ../plugins/power/gsd-power-manager.c:345
-msgid "UPS Discharging"
-msgstr "UPS Boşalıyor"
-
-#. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:350
-#, c-format
-msgid "%s of UPS backup power remaining"
-msgstr "UPS yedek gücü %s kaldı"
-
-#: ../plugins/power/gsd-power-manager.c:353
-msgid "Unknown amount of UPS backup power remaining"
-msgstr "Bilinmeyen miktarda UPS yedek gücü kaldı"
-
 #. TRANSLATORS: this is the notification application name
-#: ../plugins/power/gsd-power-manager.c:369
-#: ../plugins/power/gsd-power-manager.c:517
-#: ../plugins/power/gsd-power-manager.c:668
-#: ../plugins/power/gsd-power-manager.c:776
-#: ../plugins/power/gsd-power-manager.c:2063
+#: ../plugins/power/gsd-power-manager.c:319
 #: ../plugins/power/power.gnome-settings-plugin.in.h:1
 msgid "Power"
 msgstr "Güç"
 
+#. TRANSLATORS: UPS is now discharging
+#: ../plugins/power/gsd-power-manager.c:351
+msgid "UPS Discharging"
+msgstr "UPS Boşalıyor"
+
+#. TRANSLATORS: tell the user how much time they have got
+#: ../plugins/power/gsd-power-manager.c:356
+#, c-format
+msgid "%s of UPS backup power remaining"
+msgstr "UPS yedek gücü %s kaldı"
+
+#: ../plugins/power/gsd-power-manager.c:359
+msgid "Unknown amount of UPS backup power remaining"
+msgstr "Bilinmeyen miktarda UPS yedek gücü kaldı"
+
 #. TRANSLATORS: laptop battery low, and we only have one battery
-#: ../plugins/power/gsd-power-manager.c:432
+#: ../plugins/power/gsd-power-manager.c:434
 msgid "Battery low"
 msgstr "Pil zayıf"
 
 #. TRANSLATORS: laptop battery low, and we have more than one kind of battery
-#: ../plugins/power/gsd-power-manager.c:435
+#: ../plugins/power/gsd-power-manager.c:437
 msgid "Laptop battery low"
 msgstr "Dizüstü pili zayıf"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:442
+#: ../plugins/power/gsd-power-manager.c:444
 #, c-format
 msgid "Approximately %s remaining (%.0f%%)"
 msgstr "Yaklaşık %s kaldı (%.0f%%)"
 
 #. TRANSLATORS: UPS is starting to get a little low
-#: ../plugins/power/gsd-power-manager.c:447
+#: ../plugins/power/gsd-power-manager.c:449
 msgid "UPS low"
 msgstr "UPS zayıf"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:453
+#: ../plugins/power/gsd-power-manager.c:455
 #, c-format
 msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
 msgstr "Yaklaşık %s UPS güç beslemesi kaldı (%.0f%%)"
 
 #. TRANSLATORS: mouse is getting a little low
 #. TRANSLATORS: the mouse battery is very low
-#: ../plugins/power/gsd-power-manager.c:458
-#: ../plugins/power/gsd-power-manager.c:595
+#: ../plugins/power/gsd-power-manager.c:460
+#: ../plugins/power/gsd-power-manager.c:594
 msgid "Mouse battery low"
 msgstr "Fare pili zayıf"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:461
+#: ../plugins/power/gsd-power-manager.c:463
 #, c-format
 msgid "Wireless mouse is low in power (%.0f%%)"
 msgstr "Kablosuz farenin güç seviyesi düşük (%.0f%%)"
 
 #. TRANSLATORS: keyboard is getting a little low
 #. TRANSLATORS: the keyboard battery is very low
-#: ../plugins/power/gsd-power-manager.c:465
-#: ../plugins/power/gsd-power-manager.c:603
+#: ../plugins/power/gsd-power-manager.c:467
+#: ../plugins/power/gsd-power-manager.c:602
 msgid "Keyboard battery low"
 msgstr "Klavye pili zayıf"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:468
+#: ../plugins/power/gsd-power-manager.c:470
 #, c-format
 msgid "Wireless keyboard is low in power (%.0f%%)"
 msgstr "Kablosuz klavyenin güç seviyesi düşük (%.0f%%)"
 
 #. TRANSLATORS: PDA is getting a little low
 #. TRANSLATORS: the PDA battery is very low
-#: ../plugins/power/gsd-power-manager.c:472
-#: ../plugins/power/gsd-power-manager.c:612
+#: ../plugins/power/gsd-power-manager.c:474
+#: ../plugins/power/gsd-power-manager.c:611
 msgid "PDA battery low"
 msgstr "PDA pili zayıf"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:475
+#: ../plugins/power/gsd-power-manager.c:477
 #, c-format
 msgid "PDA is low in power (%.0f%%)"
 msgstr "PDA'nın güç seviyesi düşük (%.0f%%)"
 
 #. TRANSLATORS: cell phone (mobile) is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:479
-#: ../plugins/power/gsd-power-manager.c:622
-#: ../plugins/power/gsd-power-manager.c:631
+#: ../plugins/power/gsd-power-manager.c:481
+#: ../plugins/power/gsd-power-manager.c:621
+#: ../plugins/power/gsd-power-manager.c:630
 msgid "Cell phone battery low"
 msgstr "Cep telefonu pili zayıf"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:482
+#: ../plugins/power/gsd-power-manager.c:484
 #, c-format
 msgid "Cell phone is low in power (%.0f%%)"
 msgstr "Cep telefonunun güç seviyesi düşük (%.0f%%)"
 
 #. TRANSLATORS: media player, e.g. mp3 is getting a little low
-#: ../plugins/power/gsd-power-manager.c:486
+#: ../plugins/power/gsd-power-manager.c:488
 msgid "Media player battery low"
 msgstr "Ortam oynatıcısı pili zayıf"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:489
+#: ../plugins/power/gsd-power-manager.c:491
 #, c-format
 msgid "Media player is low in power (%.0f%%)"
 msgstr "Ortam yürütücünün güç seviyesi düşük (%.0f%%)"
 
 #. TRANSLATORS: graphics tablet, e.g. wacom is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:493
-#: ../plugins/power/gsd-power-manager.c:640
+#: ../plugins/power/gsd-power-manager.c:495
+#: ../plugins/power/gsd-power-manager.c:639
 msgid "Tablet battery low"
 msgstr "Tablet pili zayıf"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:496
+#: ../plugins/power/gsd-power-manager.c:498
 #, c-format
 msgid "Tablet is low in power (%.0f%%)"
 msgstr "Tablet'in güç seviyesi düşük (%.0f%%)"
 
 #. TRANSLATORS: computer, e.g. ipad is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:500
-#: ../plugins/power/gsd-power-manager.c:649
+#: ../plugins/power/gsd-power-manager.c:502
+#: ../plugins/power/gsd-power-manager.c:648
 msgid "Attached computer battery low"
 msgstr "Bağlanmış bilgisayar pili zayıf"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:503
+#: ../plugins/power/gsd-power-manager.c:505
 #, c-format
 msgid "Attached computer is low in power (%.0f%%)"
 msgstr "Bağlanmış bilgisayarın güç seviyesi düşük (%.0f%%)"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:527
+#: ../plugins/power/gsd-power-manager.c:526
 msgid "Battery is low"
 msgstr "Pil seviyesi düşük"
 
-#. TRANSLATORS: laptop battery critically low, and only have one kind of battery
-#: ../plugins/power/gsd-power-manager.c:559
+#. TRANSLATORS: laptop battery critically low, and only have one kind of
+#. battery
+#: ../plugins/power/gsd-power-manager.c:558
 msgid "Battery critically low"
 msgstr "Pil gücü tehlikeli biçimde düşük"
 
-#. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
+#. TRANSLATORS: laptop battery critically low, and we have more than one type
+#. of battery
 #. TRANSLATORS: laptop battery is really, really, low
-#: ../plugins/power/gsd-power-manager.c:562
-#: ../plugins/power/gsd-power-manager.c:712
+#: ../plugins/power/gsd-power-manager.c:561
+#: ../plugins/power/gsd-power-manager.c:708
 msgid "Laptop battery critically low"
 msgstr "Dizüstü pil gücü tehlikeli biçimde düşük"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:571
+#: ../plugins/power/gsd-power-manager.c:570
 #, c-format
 msgid "Computer will hibernate very soon unless it is plugged in."
-msgstr ""
-"Bilgisayarınız fişe takılmadığı taktirde çok kısa bir süre içinde beklemeye "
-"alınacak."
+msgstr "Bilgisayarınız fişe takılmadığı taktirde çok kısa bir süre içinde beklemeye alınacak."
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:575
+#: ../plugins/power/gsd-power-manager.c:574
 #, c-format
 msgid "Computer will shutdown very soon unless it is plugged in."
-msgstr ""
-"Bilgisayarınız fişe takılmadığı taktirde çok kısa bir süre içinde kapanacak."
+msgstr "Bilgisayarınız fişe takılmadığı taktirde çok kısa bir süre içinde kapanacak."
 
 #. TRANSLATORS: the UPS is very low
 #. TRANSLATORS: UPS is really, really, low
-#: ../plugins/power/gsd-power-manager.c:583
-#: ../plugins/power/gsd-power-manager.c:737
+#: ../plugins/power/gsd-power-manager.c:582
+#: ../plugins/power/gsd-power-manager.c:733
 msgid "UPS critically low"
 msgstr "UPS tehlikeli biçimde zayıf"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:589
+#: ../plugins/power/gsd-power-manager.c:588
 #, c-format
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
 "computer to avoid losing data."
-msgstr ""
-"Yaklaşık %s UPS gücü kaldı (%.0f%%). Veri kaybetmemek için bilgisayarınızı "
-"prize tekrar bağlayın."
+msgstr "Yaklaşık %s UPS gücü kaldı (%.0f%%). Veri kaybetmemek için bilgisayarınızı prize tekrar bağlayın."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:598
+#: ../plugins/power/gsd-power-manager.c:597
 #, c-format
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Kablosuz farenin güç seviyesi çok düşük (%.0f%%). Eğer şarj edilmezse, bu "
-"aygıt yakında işlevselliğini yitirecek."
+msgstr "Kablosuz farenin güç seviyesi çok düşük (%.0f%%). Eğer şarj edilmezse, bu aygıt yakında işlevselliğini yitirecek."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:606
+#: ../plugins/power/gsd-power-manager.c:605
 #, c-format
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Kablosuz klavyenin güç seviyesi çok düşük (%.0f%%). Eğer şarj edilmezse, bu "
-"aygıt yakında işlevselliğini yitirecek."
+msgstr "Kablosuz klavyenin güç seviyesi çok düşük (%.0f%%). Eğer şarj edilmezse, bu aygıt yakında işlevselliğini yitirecek."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:615
+#: ../plugins/power/gsd-power-manager.c:614
 #, c-format
 msgid ""
-"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
-"not charged."
-msgstr ""
-"PDA'nın güç seviyesi çok düşük (%.0f%%). Eğer şarj edilmezse, bu aygıt "
-"yakında işlevselliğini yitirecek."
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if"
+" not charged."
+msgstr "PDA'nın güç seviyesi çok düşük (%.0f%%). Eğer şarj edilmezse, bu aygıt yakında işlevselliğini yitirecek."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:625
+#: ../plugins/power/gsd-power-manager.c:624
 #, c-format
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Cep telefonunun güç seviyesi çok düşük (%.0f%%). Eğer şarj edilmezse, bu "
-"aygıt yakında işlevselliğini yitirecek."
+msgstr "Cep telefonunun güç seviyesi çok düşük (%.0f%%). Eğer şarj edilmezse, bu aygıt yakında işlevselliğini yitirecek."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:634
+#: ../plugins/power/gsd-power-manager.c:633
 #, c-format
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Ortam yürütücünün güç seviyesi çok düşük (%.0f%%). Eğer şarj edilmezse, bu "
-"aygıt yakında işlevselliğini yitirecek."
+msgstr "Ortam yürütücünün güç seviyesi çok düşük (%.0f%%). Eğer şarj edilmezse, bu aygıt yakında işlevselliğini yitirecek."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:643
+#: ../plugins/power/gsd-power-manager.c:642
 #, c-format
 msgid ""
-"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
-"if not charged."
-msgstr ""
-"Tablet bilgisayarın güç seviyesi çok düşük (%.0f%%). Eğer şarj edilmezse, bu "
-"aygıt yakında işlevselliğini yitirecek."
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning"
+" if not charged."
+msgstr "Tablet bilgisayarın güç seviyesi çok düşük (%.0f%%). Eğer şarj edilmezse, bu aygıt yakında işlevselliğini yitirecek."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:652
+#: ../plugins/power/gsd-power-manager.c:651
 #, c-format
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
 "shutdown if not charged."
-msgstr ""
-"Bağlanmış bilgisayarın güç seviyesi çok düşük (%.0f%%). Eğer şarj edilmezse, "
-"bu aygıt yakında işlevselliğini yitirecek."
+msgstr "Bağlanmış bilgisayarın güç seviyesi çok düşük (%.0f%%). Eğer şarj edilmezse, bu aygıt yakında işlevselliğini yitirecek."
 
 #. TRANSLATORS: computer will hibernate
-#: ../plugins/power/gsd-power-manager.c:720
+#: ../plugins/power/gsd-power-manager.c:716
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
-msgstr ""
-"Pil gücü tehlikeli seviyenin altında ve bu bilgisayar beklemeye geçmek üzere."
+msgstr "Pil gücü tehlikeli seviyenin altında ve bu bilgisayar beklemeye geçmek üzere."
 
 #. TRANSLATORS: computer will just shutdown
-#: ../plugins/power/gsd-power-manager.c:725
+#: ../plugins/power/gsd-power-manager.c:721
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "shutdown."
-msgstr ""
-"Pil gücü tehlikeli seviyenin altında ve bu bilgisayar kapatılmak üzere."
+msgstr "Pil gücü tehlikeli seviyenin altında ve bu bilgisayar kapatılmak üzere."
 
 #. TRANSLATORS: computer will hibernate
-#: ../plugins/power/gsd-power-manager.c:745
+#: ../plugins/power/gsd-power-manager.c:741
 msgid ""
 "UPS is below the critical level and this computer is about to hibernate."
-msgstr ""
-"UPS gücü tehlikeli sınırın altında ve bu bilgisayar beklemeye alınmak üzere."
+msgstr "UPS gücü tehlikeli sınırın altında ve bu bilgisayar beklemeye alınmak üzere."
 
 #. TRANSLATORS: computer will just shutdown
-#: ../plugins/power/gsd-power-manager.c:750
-msgid "UPS is below the critical level and this computer is about to shutdown."
+#: ../plugins/power/gsd-power-manager.c:746
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
 msgstr "UPS gücü tehlikeli sınırın altında ve bu bilgisayar kapatılmak üzere."
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1255
+#: ../plugins/power/gsd-power-manager.c:1259
 msgid "Lid has been opened"
 msgstr "Kapak açıldı"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1293
+#: ../plugins/power/gsd-power-manager.c:1297
 msgid "Lid has been closed"
 msgstr "Kapak kapatıldı"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1854
+#: ../plugins/power/gsd-power-manager.c:1856
 msgid "On battery power"
 msgstr "Pille çalışıyor"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1859
+#: ../plugins/power/gsd-power-manager.c:1861
 msgid "On AC power"
 msgstr "Adaptör ile çalışıyor"
 
-#: ../plugins/power/gsd-power-manager.c:2041
+#: ../plugins/power/gsd-power-manager.c:2053
 msgid "Automatic logout"
 msgstr "Otomatik oturum kapatma"
 
-#: ../plugins/power/gsd-power-manager.c:2041
+#: ../plugins/power/gsd-power-manager.c:2053
 msgid "You will soon log out because of inactivity."
 msgstr "Hareketsizlikten dolayı oturumunuz kısa süre içinde kapatılacak"
 
-#: ../plugins/power/gsd-power-manager.c:2046
+#: ../plugins/power/gsd-power-manager.c:2058
 msgid "Automatic suspend"
 msgstr "Otomatik bekleme"
 
-#: ../plugins/power/gsd-power-manager.c:2046
-#: ../plugins/power/gsd-power-manager.c:2051
+#: ../plugins/power/gsd-power-manager.c:2058
+#: ../plugins/power/gsd-power-manager.c:2063
 msgid "Computer will suspend very soon because of inactivity."
-msgstr ""
-"Hareketsizlikten dolayı oturumunuz kısa süre içinde beklemeye alınacak."
+msgstr "Hareketsizlikten dolayı oturumunuz kısa süre içinde beklemeye alınacak."
 
-#: ../plugins/power/gsd-power-manager.c:2051
+#: ../plugins/power/gsd-power-manager.c:2063
 msgid "Automatic hibernation"
 msgstr "Otomatik derin uyku"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the backlight brightness.
-#.
 #: ../plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in.h:5
 msgid "Modify the laptop brightness"
 msgstr "Dizüstü parlaklığını değiştir"
@@ -1666,214 +1572,231 @@ msgstr "Bu yazıcı için yazıcı sürücüsü yok."
 
 #: ../plugins/print-notifications/gsd-printer.c:1031
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:274
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:716
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:806
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:849
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:752
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:842
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:885
 msgid "Printers"
 msgstr "Yazıcılar"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:380
-msgid "Toner low"
-msgstr "Düşük toner"
-
-#. Translators: The printer has no toner left (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:382
-msgid "Toner empty"
-msgstr "Toner boş"
-
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:384
-msgid "Not connected?"
-msgstr "Bağlanmadı mı?"
-
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:386
-msgid "Cover open"
-msgstr "Kapak açık"
-
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:388
-msgid "Printer configuration error"
-msgstr "Yazıcı yapılandırma hatası"
-
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:390
-msgid "Door open"
-msgstr "Kapı açık"
-
-#. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:392
-msgid "Marker supply low"
-msgstr "Marker kaynağı az"
-
-#. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:394
-msgid "Out of a marker supply"
-msgstr "Marker kaynağı tükenmiş"
-
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:396
-msgid "Paper low"
-msgstr "Kağıt az"
-
-#. Translators: At least one input tray is empty (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:398
-msgid "Out of paper"
-msgstr "Kağıt tükenmiş"
-
-#. Translators: The printer is offline (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:400
-msgid "Printer off-line"
-msgstr "Yazıcı çevrimdışı"
-
-#. Translators: The printer has detected an error (same as in system-config-printer)
-#. Translators: This is a title of an error notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:402
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:792
-msgid "Printer error"
-msgstr "Yazıcı hatası"
-
-#. Translators: The printer is low on toner (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:406
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:350
 #, c-format
 msgid "Printer '%s' is low on toner."
 msgstr "Yazıcı '%s' de toner az kalmış."
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:408
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:354
 #, c-format
 msgid "Printer '%s' has no toner left."
 msgstr "'%s' yazıcısının toneri tükenmiş."
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:410
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:358
 #, c-format
 msgid "Printer '%s' may not be connected."
 msgstr "Yazıcı '%s' bağlı olmayabilir."
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:412
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:362
 #, c-format
 msgid "The cover is open on printer '%s'."
 msgstr "'%s' yazıcısının kapağı açık. "
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:414
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:366
 #, c-format
 msgid "There is a missing print filter for printer '%s'."
 msgstr "'%s' yazıcısı için bir yazdırma filitresi eksik."
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:417
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:371
 #, c-format
 msgid "The door is open on printer '%s'."
 msgstr "'%s' yazıcısının kapısı açık."
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:419
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:375
 #, c-format
 msgid "Printer '%s' is low on a marker supply."
 msgstr "'%s' yazıcısının marker kaynaklarından biri azalmış."
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:421
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:379
 #, c-format
 msgid "Printer '%s' is out of a marker supply."
 msgstr "'%s' yazıcısının marker kaynaklarından biri tükenmiş."
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:423
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:383
 #, c-format
 msgid "Printer '%s' is low on paper."
 msgstr "'%s' yazıcısında kağıt azalmış."
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:425
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:387
 #, c-format
 msgid "Printer '%s' is out of paper."
 msgstr "'%s' yazıcısında kağıt tükenmiş"
 
 #. Translators: The printer is offline (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:427
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:391
 #, c-format
 msgid "Printer '%s' is currently off-line."
 msgstr "'%s' yazıcısı şu anda çevrim dışı."
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:429
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "There is a problem on printer '%s'."
 msgstr "'%s' yazıcısında bir problem var."
 
+#. Translators: The printer is low on toner (same as in system-config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:443
+msgid "Toner low"
+msgstr "Düşük toner"
+
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:445
+msgid "Toner empty"
+msgstr "Toner boş"
+
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:447
+msgid "Not connected?"
+msgstr "Bağlanmadı mı?"
+
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:449
+msgid "Cover open"
+msgstr "Kapak açık"
+
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:451
+msgid "Printer configuration error"
+msgstr "Yazıcı yapılandırma hatası"
+
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:453
+msgid "Door open"
+msgstr "Kapı açık"
+
+#. Translators: "marker" is one color bin of the printer
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:455
+msgid "Marker supply low"
+msgstr "Marker kaynağı az"
+
+#. Translators: "marker" is one color bin of the printer
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:457
+msgid "Out of a marker supply"
+msgstr "Marker kaynağı tükenmiş"
+
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:459
+msgid "Paper low"
+msgstr "Kağıt az"
+
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:461
+msgid "Out of paper"
+msgstr "Kağıt tükenmiş"
+
+#. Translators: The printer is offline (same as in system-config-printer)
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:463
+msgid "Printer off-line"
+msgstr "Yazıcı çevrimdışı"
+
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
+#. Translators: This is a title of an error notification for a printer
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:465
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:828
+msgid "Printer error"
+msgstr "Yazıcı hatası"
+
 #. Translators: New printer has been added
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:477
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:513
 msgid "Printer added"
 msgstr "Yazıcı eklendi"
 
 #. Translators: A print job has been stopped
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:494
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:532
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:530
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:568
 msgctxt "print job state"
 msgid "Printing stopped"
 msgstr "Yazdırma durduruldu"
 
 #. Translators: "print-job xy" on a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:496
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:502
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:508
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:514
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:526
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:534
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:542
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:532
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:538
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:544
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:550
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:558
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:571
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:562
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:570
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:578
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:586
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:594
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:607
 #, c-format
 msgctxt "print job"
 msgid "\"%s\" on %s"
 msgstr "\"%s\", %s yazıcısında"
 
 #. Translators: A print job has been canceled
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:500
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:540
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:536
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:576
 msgctxt "print job state"
 msgid "Printing canceled"
 msgstr "Yazdırma iptal edildi"
 
 #. Translators: A print job has been aborted
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:506
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:548
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:542
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:584
 msgctxt "print job state"
 msgid "Printing aborted"
 msgstr "Yazdırma durduruldu"
 
 #. Translators: A print job has been completed
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:512
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:556
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:548
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:592
 msgctxt "print job state"
 msgid "Printing completed"
 msgstr "Yazdırma tamamlandı"
 
 #. Translators: A job is printing
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:524
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:569
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:560
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:605
 msgctxt "print job state"
 msgid "Printing"
 msgstr "Yazdırılıyor"
 
 #. Translators: This is a title of a report notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:786
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:822
 msgid "Printer report"
 msgstr "Yazıcı raporu"
 
 #. Translators: This is a title of a warning notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:789
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:825
 msgid "Printer warning"
 msgstr "Yazıcı uyarısı"
 
-#. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:799
+#. Translators: "Printer 'MyPrinterName': 'Description of the
+#. report/warning/error from a PPD file'."
+#: ../plugins/print-notifications/gsd-print-notifications-manager.c:835
 #, c-format
 msgid "Printer '%s': '%s'."
 msgstr "'%s' yazıcısı: '%s'."
@@ -1945,13 +1868,13 @@ msgid "Show On-Screen Help"
 msgstr "Ekran Üstü Yardım Göster"
 
 #: ../plugins/wacom/gsd-wacom-button-editor.c:154
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1096
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1098
 msgctxt "Action type"
 msgid "Show On-Screen Help"
 msgstr "Ekran Üstü Yardım Göster"
 
 #: ../plugins/wacom/gsd-wacom-button-editor.c:157
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1099
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1101
 msgctxt "Action type"
 msgid "Switch Monitor"
 msgstr "Ekran Değiştir"
@@ -2030,22 +1953,22 @@ msgstr "Sağ Dokunmatik Şerit Kipi Değiştir"
 msgid "Mode Switch #%d"
 msgstr "Kip Değiştir #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1300
+#: ../plugins/wacom/gsd-wacom-device.c:1238
 #, c-format
 msgid "Left Button #%d"
 msgstr "Sol Düğme #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1303
+#: ../plugins/wacom/gsd-wacom-device.c:1241
 #, c-format
 msgid "Right Button #%d"
 msgstr "Sağ Düğme #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1306
+#: ../plugins/wacom/gsd-wacom-device.c:1244
 #, c-format
 msgid "Top Button #%d"
 msgstr "Üst Düğme #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1309
+#: ../plugins/wacom/gsd-wacom-device.c:1247
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "Alt Düğme #%d"
@@ -2054,79 +1977,74 @@ msgstr "Alt Düğme #%d"
 msgid "New shortcut…"
 msgstr "Yeni kısayol…"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1010
+#: ../plugins/wacom/gsd-wacom-manager.c:1037
 #, c-format
 msgid "The \"%s\" tablet may not work as expected."
 msgstr "\"%s\" tableti beklendiği gibi çalışmayabilir."
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1011
+#: ../plugins/wacom/gsd-wacom-manager.c:1038
 msgid "Unknown Tablet Connected"
 msgstr "Bilinmeyen Tablet Bağlandı"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1015
+#: ../plugins/wacom/gsd-wacom-manager.c:1042
 msgid "Wacom Settings"
 msgstr "Wacom Ayarları"
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1073
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1093
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1104
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1075
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1095
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1106
 msgctxt "Action type"
 msgid "None"
 msgstr "Hiçbiri"
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1078
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1080
 #, c-format
 msgctxt "Action type"
 msgid "Send Keystroke %s"
 msgstr "%s Tuş Vuruşu Gönder"
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1137
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1139
 #, c-format
 msgid "Mode %d: %s"
 msgstr "Kip %d: %s"
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1347
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1349
 msgid "(press any key to exit)"
 msgstr "(çıkış için herhangi bir tuşa basın)"
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1356
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1358
 msgid "Push a button to configure"
 msgstr "Yapılandırmak için bir düğmeye basın"
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1356
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1358
 msgid "(Esc to cancel)"
 msgstr "(Çıkış için Esc tuşuna basın)"
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1983
+#: ../plugins/wacom/gsd-wacom-osd-window.c:1985
 msgid "Edit"
 msgstr "Düzenle"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the LED setting for a Wacom tablet
-#.
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:5
 msgid "Modify the lit LED for a Wacom tablet"
 msgstr "Wacom tablet için yanacak LED ışığını değiştir"
 
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:6
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
-msgstr ""
-"Wacom tablet için yanacak LED ışığını değiştirmek için kimlik doğrulama "
-"gerekli"
+msgstr "Wacom tablet için yanacak LED ışığını değiştirmek için kimlik doğrulama gerekli"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the OLED images for a Wacom tablet
-#.
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:11
 msgid "Modify the OLED image for a Wacom tablet"
 msgstr "Wacom tablet için OLED resmini değiştir"
 
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:12
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
-msgstr ""
-"Wacom tablet için OLED resmini değiştirmek için kimlik doğrulama gerekli"
+msgstr "Wacom tablet için OLED resmini değiştirmek için kimlik doğrulama gerekli"
 
 #: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:1
 msgid "Wacom"
@@ -2156,1351 +2074,3 @@ msgstr "X Ayarları"
 #: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
 msgid "Manage X Settings"
 msgstr "X Ayarlarını Yönet"
-
-#~ msgid "Wacom last calibrated resolution"
-#~ msgstr "Wacom son kalibre edilen çözünürlüğü"
-
-#~ msgid ""
-#~ "Holds the last calibrated resolution to help check if calibration is "
-#~ "needed."
-#~ msgstr ""
-#~ "Son kalibre edilen çözünürlüğü kalibre ihtiyacını kontrol etmek için "
-#~ "saklar."
-
-#~ msgid "Don't show any warnings again for this file system"
-#~ msgstr "Bu dosya sistemi için bir daha uyarı gösterme"
-
-#~ msgid "Don't show any warnings again"
-#~ msgstr "_Bir daha hiçbir uyarı gösterme"
-
-#~ msgid "The volume \"%s\" has only %s disk space remaining."
-#~ msgstr "Birim \"%s\" üzerinde sadece %s disk alanı kaldı."
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to another disk or partition."
-#~ msgstr ""
-#~ "Çöp'ü boşaltarak, kullanmadığınız programları ya da dosyaları silerek ya "
-#~ "da dosyaları başka bir diske veya bölümlemeye taşıyarak disk boş "
-#~ "alanınızı arttırabilirsiniz."
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to another disk or partition."
-#~ msgstr ""
-#~ "Kullanmadığınız programları ya da dosyaları silerek ya da dosyaları başka "
-#~ "bir diske veya bölümlemeye taşıyarak disk boş alanınızı arttırabilirsiniz."
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to an external disk."
-#~ msgstr ""
-#~ "Çöp'ü boşaltarak, kullanmadığınız programları ya da dosyaları silerek ya "
-#~ "da dosyaları başka bir harici diske taşıyarak disk boş alanınızı "
-#~ "arttırabilirsiniz."
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to an external disk."
-#~ msgstr ""
-#~ "Kullanmadığınız programları ya da dosyaları silerek ya da dosyaları başka "
-#~ "bir harici diske taşıyarak disk boş alanınızı arttırabilirsiniz."
-
-#~ msgid "Examine…"
-#~ msgstr "İncele..."
-
-#~ msgid "Printer removed"
-#~ msgstr "Yazıcı çıkartıldı"
-
-#~ msgid "Tablet %s needs to be calibrated."
-#~ msgstr "%s tabletinin kalibre edilmesi gerekiyor."
-
-#~ msgid "Calibration needed"
-#~ msgstr "Kalibrasyon gerekli"
-
-#~ msgid "Calibrate"
-#~ msgstr "Kalibre et"
-
-#~ msgid "Disable touchpad while typing"
-#~ msgstr "Yazarken dokunmatik yüzeyi devre dışı bırak"
-
-#~ msgid ""
-#~ "Set this to TRUE if you have problems with accidentally hitting the "
-#~ "touchpad while typing."
-#~ msgstr ""
-#~ "Eğer yazarken kazayla dokunmatik yüzeye dokunma sorunları yaşıyorsanız "
-#~ "bunu DOĞRU olarak ayarlayın."
-
-#~ msgid "Enable horizontal scrolling"
-#~ msgstr "Yatay kaydırmayı etkinleştir"
-
-#~ msgid ""
-#~ "Set this to TRUE to allow horizontal scrolling by the same method "
-#~ "selected with the scroll_method key."
-#~ msgstr ""
-#~ "Eğer scroll_method anahtarında seçili yöntemle aynı şekilde yatay "
-#~ "kaydırma istiyorsanız bunu doğru olarak atayın."
-
-#~ msgid "Select the touchpad scroll method"
-#~ msgstr "Dokunmatik yüzey kaydırma yöntemini seçin"
-
-#~ msgid ""
-#~ "Select the touchpad scroll method. Supported values are: \"disabled\", "
-#~ "\"edge-scrolling\", \"two-finger-scrolling\"."
-#~ msgstr ""
-#~ "Touchpad kaydırma yöntemini seçin. Desteklenen değerler: \"disabled"
-#~ "\" (kapalı), \"edge-scrolling\" (kenar kaydırması), \"two-finger-scrolling"
-#~ "\" (iki parmak kaydırması)."
-
-#~ msgid "Enable mouse clicks with touchpad"
-#~ msgstr "Touchpad ile fare tıklamasını etkinleştir"
-
-#~ msgid ""
-#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
-#~ "touchpad."
-#~ msgstr ""
-#~ "Touchpad üzerine vurarak fare tıklamaları göndermek istiyorsanız bunu "
-#~ "doğru olarak atayın."
-
-#~ msgid "Enable touchpad"
-#~ msgstr "Touchpad'i etkinleştir"
-
-#~ msgid "Set this to TRUE to enable all touchpads."
-#~ msgstr "Tüm touchpadleri etkinleştirmek için bunu TRUE olarak ayarlayın."
-
-#~ msgid "Middle button emulation"
-#~ msgstr "Orta tık öykünümü"
-
-#~ msgid ""
-#~ "Enables middle mouse button emulation through simultaneous left and right "
-#~ "button click."
-#~ msgstr ""
-#~ "Hızlı sol ve sağ tıklama ile orta tıklanmış gibi davranmayı aktif hale "
-#~ "getirir"
-
-#~ msgid "Mouse wheel emulation button. 0 to disable the feature."
-#~ msgstr "Fare tekerleği öykünme düğmesi. Bu özelliği 0 ile kapatabilirsiniz."
-
-#~ msgid "Wacom display mapping"
-#~ msgstr "Wacom görüntü eşleştirmesi"
-
-#~ msgid ""
-#~ "EDID information of monitor to map tablet to. Must be in the format "
-#~ "[vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
-#~ msgstr ""
-#~ "Tabletle eşleştirilecek monitörün EDID bilgisi. [üretici, ürün, seri "
-#~ "numarası] biçiminde olmalıdır. [\"\",\"\",\"\"] eşleştirmeyi devre dışı "
-#~ "bırakır."
-
-#~ msgid "Cursor"
-#~ msgstr "İmleç"
-
-#~ msgid "Show/hide cursor on tablet devices"
-#~ msgstr "Tablet cihazlarda imleci göster/gizle"
-
-#~ msgid "Wacom tablet PC feature"
-#~ msgstr "Wacom tablet PC özeliği"
-
-#~ msgid "Enable this to only report stylus events when the tip is pressed."
-#~ msgstr ""
-#~ "Stylus kalemin ucu ile dokunulduğunda, sadece stylus olaylarını bildirmek "
-#~ "için bunu etkinleştirin."
-
-#~ msgid "Percentage considered low"
-#~ msgstr "Düşük sayılan yüzde"
-
-#~ msgid ""
-#~ "The percentage of the battery when it is considered low. Only valid when "
-#~ "use-time-for-policy is false."
-#~ msgstr ""
-#~ "Düşük olarak kabul edilen pil yüzdesi. Sadece use-time-for-policy değeri "
-#~ "yanlış (false) olduğunda geçerlidir."
-
-#~ msgid "Percentage considered critical"
-#~ msgstr "Tehlikeli biçimde düşük sayılan yüzde"
-
-#~ msgid ""
-#~ "The percentage of the battery when it is considered critical. Only valid "
-#~ "when use-time-for-policy is false."
-#~ msgstr ""
-#~ "Tehlikeli biçimde düşük olarak kabul edilen pil yüzdesi. Sadece use-time-"
-#~ "for-policy değeri yanlış (false) olduğunda geçerlidir."
-
-#~ msgid "Percentage action is taken"
-#~ msgstr "Eylemin gerçekleştirileceği yüzde"
-
-#~ msgid ""
-#~ "The percentage of the battery when the critical action is performed. Only "
-#~ "valid when use-time-for-policy is false."
-#~ msgstr ""
-#~ "Tehlikeli biçimde düşüklük eyleminin gerçekleştirileceği pil yüzdesi. "
-#~ "Sadece use-time-for-policy değeri yanlış (false) olduğunda geçerlidir."
-
-#~ msgid "The time remaining when low"
-#~ msgstr "Düşükken kalan zaman"
-
-#~ msgid ""
-#~ "The time remaining in seconds of the battery when it is considered low. "
-#~ "Only valid when use-time-for-policy is true."
-#~ msgstr ""
-#~ "Düşük seviyede kabul edildiğinde pilin saniye olarak kalan zamanı. Sadece "
-#~ "use-time-for-policy değeri yanlış (false) olduğunda geçerlidir."
-
-#~ msgid "The time remaining when critical"
-#~ msgstr "Tehlikeli biçimde düşükken kalan zaman"
-
-#~ msgid ""
-#~ "The time remaining in seconds of the battery when it is considered "
-#~ "critical. Only valid when use-time-for-policy is true."
-#~ msgstr ""
-#~ "Tehlikeli biçimde düşük olarak kabul edildiğinde pilin saniye olarak "
-#~ "kalan zamanı. Sadece use-time-for-policy değeri yanlış (false) olduğunda "
-#~ "geçerlidir."
-
-#~ msgid "The time remaining when action is taken"
-#~ msgstr "Şu kadar zaman kalınca eylemi gerçekleştir"
-
-#~ msgid ""
-#~ "The time remaining in seconds of the battery when critical action is "
-#~ "taken. Only valid when use-time-for-policy is true."
-#~ msgstr ""
-#~ "Tehlikeli biçimde düşük eylemi gerçekleştiğinde pilin saniye olarak kalan "
-#~ "zamanı. Sadece use-time-for-policy değeri doğru (true) olduğunda "
-#~ "geçerlidir."
-
-#~ msgid "Whether to use time-based notifications"
-#~ msgstr "Zaman temelli bildirimlerin kullanılıp kullanılmayacağı"
-
-#~ msgid ""
-#~ "If time based notifications should be used. If set to false, then the "
-#~ "percentage change is used instead, which may fix a broken ACPI BIOS."
-#~ msgstr ""
-#~ "Zaman temelli bildirimlerin kullanılıp kullanılmayacağı. Yanlış (false) "
-#~ "olarak ayarlanırsa, yerine yüzde değişimi kullanılır; bu, sorunlu bir "
-#~ "ACPI BIOS'unu düzeltebilir."
-
-#~ msgid "If we should show the recalled battery warning for a broken battery"
-#~ msgstr ""
-#~ "Eğer arızalı bir pil için geri gönderilecek pil uyarısı göstermemiz "
-#~ "gerekiyorsa"
-
-#~ msgid ""
-#~ "If we should show the recalled battery warning for a broken battery. Set "
-#~ "this to false only if you know your battery is okay."
-#~ msgstr ""
-#~ "Eğer arızalı bir pil için geri gönderilecek pil uyarısı göstermemiz "
-#~ "gerekiyorsa. Bunu yalnızca pilinizin sağlam olduğunu biliyorsanız yanlış "
-#~ "olarak ayarlayın."
-
-#~ msgid "Use mobile broadband connections"
-#~ msgstr "Mobil genişbant bağlantıları kullan"
-
-#~ msgid ""
-#~ "Use mobile broadband connections such as GSM and CDMA to check for "
-#~ "updates."
-#~ msgstr ""
-#~ "Güncellemeleri kontrol etmek için GSM veya CDMA gibi mobil genişbant "
-#~ "bağlantılarını kullan."
-
-#~ msgid ""
-#~ "Automatically download updates in the background without confirmation. "
-#~ "Updates will be auto-downloaded when using wired network connnections, "
-#~ "and mobile broadband if 'connection-use-mobile' is enabled."
-#~ msgstr ""
-#~ "Güncellemeleri onay almadan arka planda otomatik olarak indir. "
-#~ "Güncellemeler, kablolu bağlantı kullanılarak ve 'connection-use-mobile' "
-#~ "etkinse mobil genişbant kullanılarak otomatik olarak indirilecektir."
-
-#~ msgid "How often to check for updates"
-#~ msgstr "Güncellemelerin hangi sıklıkta denetleneceği"
-
-#~ msgid ""
-#~ "How often to check for updates. Value is in seconds. This is a maximum "
-#~ "amount of time that can pass between a security update being published, "
-#~ "and the update being automatically installed or the user notified."
-#~ msgstr ""
-#~ "Dağıtım güncellemelerinin saniye cinsinden ne sıklıkla kontrol edileceği. "
-#~ "Bu, bir güvenlik güncellemesinin çıkması ile bu güncellemenin otomatik "
-#~ "olarak yüklenmesı veya kullanıcının bu güncellemeden haberdar edilmesi "
-#~ "arasında geçebilecek maksimum zamandır."
-
-#~ msgid "How often to notify the user that non-critical updates are available"
-#~ msgstr ""
-#~ "Kullanıcının kritik olmayan güncellemelerden ne sıklıkla haberdar "
-#~ "edileceği"
-
-#~ msgid ""
-#~ "How often to tell the user there are non-critical updates. Value is in "
-#~ "seconds. Security update notifications are always shown after the check "
-#~ "for updates, but non-critical notifications should be shown a lot less "
-#~ "frequently."
-#~ msgstr ""
-#~ "Kullanıcıya kritik-güncelleme olmadığının saniye cinsinden ne sıklıkla "
-#~ "söyleneceği. Güvenlik güncellemeleri uyarıları her zaman güncelleme "
-#~ "kontrol edildikten sonra gösterilir, fakat kritik olmayan uyarılar bundan "
-#~ "biraz daha az sıklıkla gösterilmelidir."
-
-#~ msgid "The last time we told the user about non-critical notifications"
-#~ msgstr ""
-#~ "Kritik olmayan uyarılardan en son ne zaman kullanıcının haberdar edildiği."
-
-#~ msgid ""
-#~ "The last time we notified the user about non-critical updates. Value is "
-#~ "in seconds since the epoch, or zero for never."
-#~ msgstr ""
-#~ "Saniye cinsinden, en son kullanıcının kritik olmayan güncellemelerden ne "
-#~ "zaman haberdar edildiği. Hiçbir zaman için bu değer sıfırdır."
-
-#~ msgid "How often to check for distribution upgrades"
-#~ msgstr "Dağıtım güncellemelerinin ne sıklıkla kontrol edileceği"
-
-#~ msgid "How often to check for distribution upgrades. Value is in seconds."
-#~ msgstr ""
-#~ "Dağıtım güncellemelerinin saniye cinsinden ne sıklıkla kontrol edileceği."
-
-#~ msgid "How often to refresh the package cache"
-#~ msgstr "Paket önbelleğinin ne sıklıkla yenileneceği"
-
-#~ msgid "How often to refresh the package cache. Value is in seconds."
-#~ msgstr "Paket önbelleğinin saniye cinsinden ne sıklıkla yenileneceği."
-
-#~ msgid "Check for updates when running on battery power"
-#~ msgstr "Pil devredeyken güncellemeleri otomatik olarak denetle"
-
-#~ msgid "Check for updates when running on battery power."
-#~ msgstr "Pil devredeyken güncellemeleri otomatik olarak denetle"
-
-#~ msgid "Notify the user when distribution upgrades are available"
-#~ msgstr "Dağıtım güncellemeleri çıktığında kullanıcıyı haberdar et"
-
-#~ msgid "Notify the user when distribution upgrades are available."
-#~ msgstr "Dağıtım güncellemeleri çıktığında kullanıcıyı haberdar et"
-
-#~ msgid "Ask the user if additional firmware should be installed"
-#~ msgstr ""
-#~ "Ek aygıt yazılımlarının yüklenilip yüklenilmeyeceğini kullanıcıya sor"
-
-#~ msgid ""
-#~ "Ask the user if additional firmware should be installed if it is "
-#~ "available."
-#~ msgstr ""
-#~ "Eğer kullanılabilir durumdaysa, ek aygıt yazılımlarının yüklenilip "
-#~ "yüklenilmeyeceğini kullanıcıya sor."
-
-#~ msgid "Firmware files that should not be searched for"
-#~ msgstr "Aranması gerekmeyen aygıt yazılımı dosyaları"
-
-#~ msgid ""
-#~ "Firmware files that should not be searched for, separated by commas. "
-#~ "These can include '*' and '?' characters."
-#~ msgstr ""
-#~ "Aranması gerekmeyen aygıt yazılımı dosyaları, virgülle ayrılmış olarak. "
-#~ "Bunlar '*' ve '?' karakterlerini de içerebilir."
-
-#~ msgid "Devices that should be ignored"
-#~ msgstr "Gözardı edilmesi gereken aygıtlar"
-
-#~ msgid ""
-#~ "Devices that should be ignored, separated by commas. These can include "
-#~ "'*' and '?' characters."
-#~ msgstr ""
-#~ "Gözardı edilmesi gereken aygıtlar, virgülle ayrılmış olarak. Bunlar '*' "
-#~ "ve '?' karakterlerini de içerebilir."
-
-#~ msgid ""
-#~ "The filenames on removable media that designate it a software source."
-#~ msgstr ""
-#~ "Yazılım kaynağı olarak tayin edilmiş, çıkarılabilir ortam üzerindeki "
-#~ "dosya isimleri."
-
-#~ msgid ""
-#~ "When removable media is inserted, it is checked to see if it contains any "
-#~ "important filenames in the root directory. If the filename matches, then "
-#~ "an updates check is performed. This allows post-install disks to be used "
-#~ "to update running systems."
-#~ msgstr ""
-#~ "Bilgisayara bir çıkarılabilir ortam takıldığında, bunun kök klasörünün "
-#~ "içindeki dosyalarda önemli dosya isimleri olup olmadığı kontrol edilir. "
-#~ "Eğer varsa, bir güncelleme kontrolü yapılır. Bu yükleme sonrası diskleri "
-#~ "ile mevcut sistemi güncellemek için kullanılır."
-
-#~ msgid "Could not enable mouse accessibility features"
-#~ msgstr "Klavye erişilebilirlik özelliklerini etkinleştirilemedi"
-
-#~ msgid ""
-#~ "Mouse accessibility requires Mousetweaks to be installed on your system."
-#~ msgstr ""
-#~ "Fare erişilebilirliği, Mousetweaks'in sisteminizde yüklü olmasını "
-#~ "gerektirir."
-
-#~ msgid "provides %s laptop runtime"
-#~ msgstr "%s boyunca çalışmayı sağlar"
-
-#~ msgid "%s %s remaining"
-#~ msgstr "%s %s kaldı"
-
-# Notlar:
-# Not Ekle
-#
-# Ayıklanan yorumlar:
-# TRANSLATORS: device is charging, and we have a time to full and a percentage
-# * The first parameter is the device type, e.g. "Laptop battery" and
-# * the second is the time, e.g. "7 hours 6 minutes"
-# TRANSLATORS: device is charging, and we have a time to full and a percentage.
-# * The first parameter is the device type, e.g. "Laptop battery" and
-# * the second is the time, e.g. "7 hours 6 minutes"
-#
-#
-# Biçim:
-# C
-#~ msgid "%s %s until charged"
-#~ msgstr "%s dolmasına %s kaldı"
-
-#~ msgid "provides %s battery runtime"
-#~ msgstr "%s boyunca çalışmayı sağlar"
-
-#~ msgid "Product:"
-#~ msgstr "Ürün:"
-
-#~ msgid "Status:"
-#~ msgstr "Durum:"
-
-#~ msgid "Missing"
-#~ msgstr "Eksik"
-
-#~ msgid "Charged"
-#~ msgstr "Tam Dolu"
-
-#~ msgid "Charging"
-#~ msgstr "Doluyor"
-
-#~ msgid "Discharging"
-#~ msgstr "Boşalıyor"
-
-#~ msgid "Percentage charge:"
-#~ msgstr "Doluluk yüzdesi:"
-
-#~ msgid "Vendor:"
-#~ msgstr "Üretici:"
-
-#~ msgid "Technology:"
-#~ msgstr "Teknoloji:"
-
-#~ msgid "Serial number:"
-#~ msgstr "Seri numarası:"
-
-#~ msgid "Model:"
-#~ msgstr "Model:"
-
-#~ msgid "Charge time:"
-#~ msgstr "Dolma süresi:"
-
-#~ msgid "Discharge time:"
-#~ msgstr "Boşalma süresi:"
-
-#~ msgid "Excellent"
-#~ msgstr "Mükemmel"
-
-#~ msgid "Good"
-#~ msgstr "İyi"
-
-#~ msgid "Fair"
-#~ msgstr "Orta"
-
-#~ msgid "Poor"
-#~ msgstr "Kötü"
-
-#~ msgid "Capacity:"
-#~ msgstr "Kapasite:"
-
-#~ msgid "Current charge:"
-#~ msgstr "Şu anki doluluk:"
-
-#~ msgid "Last full charge:"
-#~ msgstr "Son tam doluluk:"
-
-#~ msgid "Design charge:"
-#~ msgstr "Tasarım doluluğu:"
-
-#~ msgid "Charge rate:"
-#~ msgstr "Dolum oranı:"
-
-#~ msgid "AC adapter"
-#~ msgid_plural "AC adapters"
-#~ msgstr[0] "AC adaptörü"
-
-#~ msgid "Laptop battery"
-#~ msgid_plural "Laptop batteries"
-#~ msgstr[0] "Dizüstü pili"
-
-#~ msgid "UPS"
-#~ msgid_plural "UPSs"
-#~ msgstr[0] "UPS"
-
-#~ msgid "Monitor"
-#~ msgid_plural "Monitors"
-#~ msgstr[0] "İzleyici"
-
-#~ msgid "PDA"
-#~ msgid_plural "PDAs"
-#~ msgstr[0] "Cep Bilgisayarı"
-
-#~ msgid "Cell phone"
-#~ msgid_plural "Cell phones"
-#~ msgstr[0] "Cep telefonu"
-
-#~ msgid "Media player"
-#~ msgid_plural "Media players"
-#~ msgstr[0] "Ortam yürütücüsü"
-
-#~ msgid "Tablet"
-#~ msgid_plural "Tablets"
-#~ msgstr[0] "Tablet"
-
-#~ msgid "Computer"
-#~ msgid_plural "Computers"
-#~ msgstr[0] "Bilgisayar"
-
-#~ msgid "Lithium Ion"
-#~ msgstr "Lityum İyon"
-
-#~ msgid "Lithium Polymer"
-#~ msgstr "Lityum Polimer"
-
-#~ msgid "Lithium Iron Phosphate"
-#~ msgstr "Lityum Demir Fosfat"
-
-#~ msgid "Lead acid"
-#~ msgstr "Kurşun asit"
-
-#~ msgid "Nickel Cadmium"
-#~ msgstr "Nikel Kadmiyum"
-
-#~ msgid "Nickel metal hydride"
-#~ msgstr "Nikel metal hidrit"
-
-#~ msgid "Unknown technology"
-#~ msgstr "Bilinmeyen teknoloji"
-
-#~ msgid "Empty"
-#~ msgstr "Boş"
-
-#~ msgid "Waiting to charge"
-#~ msgstr "Dolması bekleniyor"
-
-#~ msgid "Waiting to discharge"
-#~ msgstr "Boşalması bekleniyor"
-
-#~ msgid "Laptop battery not present"
-#~ msgstr "Dizüstü pili hazır değil"
-
-#~ msgid "Laptop battery is charging"
-#~ msgstr "Dizüstü pili doluyor"
-
-#~ msgid "Laptop battery is discharging"
-#~ msgstr "Dizüstü pili boşalıyor"
-
-#~ msgid "Laptop battery is empty"
-#~ msgstr "Dizüstü pili boş"
-
-#~ msgid "Laptop battery is charged"
-#~ msgstr "Dizüstü pili dolu"
-
-#~ msgid "Laptop battery is waiting to charge"
-#~ msgstr "Dizüstü pili dolmayı bekliyor"
-
-#~ msgid "Laptop battery is waiting to discharge"
-#~ msgstr "Dizüstü pili boşalmayı bekliyor"
-
-#~ msgid "UPS is charging"
-#~ msgstr "UPS doluyor"
-
-#~ msgid "UPS is discharging"
-#~ msgstr "UPS boşalıyor"
-
-#~ msgid "UPS is empty"
-#~ msgstr "UPS boş"
-
-#~ msgid "UPS is charged"
-#~ msgstr "UPS dolu"
-
-#~ msgid "Mouse is charging"
-#~ msgstr "Fare pili doluyor"
-
-#~ msgid "Mouse is discharging"
-#~ msgstr "Fare pili boşalıyor"
-
-#~ msgid "Mouse is empty"
-#~ msgstr "Fare pili boş"
-
-#~ msgid "Mouse is charged"
-#~ msgstr "Fare pili dolu"
-
-#~ msgid "Keyboard is charging"
-#~ msgstr "Klavye pili doluyor"
-
-#~ msgid "Keyboard is discharging"
-#~ msgstr "Klavye pili boşalıyor"
-
-#~ msgid "Keyboard is empty"
-#~ msgstr "Klavye pili boş"
-
-#~ msgid "Keyboard is charged"
-#~ msgstr "Klavye pili dolu"
-
-#~ msgid "PDA is charging"
-#~ msgstr "Cep Bilgisayarı pili doluyor"
-
-#~ msgid "PDA is discharging"
-#~ msgstr "Cep Bilgisayarı pili boşalıyor"
-
-#~ msgid "PDA is empty"
-#~ msgstr "Cep Bilgisayarı pili boş"
-
-#~ msgid "PDA is charged"
-#~ msgstr "Cep Bilgisayarı pili dolu"
-
-#~ msgid "Cell phone is charging"
-#~ msgstr "Cep telefonu pili doluyor"
-
-#~ msgid "Cell phone is discharging"
-#~ msgstr "Cep telefonu pili boşalıyor"
-
-#~ msgid "Cell phone is empty"
-#~ msgstr "Cep telefonu pili boş"
-
-#~ msgid "Cell phone is charged"
-#~ msgstr "Cep telefonu pili dolu"
-
-#~ msgid "Media player is charging"
-#~ msgstr "Ortam yürütücüsü pili doluyor"
-
-#~ msgid "Media player is discharging"
-#~ msgstr "Ortam yürütücüsü pili boşalıyor"
-
-#~ msgid "Media player is empty"
-#~ msgstr "Ortam yürütücüsü pili boş"
-
-#~ msgid "Media player is charged"
-#~ msgstr "Ortam yürütücüsü pili dolu"
-
-#~ msgid "Tablet is charging"
-#~ msgstr "Tablet pili doluyor"
-
-#~ msgid "Tablet is discharging"
-#~ msgstr "Tablet pili boşalıyor"
-
-#~ msgid "Tablet is empty"
-#~ msgstr "Tablet pili boş"
-
-#~ msgid "Tablet is charged"
-#~ msgstr "Tablet pili dolu"
-
-#~ msgid "Computer is charging"
-#~ msgstr "Bilgisayar pili doluyor"
-
-#~ msgid "Computer is discharging"
-#~ msgstr "Bilgisayar pili boşalıyor"
-
-#~ msgid "Computer is empty"
-#~ msgstr "Bilgisayar pili boş"
-
-#~ msgid "Computer is charged"
-#~ msgstr "Bilgisayar pili dolu"
-
-#~ msgid "Battery may be recalled"
-#~ msgstr "Pil geri çağrılmış olabilir"
-
-#~ msgid ""
-#~ "A battery in your computer may have been recalled by %s and you may be at "
-#~ "risk."
-#~ msgstr ""
-#~ "Bilgisayarınızdaki bir pil %s tarafından geri çağrılmış olabilir ve risk "
-#~ "altında olabilirsiniz."
-
-#~ msgid "For more information visit the battery recall website."
-#~ msgstr "Daha fazla bilgi için pil geri çağırma web sitesini ziyaret edin."
-
-#~ msgid "Visit recall website"
-#~ msgstr "Geri çağırma web sitesini ziyaret et"
-
-#~ msgid "Do not show me this again"
-#~ msgstr "Bu mesaji bir daha gösterme"
-
-#~ msgid "Plug in your AC adapter to avoid losing data."
-#~ msgstr "Veri kaybı yaşamamak için AC adaptörünüzü fişe takın."
-
-#~ msgid "Computer will suspend very soon unless it is plugged in."
-#~ msgstr ""
-#~ "Bilgisayarınız fişe takılmadığı taktirde çok kısa bir süre içinde askıya "
-#~ "alınacak."
-
-#~ msgid ""
-#~ "The battery is below the critical level and this computer will <b>power-"
-#~ "off</b> when the battery becomes completely empty."
-#~ msgstr ""
-#~ "Pil gücü tehlikeli sınırın altında ve pil tamamen boşaldığında bu "
-#~ "bilgisayarın <b>gücü kesilecek</b>."
-
-#~ msgid ""
-#~ "The battery is below the critical level and this computer is about to "
-#~ "suspend.\n"
-#~ "<b>NOTE:</b> A small amount of power is required to keep your computer in "
-#~ "a suspended state."
-#~ msgstr ""
-#~ "Pil gücü tehlikeli sınırın altında ve bu bilgisayar askıya alınmak "
-#~ "üzere.\n"
-#~ "<b>NOT:</b> Bilgisayarınızı askıda tutmak için az miktarda bir güç "
-#~ "gereklidir."
-
-#~ msgid ""
-#~ "UPS is below the critical level and this computer will <b>power-off</b> "
-#~ "when the UPS becomes completely empty."
-#~ msgstr ""
-#~ "UPS gücü tehlikeli sınırın altında ve UPS tamamen boşaldığında bu "
-#~ "bilgisayarın <b>gücü kesilecek</b>."
-
-#~ msgid "Remote Display"
-#~ msgstr "Uzak Ekran"
-
-#~ msgid "Disable animations on remote displays"
-#~ msgstr "Uzak ekranlarda animasyonları devre dışı bırak"
-
-#~ msgid "received error or hang up from event source"
-#~ msgstr "olay kaynağından, hata alındı veya olay kaynağı kapattı"
-
-#~ msgid "NSS security system could not be initialized"
-#~ msgstr "NSS güvenlik sistemi başlatılamadı"
-
-#~ msgid "no suitable smartcard driver could be found"
-#~ msgstr "uygun akıllı kart sürücüsü bulunamadı"
-
-#~ msgid "smartcard driver '%s' could not be loaded"
-#~ msgstr "'%s' akıllı kart sürücüsü yüklenemedi"
-
-#~ msgid "could not watch for incoming card events - %s"
-#~ msgstr "gelen kart olayları izlenemedi - %s"
-
-#~ msgid "encountered unexpected error while waiting for smartcard events"
-#~ msgstr ""
-#~ "akıllı kart olayları için bekleniyorken, beklenmeyen bir hata ile "
-#~ "karşılaşıldı"
-
-#~ msgid ""
-#~ "You will need to restart this computer before the hardware will work "
-#~ "correctly."
-#~ msgstr ""
-#~ "Donanımın düzgün çalışabilmesi için bu bilgisayarı yeniden başlatmanız "
-#~ "gerekiyor."
-
-#~ msgid "Additional software was installed"
-#~ msgstr "Ek yazılımlar yüklendi"
-
-#~ msgid "Software Updates"
-#~ msgstr "Yazılım Güncellemeleri"
-
-#~ msgid ""
-#~ "You will need to remove and then reinsert the hardware before it will "
-#~ "work correctly."
-#~ msgstr ""
-#~ "Donanımın düzgün çalışabilmesi için, çıkartıp tekrar takmanız gerekecek."
-
-#~ msgid "Your hardware has been set up and is now ready to use."
-#~ msgstr "Donanımınız yüklendi ve kullanıma hazır."
-
-#~ msgid ""
-#~ "Additional firmware is required to make hardware in this computer "
-#~ "function correctly."
-#~ msgstr ""
-#~ "Bu bilgisayarın donanımını işler hale getirmek için ek aygıt yazılımları "
-#~ "gerekiyor."
-
-#~ msgid "Additional firmware required"
-#~ msgstr "Ek aygıt yazılımı gerekiyor"
-
-#~ msgid "Install firmware"
-#~ msgstr "Aygıt yazılımını yükle"
-
-#~ msgid "Ignore devices"
-#~ msgstr "Aygıtları yoksay"
-
-#~ msgid "Failed To Update"
-#~ msgstr "Güncelleme Başarısız Oldu"
-
-#~ msgid "A previous update was unfinished."
-#~ msgstr "Önceki güncellemelerden biri tamamlanmamış."
-
-#~ msgid "Network access was required but not available."
-#~ msgstr "Ağ bağlantısı gerekiyor ama kullanılabilir değil."
-
-#~ msgid "An update was not signed in the correct way."
-#~ msgstr "Güncelleme doğru şekilde imzalanmamış."
-
-#~ msgid "The update could not be completed."
-#~ msgstr "Güncelleme tamamlanamadı."
-
-#~ msgid "The update was cancelled."
-#~ msgstr "Güncelleme iptal edildi."
-
-#~ msgid "An offline update was requested but no packages required updating."
-#~ msgstr ""
-#~ "Çevrimdışı güncelleştirme istendi ancak hiçbir paketin güncellenmeye "
-#~ "ihtiyacı yoktu."
-
-#~ msgid "No space was left on the drive."
-#~ msgstr "Diskte hiç yer kalmadı."
-
-#~ msgid "An update failed to install correctly."
-#~ msgstr "Bir güncelleştirme doğru şekilde kurulamadı."
-
-#~ msgid "The offline update failed in an unexpected way."
-#~ msgstr "Çevrimdışı güncelleştirme beklenmedik bir şekilde başarısız oldu."
-
-#~ msgid "Detailed errors from the package manager follow:"
-#~ msgstr "Paket yöneticisinden detaylı hatalar:"
-
-#~ msgid "Distribution upgrades available"
-#~ msgstr "Dağıtım güncellemeleri mevcut"
-
-#~ msgid "More information"
-#~ msgstr "Daha fazla bilgi"
-
-#~ msgid "Update"
-#~ msgid_plural "Updates"
-#~ msgstr[0] "Güncellemeler"
-
-#~ msgid "An important software update is available"
-#~ msgid_plural "Important software updates are available"
-#~ msgstr[0] "Önemli güncellemeler mevcut"
-
-#~ msgid "Install updates"
-#~ msgstr "Güncellemeleri yükle"
-
-#~ msgid "A software update is available."
-#~ msgid_plural "Software updates are available."
-#~ msgstr[0] "Yazılım güncellemeleri mevcut"
-
-#~ msgid "Updates"
-#~ msgstr "Güncellemeler"
-
-#~ msgid "Unable to access software updates"
-#~ msgstr "Yazılım güncellemelerine erişilemiyor"
-
-#~ msgid "Try again"
-#~ msgstr "Tekrar deneyin"
-
-#~ msgid "A transaction that cannot be interrupted is running"
-#~ msgstr "Kesintiye uğratılamayacak bir işlem çalışıyor"
-
-#~ msgid "Software Update Installed"
-#~ msgid_plural "Software Updates Installed"
-#~ msgstr[0] "Yazılım Güncellemeleri Kuruldu"
-
-#~ msgid "An important OS update has been installed."
-#~ msgid_plural "Important OS updates have been installed."
-#~ msgstr[0] "Önemli işletim sistemi güncellemeleri kuruldu."
-
-#~ msgid "Software Updates Failed"
-#~ msgstr "Yazılım Güncellemeleri Başarısız"
-
-#~ msgid "An important OS update failed to be installed."
-#~ msgstr "Önemli bir işletim sistemi güncellemesi kurulamadı."
-
-#~ msgid "Review"
-#~ msgstr "Gözden Geçirme"
-
-#~ msgid "Show details"
-#~ msgstr "Detayları göster"
-
-#~ msgid "OK"
-#~ msgstr "Tamam"
-
-#~ msgid "Updates plugin"
-#~ msgstr "Güncellemeler eklentisi"
-
-#~ msgid "Could not switch the monitor configuration"
-#~ msgstr "Ekran yapılandırması değiştirilemedi"
-
-#~ msgid "Could not restore the display's configuration"
-#~ msgstr "Ekran yapılandırması geri yüklenemedi"
-
-#~ msgid "Could not restore the display's configuration from a backup"
-#~ msgstr "Ekran yapılandırması bir yedekten geri yüklenemedi"
-
-#~ msgid "The display will be reset to its previous configuration in %d second"
-#~ msgid_plural ""
-#~ "The display will be reset to its previous configuration in %d seconds"
-#~ msgstr[0] "Ekran bir önceki yapılandırmasına %d saniye içinde sıfırlanacak"
-
-#~ msgid "Does the display look OK?"
-#~ msgstr "Ekran görünümü tamam mı?"
-
-#~ msgid "_Restore Previous Configuration"
-#~ msgstr "Önceki _Yapılandırmaya Geri Dön"
-
-#~ msgid "_Keep This Configuration"
-#~ msgstr "Bu _Yapılandırmayı Tut"
-
-#~ msgid "The selected configuration for displays could not be applied"
-#~ msgstr "Ekranlar için seçilen yapılandırma uygulanamadı"
-
-#~ msgid "Trying to switch the monitor configuration anyway."
-#~ msgstr "Gene de ekran yapılandırmasına geçmeye çalışılıyor."
-
-#~ msgid "Could not apply the stored configuration for monitors"
-#~ msgstr "Ekranlar için kayıtlı yapılandırma uygulanamadı"
-
-#~ msgid ""
-#~ "Priority to use for this plugin in gnome-settings-daemon startup queue."
-#~ msgstr ""
-#~ "Bu eklentinin gnome ayarlar yöneticisi servisinin başlangıç kuyruğundaki "
-#~ "kullanım önceliği"
-
-#~ msgid ""
-#~ "Whether this plugin would be activated by gnome-settings-daemon or not."
-#~ msgstr ""
-#~ "Bu eklentinin gnome ayarlar servisi tarafından aktifleştirilip "
-#~ "aktifleştirilmeyeceği."
-
-#~ msgid "Allowed keys"
-#~ msgstr "İzin verilen tuşlar"
-
-#, fuzzy
-#~| msgid ""
-#~| "If non-empty, keybindings will be ignored unless their GConf directory "
-#~| "is in the list. This is useful for lockdown."
-#~ msgid ""
-#~ "If non-empty, keybindings will be ignored unless their settings directory "
-#~ "is in the list. This is useful for lockdown."
-#~ msgstr ""
-#~ "Eğer boş değilse, kendi GConf  dizini listede olmadığı sürece tuş bağı "
-#~ "yok sayılır. Bu kilitleme için kullanışlıdır."
-
-#~| msgid "Automatically update these types of updates"
-#~ msgid "Automatically install these types of updates"
-#~ msgstr "Bu tür güncellemeleri otomatik olarak kur"
-
-#~| msgid "Automatically update these types of updates."
-#~ msgid "Automatically install these types of updates."
-#~ msgstr "Bu tür güncellemeleri otomatik olarak kur."
-
-#~ msgid "Get the update list when the session starts"
-#~ msgstr "Oturum başladığında güncelleme listesini al"
-
-#~ msgid ""
-#~ "Get the update list when the session starts, even if not scheduled to."
-#~ msgstr ""
-#~ "Oturum başladığında güncelleme listesini al, buna zamanlanmış olmasa bile."
-
-#~ msgid "Notify the user for completed updates"
-#~ msgstr "Kullanıcıyı tamamlanmış güncellemelerden haberdar et"
-
-#~ msgid ""
-#~ "Notify the user for completed updates where the user needs to restart"
-#~ msgstr ""
-#~ "Kuullanıcıyı yeniden başlatma gerektirecek  tamamlanmış güncellemelerden "
-#~ "haberdar et"
-
-#~ msgid ""
-#~ "Notify the user for completed updates where the user needs to restart."
-#~ msgstr ""
-#~ "Kuullanıcıyı yeniden başlatma gerektirecek  tamamlanmış güncellemelerden "
-#~ "haberdar et"
-
-#~ msgid ""
-#~ "Notify the user for completed updates. This may be a useful notification "
-#~ "for some users as installing updates prevents shutdown."
-#~ msgstr ""
-#~ "Tamamlanmış güncellemelerden kullanıcıyı haberdar et. Güncellemeleri "
-#~ "yüklemek bilgisayarı kapatmayı engellediğinden bu kullanışlı bir uyarı "
-#~ "olabilir."
-
-#~ msgid ""
-#~ "Notify the user when the automatic update was not started on battery power"
-#~ msgstr ""
-#~ "Pil gücü kullanılıyorken otomatik güncelleme başlatılamadığında "
-#~ "kullanıcıyı uyar"
-
-#~ msgid ""
-#~ "Notify the user when the update was not automatically started because the "
-#~ "machine is running on battery power."
-#~ msgstr ""
-#~ "Makine pil gücünde çalıştığı için güncellemeler otomatik olarak "
-#~ "başlatılamadığında kullanıcıyı uyar."
-
-#~ msgid "Notify the user when the update was started"
-#~ msgstr "Güncelleme başlatılamadığında kullanıcıyı uyar"
-
-#~ msgid "Notify the user when the update was started."
-#~ msgstr "Güncelleme başlatılamadığında kullanıcıyı uyar"
-
-#~ msgid "The install root to use when adding and removing packages"
-#~ msgstr "Paket eklerken ve çıkartırkenki kök yükleme yolu"
-
-#~ msgid ""
-#~ "The install root to use when processing packages, which is changed when "
-#~ "using LTSP or when testing."
-#~ msgstr ""
-#~ "Paket işlemleri yapılırken, ITSP kullanırken veya test yaparken "
-#~ "değişebilen, kullanılacak kök yol."
-
-#~ msgid ""
-#~ "The number of seconds at session startup to wait before checking for "
-#~ "updates"
-#~ msgstr ""
-#~ "Güncellemeleri kontrol etmek için oturum başlangıcında kaç saniye "
-#~ "bekleneceği."
-
-#~ msgid ""
-#~ "The number of seconds at session startup to wait before checking for "
-#~ "updates. Value is in seconds."
-#~ msgstr ""
-#~ "Güncellemeleri kontrol etmek için oturum başlangıcında saniye cinsinden "
-#~ "ne kadar süre bekleneceği."
-
-#~ msgid ""
-#~ "Use WiFi (wireless LAN) connections to check for updates. It may be "
-#~ "faster to download packages when on a wired connection, and the VPN or "
-#~ "proxy required may also only be available on wired connections."
-#~ msgstr ""
-#~ "Güncellemeleri kontrol etmek için WiFi (kablosuz ağ) kullan. Kablolu "
-#~ "bağlantı kullanmak paketleri indirirken daha hızlı olabilir. Ayrıca "
-#~ "gereken VPN veya proxy sadece kablolu bağlantı ile mevcut olabilir."
-
-#~ msgid "Use WiFi connections"
-#~ msgstr "WiFi bağlantısı kullan"
-
-#~ msgid "Enable this to set the cursor to absolute mode."
-#~ msgstr "İmleci, göreli olmayan moda almak için bunu etkinleştirin"
-
-#~ msgid "Enable this to set the stylus to absolute mode."
-#~ msgstr "Stylusu göreli olmayan moda almak için bunu etkinleştirin."
-
-#~ msgid "Set this to x1, y1 and x2, y2 of the area usable by the cursor."
-#~ msgstr ""
-#~ "Bunu imleç tarafından kullanılabilen alan manasında x1,y1 ve x2,y2 olarak "
-#~ "girin."
-
-#~ msgid "Set this to x1, y1 and x2, y2 of the area usable by the eraser."
-#~ msgstr ""
-#~ "Bunu silgi tarafından kullanılabilen alan manasında x1,y1 ve x2,y2 olarak "
-#~ "girin."
-
-#~ msgid "Set this to x1, y1 and x2, y2 of the area usable by the pad."
-#~ msgstr ""
-#~ "Bunu pad tarafından kullanılabilen alan manasında x1,y1 ve x2,y2 olarak "
-#~ "girin."
-
-#~ msgid "Wacom cursor absolute mode"
-#~ msgstr "Wacom göreli olmayan imleç modu"
-
-#~ msgid "Wacom cursor button mapping"
-#~ msgstr "Wacom imleç tuş eşleşmesi"
-
-#~ msgid "Wacom cursor tablet area"
-#~ msgstr "Wacom imleç tablet alanı"
-
-#~ msgid "Wacom eraser absolute mode"
-#~ msgstr "Wacom göreli olmayan silgi modu"
-
-#~ msgid "Wacom eraser tablet area"
-#~ msgstr "Wacom silgi tablet alanı"
-
-#~ msgid "Wacom stylus tablet area"
-#~ msgstr "Wacom stylus tablet alanı"
-
-#~ msgid "There was an error displaying help: %s"
-#~ msgstr "Yardım dosyasının görüntülenmesinde bir hata oluştu: %s"
-
-#~ msgid "Do you want to activate Slow Keys?"
-#~ msgstr "Tuş Yavaşlatmasını aktif hale getirmek istiyor musunuz?"
-
-#~ msgid "Do you want to deactivate Slow Keys?"
-#~ msgstr "Tuş Yavaşlatmasını kapatmak istiyor musunuz?"
-
-#~ msgid "Don't activate"
-#~ msgstr "Etkinleştirme"
-
-#~ msgid "Don't deactivate"
-#~ msgstr "Devre dışı bırakma"
-
-#~ msgid "Activate"
-#~ msgstr "Etkinleştir"
-
-#~ msgid "Deactivate"
-#~ msgstr "Devre dışı bırak"
-
-#~ msgid "Do_n't activate"
-#~ msgstr "_Etkinleştirme"
-
-#~ msgid "Do_n't deactivate"
-#~ msgstr "Etki_sizleştirme"
-
-#~ msgid "_Activate"
-#~ msgstr "_Etkinleştir"
-
-#~ msgid "_Deactivate"
-#~ msgstr "E_tkisizleştir"
-
-#~ msgid "Do you want to activate Sticky Keys?"
-#~ msgstr "Yapışkan Tuşlar özelliğini aktif hale getirmek istiyor musunuz?"
-
-#~ msgid "Do you want to deactivate Sticky Keys?"
-#~ msgstr "Yapışkan Tuşları kapatmak istiyor musunuz?"
-
-#~ msgid "Universal Access Preferences"
-#~ msgstr "Evrensel Erişim Tercihleri"
-
-#~ msgid "Enhance _contrast in colors"
-#~ msgstr "Renklerde _kontrastı arttır"
-
-#~ msgid "Make _text larger and easier to read"
-#~ msgstr "_Metni daha büyük ve daha kolay okunur yap"
-
-#~ msgid "Press and _hold keys to accept them (Slow Keys)"
-#~ msgstr "Tuşları _kabul etmek için basılı tutun (Yavaş Tuşlar)"
-
-#~ msgid "Use on-screen _keyboard"
-#~ msgstr "Ekran _klavyesini kullan"
-
-#~ msgid "Use screen _magnifier"
-#~ msgstr "Ekran _büyütecini kullan"
-
-#~ msgid "Use screen _reader"
-#~ msgstr "Ekran _okuyucuyu kullan"
-
-#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
-#~ msgstr "_Yinelenen tuşları yok say (Sıçrama Tuşları)"
-
-#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
-#~ msgstr "_Klavye kısayollarına bir kerede bir tuşa bas (Yapışken Tuşlar)"
-
-#~ msgid "Automounter plugin"
-#~ msgstr "Otomatik bağlayıcı eklentisi"
-
-#~ msgid "Unable to mount %s"
-#~ msgstr "%s bağlanamıyor"
-
-#~ msgid "Unable to open a folder for %s"
-#~ msgstr "%s için bir klasör açılamıyor"
-
-#~ msgid "Ask what to do"
-#~ msgstr "Ne yapılacağını sor"
-
-#~ msgid "Do Nothing"
-#~ msgstr "Hiç Birşey Yapma"
-
-#~ msgid "Open Folder"
-#~ msgstr "Klasör Aç"
-
-#~ msgid "Unable to eject %p"
-#~ msgstr "%p çıkartılamıyor"
-
-#~ msgid "Unable to unmount %p"
-#~ msgstr "%p çıkartılamıyor"
-
-#~ msgid "You have just inserted an Audio CD."
-#~ msgstr "Şu anda bir Ses CDsi taktınız."
-
-#~ msgid "You have just inserted an Audio DVD."
-#~ msgstr "Şu anda bir Ses DVDsi taktınız."
-
-#~ msgid "You have just inserted a Video DVD."
-#~ msgstr "Şu anda bir Video DVDsi taktınız."
-
-#~ msgid "You have just inserted a Video CD."
-#~ msgstr "Şu anda bir Vidyo CDsi taktınız."
-
-#~ msgid "You have just inserted a Super Video CD."
-#~ msgstr "Şu anda bir Süper Vidyo CDsi taktınız."
-
-#~ msgid "You have just inserted a blank CD."
-#~ msgstr "Şu anda boş bir CD taktınız."
-
-#~ msgid "You have just inserted a blank DVD."
-#~ msgstr "Şu anda boş bir DVD taktınız."
-
-#~ msgid "You have just inserted a blank Blu-Ray disc."
-#~ msgstr "Şu anda boş bir Blu-Ray disk taktınız."
-
-#~ msgid "You have just inserted a blank HD DVD."
-#~ msgstr "Şu anda boş bir HD DVD taktınız."
-
-#~ msgid "You have just inserted a Photo CD."
-#~ msgstr "Şu anda bir Fotoğraf CDsi taktınız."
-
-#~ msgid "You have just inserted a Picture CD."
-#~ msgstr "Şu anda bir Resim CDsi taktınız."
-
-#~ msgid "You have just inserted a medium with digital photos."
-#~ msgstr "Şu anda içinde dijital fotoğraflar olan bir ortam taktınız."
-
-#~ msgid "You have just inserted a digital audio player."
-#~ msgstr "Şu anda bir dijital ses çalıcısı taktınız."
-
-#~ msgid ""
-#~ "You have just inserted a medium with software intended to be "
-#~ "automatically started."
-#~ msgstr ""
-#~ "Şu anda içinde otomatik çalışmaya ayarlı bir yazılım olan bir ortam "
-#~ "taktınız."
-
-#~ msgid "You have just inserted a medium."
-#~ msgstr "Şu anda bir ortam taktınız."
-
-#~ msgid "Choose what application to launch."
-#~ msgstr "Hangi uygulamanın başlatılacağını seçin."
-
-#~ msgid ""
-#~ "Select how to open \"%s\" and whether to perform this action in the "
-#~ "future for other media of type \"%s\"."
-#~ msgstr ""
-#~ "\"%s\"in nasıl açılacağını seçin ve %s tipindeki diğer ortamlar için de "
-#~ "aynı şeyin yapılıp yapılmayacağını belirleyin."
-
-#~ msgid "_Always perform this action"
-#~ msgstr "_Her zaman bu eylemi uygula."
-
-#~ msgid "_Eject"
-#~ msgstr "_Çıkart"
-
-#~ msgid "_Unmount"
-#~ msgstr "_Çıkart"
-
-#~ msgid "Background"
-#~ msgstr "Arkaplan"
-
-#~ msgid "Default"
-#~ msgstr "Öntanımlı"
-
-#~| msgid "Key binding (%s) is invalid"
-#~ msgid "Key binding (%s) is invalid (%d)"
-#~ msgstr "Tuş bağı (%s) geçersiz (%d)"
-
-#~ msgid "Key binding (%s) is incomplete"
-#~ msgstr "Tuş bağı (%s) eksik"
-
-#~ msgid ""
-#~ "Error while trying to run (%s)\n"
-#~ "which is linked to the key (%s)"
-#~ msgstr ""
-#~ "(%s) çalıştırırken hata\n"
-#~ "(%s) tuşu ile bağlı"
-
-#~ msgid "Keybindings plugin"
-#~ msgstr "Tuş bağları eklentisi"
-
-#~ msgid ""
-#~ "Error activating XKB configuration.\n"
-#~ "There can be various reasons for that.\n"
-#~ "\n"
-#~ "If you report this situation as a bug, include the results of\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>"
-#~ msgstr ""
-#~ "XKB yapılandırmasını aktive ederken hata oluştu.\n"
-#~ "Bunun birden fazla nedeni olabilir.\n"
-#~ "\n"
-#~ "Eğer bunu hata raporu olarak gönderecekseniz, şunların sonuçlarını da "
-#~ "ekleyin\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>"
-
-#~ msgid "_Layouts"
-#~ msgstr "_Düzenler"
-
-#~| msgid "Show _Current Layout"
-#~ msgid "Show _Keyboard Layout..."
-#~ msgstr "_Klavye Düzenini Göster..."
-
-#~| msgid "Manage X Settings"
-#~ msgid "Region and Language Settings"
-#~ msgstr "Bölge ve Dil Ayarları"
-
-#~ msgid ""
-#~ "Could not get default terminal. Verify that your default terminal command "
-#~ "is set and points to a valid application."
-#~ msgstr ""
-#~ "Öntanımlı uçbirim alınamadı. Öntanımlı uçbirim komutunuzun atandığını ve "
-#~ "geçerli bir uygulamayı işaret ettiğini kontrol edin."
-
-#~ msgid ""
-#~ "Couldn't execute command: %s\n"
-#~ "Verify that this is a valid command."
-#~ msgstr ""
-#~ "Komut çalıştırılamadı: %s\n"
-#~ "Bu komutun geçerli olup olmadığını kontrol edin."
-
-#~ msgid "Module Path"
-#~ msgstr "Modül Yolu"
-
-#~ msgid "path to smartcard PKCS #11 driver"
-#~ msgstr "PKCS #11 sürücüsünün yolu"
-
-#~ msgid "Slot ID"
-#~ msgstr "Yuva Kimliği"
-
-#~ msgid "The slot the card is in"
-#~ msgstr "Kartın bulunduğu yuva"
-
-#~ msgid "Slot Series"
-#~ msgstr "Yuva Dizisi"
-
-#~ msgid "per-slot card identifier"
-#~ msgstr "yuva başına kart tanımlayıcısı"
-
-#~ msgid "name"
-#~ msgstr "isim"
-
-#~ msgid "Module"
-#~ msgstr "Modül"
-
-#~ msgid "Change system time and date settings"
-#~ msgstr "Sistem saat ve tarih ayarlarını değiştir"
-
-#~ msgid "Privileges are required to configure time and date settings."
-#~ msgstr ""
-#~ "Zaman ve tarih ayarlarını yapılandırabilmek için yetkiler gerekiyor."
-
-#~ msgid ""
-#~ "Automatic updates are not being installed as the computer is running on "
-#~ "battery power"
-#~ msgstr ""
-#~ "Otomatik güncellemeler bilgisayar batarya gücünden beslendiği için "
-#~ "yüklenemedi"
-
-#~ msgid "Updates not installed"
-#~ msgstr "Güncellemeler yüklenmedi"
-
-#~ msgid "Install the updates anyway"
-#~ msgstr "Güncellemeleri yine de yükle"
-
-#~ msgid "No restart is required."
-#~ msgstr "Yeniden başlatılmasına gerek yok."
-
-#~ msgid "A restart is required."
-#~ msgstr "Bir yeniden başlatma gerekli."
-
-#~ msgid "You need to log out and log back in."
-#~ msgstr "Oturumdan çıkıp tekrar oturuma girmeniz gerekiyor."
-
-#~ msgid "You need to restart the application."
-#~ msgstr "Uygulamayı yeniden başlatmanız gerekiyor."
-
-#~ msgid "You need to log out and log back in to remain secure."
-#~ msgstr ""
-#~ "Güvenli kalmak için, oturumu terk edip oturuma tekrar girmeniz gerekiyor."
-
-#~ msgid "A restart is required to remain secure."
-#~ msgstr "Güvenli kalmak için yeniden başlatmanız gerekiyor."
-
-#~ msgid "One package was skipped:"
-#~ msgid_plural "Some packages were skipped:"
-#~ msgstr[0] "Bazı paketler atlandı:"
-
-#~ msgid "Restart computer now"
-#~ msgstr "Bilgisayarı şimdi yeniden başlat"

@@ -1,21 +1,22 @@
-# Norwegian bokmål translation of gnome-settings-daemon.
-# Copyright (C) 1999-2005 Free Software Foundation, Inc.
-#
-# Kjartan Maraas <kmaraas@gnome.org>, 1999-2016.
-# Terance Edward Sola <terance@lyse.net>, 2005.
-# Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Terance Edward Sola <terance@lyse.net>, 2005
+# Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-settings-daemon 3.22.x\n"
+"Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-15 16:20+0200\n"
-"PO-Revision-Date: 2016-10-15 16:21+0200\n"
-"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
-"Language-Team: Norwegian bokmål <i18n-nb@lister.ping.uio.no>\n"
-"Language: nb\n"
+"POT-Creation-Date: 2017-03-28 03:31+0000\n"
+"PO-Revision-Date: 2016-10-04 23:16+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Norwegian Bokmål (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/gnome-settings-daemon.desktop.in.in.h:1
@@ -88,8 +89,7 @@ msgstr "Aktivering av dette tillegget"
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:2
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:2
 msgid "Whether this plugin would be activated by gnome-settings-daemon or not"
-msgstr ""
-"Om dette tillegget ville blitt aktivert av gnome-settings-daemon eller ikke"
+msgstr "Om dette tillegget ville blitt aktivert av gnome-settings-daemon eller ikke"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:3
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:3
@@ -121,9 +121,7 @@ msgstr "Prioritet som skal brukes for dette tilegget"
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:6
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:8
 msgid "Priority to use for this plugin in gnome-settings-daemon startup queue"
-msgstr ""
-"Prioritet som skal brukes for dette tilegget i oppstartskøen for gnome-"
-"settings-daemon"
+msgstr "Prioritet som skal brukes for dette tilegget i oppstartskøen for gnome-settings-daemon"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:5
 msgid "Wacom stylus absolute mode"
@@ -149,9 +147,7 @@ msgstr "Høyde-/breddeforhold for Wacom tegnebrett"
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
-msgstr ""
-"Slå på dette for å begrense området for tegnebrettet til høyde-/"
-"breddeforholdet på skjermen."
+msgstr "Slå på dette for å begrense området for tegnebrettet til høyde-/breddeforholdet på skjermen."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:11
 msgid "Wacom tablet rotation"
@@ -159,8 +155,8 @@ msgstr "Rotering for Wacom tegnebrett"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:12
 msgid ""
-"Set this to 'none', 'cw' for 90 degree clockwise, 'half' for 180 degree, and "
-"'ccw' for 90 degree counterclockwise."
+"Set this to 'none', 'cw' for 90 degree clockwise, 'half' for 180 degree, and"
+" 'ccw' for 90 degree counterclockwise."
 msgstr ""
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:13
@@ -235,23 +231,17 @@ msgstr "Tastekombinasjon for egendefinert handling"
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
-msgstr ""
-"Tastatursnarvei som genereres når knappen trykkes ned for egendefinerte "
-"handlinger."
+msgstr "Tastatursnarvei som genereres når knappen trykkes ned for egendefinerte handlinger."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:30
 msgid "Key combinations for a touchring or touchstrip custom action"
-msgstr ""
-"Tastekombinasjoner for en egendefinert handling for en berøringsring eller "
-"berøringsstripe"
+msgstr "Tastekombinasjoner for en egendefinert handling for en berøringsring eller berøringsstripe"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:31
 msgid ""
 "The keyboard shortcuts generated when a touchring or touchstrip is used for "
 "custom actions (up followed by down)."
-msgstr ""
-"Tastatursnarveier som genereres når en berøringsring eller berøringsstripe "
-"brukes for egendefinerte handlinger (opp etterfulgt av ned)."
+msgstr "Tastatursnarveier som genereres når en berøringsring eller berøringsstripe brukes for egendefinerte handlinger (opp etterfulgt av ned)."
 
 #. Translators: This is the OLED display on an Intuos4 tablet:
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
@@ -687,10 +677,7 @@ msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "\"none\" for no antialiasing, \"grayscale\" for standard grayscale "
 "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
-msgstr ""
-"Type utjevning som skal brukes ved rendring av skrifter. Mulige verdier er: "
-"«none» for ingen utjevning, «grayscale» for vanlig gråtoneutjevning og "
-"«rgba» for underpikselutjevning (kun LCD-skjermer)."
+msgstr "Type utjevning som skal brukes ved rendring av skrifter. Mulige verdier er: «none» for ingen utjevning, «grayscale» for vanlig gråtoneutjevning og «rgba» for underpikselutjevning (kun LCD-skjermer)."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
 msgid "Hinting"
@@ -698,8 +685,8 @@ msgstr "Hinting"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:6
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: \"none"
-"\" for no hinting and \"slight\" for fitting only to the Y-axis like "
+"The type of hinting to use when rendering fonts. Possible values are: "
+"\"none\" for no hinting and \"slight\" for fitting only to the Y-axis like "
 "Microsoft's ClearType, DirectWrite and Adobe's proprietary font rendering "
 "engine. Ignores native hinting within the font, generates hints "
 "algorithmically. Used on Ubuntu by default. Recommended. The meaning of "
@@ -716,15 +703,11 @@ msgstr "RGBA-rekkefølge"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:10
 msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
-"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red "
-"on bottom."
-msgstr ""
-"Rekkefølge for underpikselelementer på en LCD-skjerm; brukes kun når "
-"utjevning er satt til «rgba». Mulige verdier er «rgb» for rød til venstre "
-"(mest vanlig), «bgr» for blå til venstre, «vrgb» for rød øverst, «vbgr» for "
-"rød nederst."
+"The order of subpixel elements on an LCD screen; only used when antialiasing"
+" is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
+"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red"
+" on bottom."
+msgstr "Rekkefølge for underpikselelementer på en LCD-skjerm; brukes kun når utjevning er satt til «rgba». Mulige verdier er «rgb» for rød til venstre (mest vanlig), «bgr» for blå til venstre, «vrgb» for rød øverst, «vbgr» for rød nederst."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:11
 msgid "List of explicitly disabled GTK+ modules"
@@ -742,8 +725,8 @@ msgstr "Liste med GTK+-moduler som er eksplisitt slått på"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:14
 msgid ""
-"A list of strings representing the GTK+ modules that will be loaded, usually "
-"in addition to conditional and forcibly disabled ones."
+"A list of strings representing the GTK+ modules that will be loaded, usually"
+" in addition to conditional and forcibly disabled ones."
 msgstr ""
 
 #: ../gnome-settings-daemon/main.c:53
@@ -778,9 +761,7 @@ msgstr "Trege taster er slått av"
 msgid ""
 "You just held down the Shift key for 8 seconds.  This is the shortcut for "
 "the Slow Keys feature, which affects the way your keyboard works."
-msgstr ""
-"Du holdt nettopp nede Shift-tasten i 8 sekunder. Dette er snarveien for "
-"funksjonen trege taster som påvirker hvordan tastaturet ditt virker."
+msgstr "Du holdt nettopp nede Shift-tasten i 8 sekunder. Dette er snarveien for funksjonen trege taster som påvirker hvordan tastaturet ditt virker."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:410
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:478
@@ -819,19 +800,14 @@ msgstr "Klebrige taster er slått av"
 msgid ""
 "You just pressed the Shift key 5 times in a row.  This is the shortcut for "
 "the Sticky Keys feature, which affects the way your keyboard works."
-msgstr ""
-"Du trykket nettopp ned Shift-tasten 5 ganger på rad. Dette er snarveien for "
-"funksjonen «klebrige taster» som påvirker måten tastaturet fungerer."
+msgstr "Du trykket nettopp ned Shift-tasten 5 ganger på rad. Dette er snarveien for funksjonen «klebrige taster» som påvirker måten tastaturet fungerer."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:468
 msgid ""
 "You just pressed two keys at once, or pressed the Shift key 5 times in a "
 "row.  This turns off the Sticky Keys feature, which affects the way your "
 "keyboard works."
-msgstr ""
-"Du trykket nettopp ned to taster på en gang, eller Shift-tasten 5 ganger på "
-"rad. Dette skrur av funksjonen «klebrige taster» som påvirker tasteturets "
-"virkemåte."
+msgstr "Du trykket nettopp ned to taster på en gang, eller Shift-tasten 5 ganger på rad. Dette skrur av funksjonen «klebrige taster» som påvirker tasteturets virkemåte."
 
 #: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:1
 msgid "Accessibility settings"
@@ -932,58 +908,41 @@ msgstr "Dummy"
 msgid "Dummy plugin"
 msgstr "Dummy-tillegg"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:574
+#: ../plugins/housekeeping/gsd-disk-space.c:577
 msgid "Disk space"
 msgstr "Diskplass"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:586
+#: ../plugins/housekeeping/gsd-disk-space.c:589
 msgid "Examine"
 msgstr "Undersøk"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:597
+#: ../plugins/housekeeping/gsd-disk-space.c:600
 msgid "Empty Trash"
 msgstr "Tøm papirkurv"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:605
+#: ../plugins/housekeeping/gsd-disk-space.c:608
 msgid "Ignore"
 msgstr "Overse"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:636
-#, c-format
-msgid "Low Disk Space on “%s”"
-msgstr "Lite diskplass på «%s»"
-
 #: ../plugins/housekeeping/gsd-disk-space.c:638
-#, c-format
-msgid ""
-"The volume “%s” has only %s disk space remaining.  You may free up some "
-"space by emptying the trash."
-msgstr ""
-"Volumet «%s» har kun %s gjenværende plass. Du kan frigjøre plass ved å tømme "
-"papirkurven."
-
-#: ../plugins/housekeeping/gsd-disk-space.c:642
-#, c-format
-msgid "The volume “%s” has only %s disk space remaining."
-msgstr "Volumet «%s» har kun %s gjenværende plass."
-
-#: ../plugins/housekeeping/gsd-disk-space.c:647
+#: ../plugins/housekeeping/gsd-disk-space.c:664
 msgid "Low Disk Space"
 msgstr "Lite diskplass"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:649
+#: ../plugins/housekeeping/gsd-disk-space.c:639
+msgid ""
+"Your computer is out of space.  To free up space, you can delete old files "
+"and empty the trash from the \"Documents\" file manager, or delete apps you "
+"may not need from the App Center."
+msgstr ""
+
+#: ../plugins/housekeeping/gsd-disk-space.c:665
 #, c-format
 msgid ""
-"This computer has only %s disk space remaining.  You may free up some space "
-"by emptying the trash."
+"Your computer has only %s of space available.  To free up space, you can "
+"delete old files and empty the trash from the \"Documents\" file manager, or"
+" delete apps you may not need from the App Center."
 msgstr ""
-"Denne datamaskinen har kun %s gjenværende diskplass. Du kan frigjøre noe "
-"plass ved å tømme papirkurven."
-
-#: ../plugins/housekeeping/gsd-disk-space.c:652
-#, c-format
-msgid "This computer has only %s disk space remaining."
-msgstr "Denne datamaskinen har kun %s gjenværende diskplass."
 
 #: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:1
 msgid "Housekeeping"
@@ -993,9 +952,7 @@ msgstr "Opprydding"
 msgid ""
 "Automatically prunes thumbnail caches and other transient files, and warns "
 "about low disk space"
-msgstr ""
-"Tømmer buffer for miniatyrer og andre midlertidige filer automatisk og "
-"varsler når det er lite tilgjengelig diskplass"
+msgstr "Tømmer buffer for miniatyrer og andre midlertidige filer automatisk og varsler når det er lite tilgjengelig diskplass"
 
 #: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
 msgid "Keyboard"
@@ -1005,27 +962,27 @@ msgstr "Tastatur"
 msgid "Keyboard plugin"
 msgstr "Tillegg for tastatur"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2111
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2178
 msgid "Bluetooth disabled"
 msgstr "Bluetooth slått av"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2114
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2181
 msgid "Bluetooth enabled"
 msgstr "Bluetooth slått på"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2118
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2185
 msgid "Airplane mode enabled"
 msgstr "Flymodus slått på"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2121
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2188
 msgid "Airplane mode disabled"
 msgstr "Flymodus slått av"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2149
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2216
 msgid "Hardware Airplane Mode"
 msgstr "Flymodus i maskinvare"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2209
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2276
 msgid "Screencast from %d %t.webm"
 msgstr "Skjermvideo fra %d %t.webm"
 
@@ -1115,10 +1072,6 @@ msgstr "Stille volum opp"
 msgid "Lock Screen"
 msgstr "Lås skjerm"
 
-#: ../plugins/media-keys/shortcuts-list.h:67
-msgid "Help"
-msgstr "Hjelp"
-
 #: ../plugins/media-keys/shortcuts-list.h:81
 msgid "Rewind"
 msgstr "Spol tilbake"
@@ -1135,7 +1088,8 @@ msgstr "Gjenta"
 msgid "Random Play"
 msgstr "Spill av tilfeldig"
 
-#. Key code of the XF86Display key (Fn-F7 on Thinkpads, Fn-F4 on HP machines, etc.)
+#. Key code of the XF86Display key (Fn-F7 on Thinkpads, Fn-F4 on HP machines,
+#. etc.)
 #: ../plugins/media-keys/shortcuts-list.h:85
 #: ../plugins/media-keys/shortcuts-list.h:87
 msgid "Video Out"
@@ -1155,7 +1109,8 @@ msgid "Power Off"
 msgstr "Slå av"
 
 #. the kernel / Xorg names really are like this...
-#. translators: "Sleep" means putting the machine to sleep, either through hibernate or suspend
+#. translators: "Sleep" means putting the machine to sleep, either through
+#. hibernate or suspend
 #: ../plugins/media-keys/shortcuts-list.h:102
 msgid "Sleep"
 msgstr "Sov"
@@ -1404,12 +1359,14 @@ msgstr "Tilkoblet datamaskin har lite strøm (%.0f%%)"
 msgid "Battery is low"
 msgstr "Batteri har lav kapasitet"
 
-#. TRANSLATORS: laptop battery critically low, and only have one kind of battery
+#. TRANSLATORS: laptop battery critically low, and only have one kind of
+#. battery
 #: ../plugins/power/gsd-power-manager.c:558
 msgid "Battery critically low"
 msgstr "Batteri har kritisk lav kapasitet"
 
-#. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
+#. TRANSLATORS: laptop battery critically low, and we have more than one type
+#. of battery
 #. TRANSLATORS: laptop battery is really, really, low
 #: ../plugins/power/gsd-power-manager.c:561
 #: ../plugins/power/gsd-power-manager.c:708
@@ -1420,8 +1377,7 @@ msgstr "Batteri på bærbar har kritisk lav kapasitet"
 #: ../plugins/power/gsd-power-manager.c:570
 #, c-format
 msgid "Computer will hibernate very soon unless it is plugged in."
-msgstr ""
-"Datamaskinen vil gå i dvalemodus meget snart med mindre den kobles til."
+msgstr "Datamaskinen vil gå i dvalemodus meget snart med mindre den kobles til."
 
 #. TRANSLATORS: give the user a ultimatum
 #: ../plugins/power/gsd-power-manager.c:574
@@ -1442,9 +1398,7 @@ msgstr "UPS har kritisk lav batterikapasitet"
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
 "computer to avoid losing data."
-msgstr ""
-"Omtrent %s gjenværende UPS-strøm (%.0f%%). Gjenopprett strømtilkobling til "
-"din datamaskin for å unngå å tape data."
+msgstr "Omtrent %s gjenværende UPS-strøm (%.0f%%). Gjenopprett strømtilkobling til din datamaskin for å unngå å tape data."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:597
@@ -1452,9 +1406,7 @@ msgstr ""
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Trådløs mus har meget lite strøm (%.0f%%). Enheten vil snart slutte å virke "
-"hvis den ikke lades."
+msgstr "Trådløs mus har meget lite strøm (%.0f%%). Enheten vil snart slutte å virke hvis den ikke lades."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:605
@@ -1462,19 +1414,15 @@ msgstr ""
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Trådløst tastatur har meget lite strøm (%.0f%%). Enheten vil snart slutte å "
-"virke hvis den ikke lades."
+msgstr "Trådløst tastatur har meget lite strøm (%.0f%%). Enheten vil snart slutte å virke hvis den ikke lades."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:614
 #, c-format
 msgid ""
-"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
-"not charged."
-msgstr ""
-"PDA har meget lite strøm (%.0f%%). Enheten vil snart slutte å virke hvis den "
-"ikke lades."
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if"
+" not charged."
+msgstr "PDA har meget lite strøm (%.0f%%). Enheten vil snart slutte å virke hvis den ikke lades."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:624
@@ -1482,9 +1430,7 @@ msgstr ""
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Mobiltelefonen har meget lite strøm (%.0f%%). Enheten vil snart slutte å "
-"virke hvis den ikke lades."
+msgstr "Mobiltelefonen har meget lite strøm (%.0f%%). Enheten vil snart slutte å virke hvis den ikke lades."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:633
@@ -1492,19 +1438,15 @@ msgstr ""
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Mediespiller har meget lite strøm (%.0f%%). Enheten vil snart slutte å virke "
-"hvis den ikke lades."
+msgstr "Mediespiller har meget lite strøm (%.0f%%). Enheten vil snart slutte å virke hvis den ikke lades."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:642
 #, c-format
 msgid ""
-"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
-"if not charged."
-msgstr ""
-"Nettbrett har meget lite strøm (%.0f%%). Enheten vil snart slutte å virke "
-"hvis den ikke lades."
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning"
+" if not charged."
+msgstr "Nettbrett har meget lite strøm (%.0f%%). Enheten vil snart slutte å virke hvis den ikke lades."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:651
@@ -1512,87 +1454,78 @@ msgstr ""
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
 "shutdown if not charged."
-msgstr ""
-"Tilkoblet datamaskin har meget lite strøm (%.0f%%). Enheten vil snart slutte "
-"å virke hvis den ikke lades."
+msgstr "Tilkoblet datamaskin har meget lite strøm (%.0f%%). Enheten vil snart slutte å virke hvis den ikke lades."
 
 #. TRANSLATORS: computer will hibernate
 #: ../plugins/power/gsd-power-manager.c:716
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
-msgstr ""
-"Batteriet er under kritisk nivå og denne datamaskinen er i ferd med å gå i "
-"dvalemodus."
+msgstr "Batteriet er under kritisk nivå og denne datamaskinen er i ferd med å gå i dvalemodus."
 
 #. TRANSLATORS: computer will just shutdown
 #: ../plugins/power/gsd-power-manager.c:721
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "shutdown."
-msgstr ""
-"Batteriet er under kritisk nivå og denne datamaskinen er i ferd med å slås "
-"av."
+msgstr "Batteriet er under kritisk nivå og denne datamaskinen er i ferd med å slås av."
 
 #. TRANSLATORS: computer will hibernate
 #: ../plugins/power/gsd-power-manager.c:741
 msgid ""
 "UPS is below the critical level and this computer is about to hibernate."
-msgstr ""
-"UPS er under kritisk nivå og denne datamaskinen er i ferd med å gå i "
-"dvalemodus."
+msgstr "UPS er under kritisk nivå og denne datamaskinen er i ferd med å gå i dvalemodus."
 
 #. TRANSLATORS: computer will just shutdown
 #: ../plugins/power/gsd-power-manager.c:746
-msgid "UPS is below the critical level and this computer is about to shutdown."
-msgstr ""
-"UPS er under kritisk nivå og denne datamaskinen er i ferd med å slås av."
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
+msgstr "UPS er under kritisk nivå og denne datamaskinen er i ferd med å slås av."
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1253
+#: ../plugins/power/gsd-power-manager.c:1259
 msgid "Lid has been opened"
 msgstr "Lokket ble åpnet"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1291
+#: ../plugins/power/gsd-power-manager.c:1297
 msgid "Lid has been closed"
 msgstr "Lokket ble lukket"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1842
+#: ../plugins/power/gsd-power-manager.c:1856
 msgid "On battery power"
 msgstr "På batteristrøm"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1847
+#: ../plugins/power/gsd-power-manager.c:1861
 msgid "On AC power"
 msgstr "På nettstrøm"
 
-#: ../plugins/power/gsd-power-manager.c:2029
+#: ../plugins/power/gsd-power-manager.c:2053
 msgid "Automatic logout"
 msgstr "Automatisk utlogging"
 
-#: ../plugins/power/gsd-power-manager.c:2029
+#: ../plugins/power/gsd-power-manager.c:2053
 msgid "You will soon log out because of inactivity."
 msgstr "Du vil snart bli logget ut pga inaktivitet."
 
-#: ../plugins/power/gsd-power-manager.c:2034
+#: ../plugins/power/gsd-power-manager.c:2058
 msgid "Automatic suspend"
 msgstr "Automatisk hvilemodus"
 
-#: ../plugins/power/gsd-power-manager.c:2034
-#: ../plugins/power/gsd-power-manager.c:2039
+#: ../plugins/power/gsd-power-manager.c:2058
+#: ../plugins/power/gsd-power-manager.c:2063
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "Datamaskinen vil gå i hvilemodus meget snart pga inaktivitet."
 
-#: ../plugins/power/gsd-power-manager.c:2039
+#: ../plugins/power/gsd-power-manager.c:2063
 msgid "Automatic hibernation"
 msgstr "Automatisk dvalemodus"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the backlight brightness.
-#.
 #: ../plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in.h:5
 msgid "Modify the laptop brightness"
 msgstr "Endre lysstyrke på datamaskinen"
@@ -1645,31 +1578,36 @@ msgstr "Skrivere"
 msgid "Printer '%s' is low on toner."
 msgstr "Skriver «%s» har lite toner."
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:354
 #, c-format
 msgid "Printer '%s' has no toner left."
 msgstr "Skriver «%s» har ikke mer toner."
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:358
 #, c-format
 msgid "Printer '%s' may not be connected."
 msgstr "Skriver «%s» er kanskje ikke koblet til."
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:362
 #, c-format
 msgid "The cover is open on printer '%s'."
 msgstr "Lokket er åpent på skriver «%s»."
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:366
 #, c-format
 msgid "There is a missing print filter for printer '%s'."
 msgstr "Det mangler et utskriftsfilter for skriver «%s»."
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:371
 #, c-format
 msgid "The door is open on printer '%s'."
@@ -1687,13 +1625,15 @@ msgstr "Skriver «%s» har lite farge."
 msgid "Printer '%s' is out of a marker supply."
 msgstr "Skriver «%s» har ikke mer farge."
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:383
 #, c-format
 msgid "Printer '%s' is low on paper."
 msgstr "Skriver «%s» har lite papir."
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:387
 #, c-format
 msgid "Printer '%s' is out of paper."
@@ -1705,7 +1645,8 @@ msgstr "Skriver «%s» har ikke mer papir."
 msgid "Printer '%s' is currently off-line."
 msgstr "Skriver «%s» er ikke tilkoblet."
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "There is a problem on printer '%s'."
@@ -1716,27 +1657,32 @@ msgstr "Det er et problem med skriver «%s»."
 msgid "Toner low"
 msgstr "Lite toner"
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:445
 msgid "Toner empty"
 msgstr "Ikke mer toner"
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:447
 msgid "Not connected?"
 msgstr "Ikke koblet til?"
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:449
 msgid "Cover open"
 msgstr "Lokket er åpent"
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:451
 msgid "Printer configuration error"
 msgstr "Feil med konfigurasjon av skriver"
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:453
 msgid "Door open"
 msgstr "Dør åpen"
@@ -1751,12 +1697,14 @@ msgstr "Lite farge"
 msgid "Out of a marker supply"
 msgstr "Ikke mer farge"
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:459
 msgid "Paper low"
 msgstr "Lite papir"
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:461
 msgid "Out of paper"
 msgstr "Ikke mer papir"
@@ -1766,7 +1714,8 @@ msgstr "Ikke mer papir"
 msgid "Printer off-line"
 msgstr "Skriver frakoblet"
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #. Translators: This is a title of an error notification for a printer
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:465
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:828
@@ -1839,7 +1788,8 @@ msgstr "Skriverrapport"
 msgid "Printer warning"
 msgstr "Skriveradvarsel"
 
-#. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
+#. Translators: "Printer 'MyPrinterName': 'Description of the
+#. report/warning/error from a PPD file'."
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:835
 #, c-format
 msgid "Printer '%s': '%s'."
@@ -1933,86 +1883,86 @@ msgid "Done"
 msgstr "Ferdig"
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1031
+#: ../plugins/wacom/gsd-wacom-device.c:1028
 msgid "Left Ring"
 msgstr "Venstre ring"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1042
+#: ../plugins/wacom/gsd-wacom-device.c:1039
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "Venstre ringmodus #%d"
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1062
+#: ../plugins/wacom/gsd-wacom-device.c:1059
 msgid "Right Ring"
 msgstr "Høyre ring"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1073
+#: ../plugins/wacom/gsd-wacom-device.c:1070
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "Høyre ringmodus #%d"
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1115
+#: ../plugins/wacom/gsd-wacom-device.c:1112
 msgid "Left Touchstrip"
 msgstr "Venstre berøringsstripe"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1126
+#: ../plugins/wacom/gsd-wacom-device.c:1123
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "Venstre berøringsstripe modus #%d"
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1146
+#: ../plugins/wacom/gsd-wacom-device.c:1143
 msgid "Right Touchstrip"
 msgstr "Høyre berøringsstripe"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1157
+#: ../plugins/wacom/gsd-wacom-device.c:1154
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "Høyre berøringsstripe modus #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1183
+#: ../plugins/wacom/gsd-wacom-device.c:1180
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "Høyre berøringsrind modusbytte"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1185
+#: ../plugins/wacom/gsd-wacom-device.c:1182
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "Høyre berøringsring modusbytte"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1188
+#: ../plugins/wacom/gsd-wacom-device.c:1185
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "Bytte av modus for venstre berøringsstripe"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1190
+#: ../plugins/wacom/gsd-wacom-device.c:1187
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "Bytte av modus for høyre berøringsstripe"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1195
+#: ../plugins/wacom/gsd-wacom-device.c:1192
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "Modusbytte #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1241
+#: ../plugins/wacom/gsd-wacom-device.c:1238
 #, c-format
 msgid "Left Button #%d"
 msgstr "Venstre knapp #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1244
+#: ../plugins/wacom/gsd-wacom-device.c:1241
 #, c-format
 msgid "Right Button #%d"
 msgstr "Høyre knapp #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1247
+#: ../plugins/wacom/gsd-wacom-device.c:1244
 #, c-format
 msgid "Top Button #%d"
 msgstr "Øverste knapp #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1250
+#: ../plugins/wacom/gsd-wacom-device.c:1247
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "Nederste knapp #%d"
@@ -2021,16 +1971,16 @@ msgstr "Nederste knapp #%d"
 msgid "New shortcut…"
 msgstr "Ny snarvei …"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1042
+#: ../plugins/wacom/gsd-wacom-manager.c:1037
 #, c-format
 msgid "The \"%s\" tablet may not work as expected."
 msgstr "«%s»-tegnebrett virker kanskje ikke som forventet."
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1043
+#: ../plugins/wacom/gsd-wacom-manager.c:1038
 msgid "Unknown Tablet Connected"
 msgstr "Ukjent tegnebrett tilkoblet"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1047
+#: ../plugins/wacom/gsd-wacom-manager.c:1042
 msgid "Wacom Settings"
 msgstr "Innstillinger for Wacom"
 
@@ -2071,7 +2021,6 @@ msgstr "Rediger"
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the LED setting for a Wacom tablet
-#.
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:5
 msgid "Modify the lit LED for a Wacom tablet"
 msgstr "Endre opplyst LED for et Wacom-tegnebrett"
@@ -2083,7 +2032,6 @@ msgstr "Autentisering kreves for å endre opplyst LED for et Wacom-tegnebrett"
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the OLED images for a Wacom tablet
-#.
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:11
 msgid "Modify the OLED image for a Wacom tablet"
 msgstr "Endre OLED-bilde for et Wacom-tegnebrett"

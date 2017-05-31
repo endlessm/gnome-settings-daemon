@@ -1,28 +1,26 @@
-# translation of lv.po to Latvian
-# gnome-control-center for Latvian.
-# Copyright (C) 2001, 2006, 2007 Free Software Foundation, Inc.
-#
-# Artis Trops <hornet@navigators.lv>, 2001.
-# Raivis Dejus <orvils@gmail.com>, 2006, 2007.
-# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2010.
-# Rudolfs <rudolfs.mazurs@gmail.com>, 2011.
-# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011, 2012, 2013, 2014, 2015, 2016.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Artis Trops <hornet@navigators.lv>, 2001
+# Raivis Dejus <orvils@gmail.com>, 2006-2007
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2011-2016
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2010
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2011
 msgid ""
 msgstr ""
-"Project-Id-Version: lv\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-se"
-"ttings-daemon&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-08-23 16:36+0000\n"
-"PO-Revision-Date: 2016-09-08 18:57+0200\n"
-"Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
-"Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
-"Language: lv\n"
+"Project-Id-Version: gnome-settings-daemon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-28 03:31+0000\n"
+"PO-Revision-Date: 2016-10-04 23:15+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Latvian (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 :"
-" 2);\n"
-"X-Generator: Lokalize 2.0\n"
+"Language: lv\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
 #: ../data/gnome-settings-daemon.desktop.in.in.h:1
 msgid "GNOME Settings Daemon"
@@ -36,17 +34,13 @@ msgstr "Viedkartes izņemšanas darbība"
 msgid ""
 "Set this to one of \"none\", \"lock-screen\", or \"force-logout\". The "
 "action will get performed when the smartcard used for log in is removed."
-msgstr ""
-"Iestatiet šo uz \"none\", \"lock-screen\" vai \"force-logout\" Šī darbība "
-"tiks veikta, ja tiks izņemta viedkarte, kura tika izmantota, lai pieteiktos."
+msgstr "Iestatiet šo uz \"none\", \"lock-screen\" vai \"force-logout\" Šī darbība tiks veikta, ja tiks izņemta viedkarte, kura tika izmantota, lai pieteiktos."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:3
 msgid ""
 "Highlights the current location of the pointer when the Control key is "
 "pressed and released."
-msgstr ""
-"Izceļ pašreizējo kursora atrašanās vietu, kad Ctrl taustiņš tiek nospiests "
-"un atlaists."
+msgstr "Izceļ pašreizējo kursora atrašanās vietu, kad Ctrl taustiņš tiek nospiests un atlaists."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:4
 msgid "Double click time"
@@ -130,8 +124,7 @@ msgstr "Prioritāte, ko izmantot šim spraudnim"
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:6
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:8
 msgid "Priority to use for this plugin in gnome-settings-daemon startup queue"
-msgstr ""
-"Prioritāte, ko izmantot šim spraudnim gnome-settings-daemon startēšanās rindā"
+msgstr "Prioritāte, ko izmantot šim spraudnim gnome-settings-daemon startēšanās rindā"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:5
 msgid "Wacom stylus absolute mode"
@@ -157,9 +150,7 @@ msgstr "Wacom planšetes izmēru attiecība"
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
-msgstr ""
-"Aktivējiet šo, lai ierobežotu Wacom planšetes laukumu, lai tas atbilstu "
-"izvades izmēru attiecībai."
+msgstr "Aktivējiet šo, lai ierobežotu Wacom planšetes laukumu, lai tas atbilstu izvades izmēru attiecībai."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:11
 msgid "Wacom tablet rotation"
@@ -167,11 +158,9 @@ msgstr "Wacom planšetes rotācija"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:12
 msgid ""
-"Set this to 'none', 'cw' for 90 degree clockwise, 'half' for 180 degree, and "
-"'ccw' for 90 degree counterclockwise."
-msgstr ""
-"Iestatiet šo uz 'none', 'cw' lai pagrieztu 90 grādus pa pulksteni, 'half' – "
-"180 grādus – , un 'ccw' – 90 grādus pretēji pulkstenim."
+"Set this to 'none', 'cw' for 90 degree clockwise, 'half' for 180 degree, and"
+" 'ccw' for 90 degree counterclockwise."
+msgstr "Iestatiet šo uz 'none', 'cw' lai pagrieztu 90 grādus pa pulksteni, 'half' – 180 grādus – , un 'ccw' – 90 grādus pretēji pulkstenim."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:13
 msgid "Wacom touch feature"
@@ -179,8 +168,7 @@ msgstr "Wacom pieskāriena iespēja"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:14
 msgid "Enable this to move the cursor when the user touches the tablet."
-msgstr ""
-"Aktivējiet to, lai pārvietotu kursoru, kad lietotājs pieskaras planšetei."
+msgstr "Aktivējiet to, lai pārvietotu kursoru, kad lietotājs pieskaras planšetei."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:15
 msgid "Wacom stylus pressure curve"
@@ -189,9 +177,7 @@ msgstr "Wacom irbuļa spiediena līkne"
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:16
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
-msgstr ""
-"Iestatiet šo uz x1, y1 un x2, y2 spiediena līknei, kas tiek piemērota "
-"irbulim."
+msgstr "Iestatiet šo uz x1, y1 un x2, y2 spiediena līknei, kas tiek piemērota irbulim."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:17
 msgid "Wacom stylus button mapping"
@@ -208,9 +194,7 @@ msgstr "Wacom irbuļa spiediena slieksnis"
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:20
 msgid ""
 "Set this to the pressure value at which a stylus click event is generated."
-msgstr ""
-"Iestatiet šo uz spiediena vērtību, pie kura tiek veidots irbuļa klikšķa "
-"notikums."
+msgstr "Iestatiet šo uz spiediena vērtību, pie kura tiek veidots irbuļa klikšķa notikums."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:21
 msgid "Wacom eraser pressure curve"
@@ -219,9 +203,7 @@ msgstr "Wacom dzēšgumijas spiediena līkne"
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:22
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
-msgstr ""
-"Iestatiet šo uz x1, y1 un x2, y2 spiediena līknei, kas tiek piemērota "
-"dzēšgumijai."
+msgstr "Iestatiet šo uz x1, y1 un x2, y2 spiediena līknei, kas tiek piemērota dzēšgumijai."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:23
 msgid "Wacom eraser button mapping"
@@ -234,9 +216,7 @@ msgstr "Wacom dzēšgumijas spiediena slieksnis"
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:25
 msgid ""
 "Set this to the pressure value at which an eraser click event is generated."
-msgstr ""
-"Iestatiet šo uz spiediena vērtību, pie kura tiek veidots dzēšgumijas klikšķa "
-"notikums."
+msgstr "Iestatiet šo uz spiediena vērtību, pie kura tiek veidots dzēšgumijas klikšķa notikums."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:26
 msgid "Wacom button action type"
@@ -258,16 +238,13 @@ msgstr "Taustiņu kombinācija, kas izmanto pogu pielāgotajām darbībām."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:30
 msgid "Key combinations for a touchring or touchstrip custom action"
-msgstr ""
-"Taustiņu kombinācijas skārnienriņķu un skārienjoslu pielāgotai darbībai"
+msgstr "Taustiņu kombinācijas skārnienriņķu un skārienjoslu pielāgotai darbībai"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:31
 msgid ""
 "The keyboard shortcuts generated when a touchring or touchstrip is used for "
 "custom actions (up followed by down)."
-msgstr ""
-"Taustiņu kombinācijas, kas izmanto skārienriņķi vai skārienjoslu pielāgotām "
-"darbībām (augšup, tad lejup)."
+msgstr "Taustiņu kombinācijas, kas izmanto skārienriņķi vai skārienjoslu pielāgotām darbībām (augšup, tad lejup)."
 
 #. Translators: This is the OLED display on an Intuos4 tablet:
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
@@ -287,9 +264,7 @@ msgstr "Laiks, cik ekrāna profils ir derīgs"
 msgid ""
 "This is the number of days after which the display color profile is "
 "considered invalid."
-msgstr ""
-"Šis ir dienu skaits, pēc kura ekrāna krāsu profils tiek uzskatīts par "
-"nederīgu."
+msgstr "Šis ir dienu skaits, pēc kura ekrāna krāsu profils tiek uzskatīts par nederīgu."
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:7
 msgid "The duration a printer profile is valid"
@@ -299,9 +274,7 @@ msgstr "Laiks, cik printera profils ir derīgs"
 msgid ""
 "This is the number of days after which the printer color profile is "
 "considered invalid."
-msgstr ""
-"Šis ir dienu skaits, pēc kura printera krāsu profils tiek uzskatīts par "
-"nederīgu."
+msgstr "Šis ir dienu skaits, pēc kura printera krāsu profils tiek uzskatīts par nederīgu."
 
 #: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:1
 msgid "List of plugins that are allowed to be loaded"
@@ -312,10 +285,7 @@ msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: 'all'). The plugins still need to be marked as active to get "
 "loaded. This is only evaluated on startup."
-msgstr ""
-"Saraksts ar virknēm, kas reprezentē spraudņus, kurus drīkst ielādēt "
-"(noklusējuma — “all”). Spraudņi ir jāmarķē kā aktīvi, lai tie tiktu "
-"ielādēti. Tie tiek pārbaudīti tikai ielādējot."
+msgstr "Saraksts ar virknēm, kas reprezentē spraudņus, kurus drīkst ielādēt (noklusējuma — “all”). Spraudņi ir jāmarķē kā aktīvi, lai tie tiktu ielādēti. Tie tiek pārbaudīti tikai ielādējot."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:3
 msgid "Mount paths to ignore"
@@ -323,9 +293,7 @@ msgstr "Montēšanas ceļi, kurus ignorēt"
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:4
 msgid "Specify a list of mount paths to ignore when they run low on space."
-msgstr ""
-"Norādiet sarakstu ar montēšanas ceļiem, kuriem neskatīties, cik atlicis "
-"brīvās vietas."
+msgstr "Norādiet sarakstu ar montēšanas ceļiem, kuriem neskatīties, cik atlicis brīvās vietas."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:5
 msgid "Free percentage notify threshold"
@@ -335,10 +303,7 @@ msgstr "Brīvā vieta procentos, lai paziņotu"
 msgid ""
 "Percentage free space threshold for initial warning of low disk space. If "
 "the percentage free space drops below this, a warning will be shown."
-msgstr ""
-"Brīvās vietas slieksnis procentos pirmajam brīdinājumam par to, ka atlicis "
-"maz brīvās vietas. Brīvās vietas apjoms procentos nokritīs zem šīs vērtības, "
-"tiks rādīts brīdinājums."
+msgstr "Brīvās vietas slieksnis procentos pirmajam brīdinājumam par to, ka atlicis maz brīvās vietas. Brīvās vietas apjoms procentos nokritīs zem šīs vērtības, tiks rādīts brīdinājums."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:7
 msgid "Subsequent free space percentage notify threshold"
@@ -348,9 +313,7 @@ msgstr "Sekojošo paziņojumu slieksnis brīvās vietas procentos "
 msgid ""
 "Specify the percentage that the free disk space should reduce by before "
 "issuing a subsequent warning."
-msgstr ""
-"Norādiet diska brīvās vietas samazināšanos procentos, pirms dot sekojošus "
-"brīdinājumus."
+msgstr "Norādiet diska brīvās vietas samazināšanos procentos, pirms dot sekojošus brīdinājumus."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:9
 msgid "Free space notify threshold"
@@ -360,9 +323,7 @@ msgstr "Brīvās vietas slieksnis, lai paziņotu"
 msgid ""
 "Specify an amount in GB. If the amount of free space is more than this, no "
 "warning will be shown."
-msgstr ""
-"Norādiet apjomu GB. Ja brīvās vietas apjoms ir lielāks par šo, brīdinājums "
-"netiks rādīts."
+msgstr "Norādiet apjomu GB. Ja brīvās vietas apjoms ir lielāks par šo, brīdinājums netiks rādīts."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:11
 msgid "Minimum notify period for repeated warnings"
@@ -372,9 +333,7 @@ msgstr "Minimālais paziņojumu periods atkārtotiem brīdinājumiem"
 msgid ""
 "Specify a time in minutes. Subsequent warnings for a volume will not appear "
 "more often than this period."
-msgstr ""
-"Norādiet laiku minūtēs. Atkārtojošies brīdinājumi netiks rādīti biežāk kā "
-"norādītajā periodā."
+msgstr "Norādiet laiku minūtēs. Atkārtojošies brīdinājumi netiks rādīti biežāk kā norādītajā periodā."
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:3
 msgid "Custom keybindings"
@@ -684,9 +643,7 @@ msgstr "Uz kura no savienojumiem ir ieslēgts pakalpojums"
 msgid ""
 "The list of NetworkManager connections (each one represented with its UUID) "
 "on which this service is enabled and started."
-msgstr ""
-"Saraksts ar NetworkManager savienojumiem (katrs tiek attēlots ar savu UUID) "
-"ar kuru šis serviss ir ieslēgts un palaists."
+msgstr "Saraksts ar NetworkManager savienojumiem (katrs tiek attēlots ar savu UUID) ar kuru šis serviss ir ieslēgts un palaists."
 
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:3
 msgid "File for default configuration for RandR"
@@ -699,12 +656,7 @@ msgid ""
 "normally gets stored in users' home directories. If a user does not have "
 "such a file, or has one that does not match the user's setup of monitors, "
 "then the file specified by this key will be used instead."
-msgstr ""
-"XRandR spraudnis meklēs noklusējuma konfigurāciju datnē, kas ir norādīta "
-"šajā atslēgā. Tas ir līdzīgs ~/.config/monitors.xml, kas parasti tiek "
-"glabāta lietotāju mājas mapēs. Ja lietotājam nav šādas datnes, vai arī tā "
-"neatbilst lietotāja monitoru iestatījumam, tad tiks izmantota datne, kas ir "
-"norādīta šajā atslēgā."
+msgstr "XRandR spraudnis meklēs noklusējuma konfigurāciju datnē, kas ir norādīta šajā atslēgā. Tas ir līdzīgs ~/.config/monitors.xml, kas parasti tiek glabāta lietotāju mājas mapēs. Ja lietotājam nav šādas datnes, vai arī tā neatbilst lietotāja monitoru iestatījumam, tad tiks izmantota datne, kas ir norādīta šajā atslēgā."
 
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:7
 msgid "Whether to turn off specific monitors after boot"
@@ -717,12 +669,7 @@ msgid ""
 "(extend the desktop in recent versions). The default, 'follow-lid', will "
 "choose between 'do-nothing' and 'dock' depending on whether the lid is "
 "(respectively) open or closed."
-msgstr ""
-"'clone' parādīs vienu un to pašu lietu visos monitoros, 'dock' izslēgs "
-"iekšējo monitoru, 'do-nothing' izmantos noklusēto Xorg uzedību (izvērsīs "
-"darbvirsmu pēdējās versijās). Noklusējuma, 'follow-lid', izvēlēsies starp "
-"'do-nothing' un 'dock', atkarībā no tā, vai vāks attiecīgi ir vai nav "
-"aizvērts."
+msgstr "'clone' parādīs vienu un to pašu lietu visos monitoros, 'dock' izslēgs iekšējo monitoru, 'do-nothing' izmantos noklusēto Xorg uzedību (izvērsīs darbvirsmu pēdējās versijās). Noklusējuma, 'follow-lid', izvēlēsies starp 'do-nothing' un 'dock', atkarībā no tā, vai vāks attiecīgi ir vai nav aizvērts."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
 msgid "Antialiasing"
@@ -733,11 +680,7 @@ msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "\"none\" for no antialiasing, \"grayscale\" for standard grayscale "
 "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
-msgstr ""
-"Kāda veida nogludināšanu izmantot, kad renderē fontus. Iespējamās vērtības "
-"ir: \"none\", lai neizmantotu nogludināšanu, \"grayscale\" standarta "
-"pelēktoņu nogludināšanai, un \"rgba\" apakšpikseļu nogludināšanai (tikai LCD "
-"ekrāniem)."
+msgstr "Kāda veida nogludināšanu izmantot, kad renderē fontus. Iespējamās vērtības ir: \"none\", lai neizmantotu nogludināšanu, \"grayscale\" standarta pelēktoņu nogludināšanai, un \"rgba\" apakšpikseļu nogludināšanai (tikai LCD ekrāniem)."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
 msgid "Hinting"
@@ -745,8 +688,8 @@ msgstr "Norādīšana"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:6
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: \"none"
-"\" for no hinting and \"slight\" for fitting only to the Y-axis like "
+"The type of hinting to use when rendering fonts. Possible values are: "
+"\"none\" for no hinting and \"slight\" for fitting only to the Y-axis like "
 "Microsoft's ClearType, DirectWrite and Adobe's proprietary font rendering "
 "engine. Ignores native hinting within the font, generates hints "
 "algorithmically. Used on Ubuntu by default. Recommended. The meaning of "
@@ -755,17 +698,7 @@ msgid ""
 "both the X and the Y axis (except for .otf: Y-only). This can lead to "
 "distortion and/or inconsistent rendering depending on the quality of the "
 "font, the font format and the state of FreeType's font engines."
-msgstr ""
-"Kādu norādīšanu (hinting) izmantot, kad attēlo fontus. Iespējamās vērtības "
-"ir “none”, lai neizmantotu norādīšanu; “slight”, lai piemērotu tikai pie Y "
-"ass, kā Microsoft's ClearType, DirectWrite un Adobe slēgtie fontu "
-"attēlošanas dziņi. Ignorē fontā iekļautās norādes un tās ģenerē automātiski. "
-"Ubuntu izmanto pēc noklusējuma. Ir ieteicams. Tas, ko nozīmē “medium” un "
-"“full” ir atkarīgs no fontu formāta (.ttf, .otf, .pfa/.pfb) un instalētās "
-"FreeType versijas. Tie parasti mēģina piemērot glifus X un Y asīm (izņemto ."
-"otf: tikai Y). Tas var radīt kropļojumus un/vai nekonsekventu attēlošanu, "
-"atkarībā no fontu kvalitātes, fontu formāta un FreeType fontu dzinēja "
-"stāvokļa."
+msgstr "Kādu norādīšanu (hinting) izmantot, kad attēlo fontus. Iespējamās vērtības ir “none”, lai neizmantotu norādīšanu; “slight”, lai piemērotu tikai pie Y ass, kā Microsoft's ClearType, DirectWrite un Adobe slēgtie fontu attēlošanas dziņi. Ignorē fontā iekļautās norādes un tās ģenerē automātiski. Ubuntu izmanto pēc noklusējuma. Ir ieteicams. Tas, ko nozīmē “medium” un “full” ir atkarīgs no fontu formāta (.ttf, .otf, .pfa/.pfb) un instalētās FreeType versijas. Tie parasti mēģina piemērot glifus X un Y asīm (izņemto .otf: tikai Y). Tas var radīt kropļojumus un/vai nekonsekventu attēlošanu, atkarībā no fontu kvalitātes, fontu formāta un FreeType fontu dzinēja stāvokļa."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:9
 msgid "RGBA order"
@@ -773,15 +706,11 @@ msgstr "RGBA secība"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:10
 msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
-"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red "
-"on bottom."
-msgstr ""
-"Apakšpikseļu secība LCD ekrānā; tiek izmantots tikai, kad nogludināšana ir "
-"iestatīta uz \"rgba\". Iespējamās  vērtības ir \"rgb\", kad pa kreisi ir "
-"sarkanā (visizplatītākā), \"bgr\", kad pa kreisi ir zilā, \"vbgr\", kad "
-"sarkanā ir apakšā."
+"The order of subpixel elements on an LCD screen; only used when antialiasing"
+" is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
+"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red"
+" on bottom."
+msgstr "Apakšpikseļu secība LCD ekrānā; tiek izmantots tikai, kad nogludināšana ir iestatīta uz \"rgba\". Iespējamās  vērtības ir \"rgb\", kad pa kreisi ir sarkanā (visizplatītākā), \"bgr\", kad pa kreisi ir zilā, \"vbgr\", kad sarkanā ir apakšā."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:11
 msgid "List of explicitly disabled GTK+ modules"
@@ -791,9 +720,7 @@ msgstr "Saraksts ar skaidri deaktivētiem GTK+ moduļiem"
 msgid ""
 "A list of strings representing the GTK+ modules that will not be loaded, "
 "even if enabled by default in their configuration."
-msgstr ""
-"Saraksts ar virknēm, kas apzīme GTK+ moduļus, kuri netiks ielādēti, pat ja "
-"ja to noklusētā konfigurācija tos ir aktivējusi."
+msgstr "Saraksts ar virknēm, kas apzīme GTK+ moduļus, kuri netiks ielādēti, pat ja ja to noklusētā konfigurācija tos ir aktivējusi."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:13
 msgid "List of explicitly enabled GTK+ modules"
@@ -801,11 +728,9 @@ msgstr "Saraksts ar skaidri aktivētiem GTK+ moduļiem"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:14
 msgid ""
-"A list of strings representing the GTK+ modules that will be loaded, usually "
-"in addition to conditional and forcibly disabled ones."
-msgstr ""
-"Saraksts ar virknēm, kas apzīme GTK+ moduļus, kuri tiks ielādēti, parasti "
-"klāt pie nosacījuma no piespiedu kārtā deaktivētajiem."
+"A list of strings representing the GTK+ modules that will be loaded, usually"
+" in addition to conditional and forcibly disabled ones."
+msgstr "Saraksts ar virknēm, kas apzīme GTK+ moduļus, kuri tiks ielādēti, parasti klāt pie nosacījuma no piespiedu kārtā deaktivētajiem."
 
 #: ../gnome-settings-daemon/main.c:53
 msgid "Enable debugging code"
@@ -839,10 +764,7 @@ msgstr "Lēnie taustiņi izslēgti"
 msgid ""
 "You just held down the Shift key for 8 seconds.  This is the shortcut for "
 "the Slow Keys feature, which affects the way your keyboard works."
-msgstr ""
-"Jūs nupat noturējāt Shift taustiņu piespiestu vairāk kā 8 sekundes. Tā ir "
-"tastatūras lēno taustiņu funkcijas saīsne, kas ietekmē to, kā darbojas jūsu "
-"tastatūra."
+msgstr "Jūs nupat noturējāt Shift taustiņu piespiestu vairāk kā 8 sekundes. Tā ir tastatūras lēno taustiņu funkcijas saīsne, kas ietekmē to, kā darbojas jūsu tastatūra."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:410
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:478
@@ -881,19 +803,14 @@ msgstr "Lipīgie taustiņi izslēgti"
 msgid ""
 "You just pressed the Shift key 5 times in a row.  This is the shortcut for "
 "the Sticky Keys feature, which affects the way your keyboard works."
-msgstr ""
-"Jūs tikko piespiedāt Shift taustiņu 5 reizes pēc kārtas.  Tā ir klaviatūras "
-"Lipīgo taustiņu funkcijas saīsne, kas ietekmē to kā darbojas jūsu klaviatūra."
+msgstr "Jūs tikko piespiedāt Shift taustiņu 5 reizes pēc kārtas.  Tā ir klaviatūras Lipīgo taustiņu funkcijas saīsne, kas ietekmē to kā darbojas jūsu klaviatūra."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:468
 msgid ""
 "You just pressed two keys at once, or pressed the Shift key 5 times in a "
 "row.  This turns off the Sticky Keys feature, which affects the way your "
 "keyboard works."
-msgstr ""
-"Jūs tikko vienlaicīgi piespiedāt divus taustiņus vai Shift taustiņu 5 reizes "
-"pēc kārtas.  Tas atslēdz klaviatūras lipīgo taustiņu funkciju, kas ietekmē "
-"to kā darbojas jūsu klaviatūra."
+msgstr "Jūs tikko vienlaicīgi piespiedāt divus taustiņus vai Shift taustiņu 5 reizes pēc kārtas.  Tas atslēdz klaviatūras lipīgo taustiņu funkciju, kas ietekmē to kā darbojas jūsu klaviatūra."
 
 #: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:1
 msgid "Accessibility settings"
@@ -994,58 +911,41 @@ msgstr "Makets"
 msgid "Dummy plugin"
 msgstr "Maketa spraudnis"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:574
+#: ../plugins/housekeeping/gsd-disk-space.c:577
 msgid "Disk space"
 msgstr "Diska vieta"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:586
+#: ../plugins/housekeeping/gsd-disk-space.c:589
 msgid "Examine"
 msgstr "Izpētīt"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:597
+#: ../plugins/housekeeping/gsd-disk-space.c:600
 msgid "Empty Trash"
 msgstr "Iztukšot miskasti"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:605
+#: ../plugins/housekeeping/gsd-disk-space.c:608
 msgid "Ignore"
 msgstr "Ignorēt"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:636
-#, c-format
-msgid "Low Disk Space on “%s”"
-msgstr "Maz diska vietas uz “%s”"
-
 #: ../plugins/housekeeping/gsd-disk-space.c:638
-#, c-format
-msgid ""
-"The volume “%s” has only %s disk space remaining.  You may free up some "
-"space by emptying the trash."
-msgstr ""
-"Uz sējuma “%s” ir atlicis tikai %s diska vietas. Iespējams, jūs varat "
-"atbrīvot vietu, iztukšojot miskasti."
-
-#: ../plugins/housekeeping/gsd-disk-space.c:642
-#, c-format
-msgid "The volume “%s” has only %s disk space remaining."
-msgstr "Uz sējuma “%s” ir atlicis tikai %s diska vietas."
-
-#: ../plugins/housekeeping/gsd-disk-space.c:647
+#: ../plugins/housekeeping/gsd-disk-space.c:664
 msgid "Low Disk Space"
 msgstr "Maz diska vietas"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:649
+#: ../plugins/housekeeping/gsd-disk-space.c:639
+msgid ""
+"Your computer is out of space.  To free up space, you can delete old files "
+"and empty the trash from the \"Documents\" file manager, or delete apps you "
+"may not need from the App Center."
+msgstr ""
+
+#: ../plugins/housekeeping/gsd-disk-space.c:665
 #, c-format
 msgid ""
-"This computer has only %s disk space remaining.  You may free up some space "
-"by emptying the trash."
+"Your computer has only %s of space available.  To free up space, you can "
+"delete old files and empty the trash from the \"Documents\" file manager, or"
+" delete apps you may not need from the App Center."
 msgstr ""
-"Uz datora ir atlicis tikai %s diska vietas. Iespējams, jūs varat atbrīvot "
-"vietu, iztukšojot miskasti."
-
-#: ../plugins/housekeeping/gsd-disk-space.c:652
-#, c-format
-msgid "This computer has only %s disk space remaining."
-msgstr "Šajā datorā ir atlicis tikai %s diska vietas."
 
 #: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:1
 msgid "Housekeeping"
@@ -1055,9 +955,7 @@ msgstr "Uzkopšana"
 msgid ""
 "Automatically prunes thumbnail caches and other transient files, and warns "
 "about low disk space"
-msgstr ""
-"Automātiski iztīra sīktēlu kešu un citas pagaidu datnes un brīdina, kad uz "
-"diska paliek maz vietas"
+msgstr "Automātiski iztīra sīktēlu kešu un citas pagaidu datnes un brīdina, kad uz diska paliek maz vietas"
 
 #: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
 msgid "Keyboard"
@@ -1067,27 +965,27 @@ msgstr "Tastatūra"
 msgid "Keyboard plugin"
 msgstr "Tastatūras spraudnis"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2111
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2178
 msgid "Bluetooth disabled"
 msgstr "Bluetooth atslēgts"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2114
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2181
 msgid "Bluetooth enabled"
 msgstr "Bluetooth ieslēgts"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2118
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2185
 msgid "Airplane mode enabled"
 msgstr "Lidmašīnas režīms ieslēgts"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2121
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2188
 msgid "Airplane mode disabled"
 msgstr "Lidmašīnas režīms izslēgts"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2149
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2216
 msgid "Hardware Airplane Mode"
 msgstr "Lidmašīnas režīms aparatūrā"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2209
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2276
 msgid "Screencast from %d %t.webm"
 msgstr "Ekrānieraksts %d %t.webm"
 
@@ -1179,10 +1077,6 @@ msgstr "Klusā skaļuma skaļāk"
 msgid "Lock Screen"
 msgstr "Bloķēt ekrānu"
 
-#: ../plugins/media-keys/shortcuts-list.h:67
-msgid "Help"
-msgstr "Palīdzība"
-
 #: ../plugins/media-keys/shortcuts-list.h:81
 msgid "Rewind"
 msgstr "Atpakaļ"
@@ -1199,7 +1093,8 @@ msgstr "Atkārtot"
 msgid "Random Play"
 msgstr "Nejauša atskaņošana"
 
-#. Key code of the XF86Display key (Fn-F7 on Thinkpads, Fn-F4 on HP machines, etc.)
+#. Key code of the XF86Display key (Fn-F7 on Thinkpads, Fn-F4 on HP machines,
+#. etc.)
 #: ../plugins/media-keys/shortcuts-list.h:85
 #: ../plugins/media-keys/shortcuts-list.h:87
 msgid "Video Out"
@@ -1219,7 +1114,8 @@ msgid "Power Off"
 msgstr "Izslēgt"
 
 #. the kernel / Xorg names really are like this...
-#. translators: "Sleep" means putting the machine to sleep, either through hibernate or suspend
+#. translators: "Sleep" means putting the machine to sleep, either through
+#. hibernate or suspend
 #: ../plugins/media-keys/shortcuts-list.h:102
 msgid "Sleep"
 msgstr "Iesnaudināt"
@@ -1472,12 +1368,14 @@ msgstr "Pievienotā datora baterija gandrīz tukša (%.0f%%)"
 msgid "Battery is low"
 msgstr "Baterija ir gandrīz tukša"
 
-#. TRANSLATORS: laptop battery critically low, and only have one kind of battery
+#. TRANSLATORS: laptop battery critically low, and only have one kind of
+#. battery
 #: ../plugins/power/gsd-power-manager.c:558
 msgid "Battery critically low"
 msgstr "Baterija ir tukša"
 
-#. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
+#. TRANSLATORS: laptop battery critically low, and we have more than one type
+#. of battery
 #. TRANSLATORS: laptop battery is really, really, low
 #: ../plugins/power/gsd-power-manager.c:561
 #: ../plugins/power/gsd-power-manager.c:708
@@ -1509,9 +1407,7 @@ msgstr "UPS ir tukšs"
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
 "computer to avoid losing data."
-msgstr ""
-"Atlicis apmēram %s no UPS jaudas (%.0f%%). Atjaunojiet maiņstrāvas padevi, "
-"lai nezaudētu datus."
+msgstr "Atlicis apmēram %s no UPS jaudas (%.0f%%). Atjaunojiet maiņstrāvas padevi, lai nezaudētu datus."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:597
@@ -1519,9 +1415,7 @@ msgstr ""
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Bezvadu peles baterijai ir palicis maz enerģijas (%.0f%%). Ja netiks "
-"uzlādēta, šī iekārta drīz pārstās darboties."
+msgstr "Bezvadu peles baterijai ir palicis maz enerģijas (%.0f%%). Ja netiks uzlādēta, šī iekārta drīz pārstās darboties."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:605
@@ -1529,19 +1423,15 @@ msgstr ""
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Bezvadu tastatūras baterijai ir palicis maz enerģijas (%.0f%%). Ja netiks "
-"uzlādēta, šī iekārta drīz pārstās darboties."
+msgstr "Bezvadu tastatūras baterijai ir palicis maz enerģijas (%.0f%%). Ja netiks uzlādēta, šī iekārta drīz pārstās darboties."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:614
 #, c-format
 msgid ""
-"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
-"not charged."
-msgstr ""
-"PDA palicis maz enerģijas (%.0f%%). Ja netiks uzlādēta, šī iekārta drīz "
-"pārstās darboties."
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if"
+" not charged."
+msgstr "PDA palicis maz enerģijas (%.0f%%). Ja netiks uzlādēta, šī iekārta drīz pārstās darboties."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:624
@@ -1549,9 +1439,7 @@ msgstr ""
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Mobilajam tālrunim palicis maz enerģijas (%.1f%%). Ja netiks uzlādēta, šī "
-"iekārta drīz pārstās darboties."
+msgstr "Mobilajam tālrunim palicis maz enerģijas (%.1f%%). Ja netiks uzlādēta, šī iekārta drīz pārstās darboties."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:633
@@ -1559,19 +1447,15 @@ msgstr ""
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Mediju atskaņotājam palicis maz enerģijas (%.0f%%). Ja netiks uzlādēta, šī "
-"iekārta drīz pārstās darboties."
+msgstr "Mediju atskaņotājam palicis maz enerģijas (%.0f%%). Ja netiks uzlādēta, šī iekārta drīz pārstās darboties."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:642
 #, c-format
 msgid ""
-"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
-"if not charged."
-msgstr ""
-"Planšetei palicis maz enerģijas (%.1f%%). Ja netiks uzlādēta, šī iekārta "
-"drīz pārstās darboties."
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning"
+" if not charged."
+msgstr "Planšetei palicis maz enerģijas (%.1f%%). Ja netiks uzlādēta, šī iekārta drīz pārstās darboties."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:651
@@ -1579,25 +1463,21 @@ msgstr ""
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
 "shutdown if not charged."
-msgstr ""
-"Pievienotajam datoram ir palicis maz enerģijas (%.0f%%). Ja netiks uzlādēta, "
-"šī iekārta drīz izslēgsies."
+msgstr "Pievienotajam datoram ir palicis maz enerģijas (%.0f%%). Ja netiks uzlādēta, šī iekārta drīz izslēgsies."
 
 #. TRANSLATORS: computer will hibernate
 #: ../plugins/power/gsd-power-manager.c:716
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
-msgstr ""
-"Baterija enerģija ir zem kritiskā līmeņa un šis dators drīzumā sastings."
+msgstr "Baterija enerģija ir zem kritiskā līmeņa un šis dators drīzumā sastings."
 
 #. TRANSLATORS: computer will just shutdown
 #: ../plugins/power/gsd-power-manager.c:721
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "shutdown."
-msgstr ""
-"Baterija enerģija ir zem kritiskā līmeņa un šis dators drīz izslēgsies."
+msgstr "Baterija enerģija ir zem kritiskā līmeņa un šis dators drīz izslēgsies."
 
 #. TRANSLATORS: computer will hibernate
 #: ../plugins/power/gsd-power-manager.c:741
@@ -1607,54 +1487,54 @@ msgstr "UPS enerģija ir zem kritiskā līmeņa, šis dators drīzumā sastings.
 
 #. TRANSLATORS: computer will just shutdown
 #: ../plugins/power/gsd-power-manager.c:746
-msgid "UPS is below the critical level and this computer is about to shutdown."
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
 msgstr "UPS enerģija ir zem kritiskā līmeņa un šis dators drīz izslēgsies."
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1253
+#: ../plugins/power/gsd-power-manager.c:1259
 msgid "Lid has been opened"
 msgstr "Vāks tika atvērts"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1291
+#: ../plugins/power/gsd-power-manager.c:1297
 msgid "Lid has been closed"
 msgstr "Vāks tika aizvērts"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1850
+#: ../plugins/power/gsd-power-manager.c:1856
 msgid "On battery power"
 msgstr "Izmanto baterijas strāvu"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1855
+#: ../plugins/power/gsd-power-manager.c:1861
 msgid "On AC power"
 msgstr "Izmanto maiņstrāvu"
 
-#: ../plugins/power/gsd-power-manager.c:2037
+#: ../plugins/power/gsd-power-manager.c:2053
 msgid "Automatic logout"
 msgstr "Automātiskā izrakstīšanās"
 
-#: ../plugins/power/gsd-power-manager.c:2037
+#: ../plugins/power/gsd-power-manager.c:2053
 msgid "You will soon log out because of inactivity."
 msgstr "Jūs drīz tiksiet izrakstīti dēļ aktivitātes trūkuma."
 
-#: ../plugins/power/gsd-power-manager.c:2042
+#: ../plugins/power/gsd-power-manager.c:2058
 msgid "Automatic suspend"
 msgstr "Automātiski iesnaudināt"
 
-#: ../plugins/power/gsd-power-manager.c:2042
-#: ../plugins/power/gsd-power-manager.c:2047
+#: ../plugins/power/gsd-power-manager.c:2058
+#: ../plugins/power/gsd-power-manager.c:2063
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "Dators ļoti drīz tiks iesnaudināts dēļ aktivitātes trūkuma."
 
-#: ../plugins/power/gsd-power-manager.c:2047
+#: ../plugins/power/gsd-power-manager.c:2063
 msgid "Automatic hibernation"
 msgstr "Automātiski iemidzināt"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the backlight brightness.
-#.
 #: ../plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in.h:5
 msgid "Modify the laptop brightness"
 msgstr "Mainīt klēpjdatora gaišumu"
@@ -1707,31 +1587,36 @@ msgstr "Printeri"
 msgid "Printer '%s' is low on toner."
 msgstr "Printerim '%s' ir atlicis maz tonera."
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:354
 #, c-format
 msgid "Printer '%s' has no toner left."
 msgstr "Printerim '%s' vairs nav tonera."
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:358
 #, c-format
 msgid "Printer '%s' may not be connected."
 msgstr "Printeris '%s' var nebūt pievienots."
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:362
 #, c-format
 msgid "The cover is open on printer '%s'."
 msgstr "Printera '%s' vāks ir atvērts."
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:366
 #, c-format
 msgid "There is a missing print filter for printer '%s'."
 msgstr "Printerim '%s' trūkst printera filtra."
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:371
 #, c-format
 msgid "The door is open on printer '%s'."
@@ -1749,13 +1634,15 @@ msgstr "Printerim '%s' ir atlicis maz krāsas."
 msgid "Printer '%s' is out of a marker supply."
 msgstr "Printerim '%s' vairs nav krāsas."
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:383
 #, c-format
 msgid "Printer '%s' is low on paper."
 msgstr "Printerim '%s' ir maz papīra."
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:387
 #, c-format
 msgid "Printer '%s' is out of paper."
@@ -1767,7 +1654,8 @@ msgstr "Printerim '%s' vairs nav papīra."
 msgid "Printer '%s' is currently off-line."
 msgstr "Printeris '%s' šobrīd ir atslēgts."
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "There is a problem on printer '%s'."
@@ -1778,27 +1666,32 @@ msgstr "Ar printeri '%s' ir kāda problēma."
 msgid "Toner low"
 msgstr "Maz tonera"
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:445
 msgid "Toner empty"
 msgstr "Tonera nav"
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:447
 msgid "Not connected?"
 msgstr "Nav savienots?"
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:449
 msgid "Cover open"
 msgstr "Atvērts vāks"
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:451
 msgid "Printer configuration error"
 msgstr "Printera konfigurācijas kļūda"
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:453
 msgid "Door open"
 msgstr "Durvis atvērs"
@@ -1813,12 +1706,14 @@ msgstr "Maz krāsas"
 msgid "Out of a marker supply"
 msgstr "Beigusies krāsa"
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:459
 msgid "Paper low"
 msgstr "Maz paīra"
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:461
 msgid "Out of paper"
 msgstr "Beidzies papīrs"
@@ -1828,7 +1723,8 @@ msgstr "Beidzies papīrs"
 msgid "Printer off-line"
 msgstr "Printeris atslēgts"
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #. Translators: This is a title of an error notification for a printer
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:465
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:828
@@ -1901,7 +1797,8 @@ msgstr "Printera atskaite"
 msgid "Printer warning"
 msgstr "Printera brīdinājums"
 
-#. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
+#. Translators: "Printer 'MyPrinterName': 'Description of the
+#. report/warning/error from a PPD file'."
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:835
 #, c-format
 msgid "Printer '%s': '%s'."
@@ -1995,86 +1892,86 @@ msgid "Done"
 msgstr "Pabeigts"
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1031
+#: ../plugins/wacom/gsd-wacom-device.c:1028
 msgid "Left Ring"
 msgstr "Kreisais skārienriņķis"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1042
+#: ../plugins/wacom/gsd-wacom-device.c:1039
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "Kreisā skārienriņķa režīms #%d"
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1062
+#: ../plugins/wacom/gsd-wacom-device.c:1059
 msgid "Right Ring"
 msgstr "Labais skārienriņķis"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1073
+#: ../plugins/wacom/gsd-wacom-device.c:1070
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "Labā skārienriņķa režīms #%d"
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1115
+#: ../plugins/wacom/gsd-wacom-device.c:1112
 msgid "Left Touchstrip"
 msgstr "Kreisā skārienjosla"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1126
+#: ../plugins/wacom/gsd-wacom-device.c:1123
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "Kreisās skārienjoslas režīms #%d"
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1146
+#: ../plugins/wacom/gsd-wacom-device.c:1143
 msgid "Right Touchstrip"
 msgstr "Labā skārienjosla"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1157
+#: ../plugins/wacom/gsd-wacom-device.c:1154
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "Labās skārienjoslas režīms #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1183
+#: ../plugins/wacom/gsd-wacom-device.c:1180
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "Kreisā skārienriņķa režīma slēdzis"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1185
+#: ../plugins/wacom/gsd-wacom-device.c:1182
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "Labā skārienriņķa režīma slēdzis"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1188
+#: ../plugins/wacom/gsd-wacom-device.c:1185
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "Kreisās skārienjoslas režīma slēdzis"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1190
+#: ../plugins/wacom/gsd-wacom-device.c:1187
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "Labās skārienjoslas režīma slēdzis"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1195
+#: ../plugins/wacom/gsd-wacom-device.c:1192
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "Režīma slēdzis #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1241
+#: ../plugins/wacom/gsd-wacom-device.c:1238
 #, c-format
 msgid "Left Button #%d"
 msgstr "Kreisā poga #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1244
+#: ../plugins/wacom/gsd-wacom-device.c:1241
 #, c-format
 msgid "Right Button #%d"
 msgstr "Labā poga #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1247
+#: ../plugins/wacom/gsd-wacom-device.c:1244
 #, c-format
 msgid "Top Button #%d"
 msgstr "Augšējā poga #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1250
+#: ../plugins/wacom/gsd-wacom-device.c:1247
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "Apakšējā poga #%d"
@@ -2083,16 +1980,16 @@ msgstr "Apakšējā poga #%d"
 msgid "New shortcut…"
 msgstr "Jauna saīsne…"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1042
+#: ../plugins/wacom/gsd-wacom-manager.c:1037
 #, c-format
 msgid "The \"%s\" tablet may not work as expected."
 msgstr "Iespējams, planšete “%s” nedarbosies kā gaidīts."
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1043
+#: ../plugins/wacom/gsd-wacom-manager.c:1038
 msgid "Unknown Tablet Connected"
 msgstr "Pievienota nezināma planšete"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1047
+#: ../plugins/wacom/gsd-wacom-manager.c:1042
 msgid "Wacom Settings"
 msgstr "Wacom iestatījumi"
 
@@ -2133,20 +2030,17 @@ msgstr "Rediģēt"
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the LED setting for a Wacom tablet
-#.
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:5
 msgid "Modify the lit LED for a Wacom tablet"
 msgstr "Mainīt ieslēgtās LED gaismas Wacom planšetē"
 
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:6
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
-msgstr ""
-"Nepieciešama autentifikācija, lai mainītu LED apgaismojumu Wacom planšetei"
+msgstr "Nepieciešama autentifikācija, lai mainītu LED apgaismojumu Wacom planšetei"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the OLED images for a Wacom tablet
-#.
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:11
 msgid "Modify the OLED image for a Wacom tablet"
 msgstr "Mainīt OLED attēlu Wacom planšetei"
@@ -2183,4 +2077,3 @@ msgstr "X iestatījumi"
 #: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
 msgid "Manage X Settings"
 msgstr "Pārvaldīt X iestatījumus"
-

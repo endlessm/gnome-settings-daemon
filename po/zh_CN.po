@@ -1,42 +1,41 @@
-# Simplified Chinese translation for gnome-settings-daemon,
-#    original from gnome-control-center.
-# Copyright (C) 2002, 2003, 2004, 2005, 2006, 2009, 2010, 2011 Free Software Foundation, Inc.
-# some translations stolen from tranditional chinese translation
-# by Abel Cheung <maddog@linuxhall.org>, 2001.
-# He Qiangqiang <carton@linux.net.cn>, 2002.
-# Sun G11n <gnome_int_l10n@ireland.sun.com>, 2002.
-# Funda Wang <fundawang@linux.net.cn>, 2003-2006.
-# 甘露(Gan Lu) <rhythm.gan@gmail.com>, 2009, 2010.
-# Deng Xiyue <manphiz@gmail.com>, 2009.
-# Tao Wei <weitao1979@gmail.com>, 2009.
-# vicwjb <vicwjb@gmail.com>, 2010.
-# Tao Wang <dancefire@gmail.com>, 2010.
-# 指冷玉笙寒 (dhyang) <dhyang555@gmail.com>, 2010
-# Lele Long <schemacs@gmail.com>, 2011.
-# liuzhen1191 <liuzhen1191@gmail.com>, 2011.
-# Wylmer Wang <wantinghard@gmail.com>, 2011, 2013.
-# Aron Xu <happyaron.xu@gmail.com>, 2009, 2010, 2011.
-# YunQiang Su <wzssyqa@gmail.com>, 2011, 2012.
-# Tong Hui <tonghuix@gmail.com>, 2014.
-# Bin Li <binli@gnome.org>, 2015.
-# Mingye Wang <arthur2e5@aosc.xyz>, 2015.
-# Jeff Bai <jeffbai@aosc.xyz>, 2016.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Aron Xu <happyaron.xu@gmail.com>, 2009-2011
+# Bin Li <binli@gnome.org>, 2015
+# by Abel Cheung <maddog@linuxhall.org>, 2001
+# chenzibing <chenzibing_endless@126.com>, 2016
+# Deng Xiyue <manphiz@gmail.com>, 2009
+# He Qiangqiang <carton@linux.net.cn>, 2002
+# Mingcong Bai <jeffbai@aosc.xyz>, 2016
+# Lele Long <schemacs@gmail.com>, 2011
+# liuzhen1191 <liuzhen1191@gmail.com>, 2011
+# Mingye Wang <arthur2e5@aosc.xyz>, 2015
+# Sun G11n <gnome_int_l10n@ireland.sun.com>, 2002
+# Tao Wang <dancefire@gmail.com>, 2010
+# Tao Wei <weitao1979@gmail.com>, 2009
+# Tong Hui <tonghuix@gmail.com>, 2014
+# vicwjb <vicwjb@gmail.com>, 2010
+# Wylmer Wang, 2011,2013
+# YunQiang Su <wzssyqa@gmail.com>, 2011-2012
+# zhifeng peng <jnufeng@126.com>, 2016
+# David Young <dhyang555@gmail.com>, 2010
+# 甘 露 <rhythm.gan@gmail.com>, 2009-2010
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-settings-daemon master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"settings-daemon&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-10-15 14:21+0000\n"
-"PO-Revision-Date: 2016-10-18 16:03+0800\n"
-"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
-"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
-"Language: zh_CN\n"
+"Project-Id-Version: gnome-settings-daemon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-28 03:31+0000\n"
+"PO-Revision-Date: 2016-08-31 21:39+0000\n"
+"Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.9\n"
 
 #: ../data/gnome-settings-daemon.desktop.in.in.h:1
 msgid "GNOME Settings Daemon"
@@ -50,9 +49,7 @@ msgstr "智能卡移除动作"
 msgid ""
 "Set this to one of \"none\", \"lock-screen\", or \"force-logout\". The "
 "action will get performed when the smartcard used for log in is removed."
-msgstr ""
-"设置为“none”、“lock_screen”或“force_logout”之一。 当用于登录的智能卡被移除"
-"时，将执行这个动作。"
+msgstr "设置为“none”、“lock_screen”或“force_logout”之一。 当用于登录的智能卡被移除时，将执行这个动作。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:3
 msgid ""
@@ -176,10 +173,9 @@ msgstr "Wacom 的数位板旋转"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:12
 msgid ""
-"Set this to 'none', 'cw' for 90 degree clockwise, 'half' for 180 degree, and "
-"'ccw' for 90 degree counterclockwise."
-msgstr ""
-"可以设置为“nono”,“cw”(顺时针 90 度)，“half”(180 度)，和“ccw”(逆时针90度)。"
+"Set this to 'none', 'cw' for 90 degree clockwise, 'half' for 180 degree, and"
+" 'ccw' for 90 degree counterclockwise."
+msgstr "可以设置为“nono”,“cw”(顺时针 90 度)，“half”(180 度)，和“ccw”(逆时针90度)。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:13
 msgid "Wacom touch feature"
@@ -304,9 +300,7 @@ msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: 'all'). The plugins still need to be marked as active to get "
 "loaded. This is only evaluated on startup."
-msgstr ""
-"一个代表允许加载插件的字符串列表(默认为“all”)。插件仍需标记为活动才能加载。启"
-"动时才会检查此列表。"
+msgstr "一个代表允许加载插件的字符串列表(默认为“all”)。插件仍需标记为活动才能加载。启动时才会检查此列表。"
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:3
 msgid "Mount paths to ignore"
@@ -324,9 +318,7 @@ msgstr "触发通知的最低可用百分比"
 msgid ""
 "Percentage free space threshold for initial warning of low disk space. If "
 "the percentage free space drops below this, a warning will be shown."
-msgstr ""
-"触发低硬盘空间初次警告的最低可用空间百分比。如果可用空间的百分比低于该值，将"
-"显示一个警告"
+msgstr "触发低硬盘空间初次警告的最低可用空间百分比。如果可用空间的百分比低于该值，将显示一个警告"
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:7
 msgid "Subsequent free space percentage notify threshold"
@@ -679,10 +671,7 @@ msgid ""
 "normally gets stored in users' home directories. If a user does not have "
 "such a file, or has one that does not match the user's setup of monitors, "
 "then the file specified by this key will be used instead."
-msgstr ""
-"XRandR 插件将在本项指定的文件中寻找默认配置。通常，这类似于 获取存储在家目录"
-"下的~/.config/monitors.xml。如果用户没有这样的文件，或者有一个不符合用户显示"
-"器的设置，然后本项指定的文件将被替代。"
+msgstr "XRandR 插件将在本项指定的文件中寻找默认配置。通常，这类似于 获取存储在家目录下的~/.config/monitors.xml。如果用户没有这样的文件，或者有一个不符合用户显示器的设置，然后本项指定的文件将被替代。"
 
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:7
 msgid "Whether to turn off specific monitors after boot"
@@ -695,10 +684,7 @@ msgid ""
 "(extend the desktop in recent versions). The default, 'follow-lid', will "
 "choose between 'do-nothing' and 'dock' depending on whether the lid is "
 "(respectively) open or closed."
-msgstr ""
-"“clone”将在所有显示器中显示相同画面；“dock”将关闭内部显示器；“do-nothing”将使"
-"用默认的 Xorg 行为(在近期版本中是拉伸桌面)。默认值“follow-lid”将根据上盖打开"
-"还是关闭来相应的选择“do-nothing”或“dock”。"
+msgstr "“clone”将在所有显示器中显示相同画面；“dock”将关闭内部显示器；“do-nothing”将使用默认的 Xorg 行为(在近期版本中是拉伸桌面)。默认值“follow-lid”将根据上盖打开还是关闭来相应的选择“do-nothing”或“dock”。"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
 msgid "Antialiasing"
@@ -709,9 +695,7 @@ msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "\"none\" for no antialiasing, \"grayscale\" for standard grayscale "
 "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
-msgstr ""
-"绘制字形时使用的反锯齿类型。可能的设定有：“无” - 无反锯齿。“灰度” - 标准灰度"
-"反锯齿。“rgba” - 次像素反锯齿 (LCD 屏幕专用)。"
+msgstr "绘制字形时使用的反锯齿类型。可能的设定有：“无” - 无反锯齿。“灰度” - 标准灰度反锯齿。“rgba” - 次像素反锯齿 (LCD 屏幕专用)。"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
 msgid "Hinting"
@@ -719,8 +703,8 @@ msgstr "微调"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:6
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: \"none"
-"\" for no hinting and \"slight\" for fitting only to the Y-axis like "
+"The type of hinting to use when rendering fonts. Possible values are: "
+"\"none\" for no hinting and \"slight\" for fitting only to the Y-axis like "
 "Microsoft's ClearType, DirectWrite and Adobe's proprietary font rendering "
 "engine. Ignores native hinting within the font, generates hints "
 "algorithmically. Used on Ubuntu by default. Recommended. The meaning of "
@@ -729,14 +713,7 @@ msgid ""
 "both the X and the Y axis (except for .otf: Y-only). This can lead to "
 "distortion and/or inconsistent rendering depending on the quality of the "
 "font, the font format and the state of FreeType's font engines."
-msgstr ""
-"渲染字体时所使用的字形微调设置。可能的数值有：none 表示无微调。slight 表示仅"
-"将字形对齐到 Y 轴，就像微软 ClearType、DirectWrite 和 Adobe 的专有渲染引擎一"
-"样。这将忽略字体内部的微调信息，直接使用自动算法进行微调。Ubuntu 默认使用这个"
-"设置，推荐。medium 和 full 的含义取决于字体格式 (.ttf, .otf, .pfa/.pfb) 和已"
-"安装的 FreeType 版本。这两者一般尝试将字符图形同时对齐到 X Y 两个方向（otf 只"
-"对齐到 Y）。这可能会导致混乱和/或不一致的渲染，取决于字体质量、字体格式和 "
-"FreeType 引擎的状态。"
+msgstr "渲染字体时所使用的字形微调设置。可能的数值有：none 表示无微调。slight 表示仅将字形对齐到 Y 轴，就像微软 ClearType、DirectWrite 和 Adobe 的专有渲染引擎一样。这将忽略字体内部的微调信息，直接使用自动算法进行微调。Ubuntu 默认使用这个设置，推荐。medium 和 full 的含义取决于字体格式 (.ttf, .otf, .pfa/.pfb) 和已安装的 FreeType 版本。这两者一般尝试将字符图形同时对齐到 X Y 两个方向（otf 只对齐到 Y）。这可能会导致混乱和/或不一致的渲染，取决于字体质量、字体格式和 FreeType 引擎的状态。"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:9
 msgid "RGBA order"
@@ -744,14 +721,11 @@ msgstr "RGBA 顺序"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:10
 msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
-"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red "
-"on bottom."
-msgstr ""
-"LCD 屏幕上次像素的顺序；仅在反锯齿设为“rgba”时有用。可能的设定值有：“rgb” - "
-"红色在左侧，最常见设置。“bgr” - 蓝色在左侧。“vrgb” - 红色在上端。“vbgr” - 红"
-"色在底部。"
+"The order of subpixel elements on an LCD screen; only used when antialiasing"
+" is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
+"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red"
+" on bottom."
+msgstr "LCD 屏幕上次像素的顺序；仅在反锯齿设为“rgba”时有用。可能的设定值有：“rgb” - 红色在左侧，最常见设置。“bgr” - 蓝色在左侧。“vrgb” - 红色在上端。“vbgr” - 红色在底部。"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:11
 msgid "List of explicitly disabled GTK+ modules"
@@ -769,10 +743,9 @@ msgstr "单独指定启用的 GTK+ 模块清单"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:14
 msgid ""
-"A list of strings representing the GTK+ modules that will be loaded, usually "
-"in addition to conditional and forcibly disabled ones."
-msgstr ""
-"代表将加载的 GTK+ 模块的字符串列表，通常加上有条件的和强制禁止的一些模块。"
+"A list of strings representing the GTK+ modules that will be loaded, usually"
+" in addition to conditional and forcibly disabled ones."
+msgstr "代表将加载的 GTK+ 模块的字符串列表，通常加上有条件的和强制禁止的一些模块。"
 
 #: ../gnome-settings-daemon/main.c:53
 msgid "Enable debugging code"
@@ -806,9 +779,7 @@ msgstr "迟缓按键已关闭"
 msgid ""
 "You just held down the Shift key for 8 seconds.  This is the shortcut for "
 "the Slow Keys feature, which affects the way your keyboard works."
-msgstr ""
-"您已经按下了 Shift 键 8 秒。这是迟缓按键功能的快捷键，这将影响您键盘工作的方"
-"式。"
+msgstr "您已经按下了 Shift 键 8 秒。这是迟缓按键功能的快捷键，这将影响您键盘工作的方式。"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:410
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:478
@@ -847,18 +818,14 @@ msgstr "粘滞键已关闭"
 msgid ""
 "You just pressed the Shift key 5 times in a row.  This is the shortcut for "
 "the Sticky Keys feature, which affects the way your keyboard works."
-msgstr ""
-"您刚刚连续按了五次 Shift 键。这是粘滞键特性的快捷键，这将影响您键盘的工作方"
-"式。"
+msgstr "您刚刚连续按了五次 Shift 键。这是粘滞键特性的快捷键，这将影响您键盘的工作方式。"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:468
 msgid ""
 "You just pressed two keys at once, or pressed the Shift key 5 times in a "
 "row.  This turns off the Sticky Keys feature, which affects the way your "
 "keyboard works."
-msgstr ""
-"您刚刚同时按下了两个键，或连续按了五次 Shift 键。这是取消粘滞键特性的快捷键，"
-"这将影响您键盘的工作方式。"
+msgstr "您刚刚同时按下了两个键，或连续按了五次 Shift 键。这是取消粘滞键特性的快捷键，这将影响您键盘的工作方式。"
 
 #: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:1
 msgid "Accessibility settings"
@@ -959,54 +926,41 @@ msgstr "过渡"
 msgid "Dummy plugin"
 msgstr "过渡插件"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:574
+#: ../plugins/housekeeping/gsd-disk-space.c:577
 msgid "Disk space"
 msgstr "磁盘空间"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:586
+#: ../plugins/housekeeping/gsd-disk-space.c:589
 msgid "Examine"
 msgstr "查看"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:597
+#: ../plugins/housekeeping/gsd-disk-space.c:600
 msgid "Empty Trash"
 msgstr "清空回收站"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:605
+#: ../plugins/housekeeping/gsd-disk-space.c:608
 msgid "Ignore"
 msgstr "忽略"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:636
-#, c-format
-msgid "Low Disk Space on “%s”"
-msgstr "%s 上的磁盘空间不足"
-
 #: ../plugins/housekeeping/gsd-disk-space.c:638
-#, c-format
-msgid ""
-"The volume “%s” has only %s disk space remaining.  You may free up some "
-"space by emptying the trash."
-msgstr "巻 %s 仅剩余 %s 的磁盘空间，请清空回收站释放一部分空间。"
-
-#: ../plugins/housekeeping/gsd-disk-space.c:642
-#, c-format
-msgid "The volume “%s” has only %s disk space remaining."
-msgstr "卷 %s 仅剩余 %s 的硬盘空间。"
-
-#: ../plugins/housekeeping/gsd-disk-space.c:647
+#: ../plugins/housekeeping/gsd-disk-space.c:664
 msgid "Low Disk Space"
 msgstr "磁盘空间不足"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:649
+#: ../plugins/housekeeping/gsd-disk-space.c:639
+msgid ""
+"Your computer is out of space.  To free up space, you can delete old files "
+"and empty the trash from the \"Documents\" file manager, or delete apps you "
+"may not need from the App Center."
+msgstr "您的电脑空间不足。您可以删掉旧文件和在“文档“文件管理器中清空回收站，或者在app中心删除您不需要的应用程序以释放更多空间。"
+
+#: ../plugins/housekeeping/gsd-disk-space.c:665
 #, c-format
 msgid ""
-"This computer has only %s disk space remaining.  You may free up some space "
-"by emptying the trash."
-msgstr "此计算机仅剩余 %s 的磁盘空间，请清空回收站释放一部分空间"
-
-#: ../plugins/housekeeping/gsd-disk-space.c:652
-#, c-format
-msgid "This computer has only %s disk space remaining."
-msgstr "此计算机仅剩余 %s 的硬盘空间。"
+"Your computer has only %s of space available.  To free up space, you can "
+"delete old files and empty the trash from the \"Documents\" file manager, or"
+" delete apps you may not need from the App Center."
+msgstr "您的电脑只剩%s的可用空间。您可以删掉旧文件和在“文档“文件管理器中清空回收站，或者在app中心删除您不需要的应用程序以释放更多空间。"
 
 #: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:1
 msgid "Housekeeping"
@@ -1026,27 +980,27 @@ msgstr "键盘"
 msgid "Keyboard plugin"
 msgstr "键盘插件"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2111
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2178
 msgid "Bluetooth disabled"
 msgstr "已禁用蓝牙"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2114
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2181
 msgid "Bluetooth enabled"
 msgstr "已启用蓝牙"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2118
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2185
 msgid "Airplane mode enabled"
 msgstr "已启用飞行模式"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2121
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2188
 msgid "Airplane mode disabled"
 msgstr "已禁用飞行模式"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2149
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2216
 msgid "Hardware Airplane Mode"
 msgstr "硬件飞行模式"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2209
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2276
 msgid "Screencast from %d %t.webm"
 msgstr "%d 屏幕视频 %t.webm"
 
@@ -1134,10 +1088,6 @@ msgstr "安静 音量升高"
 msgid "Lock Screen"
 msgstr "锁住屏幕"
 
-#: ../plugins/media-keys/shortcuts-list.h:67
-msgid "Help"
-msgstr "帮助"
-
 #: ../plugins/media-keys/shortcuts-list.h:81
 msgid "Rewind"
 msgstr "上一曲"
@@ -1154,7 +1104,8 @@ msgstr "重复"
 msgid "Random Play"
 msgstr "随机播放"
 
-#. Key code of the XF86Display key (Fn-F7 on Thinkpads, Fn-F4 on HP machines, etc.)
+#. Key code of the XF86Display key (Fn-F7 on Thinkpads, Fn-F4 on HP machines,
+#. etc.)
 #: ../plugins/media-keys/shortcuts-list.h:85
 #: ../plugins/media-keys/shortcuts-list.h:87
 msgid "Video Out"
@@ -1174,14 +1125,15 @@ msgid "Power Off"
 msgstr "电源关闭"
 
 #. the kernel / Xorg names really are like this...
-#. translators: "Sleep" means putting the machine to sleep, either through hibernate or suspend
+#. translators: "Sleep" means putting the machine to sleep, either through
+#. hibernate or suspend
 #: ../plugins/media-keys/shortcuts-list.h:102
 msgid "Sleep"
 msgstr "睡眠"
 
 #: ../plugins/media-keys/shortcuts-list.h:103
 msgid "Suspend"
-msgstr "挂起"
+msgstr "暂停"
 
 #: ../plugins/media-keys/shortcuts-list.h:104
 msgid "Hibernate"
@@ -1419,12 +1371,14 @@ msgstr "连接的计算机电量低(%.0f%%)"
 msgid "Battery is low"
 msgstr "电池电量低"
 
-#. TRANSLATORS: laptop battery critically low, and only have one kind of battery
+#. TRANSLATORS: laptop battery critically low, and only have one kind of
+#. battery
 #: ../plugins/power/gsd-power-manager.c:558
 msgid "Battery critically low"
 msgstr "电池电量严重不足"
 
-#. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
+#. TRANSLATORS: laptop battery critically low, and we have more than one type
+#. of battery
 #. TRANSLATORS: laptop battery is really, really, low
 #: ../plugins/power/gsd-power-manager.c:561
 #: ../plugins/power/gsd-power-manager.c:708
@@ -1478,8 +1432,8 @@ msgstr "无线键盘电量非常低(%.0f%%)。如果不充电，此设备将很�
 #: ../plugins/power/gsd-power-manager.c:614
 #, c-format
 msgid ""
-"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
-"not charged."
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if"
+" not charged."
 msgstr "PDA 电量非常低(%.0f%%)。如果不充电，此设备将很快停止工作。"
 
 #. TRANSLATORS: the device is just going to stop working
@@ -1502,8 +1456,8 @@ msgstr "媒体播放器电量非常低(%.0f%%)。如果不充电，此设备将�
 #: ../plugins/power/gsd-power-manager.c:642
 #, c-format
 msgid ""
-"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
-"if not charged."
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning"
+" if not charged."
 msgstr "数位板电量非常低(%.0f%%)。如果不充电，此设备将很快停止工作。"
 
 #. TRANSLATORS: the device is just going to stop working
@@ -1536,54 +1490,54 @@ msgstr "UPS 电量水平已经超过了严重的界限，此计算机即将休�
 
 #. TRANSLATORS: computer will just shutdown
 #: ../plugins/power/gsd-power-manager.c:746
-msgid "UPS is below the critical level and this computer is about to shutdown."
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
 msgstr "UPS 电量水平已经超过了严重的界限，此计算机即将关机。"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1253
+#: ../plugins/power/gsd-power-manager.c:1259
 msgid "Lid has been opened"
 msgstr "盖子已打开"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1291
+#: ../plugins/power/gsd-power-manager.c:1297
 msgid "Lid has been closed"
 msgstr "盖子已合上"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1842
+#: ../plugins/power/gsd-power-manager.c:1856
 msgid "On battery power"
 msgstr "电池供电"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1847
+#: ../plugins/power/gsd-power-manager.c:1861
 msgid "On AC power"
 msgstr "电源供电"
 
-#: ../plugins/power/gsd-power-manager.c:2029
+#: ../plugins/power/gsd-power-manager.c:2053
 msgid "Automatic logout"
 msgstr "自动注销"
 
-#: ../plugins/power/gsd-power-manager.c:2029
+#: ../plugins/power/gsd-power-manager.c:2053
 msgid "You will soon log out because of inactivity."
 msgstr "因为长时间未活动，您即将被注销。"
 
-#: ../plugins/power/gsd-power-manager.c:2034
+#: ../plugins/power/gsd-power-manager.c:2058
 msgid "Automatic suspend"
-msgstr "自动挂起"
+msgstr "自动暂停"
 
-#: ../plugins/power/gsd-power-manager.c:2034
-#: ../plugins/power/gsd-power-manager.c:2039
+#: ../plugins/power/gsd-power-manager.c:2058
+#: ../plugins/power/gsd-power-manager.c:2063
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "由于长时间未活动，计算机将很快挂起。"
 
-#: ../plugins/power/gsd-power-manager.c:2039
+#: ../plugins/power/gsd-power-manager.c:2063
 msgid "Automatic hibernation"
 msgstr "自动休眠"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the backlight brightness.
-#.
 #: ../plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in.h:5
 msgid "Modify the laptop brightness"
 msgstr "更改笔记本亮度"
@@ -1636,31 +1590,36 @@ msgstr "打印机"
 msgid "Printer '%s' is low on toner."
 msgstr "打印机“%s”墨已不多。"
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:354
 #, c-format
 msgid "Printer '%s' has no toner left."
 msgstr "打印机“%s”已经无墨。"
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:358
 #, c-format
 msgid "Printer '%s' may not be connected."
 msgstr "打印机“%s”可能没有连接。"
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:362
 #, c-format
 msgid "The cover is open on printer '%s'."
 msgstr "打印机“%s”机盖处于打开状态。"
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:366
 #, c-format
 msgid "There is a missing print filter for printer '%s'."
 msgstr "打印机 “%s” 打印过滤功能缺失。"
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:371
 #, c-format
 msgid "The door is open on printer '%s'."
@@ -1678,13 +1637,15 @@ msgstr "打印机“%s”的标记墨量少。"
 msgid "Printer '%s' is out of a marker supply."
 msgstr "打印机“%s”标记墨已用完。"
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:383
 #, c-format
 msgid "Printer '%s' is low on paper."
 msgstr "打印机“%s”纸张量少。"
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:387
 #, c-format
 msgid "Printer '%s' is out of paper."
@@ -1696,7 +1657,8 @@ msgstr "打印机“%s”缺纸。"
 msgid "Printer '%s' is currently off-line."
 msgstr "打印机“%s”当前离线。"
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "There is a problem on printer '%s'."
@@ -1707,27 +1669,32 @@ msgstr "打印机“%s”上有错误。"
 msgid "Toner low"
 msgstr "墨已不多"
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:445
 msgid "Toner empty"
 msgstr "缺墨"
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:447
 msgid "Not connected?"
 msgstr "没有连接？"
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:449
 msgid "Cover open"
 msgstr "有机盖打开"
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:451
 msgid "Printer configuration error"
 msgstr "打印机配置错误"
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:453
 msgid "Door open"
 msgstr "仓门打开"
@@ -1742,12 +1709,14 @@ msgstr "标记墨量低"
 msgid "Out of a marker supply"
 msgstr "标记墨已用完"
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:459
 msgid "Paper low"
 msgstr "纸张量少"
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:461
 msgid "Out of paper"
 msgstr "缺纸"
@@ -1757,7 +1726,8 @@ msgstr "缺纸"
 msgid "Printer off-line"
 msgstr "没有连接打印机"
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #. Translators: This is a title of an error notification for a printer
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:465
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:828
@@ -1830,7 +1800,8 @@ msgstr "打印机报告"
 msgid "Printer warning"
 msgstr "打印机警告"
 
-#. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
+#. Translators: "Printer 'MyPrinterName': 'Description of the
+#. report/warning/error from a PPD file'."
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:835
 #, c-format
 msgid "Printer '%s': '%s'."
@@ -1924,86 +1895,86 @@ msgid "Done"
 msgstr "完成"
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1031
+#: ../plugins/wacom/gsd-wacom-device.c:1028
 msgid "Left Ring"
 msgstr "左环"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1042
+#: ../plugins/wacom/gsd-wacom-device.c:1039
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "左环模式 #%d"
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1062
+#: ../plugins/wacom/gsd-wacom-device.c:1059
 msgid "Right Ring"
 msgstr "右环"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1073
+#: ../plugins/wacom/gsd-wacom-device.c:1070
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "右环模式 #%d"
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1115
+#: ../plugins/wacom/gsd-wacom-device.c:1112
 msgid "Left Touchstrip"
 msgstr "左触摸带"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1126
+#: ../plugins/wacom/gsd-wacom-device.c:1123
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "左触摸带模式 #%d"
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1146
+#: ../plugins/wacom/gsd-wacom-device.c:1143
 msgid "Right Touchstrip"
 msgstr "右触摸带"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1157
+#: ../plugins/wacom/gsd-wacom-device.c:1154
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "右触摸带模式 #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1183
+#: ../plugins/wacom/gsd-wacom-device.c:1180
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "左触摸环模式开关"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1185
+#: ../plugins/wacom/gsd-wacom-device.c:1182
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "右触摸环模式开关"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1188
+#: ../plugins/wacom/gsd-wacom-device.c:1185
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "左触摸带模式开关"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1190
+#: ../plugins/wacom/gsd-wacom-device.c:1187
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "右触摸带模式开关"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1195
+#: ../plugins/wacom/gsd-wacom-device.c:1192
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "模式开关 #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1241
+#: ../plugins/wacom/gsd-wacom-device.c:1238
 #, c-format
 msgid "Left Button #%d"
 msgstr "左按钮 #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1244
+#: ../plugins/wacom/gsd-wacom-device.c:1241
 #, c-format
 msgid "Right Button #%d"
 msgstr "右按钮 #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1247
+#: ../plugins/wacom/gsd-wacom-device.c:1244
 #, c-format
 msgid "Top Button #%d"
 msgstr "顶部按钮 #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1250
+#: ../plugins/wacom/gsd-wacom-device.c:1247
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "底部按钮 #%d"
@@ -2012,16 +1983,16 @@ msgstr "底部按钮 #%d"
 msgid "New shortcut…"
 msgstr "新快捷键…"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1042
+#: ../plugins/wacom/gsd-wacom-manager.c:1037
 #, c-format
 msgid "The \"%s\" tablet may not work as expected."
 msgstr "“%s”手写板可能没有正常工作。"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1043
+#: ../plugins/wacom/gsd-wacom-manager.c:1038
 msgid "Unknown Tablet Connected"
 msgstr "连接了未知的手写板"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1047
+#: ../plugins/wacom/gsd-wacom-manager.c:1042
 msgid "Wacom Settings"
 msgstr "Wacom 设置"
 
@@ -2062,7 +2033,6 @@ msgstr "编辑"
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the LED setting for a Wacom tablet
-#.
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:5
 msgid "Modify the lit LED for a Wacom tablet"
 msgstr "修改 Wacom 数位板的 lit LED"
@@ -2074,7 +2044,6 @@ msgstr "修改 Wacom 数位板的 lit LED 需要认证"
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the OLED images for a Wacom tablet
-#.
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:11
 msgid "Modify the OLED image for a Wacom tablet"
 msgstr "修改 Wacom 数位板的 OLED 图像"
@@ -2111,1753 +2080,3 @@ msgstr "X 设置"
 #: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
 msgid "Manage X Settings"
 msgstr "管理 X 设置"
-
-#~ msgid "Device hotplug custom command"
-#~ msgstr "设备热插拔自定义命令"
-
-#~ msgid ""
-#~ "Command to be run when a device is added or removed. An exit value of 1 "
-#~ "means that the device will not be handled further by gnome-settings-"
-#~ "daemon."
-#~ msgstr ""
-#~ "要在添加或移除设备时运行的命令。退出代码 1 表示设备之后将不交给 gnome-"
-#~ "settings-daemon 管理。"
-
-#~ msgid ""
-#~ "The type of hinting to use when rendering fonts. Possible values are: "
-#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
-#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
-#~ msgstr ""
-#~ "绘制字形时使用微调的类型。可能的设定有：“无” - 无微调，“轻微”，“中等”以"
-#~ "及“完全” - 尽量多地进行微调(可能会引起字形扭曲)。"
-
-#~ msgid "Disable touchpad while typing"
-#~ msgstr "在输入时禁用触摸板"
-
-#~ msgid ""
-#~ "Set this to TRUE if you have problems with accidentally hitting the "
-#~ "touchpad while typing."
-#~ msgstr "如果您打字时会因偶尔会碰到触摸板而造成麻烦，将其设置为真(TRUE)。"
-
-#~ msgid "Enable horizontal scrolling"
-#~ msgstr "启用水平滚动"
-
-#~ msgid ""
-#~ "Set this to TRUE to allow horizontal scrolling by the same method "
-#~ "selected with the scroll_method key."
-#~ msgstr ""
-#~ "设置为真(TRUE)，即启用水平卷页且使用与 scroll_method 键值选定的同种方式。"
-
-#~ msgid "Select the touchpad scroll method"
-#~ msgstr "选择触摸板滚动模式"
-
-#~ msgid ""
-#~ "Select the touchpad scroll method. Supported values are: \"disabled\", "
-#~ "\"edge-scrolling\", \"two-finger-scrolling\"."
-#~ msgstr ""
-#~ "选择触摸板滚动模式。支持的值有：“disabled”(禁用)，“edge-scrolling”(边界滚"
-#~ "动)，“two-finger-scrolling”(双指滚动)。"
-
-#~ msgid "Enable mouse clicks with touchpad"
-#~ msgstr "启用触摸板的鼠标点击功能"
-
-#~ msgid ""
-#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
-#~ "touchpad."
-#~ msgstr "设置为真(TRUE)，即可在轻敲触摸板时发送鼠标点击信息。"
-
-#~ msgid "Enable touchpad"
-#~ msgstr "启用触摸板"
-
-#~ msgid "Set this to TRUE to enable all touchpads."
-#~ msgstr "设置为真(TRUE)启用所有触摸板"
-
-#~ msgid "Middle button emulation"
-#~ msgstr "中键模拟"
-
-#~ msgid ""
-#~ "Enables middle mouse button emulation through simultaneous left and right "
-#~ "button click."
-#~ msgstr "启用通过同时点击左键和右键来模拟中键。"
-
-#~ msgid "Wacom last calibrated resolution"
-#~ msgstr "Wacom 上次校准时的分辨率"
-
-#~ msgid ""
-#~ "Holds the last calibrated resolution to help check if calibration is "
-#~ "needed."
-#~ msgstr "保持上次校准时的分辨率，以帮助检查是否需要校准。"
-
-#~ msgid "Wacom display mapping"
-#~ msgstr "Wacom 显示器映射"
-
-#~ msgid ""
-#~ "EDID information of monitor to map tablet to. Must be in the format "
-#~ "[vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
-#~ msgstr ""
-#~ "数位板映射到的监视器的 EDID 信息。格式必须为 [vendor, product, serial]。"
-#~ "[\"\",\"\",\"\"] 禁用映射。"
-
-#~ msgid "Use mobile broadband connections"
-#~ msgstr "使用移动宽带连接。"
-
-#~ msgid ""
-#~ "Use mobile broadband connections such as GSM and CDMA to check for "
-#~ "updates."
-#~ msgstr "使用移动宽带例如 GSM 和 CDMA 来检查更新。"
-
-#~ msgid ""
-#~ "Automatically download updates in the background without confirmation"
-#~ msgstr "不提示直接自动在后台下载更新"
-
-#~ msgid ""
-#~ "Automatically download updates in the background without confirmation. "
-#~ "Updates will be auto-downloaded when using wired network connnections, "
-#~ "and mobile broadband if 'connection-use-mobile' is enabled."
-#~ msgstr ""
-#~ "不提示直接在后台下载更新。更新文件将会通过有线网络连接自动下载。也可能移动"
-#~ "宽带(如果启用“connection-use-mobile”)。"
-
-#~ msgid "How often to check for updates"
-#~ msgstr "检查更新的频率"
-
-#~ msgid ""
-#~ "How often to check for updates. Value is in seconds. This is a maximum "
-#~ "amount of time that can pass between a security update being published, "
-#~ "and the update being automatically installed or the user notified."
-#~ msgstr ""
-#~ "检查更新的频率。值以秒为单位。该值是安全更新被发布与此更新被用户安装或用户"
-#~ "被提醒的最大时间间隔。"
-
-#~ msgid "How often to notify the user that non-critical updates are available"
-#~ msgstr "非关键更新可用时提示用户的频率"
-
-#~ msgid ""
-#~ "How often to tell the user there are non-critical updates. Value is in "
-#~ "seconds. Security update notifications are always shown after the check "
-#~ "for updates, but non-critical notifications should be shown a lot less "
-#~ "frequently."
-#~ msgstr ""
-#~ "当非关键更新可用时提示用户的频率。值以秒为单位，在检查更新后安全更新的提醒"
-#~ "总是会显示，而非关键更新则应以更小的频率显示。"
-
-#~ msgid "The last time we told the user about non-critical notifications"
-#~ msgstr "上次通知用户非关键更新的时间"
-
-#~ msgid ""
-#~ "The last time we notified the user about non-critical updates. Value is "
-#~ "in seconds since the epoch, or zero for never."
-#~ msgstr ""
-#~ "上次通知用户非关键更新的时间。值是自新纪元(epoch)的秒数，或 0 表示永不。"
-
-#~ msgid "How often to check for distribution upgrades"
-#~ msgstr "检查发行版本更新的频率"
-
-#~ msgid "How often to check for distribution upgrades. Value is in seconds."
-#~ msgstr "检查发行版本更新的频率。值以秒为单位。"
-
-#~ msgid "How often to refresh the package cache"
-#~ msgstr "刷新软件包缓存的频率"
-
-#~ msgid "How often to refresh the package cache. Value is in seconds."
-#~ msgstr "刷新软件包缓存的频率。值以秒为单位。"
-
-#~ msgid "Check for updates when running on battery power"
-#~ msgstr "使用电池时检查更新"
-
-#~ msgid "Check for updates when running on battery power."
-#~ msgstr "当使用电池时检查更新。"
-
-#~ msgid "Notify the user when distribution upgrades are available"
-#~ msgstr "发行版本升级可用时提示用户"
-
-#~ msgid "Notify the user when distribution upgrades are available."
-#~ msgstr "当新的发行版本可用时提示用户。"
-
-#~ msgid "Ask the user if additional firmware should be installed"
-#~ msgstr "询问用户是否安装额外固件"
-
-#~ msgid ""
-#~ "Ask the user if additional firmware should be installed if it is "
-#~ "available."
-#~ msgstr "询问用户当额外固件可用时是否安装。"
-
-#~ msgid "Firmware files that should not be searched for"
-#~ msgstr "不搜索的固件文件"
-
-#~ msgid ""
-#~ "Firmware files that should not be searched for, separated by commas. "
-#~ "These can include '*' and '?' characters."
-#~ msgstr "不搜索的固件文件。文件名用逗号隔开，其中可以包含 * 和 ? 通配符。"
-
-#~ msgid "Devices that should be ignored"
-#~ msgstr "要忽略的设备"
-
-#~ msgid ""
-#~ "Devices that should be ignored, separated by commas. These can include "
-#~ "'*' and '?' characters."
-#~ msgstr "要忽略的设备。设备名用半角逗号隔开，其中可以包含 * 和 ? 通配符。"
-
-#~ msgid ""
-#~ "The filenames on removable media that designate it a software source."
-#~ msgstr "指定为软件源的可移动媒介的文件名。"
-
-#~ msgid ""
-#~ "When removable media is inserted, it is checked to see if it contains any "
-#~ "important filenames in the root directory. If the filename matches, then "
-#~ "an updates check is performed. This allows post-install disks to be used "
-#~ "to update running systems."
-#~ msgstr ""
-#~ "当移动媒体设备插入时，它会检查根目录下面是否有重要的文件名。如果文件名匹"
-#~ "配，会执行更新检测。它将会允许安装磁盘用来更新正在运行的系统。"
-
-#~ msgid "Cursor"
-#~ msgstr "光标"
-
-#~ msgid "Show/hide cursor on tablet devices"
-#~ msgstr "显示/隐藏平板设备上的光标"
-
-#~ msgid "Don't show any warnings again for this file system"
-#~ msgstr "不再为该文件系统显示任何警告"
-
-#~ msgid "Don't show any warnings again"
-#~ msgstr "不再显示任何警告"
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to another disk or partition."
-#~ msgstr ""
-#~ "您可以通过清空回收站，删除无用程序或文件，或者将文件移动到另外的硬盘或分区"
-#~ "来增加可用的硬盘空间。"
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to another disk or partition."
-#~ msgstr ""
-#~ "您可以通过删除无用程序或文件，或者移动文件到另外的磁盘或分区来增加磁盘空"
-#~ "间。"
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to an external disk."
-#~ msgstr ""
-#~ "您可以通过清空回收站，删除无用程序或文件，或者移动文件到外部的磁盘来增加磁"
-#~ "盘空间。"
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to an external disk."
-#~ msgstr ""
-#~ "您可以通过删除无用程序或文件，或者移动文件到外部磁盘来增加磁盘空间。"
-
-#~ msgid "Examine…"
-#~ msgstr "分析..."
-
-#~ msgid "Printer removed"
-#~ msgstr "打印机已移除"
-
-#~ msgid ""
-#~ "You will need to restart this computer before the hardware will work "
-#~ "correctly."
-#~ msgstr "您需要重启电脑后硬件才会正常工作。"
-
-#~ msgid "Additional software was installed"
-#~ msgstr "额外的软件已安装"
-
-#~ msgid "Software Updates"
-#~ msgstr "软件更新"
-
-#~ msgid ""
-#~ "You will need to remove and then reinsert the hardware before it will "
-#~ "work correctly."
-#~ msgstr "您需要拔出再重新插入该硬件才会正常工作。"
-
-#~ msgid "Your hardware has been set up and is now ready to use."
-#~ msgstr "您的硬件已被安装，现在可以使用。"
-
-#~ msgid ""
-#~ "Additional firmware is required to make hardware in this computer "
-#~ "function correctly."
-#~ msgstr "需要额外的固件才能使电脑上的硬件正常工作。"
-
-#~ msgid "Additional firmware required"
-#~ msgstr "需要的额外固件"
-
-#~ msgid "Install firmware"
-#~ msgstr "安装固件"
-
-#~ msgid "Ignore devices"
-#~ msgstr "忽略设备"
-
-#~ msgid "Failed To Update"
-#~ msgstr "更新失败"
-
-#~ msgid "A previous update was unfinished."
-#~ msgstr "前一次更新未完成。"
-
-#~ msgid "Network access was required but not available."
-#~ msgstr "需要访问网络可是不可用。"
-
-#~ msgid "An update was not signed in the correct way."
-#~ msgstr "有更新没有以正确的方法签名。"
-
-#~ msgid "The update could not be completed."
-#~ msgstr "更新无法完成"
-
-#~ msgid "The update was cancelled."
-#~ msgstr "更新被取消"
-
-#~ msgid "An offline update was requested but no packages required updating."
-#~ msgstr "请求了离线更新但没有包需要更新。"
-
-#~ msgid "No space was left on the drive."
-#~ msgstr "磁盘空间不足。"
-
-#~ msgid "An update failed to install correctly."
-#~ msgstr "有更新无法正确安装。"
-
-#~ msgid "The offline update failed in an unexpected way."
-#~ msgstr "离线更新异常失败。"
-
-#~ msgid "Detailed errors from the package manager follow:"
-#~ msgstr "如下时包管理器详细的出错信息："
-
-#~ msgid "Distribution upgrades available"
-#~ msgstr "发行版本升级可用"
-
-#~ msgid "Not Now"
-#~ msgstr "暂时不"
-
-#~ msgid "More information"
-#~ msgstr "详细信息"
-
-#~ msgid "Update"
-#~ msgid_plural "Updates"
-#~ msgstr[0] "更新"
-
-#~ msgid "An important software update is available"
-#~ msgid_plural "Important software updates are available"
-#~ msgstr[0] "有重要更新可用"
-
-#~ msgid "View"
-#~ msgstr "查看"
-
-#~ msgid "Restart & Install"
-#~ msgstr "重启并安装"
-
-#~ msgid "Install updates"
-#~ msgstr "安装更新"
-
-#~ msgid "A software update is available."
-#~ msgid_plural "Software updates are available."
-#~ msgstr[0] "系统更新可用。"
-
-#~ msgid "Updates"
-#~ msgstr "更新"
-
-#~ msgid "Unable to access software updates"
-#~ msgstr "无法获取软件更新"
-
-#~ msgid "Try again"
-#~ msgstr "再试一次"
-
-#~ msgid "A transaction that cannot be interrupted is running"
-#~ msgstr "一个不可中断的事务正在运行"
-
-#~ msgid "Software Update Installed"
-#~ msgid_plural "Software Updates Installed"
-#~ msgstr[0] "软件更新已安装"
-
-#~ msgid "An important OS update has been installed."
-#~ msgid_plural "Important OS updates have been installed."
-#~ msgstr[0] "重要更新已安装"
-
-#~ msgid "Software Updates Failed"
-#~ msgstr "软件更新失败"
-
-#~ msgid "An important OS update failed to be installed."
-#~ msgstr "有重要更新安装失败"
-
-#~ msgid "Review"
-#~ msgstr "结果"
-
-#~ msgid "Show details"
-#~ msgstr "显示细节"
-
-#~ msgid "OK"
-#~ msgstr "确定"
-
-#~ msgid "Updates plugin"
-#~ msgstr "更新插件"
-
-#~ msgid "Tablet %s needs to be calibrated."
-#~ msgstr "平板“%s”需要校准。"
-
-#~ msgid "Calibration needed"
-#~ msgstr "需要校准"
-
-#~ msgid "Calibrate"
-#~ msgstr "校准"
-
-#~ msgid "Wacom tablet PC feature"
-#~ msgstr "Wacom 平板电脑的功能"
-
-#~ msgid "Enable this to only report stylus events when the tip is pressed."
-#~ msgstr "当手写笔尖端按下时启用此活动报告"
-
-#~ msgid "Percentage considered low"
-#~ msgstr "视为低水平时的百分比"
-
-#~ msgid ""
-#~ "The percentage of the battery when it is considered low. Only valid when "
-#~ "use-time-for-policy is false."
-#~ msgstr ""
-#~ "视为低水平时的电池电量百分比。只在 use-time-for-policy 为 false 时有效。"
-
-#~ msgid "Percentage considered critical"
-#~ msgstr "视为严重时的百分比"
-
-#~ msgid ""
-#~ "The percentage of the battery when it is considered critical. Only valid "
-#~ "when use-time-for-policy is false."
-#~ msgstr ""
-#~ "视为严重时的电池电量百分比。只在 use-time-for-policy 为 false 时有效。"
-
-#~ msgid "Percentage action is taken"
-#~ msgstr "采取操作时的百分比"
-
-#~ msgid ""
-#~ "The percentage of the battery when the critical action is performed. Only "
-#~ "valid when use-time-for-policy is false."
-#~ msgstr ""
-#~ "在采取紧急操作时的电池电量百分比。只在 use-time-for-policy 为 false 时有"
-#~ "效。"
-
-#~ msgid "The time remaining when low"
-#~ msgstr "视为水平低时的剩余时间"
-
-#~ msgid ""
-#~ "The time remaining in seconds of the battery when it is considered low. "
-#~ "Only valid when use-time-for-policy is true."
-#~ msgstr ""
-#~ "视为低水平时的电池电量剩余的秒数。只在 use-time-for-policy 为 true 时有"
-#~ "效。"
-
-#~ msgid "The time remaining when critical"
-#~ msgstr "视为严重时的剩余时间"
-
-#~ msgid ""
-#~ "The time remaining in seconds of the battery when it is considered "
-#~ "critical. Only valid when use-time-for-policy is true."
-#~ msgstr ""
-#~ "视为严重时的电池电量剩余的秒数。只在 use-time-for-policy 为 true 时有效。"
-
-#~ msgid "The time remaining when action is taken"
-#~ msgstr "采取操作时的剩余时间"
-
-#~ msgid ""
-#~ "The time remaining in seconds of the battery when critical action is "
-#~ "taken. Only valid when use-time-for-policy is true."
-#~ msgstr ""
-#~ "在采取紧急操作时的电池电量剩余的秒数，只在 use-time-for-policy 为 true 时"
-#~ "有效。"
-
-#~ msgid "Whether to use time-based notifications"
-#~ msgstr "是否使用基于时间的通知"
-
-#~ msgid ""
-#~ "If time based notifications should be used. If set to false, then the "
-#~ "percentage change is used instead, which may fix a broken ACPI BIOS."
-#~ msgstr ""
-#~ "是否使用基于时间的通知。如果设为 false，则转而使用百分比变化，这样或许能"
-#~ "在 ACPI BIOS 损坏时修正问题。"
-
-#~ msgid "If we should show the recalled battery warning for a broken battery"
-#~ msgstr "是否为已宣布召回的电池显示电池警告"
-
-#~ msgid ""
-#~ "If we should show the recalled battery warning for a broken battery. Set "
-#~ "this to false only if you know your battery is okay."
-#~ msgstr ""
-#~ "是否应当为已宣布召回的电池显示电池损坏警告。如果您确信电池没有问题则设置"
-#~ "为 false。"
-
-#~ msgid "provides %s laptop runtime"
-#~ msgstr "可为笔记本提供 %s 的运行时间"
-
-#~ msgid "%s %s remaining"
-#~ msgstr "%s 剩余 %s"
-
-#~ msgid "%s %s until charged"
-#~ msgstr "%s 剩余 %s 充满"
-
-#~ msgid "provides %s battery runtime"
-#~ msgstr "提供 %s 的电池运行时间"
-
-#~ msgid "Product:"
-#~ msgstr "产品："
-
-#~ msgid "Status:"
-#~ msgstr "状态："
-
-#~ msgid "Missing"
-#~ msgstr "缺失"
-
-#~ msgid "Charged"
-#~ msgstr "已充满"
-
-#~ msgid "Charging"
-#~ msgstr "正在充电"
-
-#~ msgid "Discharging"
-#~ msgstr "正在放电"
-
-#~ msgid "Percentage charge:"
-#~ msgstr "充电百分比："
-
-#~ msgid "Vendor:"
-#~ msgstr "生产商："
-
-#~ msgid "Technology:"
-#~ msgstr "技术："
-
-#~ msgid "Serial number:"
-#~ msgstr "序列号："
-
-#~ msgid "Model:"
-#~ msgstr "型号："
-
-#~ msgid "Charge time:"
-#~ msgstr "充电时间："
-
-#~ msgid "Discharge time:"
-#~ msgstr "放电时间："
-
-#~ msgid "Excellent"
-#~ msgstr "极好"
-
-#~ msgid "Good"
-#~ msgstr "良好"
-
-#~ msgid "Fair"
-#~ msgstr "一般"
-
-#~ msgid "Poor"
-#~ msgstr "较差"
-
-#~ msgid "Capacity:"
-#~ msgstr "容量："
-
-#~ msgid "Current charge:"
-#~ msgstr "当前电量："
-
-#~ msgid "Last full charge:"
-#~ msgstr "最近一次充满："
-
-#~ msgid "Design charge:"
-#~ msgstr "设计容量："
-
-#~ msgid "Charge rate:"
-#~ msgstr "充电比率："
-
-#~ msgid "AC adapter"
-#~ msgid_plural "AC adapters"
-#~ msgstr[0] "交流电源适配器"
-
-#~ msgid "Laptop battery"
-#~ msgid_plural "Laptop batteries"
-#~ msgstr[0] "笔记本电池"
-
-#~ msgid "UPS"
-#~ msgid_plural "UPSs"
-#~ msgstr[0] "UPS"
-
-#~ msgid "Monitor"
-#~ msgid_plural "Monitors"
-#~ msgstr[0] "监视器"
-
-#~ msgid "PDA"
-#~ msgid_plural "PDAs"
-#~ msgstr[0] "PDA"
-
-#~ msgid "Cell phone"
-#~ msgid_plural "Cell phones"
-#~ msgstr[0] "手机"
-
-#~ msgid "Media player"
-#~ msgid_plural "Media players"
-#~ msgstr[0] "媒体播放机"
-
-#~ msgid "Tablet"
-#~ msgid_plural "Tablets"
-#~ msgstr[0] "平板设备"
-
-#~ msgid "Computer"
-#~ msgid_plural "Computers"
-#~ msgstr[0] "平板电脑"
-
-#~ msgid "Lithium Ion"
-#~ msgstr "锂离子"
-
-#~ msgid "Lithium Polymer"
-#~ msgstr "锂聚合物"
-
-#~ msgid "Lithium Iron Phosphate"
-#~ msgstr "锂离子聚合物"
-
-#~ msgid "Lead acid"
-#~ msgstr "铅酸"
-
-#~ msgid "Nickel Cadmium"
-#~ msgstr "镍镉"
-
-#~ msgid "Nickel metal hydride"
-#~ msgstr "镍氢"
-
-#~ msgid "Unknown technology"
-#~ msgstr "未知技术"
-
-#~ msgid "Empty"
-#~ msgstr "空"
-
-#~ msgid "Waiting to charge"
-#~ msgstr "等待充电"
-
-#~ msgid "Waiting to discharge"
-#~ msgstr "等待放电"
-
-#~ msgid "Laptop battery not present"
-#~ msgstr "笔记本电池不存在"
-
-#~ msgid "Laptop battery is charging"
-#~ msgstr "笔记本电池正在充电"
-
-#~ msgid "Laptop battery is discharging"
-#~ msgstr "笔记本电池正在放电"
-
-#~ msgid "Laptop battery is empty"
-#~ msgstr "笔记本电池已空"
-
-#~ msgid "Laptop battery is charged"
-#~ msgstr "笔记本电池已充满"
-
-#~ msgid "Laptop battery is waiting to charge"
-#~ msgstr "笔记本电池正在等待充电"
-
-#~ msgid "Laptop battery is waiting to discharge"
-#~ msgstr "笔记本电池正在等待放电"
-
-#~ msgid "UPS is charging"
-#~ msgstr "UPS 正在充电"
-
-#~ msgid "UPS is discharging"
-#~ msgstr "UPS 正在放电"
-
-#~ msgid "UPS is empty"
-#~ msgstr "UPS 已空"
-
-#~ msgid "UPS is charged"
-#~ msgstr "UPS 已充满"
-
-#~ msgid "Mouse is charging"
-#~ msgstr "UPS 正在充电"
-
-#~ msgid "Mouse is discharging"
-#~ msgstr "UPS 正在放电"
-
-#~ msgid "Mouse is empty"
-#~ msgstr "鼠标电池已空"
-
-#~ msgid "Mouse is charged"
-#~ msgstr "鼠标电池已充满"
-
-#~ msgid "Keyboard is charging"
-#~ msgstr "键盘电池正在充电"
-
-#~ msgid "Keyboard is discharging"
-#~ msgstr "键盘电池正在放电"
-
-#~ msgid "Keyboard is empty"
-#~ msgstr "键盘电池已空"
-
-#~ msgid "Keyboard is charged"
-#~ msgstr "键盘电池已充满"
-
-#~ msgid "PDA is charging"
-#~ msgstr "PDA 正在充电"
-
-#~ msgid "PDA is discharging"
-#~ msgstr "PDA 正在放电"
-
-#~ msgid "PDA is empty"
-#~ msgstr "PDA 电池已空"
-
-#~ msgid "PDA is charged"
-#~ msgstr "PDA 电池已充满"
-
-#~ msgid "Cell phone is charging"
-#~ msgstr "手机正在充电"
-
-#~ msgid "Cell phone is discharging"
-#~ msgstr "手机正在放电"
-
-#~ msgid "Cell phone is empty"
-#~ msgstr "手机电池已空"
-
-#~ msgid "Cell phone is charged"
-#~ msgstr "手机电池已充满"
-
-#~ msgid "Media player is charging"
-#~ msgstr "媒体播放机正在充电"
-
-#~ msgid "Media player is discharging"
-#~ msgstr "媒体播放机正在放电"
-
-#~ msgid "Media player is empty"
-#~ msgstr "媒体播放机电池已空"
-
-#~ msgid "Media player is charged"
-#~ msgstr "媒体播放机电池已充满"
-
-#~ msgid "Tablet is charging"
-#~ msgstr "平板设备正在充电"
-
-#~ msgid "Tablet is discharging"
-#~ msgstr "平板设备正在放电"
-
-#~ msgid "Tablet is empty"
-#~ msgstr "平板设备电池已空"
-
-#~ msgid "Tablet is charged"
-#~ msgstr "平板设备电池已充满"
-
-#~ msgid "Computer is charging"
-#~ msgstr "平板电脑正在充电"
-
-#~ msgid "Computer is discharging"
-#~ msgstr "平板电脑正在放电"
-
-#~ msgid "Computer is empty"
-#~ msgstr "平板电脑电池已空"
-
-#~ msgid "Computer is charged"
-#~ msgstr "平板电脑电池已充满"
-
-#~ msgid "Battery may be recalled"
-#~ msgstr "电池已被宣布召回"
-
-#~ msgid ""
-#~ "A battery in your computer may have been recalled by %s and you may be at "
-#~ "risk."
-#~ msgstr "您电脑上的一块电池可能正被 %s 召回，因此您可能正处于风险之中。"
-
-#~ msgid "For more information visit the battery recall website."
-#~ msgstr "更多信息请访问电池召回网站。"
-
-#~ msgid "Visit recall website"
-#~ msgstr "访问召回网站"
-
-#~ msgid "Do not show me this again"
-#~ msgstr "不再显示此信息"
-
-#~ msgid "Plug in your AC adapter to avoid losing data."
-#~ msgstr "请插入您的交流适配器，以免丢失数据。"
-
-#~ msgid "Computer will suspend very soon unless it is plugged in."
-#~ msgstr "如果不插入，计算机将很快挂起。"
-
-#~ msgid ""
-#~ "The battery is below the critical level and this computer will <b>power-"
-#~ "off</b> when the battery becomes completely empty."
-#~ msgstr ""
-#~ "电池电量水平已经超过了严重的界限，此计算机将会在电池电量完全耗尽时<b>关机"
-#~ "</b>。"
-
-#~ msgid ""
-#~ "The battery is below the critical level and this computer is about to "
-#~ "suspend.\n"
-#~ "<b>NOTE:</b> A small amount of power is required to keep your computer in "
-#~ "a suspended state."
-#~ msgstr ""
-#~ "电池电量水平已经极度不足，此计算机即将挂起。\n"
-#~ "<b>注：</b>计算机保持挂起状态时仍需少量电力。"
-
-#~ msgid ""
-#~ "UPS is below the critical level and this computer will <b>power-off</b> "
-#~ "when the UPS becomes completely empty."
-#~ msgstr ""
-#~ " UPS 电量水平已经超过了严重的界限，此计算机将在 UPS 电量完全耗尽时<b>关机"
-#~ "</b>。"
-
-#~ msgid "Remote Display"
-#~ msgstr "远程显示"
-
-#~ msgid "Disable animations on remote displays"
-#~ msgstr "禁止远程显示上的动画效果"
-
-#~ msgid "Software Updates available"
-#~ msgstr "有可用软件更新"
-
-#~ msgid "Important OS and application updates are ready to be installed"
-#~ msgstr "有重要的操作系统和程序更新已可供安装"
-
-#~ msgid "GNOME Software"
-#~ msgstr "GNOME 软件"
-
-#~ msgid "Could not enable mouse accessibility features"
-#~ msgstr "不能启用鼠标快捷键功能"
-
-#~ msgid ""
-#~ "Mouse accessibility requires Mousetweaks to be installed on your system."
-#~ msgstr "鼠标辅助功能需要在您的系统中安装 Mousetweaks。"
-
-#~ msgid "received error or hang up from event source"
-#~ msgstr "从事件源收到错误或挂断"
-
-#~ msgid "NSS security system could not be initialized"
-#~ msgstr "NSS 安全系统不能被初始化"
-
-#~ msgid "no suitable smartcard driver could be found"
-#~ msgstr "找不到合适的智能卡驱动"
-
-#~ msgid "smartcard driver '%s' could not be loaded"
-#~ msgstr "智能卡驱动 %s 不能被加载"
-
-#~ msgid "could not watch for incoming card events - %s"
-#~ msgstr "不能监视卡插入事件 - %s"
-
-#~ msgid "encountered unexpected error while waiting for smartcard events"
-#~ msgstr "等待智能卡事件时遇到意外错误"
-
-#, fuzzy
-#~ msgid "Configure device"
-#~ msgstr "忽略设备"
-
-#~ msgid "Could not switch the monitor configuration"
-#~ msgstr "无法改变显示器配置"
-
-#~ msgid "Could not restore the display's configuration"
-#~ msgstr "无法恢复显示配置"
-
-#~ msgid "Could not restore the display's configuration from a backup"
-#~ msgstr "无法从备份中恢复显示配置"
-
-#~ msgid "The display will be reset to its previous configuration in %d second"
-#~ msgid_plural ""
-#~ "The display will be reset to its previous configuration in %d seconds"
-#~ msgstr[0] "显示将会在 %d 秒内恢复之前的配置"
-
-#~ msgid "Does the display look OK?"
-#~ msgstr "显示是否正常？"
-
-#~ msgid "_Restore Previous Configuration"
-#~ msgstr "恢复之前的配置(_R)"
-
-#~ msgid "_Keep This Configuration"
-#~ msgstr "保持当前配置(_K)"
-
-#~ msgid "The selected configuration for displays could not be applied"
-#~ msgstr "无法为显示应用选定的配置"
-
-#~ msgid "Trying to switch the monitor configuration anyway."
-#~ msgstr "正在尝试改变显示器配置。"
-
-#~ msgid "Could not apply the stored configuration for monitors"
-#~ msgstr "无法应用原保存的显示器配置。"
-
-#~ msgid "Command to be run when a device is added or removed."
-#~ msgstr "添加或移除设备时要运行的命令。"
-
-#~ msgid "Binding to select the next input source"
-#~ msgstr "选择下一输入源的键绑定。"
-
-#, fuzzy
-#~ msgid "Switch input source backward"
-#~ msgstr "切换输入源"
-
-#~ msgid "Binding to select the previous input source"
-#~ msgstr "选择前一输入源的键绑定。"
-
-#~ msgid "There was an error displaying help: %s"
-#~ msgstr "显示帮助时出错：%s"
-
-#~ msgid "_Turn Off"
-#~ msgstr "关闭(_T)"
-
-#~ msgid "_Turn On"
-#~ msgstr "打开(_T)"
-
-#, fuzzy
-#~ msgid "_Leave On"
-#~ msgstr "保持打开(_L)"
-
-#, fuzzy
-#~ msgid "_Leave Off"
-#~ msgstr "保持关闭(_L)"
-
-#~ msgid "Universal Access Preferences"
-#~ msgstr "通用访问首选项"
-
-#~ msgid "Use on-screen _keyboard"
-#~ msgstr "使用屏幕键盘(_K)"
-
-#~ msgid "Use screen _reader"
-#~ msgstr "使用屏幕阅读器(_R)"
-
-#~ msgid "Use screen _magnifier"
-#~ msgstr "使用屏幕放大镜(_M)"
-
-#~ msgid "Enhance _contrast in colors"
-#~ msgstr "增强颜色的对比度(_C)"
-
-#~ msgid "Make _text larger and easier to read"
-#~ msgstr "将文本放大以方便阅读(_T)"
-
-#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
-#~ msgstr "请一次一个的按下键盘快捷键(粘滞键)(_P)"
-
-#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
-#~ msgstr "忽略快速重复按键(回键)(_I)"
-
-#~ msgid "Press and _hold keys to accept them (Slow Keys)"
-#~ msgstr "请按住键以接受慢速键(_H)"
-
-#~ msgid "Mount Helper"
-#~ msgstr "挂载助手"
-
-#~ msgid "Automount and autorun plugged devices"
-#~ msgstr "自动挂载并运行插入的设备"
-
-#~ msgid "Unable to mount %s"
-#~ msgstr "不能挂载 %s"
-
-#~ msgid "Unable to open a folder for %s"
-#~ msgstr "不能为 %s 打开文件夹"
-
-#~ msgid "Ask what to do"
-#~ msgstr "询问操作"
-
-#~ msgid "Do Nothing"
-#~ msgstr "无动作"
-
-#~ msgid "Open Folder"
-#~ msgstr "打开文件夹"
-
-#~ msgid "Unable to eject %p"
-#~ msgstr "无法弹出 %p"
-
-#~ msgid "Unable to unmount %p"
-#~ msgstr "无法卸载 %p"
-
-#~ msgid "You have just inserted an Audio CD."
-#~ msgstr "您刚才已插入一张音频 CD"
-
-#~ msgid "You have just inserted an Audio DVD."
-#~ msgstr "您刚才已插入一张音频 DVD"
-
-#~ msgid "You have just inserted a Video DVD."
-#~ msgstr "您刚才已插入一张视频 DVD"
-
-#~ msgid "You have just inserted a Video CD."
-#~ msgstr "您刚才已插入一张视频 CD"
-
-#~ msgid "You have just inserted a Super Video CD."
-#~ msgstr "您刚才已插入一张超级视频 CD"
-
-#~ msgid "You have just inserted a blank CD."
-#~ msgstr "您刚才已插入一张空白 CD"
-
-#~ msgid "You have just inserted a blank DVD."
-#~ msgstr "您刚才已插入一张空白 DVD"
-
-#~ msgid "You have just inserted a blank Blu-Ray disc."
-#~ msgstr "您刚才已插入一张空白蓝光盘片"
-
-#~ msgid "You have just inserted a blank HD DVD."
-#~ msgstr "您刚才已插入一张空白 HD DVD"
-
-#~ msgid "You have just inserted a Photo CD."
-#~ msgstr "您刚才已插入一张照片 CD"
-
-#~ msgid "You have just inserted a Picture CD."
-#~ msgstr "您刚才已插入一张图片 CD"
-
-#~ msgid "You have just inserted a medium with digital photos."
-#~ msgstr "您刚才已插入一个数字照片媒体"
-
-#~ msgid "You have just inserted a digital audio player."
-#~ msgstr "您刚才已插入一个数字音频播放器"
-
-#~ msgid ""
-#~ "You have just inserted a medium with software intended to be "
-#~ "automatically started."
-#~ msgstr "您刚才已插入一个带有软件自动启动的媒体"
-
-#~ msgid "You have just inserted a medium."
-#~ msgstr "您刚才已插入一个媒体"
-
-#~ msgid "Choose what application to launch."
-#~ msgstr "选择待启动的应用程序"
-
-#~ msgid ""
-#~ "Select how to open \"%s\" and whether to perform this action in the "
-#~ "future for other media of type \"%s\"."
-#~ msgstr "选择如何打开 %s 及将来是否为 %s 类型的其他媒体执行此动作。"
-
-#~ msgid "_Always perform this action"
-#~ msgstr "总是执行此动作(_A)"
-
-#~ msgid "_Eject"
-#~ msgstr "弹出(_E)"
-
-#~ msgid "_Unmount"
-#~ msgstr "卸载(_U)"
-
-#~ msgid "Background"
-#~ msgstr "背景"
-
-#~ msgid "Power Manager"
-#~ msgstr "电源管理"
-
-#~ msgid "The install root to use when adding and removing packages"
-#~ msgstr "添加或删除软件包时使用的安装根目录"
-
-#~ msgid ""
-#~ "The install root to use when processing packages, which is changed when "
-#~ "using LTSP or when testing."
-#~ msgstr "处理软件包时使用的安装根目录，使用 LTSP 或测试时它将会被更改。"
-
-#~ msgid "Use WiFi connections"
-#~ msgstr "使用 WiFi 连接"
-
-#~ msgid ""
-#~ "Use WiFi (wireless LAN) connections to check for updates. It may be "
-#~ "faster to download packages when on a wired connection, and the VPN or "
-#~ "proxy required may also only be available on wired connections."
-#~ msgstr ""
-#~ "使用 WiFi 连接检查更新。使用有线连接下载软件包可能更快，而且 VPN 或代理可"
-#~ "能只在有线连接时可用。"
-
-#~ msgid "Automatically install these types of updates"
-#~ msgstr "自动安装这些类别的更新"
-
-#~ msgid "Automatically install these types of updates."
-#~ msgstr "自动安装这些类别的更新。"
-
-#~ msgid "Get the update list when the session starts"
-#~ msgstr "当会话开始时获取更新列表"
-
-#~ msgid ""
-#~ "Get the update list when the session starts, even if not scheduled to."
-#~ msgstr "当会话开始时获取更新列表，即使没有计划执行。"
-
-#~ msgid ""
-#~ "The number of seconds at session startup to wait before checking for "
-#~ "updates"
-#~ msgstr "会话开始后检查更新前等待的秒数"
-
-#~ msgid ""
-#~ "The number of seconds at session startup to wait before checking for "
-#~ "updates. Value is in seconds."
-#~ msgstr "会话开始后检查更新前等待的秒数。值以秒为单位。"
-
-#~ msgid "Notify the user for completed updates"
-#~ msgstr "提示用户已完成的更新"
-
-#~ msgid ""
-#~ "Notify the user for completed updates. This may be a useful notification "
-#~ "for some users as installing updates prevents shutdown."
-#~ msgstr "提示用户已完成的更新。这可能在用户安装会阻止关机的更新时有用。"
-
-#~ msgid ""
-#~ "Notify the user for completed updates where the user needs to restart"
-#~ msgstr "需要重启时提示用户已完成的更新"
-
-#~ msgid ""
-#~ "Notify the user for completed updates where the user needs to restart."
-#~ msgstr "当需要重启时提示用户已完成的更新。"
-
-#~ msgid ""
-#~ "Notify the user when the automatic update was not started on battery power"
-#~ msgstr "因使用电池而未自动更新时提示用户"
-
-#~ msgid ""
-#~ "Notify the user when the update was not automatically started because the "
-#~ "machine is running on battery power."
-#~ msgstr "当因使用电池而未自动开始更新是提示用户。"
-
-#~ msgid "Notify the user when the update was started"
-#~ msgstr "更新开始时提示用户"
-
-#~ msgid "Notify the user when the update was started."
-#~ msgstr "当更新开始时提示用户。"
-
-#~ msgid ""
-#~ "Error activating XKB configuration.\n"
-#~ "There can be various reasons for that.\n"
-#~ "\n"
-#~ "If you report this situation as a bug, include the results of\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>"
-#~ msgstr ""
-#~ "激活 XKB 配置时出错。\n"
-#~ "有多种原因可导致次问题。\n"
-#~ "\n"
-#~ "如果您把这个情况作为臭虫报告，请包括以下结果\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>"
-
-#~ msgid "_Layouts"
-#~ msgstr "布局(_L)"
-
-#~ msgid "Show _Keyboard Layout..."
-#~ msgstr "显示键盘布局(_K)..."
-
-#~ msgid "Region and Language Settings"
-#~ msgstr "地区和语言设置"
-
-#~ msgid ""
-#~ "Automatic updates are not being installed as the computer is running on "
-#~ "battery power"
-#~ msgstr "由于系统正在使用电池，自动更新没有被安装"
-
-#~ msgid "Updates not installed"
-#~ msgstr "更新没有被安装"
-
-#~ msgid "Install the updates anyway"
-#~ msgstr "仍然安装更新"
-
-#~ msgid "No restart is required."
-#~ msgstr "系统不需重启。"
-
-#~ msgid "A restart is required."
-#~ msgstr "系统需要重启。"
-
-#~ msgid "You need to log out and log back in."
-#~ msgstr "您需要注销后再重新登录。"
-
-#~ msgid "You need to restart the application."
-#~ msgstr "您需要重启该应用程序。"
-
-#~ msgid "You need to log out and log back in to remain secure."
-#~ msgstr "您需要注销后再重新登录以保证系统安全。"
-
-#~ msgid "A restart is required to remain secure."
-#~ msgstr "需要重启来保证系统的安全。"
-
-#~ msgid "One package was skipped:"
-#~ msgid_plural "Some packages were skipped:"
-#~ msgstr[0] "跳过更新："
-
-#~ msgid "Restart computer now"
-#~ msgstr "现在重启"
-
-#~ msgid ""
-#~ "Priority to use for this plugin in gnome-settings-daemon startup queue."
-#~ msgstr "在 gnome-settings-daemon 启动队列中使用该插件的优先程度"
-
-#~ msgid ""
-#~ "Whether this plugin would be activated by gnome-settings-daemon or not."
-#~ msgstr "是否该插件应被 gnome-settings-daemon 激活。"
-
-#~ msgid ""
-#~ "If notifications should be shown at session start if a profile is invalid."
-#~ msgstr "若配置无效，是否在会话启动时显示通知"
-
-#~ msgid "Allowed keys"
-#~ msgstr "许可键"
-
-#~ msgid ""
-#~ "If non-empty, keybindings will be ignored unless their settings directory "
-#~ "is in the list. This is useful for lockdown."
-#~ msgstr ""
-#~ "如果非空，将忽略键绑定除非它们的设置目录位于列表中。对于锁定有用处。"
-
-#~ msgid "Enable this to set the cursor to absolute mode."
-#~ msgstr "启用此光标设置的绝对模式。"
-
-#~ msgid "Enable this to set the stylus to absolute mode."
-#~ msgstr "启用此设置为手写笔绝对模式"
-
-#~ msgid "Set this to x1, y1 and x2, y2 of the area usable by the cursor."
-#~ msgstr "设置为光标可用区域的 x1，y1 和 x2，y2。"
-
-#~ msgid "Set this to x1, y1 and x2, y2 of the area usable by the eraser."
-#~ msgstr "将此值设置到  x1, y1 和 x2, y2 适用于可用的擦写区域。"
-
-#~ msgid "Set this to x1, y1 and x2, y2 of the area usable by the pad."
-#~ msgstr "将此值设置到  x1, y1 和 x2, y2  适用于可用区域。"
-
-#~ msgid "Wacom cursor absolute mode"
-#~ msgstr "Wacom 光标绝对模式"
-
-#~ msgid "Wacom cursor button mapping"
-#~ msgstr "Wacom 光标按钮映射"
-
-#~ msgid "Wacom cursor tablet area"
-#~ msgstr "Wacom 光标数位板区域"
-
-#~ msgid "Wacom eraser absolute mode"
-#~ msgstr "Wacom 擦写绝对模式"
-
-#~ msgid "Wacom eraser tablet area"
-#~ msgstr "Wacom 数位板擦写区域"
-
-#~ msgid "Wacom stylus tablet area"
-#~ msgstr "Wacom 手写笔区域"
-
-#~ msgid "Do you want to activate Slow Keys?"
-#~ msgstr "您想要激活迟缓按键吗？"
-
-#~ msgid "Do you want to deactivate Slow Keys?"
-#~ msgstr "您想要禁用迟缓按键吗？"
-
-#~ msgid "Don't activate"
-#~ msgstr "不激活"
-
-#~ msgid "Don't deactivate"
-#~ msgstr "不禁用"
-
-#~ msgid "Activate"
-#~ msgstr "激活"
-
-#~ msgid "Deactivate"
-#~ msgstr "禁用"
-
-#~ msgid "Do_n't activate"
-#~ msgstr "不激活(_N)"
-
-#~ msgid "Do_n't deactivate"
-#~ msgstr "不禁用(_N)"
-
-#~ msgid "_Activate"
-#~ msgstr "激活(_A)"
-
-#~ msgid "_Deactivate"
-#~ msgstr "禁用(_D)"
-
-#~ msgid "Do you want to activate Sticky Keys?"
-#~ msgstr "您想要激活粘滞键吗？"
-
-#~ msgid "Do you want to deactivate Sticky Keys?"
-#~ msgstr "您想要禁用粘滞键吗？"
-
-#~ msgid "Default"
-#~ msgstr "默认"
-
-#~ msgid "Key binding (%s) is invalid (%d)"
-#~ msgstr "键绑定(%s)无效(%d)"
-
-#~ msgid "Key binding (%s) is incomplete"
-#~ msgstr "键绑定(%s)不完整"
-
-#~ msgid ""
-#~ "Error while trying to run (%s)\n"
-#~ "which is linked to the key (%s)"
-#~ msgstr ""
-#~ "试图运行(%s)时出错\n"
-#~ "与按键(%s)相关联"
-
-#~ msgid "Keybindings plugin"
-#~ msgstr "键绑定插件"
-
-#~ msgid ""
-#~ "Could not get default terminal. Verify that your default terminal command "
-#~ "is set and points to a valid application."
-#~ msgstr ""
-#~ "无法获得默认终端。请检查您的默认终端是否已设置，并指向有效的应用程序。"
-
-#~ msgid ""
-#~ "Couldn't execute command: %s\n"
-#~ "Verify that this is a valid command."
-#~ msgstr ""
-#~ "无法执行命令：%s\n"
-#~ "请检查此命令是否有效。"
-
-#~ msgid "Module Path"
-#~ msgstr "模块路径"
-
-#~ msgid "path to smartcard PKCS #11 driver"
-#~ msgstr "智能卡 PKCS #11 驱动程序路径"
-
-#~ msgid "Slot ID"
-#~ msgstr "插槽 ID"
-
-#~ msgid "The slot the card is in"
-#~ msgstr "卡在插槽中"
-
-#~ msgid "Slot Series"
-#~ msgstr "插槽序列"
-
-#~ msgid "per-slot card identifier"
-#~ msgstr "每个插槽的卡的标识符"
-
-#~ msgid "Module"
-#~ msgstr "模块"
-
-#~ msgid "Change system time and date settings"
-#~ msgstr "改变系统时间和日期设置"
-
-#~ msgid "To change time or date settings, you need to authenticate."
-#~ msgstr "改变系统时间和日期设置需要认证。"
-
-#~ msgid "Automounter plugin"
-#~ msgstr "自动挂载插件"
-
-#~ msgid "Privileges are required to configure time and date settings."
-#~ msgstr "配置时间和日期时需要的权限"
-
-#~ msgid "Binding to enable or disable the touchpad."
-#~ msgstr "启用或禁用触摸板的键绑定。"
-
-#~ msgid "Keyboard _Preferences"
-#~ msgstr "键盘首选项(_P)"
-
-#~ msgid "Show _Current Layout"
-#~ msgstr "显示当前布局(_C)"
-
-#~ msgid "DPI"
-#~ msgstr "DPI"
-
-#~ msgid ""
-#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
-#~ "inch. 0.0 DPI means that the X server's DPI will be used."
-#~ msgstr ""
-#~ "将字体尺寸转换为像素值时所用的分辨率，以每英寸点数为单位。0.0 DPI 则使用 "
-#~ "X 服务器的 DPI。"
-
-#~ msgid "Removing item %s of %s"
-#~ msgstr "正在删除 %2$s 个项目中的第 %1$s 个"
-
-#~ msgid "Removing: %s"
-#~ msgstr "正在删除：%s"
-
-#~ msgid "Emptying the trash"
-#~ msgstr "清空回收站"
-
-#~ msgid "Preparing to empty trash…"
-#~ msgstr "正在准备清空回收站..."
-
-#~ msgid "From: "
-#~ msgstr "来自："
-
-#~ msgid "Empty all of the items from the trash?"
-#~ msgstr "删除回收站里的所有项目？"
-
-#~ msgid ""
-#~ "If you choose to empty the trash, all items in it will be permanently "
-#~ "lost. Please note that you can also delete them separately."
-#~ msgstr ""
-#~ "如果您选择清空回收站，里面所有的项目都将永久丢失。请注意您也可以分别删除这"
-#~ "些项目。"
-
-#~ msgid "_Empty Trash"
-#~ msgstr "清空回收站(_E)"
-
-#~ msgid ""
-#~ "Disable the keyboard layout indicator unconditionally, do not show it "
-#~ "even if number of layouts is more than one."
-#~ msgstr "无条件禁止键盘布局显示器，即便布局数多于一个也不显示。"
-
-#~ msgid "Display keyboard LEDs on the panel"
-#~ msgstr "在面板上显示键盘的 LED 灯"
-
-#~ msgid ""
-#~ "Display pseudo-leds for keyboards that do not have physical LEDs for "
-#~ "CapsLock, NumLock, and ScrollLock."
-#~ msgstr ""
-#~ "为 CapsLock，NumLock 和 ScrollLock 键上没有物理 LED 灯的键盘显示 pseudo-"
-#~ "leds。"
-
-#~ msgid "Never show layout indicator"
-#~ msgstr "不显示布局指示器"
-
-#~ msgid "Configure hardware clock"
-#~ msgstr "配置硬件时钟"
-
-#~ msgid "Privileges are required to change the system time zone."
-#~ msgstr "更改系统时区需要的权限"
-
-#~ msgid "Privileges are required to change the system time."
-#~ msgstr "更改系统时间需要的权限"
-
-#~ msgid "Privileges are required to configure network time."
-#~ msgstr "更改网络时间需要的权限"
-
-#~ msgid "Cannot determine user's home directory"
-#~ msgstr "无法确定用户的主目录"
-
-#~ msgid "Manage the X resource database"
-#~ msgstr "管理 X 资源数据库"
-
-#~ msgid "X Resource Database"
-#~ msgstr "X 资源数据库"
-
-#~ msgid "Do not touch monitor configuration"
-#~ msgstr "无法改变显示器配置"
-
-#~ msgid "Turn on external monitor after system boot"
-#~ msgstr "系统启动后打开外部显示器"
-
-#~ msgid ""
-#~ "Turn on external monitor after system boot if user plugs in external "
-#~ "monitor on system boot."
-#~ msgstr "系统启动时，如果用户插入外部显示器就打开它。"
-
-#~ msgid "Turn on laptop monitor after system boot"
-#~ msgstr "系统启动后打开笔记本电脑显示器"
-
-#~ msgid ""
-#~ "Turn on laptop monitor after system boot if user plugs in external "
-#~ "monitor on system boot."
-#~ msgstr "系统启动时，如果用户插入外部显示器，打开笔记本显示器。"
-
-#~ msgid ""
-#~ "Usually, gnome-settings-daemon configures internal and external monitors "
-#~ "according to the turn_on_external_monitors_at_startup and "
-#~ "turn_on_laptop_monitor_at_startup settings and determines an appropriate "
-#~ "cloning/side-by-side mode. Setting this key to True disables this, and "
-#~ "the monitor settings are not touched at all (unless there is an explicit "
-#~ "user configuration)."
-#~ msgstr ""
-#~ "通常情况下，gnome-settings-daemon 会根据 "
-#~ "turn_on_external_monitors_at_startup 和 turn_on_laptop_monitor_at_startup "
-#~ "设定来配置内部和外部的显示器，并决定合适的“克隆/肩并肩”模式。设定该键值为 "
-#~ "True 则禁止该功能而根本不理会显示器设定(除非这里有单独指定的用户配置)。"
-
-#~ msgid "Volume step"
-#~ msgstr "音量步进"
-
-#~ msgid "Volume step as percentage of volume."
-#~ msgstr "以音量百分比步进音量。"
-
-#~ msgid "Show Displays in Notification Area"
-#~ msgstr "在通知区域显示"
-
-#~ msgid ""
-#~ "Whether a notification icon with display-related things should be shown "
-#~ "in the panel."
-#~ msgstr "是否在面板中显示一个通知图标，其中包括相关信息。"
-
-#~ msgid "Bounce keys"
-#~ msgstr "回键"
-
-#~ msgid "Command used to turn the magnifier on or off."
-#~ msgstr "用于打开或关闭放大镜的命令。"
-
-#~ msgid "Command used to turn the on-screen keyboard on or off."
-#~ msgstr "用于打开或关闭屏幕键盘的命令。"
-
-#~ msgid "Command used to turn the screen reader on or off."
-#~ msgstr "用于打开或关闭屏幕阅读器的命令。"
-
-#~ msgid "Enable XRandR plugin"
-#~ msgstr "启用 XRandR 插件"
-
-#~ msgid "Enable accessibility keyboard plugin"
-#~ msgstr "启用辅助键盘插件"
-
-#~ msgid "Enable background plugin"
-#~ msgstr "启用背景插件"
-
-#~ msgid "Enable clipboard plugin"
-#~ msgstr "启用剪贴板插件"
-
-#~ msgid "Enable font plugin"
-#~ msgstr "启用字体插件"
-
-#~ msgid "Enable housekeeping plugin"
-#~ msgstr "启用内务插件"
-
-#~ msgid "Enable keybindings plugin"
-#~ msgstr "启用键绑定插件"
-
-#~ msgid "Enable keyboard plugin"
-#~ msgstr "启用键盘插件"
-
-#~ msgid "Enable media keys plugin"
-#~ msgstr "启用媒体键插件"
-
-#~ msgid "Enable mouse plugin"
-#~ msgstr "启用鼠标插件"
-
-#~ msgid "Enable sound plugin"
-#~ msgstr "启用声音插件"
-
-#~ msgid "Enable typing breaks plugin"
-#~ msgstr "启用打字间隔插件"
-
-#~ msgid "Enable xrdb plugin"
-#~ msgstr "启用 xrdb 插件"
-
-#~ msgid "Enable xsettings plugin"
-#~ msgstr "启用 xsettings 插件"
-
-#~ msgid "On-screen keyboard"
-#~ msgstr "屏幕键盘"
-
-#~ msgid "Screen magnifier"
-#~ msgstr "屏幕放大镜"
-
-#~ msgid "Screen reader"
-#~ msgstr "屏幕阅读器"
-
-#~ msgid ""
-#~ "Set to True to enable the housekeeping plugin, to prune transient file "
-#~ "caches."
-#~ msgstr "设为 True 启用内务插件，以便删掉临时文件缓存。"
-
-#~ msgid "Set to True to enable the plugin to manage XRandR settings."
-#~ msgstr "设为 True 则启用插件以 XRandR 管理设置。"
-
-#~ msgid "Set to True to enable the plugin to manage clipboard settings."
-#~ msgstr "设为 True 启用剪切板设置管理插件。"
-
-#~ msgid ""
-#~ "Set to True to enable the plugin to manage desktop background settings."
-#~ msgstr "设为 True 启用桌面背景设置管理插件。"
-
-#~ msgid "Set to True to enable the plugin to manage font settings."
-#~ msgstr "设为 True 启用字体设置管理插件。"
-
-#~ msgid "Set to True to enable the plugin to manage keyboard settings."
-#~ msgstr "设为 True 启用键盘设置管理插件。"
-
-#~ msgid ""
-#~ "Set to True to enable the plugin to manage locking the screen on "
-#~ "smartcard removal."
-#~ msgstr "设为 True 启用插件以管理在智能卡拔出后屏幕锁定"
-
-#~ msgid "Set to True to enable the plugin to manage mouse settings."
-#~ msgstr "设为 True 启用鼠标设置管理插件。"
-
-#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
-#~ msgstr "设为 True 启用媒体键设置管理插件。"
-
-#~ msgid "Set to True to enable the plugin to manage sound sample caches."
-#~ msgstr "设为 True 启用该插件管理声音样本缓存。"
-
-#~ msgid ""
-#~ "Set to True to enable the plugin to manage the accessibility keyboard "
-#~ "settings."
-#~ msgstr "设为 True 启用辅助键盘设置管理插件。"
-
-#~ msgid "Set to True to enable the plugin to manage the keybindings."
-#~ msgstr "设为 True 启用键绑定管理插件。"
-
-#~ msgid "Set to True to enable the plugin to manage typing breaks."
-#~ msgstr "设为 True 启用打字中断管理插件。"
-
-#~ msgid "Set to True to enable the plugin to manage xrdb settings."
-#~ msgstr "设为 True 启用 xrdb 管理插件。"
-
-#~ msgid "Set to True to enable the plugin to manage xsettings."
-#~ msgstr "设为 True 以启用 xsettings 管理插件。"
-
-#~ msgid "Slow keys"
-#~ msgstr "迟缓按键"
-
-#~ msgid "Sticky keys"
-#~ msgstr "粘滞键"
-
-#~ msgid "The name of the keyboard shortcut to toggle the magnifier"
-#~ msgstr "用于切换放大镜的键盘快捷键名称"
-
-#~ msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
-#~ msgstr "切换屏幕键盘的快捷键名称"
-
-#~ msgid "The name of the keyboard shortcut to toggle the screen reader"
-#~ msgstr "切换屏幕阅读器的快捷键名称"
-
-#~ msgid ""
-#~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
-#~ "name will be shown in the keyboard shortcut preferences dialog."
-#~ msgstr ""
-#~ "这是用于切换放大镜的键盘快捷键名称。此名称将显示在键盘快捷键首选项对话框"
-#~ "中。"
-
-#~ msgid ""
-#~ "This is the name of the keyboard shortcut to toggle the on-screen "
-#~ "keyboard. This name will be shown in the keyboard shortcut preferences "
-#~ "dialog."
-#~ msgstr ""
-#~ "这是用于切换屏幕上键盘的键盘快捷键名称。此名称将显示在键盘快捷键首选项对话"
-#~ "框中。"
-
-#~ msgid ""
-#~ "This is the name of the keyboard shortcut to toggle the screen reader. "
-#~ "This name will be shown in the keyboard shortcut preferences dialog."
-#~ msgstr ""
-#~ "这是用于切换屏幕阅读器的键盘快捷键名称。此名称将显示在键盘快捷键的首选项对"
-#~ "话框中。"
-
-#~ msgid "Whether the bounce keys keyboard accessibility feature is turned on."
-#~ msgstr "是否已打开回键键盘辅助功能。"
-
-#~ msgid "Whether the mouse keys keyboard accessibility feature is turned on."
-#~ msgstr "是否已打开鼠标键键盘辅助功能。"
-
-#~ msgid "Whether the on-screen keyboard is turned on."
-#~ msgstr "是否已打开屏幕键盘。"
-
-#~ msgid "Whether the screen magnifier is turned on."
-#~ msgstr "是否已打开屏幕放大镜。"
-
-#~ msgid "Whether the screen reader is turned on."
-#~ msgstr "是否已打开屏幕阅读器。"
-
-#~ msgid "Whether the slow keys keyboard accessibility feature is turned on."
-#~ msgstr "是否已打开迟缓按键键盘辅助功能。"
-
-#~ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
-#~ msgstr "是否已打开粘滞键键盘辅助功能。"
-
-#~ msgid "Don't become a daemon"
-#~ msgstr "不要成为守护进程"
-
-#~ msgid "GConf prefix from which to load plugin settings"
-#~ msgstr "加载插件设置所需 GConf 的前缀"
-
-#~ msgid "Font"
-#~ msgstr "字体"
-
-#~ msgid ""
-#~ "Error activating XKB configuration.\n"
-#~ "It can happen under various circumstances:\n"
-#~ " • a bug in libxklavier library\n"
-#~ " • a bug in X server (xkbcomp, xmodmap utilities)\n"
-#~ " • X server with incompatible libxkbfile implementation\n"
-#~ "\n"
-#~ "X server version data:\n"
-#~ "%s\n"
-#~ "%d\n"
-#~ "%s\n"
-#~ "If you report this situation as a bug, please include:\n"
-#~ " • The result of <b>%s</b>\n"
-#~ " • The result of <b>%s</b>"
-#~ msgstr ""
-#~ "激活XKB配置错误。\n"
-#~ "发生这种错误有多种可能情况：\n"
-#~ " • 一个 libxklavier 库的 bug\n"
-#~ " • 一个 X 服务器的 bug (xkbcomp, xmodmap 工具)\n"
-#~ " • X 服务器的实现不兼容 libxkbfile\n"
-#~ "\n"
-#~ "X 服务器版本数据：\n"
-#~ "%s\n"
-#~ "%d\n"
-#~ "%s\n"
-#~ "如果您要报告 bug，请包括：\n"
-#~ " • <b>%s</b>的结果\n"
-#~ " • <b>%s</b>的结果"
-
-#~ msgid ""
-#~ "You are using XFree 4.3.0.\n"
-#~ "There are known problems with complex XKB configurations.\n"
-#~ "Try using a simpler configuration or using a later version of the XFree "
-#~ "software."
-#~ msgstr ""
-#~ "您正在使用 XFree 4.3.0。\n"
-#~ "目前已知的复杂 XKB 的配置问题。\n"
-#~ "试着使用一个简单的配置或者使用 XFree 软件的一个新版本"
-
-#~ msgid "A_vailable files:"
-#~ msgstr "可用文件(_V)："
-
-#~ msgid "Load modmap files"
-#~ msgstr "载入 modmap 文件"
-
-#~ msgid "Would you like to load the modmap files?"
-#~ msgstr "您是否想要载入 modmap 文件？"
-
-#~ msgid "_Load"
-#~ msgstr "载入(_L)"
-
-#~ msgid "_Loaded files:"
-#~ msgstr "载入的文件(_L)："
-
-#~ msgid "Mouse Preferences"
-#~ msgstr "鼠标首选项"
-
-#~ msgid "Typing Break"
-#~ msgstr "打字间断"
-
-#~ msgid "Typing break plugin"
-#~ msgstr "打字间隔插件"
-
-#~ msgid "Rotation not supported"
-#~ msgstr "不支持旋转"
-
-#~ msgid "Could not save monitor configuration"
-#~ msgstr "无法保存显示器配置"
-
-#~ msgid "Normal"
-#~ msgstr "普通"
-
-#~ msgid "Upside Down"
-#~ msgstr "上下倒置"
-
-#~ msgid "_Configure Display Settings…"
-#~ msgstr "配置显示设置(_C)..."
-
-#~ msgid "Configure display settings"
-#~ msgstr "配置显示设置"
-
-#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
-#~ msgstr "GConf 键 %s 被设为 %s 类型，但是期望的类型是 %s\n"
-
-#, fuzzy
-#~ msgid "Keyboard Layout \"%s\""
-#~ msgstr "键盘布局"
-
-#~ msgid ""
-#~ "Couldn't put the machine to sleep.\n"
-#~ "Verify that the machine is correctly configured."
-#~ msgstr ""
-#~ "无法将机器转入休眠。\n"
-#~ "请检查机器是否已正确配置。"
-
-#~ msgid "Binding to suspend the computer."
-#~ msgstr "挂起计算机的键绑定。"
-
-#~ msgid "GNOME Volume Control"
-#~ msgstr "GNOME 音量控制"
-
-#~ msgid ""
-#~ "Set to True to display a dialog when there are errors running the "
-#~ "screensaver."
-#~ msgstr "设为 True 以在运行屏幕保护程序出错时显示对话框。"
-
-#~ msgid "Set to True to run the screensaver at login."
-#~ msgstr "设为 True 以在登录时运行屏幕保护程序。"
-
-#~ msgid "Show startup errors"
-#~ msgstr "显示启动错误"
-
-#~ msgid "Enable screensaver plugin"
-#~ msgstr "启用屏保插件"
-
-#~ msgid "%d%% of the disk space on `%s' is in use"
-#~ msgstr "已使用 `%2$s' 上的 %1$d%% 磁盘空间"
-
-#~ msgid "Analyze"
-#~ msgstr "分析"
-
-#~ msgid ""
-#~ "There was an error starting up the screensaver:\n"
-#~ "\n"
-#~ "%s\n"
-#~ "\n"
-#~ "Screensaver functionality will not work in this session."
-#~ msgstr ""
-#~ "启动屏幕保护时出错：\n"
-#~ "\n"
-#~ "%s\n"
-#~ "\n"
-#~ "此对话中将无法使用屏幕保护功能。"
-
-#~ msgid "Screensaver plugin"
-#~ msgstr "屏保插件"

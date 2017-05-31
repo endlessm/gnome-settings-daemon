@@ -1,39 +1,26 @@
-# gnome-control-center Finnish translation
-# Copyright (C) 2004-2009 Free Software Foundation, Inc.
-# Mikko Rauhala <mjr@iki.fi>, x-2000
-#
-# sticky key = pohjaan jäävä näppäin
-# bounce key = kimmonäppäin
-# mouse key = hiirinäppäin
-# toggle key = piippaava näppäin
-#
-# Gnome 2012-03 Finnish translation sprint participants:
-# Timo Jyrinki
-#
-# Pauli Virtanen <pauli.virtanen@hut.fi>, 2000-2004.
-# Ilkka Tuohela <hile@iki.fi>, 2005-2009.
-# Tommi Vainikainen <thv@iki.fi>, 2009.
-# Timo Jyrinki <timo.jyrinki@iki.fi>, 2010.
-# sampo555 https://launchpad.net/~sampo555 , 2012.
-# Lasse Liehu <lasse.liehu@gmail.com>, 2014.
-# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2012, 2013, 2014, 2015, 2016.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2012-2016
+# Lasse Liehu <lasse.liehu@gmail.com>, 2014
+# sampo555 https://launchpad.net/~sampo555 , 2012
+# Timo Jyrinki <timo.jyrinki@iki.fi>, 2010
+# Tommi Vainikainen <thv@iki.fi>, 2009
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"settings-daemon&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-08-23 16:36+0000\n"
-"PO-Revision-Date: 2016-09-03 12:46+0300\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
-"Language-Team: suomi <lokalisointi-lista@googlegroups.com>\n"
-"Language: fi\n"
+"Project-Id-Version: gnome-settings-daemon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-28 03:31+0000\n"
+"PO-Revision-Date: 2016-10-04 23:24+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Finnish (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-POT-Import-Date: 2012-03-05 15:06:08+0000\n"
-"X-Generator: Gtranslator 2.91.7\n"
 
 #: ../data/gnome-settings-daemon.desktop.in.in.h:1
 msgid "GNOME Settings Daemon"
@@ -47,18 +34,13 @@ msgstr "Sirukortin irrottamistoiminto"
 msgid ""
 "Set this to one of \"none\", \"lock-screen\", or \"force-logout\". The "
 "action will get performed when the smartcard used for log in is removed."
-msgstr ""
-"Aseta tämä arvoon \"none\" (ei mitään), \"lock-screen\" (lukitse näyttö) tai "
-"\"force-logout\" (kirjaudu ulos). Toiminto suoritetaan, jos kirjautumiseen "
-"käytetty sirukortti irrotetaan koneesta."
+msgstr "Aseta tämä arvoon \"none\" (ei mitään), \"lock-screen\" (lukitse näyttö) tai \"force-logout\" (kirjaudu ulos). Toiminto suoritetaan, jos kirjautumiseen käytetty sirukortti irrotetaan koneesta."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:3
 msgid ""
 "Highlights the current location of the pointer when the Control key is "
 "pressed and released."
-msgstr ""
-"Korostaa osoittimen nykyisen sijainnin, kun control-näppäintä painetaan ja "
-"vapautetaan."
+msgstr "Korostaa osoittimen nykyisen sijainnin, kun control-näppäintä painetaan ja vapautetaan."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:4
 msgid "Double click time"
@@ -176,8 +158,8 @@ msgstr ""
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:12
 msgid ""
-"Set this to 'none', 'cw' for 90 degree clockwise, 'half' for 180 degree, and "
-"'ccw' for 90 degree counterclockwise."
+"Set this to 'none', 'cw' for 90 degree clockwise, 'half' for 180 degree, and"
+" 'ccw' for 90 degree counterclockwise."
 msgstr ""
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:13
@@ -311,9 +293,7 @@ msgstr "Ohitettavat liitospolut"
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:4
 msgid "Specify a list of mount paths to ignore when they run low on space."
-msgstr ""
-"Määritä luettelo liitospoluista, jotka ohitetaan vaikka niissä olisi vähän "
-"tilaa jäljellä."
+msgstr "Määritä luettelo liitospoluista, jotka ohitetaan vaikka niissä olisi vähän tilaa jäljellä."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:5
 msgid "Free percentage notify threshold"
@@ -343,9 +323,7 @@ msgstr "Vapaan tilan ilmoituksen raja-arvo"
 msgid ""
 "Specify an amount in GB. If the amount of free space is more than this, no "
 "warning will be shown."
-msgstr ""
-"Anna määrä gigatavuina. Jos vapaata tilaa on enemmän kuin kyseinen määrä, "
-"varoitusta ei näytetä."
+msgstr "Anna määrä gigatavuina. Jos vapaata tilaa on enemmän kuin kyseinen määrä, varoitusta ei näytetä."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:11
 msgid "Minimum notify period for repeated warnings"
@@ -355,9 +333,7 @@ msgstr "Lyhin huomautusväli toistuville varoituksille"
 msgid ""
 "Specify a time in minutes. Subsequent warnings for a volume will not appear "
 "more often than this period."
-msgstr ""
-"Määritä aika minuutteina. Seuraavat varoitukset taltiolle eivät näy useammin "
-"kuin tämän aikavälin kuluttua."
+msgstr "Määritä aika minuutteina. Seuraavat varoitukset taltiolle eivät näy useammin kuin tämän aikavälin kuluttua."
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:3
 msgid "Custom keybindings"
@@ -549,8 +525,7 @@ msgstr "Kopioi ikkunasta otettu kuvankaappaus leikepöydälle"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:52
 msgid "Binding to copy a screenshot of a window to clipboard."
-msgstr ""
-"Pikanäppäin ikkunasta otetun kuvankaappauksen kopioimiseen leikepöydälle"
+msgstr "Pikanäppäin ikkunasta otetun kuvankaappauksen kopioimiseen leikepöydälle"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:53
 msgid "Copy a screenshot of an area to clipboard"
@@ -558,8 +533,7 @@ msgstr "Kopioi alueesta otettu kuvankaappaus leikepöydälle"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:54
 msgid "Binding to copy a screenshot of an area to clipboard."
-msgstr ""
-"Pikanäppäin alueesta otetun kuvankaappauksen kopioimiseen leikepöydälle"
+msgstr "Pikanäppäin alueesta otetun kuvankaappauksen kopioimiseen leikepöydälle"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:55
 msgid "Record a short video of the screen"
@@ -650,18 +624,16 @@ msgid "Binding"
 msgstr "Näppäinsidos"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:77
-#, fuzzy
 msgid "Binding for the custom binding"
-msgstr "Pikanäppäin suurennuslasin suurennustoiminnolle"
+msgstr ""
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:78
 msgid "Command"
 msgstr "Komento"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:79
-#, fuzzy
 msgid "Command to run when the binding is invoked"
-msgstr "Suoritettava komento, kun laite lisätään tai poistetaan."
+msgstr ""
 
 #: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:5
 msgid "On which connections the service is enabled"
@@ -708,10 +680,7 @@ msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "\"none\" for no antialiasing, \"grayscale\" for standard grayscale "
 "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
-msgstr ""
-"Fonttien piirtoon käytetyn antialiasoinnin tyyppi. Mahdolliset arvot ovat: "
-"\"none\" (ei antialiasointia), \"grayscale (tavallinen harmaasävyihin "
-"perustuva) ja \"rgba\" (alipisteiden antialiasointi, vain LCD-näytöt)."
+msgstr "Fonttien piirtoon käytetyn antialiasoinnin tyyppi. Mahdolliset arvot ovat: \"none\" (ei antialiasointia), \"grayscale (tavallinen harmaasävyihin perustuva) ja \"rgba\" (alipisteiden antialiasointi, vain LCD-näytöt)."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
 msgid "Hinting"
@@ -719,8 +688,8 @@ msgstr "Vihjeistys"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:6
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: \"none"
-"\" for no hinting and \"slight\" for fitting only to the Y-axis like "
+"The type of hinting to use when rendering fonts. Possible values are: "
+"\"none\" for no hinting and \"slight\" for fitting only to the Y-axis like "
 "Microsoft's ClearType, DirectWrite and Adobe's proprietary font rendering "
 "engine. Ignores native hinting within the font, generates hints "
 "algorithmically. Used on Ubuntu by default. Recommended. The meaning of "
@@ -737,15 +706,11 @@ msgstr "RGBA-järjestys"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:10
 msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
-"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red "
-"on bottom."
-msgstr ""
-"Pikselin osien järjestys LCD-näytöllä: käytetään vain, kun antialiasointi on "
-"arvossa \"rgba\". Mahdolliset arvot ovat: \"rgb\" - punainen vasemmalla "
-"(yleisin), \"bgr\" punainen vasemmalla, \"vrgb\" punainen ylhäällä, \"vbgr\" "
-"punainen alhaalla."
+"The order of subpixel elements on an LCD screen; only used when antialiasing"
+" is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
+"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red"
+" on bottom."
+msgstr "Pikselin osien järjestys LCD-näytöllä: käytetään vain, kun antialiasointi on arvossa \"rgba\". Mahdolliset arvot ovat: \"rgb\" - punainen vasemmalla (yleisin), \"bgr\" punainen vasemmalla, \"vrgb\" punainen ylhäällä, \"vbgr\" punainen alhaalla."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:11
 msgid "List of explicitly disabled GTK+ modules"
@@ -763,8 +728,8 @@ msgstr ""
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:14
 msgid ""
-"A list of strings representing the GTK+ modules that will be loaded, usually "
-"in addition to conditional and forcibly disabled ones."
+"A list of strings representing the GTK+ modules that will be loaded, usually"
+" in addition to conditional and forcibly disabled ones."
 msgstr ""
 
 #: ../gnome-settings-daemon/main.c:53
@@ -799,9 +764,7 @@ msgstr "Hitaat näppäimet pois käytöstä"
 msgid ""
 "You just held down the Shift key for 8 seconds.  This is the shortcut for "
 "the Slow Keys feature, which affects the way your keyboard works."
-msgstr ""
-"Pidit juuri vaihtonäppäintä painettuna 8 sekuntia. Tämä on hitaat näppäimet -"
-"ominaisuuden pikanäppäily, ja muuttaa tapaa, jolla näppäimistö toimii."
+msgstr "Pidit juuri vaihtonäppäintä painettuna 8 sekuntia. Tämä on hitaat näppäimet -ominaisuuden pikanäppäily, ja muuttaa tapaa, jolla näppäimistö toimii."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:410
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:478
@@ -840,20 +803,14 @@ msgstr "Pohjaan jäävät näppäimet pois käytöstä"
 msgid ""
 "You just pressed the Shift key 5 times in a row.  This is the shortcut for "
 "the Sticky Keys feature, which affects the way your keyboard works."
-msgstr ""
-"Painoit juuri vaihtonäppäintä 5 kertaa peräkkäin. Tämä on pohjaan jäävät "
-"näppäimet -ominaisuuden pikanäppäily, ja muuttaa tapaa, jolla näppäimistö "
-"toimii."
+msgstr "Painoit juuri vaihtonäppäintä 5 kertaa peräkkäin. Tämä on pohjaan jäävät näppäimet -ominaisuuden pikanäppäily, ja muuttaa tapaa, jolla näppäimistö toimii."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:468
 msgid ""
 "You just pressed two keys at once, or pressed the Shift key 5 times in a "
 "row.  This turns off the Sticky Keys feature, which affects the way your "
 "keyboard works."
-msgstr ""
-"Painoit juuri kahta näppäintä samalla tai vaihtonäppäintä 5 kertaa "
-"peräkkäin. Tämä on pohjaan jäävät näppäimet -ominaisuuden pikanäppäily, ja "
-"muuttaa tapaa, jolla näppäimistö toimii."
+msgstr "Painoit juuri kahta näppäintä samalla tai vaihtonäppäintä 5 kertaa peräkkäin. Tämä on pohjaan jäävät näppäimet -ominaisuuden pikanäppäily, ja muuttaa tapaa, jolla näppäimistö toimii."
 
 #: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:1
 msgid "Accessibility settings"
@@ -954,58 +911,41 @@ msgstr "Tyhjä"
 msgid "Dummy plugin"
 msgstr "Tyhjä liitännäinen"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:574
+#: ../plugins/housekeeping/gsd-disk-space.c:577
 msgid "Disk space"
 msgstr "Levytila"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:586
+#: ../plugins/housekeeping/gsd-disk-space.c:589
 msgid "Examine"
 msgstr "Tutki"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:597
+#: ../plugins/housekeeping/gsd-disk-space.c:600
 msgid "Empty Trash"
 msgstr "Tyhjennä roskakori"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:605
+#: ../plugins/housekeeping/gsd-disk-space.c:608
 msgid "Ignore"
 msgstr "Älä huomioi"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:636
-#, c-format
-msgid "Low Disk Space on “%s”"
-msgstr "Levyllä \"%s\" on levytila vähissä"
-
 #: ../plugins/housekeeping/gsd-disk-space.c:638
-#, c-format
-msgid ""
-"The volume “%s” has only %s disk space remaining.  You may free up some "
-"space by emptying the trash."
-msgstr ""
-"Taltiolla \"%s\" on vapaata levytilaa vain %s. Voit vapauttaa levytilaa "
-"tyhjentämällä roskakorin."
-
-#: ../plugins/housekeeping/gsd-disk-space.c:642
-#, c-format
-msgid "The volume “%s” has only %s disk space remaining."
-msgstr "Taltiolla ”%s” on vain %s levytilaa jäljellä."
-
-#: ../plugins/housekeeping/gsd-disk-space.c:647
+#: ../plugins/housekeeping/gsd-disk-space.c:664
 msgid "Low Disk Space"
 msgstr "Levytila vähissä"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:649
+#: ../plugins/housekeeping/gsd-disk-space.c:639
+msgid ""
+"Your computer is out of space.  To free up space, you can delete old files "
+"and empty the trash from the \"Documents\" file manager, or delete apps you "
+"may not need from the App Center."
+msgstr ""
+
+#: ../plugins/housekeeping/gsd-disk-space.c:665
 #, c-format
 msgid ""
-"This computer has only %s disk space remaining.  You may free up some space "
-"by emptying the trash."
+"Your computer has only %s of space available.  To free up space, you can "
+"delete old files and empty the trash from the \"Documents\" file manager, or"
+" delete apps you may not need from the App Center."
 msgstr ""
-"Tietokoneella on enää %s vapaata levytilaa. Voit vapauttaa levytilaa "
-"tyhjentämällä roskakorin."
-
-#: ../plugins/housekeeping/gsd-disk-space.c:652
-#, c-format
-msgid "This computer has only %s disk space remaining."
-msgstr "Tällä tietokoneella on vain %s levytilaa jäljellä."
 
 #: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:1
 msgid "Housekeeping"
@@ -1025,27 +965,27 @@ msgstr "Näppäimistö"
 msgid "Keyboard plugin"
 msgstr "Näppäimistöliitännäinen"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2111
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2178
 msgid "Bluetooth disabled"
-msgstr "Bluetooth pois käytöstä"
+msgstr ""
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2114
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2181
 msgid "Bluetooth enabled"
-msgstr "Bluetooth käytössä"
+msgstr ""
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2118
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2185
 msgid "Airplane mode enabled"
-msgstr "Lentokonetila käytössä"
+msgstr ""
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2121
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2188
 msgid "Airplane mode disabled"
-msgstr "Lentokonetila pois käytöstä"
+msgstr ""
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2149
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2216
 msgid "Hardware Airplane Mode"
-msgstr "Rautapohjainen lentokonetila"
+msgstr ""
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2209
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2276
 msgid "Screencast from %d %t.webm"
 msgstr "Ruutunauhoite - %d %t.webm"
 
@@ -1120,30 +1060,20 @@ msgid "Microphone Mute"
 msgstr "Mikrofonin vaimennus"
 
 #: ../plugins/media-keys/shortcuts-list.h:53
-#, fuzzy
-#| msgid "Volume mute"
 msgid "Quiet Volume Mute"
-msgstr "Hiljennä ääni"
+msgstr ""
 
 #: ../plugins/media-keys/shortcuts-list.h:54
-#, fuzzy
-#| msgid "Volume down"
 msgid "Quiet Volume Down"
-msgstr "Vähennä äänenvoimakkuutta"
+msgstr ""
 
 #: ../plugins/media-keys/shortcuts-list.h:55
-#, fuzzy
-#| msgid "Volume up"
 msgid "Quiet Volume Up"
-msgstr "Kasvata äänenvoimakkuutta"
+msgstr ""
 
 #: ../plugins/media-keys/shortcuts-list.h:65
 msgid "Lock Screen"
 msgstr "Lukitse näyttö"
-
-#: ../plugins/media-keys/shortcuts-list.h:67
-msgid "Help"
-msgstr "Ohje"
 
 #: ../plugins/media-keys/shortcuts-list.h:81
 msgid "Rewind"
@@ -1161,7 +1091,8 @@ msgstr "Kertaustila"
 msgid "Random Play"
 msgstr "Satunnaistoisto"
 
-#. Key code of the XF86Display key (Fn-F7 on Thinkpads, Fn-F4 on HP machines, etc.)
+#. Key code of the XF86Display key (Fn-F7 on Thinkpads, Fn-F4 on HP machines,
+#. etc.)
 #: ../plugins/media-keys/shortcuts-list.h:85
 #: ../plugins/media-keys/shortcuts-list.h:87
 msgid "Video Out"
@@ -1181,7 +1112,8 @@ msgid "Power Off"
 msgstr "Sammuta"
 
 #. the kernel / Xorg names really are like this...
-#. translators: "Sleep" means putting the machine to sleep, either through hibernate or suspend
+#. translators: "Sleep" means putting the machine to sleep, either through
+#. hibernate or suspend
 #: ../plugins/media-keys/shortcuts-list.h:102
 msgid "Sleep"
 msgstr "Unitila"
@@ -1203,22 +1135,16 @@ msgid "Brightness Down"
 msgstr "Vähennä kirkkauta"
 
 #: ../plugins/media-keys/shortcuts-list.h:107
-#, fuzzy
-#| msgid "Keyboard is empty"
 msgid "Keyboard Brightness Up"
-msgstr "Näppäimistön akku on tyhjä"
+msgstr ""
 
 #: ../plugins/media-keys/shortcuts-list.h:108
-#, fuzzy
-#| msgid "Keyboard battery low"
 msgid "Keyboard Brightness Down"
-msgstr "Näppäimistön akku lähes tyhjä"
+msgstr ""
 
 #: ../plugins/media-keys/shortcuts-list.h:109
-#, fuzzy
-#| msgid "Keyboard is charged"
 msgid "Keyboard Brightness Toggle"
-msgstr "Näppäimistö on ladattu"
+msgstr ""
 
 #: ../plugins/media-keys/shortcuts-list.h:110
 msgid "Battery Status"
@@ -1226,13 +1152,12 @@ msgstr "Akun tila"
 
 #: ../plugins/media-keys/shortcuts-list.h:111
 #: ../plugins/media-keys/shortcuts-list.h:112
-#| msgid "Toggle screen reader"
 msgid "Toggle Airplane Mode"
-msgstr "Lentokonetila päälle/pois päältä"
+msgstr ""
 
 #: ../plugins/media-keys/shortcuts-list.h:113
 msgid "Toggle Bluetooth"
-msgstr "Bluetooth päälle/pois päältä"
+msgstr ""
 
 #: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
 msgid "Mouse"
@@ -1437,12 +1362,14 @@ msgstr "Liitetyn tietokoneen virta on vähissä (%.0f%%)"
 msgid "Battery is low"
 msgstr "Akku on lähes tyhjä"
 
-#. TRANSLATORS: laptop battery critically low, and only have one kind of battery
+#. TRANSLATORS: laptop battery critically low, and only have one kind of
+#. battery
 #: ../plugins/power/gsd-power-manager.c:558
 msgid "Battery critically low"
 msgstr "Akku kriittisen tyhjä"
 
-#. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
+#. TRANSLATORS: laptop battery critically low, and we have more than one type
+#. of battery
 #. TRANSLATORS: laptop battery is really, really, low
 #: ../plugins/power/gsd-power-manager.c:561
 #: ../plugins/power/gsd-power-manager.c:708
@@ -1474,9 +1401,7 @@ msgstr "UPSin lataus on lähes loppu"
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
 "computer to avoid losing data."
-msgstr ""
-"Noin %s jäljellä UPS-virtaa (%.0f%%). Liitä tietokone virtalähteeseen "
-"välttääksesi tietojen menetyksen."
+msgstr "Noin %s jäljellä UPS-virtaa (%.0f%%). Liitä tietokone virtalähteeseen välttääksesi tietojen menetyksen."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:597
@@ -1484,9 +1409,7 @@ msgstr ""
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Langattoman hiiren virta on melkein loppu (%.0f%%). Laite sammuu pian, ellei "
-"sitä aseteta lataukseen."
+msgstr "Langattoman hiiren virta on melkein loppu (%.0f%%). Laite sammuu pian, ellei sitä aseteta lataukseen."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:605
@@ -1494,19 +1417,15 @@ msgstr ""
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Langattoman näppäimistön virta on melkein loppu (%.0f%%). Laite sammuu pian, "
-"ellei sitä aseteta lataukseen."
+msgstr "Langattoman näppäimistön virta on melkein loppu (%.0f%%). Laite sammuu pian, ellei sitä aseteta lataukseen."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:614
 #, c-format
 msgid ""
-"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
-"not charged."
-msgstr ""
-"Kämmentietokoneen virta on on lähes loppu (%.0f%%). Laite sammuu pian, ellei "
-"sitä aseteta lataukseen."
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if"
+" not charged."
+msgstr "Kämmentietokoneen virta on on lähes loppu (%.0f%%). Laite sammuu pian, ellei sitä aseteta lataukseen."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:624
@@ -1514,9 +1433,7 @@ msgstr ""
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Matkapuhelimen virta on melkein loppu (%.0f%%). Laite sammuu pian, ellei "
-"sitä aseteta lataukseen."
+msgstr "Matkapuhelimen virta on melkein loppu (%.0f%%). Laite sammuu pian, ellei sitä aseteta lataukseen."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:633
@@ -1524,19 +1441,15 @@ msgstr ""
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Mediasoittimen virta on melkein loppu (%.0f%%). Laite sammuu pian, ellei "
-"sitä aseteta lataukseen."
+msgstr "Mediasoittimen virta on melkein loppu (%.0f%%). Laite sammuu pian, ellei sitä aseteta lataukseen."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:642
 #, c-format
 msgid ""
-"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
-"if not charged."
-msgstr ""
-"Taulutietokoneen virta on on lähes loppu (%.0f%%). Laite sammuu pian, ellei "
-"sitä aseteta lataukseen."
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning"
+" if not charged."
+msgstr "Taulutietokoneen virta on on lähes loppu (%.0f%%). Laite sammuu pian, ellei sitä aseteta lataukseen."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:651
@@ -1544,17 +1457,14 @@ msgstr ""
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
 "shutdown if not charged."
-msgstr ""
-"Liitetyn tietokoneen virta on melkein loppu (%.0f%%). Laite sammuu pian, "
-"ellei sitä aseteta lataukseen."
+msgstr "Liitetyn tietokoneen virta on melkein loppu (%.0f%%). Laite sammuu pian, ellei sitä aseteta lataukseen."
 
 #. TRANSLATORS: computer will hibernate
 #: ../plugins/power/gsd-power-manager.c:716
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
-msgstr ""
-"Akun lataus on alle kriittisen arvon ja tietokone asetetaan lepotilaan."
+msgstr "Akun lataus on alle kriittisen arvon ja tietokone asetetaan lepotilaan."
 
 #. TRANSLATORS: computer will just shutdown
 #: ../plugins/power/gsd-power-manager.c:721
@@ -1567,59 +1477,58 @@ msgstr "Akun lataus on alle kriittisen arvon ja siksi tietokone sammutetaan."
 #: ../plugins/power/gsd-power-manager.c:741
 msgid ""
 "UPS is below the critical level and this computer is about to hibernate."
-msgstr ""
-"UPS on alle kriittisen arvon, ja tietokone on siirtymäisillään lepotilaan."
+msgstr "UPS on alle kriittisen arvon, ja tietokone on siirtymäisillään lepotilaan."
 
 #. TRANSLATORS: computer will just shutdown
 #: ../plugins/power/gsd-power-manager.c:746
-msgid "UPS is below the critical level and this computer is about to shutdown."
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
 msgstr "UPS on alle kriittisen arvon, ja tietokone on sammumaisillaan."
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1253
+#: ../plugins/power/gsd-power-manager.c:1259
 msgid "Lid has been opened"
 msgstr "Kansi on avattu"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1291
+#: ../plugins/power/gsd-power-manager.c:1297
 msgid "Lid has been closed"
 msgstr "Kansi on suljettu"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1850
+#: ../plugins/power/gsd-power-manager.c:1856
 msgid "On battery power"
 msgstr "Akkuvirralla"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1855
+#: ../plugins/power/gsd-power-manager.c:1861
 msgid "On AC power"
 msgstr "Verkkovirralla"
 
-#: ../plugins/power/gsd-power-manager.c:2037
+#: ../plugins/power/gsd-power-manager.c:2053
 msgid "Automatic logout"
 msgstr "Automaattinen uloskirjautuminen"
 
-#: ../plugins/power/gsd-power-manager.c:2037
+#: ../plugins/power/gsd-power-manager.c:2053
 msgid "You will soon log out because of inactivity."
 msgstr "Kirjaudut pian ulos käyttämättönyyden vuoksi."
 
-#: ../plugins/power/gsd-power-manager.c:2042
+#: ../plugins/power/gsd-power-manager.c:2058
 msgid "Automatic suspend"
 msgstr "Automaattinen valmiustila"
 
-#: ../plugins/power/gsd-power-manager.c:2042
-#: ../plugins/power/gsd-power-manager.c:2047
+#: ../plugins/power/gsd-power-manager.c:2058
+#: ../plugins/power/gsd-power-manager.c:2063
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "Tietokone siirtyy pian valmiustilaan käyttämättömyyden vuoksi."
 
-#: ../plugins/power/gsd-power-manager.c:2047
+#: ../plugins/power/gsd-power-manager.c:2063
 msgid "Automatic hibernation"
 msgstr "Automaattinen lepotila"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the backlight brightness.
-#.
 #: ../plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in.h:5
 msgid "Modify the laptop brightness"
 msgstr "Muuta kannettavan näytön kirkkautta"
@@ -1672,31 +1581,36 @@ msgstr "Tulostimet"
 msgid "Printer '%s' is low on toner."
 msgstr "Tulostimesta ”%s” on väri vähissä."
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:354
 #, c-format
 msgid "Printer '%s' has no toner left."
 msgstr "Tulostimesta ”%s” on väri loppu."
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:358
 #, c-format
 msgid "Printer '%s' may not be connected."
 msgstr "Tulostimesta ”%s” on väri loppu."
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:362
 #, c-format
 msgid "The cover is open on printer '%s'."
 msgstr "Tulostimen ”%s” kansi on auki."
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:366
 #, c-format
 msgid "There is a missing print filter for printer '%s'."
 msgstr "Tulostimelta ”%s” puuttuu tulostussuodin."
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:371
 #, c-format
 msgid "The door is open on printer '%s'."
@@ -1714,13 +1628,15 @@ msgstr "Tulostimen '%s' värikasetti on vähissä."
 msgid "Printer '%s' is out of a marker supply."
 msgstr "Tulostimen '%s' värikasetti on loppu."
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:383
 #, c-format
 msgid "Printer '%s' is low on paper."
 msgstr "Tulostimesta ”%s” on paperi vähissä."
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:387
 #, c-format
 msgid "Printer '%s' is out of paper."
@@ -1732,7 +1648,8 @@ msgstr "Tulostimesta ”%s” on paperi loppu."
 msgid "Printer '%s' is currently off-line."
 msgstr "Tulostin ”%s” ei ole päällä."
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "There is a problem on printer '%s'."
@@ -1743,27 +1660,32 @@ msgstr "Tulostimella ”%s” on ongelma."
 msgid "Toner low"
 msgstr "Väriaine vähissä"
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:445
 msgid "Toner empty"
 msgstr "Väriaine lopussa"
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:447
 msgid "Not connected?"
 msgstr "Ei yhteyttä?"
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:449
 msgid "Cover open"
 msgstr "Kansi auki"
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:451
 msgid "Printer configuration error"
 msgstr "Tulostimen asetusvirhe"
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:453
 msgid "Door open"
 msgstr "Luukku auki"
@@ -1778,12 +1700,14 @@ msgstr "Värikasetti on vähissä"
 msgid "Out of a marker supply"
 msgstr "Värikasetti on loppu"
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:459
 msgid "Paper low"
 msgstr "Paperi vähissä"
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:461
 msgid "Out of paper"
 msgstr "Paperi on loppu"
@@ -1793,7 +1717,8 @@ msgstr "Paperi on loppu"
 msgid "Printer off-line"
 msgstr "Tulostin yhteydettömässä tilassa"
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #. Translators: This is a title of an error notification for a printer
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:465
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:828
@@ -1866,7 +1791,8 @@ msgstr "Tulostinraportti"
 msgid "Printer warning"
 msgstr "Tulostinvaroitus"
 
-#. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
+#. Translators: "Printer 'MyPrinterName': 'Description of the
+#. report/warning/error from a PPD file'."
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:835
 #, c-format
 msgid "Printer '%s': '%s'."
@@ -1887,10 +1813,8 @@ msgid "Rfkill"
 msgstr ""
 
 #: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:3
-#, fuzzy
-#| msgid "Color plugin"
 msgid "Rfkill plugin"
-msgstr "Väriliitännäinen"
+msgstr ""
 
 #: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:1
 msgid "Screensaver Proxy"
@@ -1931,11 +1855,9 @@ msgid "Send Keystroke"
 msgstr ""
 
 #: ../plugins/wacom/gsd-wacom-button-editor.c:53
-#, fuzzy
-#| msgid "Switch input source"
 msgctxt "Wacom action-type"
 msgid "Switch Monitor"
-msgstr "Vaihda syötelähdettä"
+msgstr ""
 
 #: ../plugins/wacom/gsd-wacom-button-editor.c:54
 msgctxt "Wacom action-type"
@@ -1950,11 +1872,9 @@ msgstr ""
 
 #: ../plugins/wacom/gsd-wacom-button-editor.c:157
 #: ../plugins/wacom/gsd-wacom-osd-window.c:1101
-#, fuzzy
-#| msgid "Switch input source"
 msgctxt "Action type"
 msgid "Switch Monitor"
-msgstr "Vaihda syötelähdettä"
+msgstr ""
 
 #: ../plugins/wacom/gsd-wacom-button-editor.c:201
 msgctxt "keyboard shortcut"
@@ -1966,86 +1886,86 @@ msgid "Done"
 msgstr "Valmis"
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1031
+#: ../plugins/wacom/gsd-wacom-device.c:1028
 msgid "Left Ring"
 msgstr ""
 
-#: ../plugins/wacom/gsd-wacom-device.c:1042
+#: ../plugins/wacom/gsd-wacom-device.c:1039
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr ""
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1062
+#: ../plugins/wacom/gsd-wacom-device.c:1059
 msgid "Right Ring"
 msgstr ""
 
-#: ../plugins/wacom/gsd-wacom-device.c:1073
+#: ../plugins/wacom/gsd-wacom-device.c:1070
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr ""
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1115
+#: ../plugins/wacom/gsd-wacom-device.c:1112
 msgid "Left Touchstrip"
 msgstr ""
 
-#: ../plugins/wacom/gsd-wacom-device.c:1126
+#: ../plugins/wacom/gsd-wacom-device.c:1123
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr ""
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1146
+#: ../plugins/wacom/gsd-wacom-device.c:1143
 msgid "Right Touchstrip"
 msgstr ""
 
-#: ../plugins/wacom/gsd-wacom-device.c:1157
+#: ../plugins/wacom/gsd-wacom-device.c:1154
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr ""
 
-#: ../plugins/wacom/gsd-wacom-device.c:1183
+#: ../plugins/wacom/gsd-wacom-device.c:1180
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr ""
 
-#: ../plugins/wacom/gsd-wacom-device.c:1185
+#: ../plugins/wacom/gsd-wacom-device.c:1182
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr ""
 
-#: ../plugins/wacom/gsd-wacom-device.c:1188
+#: ../plugins/wacom/gsd-wacom-device.c:1185
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr ""
 
-#: ../plugins/wacom/gsd-wacom-device.c:1190
+#: ../plugins/wacom/gsd-wacom-device.c:1187
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr ""
 
-#: ../plugins/wacom/gsd-wacom-device.c:1195
+#: ../plugins/wacom/gsd-wacom-device.c:1192
 #, c-format
 msgid "Mode Switch #%d"
 msgstr ""
 
-#: ../plugins/wacom/gsd-wacom-device.c:1241
+#: ../plugins/wacom/gsd-wacom-device.c:1238
 #, c-format
 msgid "Left Button #%d"
 msgstr "Vasen painike #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1244
+#: ../plugins/wacom/gsd-wacom-device.c:1241
 #, c-format
 msgid "Right Button #%d"
 msgstr "Oikea painike #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1247
+#: ../plugins/wacom/gsd-wacom-device.c:1244
 #, c-format
 msgid "Top Button #%d"
 msgstr "Yläpainike #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1250
+#: ../plugins/wacom/gsd-wacom-device.c:1247
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "Alapainike #%d"
@@ -2054,16 +1974,16 @@ msgstr "Alapainike #%d"
 msgid "New shortcut…"
 msgstr "Uusi pikanäppäin…"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1042
+#: ../plugins/wacom/gsd-wacom-manager.c:1037
 #, c-format
 msgid "The \"%s\" tablet may not work as expected."
 msgstr "Piirtopöytä \"%s\" ei välttämättä toimi odotetulla tavalla."
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1043
+#: ../plugins/wacom/gsd-wacom-manager.c:1038
 msgid "Unknown Tablet Connected"
 msgstr "Tuntematon piirtopöytä yhdistetty"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1047
+#: ../plugins/wacom/gsd-wacom-manager.c:1042
 msgid "Wacom Settings"
 msgstr "Wacom-asetukset"
 
@@ -2104,28 +2024,24 @@ msgstr "Muokkaa"
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the LED setting for a Wacom tablet
-#.
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:5
 msgid "Modify the lit LED for a Wacom tablet"
 msgstr ""
 
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:6
-#, fuzzy
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
-msgstr "Kannettavan näytön kirkkauden muuttaminen vaatii tunnistautumisen"
+msgstr ""
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the OLED images for a Wacom tablet
-#.
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:11
 msgid "Modify the OLED image for a Wacom tablet"
 msgstr ""
 
 #: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:12
-#, fuzzy
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
-msgstr "Kannettavan näytön kirkkauden muuttaminen vaatii tunnistautumisen"
+msgstr ""
 
 #: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:1
 msgid "Wacom"
@@ -2155,130 +2071,3 @@ msgstr "X-asetukset"
 #: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
 msgid "Manage X Settings"
 msgstr "Hallitse X-asetuksia"
-
-#~ msgid ""
-#~ "The type of hinting to use when rendering fonts. Possible values are: "
-#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
-#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
-#~ msgstr ""
-#~ "Fontteja piirrettäessä käytettävä vihjeistystapa. Mahdolliset arvot ovat: "
-#~ "\"none\" (ei vihjeistystä), \"slight\" (kevyt vihjeistys), \"medium"
-#~ "\" (tavallinen vihjeistys) \"full\" (suurin mahdollinen, saattaa "
-#~ "aiheuttaa kirjainmuotojen säröytymistä)"
-
-#~ msgid "Cursor"
-#~ msgstr "Kursori"
-
-#~ msgid "Show/hide cursor on tablet devices"
-#~ msgstr "Näytä/piilota kursori tablet-laitteilla"
-
-#~ msgid "Don't show any warnings again for this file system"
-#~ msgstr "Älä näytä tätä tiedostojärjestelmää koskevia varoituksia jatkossa"
-
-#~ msgid "Don't show any warnings again"
-#~ msgstr "Älä näytä tätä varoitusta uudestaan"
-
-#~ msgid "The volume \"%s\" has only %s disk space remaining."
-#~ msgstr "Taltiolla ”%s” on vain %s levytilaa jäljellä."
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to another disk or partition."
-#~ msgstr ""
-#~ "Voit vapauttaa levytilaa tyhjentämällä roskakorin, poistamalla "
-#~ "käyttämättömiä ohjelmia ja tiedostoja tai siirtämällä tiedostoja toisille "
-#~ "levyille tai osioille."
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to another disk or partition."
-#~ msgstr ""
-#~ "Voit vapauttaa levytilaa poistamalla käyttämättömiä ohjelmia ja "
-#~ "tiedostoja tai siirtämällä tiedostoja toisille levyille tai osioille."
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to an external disk."
-#~ msgstr ""
-#~ "Voit vapauttaa levytilaa tyhjentämällä roskakorin, poistamalla "
-#~ "käyttämättömiä ohjelmia ja tiedostoja tai siirtämällä tiedostoja "
-#~ "ulkoiselle levylle."
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to an external disk."
-#~ msgstr ""
-#~ "Voit vapauttaa levytilaa poistamalla käyttämättömiä ohjelmia ja "
-#~ "tiedostoja tai siirtämällä tiedostoja ulkoiselle levylle."
-
-#~ msgid "Examine…"
-#~ msgstr "Tutki..."
-
-#~ msgid "Printer removed"
-#~ msgstr "Tulostin poistettu"
-
-#~ msgid "Tablet %s needs to be calibrated."
-#~ msgstr "Piirtopöytä %s pitää kalibroida."
-
-#~ msgid "Calibration needed"
-#~ msgstr "Kalibrointi vaaditaan"
-
-#~ msgid "Calibrate"
-#~ msgstr "Kalibroi"
-
-#~ msgid "Disable touchpad while typing"
-#~ msgstr "Poista kosketuslevy käytöstä kirjoitettaessa"
-
-#~ msgid ""
-#~ "Set this to TRUE if you have problems with accidentally hitting the "
-#~ "touchpad while typing."
-#~ msgstr ""
-#~ "Aseta tämä todeksi jos sinulla on ongelmia osuessasi vahingossa "
-#~ "kosketuslevyyn kirjoitettaessa."
-
-#~ msgid "Enable horizontal scrolling"
-#~ msgstr "Käytä vaakasuuntaista vieritystä"
-
-#~ msgid ""
-#~ "Set this to TRUE to allow horizontal scrolling by the same method "
-#~ "selected with the scroll_method key."
-#~ msgstr ""
-#~ "Aseta tämä todeksi salliaksesi vaakasuuntaisen vierityksen samalla tavoin "
-#~ "kuin on valittu avaimella scroll_method."
-
-#~ msgid "Select the touchpad scroll method"
-#~ msgstr "Valitse kosketuslevyn vieritystapa"
-
-#~ msgid ""
-#~ "Select the touchpad scroll method. Supported values are: \"disabled\", "
-#~ "\"edge-scrolling\", \"two-finger-scrolling\"."
-#~ msgstr ""
-#~ "Valitse kosketusalustan vieritystila. Tuetut arvot ovat: \"disabled"
-#~ "\" (poissa käytöstä), \"edge-scrolling\" (reunavieritys), \"two-finger-"
-#~ "scrolling\" (kahden sormen vieritys)."
-
-#~ msgid "Enable mouse clicks with touchpad"
-#~ msgstr "Ota käyttöön hiiren napsautukset kosketuslevyllä"
-
-#~ msgid ""
-#~ "Set this to TRUE to be able to send mouse clicks by tapping on the "
-#~ "touchpad."
-#~ msgstr ""
-#~ "Aseta tämä todeksi jos haluat lähettää hiiren napsautuksia kosketuslevyä "
-#~ "napauttamalla."
-
-#~ msgid "Enable touchpad"
-#~ msgstr "Ota kosketuslevy käyttöön"
-
-#~ msgid "Set this to TRUE to enable all touchpads."
-#~ msgstr "Aseta tämä todeksi jos haluat ottaa kaikki kosketuslevyt käyttöön."
-
-#~ msgid "Middle button emulation"
-#~ msgstr "Rullan painalluksen simulointi"
-
-#~ msgid ""
-#~ "Enables middle mouse button emulation through simultaneous left and right "
-#~ "button click."
-#~ msgstr ""
-#~ "Jos käytössä, hiiren vasemman ja oikean painikkeen samanaikainen "
-#~ "painallus simuloi hiiren rullan painamista."
