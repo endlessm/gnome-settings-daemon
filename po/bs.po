@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-28 03:31+0000\n"
-"PO-Revision-Date: 2016-10-04 23:12+0000\n"
-"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"POT-Creation-Date: 2017-05-30 21:32-0700\n"
+"PO-Revision-Date: 2017-05-31 04:40+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Bosnian (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/bs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -962,27 +962,27 @@ msgstr "Tastatura"
 msgid "Keyboard plugin"
 msgstr "Dodatak za tastaturu"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2178
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2237
 msgid "Bluetooth disabled"
 msgstr ""
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2181
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2240
 msgid "Bluetooth enabled"
 msgstr ""
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2185
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2244
 msgid "Airplane mode enabled"
 msgstr ""
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2188
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2247
 msgid "Airplane mode disabled"
 msgstr ""
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2216
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2275
 msgid "Hardware Airplane Mode"
 msgstr ""
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2276
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2335
 msgid "Screencast from %d %t.webm"
 msgstr "Hvatanje zaslona za %d %t.webm"
 
@@ -1073,6 +1073,10 @@ msgstr "Tiho pojačavanje zvuka"
 #: ../plugins/media-keys/shortcuts-list.h:65
 msgid "Lock Screen"
 msgstr "Zaključaj ekran"
+
+#: ../plugins/media-keys/shortcuts-list.h:67
+msgid "Help"
+msgstr ""
 
 #: ../plugins/media-keys/shortcuts-list.h:81
 msgid "Rewind"
@@ -1499,33 +1503,33 @@ msgid "Lid has been closed"
 msgstr "Poklopac se zatvorio"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1856
+#: ../plugins/power/gsd-power-manager.c:1848
 msgid "On battery power"
 msgstr "Napajanje sa baterije"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1861
+#: ../plugins/power/gsd-power-manager.c:1853
 msgid "On AC power"
 msgstr "Napajanje sa mreže"
 
-#: ../plugins/power/gsd-power-manager.c:2053
+#: ../plugins/power/gsd-power-manager.c:2045
 msgid "Automatic logout"
 msgstr "Samostalno odjavljivanje"
 
-#: ../plugins/power/gsd-power-manager.c:2053
+#: ../plugins/power/gsd-power-manager.c:2045
 msgid "You will soon log out because of inactivity."
 msgstr "Uskoro ćete biti odjavljeni zbog neaktivnosti."
 
-#: ../plugins/power/gsd-power-manager.c:2058
+#: ../plugins/power/gsd-power-manager.c:2050
 msgid "Automatic suspend"
 msgstr "Samostalno obustavljanje"
 
-#: ../plugins/power/gsd-power-manager.c:2058
-#: ../plugins/power/gsd-power-manager.c:2063
+#: ../plugins/power/gsd-power-manager.c:2050
+#: ../plugins/power/gsd-power-manager.c:2055
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "Računar će ubrzo obustaviti rad zbog neaktivnosti."
 
-#: ../plugins/power/gsd-power-manager.c:2063
+#: ../plugins/power/gsd-power-manager.c:2055
 msgid "Automatic hibernation"
 msgstr "Automatska hibernacija"
 
@@ -1889,86 +1893,86 @@ msgid "Done"
 msgstr "Završeno"
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1028
+#: ../plugins/wacom/gsd-wacom-device.c:1031
 msgid "Left Ring"
 msgstr "Lijevi prsten"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1039
+#: ../plugins/wacom/gsd-wacom-device.c:1042
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "Režim lijevog prstena #%d"
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1059
+#: ../plugins/wacom/gsd-wacom-device.c:1062
 msgid "Right Ring"
 msgstr "Desni prsten"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1070
+#: ../plugins/wacom/gsd-wacom-device.c:1073
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "Režim desnog prstena #%d"
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1112
+#: ../plugins/wacom/gsd-wacom-device.c:1115
 msgid "Left Touchstrip"
 msgstr "Lijeva dodirna traka"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1123
+#: ../plugins/wacom/gsd-wacom-device.c:1126
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "Režim lijeve dodirne trake #%d"
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1143
+#: ../plugins/wacom/gsd-wacom-device.c:1146
 msgid "Right Touchstrip"
 msgstr "Desna dodirna traka"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1154
+#: ../plugins/wacom/gsd-wacom-device.c:1157
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "Režim desne dodirne trake #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1180
+#: ../plugins/wacom/gsd-wacom-device.c:1183
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "Režim prekidača lijevog dodirnog prstena"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1182
+#: ../plugins/wacom/gsd-wacom-device.c:1185
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "Režim prekidača desnog dodirnog prstena"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1185
+#: ../plugins/wacom/gsd-wacom-device.c:1188
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "Režim prekidača lijeve dodirne trake"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1187
+#: ../plugins/wacom/gsd-wacom-device.c:1190
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "Režim prekidača desne dodirne trake"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1192
+#: ../plugins/wacom/gsd-wacom-device.c:1195
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "Režim prekidača #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1238
+#: ../plugins/wacom/gsd-wacom-device.c:1241
 #, c-format
 msgid "Left Button #%d"
 msgstr "Lijevo dugme #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1241
+#: ../plugins/wacom/gsd-wacom-device.c:1244
 #, c-format
 msgid "Right Button #%d"
 msgstr "Desno dugme #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1244
+#: ../plugins/wacom/gsd-wacom-device.c:1247
 #, c-format
 msgid "Top Button #%d"
 msgstr "Gornje dugme #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1247
+#: ../plugins/wacom/gsd-wacom-device.c:1250
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "Donje dugme #%d"
@@ -1977,16 +1981,16 @@ msgstr "Donje dugme #%d"
 msgid "New shortcut…"
 msgstr "Novi prečica…"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1037
+#: ../plugins/wacom/gsd-wacom-manager.c:1042
 #, c-format
 msgid "The \"%s\" tablet may not work as expected."
 msgstr "\"%s\" bilježnik možda neće raditi kao što je očekivano."
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1038
+#: ../plugins/wacom/gsd-wacom-manager.c:1043
 msgid "Unknown Tablet Connected"
 msgstr "Nepoznati bilježnik povezan"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1042
+#: ../plugins/wacom/gsd-wacom-manager.c:1047
 msgid "Wacom Settings"
 msgstr "Wacom postavke"
 

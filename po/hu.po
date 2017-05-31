@@ -16,9 +16,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-28 03:31+0000\n"
-"PO-Revision-Date: 2016-10-04 23:14+0000\n"
-"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"POT-Creation-Date: 2017-05-30 21:32-0700\n"
+"PO-Revision-Date: 2017-05-31 04:43+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -969,27 +969,27 @@ msgstr "Billentyűzet"
 msgid "Keyboard plugin"
 msgstr "Billentyűzet bővítmény"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2178
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2237
 msgid "Bluetooth disabled"
 msgstr "Bluetooth letiltva"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2181
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2240
 msgid "Bluetooth enabled"
 msgstr "Bluetooth engedélyezve"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2185
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2244
 msgid "Airplane mode enabled"
 msgstr "Repülőgép üzemmód engedélyezve"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2188
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2247
 msgid "Airplane mode disabled"
 msgstr "Repülőgép üzemmód letiltva"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2216
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2275
 msgid "Hardware Airplane Mode"
 msgstr "Hardveres repülőgépmód"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2276
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2335
 msgid "Screencast from %d %t.webm"
 msgstr "Képernyővideó ekkor: %d %t.webm"
 
@@ -1078,6 +1078,10 @@ msgstr "Alacsony hangerő hangosítása"
 #: ../plugins/media-keys/shortcuts-list.h:65
 msgid "Lock Screen"
 msgstr "Képernyő zárolása"
+
+#: ../plugins/media-keys/shortcuts-list.h:67
+msgid "Help"
+msgstr "Súgó"
 
 #: ../plugins/media-keys/shortcuts-list.h:81
 msgid "Rewind"
@@ -1500,33 +1504,33 @@ msgid "Lid has been closed"
 msgstr "Fedél lezárva"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1856
+#: ../plugins/power/gsd-power-manager.c:1848
 msgid "On battery power"
 msgstr "Akkumulátoron"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1861
+#: ../plugins/power/gsd-power-manager.c:1853
 msgid "On AC power"
 msgstr "Hálózaton"
 
-#: ../plugins/power/gsd-power-manager.c:2053
+#: ../plugins/power/gsd-power-manager.c:2045
 msgid "Automatic logout"
 msgstr "Automatikus kijelentkezés"
 
-#: ../plugins/power/gsd-power-manager.c:2053
+#: ../plugins/power/gsd-power-manager.c:2045
 msgid "You will soon log out because of inactivity."
 msgstr "Hamarosan kijelentkezik inaktivitás miatt."
 
-#: ../plugins/power/gsd-power-manager.c:2058
+#: ../plugins/power/gsd-power-manager.c:2050
 msgid "Automatic suspend"
 msgstr "Automatikus felfüggesztés"
 
-#: ../plugins/power/gsd-power-manager.c:2058
-#: ../plugins/power/gsd-power-manager.c:2063
+#: ../plugins/power/gsd-power-manager.c:2050
+#: ../plugins/power/gsd-power-manager.c:2055
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "A számítógép inaktivitás miatt hamarosan fel lesz függesztve."
 
-#: ../plugins/power/gsd-power-manager.c:2063
+#: ../plugins/power/gsd-power-manager.c:2055
 msgid "Automatic hibernation"
 msgstr "Automatikus hibernálás"
 
@@ -1890,86 +1894,86 @@ msgid "Done"
 msgstr "Kész"
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1028
+#: ../plugins/wacom/gsd-wacom-device.c:1031
 msgid "Left Ring"
 msgstr "Bal gyűrű"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1039
+#: ../plugins/wacom/gsd-wacom-device.c:1042
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "Bal gyűrű %d. módja "
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1059
+#: ../plugins/wacom/gsd-wacom-device.c:1062
 msgid "Right Ring"
 msgstr "Jobb gyűrű"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1070
+#: ../plugins/wacom/gsd-wacom-device.c:1073
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "Jobb gyűrű %d. módja "
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1112
+#: ../plugins/wacom/gsd-wacom-device.c:1115
 msgid "Left Touchstrip"
 msgstr "Bal érintősáv"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1123
+#: ../plugins/wacom/gsd-wacom-device.c:1126
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "Bal érintősáv %d. módja"
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1143
+#: ../plugins/wacom/gsd-wacom-device.c:1146
 msgid "Right Touchstrip"
 msgstr "Jobb érintősáv"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1154
+#: ../plugins/wacom/gsd-wacom-device.c:1157
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "Jobb érintősáv %d. módja"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1180
+#: ../plugins/wacom/gsd-wacom-device.c:1183
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "Bal érintőgyűrű módkapcsolója"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1182
+#: ../plugins/wacom/gsd-wacom-device.c:1185
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "Jobb érintőgyűrű módkapcsolója"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1185
+#: ../plugins/wacom/gsd-wacom-device.c:1188
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "Bal érintősáv módkapcsolója"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1187
+#: ../plugins/wacom/gsd-wacom-device.c:1190
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "Jobb érintősáv módkapcsolója"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1192
+#: ../plugins/wacom/gsd-wacom-device.c:1195
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "%d. módkapcsoló"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1238
+#: ../plugins/wacom/gsd-wacom-device.c:1241
 #, c-format
 msgid "Left Button #%d"
 msgstr "%d. bal gomb"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1241
+#: ../plugins/wacom/gsd-wacom-device.c:1244
 #, c-format
 msgid "Right Button #%d"
 msgstr "%d. jobb gomb"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1244
+#: ../plugins/wacom/gsd-wacom-device.c:1247
 #, c-format
 msgid "Top Button #%d"
 msgstr "%d. felső gomb"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1247
+#: ../plugins/wacom/gsd-wacom-device.c:1250
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "%d. alsó gomb"
@@ -1978,16 +1982,16 @@ msgstr "%d. alsó gomb"
 msgid "New shortcut…"
 msgstr "Új gyorsbillentyű…"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1037
+#: ../plugins/wacom/gsd-wacom-manager.c:1042
 #, c-format
 msgid "The \"%s\" tablet may not work as expected."
 msgstr "A(z) „%s” táblagép nem biztos, hogy a várt módon működik majd."
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1038
+#: ../plugins/wacom/gsd-wacom-manager.c:1043
 msgid "Unknown Tablet Connected"
 msgstr "Ismeretlen táblagép csatlakoztatva"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1042
+#: ../plugins/wacom/gsd-wacom-manager.c:1047
 msgid "Wacom Settings"
 msgstr "Wacom beállítások"
 

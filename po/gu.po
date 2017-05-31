@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-28 03:31+0000\n"
-"PO-Revision-Date: 2016-10-04 23:24+0000\n"
-"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"POT-Creation-Date: 2017-05-30 21:32-0700\n"
+"PO-Revision-Date: 2017-05-31 04:41+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Gujarati (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/gu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -961,27 +961,27 @@ msgstr "કિબોર્ડ"
 msgid "Keyboard plugin"
 msgstr "કીબોર્ડ પ્લગઇન"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2178
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2237
 msgid "Bluetooth disabled"
 msgstr "બ્લુટુથ નિષ્ક્રિય"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2181
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2240
 msgid "Bluetooth enabled"
 msgstr "સક્રિય બ્લુટુથ"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2185
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2244
 msgid "Airplane mode enabled"
 msgstr "વિમાન સ્થિતિ સક્રિય"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2188
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2247
 msgid "Airplane mode disabled"
 msgstr "વિમાન સ્થિતિ નિષ્ક્રિય"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2216
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2275
 msgid "Hardware Airplane Mode"
 msgstr "હાર્ડવેરની વિમાન સ્થિતિ"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2276
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2335
 msgid "Screencast from %d %t.webm"
 msgstr "%d %t.webm માંથી સ્ક્રીનકાસ્ટ"
 
@@ -1070,6 +1070,10 @@ msgstr "થોડો વોલ્યુમ વધારે"
 #: ../plugins/media-keys/shortcuts-list.h:65
 msgid "Lock Screen"
 msgstr "સ્ક્રીનને તાળુ મારો"
+
+#: ../plugins/media-keys/shortcuts-list.h:67
+msgid "Help"
+msgstr "મદદ"
 
 #: ../plugins/media-keys/shortcuts-list.h:81
 msgid "Rewind"
@@ -1492,33 +1496,33 @@ msgid "Lid has been closed"
 msgstr "ઢાંકણ બંધ કરી દેવામાં આવ્યુ છે"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1856
+#: ../plugins/power/gsd-power-manager.c:1848
 msgid "On battery power"
 msgstr "બેટરી પાવર પર"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1861
+#: ../plugins/power/gsd-power-manager.c:1853
 msgid "On AC power"
 msgstr "AC પાવર પર"
 
-#: ../plugins/power/gsd-power-manager.c:2053
+#: ../plugins/power/gsd-power-manager.c:2045
 msgid "Automatic logout"
 msgstr "આપોઆપ બહાર નીકળો"
 
-#: ../plugins/power/gsd-power-manager.c:2053
+#: ../plugins/power/gsd-power-manager.c:2045
 msgid "You will soon log out because of inactivity."
 msgstr "તમે અપ્રવૃત્તિને કારણે ઝલ્દી બહાર નીકળશો."
 
-#: ../plugins/power/gsd-power-manager.c:2058
+#: ../plugins/power/gsd-power-manager.c:2050
 msgid "Automatic suspend"
 msgstr "આપમેળે સ્થગિત"
 
-#: ../plugins/power/gsd-power-manager.c:2058
-#: ../plugins/power/gsd-power-manager.c:2063
+#: ../plugins/power/gsd-power-manager.c:2050
+#: ../plugins/power/gsd-power-manager.c:2055
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "કમ્પ્યૂટર અપ્રવૃત્તિને કારણે ઝલ્દી સ્થગિત થઇ જશે."
 
-#: ../plugins/power/gsd-power-manager.c:2063
+#: ../plugins/power/gsd-power-manager.c:2055
 msgid "Automatic hibernation"
 msgstr "આપમેળે હાઇબરનેશન"
 
@@ -1882,86 +1886,86 @@ msgid "Done"
 msgstr "થઈ ગયું"
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1028
+#: ../plugins/wacom/gsd-wacom-device.c:1031
 msgid "Left Ring"
 msgstr "ડાબી રીંગ"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1039
+#: ../plugins/wacom/gsd-wacom-device.c:1042
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "ડાબી રીંગ સ્થિતિ #%d"
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1059
+#: ../plugins/wacom/gsd-wacom-device.c:1062
 msgid "Right Ring"
 msgstr "જમણી રીંગ"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1070
+#: ../plugins/wacom/gsd-wacom-device.c:1073
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "જમણી રીંગ સ્થિતિ #%d"
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1112
+#: ../plugins/wacom/gsd-wacom-device.c:1115
 msgid "Left Touchstrip"
 msgstr "ડાબુ ટચસ્ટ્રીપ"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1123
+#: ../plugins/wacom/gsd-wacom-device.c:1126
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "ડાબુ ટચસ્ટ્રીપ સ્થિતિ #%d"
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1143
+#: ../plugins/wacom/gsd-wacom-device.c:1146
 msgid "Right Touchstrip"
 msgstr "જમણી ટચસ્ટ્રીપ"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1154
+#: ../plugins/wacom/gsd-wacom-device.c:1157
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "જમણી ટચસ્ટ્રીપ સ્થિતિ #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1180
+#: ../plugins/wacom/gsd-wacom-device.c:1183
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "ડાબુ ટચરીંગ મોડ સ્વીચ"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1182
+#: ../plugins/wacom/gsd-wacom-device.c:1185
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "જમણી ટચરીંગ મોડ સ્વીચ"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1185
+#: ../plugins/wacom/gsd-wacom-device.c:1188
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "ડાબી ટચસ્ટ્રીપ મોડ સ્વીચ"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1187
+#: ../plugins/wacom/gsd-wacom-device.c:1190
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "જમણી ટચસ્ટ્રીપ મોડ સ્વીચ"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1192
+#: ../plugins/wacom/gsd-wacom-device.c:1195
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "મોડ સ્વીચ #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1238
+#: ../plugins/wacom/gsd-wacom-device.c:1241
 #, c-format
 msgid "Left Button #%d"
 msgstr "ડાબુ બટન #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1241
+#: ../plugins/wacom/gsd-wacom-device.c:1244
 #, c-format
 msgid "Right Button #%d"
 msgstr "જમણુ બટન #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1244
+#: ../plugins/wacom/gsd-wacom-device.c:1247
 #, c-format
 msgid "Top Button #%d"
 msgstr "ટોચનુ બટન #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1247
+#: ../plugins/wacom/gsd-wacom-device.c:1250
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "નીચેનું બટન #%d"
@@ -1970,16 +1974,16 @@ msgstr "નીચેનું બટન #%d"
 msgid "New shortcut…"
 msgstr "નવાં ટૂંકાણ..."
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1037
+#: ../plugins/wacom/gsd-wacom-manager.c:1042
 #, c-format
 msgid "The \"%s\" tablet may not work as expected."
 msgstr "\"%s\" ટૅબલેટ એ ઇચ્છા પ્રમાણે કામ કરી શકતુ નથી."
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1038
+#: ../plugins/wacom/gsd-wacom-manager.c:1043
 msgid "Unknown Tablet Connected"
 msgstr "અજ્ઞાત ટેબલેટ જોડાયેલ છે"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1042
+#: ../plugins/wacom/gsd-wacom-manager.c:1047
 msgid "Wacom Settings"
 msgstr "Wacom સુયોજનો"
 

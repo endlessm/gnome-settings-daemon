@@ -18,9 +18,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-28 03:31+0000\n"
-"PO-Revision-Date: 2016-08-31 21:39+0000\n"
-"Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
+"POT-Creation-Date: 2017-05-30 21:32-0700\n"
+"PO-Revision-Date: 2017-05-31 04:48+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -816,7 +816,7 @@ msgid ""
 "You just pressed two keys at once, or pressed the Shift key 5 times in a "
 "row.  This turns off the Sticky Keys feature, which affects the way your "
 "keyboard works."
-msgstr "Acabas de pulsar dos teclas a la vez, o has pulsado la tecla «Mayúsculas» 5 veces seguidas. Esto desactiva la característica de «Teclas persistentes», y modifica como funciona tu teclado."
+msgstr "Acaba de pulsar dos teclas a la vez, o ha pulsado la tecla «Mayúsculas» 5 veces seguidas. Esto desactiva la característica de «Teclas persistentes», lo cual afecta a la forma en que funciona su teclado."
 
 #: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:1
 msgid "Accessibility settings"
@@ -936,7 +936,7 @@ msgstr "Ignorar"
 #: ../plugins/housekeeping/gsd-disk-space.c:638
 #: ../plugins/housekeeping/gsd-disk-space.c:664
 msgid "Low Disk Space"
-msgstr "Poco espacio en disco"
+msgstr "Espacio de disco bajo"
 
 #: ../plugins/housekeeping/gsd-disk-space.c:639
 msgid ""
@@ -971,27 +971,27 @@ msgstr "Teclado"
 msgid "Keyboard plugin"
 msgstr "Complemento de teclado"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2178
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2237
 msgid "Bluetooth disabled"
 msgstr "Bluetooth desactivado"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2181
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2240
 msgid "Bluetooth enabled"
 msgstr "Bluetooth activado"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2185
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2244
 msgid "Airplane mode enabled"
 msgstr "Modo avión activado"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2188
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2247
 msgid "Airplane mode disabled"
 msgstr "Modo avión desactivado"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2216
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2275
 msgid "Hardware Airplane Mode"
 msgstr "Modo avión hardware"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2276
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2335
 msgid "Screencast from %d %t.webm"
 msgstr "Captura del escritorio de %d %t.webm"
 
@@ -1080,6 +1080,10 @@ msgstr "Subir volumen"
 #: ../plugins/media-keys/shortcuts-list.h:65
 msgid "Lock Screen"
 msgstr "Bloquear la pantalla"
+
+#: ../plugins/media-keys/shortcuts-list.h:67
+msgid "Help"
+msgstr "Ayuda"
 
 #: ../plugins/media-keys/shortcuts-list.h:81
 msgid "Rewind"
@@ -1502,33 +1506,33 @@ msgid "Lid has been closed"
 msgstr "La tapa se ha cerrado"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1856
+#: ../plugins/power/gsd-power-manager.c:1848
 msgid "On battery power"
 msgstr "Con batería"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1861
+#: ../plugins/power/gsd-power-manager.c:1853
 msgid "On AC power"
 msgstr "Con adaptador de corriente"
 
-#: ../plugins/power/gsd-power-manager.c:2053
+#: ../plugins/power/gsd-power-manager.c:2045
 msgid "Automatic logout"
 msgstr "Cierre de sesión automático"
 
-#: ../plugins/power/gsd-power-manager.c:2053
+#: ../plugins/power/gsd-power-manager.c:2045
 msgid "You will soon log out because of inactivity."
 msgstr "Pronto se cerrará su sesión por inactividad."
 
-#: ../plugins/power/gsd-power-manager.c:2058
+#: ../plugins/power/gsd-power-manager.c:2050
 msgid "Automatic suspend"
 msgstr "Suspensión automática"
 
-#: ../plugins/power/gsd-power-manager.c:2058
-#: ../plugins/power/gsd-power-manager.c:2063
+#: ../plugins/power/gsd-power-manager.c:2050
+#: ../plugins/power/gsd-power-manager.c:2055
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "El equipo se suspenderá pronto se cerrará su sesión por inactividad."
 
-#: ../plugins/power/gsd-power-manager.c:2063
+#: ../plugins/power/gsd-power-manager.c:2055
 msgid "Automatic hibernation"
 msgstr "Hibernación automática"
 
@@ -1892,86 +1896,86 @@ msgid "Done"
 msgstr "Hecho"
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1028
+#: ../plugins/wacom/gsd-wacom-device.c:1031
 msgid "Left Ring"
 msgstr "Anillo izquierdo"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1039
+#: ../plugins/wacom/gsd-wacom-device.c:1042
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "Modo del anillo izquierdo nº %d"
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1059
+#: ../plugins/wacom/gsd-wacom-device.c:1062
 msgid "Right Ring"
 msgstr "Anillo derecho"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1070
+#: ../plugins/wacom/gsd-wacom-device.c:1073
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "Modo del anillo derecho nº %d"
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1112
+#: ../plugins/wacom/gsd-wacom-device.c:1115
 msgid "Left Touchstrip"
 msgstr "Banda táctil izquierda"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1123
+#: ../plugins/wacom/gsd-wacom-device.c:1126
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "Modo de la banda táctil izquierda nº %d"
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1143
+#: ../plugins/wacom/gsd-wacom-device.c:1146
 msgid "Right Touchstrip"
 msgstr "Banda táctil derecha"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1154
+#: ../plugins/wacom/gsd-wacom-device.c:1157
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "Modo de la banda táctil derecha nº %d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1180
+#: ../plugins/wacom/gsd-wacom-device.c:1183
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "Modo de cambio del anillo táctil izquierdo"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1182
+#: ../plugins/wacom/gsd-wacom-device.c:1185
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "Modo de cambio del anillo táctil derecho"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1185
+#: ../plugins/wacom/gsd-wacom-device.c:1188
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "Modo de cambio de la banda táctil izquierda"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1187
+#: ../plugins/wacom/gsd-wacom-device.c:1190
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "Modo de cambio de la banda táctil derecha"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1192
+#: ../plugins/wacom/gsd-wacom-device.c:1195
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "Modo de cambio nº %d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1238
+#: ../plugins/wacom/gsd-wacom-device.c:1241
 #, c-format
 msgid "Left Button #%d"
 msgstr "Botón izquierdo nº %d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1241
+#: ../plugins/wacom/gsd-wacom-device.c:1244
 #, c-format
 msgid "Right Button #%d"
 msgstr "Botón derecho nº %d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1244
+#: ../plugins/wacom/gsd-wacom-device.c:1247
 #, c-format
 msgid "Top Button #%d"
 msgstr "Botón superior nº %d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1247
+#: ../plugins/wacom/gsd-wacom-device.c:1250
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "Botón inferior nº %d"
@@ -1980,16 +1984,16 @@ msgstr "Botón inferior nº %d"
 msgid "New shortcut…"
 msgstr "Atajo nuevo..."
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1037
+#: ../plugins/wacom/gsd-wacom-manager.c:1042
 #, c-format
 msgid "The \"%s\" tablet may not work as expected."
 msgstr "La tableta «%s» puede no funcionar como se espera."
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1038
+#: ../plugins/wacom/gsd-wacom-manager.c:1043
 msgid "Unknown Tablet Connected"
 msgstr "Tableta desconocida conectada"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1042
+#: ../plugins/wacom/gsd-wacom-manager.c:1047
 msgid "Wacom Settings"
 msgstr "Configuración de Wacom"
 
