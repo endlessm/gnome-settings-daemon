@@ -1,3 +1,79 @@
+gnome-settings-daemon (3.24.3-1) unstable; urgency=medium
+
+  [ Jeremy Bicha ]
+  * Release to unstable
+  * The gnome-settings-daemon binary has been replaced by individual
+    binaries for each of the plugins. Add Breaks for packages shipping
+    gnome-session sessions that need to be updated for this change.
+  * Drop color-Make-the-testcase-able-to-run-uninstalled.patch:
+    - Applied in new release
+
+  [ Laurent Bigonville ]
+  * New upstream release
+    - Do not add the "US" keyboard layout by default for new users. For some
+      reason, this keyboard was preferred over the system configured one on
+      the first login. (Closes: #859268)
+  * debian/rules: Make the tests non fatal on s390x and non-linux
+    architectures
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Sun, 06 Aug 2017 17:33:40 -0400
+
+gnome-settings-daemon (3.24.2-2) experimental; urgency=medium
+
+  * debian/control.in: Add a Breaks gnome-session << 3.24, g-s-d doesn't
+    provides gnome-settings-daemon.desktop file which prevent the "gnome"
+    session to start
+  * Drop debian/gnome-settings-daemon.links, the gnome-settings-daemon
+    executable is now gone, drop the symlink in /usr/bin as well
+
+ -- Laurent Bigonville <bigon@debian.org>  Thu, 06 Jul 2017 01:18:12 +0200
+
+gnome-settings-daemon (3.24.2-1) experimental; urgency=medium
+
+  * New upstream release.
+    - debian/control.in: Adjust the {build-}dependencies
+    - Drop d/p/media-keys-Fix-mmkeys-D-Bus-API-to-match-API-docs.patch:
+      applied upstream
+  * debian/control.in: Bump Standards-Version to 4.0.0 (no further changes)
+  * d/p/color-Make-the-testcase-able-to-run-uninstalled.patch: Fix the tests
+  * debian/gnome-settings-daemon.maintscript: Remove
+    /etc/xdg/autostart/gnome-settings-daemon.desktop during the upgrade
+  * debian/rules: Explicitly remove the .la files instead of ignoring them in
+    dh_install call
+
+ -- Laurent Bigonville <bigon@debian.org>  Wed, 05 Jul 2017 21:56:07 +0200
+
+gnome-settings-daemon (3.22.2-4) unstable; urgency=medium
+
+  * debian/control.in: Add udev to the build-dependencies to fix the tests
+    failures on s390x. (Closes: #867108)
+
+ -- Laurent Bigonville <bigon@debian.org>  Mon, 03 Jul 2017 22:32:27 +0200
+
+gnome-settings-daemon (3.22.2-3) unstable; urgency=medium
+
+  [ Jeremy Bicha ]
+  * debian/rules: Enable dh_auto_test
+  * debian/control.in:
+    - Build-depend on python-dbusmock, python-gi, xauth & xvfb for tests
+
+  [ Laurent Bigonville ]
+  * Remove debian/gnome-settings-daemon.gsettings-override to remember the
+    NumLock state between sessions by default (Closes: #649587)
+
+ -- Laurent Bigonville <bigon@debian.org>  Mon, 03 Jul 2017 20:46:56 +0200
+
+gnome-settings-daemon (3.22.2-2) unstable; urgency=medium
+
+  * Team upload
+  * d/p/media-keys-Fix-mmkeys-D-Bus-API-to-match-API-docs.patch:
+    Own the D-Bus name that the API documentation tells users of the
+    multimedia keys API they should use (org.gnome.SettingsDaemon.MediaKeys),
+    in addition to the D-Bus name that they actually use in practice
+    (org.gnome.SettingsDaemon). (Closes: #861111)
+
+ -- Simon McVittie <smcv@debian.org>  Mon, 24 Apr 2017 19:54:01 +0100
+
 gnome-settings-daemon (3.22.2-1) unstable; urgency=medium
 
   * New upstream release.
