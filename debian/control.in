@@ -26,7 +26,6 @@ Build-Depends: debhelper (>= 10),
                libcanberra-gtk3-dev,
                libcups2-dev,
                libpolkit-gobject-1-dev,
-               libpackagekit-glib2-dev (>= 0.8.1),
                libupower-glib-dev (>= 0.99.0),
                libgudev-1.0-dev [linux-any],
                libcolord-dev (>= 1.0.2),
@@ -55,7 +54,7 @@ Depends: ${shlibs:Depends},
          ${misc:Depends},
          libpam-systemd [!hurd-any !kfreebsd-any],
          gsettings-desktop-schemas (>= 3.23.3),
-         nautilus-data (>= 2.91.3-1)
+         mousetweaks
 Recommends: pulseaudio,
             iio-sensor-proxy
 Breaks: afterstep (<< 2.2.12-10.1~),
