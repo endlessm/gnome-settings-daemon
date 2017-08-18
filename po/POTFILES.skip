@@ -14,3 +14,17 @@ plugins/automount/gnome-fallback-mount-helper.desktop.in
 plugins/power/org.gnome.settings-daemon.plugins.power.policy.in
 plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in
 plugins/dummy/org.gnome.SettingsDaemon.Dummy.desktop.in
+
+# Workaround failures in make distcheck
+sub/data/org.gnome.settings-daemon.peripherals.gschema.xml.in
+sub/data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in
+sub/data/org.gnome.settings-daemon.plugins.color.gschema.xml.in
+sub/data/org.gnome.settings-daemon.plugins.gschema.xml.in
+sub/data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in
+sub/data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in
+sub/data/org.gnome.settings-daemon.plugins.power.gschema.xml.in
+sub/data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in
+sub/data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in
+sub/data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in
+sub/plugins/power/org.gnome.settings-daemon.plugins.power.policy.in
+sub/plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in
