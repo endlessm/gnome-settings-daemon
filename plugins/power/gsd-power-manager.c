@@ -1657,6 +1657,26 @@ clear_idle_watch (GnomeIdleMonitor *monitor,
         *id = 0;
 }
 
+/**
+ * Endless patch: If we're goign to auto-logout
+ * and this is a demo session, then don't show the
+ * warning
+ */
+static gboolean
+should_show_warning (GsdPowerActionType action_type)
+{
+        if (action_type == GSD_POWER_ACTION_LOGOUT) {
+                char *demo_mode_file = g_build_filename (g_get_user_config_dir (), "eos-demo-mode", NULL);
+                gboolean exists = g_file_test (demo_mode_file, G_FILE_TEST_EXISTS);
+
+                g_free (demo_mode_file);
+
+                return !exists;
+        }
+
+        return TRUE;
+}
+
 static void
 idle_configure (GsdPowerManager *manager)
 {
@@ -1743,11 +1763,13 @@ idle_configure (GsdPowerManager *manager)
                         if (timeout_sleep_warning < MINIMUM_IDLE_DIM_DELAY)
                                 timeout_sleep_warning = 0;
 
-                        g_debug ("setting up sleep warning callback %is", timeout_sleep_warning);
+                        if (should_show_warning (action_type)) {
+                                g_debug ("setting up sleep warning callback %is", timeout_sleep_warning);
 
-                        manager->priv->idle_sleep_warning_id = gnome_idle_monitor_add_idle_watch (manager->priv->idle_monitor,
-                                                                                                  timeout_sleep_warning * 1000,
-                                                                                                  idle_triggered_idle_cb, manager, NULL);
+                                manager->priv->idle_sleep_warning_id = gnome_idle_monitor_add_idle_watch (manager->priv->idle_monitor,
+                                                                                                          timeout_sleep_warning * 1000,
+                                                                                                          idle_triggered_idle_cb, manager, NULL);
+                        }
                 }
         }
 
