@@ -2098,6 +2098,9 @@ do_config_power_button_action (GsdMediaKeysManager *manager,
                                                                                              GSD_POWER_ACTION_INTERACTIVE,
                                         in_lock_screen);
                 break;
+        case GSD_POWER_BUTTON_ACTION_INTERACTIVE:
+                do_config_power_action (manager, GSD_POWER_ACTION_INTERACTIVE, in_lock_screen);
+                break;
         case GSD_POWER_BUTTON_ACTION_NOTHING:
                 /* do nothing */
                 break;
