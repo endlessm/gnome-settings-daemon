@@ -165,7 +165,7 @@ is_local_dest (const char  *name,
         }
 
         type = atoi (type_str);
-        is_remote = type & (CUPS_PRINTER_REMOTE | CUPS_PRINTER_IMPLICIT);
+        is_remote = type & (CUPS_PRINTER_REMOTE | CUPS_PRINTER_IMPLICIT | CUPS_PRINTER_DISCOVERED);
         g_free (type_str);
  out:
         return !is_remote;
