@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-30 21:32-0700\n"
-"PO-Revision-Date: 2017-09-23 23:02+0000\n"
-"Last-Translator: georgian balan <braila222@gmail.com>\n"
+"POT-Creation-Date: 2017-10-11 16:59-0700\n"
+"PO-Revision-Date: 2017-10-12 00:17+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,19 +20,15 @@ msgstr ""
 "Language: ro\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
-#: ../data/gnome-settings-daemon.desktop.in.in.h:1
-msgid "GNOME Settings Daemon"
-msgstr "Serviciul de configurări GNOME"
-
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:1
 msgid "Smartcard removal action"
 msgstr "Acțiune la scoaterea smartcardului"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:2
 msgid ""
-"Set this to one of \"none\", \"lock-screen\", or \"force-logout\". The "
-"action will get performed when the smartcard used for log in is removed."
-msgstr "Definiți această cheie la „none”, „lock_screen” sau „force_logout”. Acțiunea va fi efectuată când smartcardul utilizat la autentificare este scos."
+"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will"
+" get performed when the smartcard used for log in is removed."
+msgstr ""
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:3
 msgid ""
@@ -57,188 +53,124 @@ msgid "Distance before a drag is started."
 msgstr "Distanța până la începerea tragerii."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:8
-msgid "Whether the tablet's orientation is locked, or rotated automatically."
-msgstr "Dacă orientarea tabletei este blocată sau se rotește automat."
+msgid "Whether the tablet’s orientation is locked, or rotated automatically."
+msgstr ""
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.datetime.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.orientation.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:1
-msgid "Activation of this plugin"
-msgstr "Activarea acestui modul"
-
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.datetime.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.orientation.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:2
-msgid "Whether this plugin would be activated by gnome-settings-daemon or not"
-msgstr "Dacă acest modul va fi activat de către gnome-settings-daemon sau nu"
-
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.datetime.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:5
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:13
-#: ../data/org.gnome.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:29
-#: ../data/org.gnome.settings-daemon.plugins.orientation.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:5
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:7
-msgid "Priority to use for this plugin"
-msgstr "Prioritatea folosirii acestui modul"
-
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.datetime.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:6
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:14
-#: ../data/org.gnome.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:30
-#: ../data/org.gnome.settings-daemon.plugins.orientation.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:6
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:8
-msgid "Priority to use for this plugin in gnome-settings-daemon startup queue"
-msgstr "Prioritatea folosirii acestui modul în coada de pornire a gnome-settings-deamon"
-
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:5
 msgid "Wacom stylus absolute mode"
 msgstr "Stilus Wacom în mod absolut"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:6
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:2
 msgid "Enable this to set the tablet to absolute mode."
 msgstr "Activează această setare pentru a pune tableta pe modul absolut."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:7
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:3
 msgid "Wacom tablet area"
 msgstr "Suprafața tabletei Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:8
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:4
 msgid "Set this to x1, y1 and x2, y2 of the area usable by the tools."
 msgstr "Definiți această opțiune ca și x1,y1 și x2,y2 din suprafața utilizabilă de unelte."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:9
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:5
 msgid "Wacom tablet aspect ratio"
 msgstr "Aspect ratie tableta Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:10
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:6
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
 msgstr "Activați acest lucru pentru a limita suprafața tabletei Wacom pentru a se potrivi cu raportul de aspect al producției."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:11
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:7
 msgid "Wacom tablet rotation"
 msgstr "Rotația tabletei Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:12
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:8
 msgid ""
-"Set this to 'none', 'cw' for 90 degree clockwise, 'half' for 180 degree, and"
-" 'ccw' for 90 degree counterclockwise."
-msgstr "Definiți ca „none”, „cw” pentru rotire de 90 de grade în sens orar, „half” pentru rotire de 180 de grade sau „ccw” pentru rotire de 90 de grade în sens trigonometric."
+"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and"
+" “ccw” for 90 degree counterclockwise."
+msgstr ""
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:13
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:9
 msgid "Wacom touch feature"
 msgstr "Facilitate de atingere Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:14
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:10
 msgid "Enable this to move the cursor when the user touches the tablet."
 msgstr "Activați aceasta pentru a mișca cursorul când utilizatorul atinge tableta."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:15
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:11
 msgid "Wacom stylus pressure curve"
 msgstr "Curba de presiune a stilusului Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:16
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:12
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr "Definiți această opțiune ca și x1, y1 și x2, y2 reprezentând curba de presiune aplicată stilusului."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:17
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:13
 msgid "Wacom stylus button mapping"
 msgstr "Mapare butoanelor stilusului Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:18
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:14
 msgid "Set this to the logical button mapping."
 msgstr "Definiți această opțiune pentru mapare logică de butoane."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:19
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:15
 msgid "Wacom stylus pressure threshold"
 msgstr "Prag pentru presiunea stilusului Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:20
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:16
 msgid ""
 "Set this to the pressure value at which a stylus click event is generated."
 msgstr "Definiți această opțiune ca valoarea presiunii la care evenimentele de apăsare a stilusului sunt generate."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:21
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:17
 msgid "Wacom eraser pressure curve"
 msgstr "Curba de presiune a radierei Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:22
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:18
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr "Definiți această opțiune ca și x1, y1 și x2, y2 reprezentând curba de presiune aplicată radierei."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:23
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:19
 msgid "Wacom eraser button mapping"
 msgstr "Mapare butoanelor radierei Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:24
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:20
 msgid "Wacom eraser pressure threshold"
 msgstr "Prag pentru presiunea radierei Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:25
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:21
 msgid ""
 "Set this to the pressure value at which an eraser click event is generated."
 msgstr "Definiți această opțiune ca valoarea presiunii la care evenimentele de apăsare a radierei sunt generate."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:26
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:22
 msgid "Wacom button action type"
 msgstr "Tipul de actiune buton Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:27
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:23
 msgid "The type of action triggered by the button being pressed."
 msgstr "Tipul de actiune declansal de buton in timp ce este apasat."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:28
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:24
 msgid "Key combination for the custom action"
 msgstr "Combinația de taste pentru acțiunea personalizată"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:29
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:25
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
 msgstr "Comanda rapidă de tastatură generată atunci când butonul este apăsat pentru acțiuni personalizate."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:30
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:26
 msgid "Key combinations for a touchring or touchstrip custom action"
 msgstr "Combinații de taste pentru o acțiune personalizată a unui touchring sau TouchStrip"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:31
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:27
 msgid ""
 "The keyboard shortcuts generated when a touchring or touchstrip is used for "
 "custom actions (up followed by down)."
@@ -246,33 +178,94 @@ msgstr "Comenzile rapide de la tastatură generate atunci când un touchring sau
 
 #. Translators: This is the OLED display on an Intuos4 tablet:
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:34
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:30
 msgid "Button label for OLED display."
 msgstr "Eticheta buton pentru un afișaj OLED."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:35
+#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:31
 msgid "Label will be rendered to OLED display belonging to the button"
 msgstr "Eticheta va fi redata pentru ecran OLED aparținând butonului"
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:5
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:1
 msgid "The duration a display profile is valid"
 msgstr "Durata cât este valid un profil de ecran"
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:6
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:2
 msgid ""
 "This is the number of days after which the display color profile is "
 "considered invalid."
 msgstr "Acesta este numărul de zile după care profilul culorilor de ecran nu mai este considerat valid."
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:7
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:3
 msgid "The duration a printer profile is valid"
 msgstr "Durata cât este valid un profil de imprimantă"
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:8
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:4
 msgid ""
 "This is the number of days after which the printer color profile is "
 "considered invalid."
 msgstr "Acesta este numărul de zile după care profilul culorilor de imprimantă nu mai este considerat valid."
+
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:5
+msgid "If the night light mode is enabled"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:6
+msgid ""
+"Night light mode changes the color temperature of your display when the sun "
+"has gone down or at present times."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:7
+msgid "Temperature of the display when enabled"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:8
+msgid ""
+"This temperature in Kelvin is used to modify the screen tones when night "
+"light mode is enabled. Higher values are bluer, lower redder."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:9
+msgid "Use the sunrise and sunset"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:10
+msgid ""
+"Calculate the sunrise and sunset times automatically, from the current "
+"location."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:11
+msgid "The start time"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:12
+msgid ""
+"When “night-light-schedule-automatic” is disabled, use this start time in "
+"hours from midnight."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:13
+msgid "The end time"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:14
+msgid ""
+"When “night-light-schedule-automatic” is disabled, use this end time in "
+"hours from midnight."
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:15
+msgid "The last detected position"
+msgstr ""
+
+#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:16
+msgid ""
+"When location services are available this represents the last detected "
+"location. The default value is an invalid value to ensure it is always "
+"updated at startup."
+msgstr ""
 
 #: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:1
 msgid "List of plugins that are allowed to be loaded"
@@ -281,474 +274,452 @@ msgstr "Lista de plugin-uri care sunt permise pentru a fi încărcate"
 #: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:2
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
-"(default: 'all'). The plugins still need to be marked as active to get "
-"loaded. This is only evaluated on startup."
-msgstr "O listă de șiruri care reprezintă plugin-uri care sunt permise pentru a fi încărcate (implicit: \"toate\"). Plugin-urile încă mai trebuie să fie marcate ca fiind active pentru a fi  încărcate. Acest lucru este evaluat numai la pornire."
+"(default: “all”). This is only evaluated on startup."
+msgstr ""
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:3
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:1
 msgid "Mount paths to ignore"
 msgstr "Căi de montare de ignorat"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:4
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:2
 msgid "Specify a list of mount paths to ignore when they run low on space."
 msgstr "Specifică o listă de căi pentru montare ce vor fi ignorate atunci când mai au puțin spațiu liber."
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:5
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:3
 msgid "Free percentage notify threshold"
 msgstr "Prag pentru notificare procent liber"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:6
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:4
 msgid ""
 "Percentage free space threshold for initial warning of low disk space. If "
 "the percentage free space drops below this, a warning will be shown."
 msgstr "Procentul pragului de spațiu liber pentru avertizarea inițială de spațiu liber redus pe disc. Dacă procentul spațiului liber scade sub această valoare, se va afișa o avertizare."
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:7
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:5
 msgid "Subsequent free space percentage notify threshold"
 msgstr "Prag de notificare ulterioară pentru spațiul liber"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:8
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:6
 msgid ""
 "Specify the percentage that the free disk space should reduce by before "
 "issuing a subsequent warning."
 msgstr "Specifică procentajul de reducere a spațiului liber înainte de a trimite un o nouă avertizare."
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:9
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:7
 msgid "Free space notify threshold"
 msgstr "Prag de notificare pentru spațiul liber"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:10
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:8
 msgid ""
 "Specify an amount in GB. If the amount of free space is more than this, no "
 "warning will be shown."
 msgstr "Specifică o valoare în GB. Dacă spațiul liber este mai mare, nu se va afișa nicio avertizare."
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:11
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:9
 msgid "Minimum notify period for repeated warnings"
 msgstr "Perioada minimă de notificare pentru avertizările repetitive"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:12
+#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:10
 msgid ""
 "Specify a time in minutes. Subsequent warnings for a volume will not appear "
 "more often than this period."
 msgstr "Specifică un interval de timp în minute. Avertizări repetate pentru un volum nu vor apărea mai des decât acest interval."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:3
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:1
 msgid "Custom keybindings"
 msgstr "Asocieri personalizate"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:4
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:2
 msgid "List of custom keybindings"
 msgstr "Listă de asocieri de taste personalizate"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:5
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:3
 msgid "Launch calculator"
 msgstr "Lansare calculator"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:6
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:4
 msgid "Binding to launch the calculator."
 msgstr "Asociere pentru pornirea calculatorului."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:7
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:5
 msgid "Launch settings"
 msgstr "Setările de lansare"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:8
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:6
 msgid "Binding to launch GNOME settings."
 msgstr "Asociere pentru a lansa setările GNOME."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:9
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:7
 msgid "Launch email client"
 msgstr "Lansare client de mail"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:10
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:8
 msgid "Binding to launch the email client."
 msgstr "Asociere pentru pornirea clientului de email."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:11
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:9
 msgid "Eject"
 msgstr "Scoate"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:12
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:10
 msgid "Binding to eject an optical disc."
 msgstr "Asociere pentru scoatere disc optic."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:13
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:11
 msgid "Launch help browser"
 msgstr "Lansare fereastră de ajutor"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:14
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:12
 msgid "Binding to launch the help browser."
 msgstr "Asociere pentru pornirea programului de ajutor."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:15
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:13
 msgid "Home folder"
 msgstr "Dosar personal"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:16
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:14
 msgid "Binding to open the Home folder."
 msgstr "Asociere pentru deschiderea dosarului personal."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:17
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:15
 msgid "Launch media player"
 msgstr "Lansare player multimedia"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:18
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:16
 msgid "Binding to launch the media player."
 msgstr "Asociere pentru pornirea media player-ului."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:19
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:17
 msgid "Next track"
 msgstr "Piesa următoare"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:20
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:18
 msgid "Binding to skip to next track."
 msgstr "Asociere pentru salt la piesa următoare."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:21
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:19
 msgid "Pause playback"
 msgstr "Suspendă redarea"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:22
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:20
 msgid "Binding to pause playback."
 msgstr "Asociere pentru pauză redare."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:23
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:21
 msgid "Play (or play/pause)"
 msgstr "Redare (sau redare/pauză)"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:24
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:22
 msgid "Binding to start playback (or toggle play/pause)."
 msgstr "Asociere pentru pornire redare (sau comutare redare/pauză)."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:25
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:23
 msgid "Log out"
 msgstr "Închidere sesiune"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:26
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:24
 msgid "Binding to log out."
 msgstr "Asociere pentru ieșirea din sesiune."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:27
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:25
 msgid "Previous track"
 msgstr "Piesa precedentă"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:28
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:26
 msgid "Binding to skip to previous track."
 msgstr "Asociere pentru salt la piesa precedentă."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:31
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:27
 msgid "Lock screen"
 msgstr "Blocare ecran"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:32
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:28
 msgid "Binding to lock the screen."
 msgstr "Asociere pentru blocarea ecranului."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:33
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:29
 msgid "Search"
 msgstr "Căutare"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:34
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:30
 msgid "Binding to launch the search tool."
 msgstr "Asociere pentru pornirea uneltei de căutare."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:35
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:31
 msgid "Stop playback"
 msgstr "Oprire redare"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:36
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:32
 msgid "Binding to stop playback."
 msgstr "Asociere pentru oprire redare."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:37
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:33
 msgid "Volume down"
 msgstr "Volum micșorat"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:38
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:34
 msgid "Binding to lower the system volume."
 msgstr "Asociere pentru micșorarea volumului sistemului."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:39
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:35
 msgid "Volume mute"
 msgstr "Oprire sunet"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:40
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:36
 msgid "Binding to mute the system volume."
 msgstr "Asociere pentru oprirea sunetului sistemului."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:41
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:37
 msgid "Volume up"
 msgstr "Volum mărit"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:42
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:38
 msgid "Binding to raise the system volume."
 msgstr "Asociere pentru creșterea volumului sistemului."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:43
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:39
 msgid "Take a screenshot"
 msgstr "Capturează imaginea ecranului"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:44
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:40
 msgid "Binding to take a screenshot."
 msgstr "Asociere pentru a captura imaginea ecranului."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:45
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:41
 msgid "Take a screenshot of a window"
 msgstr "Capturează imaginea ferestrei"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:46
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:42
 msgid "Binding to take a screenshot of a window."
 msgstr "Asociere pentru a captura imaginea ferestrei."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:47
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:43
 msgid "Take a screenshot of an area"
 msgstr "Fă o captură de ecran a zonei"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:48
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:44
 msgid "Binding to take a screenshot of an area."
 msgstr "Asociere pentru a face o captură de ecran a zonei"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:49
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:45
 msgid "Copy a screenshot to clipboard"
 msgstr "Copiați o captură de ecran în clipboard"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:50
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:46
 msgid "Binding to copy a screenshot to clipboard."
 msgstr "Asociere pentru a copia o captură de ecran în clipboard"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:51
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:47
 msgid "Copy a screenshot of a window to clipboard"
 msgstr "Copiați o captură de ecran a unei ferestre în clipboard"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:52
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:48
 msgid "Binding to copy a screenshot of a window to clipboard."
 msgstr "Asociere pentru a copia o captură de ecran a unei ferestre în clipboard"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:53
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:49
 msgid "Copy a screenshot of an area to clipboard"
 msgstr "Copiați o captură de ecran a unei zone în clipboard"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:54
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:50
 msgid "Binding to copy a screenshot of an area to clipboard."
 msgstr "Asociere pentru a copia o captură de ecran a unei zone în clipboard"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:55
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:51
 msgid "Record a short video of the screen"
 msgstr "Înregistreaza un scurt video a ecranului"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:56
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:52
 msgid "Launch web browser"
 msgstr "Lansare navigator web"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:57
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:53
 msgid "Binding to launch the web browser."
 msgstr "Asociere pentru pornirea navigatorului Web."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:58
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:54
 msgid "Toggle magnifier"
 msgstr "Comută lupa"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:59
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:55
 msgid "Binding to show the screen magnifier"
 msgstr "Asociere pentru afișarea lupei"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:60
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:56
 msgid "Toggle screen reader"
 msgstr "Comută cititorul de ecran"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:61
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:57
 msgid "Binding to start the screen reader"
 msgstr "Asociere pentru pornirea cititorului de ecran"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:62
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:58
 msgid "Toggle on-screen keyboard"
 msgstr "Comută tastatura pe ecran"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:63
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:59
 msgid "Binding to show the on-screen keyboard"
 msgstr "Asociere pentru afișarea tastaturii pe ecran"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:64
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:60
 msgid "Increase text size"
 msgstr "Creștere dimensiune text"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:65
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:61
 msgid "Binding to increase the text size"
 msgstr "Asociere pentru creșterea dimensiunii textului"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:66
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:62
 msgid "Decrease text size"
 msgstr "Descreștere dimensiune text"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:67
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:63
 msgid "Binding to decrease the text size"
 msgstr "Asociere pentru descreșterea dimensiunii textului"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:68
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:64
 msgid "Toggle contrast"
 msgstr "Comută contrastul"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:69
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:65
 msgid "Binding to toggle the interface contrast"
 msgstr "Asociere pentru comutarea contrastului interfeței"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:70
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:66
 msgid "Magnifier zoom in"
 msgstr "Mărire cu lupa"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:71
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:67
 msgid "Binding for the magnifier to zoom in"
 msgstr "Asociere pentru a mări cu lupa"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:72
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:68
 msgid "Magnifier zoom out"
 msgstr "Micșorare cu lupa"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:73
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:69
 msgid "Binding for the magnifier to zoom out"
 msgstr "Asociere pentru a micșora cu lupa"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:74
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:70
 msgid "Name"
 msgstr "Nume"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:75
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:71
 msgid "Name of the custom binding"
 msgstr "Numele asocierii personalizate"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:76
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:72
 msgid "Binding"
 msgstr "Asociere"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:77
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:73
 msgid "Binding for the custom binding"
 msgstr "Asociere pentru o asociere personalizată"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:78
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:74
 msgid "Command"
 msgstr "Comandă"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:79
+#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:75
 msgid "Command to run when the binding is invoked"
 msgstr "Comandă de rulat când este invocată asocierea"
 
-#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:5
+#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:1
 msgid "On which connections the service is enabled"
 msgstr "Pe ce conexiuni  este activat serviciul"
 
-#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:6
+#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:2
 msgid ""
 "The list of NetworkManager connections (each one represented with its UUID) "
 "on which this service is enabled and started."
 msgstr "Lista de conexiuni NetworkManager (fiecare reprezentată cu UUID său) pe care este activat acest serviciu și a început."
 
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:3
+#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:1
 msgid "File for default configuration for RandR"
 msgstr "Fișierul de configurație implicit pentru RandR"
 
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:4
+#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:2
 msgid ""
 "The XRandR plugin will look for a default configuration in the file "
 "specified by this key. This is similar to the ~/.config/monitors.xml that "
-"normally gets stored in users' home directories. If a user does not have "
-"such a file, or has one that does not match the user's setup of monitors, "
+"normally gets stored in users’ home directories. If a user does not have "
+"such a file, or has one that does not match the user’s setup of monitors, "
 "then the file specified by this key will be used instead."
-msgstr "Modulul XRandR va căuta configurația implicită în fișierul specificat de această cheie. Este similar cu ~/.config/monitors.xml care în mod normal este stocat în dosarul personal al utilizatorului. Dacă un utilizator nu are un astfel de fișier, sau dacă acesta nu se potrivește cu configurația monitoarelor, se va utiliza fișierul specificat de această cheie."
+msgstr ""
 
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:7
+#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:3
 msgid "Whether to turn off specific monitors after boot"
 msgstr "Dacă să se oprească anumite monitoare după pornirea sistemului"
 
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:8
+#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:4
 msgid ""
-"'clone' will display the same thing on all monitors, 'dock' will switch off "
-"the internal monitor, 'do-nothing' will use the default Xorg behaviour "
-"(extend the desktop in recent versions). The default, 'follow-lid', will "
-"choose between 'do-nothing' and 'dock' depending on whether the lid is "
+"“clone” will display the same thing on all monitors, “dock” will switch off "
+"the internal monitor, “do-nothing” will use the default Xorg behaviour "
+"(extend the desktop in recent versions). The default, “follow-lid”, will "
+"choose between “do-nothing” and “dock” depending on whether the lid is "
 "(respectively) open or closed."
-msgstr "\"Clona\"  va afișa același lucru pe toate monitoarele, 'doc'  va opri monitorul intern, \"nu face nimic\", va utiliza comportamentul implicit Xorg (extindeți spațiul de lucru în versiunile recente). Valoarea implicită, \"urmați-capac\", va alege între \"nu face nimic\" și \"doc\", în cazul in care capacul este (respectiv), deschis sau închis."
+msgstr ""
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:1
 msgid "Antialiasing"
 msgstr "Antialiasing"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:4
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:2
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
-"\"none\" for no antialiasing, \"grayscale\" for standard grayscale "
-"antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
-msgstr "Tipul de antialiasing folosit la randarea fonturilor. Valori posibile sunt: „none” pentru dezactivare antialiasing, „grayscale” pentru antialiasing standard în nuanțe de gri și „rgba” pentru antialiasing pe subpixeli (doar pentru ecranele LCD)."
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing,"
+" and “rgba” for subpixel antialiasing (LCD screens only)."
+msgstr ""
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
 msgid "Hinting"
 msgstr "Hinting"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:6
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:4
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: "
-"\"none\" for no hinting and \"slight\" for fitting only to the Y-axis like "
-"Microsoft's ClearType, DirectWrite and Adobe's proprietary font rendering "
-"engine. Ignores native hinting within the font, generates hints "
-"algorithmically. Used on Ubuntu by default. Recommended. The meaning of "
-"\"medium\" and \"full\" depends on the font format (.ttf, .otf, .pfa/.pfb) "
-"and the installed version of FreeType. They usually try to fit glyphs to "
-"both the X and the Y axis (except for .otf: Y-only). This can lead to "
-"distortion and/or inconsistent rendering depending on the quality of the "
-"font, the font format and the state of FreeType's font engines."
-msgstr "Tipul de sugestie utilizat la interpretare fonturi. Valorile posibile sunt: ​​\"nici unul\" pentru nici o sugestie și \"ușoare\" pentru potrivirea numai pe axa Y cum ar fi Microsoft ClearType, DirectWrite și motorul de randare font de proprietate al Adobe. Ignoră sugestia nativa in fonturi, generează sugestii în mod algoritmic. Folosit pe Ubuntu în mod implicit. Recomandat. Sensul \"mediu\" și \"complet\" depinde de formatul de font (ttf, .otf, .pfa / fișier .pfb) și versiunea instalată a FreeType. Ei încearcă, de obicei, pentru a potrivi hieroglife atât X și axa Y (cu excepția .otf: Y-numai). Acest lucru poate duce la denaturarea și / sau de redare inconsistenta, în funcție de calitatea fontului, formatul fontului și starea motoarelor de fonturi FreeType."
+"The type of hinting to use when rendering fonts. Possible values are: “none”"
+" for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s"
+" ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"Ignores native hinting within the font, generates hints algorithmically. "
+"Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version"
+" of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
+"rendering depending on the quality of the font, the font format and the "
+"state of FreeType’s font engines."
+msgstr ""
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:9
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
 msgid "RGBA order"
 msgstr "Ordine RGBA"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:10
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:6
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing"
-" is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
-"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red"
-" on bottom."
-msgstr "Ordinea elementelor subpixeli dintr-un ecran LCD; folosit doar când antialiasing-ul este setat pe „rgba”. Valorile posibile sunt: „rgb” pentru roșu la stânga (cel mai comun), „bgr” pentru albastru la stânga, „vrgb” pentru roșu sus, „vbgr” pentru roșu jos."
+" is set to “rgba”. Possible values are: “rgb” for red on left (most common),"
+" “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
+msgstr ""
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:11
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:7
 msgid "List of explicitly disabled GTK+ modules"
 msgstr "Listă de module GTK+ dezactivate explicit"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:12
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:8
 msgid ""
 "A list of strings representing the GTK+ modules that will not be loaded, "
 "even if enabled by default in their configuration."
 msgstr "O listă de șiruri reprezentând modulele GTK+ ce nu vor fi încărcate, chiar dacă sunt activate implicit de către configurația lor."
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:13
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:9
 msgid "List of explicitly enabled GTK+ modules"
 msgstr "Listă de module GTK+ activate explicit"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:14
+#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:10
 msgid ""
 "A list of strings representing the GTK+ modules that will be loaded, usually"
 " in addition to conditional and forcibly disabled ones."
 msgstr "O listă de șiruri reprezentând modulele GTK+ ce vor fi încărcate, de obicei în adiție celor oprite condițional sau forțat."
-
-#: ../gnome-settings-daemon/main.c:53
-msgid "Enable debugging code"
-msgstr "Activează codul pentru depanare"
-
-#: ../gnome-settings-daemon/main.c:54
-msgid "Replace existing daemon"
-msgstr "Înlocuiți demon existent"
-
-#: ../gnome-settings-daemon/main.c:55
-msgid "Exit after a time (for debugging)"
-msgstr "Ieși după un timp (pentru depanare)"
-
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:1
-msgid "Accessibility Keyboard"
-msgstr "Accesibilitate tastatură"
-
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:2
-msgid "Accessibility keyboard plugin"
-msgstr "Modul accesibilitate tastatură"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:398
 msgid "Slow Keys Turned On"
@@ -810,32 +781,11 @@ msgid ""
 "keyboard works."
 msgstr "Ați apăsat două taste în același timp sau ați apăsat Shift de cinci ori la rând. Aceste acțiuni inactivează „Modificatorii persistenți” și schimbă modul de funcționare al tastaturii."
 
-#: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:1
-msgid "Accessibility settings"
-msgstr "Configurări de accesibilitate"
-
-#: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:2
-msgid "Accessibility settings plugin"
-msgstr "Modul pentru configurările de accesibilitate"
-
-#. Priority=100
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:2
-msgid "Clipboard"
-msgstr "Clipboard"
-
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:3
-msgid "Clipboard plugin"
-msgstr "Modul clipboard"
-
-#: ../plugins/color/color.gnome-settings-plugin.in.h:1
 #: ../plugins/color/gsd-color-calibrate.c:139
 msgid "Color"
 msgstr "Culoare"
 
-#: ../plugins/color/color.gnome-settings-plugin.in.h:2
-msgid "Color plugin"
-msgstr "Modul culoare"
-
+#. TRANSLATORS: button: this is to open GCM
 #: ../plugins/color/gsd-color-calibrate.c:144
 msgid "Recalibrate now"
 msgstr "Recalibrează acum"
@@ -848,14 +798,14 @@ msgstr "Este necesară recalibrarea"
 #. TRANSLATORS: this is when the display has not been recalibrated in a while
 #: ../plugins/color/gsd-color-calibrate.c:199
 #, c-format
-msgid "The display '%s' should be recalibrated soon."
-msgstr "Ecranul „%s” trebuie recalibrat în curând."
+msgid "The display “%s” should be recalibrated soon."
+msgstr ""
 
 #. TRANSLATORS: this is when the printer has not been recalibrated in a while
 #: ../plugins/color/gsd-color-calibrate.c:208
 #, c-format
-msgid "The printer '%s' should be recalibrated soon."
-msgstr "Imprimanta „%s” trebuie recalibrată în curând."
+msgid "The printer “%s” should be recalibrated soon."
+msgstr ""
 
 #. TRANSLATORS: this is the application name
 #: ../plugins/color/gsd-color-calibrate.c:346
@@ -872,15 +822,6 @@ msgstr "S-a adăugat un dispozitiv de calibrare a culorii"
 #: ../plugins/color/gsd-color-calibrate.c:364
 msgid "Color calibration device removed"
 msgstr "S-a eliminat un dispozitiv de calibrare a culorii"
-
-#. Priority=100
-#: ../plugins/datetime/datetime.gnome-settings-plugin.in.h:2
-msgid "Date and Time"
-msgstr "Data si Timp"
-
-#: ../plugins/datetime/datetime.gnome-settings-plugin.in.h:3
-msgid "Automatically update timezone"
-msgstr "Actualizeaza automat fus orar"
 
 #. Translators: UTC here means the Coordinated Universal Time.
 #. * %:::z will be replaced by the offset from UTC e.g. UTC+02
@@ -900,14 +841,6 @@ msgstr "Setari"
 #: ../plugins/datetime/gsd-datetime-manager.c:118
 msgid "Date & Time Settings"
 msgstr "Setari Data & Timp"
-
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:1
-msgid "Dummy"
-msgstr "Nimic"
-
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:2
-msgid "Dummy plugin"
-msgstr "Modul demonstrativ"
 
 #: ../plugins/housekeeping/gsd-disk-space.c:577
 msgid "Disk space"
@@ -945,45 +878,31 @@ msgid ""
 " delete apps you may not need from the App Center."
 msgstr "Calculatorul dumneavoastră are doar %s spațiu disponibil. Pentru a elibera spațiu, puteți șterge fișierele vechi și goli coșul de gunoi din \"Documente\" Managerul de fișiere sau șterge aplicații de care să nu aveti nevoie din Centrul de Aplicatii.."
 
-#: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:1
-msgid "Housekeeping"
-msgstr "Curatenie"
-
-#: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:2
-msgid ""
-"Automatically prunes thumbnail caches and other transient files, and warns "
-"about low disk space"
-msgstr "Face in mod automat cache-uri în miniatură ,curăță și alte fișiere tranzitorii, și avertizează spațiu despre disc redus"
-
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
-msgid "Keyboard"
-msgstr "Tastatura"
-
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:2
-msgid "Keyboard plugin"
-msgstr "Modul tastatură"
-
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2237
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2277
 msgid "Bluetooth disabled"
 msgstr "Bluetooth dezactivat"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2240
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2280
 msgid "Bluetooth enabled"
 msgstr "Bluetooth activat"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2244
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2284
 msgid "Airplane mode enabled"
 msgstr "Mod Avion activat"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2247
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2287
 msgid "Airplane mode disabled"
 msgstr "Mod Avion dezactivat"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2275
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2315
 msgid "Hardware Airplane Mode"
 msgstr "Mod Avion hardware"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2335
+#. Translators: this is a filename used for screencast
+#. * recording, where "%d" and "%t" date and time, e.g.
+#. * "Screencast from 07-17-2013 10:00:46 PM.webm"
+#: ../plugins/media-keys/gsd-media-keys-manager.c:2375
+#, no-c-format
 msgid "Screencast from %d %t.webm"
 msgstr "Screencast de la% d% t.webm"
 
@@ -1032,15 +951,6 @@ msgstr[2] "%u de intrări"
 #: ../plugins/media-keys/gvc/gvc-mixer-control.c:2738
 msgid "System Sounds"
 msgstr "Sunete de sistem"
-
-#. Priority=100
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:2
-msgid "Media keys"
-msgstr "Taste media"
-
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:3
-msgid "Media keys plugin"
-msgstr "Modul taste media"
 
 #: ../plugins/media-keys/shortcuts-list.h:45
 msgid "Touchpad toggle"
@@ -1154,37 +1064,20 @@ msgstr "Comutați luminozitate tastatura"
 msgid "Battery Status"
 msgstr "Starea bateriei"
 
-#: ../plugins/media-keys/shortcuts-list.h:111
-#: ../plugins/media-keys/shortcuts-list.h:112
+#: ../plugins/media-keys/shortcuts-list.h:113
+#: ../plugins/media-keys/shortcuts-list.h:114
 msgid "Toggle Airplane Mode"
 msgstr "Comutați mod avion"
 
-#: ../plugins/media-keys/shortcuts-list.h:113
+#: ../plugins/media-keys/shortcuts-list.h:115
 msgid "Toggle Bluetooth"
 msgstr "Comutați Bluetooth"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
-msgid "Mouse"
-msgstr "Mouse"
-
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:2
-msgid "Mouse plugin"
-msgstr "Modul maus"
-
-#. Priority=100
-#: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:2
-msgid "Orientation"
-msgstr "Orientare"
-
-#: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:3
-msgid "Orientation plugin"
-msgstr "Orientare modul"
-
-#: ../plugins/power/gpm-common.c:81
+#: ../plugins/power/gpm-common.c:100
 msgid "Unknown time"
 msgstr "Timp necunoscut"
 
-#: ../plugins/power/gpm-common.c:86
+#: ../plugins/power/gpm-common.c:105
 #, c-format
 msgid "%i minute"
 msgid_plural "%i minutes"
@@ -1192,7 +1085,7 @@ msgstr[0] "%i minut"
 msgstr[1] "%i minute"
 msgstr[2] "%i de minute"
 
-#: ../plugins/power/gpm-common.c:96
+#: ../plugins/power/gpm-common.c:115
 #, c-format
 msgid "%i hour"
 msgid_plural "%i hours"
@@ -1202,19 +1095,19 @@ msgstr[2] "%i de ore"
 
 #. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
 #. * Swap order with "%2$s %2$i %1$s %1$i if needed
-#: ../plugins/power/gpm-common.c:102
+#: ../plugins/power/gpm-common.c:121
 #, c-format
 msgid "%i %s %i %s"
 msgstr "%i %s %i %s"
 
-#: ../plugins/power/gpm-common.c:103
+#: ../plugins/power/gpm-common.c:122
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "oră"
 msgstr[1] "ore"
 msgstr[2] "ore"
 
-#: ../plugins/power/gpm-common.c:104
+#: ../plugins/power/gpm-common.c:123
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "minut"
@@ -1222,189 +1115,188 @@ msgstr[1] "minute"
 msgstr[2] "minute"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gpm-common.c:909 ../plugins/power/gsd-power-manager.c:681
-#: ../plugins/power/gsd-power-manager.c:778
+#: ../plugins/power/gpm-common.c:948 ../plugins/power/gsd-power-manager.c:688
+#: ../plugins/power/gsd-power-manager.c:785
 msgid "Battery is critically low"
 msgstr "Acumulatorul este la un nivel scăzut critic"
 
 #. TRANSLATORS: this is the notification application name
-#: ../plugins/power/gsd-power-manager.c:319
-#: ../plugins/power/power.gnome-settings-plugin.in.h:1
+#: ../plugins/power/gsd-power-manager.c:326
 msgid "Power"
 msgstr "Alimentare"
 
 #. TRANSLATORS: UPS is now discharging
-#: ../plugins/power/gsd-power-manager.c:351
+#: ../plugins/power/gsd-power-manager.c:358
 msgid "UPS Discharging"
 msgstr "UPS-ul se descarcă"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:356
+#: ../plugins/power/gsd-power-manager.c:363
 #, c-format
 msgid "%s of UPS backup power remaining"
 msgstr "A mai rămas %s din energia de rezervă a UPS-ului"
 
-#: ../plugins/power/gsd-power-manager.c:359
+#: ../plugins/power/gsd-power-manager.c:366
 msgid "Unknown amount of UPS backup power remaining"
 msgstr "Cantitate necunoscută de putere a rezervei UPS rămasă"
 
 #. TRANSLATORS: laptop battery low, and we only have one battery
-#: ../plugins/power/gsd-power-manager.c:434
+#: ../plugins/power/gsd-power-manager.c:441
 msgid "Battery low"
 msgstr "Acumulatorul este la un nivel scăzut"
 
 #. TRANSLATORS: laptop battery low, and we have more than one kind of battery
-#: ../plugins/power/gsd-power-manager.c:437
+#: ../plugins/power/gsd-power-manager.c:444
 msgid "Laptop battery low"
 msgstr "Acumulatorul laptopului este la un nivel scăzut"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:444
+#: ../plugins/power/gsd-power-manager.c:451
 #, c-format
 msgid "Approximately %s remaining (%.0f%%)"
 msgstr "Aproximativ %s ramas (%.0f%%)"
 
 #. TRANSLATORS: UPS is starting to get a little low
-#: ../plugins/power/gsd-power-manager.c:449
+#: ../plugins/power/gsd-power-manager.c:456
 msgid "UPS low"
 msgstr "UPS-ul este la un nivel scăzut"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:455
+#: ../plugins/power/gsd-power-manager.c:462
 #, c-format
 msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
 msgstr "Aproximativ %s ramas din putere de rezervă UPS (%.0f%%)"
 
 #. TRANSLATORS: mouse is getting a little low
 #. TRANSLATORS: the mouse battery is very low
-#: ../plugins/power/gsd-power-manager.c:460
-#: ../plugins/power/gsd-power-manager.c:594
+#: ../plugins/power/gsd-power-manager.c:467
+#: ../plugins/power/gsd-power-manager.c:601
 msgid "Mouse battery low"
 msgstr "Acumulatorul mausului este la un nivel scăzut"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:463
+#: ../plugins/power/gsd-power-manager.c:470
 #, c-format
 msgid "Wireless mouse is low in power (%.0f%%)"
 msgstr "Mausul fără fir mai are puțină energie (%.0f%%)"
 
 #. TRANSLATORS: keyboard is getting a little low
 #. TRANSLATORS: the keyboard battery is very low
-#: ../plugins/power/gsd-power-manager.c:467
-#: ../plugins/power/gsd-power-manager.c:602
+#: ../plugins/power/gsd-power-manager.c:474
+#: ../plugins/power/gsd-power-manager.c:609
 msgid "Keyboard battery low"
 msgstr "Acumulatorul tastaturii este la un nivel scăzut"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:470
+#: ../plugins/power/gsd-power-manager.c:477
 #, c-format
 msgid "Wireless keyboard is low in power (%.0f%%)"
 msgstr "Tastatura fără fir mai are puțină energie (%.0f%%)"
 
 #. TRANSLATORS: PDA is getting a little low
 #. TRANSLATORS: the PDA battery is very low
-#: ../plugins/power/gsd-power-manager.c:474
-#: ../plugins/power/gsd-power-manager.c:611
+#: ../plugins/power/gsd-power-manager.c:481
+#: ../plugins/power/gsd-power-manager.c:618
 msgid "PDA battery low"
 msgstr "Acumulatorul PDA-ului este la un nivel scăzut"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:477
+#: ../plugins/power/gsd-power-manager.c:484
 #, c-format
 msgid "PDA is low in power (%.0f%%)"
 msgstr "PDA-ul mai are puțină energie (%.0f%%)"
 
 #. TRANSLATORS: cell phone (mobile) is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:481
-#: ../plugins/power/gsd-power-manager.c:621
-#: ../plugins/power/gsd-power-manager.c:630
+#: ../plugins/power/gsd-power-manager.c:488
+#: ../plugins/power/gsd-power-manager.c:628
+#: ../plugins/power/gsd-power-manager.c:637
 msgid "Cell phone battery low"
 msgstr "Acumulatorul celularului este la un nivel scăzut"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:484
+#: ../plugins/power/gsd-power-manager.c:491
 #, c-format
 msgid "Cell phone is low in power (%.0f%%)"
 msgstr "Celularul mai are puțină energie (%.0f%%)"
 
 #. TRANSLATORS: media player, e.g. mp3 is getting a little low
-#: ../plugins/power/gsd-power-manager.c:488
+#: ../plugins/power/gsd-power-manager.c:495
 msgid "Media player battery low"
 msgstr "Acumulatorul dispozitivului de redare media este la un nivel scăzut"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:491
+#: ../plugins/power/gsd-power-manager.c:498
 #, c-format
 msgid "Media player is low in power (%.0f%%)"
 msgstr "Dispozitivul de redare media mai are puțină energie (%.0f%%)"
 
 #. TRANSLATORS: graphics tablet, e.g. wacom is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:495
-#: ../plugins/power/gsd-power-manager.c:639
+#: ../plugins/power/gsd-power-manager.c:502
+#: ../plugins/power/gsd-power-manager.c:646
 msgid "Tablet battery low"
 msgstr "Acumulatorul tabletei este la un nivel scăzut"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:498
+#: ../plugins/power/gsd-power-manager.c:505
 #, c-format
 msgid "Tablet is low in power (%.0f%%)"
 msgstr "Tableta mai are puțină energie (%.0f%%)"
 
 #. TRANSLATORS: computer, e.g. ipad is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:502
-#: ../plugins/power/gsd-power-manager.c:648
+#: ../plugins/power/gsd-power-manager.c:509
+#: ../plugins/power/gsd-power-manager.c:655
 msgid "Attached computer battery low"
 msgstr "Acumulatorul calculatorului atașat este la un nivel scăzut"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:505
+#: ../plugins/power/gsd-power-manager.c:512
 #, c-format
 msgid "Attached computer is low in power (%.0f%%)"
 msgstr "Calculatorul atașat mai are puțină energie (%.0f%%)"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:526
+#: ../plugins/power/gsd-power-manager.c:533
 msgid "Battery is low"
 msgstr "Acumulatorul este la un nivel scăzut"
 
 #. TRANSLATORS: laptop battery critically low, and only have one kind of
 #. battery
-#: ../plugins/power/gsd-power-manager.c:558
+#: ../plugins/power/gsd-power-manager.c:565
 msgid "Battery critically low"
 msgstr "Acumulatorul este la un nivel scăzut critic"
 
 #. TRANSLATORS: laptop battery critically low, and we have more than one type
 #. of battery
 #. TRANSLATORS: laptop battery is really, really, low
-#: ../plugins/power/gsd-power-manager.c:561
-#: ../plugins/power/gsd-power-manager.c:708
+#: ../plugins/power/gsd-power-manager.c:568
+#: ../plugins/power/gsd-power-manager.c:715
 msgid "Laptop battery critically low"
 msgstr "Acumulatorul laptopului este la un nivel scăzut critic"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:570
+#: ../plugins/power/gsd-power-manager.c:577
 #, c-format
 msgid "Computer will hibernate very soon unless it is plugged in."
 msgstr "Calculatorul va hiberna foarte curând dacă nu este alimentat."
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:574
+#: ../plugins/power/gsd-power-manager.c:581
 #, c-format
 msgid "Computer will shutdown very soon unless it is plugged in."
 msgstr "Calculatorul se va închide foarte curând dacă nu este alimentat."
 
 #. TRANSLATORS: the UPS is very low
 #. TRANSLATORS: UPS is really, really, low
-#: ../plugins/power/gsd-power-manager.c:582
-#: ../plugins/power/gsd-power-manager.c:733
+#: ../plugins/power/gsd-power-manager.c:589
+#: ../plugins/power/gsd-power-manager.c:740
 msgid "UPS critically low"
 msgstr "UPS-ul este la un nivel scăzut critic"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:588
+#: ../plugins/power/gsd-power-manager.c:595
 #, c-format
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
@@ -1412,7 +1304,7 @@ msgid ""
 msgstr "Aproximativ %s de energie rămasă a UPS (% .0f %%). Restabiliți alimentarea cu energie la computer, pentru a evita pierderea de date."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:597
+#: ../plugins/power/gsd-power-manager.c:604
 #, c-format
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
@@ -1420,7 +1312,7 @@ msgid ""
 msgstr "Mausul fără fir mai are foarte puțină energie (%.0f%%). Acest dispozitiv se va opri curând dacă nu este încărcat."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:605
+#: ../plugins/power/gsd-power-manager.c:612
 #, c-format
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
@@ -1428,7 +1320,7 @@ msgid ""
 msgstr "Tastatura fără fir mai are foarte puțină energie (%.0f%%). Acest dispozitiv se va opri curând dacă nu este încărcat."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:614
+#: ../plugins/power/gsd-power-manager.c:621
 #, c-format
 msgid ""
 "PDA is very low in power (%.0f%%). This device will soon stop functioning if"
@@ -1436,7 +1328,7 @@ msgid ""
 msgstr "PDA-ul mai are foarte puțină energie (%.0f%%). Acest dispozitiv se va opri curând dacă nu este încărcat."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:624
+#: ../plugins/power/gsd-power-manager.c:631
 #, c-format
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
@@ -1444,7 +1336,7 @@ msgid ""
 msgstr "Celularul mai are foarte puțină energie (%.0f%%). Acest dispozitiv se va opri curând dacă nu este încărcat."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:633
+#: ../plugins/power/gsd-power-manager.c:640
 #, c-format
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
@@ -1452,7 +1344,7 @@ msgid ""
 msgstr "Dispozitivul de redare media mai are foarte puțină energie (%.0f%%). Acest dispozitiv se va opri curând dacă nu este încărcat."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:642
+#: ../plugins/power/gsd-power-manager.c:649
 #, c-format
 msgid ""
 "Tablet is very low in power (%.0f%%). This device will soon stop functioning"
@@ -1460,7 +1352,7 @@ msgid ""
 msgstr "Tableta mai are foarte puțină energie (%.0f%%). Acest dispozitiv se va opri curând dacă nu este încărcat."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:651
+#: ../plugins/power/gsd-power-manager.c:658
 #, c-format
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
@@ -1468,69 +1360,69 @@ msgid ""
 msgstr "Calculatorul atașat mai are foarte puțină energie (%.0f%%). Dispozitivul se va opri curând dacă nu este încărcat."
 
 #. TRANSLATORS: computer will hibernate
-#: ../plugins/power/gsd-power-manager.c:716
+#: ../plugins/power/gsd-power-manager.c:723
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
 msgstr "Acumulatorul este sub nivelul critic și acest calculator este pe punctul de a hiberna."
 
 #. TRANSLATORS: computer will just shutdown
-#: ../plugins/power/gsd-power-manager.c:721
+#: ../plugins/power/gsd-power-manager.c:728
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "shutdown."
 msgstr "Acumulatorul este sub nivelul critic și acest calculator este pe punctul de a se închide."
 
 #. TRANSLATORS: computer will hibernate
-#: ../plugins/power/gsd-power-manager.c:741
+#: ../plugins/power/gsd-power-manager.c:748
 msgid ""
 "UPS is below the critical level and this computer is about to hibernate."
 msgstr "UPS-ul este sub nivelul critic și acest calculator este pe punctul de a hiberna."
 
 #. TRANSLATORS: computer will just shutdown
-#: ../plugins/power/gsd-power-manager.c:746
+#: ../plugins/power/gsd-power-manager.c:753
 msgid ""
 "UPS is below the critical level and this computer is about to shutdown."
 msgstr "UPS-ul este sub nivelul critic și acest calculator este pe punctul de a se închide."
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1259
+#: ../plugins/power/gsd-power-manager.c:1266
 msgid "Lid has been opened"
 msgstr "Capacul a fost deschis"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1297
+#: ../plugins/power/gsd-power-manager.c:1304
 msgid "Lid has been closed"
 msgstr "Capacul a fost închis"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1848
+#: ../plugins/power/gsd-power-manager.c:1930
 msgid "On battery power"
 msgstr "Alimentat de la baterie"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1853
+#: ../plugins/power/gsd-power-manager.c:1935
 msgid "On AC power"
 msgstr "Alimentat de la curent alternativ "
 
-#: ../plugins/power/gsd-power-manager.c:2045
+#: ../plugins/power/gsd-power-manager.c:2127
 msgid "Automatic logout"
 msgstr "Deconectare automata"
 
-#: ../plugins/power/gsd-power-manager.c:2045
+#: ../plugins/power/gsd-power-manager.c:2127
 msgid "You will soon log out because of inactivity."
 msgstr "Vei fi delogat in curant din lipsa activitatii."
 
-#: ../plugins/power/gsd-power-manager.c:2050
+#: ../plugins/power/gsd-power-manager.c:2132
 msgid "Automatic suspend"
 msgstr "Suspendare automata"
 
-#: ../plugins/power/gsd-power-manager.c:2050
-#: ../plugins/power/gsd-power-manager.c:2055
+#: ../plugins/power/gsd-power-manager.c:2132
+#: ../plugins/power/gsd-power-manager.c:2137
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "Computerul va fi suspendat in curand din cauza inactivitatii."
 
-#: ../plugins/power/gsd-power-manager.c:2055
+#: ../plugins/power/gsd-power-manager.c:2137
 msgid "Automatic hibernation"
 msgstr "Hibernare automata"
 
@@ -1545,10 +1437,6 @@ msgstr "Modifică luminozitatea laptopului"
 msgid "Authentication is required to modify the laptop brightness"
 msgstr "Autentificarea este obligatorie pentru a putea modifica luminozitatea laptopului"
 
-#: ../plugins/power/power.gnome-settings-plugin.in.h:2
-msgid "Power plugin"
-msgstr "Modul alimentare"
-
 #. Translators: We are configuring new printer
 #: ../plugins/print-notifications/gsd-printer.c:890
 msgid "Configuring new printer"
@@ -1556,8 +1444,8 @@ msgstr "Configurarea imprimantei noi"
 
 #. Translators: Just wait
 #: ../plugins/print-notifications/gsd-printer.c:892
-msgid "Please wait..."
-msgstr "Așteptați..."
+msgid "Please wait…"
+msgstr ""
 
 #. Translators: We have no driver installed for this printer
 #: ../plugins/print-notifications/gsd-printer.c:919
@@ -1586,82 +1474,82 @@ msgstr "Imprimante"
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:350
 #, c-format
-msgid "Printer '%s' is low on toner."
-msgstr "Imprimanta „%s” are puțin toner."
+msgid "Printer “%s” is low on toner."
+msgstr ""
 
 #. Translators: The printer has no toner left (same as in system-config-
 #. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:354
 #, c-format
-msgid "Printer '%s' has no toner left."
-msgstr "Imprimanta „%s” nu mai are toner."
+msgid "Printer “%s” has no toner left."
+msgstr ""
 
 #. Translators: The printer is in the process of connecting to a shared
 #. network output device (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:358
 #, c-format
-msgid "Printer '%s' may not be connected."
-msgstr "S-ar putea ca imprimanta „%s” să nu fie conectată."
+msgid "Printer “%s” may not be connected."
+msgstr ""
 
 #. Translators: One or more covers on the printer are open (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:362
 #, c-format
-msgid "The cover is open on printer '%s'."
-msgstr "Capacul imprimantei „%s” este deschis."
+msgid "The cover is open on printer “%s”."
+msgstr ""
 
 #. Translators: A filter or backend is not installed (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:366
 #, c-format
-msgid "There is a missing print filter for printer '%s'."
-msgstr "Lipsește un filtru de tipărire pentru imprimanta „%s”."
+msgid "There is a missing print filter for printer “%s”."
+msgstr ""
 
 #. Translators: One or more doors on the printer are open (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:371
 #, c-format
-msgid "The door is open on printer '%s'."
-msgstr "Ușa imprimantei „%s” este deschisă."
+msgid "The door is open on printer “%s”."
+msgstr ""
 
 #. Translators: "marker" is one color bin of the printer
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:375
 #, c-format
-msgid "Printer '%s' is low on a marker supply."
-msgstr "Imprimanta „%s” are un recipient de culoare la un nivel scăzut."
+msgid "Printer “%s” is low on a marker supply."
+msgstr ""
 
 #. Translators: "marker" is one color bin of the printer
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:379
 #, c-format
-msgid "Printer '%s' is out of a marker supply."
-msgstr "Imprimanta „%s” are un recipient de culoare epuizat."
+msgid "Printer “%s” is out of a marker supply."
+msgstr ""
 
 #. Translators: At least one input tray is low on media (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:383
 #, c-format
-msgid "Printer '%s' is low on paper."
-msgstr "Imprimanta „%s” are puțină hârtie."
+msgid "Printer “%s” is low on paper."
+msgstr ""
 
 #. Translators: At least one input tray is empty (same as in system-config-
 #. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:387
 #, c-format
-msgid "Printer '%s' is out of paper."
-msgstr "Imprimanta „%s” nu mai are hârtie."
+msgid "Printer “%s” is out of paper."
+msgstr ""
 
 #. Translators: The printer is offline (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:391
 #, c-format
-msgid "Printer '%s' is currently off-line."
-msgstr "Imprimanta „%s” este în deconectată de la rețea."
+msgid "Printer “%s” is currently off-line."
+msgstr ""
 
 #. Translators: The printer has detected an error (same as in system-config-
 #. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
-msgid "There is a problem on printer '%s'."
-msgstr "Există o problemă la imprimanta „%s”."
+msgid "There is a problem on printer “%s”."
+msgstr ""
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:443
@@ -1758,8 +1646,8 @@ msgstr "Tipărirea s-a oprit"
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:607
 #, c-format
 msgctxt "print job"
-msgid "\"%s\" on %s"
-msgstr "„%s” pe %s"
+msgid "“%s” on %s"
+msgstr ""
 
 #. Translators: A print job has been canceled
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:536
@@ -1803,231 +1691,12 @@ msgstr "Avertizare imprimanta"
 #. report/warning/error from a PPD file'."
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:835
 #, c-format
-msgid "Printer '%s': '%s'."
-msgstr "Imprimanta '%s': '%s'."
+msgid "Printer “%s”: “%s”."
+msgstr ""
 
-#. Priority=100
-#: ../plugins/print-notifications/print-notifications.gnome-settings-plugin.in.h:2
-msgid "Print-notifications"
-msgstr "Notificări de tipărire"
-
-#: ../plugins/print-notifications/print-notifications.gnome-settings-plugin.in.h:3
-msgid "Print-notifications plugin"
-msgstr "Modulul notificărilor de tipărire"
-
-#. Priority=100
-#: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:2
-msgid "Rfkill"
-msgstr "Rfkill"
-
-#: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:3
-msgid "Rfkill plugin"
-msgstr "Modul Rfkill"
-
-#: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:1
-msgid "Screensaver Proxy"
-msgstr "Proxy Screensaver"
-
-#: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:2
-msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
-msgstr "Screensaver proxy FreeDesktop inhibare la sesiune-gnome"
-
-#: ../plugins/smartcard/gsd-smartcard-service.c:222
+#: ../plugins/smartcard/gsd-smartcard-service.c:224
 msgid "User was not logged in with smartcard."
 msgstr "Utilizatorul nu a fost autentificat cu smartcard."
-
-#: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:1
-msgid "Smartcard"
-msgstr "Smartcard"
-
-#: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:2
-msgid "Smartcard plugin"
-msgstr "modul smartcard"
-
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:1
-msgid "Sound"
-msgstr "Sunet"
-
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:2
-msgid "Sound Sample Cache plugin"
-msgstr "Exemplu de sunet plug-in in cache"
-
-#: ../plugins/wacom/gsd-wacom-button-editor.c:51
-msgctxt "Wacom action-type"
-msgid "None"
-msgstr "Nimic"
-
-#: ../plugins/wacom/gsd-wacom-button-editor.c:52
-msgctxt "Wacom action-type"
-msgid "Send Keystroke"
-msgstr "Trimite Keystroke"
-
-#: ../plugins/wacom/gsd-wacom-button-editor.c:53
-msgctxt "Wacom action-type"
-msgid "Switch Monitor"
-msgstr "Comuta monitor"
-
-#: ../plugins/wacom/gsd-wacom-button-editor.c:54
-msgctxt "Wacom action-type"
-msgid "Show On-Screen Help"
-msgstr "Afișați pe ecran Asistență"
-
-#: ../plugins/wacom/gsd-wacom-button-editor.c:154
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1098
-msgctxt "Action type"
-msgid "Show On-Screen Help"
-msgstr "Afișați pe ecran Asistență"
-
-#: ../plugins/wacom/gsd-wacom-button-editor.c:157
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1101
-msgctxt "Action type"
-msgid "Switch Monitor"
-msgstr "Comuta monitor"
-
-#: ../plugins/wacom/gsd-wacom-button-editor.c:201
-msgctxt "keyboard shortcut"
-msgid "None"
-msgstr "Nimic"
-
-#: ../plugins/wacom/gsd-wacom-button-editor.c:487
-msgid "Done"
-msgstr "Gata"
-
-#. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1031
-msgid "Left Ring"
-msgstr "Suna in stanga"
-
-#: ../plugins/wacom/gsd-wacom-device.c:1042
-#, c-format
-msgid "Left Ring Mode #%d"
-msgstr "Mod suna in stanga #%d"
-
-#. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1062
-msgid "Right Ring"
-msgstr "Suna in dreapta"
-
-#: ../plugins/wacom/gsd-wacom-device.c:1073
-#, c-format
-msgid "Right Ring Mode #%d"
-msgstr "Mod suna in dreapta #%d"
-
-#. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1115
-msgid "Left Touchstrip"
-msgstr "TouchStrip stânga"
-
-#: ../plugins/wacom/gsd-wacom-device.c:1126
-#, c-format
-msgid "Left Touchstrip Mode #%d"
-msgstr "Mod strip touch stanga #%d"
-
-#. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1146
-msgid "Right Touchstrip"
-msgstr "TouchStrip dreapta"
-
-#: ../plugins/wacom/gsd-wacom-device.c:1157
-#, c-format
-msgid "Right Touchstrip Mode #%d"
-msgstr "Mod TouchStrip dreapta #%d"
-
-#: ../plugins/wacom/gsd-wacom-device.c:1183
-#, c-format
-msgid "Left Touchring Mode Switch"
-msgstr "Comuta mod Touchring stanga"
-
-#: ../plugins/wacom/gsd-wacom-device.c:1185
-#, c-format
-msgid "Right Touchring Mode Switch"
-msgstr "Comuta mod Touchring dreapta"
-
-#: ../plugins/wacom/gsd-wacom-device.c:1188
-#, c-format
-msgid "Left Touchstrip Mode Switch"
-msgstr "Comuta mod Strip Touch stanga"
-
-#: ../plugins/wacom/gsd-wacom-device.c:1190
-#, c-format
-msgid "Right Touchstrip Mode Switch"
-msgstr "Comuta mod Touch Strip dreapta"
-
-#: ../plugins/wacom/gsd-wacom-device.c:1195
-#, c-format
-msgid "Mode Switch #%d"
-msgstr "Mod comutare #%d"
-
-#: ../plugins/wacom/gsd-wacom-device.c:1241
-#, c-format
-msgid "Left Button #%d"
-msgstr "Buton stanga #%d"
-
-#: ../plugins/wacom/gsd-wacom-device.c:1244
-#, c-format
-msgid "Right Button #%d"
-msgstr "Buton dreapta #%d"
-
-#: ../plugins/wacom/gsd-wacom-device.c:1247
-#, c-format
-msgid "Top Button #%d"
-msgstr "Buton de sus #%d"
-
-#: ../plugins/wacom/gsd-wacom-device.c:1250
-#, c-format
-msgid "Bottom Button #%d"
-msgstr "Buton de jos #%d"
-
-#: ../plugins/wacom/gsd-wacom-key-shortcut-button.c:263
-msgid "New shortcut…"
-msgstr "Scurtatura noua..."
-
-#: ../plugins/wacom/gsd-wacom-manager.c:1042
-#, c-format
-msgid "The \"%s\" tablet may not work as expected."
-msgstr "Tableta \"%s\" poate să nu funcționeze conform așteptărilor."
-
-#: ../plugins/wacom/gsd-wacom-manager.c:1043
-msgid "Unknown Tablet Connected"
-msgstr "Tableta necunoscuta conectata"
-
-#: ../plugins/wacom/gsd-wacom-manager.c:1047
-msgid "Wacom Settings"
-msgstr "Setari Wacom"
-
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1075
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1095
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1106
-msgctxt "Action type"
-msgid "None"
-msgstr "Nimic"
-
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1080
-#, c-format
-msgctxt "Action type"
-msgid "Send Keystroke %s"
-msgstr "Trimite Keystroke %s"
-
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1139
-#, c-format
-msgid "Mode %d: %s"
-msgstr "Mod %d: %s"
-
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1349
-msgid "(press any key to exit)"
-msgstr "(apasa orice tasta pentru a iesi)"
-
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1358
-msgid "Push a button to configure"
-msgstr "Apasa un buton pentru configurare"
-
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1358
-msgid "(Esc to cancel)"
-msgstr "(Esc pentru a anula)"
-
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1985
-msgid "Edit"
-msgstr "Editeaza"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
@@ -2051,31 +1720,7 @@ msgstr "Modifica imaginea OLED pentru tableta Wacom"
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
 msgstr "Este necesara autentificarea pentru a modifica imaginea OLED a tabletei Wacom"
 
-#: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:1
-msgid "Wacom"
-msgstr "Wacom"
-
-#: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:2
-msgid "Wacom plugin"
-msgstr "Modul Wacom"
-
-#: ../plugins/xrandr/gsd-xrandr-manager.c:965
+#: ../plugins/xrandr/gsd-xrandr-manager.c:968
 #, c-format
 msgid "Could not refresh the screen information: %s"
 msgstr "Nu s-a putut reîncărca informația ecranului: %s"
-
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:1
-msgid "XRandR"
-msgstr "XRandR"
-
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:2
-msgid "Set up screen size and rotation settings"
-msgstr "Definire dimensiune și rotire ecran"
-
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:1
-msgid "X Settings"
-msgstr "Configurări X"
-
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
-msgid "Manage X Settings"
-msgstr "Administrare de configurări X"
