@@ -183,6 +183,7 @@ static int ec200_breathe(int enable)
 	it8772_gp37_setup(enable);
 
 	isapnp_exit();
+	return 0;
 }
 
 int main(int argc, char *argv[])

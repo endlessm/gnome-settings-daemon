@@ -646,7 +646,6 @@ static void
 ldsm_notify_for_mount (LdsmMountInfo *mount,
                        gboolean       multiple_volumes)
 {
-        gboolean has_trash;
         gchar  *name;
         gint64 free_space;
         const gchar *path;
@@ -656,7 +655,6 @@ ldsm_notify_for_mount (LdsmMountInfo *mount,
 
         name = g_unix_mount_guess_name (mount->mount);
         path = g_unix_mount_get_mount_path (mount->mount);
-        has_trash = ldsm_mount_has_trash (path);
 
         free_space = (gint64) mount->buf.f_frsize * (gint64) mount->buf.f_bavail;
         free_space_str = g_format_size (free_space);
