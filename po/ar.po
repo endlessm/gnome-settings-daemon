@@ -11,13 +11,14 @@
 # Djihed Afifi <djihed@gmail.com>, 2006
 # Isam Bayazidi <bayazidi@arabeyes.org>, 2002
 # Khaled Hosny <khaledhosny@eglug.org>, 2006-2012,2014
+# Roddy Shuler <roddy@endlessm.com>, 2017
 # Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-11 16:59-0700\n"
-"PO-Revision-Date: 2017-10-12 00:16+0000\n"
+"PO-Revision-Date: 2017-10-16 08:58+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -34,7 +35,7 @@ msgstr "إجراء نزع البطاقة الذكية"
 msgid ""
 "Set this to one of “none”, “lock-screen”, or “force-logout”. The action will"
 " get performed when the smartcard used for log in is removed."
-msgstr ""
+msgstr "اضبط هذا بقيمة من القيم \"لا شيء\" أو \"قَفْل الشاشة\" أو \"فرض تسجيل الخروج\". سيتم تنفيذ هذا الإجراء عندما يتم نزع البطاقة الذكية المستخدمة في تسجيل الدخول."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:3
 msgid ""
@@ -60,7 +61,7 @@ msgstr "المسافة قبل بدأ النقل."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:8
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
-msgstr ""
+msgstr "سواء كان تدوير الجهاز اللوحي مُغلق أو مضبوط على وضع التدوير التلقائي."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
 msgid "Wacom stylus absolute mode"
@@ -96,7 +97,7 @@ msgstr "تدوير جهاز Wacom اللوحي"
 msgid ""
 "Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and"
 " “ccw” for 90 degree counterclockwise."
-msgstr ""
+msgstr "اضبط هذا بقيمة 'لا شيء'، 'ا س' للحصول على 90 درجة باتجاه عقارب الساعة، وبقيمة 'النصف'، للحصول على 180 درجة، وبقيمة 'ع ع س' للحصول على 90 درجة عكس عقارب الساعة. "
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:9
 msgid "Wacom touch feature"
@@ -214,64 +215,64 @@ msgstr "هذا هو عدد الأيام التي سيُعتبرتشكيل خصا
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:5
 msgid "If the night light mode is enabled"
-msgstr ""
+msgstr "إذا كان وضع الإضاءة الليلية ممكنًا"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:6
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at present times."
-msgstr ""
+msgstr "يقوم وضع الإضاءة الليلية بتغيير درجة حرارة لون الشاشة لديك عند غروب الشمس أو في الأوقات المحددة مسبقًا."
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:7
 msgid "Temperature of the display when enabled"
-msgstr ""
+msgstr "درجة حرارة الشاشة عند التمكين"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:8
 msgid ""
 "This temperature in Kelvin is used to modify the screen tones when night "
 "light mode is enabled. Higher values are bluer, lower redder."
-msgstr ""
+msgstr "تستخدم درجة الحرارة هذه في Kelvin لتعديل درجات لون الشاشة عندما يكون وضع الإضاءة الليلية ممكنًا، والقيم الأعلى هي أكثر زرقة، وأقل حمرة."
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:9
 msgid "Use the sunrise and sunset"
-msgstr ""
+msgstr "استخدم الشروق والغروب"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:10
 msgid ""
 "Calculate the sunrise and sunset times automatically, from the current "
 "location."
-msgstr ""
+msgstr "احسب أوقات الشروق والغروب تلقائيًا للموقع الحالي."
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:11
 msgid "The start time"
-msgstr ""
+msgstr "وقت البدء"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:12
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this start time in "
 "hours from midnight."
-msgstr ""
+msgstr "عندما يكون \"جدول الإضاءة الليلية التلقائي\" معطلًا، استخدم وقت البدء هذا والمحدد بعدد ساعاتٍ تبدأ من منتصف الليل."
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:13
 msgid "The end time"
-msgstr ""
+msgstr "وقت الانتهاء"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:14
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this end time in "
 "hours from midnight."
-msgstr ""
+msgstr "عندما يكون \"جدول الإضاءة الليلية التلقائي\" معطلًا، استخدم وقت الانتهاء هذا والمحدد بعدد ساعاتٍ تبدأ من منتصف الليل."
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:15
 msgid "The last detected position"
-msgstr ""
+msgstr "آخر موضع تم اكتشافه"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:16
 msgid ""
 "When location services are available this represents the last detected "
 "location. The default value is an invalid value to ensure it is always "
 "updated at startup."
-msgstr ""
+msgstr "عندما تكون خدمات الموقع متاحة، فهذا يمثل آخر موقع تم اكتشافه. تكون القيمة الافتراضية قيمة غير صالحة لضمان تحديثها دائمًا مع بدء التشغيل."
 
 #: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:1
 msgid "List of plugins that are allowed to be loaded"
@@ -281,7 +282,7 @@ msgstr "قائمة الإضافات المسموح بتحميلها"
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: “all”). This is only evaluated on startup."
-msgstr ""
+msgstr "قائمة سلاسل تمثل الإضافات المسموح بتحميلها (الوضع الافتراضي: \"الكل\"). تُقرأ هذه القائمة عند بدء التشغيل فقط."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:1
 msgid "Mount paths to ignore"
@@ -652,7 +653,7 @@ msgid ""
 "normally gets stored in users’ home directories. If a user does not have "
 "such a file, or has one that does not match the user’s setup of monitors, "
 "then the file specified by this key will be used instead."
-msgstr ""
+msgstr "ستبحث إضافة XRandR على التهيئة الافتراضية في الملف المحدد بهذا المفتاح. هذا مشابه لـ ~/.config/monitors.xml الذي يتم تخزينه في الأحوال الطبيعية في دلائل المستخدم الرئيسية. إذا كان هناك مستخدم ليس لديه ملف من هذا النوع، أو لديه ملف لا يطابق إعدادات المستخدم للشاشات، سيتم استخدام الملف المحدد بهذا المفتاح بدلاً منه."
 
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:3
 msgid "Whether to turn off specific monitors after boot"
@@ -665,7 +666,7 @@ msgid ""
 "(extend the desktop in recent versions). The default, “follow-lid”, will "
 "choose between “do-nothing” and “dock” depending on whether the lid is "
 "(respectively) open or closed."
-msgstr ""
+msgstr "وضع 'استنساخ'، يعرض نفس الشيء على جميع الشاشات، و'إرساء' يقوم بإطفاء الشاشة الداخلية، في حين يقوم 'لا تفعل شيء' باتباع تصرف Xorg الافتراضي (تمديد سطح المكتب، في الإصدارات القديمة). أما وضع 'اتَبِعْ الغطاء' الافتراضي، سيختار بين 'لا تفعل شيء' و'إرساء'، بناءً على وضع الغطاء (على التوالي)، هل هو مفتوح أم مغلق."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:1
 msgid "Antialiasing"
@@ -676,7 +677,7 @@ msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing,"
 " and “rgba” for subpixel antialiasing (LCD screens only)."
-msgstr ""
+msgstr "نوع التنعيم للاستخدام عند تصيير الخطوط. القيم الممكنة هي : \"none\" بدون تنعيم، \"grayscale\" تنعيم متدرج رمادي، و \"rgba\" لإزالة التسنن على مستوى جزء البكسل (فقط لشاشات LCD )."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
 msgid "Hinting"
@@ -694,7 +695,7 @@ msgid ""
 "(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
-msgstr ""
+msgstr "نوع التلميح الذي يجب استعمال عند عرض الخطوط. القيم المحتملة هي: \"لا شيئ\" في غياب أي تلميح، و\"خفيف\" من أجل ما يستخدم للمحور الصادي ففقط مثل ClearType من مايكروسوفت، وDirectWrite ووحرك عرض الخط الإمتلاكي لأدوبي. يتجاهل التلميح المحلي في الخط، ويولد التلميحات حسابياً. يستخدم في Ubuntu بشكل افتراضي. موصى به. يتوقف معنى \"متوسطة\" و\"كامل\" على صيغة الخط (ttf ,.otf,.pfa/.pfb) والنسخة المثبتة من FreeType. وهي تحاولون عادة ملائمة الصورة الرمزية مع المحورين السيني والصادي (ماعدا  otf: الصادي فقط). ويمكن أن يؤدي هذا إلى التشويه و/ أو العرض المغاير اعتماداً على نوعية الخط، وصيغة الخط وحالة محركات FreeType للخط."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
 msgid "RGBA order"
@@ -705,7 +706,7 @@ msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing"
 " is set to “rgba”. Possible values are: “rgb” for red on left (most common),"
 " “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
-msgstr ""
+msgstr "ترتيب عناصر أجزاء البكسل على شاشة LCD؛ يُستخدم فقط عند ضبط تنعيم إلى \"rgba\". القيم الممكنة هي : \"rgb\" أحمر على اليسار (الأكثر انتشارا)، \"bgr\" أزرق على اليسار، \"vrgb\" أحمر على الأعلى، \"vbgr\" أحمر على الأسفل."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:7
 msgid "List of explicitly disabled GTK+ modules"
@@ -805,13 +806,13 @@ msgstr "إعادة المعايرة مطلوبة"
 #: ../plugins/color/gsd-color-calibrate.c:199
 #, c-format
 msgid "The display “%s” should be recalibrated soon."
-msgstr ""
+msgstr "العرض '%s' يحتاج لإعادة المعايرة في أقرب وقت."
 
 #. TRANSLATORS: this is when the printer has not been recalibrated in a while
 #: ../plugins/color/gsd-color-calibrate.c:208
 #, c-format
 msgid "The printer “%s” should be recalibrated soon."
-msgstr ""
+msgstr "الطابعة '%s' تحتاج لإعادة المعايرة في أقرب وقت."
 
 #. TRANSLATORS: this is the application name
 #: ../plugins/color/gsd-color-calibrate.c:346
@@ -1469,7 +1470,7 @@ msgstr "تُضبط الطابعة الجديدة"
 #. Translators: Just wait
 #: ../plugins/print-notifications/gsd-printer.c:892
 msgid "Please wait…"
-msgstr ""
+msgstr "انتظر من فضلك…"
 
 #. Translators: We have no driver installed for this printer
 #: ../plugins/print-notifications/gsd-printer.c:919
@@ -1499,81 +1500,81 @@ msgstr "الطابعات"
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:350
 #, c-format
 msgid "Printer “%s” is low on toner."
-msgstr ""
+msgstr "حبر الطابعة '%s' منخفض."
 
 #. Translators: The printer has no toner left (same as in system-config-
 #. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:354
 #, c-format
 msgid "Printer “%s” has no toner left."
-msgstr ""
+msgstr "نفد الحبر من الطابعة '%s'."
 
 #. Translators: The printer is in the process of connecting to a shared
 #. network output device (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:358
 #, c-format
 msgid "Printer “%s” may not be connected."
-msgstr ""
+msgstr "قد تكون الطابعة '%s' غير متصلة."
 
 #. Translators: One or more covers on the printer are open (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:362
 #, c-format
 msgid "The cover is open on printer “%s”."
-msgstr ""
+msgstr "غطاء الطابعة '%s' مفتوح."
 
 #. Translators: A filter or backend is not installed (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:366
 #, c-format
 msgid "There is a missing print filter for printer “%s”."
-msgstr ""
+msgstr "هناك مرشِّح ناقص للطابعة '%s'."
 
 #. Translators: One or more doors on the printer are open (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:371
 #, c-format
 msgid "The door is open on printer “%s”."
-msgstr ""
+msgstr "باب الطابعة '%s' مفتوح."
 
 #. Translators: "marker" is one color bin of the printer
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:375
 #, c-format
 msgid "Printer “%s” is low on a marker supply."
-msgstr ""
+msgstr "نقص حبر أقلام الطابعة '%s'."
 
 #. Translators: "marker" is one color bin of the printer
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:379
 #, c-format
 msgid "Printer “%s” is out of a marker supply."
-msgstr ""
+msgstr "نفد حبر أقلام الطابعة '%s'."
 
 #. Translators: At least one input tray is low on media (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:383
 #, c-format
 msgid "Printer “%s” is low on paper."
-msgstr ""
+msgstr "ورق الطابعة '%s' قليل."
 
 #. Translators: At least one input tray is empty (same as in system-config-
 #. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:387
 #, c-format
 msgid "Printer “%s” is out of paper."
-msgstr ""
+msgstr "نفد الورق من الطابعة '%s'."
 
 #. Translators: The printer is offline (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:391
 #, c-format
 msgid "Printer “%s” is currently off-line."
-msgstr ""
+msgstr "الطابعة '%s' غير متصلة حاليا."
 
 #. Translators: The printer has detected an error (same as in system-config-
 #. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "There is a problem on printer “%s”."
-msgstr ""
+msgstr "هناك مشكلة في الطابعة '%s'."
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:443
@@ -1671,7 +1672,7 @@ msgstr "أُوقِفت الطباعة"
 #, c-format
 msgctxt "print job"
 msgid "“%s” on %s"
-msgstr ""
+msgstr "‏\"%s\"في %s"
 
 #. Translators: A print job has been canceled
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:536
@@ -1716,7 +1717,7 @@ msgstr "تحذير من الطابعة"
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:835
 #, c-format
 msgid "Printer “%s”: “%s”."
-msgstr ""
+msgstr "الطابعة '%s': ‏'%s'."
 
 #: ../plugins/smartcard/gsd-smartcard-service.c:224
 msgid "User was not logged in with smartcard."

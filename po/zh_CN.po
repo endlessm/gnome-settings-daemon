@@ -7,12 +7,14 @@
 # Bin Li <binli@gnome.org>, 2015
 # by Abel Cheung <maddog@linuxhall.org>, 2001
 # chenzibing <chenzibing_endless@126.com>, 2016
+# CN C2 <e2f48d4sf5ds@outlook.com>, 2017
 # Deng Xiyue <manphiz@gmail.com>, 2009
 # He Qiangqiang <carton@linux.net.cn>, 2002
 # Mingcong Bai <jeffbai@aosc.xyz>, 2016
 # Lele Long <schemacs@gmail.com>, 2011
 # liuzhen1191 <liuzhen1191@gmail.com>, 2011
 # Mingye Wang <arthur2e5@aosc.xyz>, 2015
+# Roddy Shuler <roddy@endlessm.com>, 2017
 # Sun G11n <gnome_int_l10n@ireland.sun.com>, 2002
 # Tao Wang <dancefire@gmail.com>, 2010
 # Tao Wei <weitao1979@gmail.com>, 2009
@@ -28,8 +30,8 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-11 16:59-0700\n"
-"PO-Revision-Date: 2017-10-12 00:14+0000\n"
-"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"PO-Revision-Date: 2017-10-17 04:24+0000\n"
+"Last-Translator: CN C2 <e2f48d4sf5ds@outlook.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,7 +47,7 @@ msgstr "智能卡移除动作"
 msgid ""
 "Set this to one of “none”, “lock-screen”, or “force-logout”. The action will"
 " get performed when the smartcard used for log in is removed."
-msgstr ""
+msgstr "设置为“none”、“lock_screen”或“force_logout”之一。 当用于登录的智能卡被移除时，将执行这个动作。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:3
 msgid ""
@@ -71,7 +73,7 @@ msgstr "触发拖动的最小距离。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:8
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
-msgstr ""
+msgstr "是锁定数位板的方向，还是自动旋转。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
 msgid "Wacom stylus absolute mode"
@@ -107,7 +109,7 @@ msgstr "Wacom 的数位板旋转"
 msgid ""
 "Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and"
 " “ccw” for 90 degree counterclockwise."
-msgstr ""
+msgstr "可以设置为“nono”,“cw”(顺时针 90 度)，“half”(180 度)，和“ccw”(逆时针90度)。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:9
 msgid "Wacom touch feature"
@@ -225,64 +227,64 @@ msgstr "这是将打印机配置视为无效之前的持续天数。"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:5
 msgid "If the night light mode is enabled"
-msgstr ""
+msgstr "如果启用夜灯模式"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:6
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at present times."
-msgstr ""
+msgstr "夜灯模式会在日落或当前时间改变显示屏的色温。"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:7
 msgid "Temperature of the display when enabled"
-msgstr ""
+msgstr "启用后显示屏的温度"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:8
 msgid ""
 "This temperature in Kelvin is used to modify the screen tones when night "
 "light mode is enabled. Higher values are bluer, lower redder."
-msgstr ""
+msgstr "启用夜灯模式后，此温度（以开尔文为单位）用于修改屏幕色调。值越高越蓝，值越低越红。"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:9
 msgid "Use the sunrise and sunset"
-msgstr ""
+msgstr "使用日出和日落"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:10
 msgid ""
 "Calculate the sunrise and sunset times automatically, from the current "
 "location."
-msgstr ""
+msgstr "从当前位置自动计算日出和日落时间。"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:11
 msgid "The start time"
-msgstr ""
+msgstr "开始时间"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:12
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this start time in "
 "hours from midnight."
-msgstr ""
+msgstr "启用“夜灯时间表自动”后，请从午夜使用此开始时间（以小时为单位）。"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:13
 msgid "The end time"
-msgstr ""
+msgstr "结束时间"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:14
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this end time in "
 "hours from midnight."
-msgstr ""
+msgstr "禁用“夜灯时间表自动”后，请从午夜使用此结束时间（以小时为单位）。"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:15
 msgid "The last detected position"
-msgstr ""
+msgstr "最后检测到的位置"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:16
 msgid ""
 "When location services are available this represents the last detected "
 "location. The default value is an invalid value to ensure it is always "
 "updated at startup."
-msgstr ""
+msgstr "当定位服务可用时，这表示最后检测到的位置。默认值为无效值，以确保始终在启动时更新。"
 
 #: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:1
 msgid "List of plugins that are allowed to be loaded"
@@ -292,7 +294,7 @@ msgstr "允许加载的插件列表"
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: “all”). This is only evaluated on startup."
-msgstr ""
+msgstr "表示允许加载的插件的字符串列表（默认值为“all”）。这仅在启动时进行评估。"
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:1
 msgid "Mount paths to ignore"
@@ -663,7 +665,7 @@ msgid ""
 "normally gets stored in users’ home directories. If a user does not have "
 "such a file, or has one that does not match the user’s setup of monitors, "
 "then the file specified by this key will be used instead."
-msgstr ""
+msgstr "XRandR 插件将在本项指定的文件中寻找默认配置。通常，这类似于 获取存储在家目录下的~/.config/monitors.xml。如果用户没有这样的文件，或者有一个不符合用户显示器的设置，然后本项指定的文件将被替代。"
 
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:3
 msgid "Whether to turn off specific monitors after boot"
@@ -676,7 +678,7 @@ msgid ""
 "(extend the desktop in recent versions). The default, “follow-lid”, will "
 "choose between “do-nothing” and “dock” depending on whether the lid is "
 "(respectively) open or closed."
-msgstr ""
+msgstr "“clone”将在所有显示器中显示相同画面；“dock”将关闭内部显示器；“do-nothing”将使用默认的 Xorg 行为(在近期版本中是拉伸桌面)。默认值“follow-lid”将根据上盖打开还是关闭来相应的选择“do-nothing”或“dock”。"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:1
 msgid "Antialiasing"
@@ -687,7 +689,7 @@ msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing,"
 " and “rgba” for subpixel antialiasing (LCD screens only)."
-msgstr ""
+msgstr "绘制字形时使用的反锯齿类型。可能的设定有：“无” - 无反锯齿。“灰度” - 标准灰度反锯齿。“rgba” - 次像素反锯齿 (LCD 屏幕专用)。"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
 msgid "Hinting"
@@ -705,7 +707,7 @@ msgid ""
 "(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
-msgstr ""
+msgstr "渲染字体时所使用的字形微调设置。可能的数值有：none 表示无微调。slight 表示仅将字形对齐到 Y 轴，就像微软 ClearType、DirectWrite 和 Adobe 的专有渲染引擎一样。这将忽略字体内部的微调信息，直接使用自动算法进行微调。Ubuntu 默认使用这个设置，推荐。medium 和 full 的含义取决于字体格式 (.ttf, .otf, .pfa/.pfb) 和已安装的 FreeType 版本。这两者一般尝试将字符图形同时对齐到 X Y 两个方向（otf 只对齐到 Y）。这可能会导致混乱和/或不一致的渲染，取决于字体质量、字体格式和 FreeType 引擎的状态。"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
 msgid "RGBA order"
@@ -716,7 +718,7 @@ msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing"
 " is set to “rgba”. Possible values are: “rgb” for red on left (most common),"
 " “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
-msgstr ""
+msgstr "LCD 屏幕上次像素的顺序；仅在反锯齿设为“rgba”时有用。可能的设定值有：“rgb” - 红色在左侧，最常见设置。“bgr” - 蓝色在左侧。“vrgb” - 红色在上端。“vbgr” - 红色在底部。"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:7
 msgid "List of explicitly disabled GTK+ modules"
@@ -816,13 +818,13 @@ msgstr "需要重新校准"
 #: ../plugins/color/gsd-color-calibrate.c:199
 #, c-format
 msgid "The display “%s” should be recalibrated soon."
-msgstr ""
+msgstr "显示“%s”应该尽快校准。"
 
 #. TRANSLATORS: this is when the printer has not been recalibrated in a while
 #: ../plugins/color/gsd-color-calibrate.c:208
 #, c-format
 msgid "The printer “%s” should be recalibrated soon."
-msgstr ""
+msgstr "打印机“%s”应该尽快校准。"
 
 #. TRANSLATORS: this is the application name
 #: ../plugins/color/gsd-color-calibrate.c:346
@@ -1450,7 +1452,7 @@ msgstr "配置新的打印机"
 #. Translators: Just wait
 #: ../plugins/print-notifications/gsd-printer.c:892
 msgid "Please wait…"
-msgstr ""
+msgstr "请稍候…"
 
 #. Translators: We have no driver installed for this printer
 #: ../plugins/print-notifications/gsd-printer.c:919
@@ -1480,81 +1482,81 @@ msgstr "打印机"
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:350
 #, c-format
 msgid "Printer “%s” is low on toner."
-msgstr ""
+msgstr "打印机“%s”墨已不多。"
 
 #. Translators: The printer has no toner left (same as in system-config-
 #. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:354
 #, c-format
 msgid "Printer “%s” has no toner left."
-msgstr ""
+msgstr "打印机“%s”已经无墨。"
 
 #. Translators: The printer is in the process of connecting to a shared
 #. network output device (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:358
 #, c-format
 msgid "Printer “%s” may not be connected."
-msgstr ""
+msgstr "打印机“%s”可能没有连接。"
 
 #. Translators: One or more covers on the printer are open (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:362
 #, c-format
 msgid "The cover is open on printer “%s”."
-msgstr ""
+msgstr "打印机“%s”机盖处于打开状态。"
 
 #. Translators: A filter or backend is not installed (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:366
 #, c-format
 msgid "There is a missing print filter for printer “%s”."
-msgstr ""
+msgstr "打印机 “%s” 打印过滤功能缺失。"
 
 #. Translators: One or more doors on the printer are open (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:371
 #, c-format
 msgid "The door is open on printer “%s”."
-msgstr ""
+msgstr "打印机“%s”机盖处于打开状态。"
 
 #. Translators: "marker" is one color bin of the printer
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:375
 #, c-format
 msgid "Printer “%s” is low on a marker supply."
-msgstr ""
+msgstr "打印机“%s”的标记墨量少。"
 
 #. Translators: "marker" is one color bin of the printer
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:379
 #, c-format
 msgid "Printer “%s” is out of a marker supply."
-msgstr ""
+msgstr "打印机“%s”标记墨已用完。"
 
 #. Translators: At least one input tray is low on media (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:383
 #, c-format
 msgid "Printer “%s” is low on paper."
-msgstr ""
+msgstr "打印机“%s”纸张量少。"
 
 #. Translators: At least one input tray is empty (same as in system-config-
 #. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:387
 #, c-format
 msgid "Printer “%s” is out of paper."
-msgstr ""
+msgstr "打印机“%s”缺纸。"
 
 #. Translators: The printer is offline (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:391
 #, c-format
 msgid "Printer “%s” is currently off-line."
-msgstr ""
+msgstr "打印机“%s”当前离线。"
 
 #. Translators: The printer has detected an error (same as in system-config-
 #. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "There is a problem on printer “%s”."
-msgstr ""
+msgstr "打印机“%s”上有错误。"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:443
@@ -1652,7 +1654,7 @@ msgstr "打印已暂停"
 #, c-format
 msgctxt "print job"
 msgid "“%s” on %s"
-msgstr ""
+msgstr "%2$s 上的“%1$s”"
 
 #. Translators: A print job has been canceled
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:536
@@ -1697,7 +1699,7 @@ msgstr "打印机警告"
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:835
 #, c-format
 msgid "Printer “%s”: “%s”."
-msgstr ""
+msgstr "打印机“%s”：“%s”。"
 
 #: ../plugins/smartcard/gsd-smartcard-service.c:224
 msgid "User was not logged in with smartcard."

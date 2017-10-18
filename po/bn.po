@@ -4,12 +4,13 @@
 # 
 # Translators:
 # Aditi Kabir <aditi.kabir@gmail.com>, 2016
+# Roddy Shuler <roddy@endlessm.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-11 16:59-0700\n"
-"PO-Revision-Date: 2017-10-12 00:17+0000\n"
+"PO-Revision-Date: 2017-10-16 03:23+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Bengali (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/bn/)\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +27,7 @@ msgstr "স্মার্টকার্ড সরানোর ক্রিয়�
 msgid ""
 "Set this to one of “none”, “lock-screen”, or “force-logout”. The action will"
 " get performed when the smartcard used for log in is removed."
-msgstr ""
+msgstr "এটা ঠিক করুন যেকোন একটি \"কোনটি নয়\", \"আটকানো-পর্দা\", বা \"জোরপূর্বক-লগআউট\"। এই ক্রিয়াটি হবে যখন লগিন করার জন্য স্মার্টকার্ড সরান হবে। "
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:3
 msgid ""
@@ -52,7 +53,7 @@ msgstr "টেনে নেবার আগে দূরত্ব "
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:8
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
-msgstr ""
+msgstr "ট্যাবলেটের প্রবণতা বন্ধ থাক বা স্বয়ংক্রিয়ভাবে ঘুরে যাক। "
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
 msgid "Wacom stylus absolute mode"
@@ -88,7 +89,7 @@ msgstr "ওয়াকম ট্যাবলেট ঘূর্ণন "
 msgid ""
 "Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and"
 " “ccw” for 90 degree counterclockwise."
-msgstr ""
+msgstr "এটি সেট করুন 'কোনটি নয়' 'সিডব্লিউ' 90 ডিগ্রী ঘড়ির কাঁটার দিকে, 'অর্ধেক' 180 , এবং 'সিসিডব্লিউ' 90 ডিগ্রী ঘড়ির কাঁটার উল্টো দিকে। "
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:9
 msgid "Wacom touch feature"
@@ -644,7 +645,7 @@ msgid ""
 "normally gets stored in users’ home directories. If a user does not have "
 "such a file, or has one that does not match the user’s setup of monitors, "
 "then the file specified by this key will be used instead."
-msgstr ""
+msgstr "এক্সরান্ডআর প্লাগিন ডিফল্ট কনফিগারেশন খুঁজবে বোতামের নির্দিষ্ট ফাইলে। এটি  ~/.config/monitors.xml এর মতই যা ব্যবহারকারীদের নীড় নির্দেশনায় রক্ষিত থাকে। যদি কোন ব্যবহারকারীর এমন ফাইল না থাকে, বা যদি সেটার সাথে ব্যবহারকারীর মনিটরের সেটআপের মিল না থাকে, তাহলে যে বোতামের মাধ্যামে ফাইলটি নির্দিষ্ট সেটার ব্যবহৃত হবে তার বদলে।  "
 
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:3
 msgid "Whether to turn off specific monitors after boot"
@@ -657,7 +658,7 @@ msgid ""
 "(extend the desktop in recent versions). The default, “follow-lid”, will "
 "choose between “do-nothing” and “dock” depending on whether the lid is "
 "(respectively) open or closed."
-msgstr ""
+msgstr "'প্রতিলিপি' সব মনিটরে একই জিনিষ দেখাবে, 'ডক' ইন্টারনেট মিনিটরের সুইচ বন্ধ করবে, 'ডু-নাথিং' ব্যবহার করবে ডিফল্ট যোর্গ আচরণ (সাম্প্রতিক সংস্করণে ডেস্কটপ সম্প্রসারণ)। ডিফল্ট 'ফলো-লিড' বাছে নেবে 'ডক' ও 'ডু-নাথিং' মধ্যে যা নির্ভর করবে ডালা (যথাক্রমে) খোলা না বন্ধ তার ওপর। "
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:1
 msgid "Antialiasing"
@@ -668,7 +669,7 @@ msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing,"
 " and “rgba” for subpixel antialiasing (LCD screens only)."
-msgstr ""
+msgstr "ফন্ট রেন্ডার করার সময় ব্যবহারযোগ্য অ্যান্টি-অ্যালায়েসিংয়ের ধরন। সম্ভাব্য মানগুলি হল: অ্যান্টি-অ্যালয়েসিং ব্যবহার না করার জন্য \"none\", সাধারণ সাদা-কালো অ্যান্টি-অ্যালায়েসিংয়ের জন্য \"grayscale\", ও সাব-পিক্সেল অ্যান্টি-অ্যালায়েসিংয়ের জন্য (শুধুমাত্র LCD পর্দায় প্রযোজ্য) \"rgba\"।"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
 msgid "Hinting"
@@ -686,7 +687,7 @@ msgid ""
 "(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
-msgstr ""
+msgstr "অক্ষর তৈরির সময় এই ধরনের ঈঙ্গিত দেয়া হয়। সম্ভাব্য মূল্যমানগুলো হচ্ছে- ঈঙ্গিত দেবার জন্য “কোনটি নয়” এবং “সামান্য” হচ্ছে মাইক্রোসফটের ওয়াই-এক্স যেমন- ক্লিয়ারটাইপ, ডিরেক্টরাইট এবং অ্যাডোবির নিজস্ব অক্ষর তৈরির ইঞ্জিনে ফিট হবার সময়ে। অক্ষরের ভেতরকার ঈঙ্গিত অগ্রাহ্য করে যায়, ঈঙ্গিত দেয় অ্যালোগরিদম মাফিক। উবুন্তুতে স্থিরকৃতভাবেই ব্যবহৃত হয়। পরামর্শকৃত। “মধ্যম” এবং “পূর্ণ” অর্থ নির্ভর করবে অক্ষরের ফর্ম্যাটের ওপর (.ttf, .otf, .pfa/.pfb) এবং ফ্রিধরনের যে সংস্করণ ইন্সটল আছে তার ওপর। এরা সাধারণত গ্লিফসের সাথে খাপ খাওয়াতে চেষ্টা করে এক্স এবং ওয়াই উভয় এক্সিসের সাথেই (শুধু .otf: ওয়াই বাদে)। এর ফলে বিকৃতি এবং/বা অধারাবাহিকতা আসতে পারে অক্ষরের মান, ফ্রিধরনের অক্ষ্র ইঞ্জিনের ফর্ম্যাট ও অবস্থার ওপর নির্ভর করে।  "
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
 msgid "RGBA order"
@@ -697,7 +698,7 @@ msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing"
 " is set to “rgba”. Possible values are: “rgb” for red on left (most common),"
 " “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
-msgstr ""
+msgstr "LCD পর্দায় উপস্থিত সাব-পিক্সেল বস্তুর অনুক্রম; অ্যান্টি-অ্যালায়েসিংয়ের মান \"rgba\" নির্ধারিত হলে এটি ব্যবহার করা হবে। সম্ভাব্য মান হল: বাঁদিকে লাল ব্যবহারের জন্য \"rgb\" (সবচেয়ে বেশি ব্যবহৃত মান), বাঁদিকে নীল ব্যবহারের জন্য \"bgr\", উপরে লাল ব্যবহারের জন্য \"vrgb\", নীচে লাল ব্যবহারের জন্য \"vbgr\"।"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:7
 msgid "List of explicitly disabled GTK+ modules"
@@ -797,13 +798,13 @@ msgstr "পুনঃ ক্যালিব্রেশন করতে হবে
 #: ../plugins/color/gsd-color-calibrate.c:199
 #, c-format
 msgid "The display “%s” should be recalibrated soon."
-msgstr ""
+msgstr "'%s' প্রদর্শন শিঘ্রই ক্যালিব্রেট করতে হবে।  "
 
 #. TRANSLATORS: this is when the printer has not been recalibrated in a while
 #: ../plugins/color/gsd-color-calibrate.c:208
 #, c-format
 msgid "The printer “%s” should be recalibrated soon."
-msgstr ""
+msgstr "'%s' ছাপাযন্ত্র শিঘ্রই ক্যালিব্রেট করতে হবে । "
 
 #. TRANSLATORS: this is the application name
 #: ../plugins/color/gsd-color-calibrate.c:346
@@ -1437,7 +1438,7 @@ msgstr "নতুন প্রিন্টার কনফিগার করা
 #. Translators: Just wait
 #: ../plugins/print-notifications/gsd-printer.c:892
 msgid "Please wait…"
-msgstr ""
+msgstr "অনুগ্রহ করে অপেক্ষা…"
 
 #. Translators: We have no driver installed for this printer
 #: ../plugins/print-notifications/gsd-printer.c:919
@@ -1467,81 +1468,81 @@ msgstr "ছাপাযন্ত্রসমূহ "
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:350
 #, c-format
 msgid "Printer “%s” is low on toner."
-msgstr ""
+msgstr "প্রিন্টারের কালি '%s' কমে গেছে।"
 
 #. Translators: The printer has no toner left (same as in system-config-
 #. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:354
 #, c-format
 msgid "Printer “%s” has no toner left."
-msgstr ""
+msgstr "প্রিন্টারের '%s' কালিও নেই।"
 
 #. Translators: The printer is in the process of connecting to a shared
 #. network output device (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:358
 #, c-format
 msgid "Printer “%s” may not be connected."
-msgstr ""
+msgstr "প্রিন্টার '%s' সংযুক্ত নাও হতে পারে।"
 
 #. Translators: One or more covers on the printer are open (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:362
 #, c-format
 msgid "The cover is open on printer “%s”."
-msgstr ""
+msgstr "প্রিন্টার '%s' এর কভার খোলা।"
 
 #. Translators: A filter or backend is not installed (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:366
 #, c-format
 msgid "There is a missing print filter for printer “%s”."
-msgstr ""
+msgstr "প্রিন্টার '%s' এ অনুপস্থিত মুদ্রণফিল্টার।"
 
 #. Translators: One or more doors on the printer are open (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:371
 #, c-format
 msgid "The door is open on printer “%s”."
-msgstr ""
+msgstr "প্রিন্টার '%s' এর দরজা খোলা।"
 
 #. Translators: "marker" is one color bin of the printer
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:375
 #, c-format
 msgid "Printer “%s” is low on a marker supply."
-msgstr ""
+msgstr "প্রিন্টার '%s' এ মার্কারের সাপ্লাই কমে গেছে।"
 
 #. Translators: "marker" is one color bin of the printer
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:379
 #, c-format
 msgid "Printer “%s” is out of a marker supply."
-msgstr ""
+msgstr "প্রিন্টার '%s'  এ মার্কারের সাপ্লাই শেষ।"
 
 #. Translators: At least one input tray is low on media (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:383
 #, c-format
 msgid "Printer “%s” is low on paper."
-msgstr ""
+msgstr "প্রিন্টার '%s' এ কাগজ কমে গেছে।"
 
 #. Translators: At least one input tray is empty (same as in system-config-
 #. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:387
 #, c-format
 msgid "Printer “%s” is out of paper."
-msgstr ""
+msgstr "প্রিন্টার '%s' এর কাগজ শেষ।"
 
 #. Translators: The printer is offline (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:391
 #, c-format
 msgid "Printer “%s” is currently off-line."
-msgstr ""
+msgstr "প্রিন্টার '%s' বর্তমানে বন্ধ।"
 
 #. Translators: The printer has detected an error (same as in system-config-
 #. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "There is a problem on printer “%s”."
-msgstr ""
+msgstr "প্রিন্টার '%s' এ সমস্যা হয়েছে।"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:443
@@ -1639,7 +1640,7 @@ msgstr "প্রিন্টার বন্ধ"
 #, c-format
 msgctxt "print job"
 msgid "“%s” on %s"
-msgstr ""
+msgstr "%s এর \"%s\""
 
 #. Translators: A print job has been canceled
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:536
@@ -1684,7 +1685,7 @@ msgstr "ছাপাযন্ত্র সাবধানবাণী "
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:835
 #, c-format
 msgid "Printer “%s”: “%s”."
-msgstr ""
+msgstr "ছাপাযন্ত্র  '%s': '%s'. "
 
 #: ../plugins/smartcard/gsd-smartcard-service.c:224
 msgid "User was not logged in with smartcard."

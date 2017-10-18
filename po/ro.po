@@ -6,12 +6,13 @@
 # Cristian Buzduga <cristianbzdg@gmail.com>, 2011
 # georgian balan <braila222@gmail.com>, 2016-2017
 # Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2011
+# Roddy Shuler <roddy@endlessm.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-11 16:59-0700\n"
-"PO-Revision-Date: 2017-10-12 00:17+0000\n"
+"PO-Revision-Date: 2017-10-16 03:40+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/endless-mobile-inc/gnome-settings-daemon/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +29,7 @@ msgstr "Acțiune la scoaterea smartcardului"
 msgid ""
 "Set this to one of “none”, “lock-screen”, or “force-logout”. The action will"
 " get performed when the smartcard used for log in is removed."
-msgstr ""
+msgstr "Definiți această cheie la „none”, „lock_screen” sau „force_logout”. Acțiunea va fi efectuată când smartcardul utilizat la autentificare este scos."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:3
 msgid ""
@@ -54,7 +55,7 @@ msgstr "Distanța până la începerea tragerii."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:8
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
-msgstr ""
+msgstr "Dacă orientarea tabletei este blocată sau se rotește automat."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
 msgid "Wacom stylus absolute mode"
@@ -90,7 +91,7 @@ msgstr "Rotația tabletei Wacom"
 msgid ""
 "Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and"
 " “ccw” for 90 degree counterclockwise."
-msgstr ""
+msgstr "Definiți ca „none”, „cw” pentru rotire de 90 de grade în sens orar, „half” pentru rotire de 180 de grade sau „ccw” pentru rotire de 90 de grade în sens trigonometric."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:9
 msgid "Wacom touch feature"
@@ -646,7 +647,7 @@ msgid ""
 "normally gets stored in users’ home directories. If a user does not have "
 "such a file, or has one that does not match the user’s setup of monitors, "
 "then the file specified by this key will be used instead."
-msgstr ""
+msgstr "Modulul XRandR va căuta configurația implicită în fișierul specificat de această cheie. Este similar cu ~/.config/monitors.xml care în mod normal este stocat în dosarul personal al utilizatorului. Dacă un utilizator nu are un astfel de fișier, sau dacă acesta nu se potrivește cu configurația monitoarelor, se va utiliza fișierul specificat de această cheie."
 
 #: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:3
 msgid "Whether to turn off specific monitors after boot"
@@ -659,7 +660,7 @@ msgid ""
 "(extend the desktop in recent versions). The default, “follow-lid”, will "
 "choose between “do-nothing” and “dock” depending on whether the lid is "
 "(respectively) open or closed."
-msgstr ""
+msgstr "\"Clona\"  va afișa același lucru pe toate monitoarele, 'doc'  va opri monitorul intern, \"nu face nimic\", va utiliza comportamentul implicit Xorg (extindeți spațiul de lucru în versiunile recente). Valoarea implicită, \"urmați-capac\", va alege între \"nu face nimic\" și \"doc\", în cazul in care capacul este (respectiv), deschis sau închis."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:1
 msgid "Antialiasing"
@@ -670,7 +671,7 @@ msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing,"
 " and “rgba” for subpixel antialiasing (LCD screens only)."
-msgstr ""
+msgstr "Tipul de antialiasing folosit la randarea fonturilor. Valori posibile sunt: „none” pentru dezactivare antialiasing, „grayscale” pentru antialiasing standard în nuanțe de gri și „rgba” pentru antialiasing pe subpixeli (doar pentru ecranele LCD)."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
 msgid "Hinting"
@@ -688,7 +689,7 @@ msgid ""
 "(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
-msgstr ""
+msgstr "Tipul de sugestie utilizat la interpretare fonturi. Valorile posibile sunt: ​​\"nici unul\" pentru nici o sugestie și \"ușoare\" pentru potrivirea numai pe axa Y cum ar fi Microsoft ClearType, DirectWrite și motorul de randare font de proprietate al Adobe. Ignoră sugestia nativa in fonturi, generează sugestii în mod algoritmic. Folosit pe Ubuntu în mod implicit. Recomandat. Sensul \"mediu\" și \"complet\" depinde de formatul de font (ttf, .otf, .pfa / fișier .pfb) și versiunea instalată a FreeType. Ei încearcă, de obicei, pentru a potrivi hieroglife atât X și axa Y (cu excepția .otf: Y-numai). Acest lucru poate duce la denaturarea și / sau de redare inconsistenta, în funcție de calitatea fontului, formatul fontului și starea motoarelor de fonturi FreeType."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
 msgid "RGBA order"
@@ -699,7 +700,7 @@ msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing"
 " is set to “rgba”. Possible values are: “rgb” for red on left (most common),"
 " “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
-msgstr ""
+msgstr "Ordinea elementelor subpixeli dintr-un ecran LCD; folosit doar când antialiasing-ul este setat pe „rgba”. Valorile posibile sunt: „rgb” pentru roșu la stânga (cel mai comun), „bgr” pentru albastru la stânga, „vrgb” pentru roșu sus, „vbgr” pentru roșu jos."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:7
 msgid "List of explicitly disabled GTK+ modules"
@@ -799,13 +800,13 @@ msgstr "Este necesară recalibrarea"
 #: ../plugins/color/gsd-color-calibrate.c:199
 #, c-format
 msgid "The display “%s” should be recalibrated soon."
-msgstr ""
+msgstr "Ecranul „%s” trebuie recalibrat în curând."
 
 #. TRANSLATORS: this is when the printer has not been recalibrated in a while
 #: ../plugins/color/gsd-color-calibrate.c:208
 #, c-format
 msgid "The printer “%s” should be recalibrated soon."
-msgstr ""
+msgstr "Imprimanta „%s” trebuie recalibrată în curând."
 
 #. TRANSLATORS: this is the application name
 #: ../plugins/color/gsd-color-calibrate.c:346
@@ -1445,7 +1446,7 @@ msgstr "Configurarea imprimantei noi"
 #. Translators: Just wait
 #: ../plugins/print-notifications/gsd-printer.c:892
 msgid "Please wait…"
-msgstr ""
+msgstr "Așteptați…"
 
 #. Translators: We have no driver installed for this printer
 #: ../plugins/print-notifications/gsd-printer.c:919
@@ -1475,81 +1476,81 @@ msgstr "Imprimante"
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:350
 #, c-format
 msgid "Printer “%s” is low on toner."
-msgstr ""
+msgstr "Imprimanta „%s” are puțin toner."
 
 #. Translators: The printer has no toner left (same as in system-config-
 #. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:354
 #, c-format
 msgid "Printer “%s” has no toner left."
-msgstr ""
+msgstr "Imprimanta „%s” nu mai are toner."
 
 #. Translators: The printer is in the process of connecting to a shared
 #. network output device (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:358
 #, c-format
 msgid "Printer “%s” may not be connected."
-msgstr ""
+msgstr "S-ar putea ca imprimanta „%s” să nu fie conectată."
 
 #. Translators: One or more covers on the printer are open (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:362
 #, c-format
 msgid "The cover is open on printer “%s”."
-msgstr ""
+msgstr "Capacul imprimantei „%s” este deschis."
 
 #. Translators: A filter or backend is not installed (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:366
 #, c-format
 msgid "There is a missing print filter for printer “%s”."
-msgstr ""
+msgstr "Lipsește un filtru de tipărire pentru imprimanta „%s”."
 
 #. Translators: One or more doors on the printer are open (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:371
 #, c-format
 msgid "The door is open on printer “%s”."
-msgstr ""
+msgstr "Ușa imprimantei „%s” este deschisă."
 
 #. Translators: "marker" is one color bin of the printer
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:375
 #, c-format
 msgid "Printer “%s” is low on a marker supply."
-msgstr ""
+msgstr "Imprimanta „%s” are un recipient de culoare la un nivel scăzut."
 
 #. Translators: "marker" is one color bin of the printer
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:379
 #, c-format
 msgid "Printer “%s” is out of a marker supply."
-msgstr ""
+msgstr "Imprimanta „%s” are un recipient de culoare epuizat."
 
 #. Translators: At least one input tray is low on media (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:383
 #, c-format
 msgid "Printer “%s” is low on paper."
-msgstr ""
+msgstr "Imprimanta „%s” are puțină hârtie."
 
 #. Translators: At least one input tray is empty (same as in system-config-
 #. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:387
 #, c-format
 msgid "Printer “%s” is out of paper."
-msgstr ""
+msgstr "Imprimanta „%s” nu mai are hârtie."
 
 #. Translators: The printer is offline (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:391
 #, c-format
 msgid "Printer “%s” is currently off-line."
-msgstr ""
+msgstr "Imprimanta „%s” este în deconectată de la rețea."
 
 #. Translators: The printer has detected an error (same as in system-config-
 #. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "There is a problem on printer “%s”."
-msgstr ""
+msgstr "Există o problemă la imprimanta „%s”."
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:443
@@ -1647,7 +1648,7 @@ msgstr "Tipărirea s-a oprit"
 #, c-format
 msgctxt "print job"
 msgid "“%s” on %s"
-msgstr ""
+msgstr "„%s” pe %s"
 
 #. Translators: A print job has been canceled
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:536
@@ -1692,7 +1693,7 @@ msgstr "Avertizare imprimanta"
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:835
 #, c-format
 msgid "Printer “%s”: “%s”."
-msgstr ""
+msgstr "Imprimanta '%s': '%s'."
 
 #: ../plugins/smartcard/gsd-smartcard-service.c:224
 msgid "User was not logged in with smartcard."
