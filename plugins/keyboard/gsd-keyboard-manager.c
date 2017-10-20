@@ -66,7 +66,7 @@
 
 #define KEY_GTK_IM_MODULE    "gtk-im-module"
 #define GTK_IM_MODULE_SIMPLE "gtk-im-context-simple"
-#define GTK_IM_MODULE_XIM    "xim"
+#define GTK_IM_MODULE_IBUS   "ibus"
 
 #define GNOME_DESKTOP_INPUT_SOURCES_DIR "org.gnome.desktop.input-sources"
 
@@ -400,12 +400,8 @@ set_gtk_im_module (GSettings *settings,
         const gchar *new_module;
         gchar *current_module;
 
-        /* XXX: We set XIM as the IM if IBus is enabled because we found out that
-         * this way it will work inside Flatpak apps, even if the IM is an IBus one.
-         * This should be properly fixed in the future though, and this solution
-         * should be reverted/adapted. */
         if (need_ibus (sources))
-                new_module = GTK_IM_MODULE_XIM;
+                new_module = GTK_IM_MODULE_IBUS;
         else
                 new_module = GTK_IM_MODULE_SIMPLE;
 
@@ -416,7 +412,9 @@ set_gtk_im_module (GSettings *settings,
 }
 
 static void
-reset_gtk_im_module (GsdKeyboardManager *manager)
+input_sources_changed (GSettings          *settings,
+                       const char         *key,
+                       GsdKeyboardManager *manager)
 {
         GSettings *interface_settings;
         GVariant *sources;
@@ -425,19 +423,11 @@ reset_gtk_im_module (GsdKeyboardManager *manager)
          * module. Otherwise we can use the default "simple" module
          * which is builtin gtk+
          */
-        sources = g_settings_get_value (manager->priv->input_sources_settings, KEY_INPUT_SOURCES);
+        sources = g_settings_get_value (settings, KEY_INPUT_SOURCES);
         interface_settings = g_settings_new (GNOME_DESKTOP_INTERFACE_DIR);
         set_gtk_im_module (interface_settings, sources);
         g_object_unref (interface_settings);
         g_variant_unref (sources);
-}
-
-static void
-input_sources_changed (GSettings          *settings,
-                       const char         *key,
-                       GsdKeyboardManager *manager)
-{
-        reset_gtk_im_module (manager);
 }
 
 static void
@@ -693,7 +683,6 @@ start_keyboard_idle_cb (GsdKeyboardManager *manager)
         manager->priv->input_sources_settings = g_settings_new (GNOME_DESKTOP_INPUT_SOURCES_DIR);
         g_signal_connect (manager->priv->input_sources_settings, "changed::"KEY_INPUT_SOURCES,
                           G_CALLBACK (input_sources_changed), manager);
-        reset_gtk_im_module (manager);
 
         manager->priv->cancellable = g_cancellable_new ();
 
