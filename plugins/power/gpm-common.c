@@ -29,6 +29,7 @@
 #include <glib/gi18n.h>
 #include <gdk/gdkx.h>
 #include <X11/extensions/XTest.h>
+#include <X11/extensions/Xrandr.h>
 #include <X11/extensions/dpms.h>
 #include <canberra-gtk.h>
 
@@ -406,6 +407,55 @@ backlight_get_mock_value (enum BacklightHelperCommand command)
 	return ret;
 }
 
+static gboolean
+nvidia_driver_active (void)
+{
+        static int active = -1;
+        GdkScreen *screen;
+        Display *dpy;
+        Window root;
+        XRRProviderResources *pr;
+        XRRScreenResources *res;
+        int i;
+
+        if (active >= 0)
+                return (gboolean) active;
+
+        active = FALSE;
+        dpy = GDK_DISPLAY_XDISPLAY (gdk_display_get_default ());
+        screen = gdk_screen_get_default ();
+        root = gdk_x11_window_get_xid (gdk_screen_get_root_window (screen));
+
+        res = XRRGetScreenResources (dpy, root);
+        if (!res)
+                goto out;
+
+        pr = XRRGetProviderResources (dpy, root);
+        if (!pr)
+                goto out;
+
+        /* We consider nvidia as driving the active display if xrandr
+         * shows an NVIDIA provider that has output capabilities, with outputs,
+         * not associated with another provider. */
+        for (i = 0; i < pr->nproviders; i++) {
+                XRRProviderInfo *info = XRRGetProviderInfo (dpy, res, pr->providers[i]);
+                if (info->capabilities & RR_Capability_SourceOutput &&
+                    info->nassociatedproviders == 0 &&
+                    info->noutputs > 0 &&
+                    g_str_has_prefix(info->name, "NVIDIA-"))
+                        active = TRUE;
+
+                XRRFreeProviderInfo (info);
+                if (active)
+                        break;
+        }
+
+out:
+        XRRFreeScreenResources (res);
+        XRRFreeProviderResources (pr);
+        return (gboolean) active;
+}
+
 gboolean
 backlight_available (GnomeRRScreen *rr_screen)
 {
@@ -414,9 +464,8 @@ backlight_available (GnomeRRScreen *rr_screen)
 	if (is_mocked ())
 		return TRUE;
 
-#ifndef __linux__
-        return (get_primary_output (rr_screen) != NULL);
-#endif
+        if (nvidia_driver_active ())
+                return (get_primary_output (rr_screen) != NULL);
 
         path = gsd_backlight_helper_get_best_backlight (NULL);
         if (path == NULL)
@@ -615,16 +664,16 @@ backlight_get_output_id (GnomeRRScreen *rr_screen)
 int
 backlight_get_abs (GnomeRRScreen *rr_screen, GError **error)
 {
-#ifndef __linux__
         GnomeRROutput *output;
+
+        if (!nvidia_driver_active ())
+                return backlight_helper_get_value (BACKLIGHT_HELPER_GET, error);
+
         output = get_primary_output (rr_screen);
         if (output != NULL) {
                 return gnome_rr_output_get_backlight (output);
         }
         return -1;
-#else
-        return backlight_helper_get_value (BACKLIGHT_HELPER_GET, error);
-#endif
 }
 
 int
@@ -633,17 +682,18 @@ backlight_get_percentage (GnomeRRScreen *rr_screen, GError **error)
         gint now;
         gint value = -1;
         gint max;
-#ifndef __linux__
-        GnomeRROutput *output;
-        output = get_primary_output (rr_screen);
-        if (output != NULL) {
-                now = gnome_rr_output_get_backlight (output);
-                if (now < 0)
-                        return value;
-                value = ABS_TO_PERCENTAGE (0, 100, now);
+
+        if (nvidia_driver_active ()) {
+                GnomeRROutput *output;
+                output = get_primary_output (rr_screen);
+                if (output != NULL) {
+                        now = gnome_rr_output_get_backlight (output);
+                        if (now < 0)
+                                return value;
+                        return ABS_TO_PERCENTAGE (0, 100, now);
+                }
         }
-        return value;
-#else
+
         max = backlight_helper_get_value (BACKLIGHT_HELPER_GET_MAX, error);
         if (max < 0)
                 return value;
@@ -652,7 +702,6 @@ backlight_get_percentage (GnomeRRScreen *rr_screen, GError **error)
                 return value;
         value = ABS_TO_PERCENTAGE (0, max, now);
         return value;
-#endif
 }
 
 int
@@ -664,11 +713,10 @@ backlight_get_min (GnomeRRScreen *rr_screen)
 int
 backlight_get_max (GnomeRRScreen *rr_screen, GError **error)
 {
-#ifndef __linux__
-        return 100;
-#else
+        if (nvidia_driver_active ())
+                return 100;
+
         return  backlight_helper_get_value (BACKLIGHT_HELPER_GET_MAX, error);
-#endif
 }
 
 gboolean
@@ -679,17 +727,18 @@ backlight_set_percentage (GnomeRRScreen *rr_screen,
         gboolean ret = FALSE;
         gint max;
         guint discrete;
-#ifndef __linux__
-        GnomeRROutput *output;
-        output = get_primary_output (rr_screen);
-        if (output != NULL) {
-                if (!gnome_rr_output_set_backlight (output, *value, error))
-                        return ret;
-                *value = gnome_rr_output_get_backlight (output);
-                ret = TRUE;
+
+        if (nvidia_driver_active ()) {
+                GnomeRROutput *output;
+                output = get_primary_output (rr_screen);
+                if (output != NULL) {
+                        if (!gnome_rr_output_set_backlight (output, *value, error))
+                                return ret;
+                        *value = gnome_rr_output_get_backlight (output);
+                        return TRUE;
+                }
         }
-        return ret;
-#else
+
         max = backlight_helper_get_value (BACKLIGHT_HELPER_GET_MAX, error);
         if (max < 0)
                 return ret;
@@ -699,7 +748,6 @@ backlight_set_percentage (GnomeRRScreen *rr_screen,
                 *value = ABS_TO_PERCENTAGE (0, max, discrete);
 
         return ret;
-#endif
 }
 
 int
@@ -711,35 +759,36 @@ backlight_step_up (GnomeRRScreen *rr_screen, GError **error)
         gint now;
         gint step;
         guint discrete;
-#ifndef __linux__
-        GnomeRRCrtc *crtc;
-        GnomeRROutput *output;
-        output = get_primary_output (rr_screen);
-        if (output != NULL) {
 
-                crtc = gnome_rr_output_get_crtc (output);
-                if (crtc == NULL) {
-                        g_set_error (error,
-                                     GSD_POWER_MANAGER_ERROR,
-                                     GSD_POWER_MANAGER_ERROR_FAILED,
-                                     "no crtc for %s",
-                                     gnome_rr_output_get_name (output));
-                        return percentage_value;
+        if (nvidia_driver_active ()) {
+                GnomeRRCrtc *crtc;
+                GnomeRROutput *output;
+                output = get_primary_output (rr_screen);
+                if (output != NULL) {
+
+                        crtc = gnome_rr_output_get_crtc (output);
+                        if (crtc == NULL) {
+                                g_set_error (error,
+                                             GSD_POWER_MANAGER_ERROR,
+                                             GSD_POWER_MANAGER_ERROR_FAILED,
+                                             "no crtc for %s",
+                                             gnome_rr_output_get_name (output));
+                                return percentage_value;
+                        }
+                        max = 100;
+                        now = gnome_rr_output_get_backlight (output);
+                        if (now < 0)
+                               return percentage_value;
+                        step = MAX(gnome_rr_output_get_min_backlight_step (output), BRIGHTNESS_STEP_AMOUNT(max + 1));
+                        discrete = MIN (now + step, max);
+                        ret = gnome_rr_output_set_backlight (output,
+                                                             discrete,
+                                                             error);
+                        if (ret)
+                                return ABS_TO_PERCENTAGE (0, max, discrete);
                 }
-                max = 100;
-                now = gnome_rr_output_get_backlight (output);
-                if (now < 0)
-                       return percentage_value;
-                step = MAX(gnome_rr_output_get_min_backlight_step (output), BRIGHTNESS_STEP_AMOUNT(max + 1));
-                discrete = MIN (now + step, max);
-                ret = gnome_rr_output_set_backlight (output,
-                                                     discrete,
-                                                     error);
-                if (ret)
-                        percentage_value = ABS_TO_PERCENTAGE (0, max, discrete);
         }
-        return percentage_value;
-#else
+
         now = backlight_helper_get_value (BACKLIGHT_HELPER_GET, error);
         if (now < 0)
                 return percentage_value;
@@ -753,7 +802,6 @@ backlight_step_up (GnomeRRScreen *rr_screen, GError **error)
                 percentage_value = ABS_TO_PERCENTAGE (0, max, discrete);
 
         return percentage_value;
-#endif
 }
 
 int
@@ -765,35 +813,36 @@ backlight_step_down (GnomeRRScreen *rr_screen, GError **error)
         gint now;
         gint step;
         guint discrete;
-#ifndef __linux__
-        GnomeRRCrtc *crtc;
-        GnomeRROutput *output;
-        output = get_primary_output (rr_screen);
-        if (output != NULL) {
 
-                crtc = gnome_rr_output_get_crtc (output);
-                if (crtc == NULL) {
-                        g_set_error (error,
-                                     GSD_POWER_MANAGER_ERROR,
-                                     GSD_POWER_MANAGER_ERROR_FAILED,
-                                     "no crtc for %s",
-                                     gnome_rr_output_get_name (output));
-                        return percentage_value;
+        if (nvidia_driver_active ()) {
+                GnomeRRCrtc *crtc;
+                GnomeRROutput *output;
+                output = get_primary_output (rr_screen);
+                if (output != NULL) {
+
+                        crtc = gnome_rr_output_get_crtc (output);
+                        if (crtc == NULL) {
+                                g_set_error (error,
+                                             GSD_POWER_MANAGER_ERROR,
+                                             GSD_POWER_MANAGER_ERROR_FAILED,
+                                             "no crtc for %s",
+                                             gnome_rr_output_get_name (output));
+                                return percentage_value;
+                        }
+                        max = 100;
+                        now = gnome_rr_output_get_backlight (output);
+                        if (now < 0)
+                                return percentage_value;
+                        step = MAX (gnome_rr_output_get_min_backlight_step (output), BRIGHTNESS_STEP_AMOUNT (max + 1));
+                        discrete = MAX (now - step, 0);
+                        ret = gnome_rr_output_set_backlight (output,
+                                                             discrete,
+                                                             error);
+                        if (ret)
+                                return ABS_TO_PERCENTAGE (0, max, discrete);
                 }
-                max = 100;
-                now = gnome_rr_output_get_backlight (output);
-                if (now < 0)
-                       return percentage_value;
-                step = MAX (gnome_rr_output_get_min_backlight_step (output), BRIGHTNESS_STEP_AMOUNT (max + 1));
-                discrete = MAX (now - step, 0);
-                ret = gnome_rr_output_set_backlight (output,
-                                                     discrete,
-                                                     error);
-                if (ret)
-                        percentage_value = ABS_TO_PERCENTAGE (0, max, discrete);
         }
-        return percentage_value;
-#else
+
         now = backlight_helper_get_value (BACKLIGHT_HELPER_GET, error);
         if (now < 0)
                 return percentage_value;
@@ -807,7 +856,6 @@ backlight_step_down (GnomeRRScreen *rr_screen, GError **error)
                 percentage_value = ABS_TO_PERCENTAGE (0, max, discrete);
 
         return percentage_value;
-#endif
 }
 
 int
@@ -816,17 +864,17 @@ backlight_set_abs (GnomeRRScreen *rr_screen,
                    GError **error)
 {
         gboolean ret = FALSE;
-#ifndef __linux__
-        GnomeRROutput *output;
-        output = get_primary_output (rr_screen);
-        if (output != NULL)
-                return gnome_rr_output_set_backlight (output, value, error);
-        return ret;
-#else
+
+        if (nvidia_driver_active ()) {
+                GnomeRROutput *output;
+                output = get_primary_output (rr_screen);
+                if (output != NULL)
+                        return gnome_rr_output_set_backlight (output, value, error);
+        }
+
         ret = backlight_helper_set_value (value, error);
 
         return ret;
-#endif
 }
 
 void
