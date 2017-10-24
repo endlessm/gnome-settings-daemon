@@ -25,6 +25,9 @@
 #include "gsd-power-constants.h"
 #include "gsd-power-manager.h"
 
+#include <gdk/gdkx.h>
+#include <X11/extensions/Xrandr.h>
+
 #ifdef __linux__
 #include <gudev/gudev.h>
 #endif /* __linux__ */
@@ -735,6 +738,55 @@ gsd_backlight_set_property (GObject      *object,
 }
 
 static gboolean
+nvidia_driver_active (void)
+{
+        static int active = -1;
+        GdkScreen *screen;
+        Display *dpy;
+        Window root;
+        XRRProviderResources *pr = NULL;
+        XRRScreenResources *res = NULL;
+        int i;
+
+        if (active >= 0)
+                return (gboolean) active;
+
+        active = FALSE;
+        dpy = GDK_DISPLAY_XDISPLAY (gdk_display_get_default ());
+        screen = gdk_screen_get_default ();
+        root = gdk_x11_window_get_xid (gdk_screen_get_root_window (screen));
+
+        res = XRRGetScreenResources (dpy, root);
+        if (!res)
+                goto out;
+
+        pr = XRRGetProviderResources (dpy, root);
+        if (!pr)
+                goto out;
+
+        /* We consider nvidia as driving the active display if xrandr
+         * shows an NVIDIA provider that has output capabilities, with outputs,
+         * not associated with another provider. */
+        for (i = 0; i < pr->nproviders; i++) {
+                XRRProviderInfo *info = XRRGetProviderInfo (dpy, res, pr->providers[i]);
+                if (info->capabilities & RR_Capability_SourceOutput &&
+                    info->nassociatedproviders == 0 &&
+                    info->noutputs > 0 &&
+                    g_str_has_prefix(info->name, "NVIDIA-"))
+                        active = TRUE;
+
+                XRRFreeProviderInfo (info);
+                if (active)
+                        break;
+        }
+
+out:
+        XRRFreeScreenResources (res);
+        XRRFreeProviderResources (pr);
+        return (gboolean) active;
+}
+
+static gboolean
 gsd_backlight_initable_init (GInitable       *initable,
                              GCancellable    *cancellable,
                              GError         **error)
@@ -748,12 +800,16 @@ gsd_backlight_initable_init (GInitable       *initable,
                 return FALSE;
         }
 
+        if (nvidia_driver_active ())
+                goto fallback;
+
 #ifdef __linux__
         /* Try finding a udev device. */
         if (gsd_backlight_udev_init (backlight))
                 goto found;
 #endif /* __linux__ */
 
+fallback:
         /* Try GNOME RR as a fallback. */
         output = gsd_backlight_rr_find_output (backlight, TRUE);
         if (output) {
