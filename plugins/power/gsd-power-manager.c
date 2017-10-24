@@ -1504,15 +1504,19 @@ upower_kbd_proxy_signal_cb (GDBusProxy  *proxy,
 	                return;
 
         } else if (g_strcmp0 (signal_name, "KbdParamsChanged") == 0) {
-                GVariant *kbd_parameters;
-                GVariant *kbd_br_parameters;
+                g_autoptr(GVariant) kbd_parameters = NULL;
+                g_autoptr(GVariant) kbd_br_parameters = NULL;
 
-                g_variant_get (parameters, "(o@a{?*})", NULL, &kbd_parameters);
+                g_variant_get (parameters, "(o@a{sa{sv}})", NULL, &kbd_parameters);
                 kbd_br_parameters = g_variant_lookup_value (kbd_parameters, "brightness", G_VARIANT_TYPE_VARDICT);
-                if (kbd_br_parameters) {
-                        g_variant_lookup (kbd_br_parameters, "value", "i", &brightness);
-                        g_variant_lookup (kbd_br_parameters, "max", "i", &manager->priv->kbd_brightness_max);
+                if (kbd_br_parameters == NULL) {
+                        g_debug ("%s: No brightness parameters provided; ignoring %s signal.", G_STRFUNC, signal_name);
+                        return;
                 }
+
+                source = "internal";
+                g_variant_lookup (kbd_br_parameters, "value", "i", &brightness);
+                g_variant_lookup (kbd_br_parameters, "max", "i", &manager->priv->kbd_brightness_max);
         } else {
                 return;
         }
