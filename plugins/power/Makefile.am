@@ -39,6 +39,7 @@ gsd_power_SOURCES =				\
 
 gsd_power_CFLAGS =					\
 	$(PLUGIN_CFLAGS)				\
+	$(XRANDR_REAL_CFLAGS)				\
 	$(POWER_CFLAGS)
 
 gsd_power_CPPFLAGS =					\
@@ -55,6 +56,7 @@ gsd_power_CPPFLAGS =					\
 gsd_power_LDADD =					\
 	$(top_builddir)/plugins/common/libcommon.la	\
 	$(top_builddir)/gnome-settings-daemon/libgsd.la \
+	$(XRANDR_REAL_LIBS)				\
 	$(POWER_LIBS)					\
 	$(LIBM)
 

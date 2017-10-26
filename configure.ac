@@ -250,6 +250,8 @@ PKG_CHECK_MODULES(XRANDR,
 		  gnome-desktop-3.0 >= $GNOME_DESKTOP_REQUIRED_VERSION
 		  upower-glib >= $UPOWER_REQUIRED_VERSION)
 
+PKG_CHECK_MODULES(XRANDR_REAL, xrandr)
+
 dnl ---------------------------------------------------------------------------
 dnl - XTest
 dnl ---------------------------------------------------------------------------
