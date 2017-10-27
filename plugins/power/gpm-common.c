@@ -414,8 +414,8 @@ nvidia_driver_active (void)
         GdkScreen *screen;
         Display *dpy;
         Window root;
-        XRRProviderResources *pr;
-        XRRScreenResources *res;
+        XRRProviderResources *pr = NULL;
+        XRRScreenResources *res = NULL;
         int i;
 
         if (active >= 0)
