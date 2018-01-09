@@ -1,3 +1,63 @@
+gnome-settings-daemon (3.26.2-1) unstable; urgency=medium
+
+  [ Michael Biebl ]
+  * New upstream release
+  * Switch to dh_missing
+
+  [ Helmut Grohne ]
+  * Honour DEB_BUILD_OPTIONS=nocheck (Closes: #880486)
+
+ -- Michael Biebl <biebl@debian.org>  Thu, 02 Nov 2017 18:45:01 +0100
+
+gnome-settings-daemon (3.26.1-2) unstable; urgency=medium
+
+  * Release to unstable
+
+ -- Jeremy Bicha <jbicha@debian.org>  Fri, 13 Oct 2017 17:06:30 -0400
+
+gnome-settings-daemon (3.26.1-1) experimental; urgency=medium
+
+  * New upstream release
+    - Fix a regression in HiDPI support for Xorg session (LP: #1720150)
+  * Bump Standards-Version to 4.1.1
+
+ -- Jeremy Bicha <jbicha@debian.org>  Tue, 03 Oct 2017 10:18:58 -0400
+
+gnome-settings-daemon (3.26.0-1) experimental; urgency=medium
+
+  * Team upload
+  * debian/watch: Only watch for stable versions again
+  * New upstream stable release
+
+ -- Simon McVittie <smcv@debian.org>  Wed, 13 Sep 2017 11:41:21 +0100
+
+gnome-settings-daemon (3.25.92-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream release
+
+  [ Laurent Bigonville ]
+  * debian/rules: Make tests failures fatal on s390x again, the tests were
+    failing because hwdb files included in udev package were not installed,
+    adding a build-dependency against udev fixed the failure.
+
+  [ Jeremy Bicha ]
+  * Orientation and xrandr plugins have been moved to mutter
+    - Bump Breaks for gnome-session that shipped files with those plugins
+      as RequiredComponents
+  * debian/gnome-settings-daemon.maintscript:
+    - Remove obsolete autostart files for Orientation and XRANDR plugins
+
+  [ Simon McVittie ]
+  * debian/watch: Watch for development versions
+  * Bump GLib build-dependency
+  * Do not try to install usr/share/icons, no longer provided
+  * Add Breaks on pre-3.25 GNOME Shell and GNOME Control Center for
+    lockstep upgrade, since functionality has moved around
+  * d/p/04_superP.patch: Drop, this functionality is no longer in g-s-d
+
+ -- Simon McVittie <smcv@debian.org>  Thu, 07 Sep 2017 11:59:05 +0100
+
 gnome-settings-daemon (3.24.3-1) unstable; urgency=medium
 
   [ Jeremy Bicha ]
