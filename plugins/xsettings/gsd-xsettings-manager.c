@@ -598,7 +598,7 @@ get_legacy_ui_scale (GVariantIter *properties,
         return TRUE;
 }
 
-#define MODE_FORMAT "(siiddada{sv})"
+#define MODE_FORMAT "(ssiiddada{sv})"
 #define MODES_FORMAT "a" MODE_FORMAT
 
 #define MONITOR_SPEC_FORMAT "(ssss)"
