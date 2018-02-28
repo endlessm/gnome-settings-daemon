@@ -535,7 +535,7 @@ is_layout_mode_logical (GVariantIter *properties)
         return layout_mode == DISPLAY_LAYOUT_MODE_LOGICAL;
 }
 
-#define MODE_FORMAT "(siiddada{sv})"
+#define MODE_FORMAT "(ssiiddada{sv})"
 #define MODES_FORMAT "a" MODE_FORMAT
 
 #define MONITOR_SPEC_FORMAT "(ssss)"
