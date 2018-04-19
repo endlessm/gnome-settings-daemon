@@ -6,6 +6,7 @@
 # Carlos Perelló Marín <carlos@gnome-db.org>, 2001
 # Claudio Saavedra <csaavedra@alumnos.utalca.cl>, 2007
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2016
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011 - 2017, 2017
 # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2003-2006
 # Héctor García Álvarez <hector@scouts-es.org>, 2001
 # Jorge González <jorgegonz@svn.gnome.org>, 2007-2011
@@ -20,7 +21,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 12:50-0700\n"
-"PO-Revision-Date: 2018-04-19 19:53+0000\n"
+"PO-Revision-Date: 2018-04-19 20:05+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/endless-os/gnome-settings-daemon/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -41,33 +42,33 @@ msgstr "Establecer esto a una de las siguientes: «none» (ninguna), «lock_scre
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:3
 msgid "Possible values are “on”, “off”, and “custom”."
-msgstr ""
+msgstr "Los valores posibles son “on”, “off”, y “custom”."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:4
 msgid "Keyboard Bell Custom Filename"
-msgstr ""
+msgstr "Nombre de archivo de la campana del teclado personalizada"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:5
 msgid "File name of the bell sound to be played."
-msgstr ""
+msgstr "Nombre de archivo del sonido de campana que reproducir."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:6
 msgid "Remember NumLock state"
-msgstr ""
+msgstr "Recordar el estado del BloqNum"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:7
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
-msgstr ""
+msgstr "Cuando es cierto, GNOME recordará el estado del led del Bloq Núm entre sesiones."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:8
 msgid "NumLock state"
-msgstr ""
+msgstr "Estado del BloqNum"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:9
 msgid "The remembered state of the NumLock LED."
-msgstr ""
+msgstr "El estado que se recuerda del LED del BloqNum."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:10
 msgid ""
@@ -97,126 +98,126 @@ msgstr "Indica si la orientación de la tableta está bloqueada, o si se rota au
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:16
 msgid "Mouse button orientation"
-msgstr ""
+msgstr "Orientación del botón del ratón"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:17
 msgid "Swap left and right mouse buttons for left-handed mice."
-msgstr ""
+msgstr "Intercambiar los botones izquierdo y derecho del ratón para ratones para zurdos."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:18
 msgid "Single Click"
-msgstr ""
+msgstr "Una sola pulsación"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:19
 msgid ""
 "Acceleration multiplier for mouse motion. A value of -1 is the system "
 "default."
-msgstr ""
+msgstr "Multiplicado de aceleración para el movimiento del ratón. El valor -1 es el predeterminado del sistema."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:20
 msgid "Motion Threshold"
-msgstr ""
+msgstr "Umbral del movimiento"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:21
 msgid ""
 "Distance in pixels the pointer must move before accelerated mouse motion is "
 "activated. A value of -1 is the system default."
-msgstr ""
+msgstr "Distancia en píxeles que se debe mover el cursor antes de activar el movimiento acelerado. El valor -1 es el predeterminado del sistema."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:22
 msgid "Middle button emulation"
-msgstr ""
+msgstr "Emulación del botón central"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:23
 msgid ""
 "Enables middle mouse button emulation through simultaneous left and right "
 "button click."
-msgstr ""
+msgstr "Activa la emulación del botón central del ratón a través de una pulsación simultánea del botón izquierdo y derecho."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:24
 msgid "Key Repeat Interval"
-msgstr ""
+msgstr "Intervalo de repetición de teclas"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:25
 msgid "Delay between repeats in milliseconds."
-msgstr ""
+msgstr "Retardo entre repeticiones, en milisegundos."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:26
 msgid "Initial Key Repeat Delay"
-msgstr ""
+msgstr "Intervalo inicial de repetición de teclas"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:27
 msgid "Initial key repeat delay in milliseconds."
-msgstr ""
+msgstr "Retardo inicial de repetición de teclas, en milisegundos."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:28
 msgid "Disable touchpad while typing"
-msgstr ""
+msgstr "Desactivar el touchpad al escribir"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:29
 msgid ""
 "Set this to TRUE if you have problems with accidentally hitting the touchpad"
 " while typing."
-msgstr ""
+msgstr "Establecer esto a verdadero si tiene problemas tocando accidentalmente el touchpad al escribir."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:30
 msgid "Enable horizontal scrolling"
-msgstr ""
+msgstr "Activar desplazamiento horizontal"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:31
 msgid ""
 "Set this to TRUE to allow horizontal scrolling by the same method selected "
 "with the scroll_method key."
-msgstr ""
+msgstr "Establecer esto a verdadero para permitir desplazamiento horizontal con el mismo método seleccionado en la clave scroll_method."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:32
 msgid "Select the touchpad scroll method"
-msgstr ""
+msgstr "Seleccionar el método de desplazamiento del touchpad"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:33
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
-msgstr ""
+msgstr "Seleccionar el método de desplazamiento del «touchpad». Los valores soportados son: «disabled» (desactivado), «edge-scrolling» (desplazamiento en el borde) y «two-finger-scrolling» (desplazamiento con dos dedos)."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:34
 msgid "Enable mouse clicks with touchpad"
-msgstr ""
+msgstr "Activar pulsaciones del ratón con el touchpad"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:35
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
-msgstr ""
+msgstr "Establecer esto a verdadero para poder enviar pulsaciones del ratón pulsando sobre el touchpad."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:36
 msgid "Enable touchpad"
-msgstr ""
+msgstr "Activar el touchpad"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:37
 msgid "Set this to TRUE to enable all touchpads."
-msgstr ""
+msgstr "Establecer esto a verdadero para activar todos los touchpad."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:38
 msgid "Touchpad button orientation"
-msgstr ""
+msgstr "Orientación del botón del «touchpad»"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:39
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
-msgstr ""
+msgstr "Intercambiar los botones derecho e izquierdo del ratón para ratones para zurdos con «left», «right» para diestros «mouse» para seguir la configuración del ratón."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:40
 msgid "Natural scrolling"
-msgstr ""
+msgstr "Desplazamiento natural"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:41
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
-msgstr ""
+msgstr "Establezca esto a verdadero para activar el desplazamiento natural (hacia atrás) para «touchpads»."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:42
 msgid "Mouse wheel emulation button. 0 to disable the feature."
-msgstr ""
+msgstr "Emulación del botón de la rueda del ratón. O para desactivar esta característica."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
 msgid "Wacom stylus absolute mode"
@@ -693,7 +694,7 @@ msgstr "Grabar un vídeo corto de la pantalla"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:52
 msgid "Binding to record a short video of the screen"
-msgstr ""
+msgstr "Asociación de teclas para grabar un vídeo de la pantalla"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:53
 msgid "Launch web browser"
@@ -769,13 +770,13 @@ msgstr "Vínculo para que el magnificador reduzca"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:71
 msgid "Maximum length of screen recordings"
-msgstr ""
+msgstr "Duración máxima de las grabaciones de pantalla"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:72
 msgid ""
 "The maximum length of single screen cast recordings in seconds or 0 for "
 "unlimited"
-msgstr ""
+msgstr "La duración máxima de una grabación de la pantalla, en segundos, o 0 ara ilimitada."
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:73
 msgid "Name"
@@ -803,69 +804,69 @@ msgstr "Comando que ejecutar al invocar la vinculación"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:1
 msgid "The brightness of the screen when idle"
-msgstr ""
+msgstr "El brillo de la pantalla cuando está inactiva"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:2
 msgid ""
 "This is the laptop panel screen brightness used when the session is idle."
-msgstr ""
+msgstr "Este es el brillo de la pantalla del portátil usado cuando la sesión está inactiva."
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:3
 msgid "Dim the screen after a period of inactivity"
-msgstr ""
+msgstr "Oscurecer la pantalla tras un tiempo de inactividad"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:4
 msgid ""
 "If the screen should be dimmed to save power when the computer is idle."
-msgstr ""
+msgstr "Indica si la pantalla se debe oscurecer para ahorrar energía cuando el equipo esté inactivo."
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:5
 msgid "Sleep timeout computer when on AC"
-msgstr ""
+msgstr "Tiempo de espera para suspender el equipo cuando está enchufado."
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:6
 msgid ""
 "The amount of time in seconds the computer on AC power needs to be inactive "
 "before it goes to sleep. A value of 0 means never."
-msgstr ""
+msgstr "La cantidad de tiempo en segundos que la alimentación del equipo debe estar inactiva antes de suspender. El valor 0 significa «nunca»."
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:7
 msgid "Whether to hibernate, suspend or do nothing when inactive"
-msgstr ""
+msgstr "Indica si hibernar, suspender o no hacer nada cuando esté inactivo"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:8
 msgid ""
 "The type of sleeping that should be performed when the computer is inactive."
-msgstr ""
+msgstr "El tipo de suspensión que se debe realizar cuando el equipo está inactivo."
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:9
 msgid "Sleep timeout computer when on battery"
-msgstr ""
+msgstr "Tiempo de espera para suspender el equipo cuando está con batería."
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:10
 msgid ""
 "The amount of time in seconds the computer on battery power needs to be "
 "inactive before it goes to sleep. A value of 0 means never."
-msgstr ""
+msgstr "La cantidad de tiempo en segundos que la batería del equipo debe estar inactiva antes de suspender. El valor 0 significa «nunca»."
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:11
 msgid "Enable the ALS sensor"
-msgstr ""
+msgstr "Activar el sensor ALS"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:12
 msgid "If the ambient light sensor functionality is enabled."
-msgstr ""
+msgstr "Indica si el sensor de luz ambiente está activado."
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:13
 msgid "Power button action"
-msgstr ""
+msgstr "Acción del botón de encendido"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:14
 msgid ""
 "The action to take when the system power button is pressed. This action is "
 "hard-coded (and the setting ignored) on virtual machines (power off) and "
 "tablets (suspend)."
-msgstr ""
+msgstr "La acción que realizar cuando se pulsa el botón de encendido del equipo. Esta acción está embebida (y se ignora la opción de configuración) en máquinas virtuales (predeterminado: apagar) y tabletas (predeterminado: suspender)."
 
 #: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:1
 msgid "On which connections the service is enabled"
@@ -939,14 +940,14 @@ msgstr "Una lista de cadenas que representan los módulos GTK+ que se cargarán,
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:11
 msgid "A dictionary of XSETTINGS to override"
-msgstr ""
+msgstr "Un diccionario de XSETTINGS que omitir"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:12
 msgid ""
 "This dictionary maps XSETTINGS names to overrides values. The values must be"
 " either strings, signed int32s or (in the case of colors), 4-tuples of "
 "uint16 (red, green, blue, alpha; 65535 is fully opaque)."
-msgstr ""
+msgstr "El diccionario mapea nombres XSETTINGS para omitir valores. Estos valores deben ser cadenas, enteros de 32 bits firmados (en el caso de los colores), tuplas de 4 o enteros sin signo de 16 bits (rojo, verde, azul, alfa; 65535 es opaco por completo)."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:398
 msgid "Slow Keys Turned On"
@@ -999,14 +1000,14 @@ msgstr "Teclas persistentes desactivadas"
 msgid ""
 "You just pressed the Shift key 5 times in a row.  This is the shortcut for "
 "the Sticky Keys feature, which affects the way your keyboard works."
-msgstr "Acabas de pulsar la tecla «Mayúsculas» 5 veces. Este es el acceso rápido para la característica «Teclas persistentes», que afecta la manera en que funciona el teclado."
+msgstr "Acaba de pulsar la tecla «Mayúsculas» 5 veces. Este es el acceso rápido para la característica «Teclas persistentes», que afecta la manera en que funciona el teclado."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:468
 msgid ""
 "You just pressed two keys at once, or pressed the Shift key 5 times in a "
 "row.  This turns off the Sticky Keys feature, which affects the way your "
 "keyboard works."
-msgstr "Acabas de pulsar dos teclas a la vez, o has pulsado la tecla «Mayúsculas» 5 veces seguidas. Esto desactiva la característica de «Teclas persistentes», y modifica como funciona tu teclado."
+msgstr "Acaba de pulsar dos teclas a la vez, o ha pulsado la tecla «Mayúsculas» 5 veces seguidas. Esto desactiva la característica de «Teclas persistentes», lo cual afecta a la forma en que funciona su teclado."
 
 #: ../plugins/color/gsd-color-calibrate.c:139
 msgid "Color"
@@ -1088,7 +1089,7 @@ msgstr "Ignorar"
 #: ../plugins/housekeeping/gsd-disk-space.c:638
 #: ../plugins/housekeeping/gsd-disk-space.c:662
 msgid "Low Disk Space"
-msgstr "Poco espacio en disco"
+msgstr "Espacio de disco bajo"
 
 #: ../plugins/housekeeping/gsd-disk-space.c:639
 msgid ""
@@ -1208,11 +1209,11 @@ msgstr "Subir volumen"
 
 #: ../plugins/media-keys/shortcuts-list.h:56
 msgid "Precise Volume Down"
-msgstr ""
+msgstr "Bajar volumen de manera precisa"
 
 #: ../plugins/media-keys/shortcuts-list.h:57
 msgid "Precise Volume Up"
-msgstr ""
+msgstr "Subir volumen de manera precisa"
 
 #: ../plugins/media-keys/shortcuts-list.h:67
 msgid "Lock Screen"

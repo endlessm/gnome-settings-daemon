@@ -3,10 +3,11 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# carlesfg <carles.ferrando@gmail.com>, 2017
 # Gil Forcada <gilforcada@guifi.net>, 2014
 # Ivan Vilata-i-Balaguer <ivan@selidor.net>, 1999-2000
 # Jordi Mallach <jordi@sindominio.net>, 2002-2005
-# Jordi Serratosa <jordis@softcatala.cat>, 2012
+# Jordi Serratosa <jordis@softcatala.cat>, 2012,2017
 # Josep Puigdemont <josep.puigdemont@gmail.com>, 2005-2007
 # Josep Sànchez <papapep@gmx.com>, 2013
 # Softcatalà <linux@softcatala.org>, 2000-2001
@@ -16,7 +17,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 12:50-0700\n"
-"PO-Revision-Date: 2018-04-19 19:53+0000\n"
+"PO-Revision-Date: 2018-04-19 20:02+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Catalan (Valencian) (http://www.transifex.com/endless-os/gnome-settings-daemon/language/ca%40valencia/)\n"
 "MIME-Version: 1.0\n"
@@ -27,43 +28,43 @@ msgstr ""
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:1
 msgid "Smartcard removal action"
-msgstr "Acció d'extraure la targeta intel·ligent"
+msgstr "Acció d'extreure la targeta intel·ligent"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:2
 msgid ""
 "Set this to one of “none”, “lock-screen”, or “force-logout”. The action will"
 " get performed when the smartcard used for log in is removed."
-msgstr ""
+msgstr "Establiu-ho a «none» (cap), «lock-screen» (bloqueja la pantalla) o «force-logout» (força l'eixida). L'acció es realitzarà quan s'extregui la targeta intel·ligent utilitzada per entrar."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:3
 msgid "Possible values are “on”, “off”, and “custom”."
-msgstr ""
+msgstr "El valor possibles són «activat», «desactivat» i «personalitzat»."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:4
 msgid "Keyboard Bell Custom Filename"
-msgstr ""
+msgstr "Nom de fitxer personalitzat del teclat Bell"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:5
 msgid "File name of the bell sound to be played."
-msgstr ""
+msgstr "Non del fitxer del só Bell per reproduir."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:6
 msgid "Remember NumLock state"
-msgstr ""
+msgstr "Recorda l'estat de Bloq Núm"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:7
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
-msgstr ""
+msgstr "Quan es configura com cert, GNOME recordarà l'estat del LED Bloq Núm entre sessions."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:8
 msgid "NumLock state"
-msgstr ""
+msgstr "Estat de Bloq Núm"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:9
 msgid "The remembered state of the NumLock LED."
-msgstr ""
+msgstr "L'estat recordat del LED Bloq Núm."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:10
 msgid ""
@@ -89,130 +90,130 @@ msgstr "Distància abans d'iniciar un arrossegament."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:15
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
-msgstr ""
+msgstr "Si l'orientació de la tauleta gràfica està bloquejada o es girarà automàticament."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:16
 msgid "Mouse button orientation"
-msgstr ""
+msgstr "Orientació del botó del ratolí"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:17
 msgid "Swap left and right mouse buttons for left-handed mice."
-msgstr ""
+msgstr "Canvieu els botons esquerre i dret del ratolí per als ratolins esquerrans."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:18
 msgid "Single Click"
-msgstr ""
+msgstr "Clic senzill"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:19
 msgid ""
 "Acceleration multiplier for mouse motion. A value of -1 is the system "
 "default."
-msgstr ""
+msgstr "Multiplicador d'acceleració per al moviment del ratolí. Un valor de -1 és el valor predeterminat del sistema."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:20
 msgid "Motion Threshold"
-msgstr ""
+msgstr "Llindar de moviment"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:21
 msgid ""
 "Distance in pixels the pointer must move before accelerated mouse motion is "
 "activated. A value of -1 is the system default."
-msgstr ""
+msgstr "Distància en píxels que el punter s'ha de moure abans d'activar el moviment accelerat del ratolí. Un valor de -1 és el valor predeterminat del sistema."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:22
 msgid "Middle button emulation"
-msgstr ""
+msgstr "Emulació del botó del mig"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:23
 msgid ""
 "Enables middle mouse button emulation through simultaneous left and right "
 "button click."
-msgstr ""
+msgstr "Habilita l'emulació del botó del mig del ratolí mitjançant el clic simultani dels botons esquerra i dreta."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:24
 msgid "Key Repeat Interval"
-msgstr ""
+msgstr "Interval de repetició de tecla"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:25
 msgid "Delay between repeats in milliseconds."
-msgstr ""
+msgstr "Retard entre repeticions mil·lisegons."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:26
 msgid "Initial Key Repeat Delay"
-msgstr ""
+msgstr "Retard inicial de repetició de tecla en mil·lisegons"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:27
 msgid "Initial key repeat delay in milliseconds."
-msgstr ""
+msgstr "Retard inicial de repetició de tecla en mil·lisegons."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:28
 msgid "Disable touchpad while typing"
-msgstr ""
+msgstr "Inhabilita el ratolí tàctil mentre s'escriu"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:29
 msgid ""
 "Set this to TRUE if you have problems with accidentally hitting the touchpad"
 " while typing."
-msgstr ""
+msgstr "Establiu-ho a «True» (cert) si accidentalment toqueu el ratolí tàctil mentre escriviu."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:30
 msgid "Enable horizontal scrolling"
-msgstr ""
+msgstr "Habilita el desplaçament horitzontal"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:31
 msgid ""
 "Set this to TRUE to allow horizontal scrolling by the same method selected "
 "with the scroll_method key."
-msgstr ""
+msgstr "Establiu-ho a «True» (cert) per permetre desplaçaments horitzontals utilitzant el mètode seleccionat amb la clau «scroll_method»."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:32
 msgid "Select the touchpad scroll method"
-msgstr ""
+msgstr "Seleccioneu el mètode de desplaçament del ratolí tàctil"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:33
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
-msgstr ""
+msgstr "Seleccioneu el mètode de desplaçament del ratolí tàctil. Els valors admesos són: «disabled» (inhabilitat), «edge-scrolling» (desplaçament a la vora) i «two-finger-scrolling» (desplaçament amb dos dits)."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:34
 msgid "Enable mouse clicks with touchpad"
-msgstr ""
+msgstr "Permet fer clic amb el ratolí tàctil"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:35
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
-msgstr ""
+msgstr "Establiu-ho a «True» (cert) per permetre enviar clics de ratolí en prémer al ratolí tàctil."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:36
 msgid "Enable touchpad"
-msgstr ""
+msgstr "Habilita el ratolí tàctil"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:37
 msgid "Set this to TRUE to enable all touchpads."
-msgstr ""
+msgstr "Establiu-ho a «True» (cert) per habilitar tots els ratolins tàctils."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:38
 msgid "Touchpad button orientation"
-msgstr ""
+msgstr "Orientació del botó del ratolí tàctil"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:39
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
-msgstr ""
+msgstr "Canvieu els botons esquerre i dret del ratolí per als ratolins esquerrans amb «esquerra», «dreta» per a les dretans, «ratolí» per seguir la configuració del ratolí."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:40
 msgid "Natural scrolling"
-msgstr ""
+msgstr "Desplaçament natural"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:41
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
-msgstr ""
+msgstr "Establiu-ho a «True» (cert) per habilitar el desplaçament natural (revers) per als ratolins tàctils."
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:42
 msgid "Mouse wheel emulation button. 0 to disable the feature."
-msgstr ""
+msgstr "Botó d'emulació de la roda del ratolí. 0 per desactivar la funció."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
 msgid "Wacom stylus absolute mode"
@@ -238,7 +239,7 @@ msgstr "Relació de l'aspecte de la tauleta gràfica Wacom"
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
-msgstr "Habilita-ho per per restringir l'àrea de la tauleta gràfica Wacom perquè coincidisca amb la relació d'aspecte de l'eixida."
+msgstr "Habilita-ho per restringir l'àrea de la tauleta gràfica Wacom perquè coincidisca amb la relació d'aspecte de l'eixida."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:7
 msgid "Wacom tablet rotation"
@@ -248,7 +249,7 @@ msgstr "Rotació de la tauleta gràfica Wacom"
 msgid ""
 "Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and"
 " “ccw” for 90 degree counterclockwise."
-msgstr ""
+msgstr "Establiu-ho a «none» (cap), «cw» per 90 graus en sentit horari, «half» per 180 graus i «ccw» per 90 graus en sentit antihorari."
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:9
 msgid "Wacom touch feature"
@@ -352,7 +353,7 @@ msgstr "La duració de la validesa d'un perfil de la pantalla"
 msgid ""
 "This is the number of days after which the display color profile is "
 "considered invalid."
-msgstr "El número de dies després dels quals el perfil de color de la pantalla ja no es considera vàlid."
+msgstr "El nombre de dies després dels quals el perfil de color de la pantalla ja no es considera vàlid."
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:3
 msgid "The duration a printer profile is valid"
@@ -362,68 +363,68 @@ msgstr "La duració de la validesa d'un perfil de la impressora"
 msgid ""
 "This is the number of days after which the printer color profile is "
 "considered invalid."
-msgstr "El número de dies després dels quals el perfil de color de la impressora ja no es considera vàlid."
+msgstr "El nombre de dies després dels quals el perfil de color de la impressora ja no es considera vàlid."
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:5
 msgid "If the night light mode is enabled"
-msgstr ""
+msgstr "Si el mode de llum nocturna està habilitat"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:6
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at present times."
-msgstr ""
+msgstr "El mode de llum nocturna canvia la temperatura del color de la pantalla quan el sol ha marxat o a les hores indicades."
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:7
 msgid "Temperature of the display when enabled"
-msgstr ""
+msgstr "Temperatura de la pantalla quan està habilitada"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:8
 msgid ""
 "This temperature in Kelvin is used to modify the screen tones when night "
 "light mode is enabled. Higher values are bluer, lower redder."
-msgstr ""
+msgstr "La temperatura està en Kelvin s'utilitza per modificar els tons de la pantalla quan el mode llum nocturna està habilitat. Els valors més alts són els blaus i els més baixos els rojos."
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:9
 msgid "Use the sunrise and sunset"
-msgstr ""
+msgstr "Utilitza eixida i posta del sol"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:10
 msgid ""
 "Calculate the sunrise and sunset times automatically, from the current "
 "location."
-msgstr ""
+msgstr "Calcula l'hora d'eixida i posta del sol automàticament, utilitzant la ubicació actual."
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:11
 msgid "The start time"
-msgstr ""
+msgstr "Temps d'inici"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:12
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this start time in "
 "hours from midnight."
-msgstr ""
+msgstr "Quan «night-light-schedule-automatic» està inhabilitat, utilitza este temps d'inici en hores des de mitjanit."
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:13
 msgid "The end time"
-msgstr ""
+msgstr "Temps de finalització"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:14
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this end time in "
 "hours from midnight."
-msgstr ""
+msgstr "Quan «night-light-schedule-automatic» està inhabilitat, utilitza este temps de finalització en hores des de mitjanit."
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:15
 msgid "The last detected position"
-msgstr ""
+msgstr "Última ubicació detectada"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:16
 msgid ""
 "When location services are available this represents the last detected "
 "location. The default value is an invalid value to ensure it is always "
 "updated at startup."
-msgstr ""
+msgstr "Quan els serveis d'ubicació estan disponibles això representa l'última ubicació detectada. El valor per defecte és invàlid per assegurar-se que sempre s'actualitza en iniciar-se."
 
 #: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:1
 msgid "List of plugins that are allowed to be loaded"
@@ -433,7 +434,7 @@ msgstr "Llista de connectors que es poden carregar"
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: “all”). This is only evaluated on startup."
-msgstr ""
+msgstr "Una llista de cadenes que representen els connectors que es poden carregar (per defecte: «all» - tots). Encara s'hauran de marcar els connectors com a actius perquè es carreguin. Només s'avalua en iniciar."
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:1
 msgid "Mount paths to ignore"
@@ -597,19 +598,19 @@ msgstr "Vinculació per bloquejar la pantalla."
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:29
 msgid "Search"
-msgstr "Cerca"
+msgstr "Busca"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:30
 msgid "Binding to launch the search tool."
-msgstr "Vinculació per executar l'eina de cerca."
+msgstr "Vinculació per executar l'eina de busca."
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:31
 msgid "Stop playback"
-msgstr "Para la reproducció"
+msgstr "Atura la reproducció"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:32
 msgid "Binding to stop playback."
-msgstr "Vinculació per parar la reproducció."
+msgstr "Vinculació per aturar la reproducció."
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:33
 msgid "Volume down"
@@ -685,11 +686,11 @@ msgstr "Vinculació per copiar una captura de pantalla d'una àrea al porta-reta
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:51
 msgid "Record a short video of the screen"
-msgstr "Enregistra un vídeo curt de la pantalla"
+msgstr "Grava un vídeo curt de la pantalla"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:52
 msgid "Binding to record a short video of the screen"
-msgstr ""
+msgstr "Vincula per registrar un vídeo curt de la pantalla"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:53
 msgid "Launch web browser"
@@ -765,13 +766,13 @@ msgstr "Vinculació perquè l'ampliador reduïsca"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:71
 msgid "Maximum length of screen recordings"
-msgstr ""
+msgstr "Longitud màxima dels enregistraments digitals de la pantalla"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:72
 msgid ""
 "The maximum length of single screen cast recordings in seconds or 0 for "
 "unlimited"
-msgstr ""
+msgstr "La longitud màxima de l'gravació\t digital de la pantalla en segons o 0 per sense límit"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:73
 msgid "Name"
@@ -799,69 +800,69 @@ msgstr "Orde a executar quan s'invoqui la vinculació"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:1
 msgid "The brightness of the screen when idle"
-msgstr ""
+msgstr "La brillantor de la pantalla quan estiga inactiva"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:2
 msgid ""
 "This is the laptop panel screen brightness used when the session is idle."
-msgstr ""
+msgstr "Esta és la brillantor de la pantalla de l'ordinador portàtil al panell que s'utilitza quan la sessió està inactiva."
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:3
 msgid "Dim the screen after a period of inactivity"
-msgstr ""
+msgstr "Atenua la pantalla després d'un període d'inactivitat"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:4
 msgid ""
 "If the screen should be dimmed to save power when the computer is idle."
-msgstr ""
+msgstr "Si la pantalla ha de ser atenuada per estalviar energia quan l'ordinador està inactiu."
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:5
 msgid "Sleep timeout computer when on AC"
-msgstr ""
+msgstr "Temps d'espera per dormir de l'ordinador quan està engegat a la xarxa elèctrica"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:6
 msgid ""
 "The amount of time in seconds the computer on AC power needs to be inactive "
 "before it goes to sleep. A value of 0 means never."
-msgstr ""
+msgstr "La quantitat de temps en segons que un ordinador connectat a la xarxa elèctrica necessita per passar a inactiu. Un valor de 0 vol dir mai."
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:7
 msgid "Whether to hibernate, suspend or do nothing when inactive"
-msgstr ""
+msgstr "Si hibernar, suspendre o no fer res quan està inactiu"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:8
 msgid ""
 "The type of sleeping that should be performed when the computer is inactive."
-msgstr ""
+msgstr "El tipus de descans que ha de fer l'ordinador quan està inactiu."
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:9
 msgid "Sleep timeout computer when on battery"
-msgstr ""
+msgstr "Temps d'espera per dormir de l'ordinador quan està amb bateria"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:10
 msgid ""
 "The amount of time in seconds the computer on battery power needs to be "
 "inactive before it goes to sleep. A value of 0 means never."
-msgstr ""
+msgstr "La quantitat de temps en segons que un ordinador connectat a la bateria necessita per passar a inactiu. Un valor de 0 vol dir mai."
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:11
 msgid "Enable the ALS sensor"
-msgstr ""
+msgstr "Habilita el sensor de llums ambientals"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:12
 msgid "If the ambient light sensor functionality is enabled."
-msgstr ""
+msgstr "Si la funcionalitat del sensor de llum ambiental està habilitada."
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:13
 msgid "Power button action"
-msgstr ""
+msgstr "Acció del botó d'arrencada"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:14
 msgid ""
 "The action to take when the system power button is pressed. This action is "
 "hard-coded (and the setting ignored) on virtual machines (power off) and "
 "tablets (suspend)."
-msgstr ""
+msgstr "L'acció a realitzar quan es pressiona el botó d'engegada del sistema. Esta acció està codificada en el codi font (i la configuració ignorada) en màquines virtuals (apagat) i tauletes (suspensió)."
 
 #: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:1
 msgid "On which connections the service is enabled"
@@ -882,7 +883,7 @@ msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing,"
 " and “rgba” for subpixel antialiasing (LCD screens only)."
-msgstr ""
+msgstr "El tipus de suavitzat que s'utilitzarà per mostrar els tipus de lletra. Els valors possibles són: «none» (cap) per no aplicar cap suavitzat, «grayscale» (escala de grisos) per a suavitzat d'escala de grisos estàndard i «RGBA» per a suavitzat de subpíxel (només per a pantalles LCD)."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
 msgid "Hinting"
@@ -900,7 +901,7 @@ msgid ""
 "(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
-msgstr ""
+msgstr "El tipus d'optimització a usar quan es representen els tipus de lletres. Els valors possibles són: «cap» per cap optimització i «lleuger» per ajustar-se només a l'eix Y, com  ClearType, DirectWrite i el motor de renderització propietari de fonts d'Adobe. Ignora l'optimitzat natiu dins de la font, genera optimitzats algorítmics. Usat a Ubuntu per defecte. Recomanat. El significat de \"mitjà\" i \"complet\" depèn del format de lletra (.ttf, .otf, .pfa / .pfb) i la versió instal·lada de FreeType. Estos solen tractar d'ajustar glifs tant a l'eix X com a l'eix Y (excepte per .otf: Y-only). Això pot provocar una distorsió i / o una renderització incoherent en funció de la qualitat de la font, el format de la font i l'estat dels motors de fonts de FreeType."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
 msgid "RGBA order"
@@ -911,7 +912,7 @@ msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing"
 " is set to “rgba”. Possible values are: “rgb” for red on left (most common),"
 " “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
-msgstr ""
+msgstr "L'orde dels elements de subpíxel d'una pantalla LCD. Només s'utilitza si el suavitzat és «RGBA». Els valors possibles són: «RGB» per al roig (R) a l'esquerra (el més comú), «BGR» per al blau (B) a l'esquerra, «VRGB» per al roig a dalt, «VBGR» per al roig a baix."
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:7
 msgid "List of explicitly disabled GTK+ modules"
@@ -935,14 +936,14 @@ msgstr "Una llista de cadenes que representen els mòduls de la GTK+ que es carr
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:11
 msgid "A dictionary of XSETTINGS to override"
-msgstr ""
+msgstr "Un diccionari de XSETTINGS per sobreescriure"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:12
 msgid ""
 "This dictionary maps XSETTINGS names to overrides values. The values must be"
 " either strings, signed int32s or (in the case of colors), 4-tuples of "
 "uint16 (red, green, blue, alpha; 65535 is fully opaque)."
-msgstr ""
+msgstr "Este diccionari assigna els noms de XSETTINGS per sobreescriure els valors. Els valors han de ser cadenes, int32s signades o (en el cas dels colors), 4-tuples d'uint16 (roig, verd, blau, alfa; 65535 és totalment opac)."
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:398
 msgid "Slow Keys Turned On"
@@ -1022,13 +1023,13 @@ msgstr "Cal tornar a calibrar"
 #: ../plugins/color/gsd-color-calibrate.c:199
 #, c-format
 msgid "The display “%s” should be recalibrated soon."
-msgstr ""
+msgstr "S'hauria de tornar a calibrar la pantalla «%s» al més prompte possible."
 
 #. TRANSLATORS: this is when the printer has not been recalibrated in a while
 #: ../plugins/color/gsd-color-calibrate.c:208
 #, c-format
 msgid "The printer “%s” should be recalibrated soon."
-msgstr ""
+msgstr "S'hauria de tornar a calibrar la impressora «%s» al més prompte possible."
 
 #. TRANSLATORS: this is the application name
 #: ../plugins/color/gsd-color-calibrate.c:346
@@ -1103,23 +1104,23 @@ msgstr ""
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:2239
 msgid "Bluetooth disabled"
-msgstr ""
+msgstr "Bluetooth inhabilitat"
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:2242
 msgid "Bluetooth enabled"
-msgstr ""
+msgstr "Bluetooth habilitat"
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:2246
 msgid "Airplane mode enabled"
-msgstr ""
+msgstr "Mode avió habilitat"
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:2249
 msgid "Airplane mode disabled"
-msgstr ""
+msgstr "Mode avió inhabilitat"
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:2277
 msgid "Hardware Airplane Mode"
-msgstr ""
+msgstr "Mode d'avió del maquinari"
 
 #. Translators: this is a filename used for screencast
 #. * recording, where "%d" and "%t" date and time, e.g.
@@ -1204,11 +1205,11 @@ msgstr "Apuja el volum"
 
 #: ../plugins/media-keys/shortcuts-list.h:56
 msgid "Precise Volume Down"
-msgstr ""
+msgstr "Abaixa el volum precís"
 
 #: ../plugins/media-keys/shortcuts-list.h:57
 msgid "Precise Volume Up"
-msgstr ""
+msgstr "Apuja el volum precís"
 
 #: ../plugins/media-keys/shortcuts-list.h:67
 msgid "Lock Screen"
@@ -1216,7 +1217,7 @@ msgstr "Bloca la pantalla"
 
 #: ../plugins/media-keys/shortcuts-list.h:69
 msgid "Help"
-msgstr ""
+msgstr "Ajuda"
 
 #: ../plugins/media-keys/shortcuts-list.h:83
 msgid "Rewind"
@@ -1236,7 +1237,7 @@ msgstr "Reproducció aleatòria"
 
 #: ../plugins/media-keys/shortcuts-list.h:87
 msgid "Orientation Lock"
-msgstr "Bloca la orientació"
+msgstr "Bloca l'orientació"
 
 #: ../plugins/media-keys/shortcuts-list.h:96
 msgid "Power Off"
@@ -1251,7 +1252,7 @@ msgstr "Adorm"
 
 #: ../plugins/media-keys/shortcuts-list.h:100
 msgid "Suspend"
-msgstr "Para temporalment"
+msgstr "Atura temporalment"
 
 #: ../plugins/media-keys/shortcuts-list.h:101
 msgid "Hibernate"
@@ -1285,11 +1286,11 @@ msgstr "Estat de la bateria"
 #: ../plugins/media-keys/shortcuts-list.h:109
 #: ../plugins/media-keys/shortcuts-list.h:110
 msgid "Toggle Airplane Mode"
-msgstr ""
+msgstr "Commuta el mode d'avió"
 
 #: ../plugins/media-keys/shortcuts-list.h:111
 msgid "Toggle Bluetooth"
-msgstr ""
+msgstr "Commuta el Bluetooth"
 
 #: ../plugins/power/gpm-common.c:101
 msgid "Unknown time"
@@ -1500,7 +1501,7 @@ msgstr "L'ordinador hibernarà d'ací poc si no el connecteu."
 #: ../plugins/power/gsd-power-manager.c:579
 #, c-format
 msgid "Computer will shutdown very soon unless it is plugged in."
-msgstr "L'ordinador es pararà d'ací poc si no el connecteu."
+msgstr "L'ordinador s'aturarà d'ací poc si no el connecteu."
 
 #. TRANSLATORS: the UPS is very low
 #. TRANSLATORS: UPS is really, really, low
@@ -1539,7 +1540,7 @@ msgstr "El teclat sense fil té molt poca bateria (%.0f%%). Este dispositiu deix
 msgid ""
 "PDA is very low in power (%.0f%%). This device will soon stop functioning if"
 " not charged."
-msgstr "LA PDA té molt poca bateria (%.0f%%). Este dispositiu deixarà de funcionar d'ací poc si no es carrega."
+msgstr "La PDA té molt poca bateria (%.0f%%). Este dispositiu deixarà de funcionar d'ací poc si no es carrega."
 
 #. TRANSLATORS: the device is just going to stop working
 #: ../plugins/power/gsd-power-manager.c:629
@@ -1585,7 +1586,7 @@ msgstr "La bateria està per sota del nivell crític i l'ordinador està a punt 
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "shutdown."
-msgstr "La bateria està per sota del nivell crític i l'ordinador està a punt d'parar-se."
+msgstr "La bateria està per sota del nivell crític i l'ordinador està a punt d'aturar-se."
 
 #. TRANSLATORS: computer will hibernate
 #: ../plugins/power/gsd-power-manager.c:746
@@ -1597,7 +1598,7 @@ msgstr "El SAI està per sota del nivell crític i l'ordinador està a punt d'hi
 #: ../plugins/power/gsd-power-manager.c:751
 msgid ""
 "UPS is below the critical level and this computer is about to shutdown."
-msgstr "La bateria està per sota del nivell crític i l'ordinador està a punt d'parar-se."
+msgstr "La bateria està per sota del nivell crític i l'ordinador està a punt d'aturar-se."
 
 #. TRANSLATORS: this is the sound description
 #: ../plugins/power/gsd-power-manager.c:1270
@@ -1617,7 +1618,7 @@ msgstr "Quan s'utilitze la bateria"
 #. TRANSLATORS: this is the sound description
 #: ../plugins/power/gsd-power-manager.c:1947
 msgid "On AC power"
-msgstr "Quan s'utilitze la corrent"
+msgstr "Quan s'utilitze el corrent"
 
 #: ../plugins/power/gsd-power-manager.c:2139
 msgid "Automatic logout"
@@ -1629,12 +1630,12 @@ msgstr "Es tancarà la sessió d'ací poc perquè no s'utilitza."
 
 #: ../plugins/power/gsd-power-manager.c:2144
 msgid "Automatic suspend"
-msgstr "Para temporalment automàticament"
+msgstr "Atura temporalment automàticament"
 
 #: ../plugins/power/gsd-power-manager.c:2144
 #: ../plugins/power/gsd-power-manager.c:2149
 msgid "Computer will suspend very soon because of inactivity."
-msgstr "Es pararà l'ordinador temporalment d'ací poc perquè no s'utilitza."
+msgstr "S'aturarà l'ordinador temporalment d'ací poc perquè no s'utilitza."
 
 #: ../plugins/power/gsd-power-manager.c:2149
 msgid "Automatic hibernation"
@@ -1659,12 +1660,12 @@ msgstr "S'està configurant la impressora nova"
 #. Translators: Just wait
 #: ../plugins/print-notifications/gsd-printer.c:892
 msgid "Please wait…"
-msgstr ""
+msgstr "Espereu…"
 
 #. Translators: We have no driver installed for this printer
 #: ../plugins/print-notifications/gsd-printer.c:919
 msgid "Missing printer driver"
-msgstr "Manca el controlador de la impressora"
+msgstr "Falta el controlador de la impressora"
 
 #. Translators: We have no driver installed for the device
 #: ../plugins/print-notifications/gsd-printer.c:928
@@ -1689,81 +1690,81 @@ msgstr "Impressores"
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:346
 #, c-format
 msgid "Printer “%s” is low on toner."
-msgstr ""
+msgstr "La impressora «%s» té poc tòner."
 
 #. Translators: The printer has no toner left (same as in system-config-
 #. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:350
 #, c-format
 msgid "Printer “%s” has no toner left."
-msgstr ""
+msgstr "La impressora «%s» no té tòner."
 
 #. Translators: The printer is in the process of connecting to a shared
 #. network output device (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:354
 #, c-format
 msgid "Printer “%s” may not be connected."
-msgstr ""
+msgstr "Pot ser que la impressora «%s» no estiga connectada."
 
 #. Translators: One or more covers on the printer are open (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:358
 #, c-format
 msgid "The cover is open on printer “%s”."
-msgstr ""
+msgstr "La impressora «%s» té la tapa oberta."
 
 #. Translators: A filter or backend is not installed (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:362
 #, c-format
 msgid "There is a missing print filter for printer “%s”."
-msgstr ""
+msgstr "Falta un filtre d'impressió per a la impressora «%s»."
 
 #. Translators: One or more doors on the printer are open (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:367
 #, c-format
 msgid "The door is open on printer “%s”."
-msgstr ""
+msgstr "La impressora «%s» té la porta oberta."
 
 #. Translators: "marker" is one color bin of the printer
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:371
 #, c-format
 msgid "Printer “%s” is low on a marker supply."
-msgstr ""
+msgstr "La impressora «%s» té poc subministrament en un marcador."
 
 #. Translators: "marker" is one color bin of the printer
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:375
 #, c-format
 msgid "Printer “%s” is out of a marker supply."
-msgstr ""
+msgstr "La impressora «%s» no té subministrament en un marcador."
 
 #. Translators: At least one input tray is low on media (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:379
 #, c-format
 msgid "Printer “%s” is low on paper."
-msgstr ""
+msgstr "La impressora «%s» té poc paper."
 
 #. Translators: At least one input tray is empty (same as in system-config-
 #. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:383
 #, c-format
 msgid "Printer “%s” is out of paper."
-msgstr ""
+msgstr "La impressora «%s» no té paper."
 
 #. Translators: The printer is offline (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:387
 #, c-format
 msgid "Printer “%s” is currently off-line."
-msgstr ""
+msgstr "La impressora «%s» està fora de línia."
 
 #. Translators: The printer has detected an error (same as in system-config-
 #. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:391
 #, c-format
 msgid "There is a problem on printer “%s”."
-msgstr ""
+msgstr "Hi ha un problema amb la impressora «%s»."
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:439
@@ -1845,7 +1846,7 @@ msgstr "S'ha afegit la impressora"
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:564
 msgctxt "print job state"
 msgid "Printing stopped"
-msgstr "S'ha parat la impressió"
+msgstr "S'ha aturat la impressió"
 
 #. Translators: "print-job xy" on a printer
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:528
@@ -1861,7 +1862,7 @@ msgstr "S'ha parat la impressió"
 #, c-format
 msgctxt "print job"
 msgid "“%s” on %s"
-msgstr ""
+msgstr "«%s» a %s"
 
 #. Translators: A print job has been canceled
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:532
@@ -1906,11 +1907,11 @@ msgstr "Avís de la impressora"
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:831
 #, c-format
 msgid "Printer “%s”: “%s”."
-msgstr ""
+msgstr "Impressora «%s»: «%s»."
 
 #: ../plugins/smartcard/gsd-smartcard-service.c:224
 msgid "User was not logged in with smartcard."
-msgstr "L'usuari no ha accedit amb una targeta intel·ligent"
+msgstr "L'usuari no ha accedit amb una targeta intel·ligent."
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission

@@ -13,12 +13,13 @@
 # Mingcong Bai <jeffbai@aosc.xyz>, 2016
 # Lele Long <schemacs@gmail.com>, 2011
 # liuzhen1191 <liuzhen1191@gmail.com>, 2011
+# Mingcong Bai <jeffbai@aosc.xyz>, 2016-2017
 # Mingye Wang <arthur2e5@aosc.xyz>, 2015
 # Roddy Shuler <roddy@endlessm.com>, 2017
 # Sun G11n <gnome_int_l10n@ireland.sun.com>, 2002
 # Tao Wang <dancefire@gmail.com>, 2010
 # Tao Wei <weitao1979@gmail.com>, 2009
-# Tong Hui <tonghuix@gmail.com>, 2014
+# Tong Hui <tonghuix@gmail.com>, 2014,2017
 # vicwjb <vicwjb@gmail.com>, 2010
 # Wylmer Wang <wantinghard@gmail.com>, 2011,2013
 # YunQiang Su <wzssyqa@gmail.com>, 2011-2012
@@ -30,7 +31,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 12:50-0700\n"
-"PO-Revision-Date: 2018-04-19 19:53+0000\n"
+"PO-Revision-Date: 2018-04-19 20:03+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/endless-os/gnome-settings-daemon/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -51,33 +52,33 @@ msgstr "设置为“none”、“lock_screen”或“force_logout”之一。 �
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:3
 msgid "Possible values are “on”, “off”, and “custom”."
-msgstr ""
+msgstr "可用的值为“on”，“off”及“custom”。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:4
 msgid "Keyboard Bell Custom Filename"
-msgstr ""
+msgstr "自定义键盘响铃文件"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:5
 msgid "File name of the bell sound to be played."
-msgstr ""
+msgstr "要播放的响铃声音文件名。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:6
 msgid "Remember NumLock state"
-msgstr ""
+msgstr "记住 NumLock 状态"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:7
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
-msgstr ""
+msgstr "当设为 true 时，GNOME 会在会话之间记住 NumLock LED 的状态。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:8
 msgid "NumLock state"
-msgstr ""
+msgstr "NumLock 状态"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:9
 msgid "The remembered state of the NumLock LED."
-msgstr ""
+msgstr "要记住的 NumLock LED 状态。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:10
 msgid ""
@@ -107,126 +108,126 @@ msgstr "是锁定数位板的方向，还是自动旋转。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:16
 msgid "Mouse button orientation"
-msgstr ""
+msgstr "鼠标键方向"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:17
 msgid "Swap left and right mouse buttons for left-handed mice."
-msgstr ""
+msgstr "在左撇子鼠标上交换左右鼠标键。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:18
 msgid "Single Click"
-msgstr ""
+msgstr "单击"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:19
 msgid ""
 "Acceleration multiplier for mouse motion. A value of -1 is the system "
 "default."
-msgstr ""
+msgstr "鼠标运动的加速乘数。-1 为系统默认值。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:20
 msgid "Motion Threshold"
-msgstr ""
+msgstr "触发加速的最小距离"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:21
 msgid ""
 "Distance in pixels the pointer must move before accelerated mouse motion is "
 "activated. A value of -1 is the system default."
-msgstr ""
+msgstr "按像素计算的触发鼠标加速运动的最小距离。-1 为系统默认值。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:22
 msgid "Middle button emulation"
-msgstr ""
+msgstr "中键模拟"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:23
 msgid ""
 "Enables middle mouse button emulation through simultaneous left and right "
 "button click."
-msgstr ""
+msgstr "启用通过同时点击左键和右键来模拟中键。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:24
 msgid "Key Repeat Interval"
-msgstr ""
+msgstr "键位重复间隔"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:25
 msgid "Delay between repeats in milliseconds."
-msgstr ""
+msgstr "按毫秒计算的键位重复间的间隔。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:26
 msgid "Initial Key Repeat Delay"
-msgstr ""
+msgstr "初始键位重复间隔"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:27
 msgid "Initial key repeat delay in milliseconds."
-msgstr ""
+msgstr "按毫秒计算的初始键位重复间隔。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:28
 msgid "Disable touchpad while typing"
-msgstr ""
+msgstr "在输入时禁用触摸板"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:29
 msgid ""
 "Set this to TRUE if you have problems with accidentally hitting the touchpad"
 " while typing."
-msgstr ""
+msgstr "如果您打字时会因偶尔会碰到触摸板而造成麻烦，将其设置为真(TRUE)。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:30
 msgid "Enable horizontal scrolling"
-msgstr ""
+msgstr "启用水平滚动"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:31
 msgid ""
 "Set this to TRUE to allow horizontal scrolling by the same method selected "
 "with the scroll_method key."
-msgstr ""
+msgstr "设置为真(TRUE)，即启用水平卷页且使用与 scroll_method 键值选定的同种方式。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:32
 msgid "Select the touchpad scroll method"
-msgstr ""
+msgstr "选择触摸板滚动模式"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:33
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
-msgstr ""
+msgstr "选择触摸板滚动模式。支持的值有：“disabled”(禁用)，“edge-scrolling”(边界滚动)，“two-finger-scrolling”(双指滚动)。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:34
 msgid "Enable mouse clicks with touchpad"
-msgstr ""
+msgstr "启用触摸板的鼠标点击功能"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:35
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
-msgstr ""
+msgstr "设置为真(TRUE)，即可在轻敲触摸板时发送鼠标点击信息。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:36
 msgid "Enable touchpad"
-msgstr ""
+msgstr "启用触摸板"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:37
 msgid "Set this to TRUE to enable all touchpads."
-msgstr ""
+msgstr "设置为真(TRUE)启用所有触摸板"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:38
 msgid "Touchpad button orientation"
-msgstr ""
+msgstr "触摸板按键方向"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:39
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
-msgstr ""
+msgstr "设定“left”值以为左撇子鼠标交换左右鼠标按钮，为右撇子鼠标设定“right”值，设定“mouse”值以跟随鼠标设置。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:40
 msgid "Natural scrolling"
-msgstr ""
+msgstr "自然滚动"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:41
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
-msgstr ""
+msgstr "将此值设置为 TRUE 以为触摸板启用自然（反向）滚动。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:42
 msgid "Mouse wheel emulation button. 0 to disable the feature."
-msgstr ""
+msgstr "鼠标滚轮模拟键。设定 0 值以关闭此特性。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
 msgid "Wacom stylus absolute mode"
@@ -262,7 +263,7 @@ msgstr "Wacom 的数位板旋转"
 msgid ""
 "Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and"
 " “ccw” for 90 degree counterclockwise."
-msgstr "可以设置为“nono”,“cw”(顺时针 90 度)，“half”(180 度)，和“ccw”(逆时针90度)。"
+msgstr "可以设置为“nono”,“cw”（顺时针 90 度），“half”（180 度），和“ccw”（逆时针90度）。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:9
 msgid "Wacom touch feature"
@@ -380,23 +381,23 @@ msgstr "这是将打印机配置视为无效之前的持续天数。"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:5
 msgid "If the night light mode is enabled"
-msgstr "如果启用夜灯模式"
+msgstr "夜光模式是否已启用"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:6
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at present times."
-msgstr "夜灯模式会在日落或当前时间改变显示屏的色温。"
+msgstr "夜光模式可以根据太阳位置或当前时间修改您显示器的色温。"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:7
 msgid "Temperature of the display when enabled"
-msgstr "启用后显示屏的温度"
+msgstr "显示器的色温模式启用时"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:8
 msgid ""
 "This temperature in Kelvin is used to modify the screen tones when night "
 "light mode is enabled. Higher values are bluer, lower redder."
-msgstr "启用夜灯模式后，此温度（以开尔文为单位）用于修改屏幕色调。值越高越蓝，值越低越红。"
+msgstr "当夜光模式启用时，以开尔文表示的色温用来修改屏幕色调。数值越高蓝光量越多，反只红光量越多。"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:9
 msgid "Use the sunrise and sunset"
@@ -406,7 +407,7 @@ msgstr "使用日出和日落"
 msgid ""
 "Calculate the sunrise and sunset times automatically, from the current "
 "location."
-msgstr "从当前位置自动计算日出和日落时间。"
+msgstr "根据当前位置自动计算日出和日落。"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:11
 msgid "The start time"
@@ -416,7 +417,7 @@ msgstr "开始时间"
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this start time in "
 "hours from midnight."
-msgstr "启用“夜灯时间表自动”后，请从午夜使用此开始时间（以小时为单位）。"
+msgstr "禁用“night-light-schedule-automatic”时，使用此距离午夜的小时数作为开始时间。"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:13
 msgid "The end time"
@@ -426,18 +427,18 @@ msgstr "结束时间"
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this end time in "
 "hours from midnight."
-msgstr "禁用“夜灯时间表自动”后，请从午夜使用此结束时间（以小时为单位）。"
+msgstr "禁用“night-light-schedule-automatic”时，使用此距离午夜的小时数作为结束时间。"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:15
 msgid "The last detected position"
-msgstr "最后检测到的位置"
+msgstr "最后定位点"
 
 #: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:16
 msgid ""
 "When location services are available this represents the last detected "
 "location. The default value is an invalid value to ensure it is always "
 "updated at startup."
-msgstr "当定位服务可用时，这表示最后检测到的位置。默认值为无效值，以确保始终在启动时更新。"
+msgstr "定位服务启用时当前最后一次获取到的位置。默认是一个无效值以保证总是会在启动时更新。"
 
 #: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:1
 msgid "List of plugins that are allowed to be loaded"
@@ -447,7 +448,7 @@ msgstr "允许加载的插件列表"
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: “all”). This is only evaluated on startup."
-msgstr "表示允许加载的插件的字符串列表（默认值为“all”）。这仅在启动时进行评估。"
+msgstr "一个代表允许加载插件的字符串列表（默认为“all”）。启动时才会检查此列表。"
 
 #: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:1
 msgid "Mount paths to ignore"
@@ -703,7 +704,7 @@ msgstr "录制屏幕操作的短视频"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:52
 msgid "Binding to record a short video of the screen"
-msgstr ""
+msgstr "录制屏幕短视频的组合键绑定"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:53
 msgid "Launch web browser"
@@ -779,13 +780,13 @@ msgstr "屏幕放大镜进行缩小的键绑定"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:71
 msgid "Maximum length of screen recordings"
-msgstr ""
+msgstr "屏幕录制的最大长度"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:72
 msgid ""
 "The maximum length of single screen cast recordings in seconds or 0 for "
 "unlimited"
-msgstr ""
+msgstr "按秒计算的屏幕录制的最大长度，设置为 0 以取消限制"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:73
 msgid "Name"
@@ -813,69 +814,69 @@ msgstr "触发此绑定时运行的命令。"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:1
 msgid "The brightness of the screen when idle"
-msgstr ""
+msgstr "空闲时的屏幕亮度。"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:2
 msgid ""
 "This is the laptop panel screen brightness used when the session is idle."
-msgstr ""
+msgstr "这是会话空闲时笔记本电脑屏幕使用的亮度。"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:3
 msgid "Dim the screen after a period of inactivity"
-msgstr ""
+msgstr "在空闲一段时间后黯淡屏幕"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:4
 msgid ""
 "If the screen should be dimmed to save power when the computer is idle."
-msgstr ""
+msgstr "是否在电脑空闲时黯淡屏幕以节省能源。"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:5
 msgid "Sleep timeout computer when on AC"
-msgstr ""
+msgstr "电脑插入交流电时的睡眠超时"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:6
 msgid ""
 "The amount of time in seconds the computer on AC power needs to be inactive "
 "before it goes to sleep. A value of 0 means never."
-msgstr ""
+msgstr "按秒计算的，电脑插入交流电后进入睡眠状态之前的空闲时长。0 值意味着永远不睡眠。"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:7
 msgid "Whether to hibernate, suspend or do nothing when inactive"
-msgstr ""
+msgstr "空闲时休眠，挂起或不作任何操作"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:8
 msgid ""
 "The type of sleeping that should be performed when the computer is inactive."
-msgstr ""
+msgstr "电脑空闲时采用的睡眠类型。"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:9
 msgid "Sleep timeout computer when on battery"
-msgstr ""
+msgstr "电脑使用电池电源时的睡眠超时"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:10
 msgid ""
 "The amount of time in seconds the computer on battery power needs to be "
 "inactive before it goes to sleep. A value of 0 means never."
-msgstr ""
+msgstr "按秒计算的，电脑使用电池时进入睡眠状态之前的空闲时长。0 值意味着永远不睡眠。"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:11
 msgid "Enable the ALS sensor"
-msgstr ""
+msgstr "启用 ALS 感应器"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:12
 msgid "If the ambient light sensor functionality is enabled."
-msgstr ""
+msgstr "是否启用环境光感应器。"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:13
 msgid "Power button action"
-msgstr ""
+msgstr "电源按钮动作"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:14
 msgid ""
 "The action to take when the system power button is pressed. This action is "
 "hard-coded (and the setting ignored) on virtual machines (power off) and "
 "tablets (suspend)."
-msgstr ""
+msgstr "按下系统电源按钮时进行的动作。该动作在虚拟机和平板电脑上是硬编码的（分别为关机和挂起）。"
 
 #: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:1
 msgid "On which connections the service is enabled"
@@ -896,7 +897,7 @@ msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing,"
 " and “rgba” for subpixel antialiasing (LCD screens only)."
-msgstr "绘制字形时使用的反锯齿类型。可能的设定有：“无” - 无反锯齿。“灰度” - 标准灰度反锯齿。“rgba” - 次像素反锯齿 (LCD 屏幕专用)。"
+msgstr "绘制字体时使用的反锯齿类型。可能的设定有：“none”无反锯齿。“grayscale”标准灰度反锯齿。“rgba”次像素反锯齿（LCD 屏幕专用）。"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
 msgid "Hinting"
@@ -914,7 +915,7 @@ msgid ""
 "(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
-msgstr "渲染字体时所使用的字形微调设置。可能的数值有：none 表示无微调。slight 表示仅将字形对齐到 Y 轴，就像微软 ClearType、DirectWrite 和 Adobe 的专有渲染引擎一样。这将忽略字体内部的微调信息，直接使用自动算法进行微调。Ubuntu 默认使用这个设置，推荐。medium 和 full 的含义取决于字体格式 (.ttf, .otf, .pfa/.pfb) 和已安装的 FreeType 版本。这两者一般尝试将字符图形同时对齐到 X Y 两个方向（otf 只对齐到 Y）。这可能会导致混乱和/或不一致的渲染，取决于字体质量、字体格式和 FreeType 引擎的状态。"
+msgstr "渲染字体时要使用的微调设置。可能的数值有：“none”表示无微调。“slight”表示仅将字形对齐到 Y 轴，就像微软 ClearType、DirectWrite 和 Adobe 的专有字体渲染引擎一样。这将忽略字体内部的微调信息，直接使用自动算法进行微调。Ubuntu 默认使用这个设置，推荐使用这个设置。“medium”和“full”的含义取决于字体格式 (.ttf、.otf、.pfa 或 .pfb) 和已安装的 FreeType 版本。这两者一般尝试将字符图形同时对齐到 X 和 Y 轴（.otf 只对齐到 Y 轴）。这可能会导致混乱和/或不一致的渲染，取决于字体质量、字体格式和 FreeType 引擎的状态。"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
 msgid "RGBA order"
@@ -925,7 +926,7 @@ msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing"
 " is set to “rgba”. Possible values are: “rgb” for red on left (most common),"
 " “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
-msgstr "LCD 屏幕上次像素的顺序；仅在反锯齿设为“rgba”时有用。可能的设定值有：“rgb” - 红色在左侧，最常见设置。“bgr” - 蓝色在左侧。“vrgb” - 红色在上端。“vbgr” - 红色在底部。"
+msgstr "LCD 屏幕上次像素的顺序；仅在反锯齿设为“rgba”时有用。可能的设定值有：“rgb”红色在左侧（最常见设置）。“bgr”蓝色在左侧。“vrgb”红色在上端。“vbgr”红色在底部。"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:7
 msgid "List of explicitly disabled GTK+ modules"
@@ -949,14 +950,14 @@ msgstr "代表将加载的 GTK+ 模块的字符串列表，通常加上有条件
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:11
 msgid "A dictionary of XSETTINGS to override"
-msgstr ""
+msgstr "要覆盖的 XSETTINGS 字典"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:12
 msgid ""
 "This dictionary maps XSETTINGS names to overrides values. The values must be"
 " either strings, signed int32s or (in the case of colors), 4-tuples of "
 "uint16 (red, green, blue, alpha; 65535 is fully opaque)."
-msgstr ""
+msgstr "该字典用于映射需要覆盖的 XSETTINGS 为指定值。该值必须为字符串，signed int32 或 uint16 的四组数（用于颜色，分别对应红、绿、蓝、Alpha；Alpha 值为 65535 时表示不透明）。"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:398
 msgid "Slow Keys Turned On"
@@ -1216,11 +1217,11 @@ msgstr "安静 音量升高"
 
 #: ../plugins/media-keys/shortcuts-list.h:56
 msgid "Precise Volume Down"
-msgstr ""
+msgstr "精确音量降低"
 
 #: ../plugins/media-keys/shortcuts-list.h:57
 msgid "Precise Volume Up"
-msgstr ""
+msgstr "精确音量升高"
 
 #: ../plugins/media-keys/shortcuts-list.h:67
 msgid "Lock Screen"
@@ -1697,14 +1698,14 @@ msgstr "打印机"
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:346
 #, c-format
 msgid "Printer “%s” is low on toner."
-msgstr "打印机“%s”墨已不多。"
+msgstr "打印机“%s”的墨粉已不多。"
 
 #. Translators: The printer has no toner left (same as in system-config-
 #. printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:350
 #, c-format
 msgid "Printer “%s” has no toner left."
-msgstr "打印机“%s”已经无墨。"
+msgstr "打印机“%s”已经无墨粉。"
 
 #. Translators: The printer is in the process of connecting to a shared
 #. network output device (same as in system-config-printer)
@@ -1718,21 +1719,21 @@ msgstr "打印机“%s”可能没有连接。"
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:358
 #, c-format
 msgid "The cover is open on printer “%s”."
-msgstr "打印机“%s”机盖处于打开状态。"
+msgstr "打印机“%s”的机盖处于打开状态。"
 
 #. Translators: A filter or backend is not installed (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:362
 #, c-format
 msgid "There is a missing print filter for printer “%s”."
-msgstr "打印机 “%s” 打印过滤功能缺失。"
+msgstr "打印机“%s”的打印过滤功能缺失。"
 
 #. Translators: One or more doors on the printer are open (same as in system-
 #. config-printer)
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:367
 #, c-format
 msgid "The door is open on printer “%s”."
-msgstr "打印机“%s”机盖处于打开状态。"
+msgstr "打印机“%s”的机盖处于打开状态。"
 
 #. Translators: "marker" is one color bin of the printer
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:371
@@ -1751,7 +1752,7 @@ msgstr "打印机“%s”标记墨已用完。"
 #: ../plugins/print-notifications/gsd-print-notifications-manager.c:379
 #, c-format
 msgid "Printer “%s” is low on paper."
-msgstr "打印机“%s”纸张量少。"
+msgstr "打印机“%s”的纸张量少。"
 
 #. Translators: At least one input tray is empty (same as in system-config-
 #. printer)
