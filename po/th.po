@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 12:50-0700\n"
-"PO-Revision-Date: 2018-04-19 20:02+0000\n"
+"PO-Revision-Date: 2018-04-30 06:16+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Thai (http://www.transifex.com/endless-os/gnome-settings-daemon/language/th/)\n"
 "MIME-Version: 1.0\n"
@@ -35,33 +35,33 @@ msgstr "กำหนดคีย์นี้เป็นค่า \"none\" (ไ�
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:3
 msgid "Possible values are “on”, “off”, and “custom”."
-msgstr ""
+msgstr "ค่าที่เลือกได้ ได้แก่ \"เปิด\" \"ปิด\" และ \"กำหนดเอง\""
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:4
 msgid "Keyboard Bell Custom Filename"
-msgstr ""
+msgstr "ชื่อไฟล์กำหนดเองด้วยรหัสเบลล์แป้นพิมพ์"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:5
 msgid "File name of the bell sound to be played."
-msgstr ""
+msgstr "ชื่อไฟล์ของเสียงกระดิ่งที่จะเล่น"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:6
 msgid "Remember NumLock state"
-msgstr ""
+msgstr "จดจำสถานะ NumLock"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:7
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
-msgstr ""
+msgstr "เมื่อตั้งค่าเป็นจริง GNOME จะจดจำสถานะของ NumLock LED ระหว่างเซสชันต่างๆ"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:8
 msgid "NumLock state"
-msgstr ""
+msgstr "สถานะปุ่ม NumLock"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:9
 msgid "The remembered state of the NumLock LED."
-msgstr ""
+msgstr "สถานะที่จดจำไว้ของไฟ LED ปุ่ม NumLock"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:10
 msgid ""
@@ -91,31 +91,31 @@ msgstr "กำหนดว่าจะล็อคแนววางของแ
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:16
 msgid "Mouse button orientation"
-msgstr ""
+msgstr "การวางแนวปุ่มเมาส์"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:17
 msgid "Swap left and right mouse buttons for left-handed mice."
-msgstr ""
+msgstr "สลับปุ่มเมาส์ซ้ายขวาสำหรับเมาส์แบบถนัดซ้าย"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:18
 msgid "Single Click"
-msgstr ""
+msgstr "คลิกครั้งเดียว"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:19
 msgid ""
 "Acceleration multiplier for mouse motion. A value of -1 is the system "
 "default."
-msgstr ""
+msgstr "ตัวคูณการเร่งสำหรับการเคลื่อนไหวของเมาส์ ค่าเริ่มต้นของระบบคือ -1"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:20
 msgid "Motion Threshold"
-msgstr ""
+msgstr "ขีดจำกัดการเคลื่อนไหว"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:21
 msgid ""
 "Distance in pixels the pointer must move before accelerated mouse motion is "
 "activated. A value of -1 is the system default."
-msgstr ""
+msgstr "ระยะห่างเป็นพิกเซลที่ตัวชี้จะต้องเคลื่อนที่ก่อนทำการเร่งความเร็วการเคลื่อนไหวของเมาส์ ค่าเริ่มต้นของระบบคือ -1"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:22
 msgid "Middle button emulation"
@@ -129,19 +129,19 @@ msgstr "เปิดใช้การจำลองการกดปุ่ม
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:24
 msgid "Key Repeat Interval"
-msgstr ""
+msgstr "ช่วงห่างในการพิมพ์ซ้ำ"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:25
 msgid "Delay between repeats in milliseconds."
-msgstr ""
+msgstr "เกิดความล่าช้าระหว่างการทำซ้ำเป็นมิลลิวินาที"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:26
 msgid "Initial Key Repeat Delay"
-msgstr ""
+msgstr "ความล่าช้าในการทำซ้ำคีย์เริ่มต้น"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:27
 msgid "Initial key repeat delay in milliseconds."
-msgstr ""
+msgstr "ค่าหน่วงการพิมพ์ซ้ำเริ่มต้นในหน่วยมิลลิวินาที"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:28
 msgid "Disable touchpad while typing"
@@ -171,7 +171,7 @@ msgstr "เลือกวิธีการเลื่อนหน้าจอ
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
-msgstr ""
+msgstr "เลือกวิธีการเลื่อนทัชแพด ค่าที่รองรับ ได้แก่ \"ปิดใช้งาน\", \"เลื่อนที่ขอบ\", \"เลื่อนด้วย 2 นิ้ว\""
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:34
 msgid "Enable mouse clicks with touchpad"
@@ -192,25 +192,25 @@ msgstr "กำหนดค่านี้เป็น TRUE ถ้าต้อง
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:38
 msgid "Touchpad button orientation"
-msgstr ""
+msgstr "การวางแนวปุ่มแผงสัมผัส"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:39
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
-msgstr ""
+msgstr "สับเปลี่ยนปุ่มเมาส์ซ้ายและเมาส์ขวาสำหรับเมาส์ของผู้ที่ถนัดมือซ้ายด้วยค่า \"ซ้าย\", \"ขวา\" สำหรับผู้ที่ถนัดมือขวา, \"เมาส์\" เพื่อใช้ตามการตั้งค่าเมาส์"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:40
 msgid "Natural scrolling"
-msgstr ""
+msgstr "เลื่อนแบบธรรมชาติ"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:41
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
-msgstr ""
+msgstr "ตั้งค่านี้เป็น TRUE เพื่อใช้งานการเลื่อนดูแบบธรรมชาติ (ย้อนกลับ) สำหรับแผงสัมผัส"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:42
 msgid "Mouse wheel emulation button. 0 to disable the feature."
-msgstr ""
+msgstr "ปุ่มจำลองล้อเมาส์ ตั้งค่าเป็น 0 เพื่อปิดคุณสมบัตินี้"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
 msgid "Wacom stylus absolute mode"
@@ -687,7 +687,7 @@ msgstr "บันทึกวิดีโอหน้าจอแบบสั้
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:52
 msgid "Binding to record a short video of the screen"
-msgstr ""
+msgstr "การผูกเพื่อบันทึกวิดีโอสั้น ๆ ของหน้าจอ"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:53
 msgid "Launch web browser"
@@ -763,13 +763,13 @@ msgstr "ปุ่มลัดสำหรับซูมแว่นขยาย
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:71
 msgid "Maximum length of screen recordings"
-msgstr ""
+msgstr "ความยาวสูงสุดสำหรับการบันทึกหน้าจอ"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:72
 msgid ""
 "The maximum length of single screen cast recordings in seconds or 0 for "
 "unlimited"
-msgstr ""
+msgstr "ความยาวสูงสุดของวิดีโอบันทึกภาพหน้าจอครั้งหนึ่งๆ ในหน่วยวินาที หรือ 0 กรณีไม่จำกัด"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:73
 msgid "Name"
@@ -797,69 +797,69 @@ msgstr "คำสั่งที่จะเรียกเมื่อกดป
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:1
 msgid "The brightness of the screen when idle"
-msgstr ""
+msgstr "ความสว่างของหน้าจอเมื่อไม่ได้ใช้งาน"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:2
 msgid ""
 "This is the laptop panel screen brightness used when the session is idle."
-msgstr ""
+msgstr "นี่คือความสว่างหน้าจอแผงแล็ปท็อปที่ใช้เมื่อเซสชั่นไม่ได้ใช้งาน"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:3
 msgid "Dim the screen after a period of inactivity"
-msgstr ""
+msgstr "ลดแสงหน้าจอเมื่อไม่ได้ใช้งานระยะหนึ่ง"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:4
 msgid ""
 "If the screen should be dimmed to save power when the computer is idle."
-msgstr ""
+msgstr "ว่าควรปรับหน้าจอให้มืดลงหรือไม่เพื่อประหยัดพลังงานเวลาไม่ได้ใช้งานคอมพิวเตอร์"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:5
 msgid "Sleep timeout computer when on AC"
-msgstr ""
+msgstr "คอมพิวเตอร์หมดเวลาสลีปเมื่ออยู่ในโหมด AC"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:6
 msgid ""
 "The amount of time in seconds the computer on AC power needs to be inactive "
 "before it goes to sleep. A value of 0 means never."
-msgstr ""
+msgstr "ระยะเวลาในหน่วยวินาทีที่คอมพิวเตอร์ที่ใช้ไฟกระแสสลับต้องอยู่ในโหมดไม่ได้ใช้งานก่อนที่จะเข้าสู่โหมดสลีป ค่าเป็น 0 หมายถึง ไม่เลย"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:7
 msgid "Whether to hibernate, suspend or do nothing when inactive"
-msgstr ""
+msgstr "ต้องการให้จำศีล หยุดชั่วคราว หรือไม่ดำเนินการสิ่งใดเมื่อไม่ได้ใช้งาน"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:8
 msgid ""
 "The type of sleeping that should be performed when the computer is inactive."
-msgstr ""
+msgstr "ชนิดของโหมดสลีปที่จะดำเนินการเมื่อคอมพิวเตอร์ไม่ได้ใช้งาน"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:9
 msgid "Sleep timeout computer when on battery"
-msgstr ""
+msgstr "ให้คอมพิวเตอร์เข้าโหมดสลีปหลังหมดเวลาเมื่อใช้พลังงานจากแบตเตอรี่"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:10
 msgid ""
 "The amount of time in seconds the computer on battery power needs to be "
 "inactive before it goes to sleep. A value of 0 means never."
-msgstr ""
+msgstr "จำนวนเวลาเป็นวินาทีที่คอมพิวเตอร์ที่ใช้แบตเตอรี่จำเป็นต้องหยุดทำงานก่อนที่จะเข้าโหมดสลีป ค่า 0 หมายถึงไม่ต้องเลย"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:11
 msgid "Enable the ALS sensor"
-msgstr ""
+msgstr "เปิดใช้เซ็นเซอร์ ALS"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:12
 msgid "If the ambient light sensor functionality is enabled."
-msgstr ""
+msgstr "หากเปิดใช้ฟังก์ชันเซ็นเซอร์วัดแสงโดยรอบ"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:13
 msgid "Power button action"
-msgstr ""
+msgstr "การดำเนินการกับปุ่มเปิด/ปิด"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:14
 msgid ""
 "The action to take when the system power button is pressed. This action is "
 "hard-coded (and the setting ignored) on virtual machines (power off) and "
 "tablets (suspend)."
-msgstr ""
+msgstr "ระบบจะดำเนินการนี้เมื่อมีการกดปุ่มเปิด/ปิดระบบ การดำเนินการนี้เป็นการกำหนดค่าตายตัว (และไม่พิจารณาการตั้งค่า) บนเครื่องเสมือน (ปิดเครื่อง) และแท็บเล็ต (หยุดการทำงาน)"
 
 #: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:1
 msgid "On which connections the service is enabled"
@@ -933,14 +933,14 @@ msgstr "รายชื่อของมอดูล GTK+ ที่จะโห
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:11
 msgid "A dictionary of XSETTINGS to override"
-msgstr ""
+msgstr "พจนานุกรมของ XSETTINGS ที่จะแทนที่"
 
 #: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:12
 msgid ""
 "This dictionary maps XSETTINGS names to overrides values. The values must be"
 " either strings, signed int32s or (in the case of colors), 4-tuples of "
 "uint16 (red, green, blue, alpha; 65535 is fully opaque)."
-msgstr ""
+msgstr "พจนานุกรมนี้จะแมปชื่อ XSETTINGS เพื่อแทนที่ค่า ค่าดังกล่าวต้องเป็นสตริง, int32s ที่มีลายเซ็น หรือ (ในกรณีของสี) 4-tuples ของ uint16 (สีแดง, เขียว, ฟ้า, อัลฟา; 65535 มีความทึบเต็ม)"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:398
 msgid "Slow Keys Turned On"
@@ -1200,11 +1200,11 @@ msgstr "เพิ่มเสียงแบบเงียบ"
 
 #: ../plugins/media-keys/shortcuts-list.h:56
 msgid "Precise Volume Down"
-msgstr ""
+msgstr "ลดระดับเสียงได้แม่นยำ"
 
 #: ../plugins/media-keys/shortcuts-list.h:57
 msgid "Precise Volume Up"
-msgstr ""
+msgstr "การเพิ่มระดับเสียงขึ้นอย่างแม่นยำ"
 
 #: ../plugins/media-keys/shortcuts-list.h:67
 msgid "Lock Screen"

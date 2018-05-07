@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 12:50-0700\n"
-"PO-Revision-Date: 2018-04-19 20:05+0000\n"
+"PO-Revision-Date: 2018-04-30 06:17+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/endless-os/gnome-settings-daemon/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -93,7 +93,7 @@ msgstr "滑鼠按鈕方向"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:17
 msgid "Swap left and right mouse buttons for left-handed mice."
-msgstr ""
+msgstr "如使用左撇子鼠標，請切換左右鼠標按鈕。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:18
 msgid "Single Click"
@@ -103,17 +103,17 @@ msgstr "單擊"
 msgid ""
 "Acceleration multiplier for mouse motion. A value of -1 is the system "
 "default."
-msgstr ""
+msgstr "滑鼠移動加速倍數。系統預設值為 -1。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:20
 msgid "Motion Threshold"
-msgstr ""
+msgstr "動態閥值"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:21
 msgid ""
 "Distance in pixels the pointer must move before accelerated mouse motion is "
 "activated. A value of -1 is the system default."
-msgstr ""
+msgstr "滑鼠加速啟用前指標必須移動的像素距離。系統預設值為 -1。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:22
 msgid "Middle button emulation"
@@ -127,19 +127,19 @@ msgstr "啟用透過同時按下左鍵和右鍵來模擬滑鼠中鍵。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:24
 msgid "Key Repeat Interval"
-msgstr ""
+msgstr "按鍵重複間隔"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:25
 msgid "Delay between repeats in milliseconds."
-msgstr ""
+msgstr "兩次重複之間的延遲時間（以毫秒為單位）。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:26
 msgid "Initial Key Repeat Delay"
-msgstr ""
+msgstr "初始按鍵重複延遲"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:27
 msgid "Initial key repeat delay in milliseconds."
-msgstr ""
+msgstr "初始按鍵重複延遲（以毫秒為單位）。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:28
 msgid "Disable touchpad while typing"
@@ -169,7 +169,7 @@ msgstr "選擇觸控板捲動方式"
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
-msgstr ""
+msgstr "選擇觸控板捲動方式。支援的值有：「停用」、「邊緣捲動」、「兩指捲動」。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:34
 msgid "Enable mouse clicks with touchpad"
@@ -196,7 +196,7 @@ msgstr "觸控板按鈕方向"
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
-msgstr ""
+msgstr "以「左」來為左撇子滑鼠交換左右滑鼠按鈕，「右」為右撇子，「滑鼠」為依循滑鼠設定。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:40
 msgid "Natural scrolling"
@@ -204,11 +204,11 @@ msgstr "自然捲動"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:41
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
-msgstr ""
+msgstr "將其設定為 TRUE 以啟用觸控板的自然（反向）捲動功能。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:42
 msgid "Mouse wheel emulation button. 0 to disable the feature."
-msgstr ""
+msgstr "鼠標滾輪模擬按鈕。輸入零值可停用功能。"
 
 #: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
 msgid "Wacom stylus absolute mode"
@@ -685,7 +685,7 @@ msgstr "錄製短時間的螢幕影片"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:52
 msgid "Binding to record a short video of the screen"
-msgstr ""
+msgstr "綁定以錄製畫面短片"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:53
 msgid "Launch web browser"
@@ -761,13 +761,13 @@ msgstr "螢幕放大鏡拉遠的組合鍵"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:71
 msgid "Maximum length of screen recordings"
-msgstr ""
+msgstr "螢幕錄製的最大長度"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:72
 msgid ""
 "The maximum length of single screen cast recordings in seconds or 0 for "
 "unlimited"
-msgstr ""
+msgstr "單螢幕播放錄製的最長秒數或以 0 表示無限制"
 
 #: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:73
 msgid "Name"
@@ -813,13 +813,13 @@ msgstr "當電腦閒置時是否該讓螢幕變暗以節省電源。"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:5
 msgid "Sleep timeout computer when on AC"
-msgstr ""
+msgstr "插電時的電腦逾時睡眠時間"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:6
 msgid ""
 "The amount of time in seconds the computer on AC power needs to be inactive "
 "before it goes to sleep. A value of 0 means never."
-msgstr ""
+msgstr "採用交流電源供電的電腦需要閒置多久才會進入睡眠狀態（以秒為單位）。零值代表永遠不會。"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:7
 msgid "Whether to hibernate, suspend or do nothing when inactive"
@@ -832,13 +832,13 @@ msgstr "當電腦不活動時要執行的偏好睡眠類型。"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:9
 msgid "Sleep timeout computer when on battery"
-msgstr ""
+msgstr "使用電池時的電腦逾時睡眠時間"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:10
 msgid ""
 "The amount of time in seconds the computer on battery power needs to be "
 "inactive before it goes to sleep. A value of 0 means never."
-msgstr ""
+msgstr "採用電池供電的電腦需要閒置多久才會進入睡眠狀態（以秒為單位）。零值代表永遠不會。"
 
 #: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:11
 msgid "Enable the ALS sensor"
@@ -857,7 +857,7 @@ msgid ""
 "The action to take when the system power button is pressed. This action is "
 "hard-coded (and the setting ignored) on virtual machines (power off) and "
 "tablets (suspend)."
-msgstr ""
+msgstr "按下系統電源按鈕時要執行的操作。此操作在虛擬機器（關閉電源）和平板（暫止）上是寫死的（並忽略該設定）。"
 
 #: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:1
 msgid "On which connections the service is enabled"
@@ -938,7 +938,7 @@ msgid ""
 "This dictionary maps XSETTINGS names to overrides values. The values must be"
 " either strings, signed int32s or (in the case of colors), 4-tuples of "
 "uint16 (red, green, blue, alpha; 65535 is fully opaque)."
-msgstr ""
+msgstr "此字典對應 XSETTINGS 名稱以覆蓋值。值必須為字串、signed int32 或（在色彩的情況下）uint16 的 4-tuples（紅、綠、藍、alpha 值；65535 為完全不透明）。"
 
 #: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:398
 msgid "Slow Keys Turned On"
