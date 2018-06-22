@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: lt\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:1
 msgid "Smartcard removal action"
@@ -1159,6 +1159,7 @@ msgid_plural "%u Outputs"
 msgstr[0] "%u išvestis"
 msgstr[1] "%u išvestys"
 msgstr[2] "%u išvesčių"
+msgstr[3] "%u išvesčių"
 
 #. translators:
 #. * The number of sound inputs on a particular device
@@ -1169,6 +1170,7 @@ msgid_plural "%u Inputs"
 msgstr[0] "%u įvestis"
 msgstr[1] "%u įvestys"
 msgstr[2] "%u įvesčių"
+msgstr[3] "%u įvesčių"
 
 #: ../plugins/media-keys/gvc/gvc-mixer-control.c:2738
 msgid "System Sounds"
@@ -1303,6 +1305,7 @@ msgid_plural "%i minutes"
 msgstr[0] "%i minutė"
 msgstr[1] "%i minutės"
 msgstr[2] "%i minučių"
+msgstr[3] "%i minučių"
 
 #: ../plugins/power/gpm-common.c:116
 #, c-format
@@ -1311,6 +1314,7 @@ msgid_plural "%i hours"
 msgstr[0] "%i valanda"
 msgstr[1] "%i valandos"
 msgstr[2] "%i valandų"
+msgstr[3] "%i valandų"
 
 #. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
 #. * Swap order with "%2$s %2$i %1$s %1$i if needed
@@ -1325,6 +1329,7 @@ msgid_plural "hours"
 msgstr[0] "valanda"
 msgstr[1] "valandos"
 msgstr[2] "valandų"
+msgstr[3] "valandų"
 
 #: ../plugins/power/gpm-common.c:124
 msgid "minute"
@@ -1332,6 +1337,7 @@ msgid_plural "minutes"
 msgstr[0] "minutė"
 msgstr[1] "minutės"
 msgstr[2] "minučių"
+msgstr[3] "minučių"
 
 #. TRANSLATORS: this is the sound description
 #: ../plugins/power/gpm-common.c:996 ../plugins/power/gsd-power-manager.c:686

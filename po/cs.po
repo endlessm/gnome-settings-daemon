@@ -15,19 +15,20 @@
 # Ondřej Kopka <ondrej.kopka@gmail.com>, 2011
 # Petr Kovar <pknbe@volny.cz>, 2008-2011
 # Petr Tomeš <ptomes@gmail.com>, 2006
+# Vendula Durakova, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 12:50-0700\n"
-"PO-Revision-Date: 2018-04-19 20:02+0000\n"
-"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"PO-Revision-Date: 2018-06-11 14:57+0000\n"
+"Last-Translator: Vendula Durakova\n"
 "Language-Team: Czech (http://www.transifex.com/endless-os/gnome-settings-daemon/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:1
 msgid "Smartcard removal action"
@@ -1103,7 +1104,7 @@ msgid ""
 "Your computer has only %s of space available.  To free up space, you can "
 "delete old files and empty the trash from the \"Documents\" file manager, or"
 " delete apps you may not need from the App Center."
-msgstr ""
+msgstr "Počítač má pouze %svolného místa na disku. Místo na disku můžete uvolnit vymazáním starých souborů, vyprázdněním koše ve složce \"Dokumenty\", či odstraněním nepotřebných aplikací z Centra aplikací."
 
 #: ../plugins/media-keys/gsd-media-keys-manager.c:2239
 msgid "Bluetooth disabled"
@@ -1164,6 +1165,7 @@ msgid_plural "%u Outputs"
 msgstr[0] "%u výstup"
 msgstr[1] "%u výstupy"
 msgstr[2] "%u výstupů"
+msgstr[3] "%u výstupů"
 
 #. translators:
 #. * The number of sound inputs on a particular device
@@ -1174,6 +1176,7 @@ msgid_plural "%u Inputs"
 msgstr[0] "%u vstup"
 msgstr[1] "%u vstupy"
 msgstr[2] "%u vstupů"
+msgstr[3] "%u vstupů"
 
 #: ../plugins/media-keys/gvc/gvc-mixer-control.c:2738
 msgid "System Sounds"
@@ -1308,6 +1311,7 @@ msgid_plural "%i minutes"
 msgstr[0] "%i minuta"
 msgstr[1] "%i minuty"
 msgstr[2] "%i minut"
+msgstr[3] "%i minut"
 
 #: ../plugins/power/gpm-common.c:116
 #, c-format
@@ -1316,6 +1320,7 @@ msgid_plural "%i hours"
 msgstr[0] "%i hodina"
 msgstr[1] "%i hodiny"
 msgstr[2] "%i hodin"
+msgstr[3] "%i hodin"
 
 #. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
 #. * Swap order with "%2$s %2$i %1$s %1$i if needed
@@ -1330,6 +1335,7 @@ msgid_plural "hours"
 msgstr[0] "hodina"
 msgstr[1] "hodiny"
 msgstr[2] "hodin"
+msgstr[3] "hodin"
 
 #: ../plugins/power/gpm-common.c:124
 msgid "minute"
@@ -1337,6 +1343,7 @@ msgid_plural "minutes"
 msgstr[0] "minuta"
 msgstr[1] "minuty"
 msgstr[2] "minut"
+msgstr[3] "minut"
 
 #. TRANSLATORS: this is the sound description
 #: ../plugins/power/gpm-common.c:996 ../plugins/power/gsd-power-manager.c:686

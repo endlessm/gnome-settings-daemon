@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Marcel Telka <marcel@telka.sk>, 2005
-# pavolzetor <pavol@klacansky.com>, 2012-2013
+# pavolzetor <inactive+pavolzetor@transifex.com>, 2012-2013
 # Peter  Mráz <etkinator@gmail.com>, 2011-2012
 # Peter Tuharsky <tuharsky@misbb.sk>, 2007
 msgid ""
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sk\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:1
 msgid "Smartcard removal action"
@@ -1156,6 +1156,7 @@ msgid_plural "%u Outputs"
 msgstr[0] "%u výstupov"
 msgstr[1] "%u výstup"
 msgstr[2] "%u výstupy"
+msgstr[3] "%u výstupy"
 
 #. translators:
 #. * The number of sound inputs on a particular device
@@ -1166,6 +1167,7 @@ msgid_plural "%u Inputs"
 msgstr[0] "%u vstupov"
 msgstr[1] "%u vstup"
 msgstr[2] "%u vstupy"
+msgstr[3] "%u vstupy"
 
 #: ../plugins/media-keys/gvc/gvc-mixer-control.c:2738
 msgid "System Sounds"
@@ -1300,6 +1302,7 @@ msgid_plural "%i minutes"
 msgstr[0] "%i minút"
 msgstr[1] "%i minúta"
 msgstr[2] "%i minúty"
+msgstr[3] "%i minúty"
 
 #: ../plugins/power/gpm-common.c:116
 #, c-format
@@ -1308,6 +1311,7 @@ msgid_plural "%i hours"
 msgstr[0] "%i hodín"
 msgstr[1] "%i hodina"
 msgstr[2] "%i hodiny"
+msgstr[3] "%i hodiny"
 
 #. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
 #. * Swap order with "%2$s %2$i %1$s %1$i if needed
@@ -1322,6 +1326,7 @@ msgid_plural "hours"
 msgstr[0] "hodín"
 msgstr[1] "hodina"
 msgstr[2] "hodiny"
+msgstr[3] "hodiny"
 
 #: ../plugins/power/gpm-common.c:124
 msgid "minute"
@@ -1329,6 +1334,7 @@ msgid_plural "minutes"
 msgstr[0] "minút"
 msgstr[1] "minúta"
 msgstr[2] "minúty"
+msgstr[3] "minúty"
 
 #. TRANSLATORS: this is the sound description
 #: ../plugins/power/gpm-common.c:996 ../plugins/power/gsd-power-manager.c:686
