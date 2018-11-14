@@ -272,6 +272,7 @@ show_notification (gpointer user_data)
                                       "resident",
                                       g_variant_new_boolean (TRUE));
         notify_notification_set_timeout (notification, REASON_TIMEOUT);
+        notify_notification_set_hint_string (notification, "desktop-entry", "gnome-printers-panel");
 
         reason_data = g_new0 (ReasonData, 1);
         reason_data->printer_name = g_strdup (data->printer_name);
@@ -746,6 +747,7 @@ process_cups_notification (GsdPrintNotificationsManager *manager,
                                                                                                 second_row,
                                                                                                 "printer-symbolic");
                                                         notify_notification_set_app_name (notification, _("Printers"));
+                                                        notify_notification_set_hint_string (notification, "desktop-entry", "gnome-printers-panel");
                                                         notify_notification_set_hint (notification,
                                                                                       "resident",
                                                                                       g_variant_new_boolean (TRUE));
@@ -836,6 +838,7 @@ process_cups_notification (GsdPrintNotificationsManager *manager,
                                                                                 second_row,
                                                                                 "printer-symbolic");
                                         notify_notification_set_app_name (notification, _("Printers"));
+                                        notify_notification_set_hint_string (notification, "desktop-entry", "gnome-printers-panel");
                                         notify_notification_set_hint (notification,
                                                                       "resident",
                                                                       g_variant_new_boolean (TRUE));
@@ -879,6 +882,7 @@ process_cups_notification (GsdPrintNotificationsManager *manager,
                                                         secondary_text,
                                                         "printer-symbolic");
                 notify_notification_set_app_name (notification, _("Printers"));
+                notify_notification_set_hint_string (notification, "desktop-entry", "gnome-printers-panel");
                 notify_notification_set_hint (notification, "transient", g_variant_new_boolean (TRUE));
                 notify_notification_show (notification, NULL);
                 g_object_unref (notification);
