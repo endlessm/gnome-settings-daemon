@@ -408,6 +408,7 @@ ax_slowkeys_warning_post_bubble (GsdA11yKeyboardManager *manager,
                                                                message,
                                                                "preferences-desktop-accessibility-symbolic");
         notify_notification_set_app_name (manager->priv->notification, _("Universal Access"));
+        notify_notification_set_hint_string (manager->priv->notification, "desktop-entry", "gnome-universal-access-panel");
         notify_notification_set_timeout (manager->priv->notification, 0);
         notify_notification_set_urgency (manager->priv->notification, NOTIFY_URGENCY_CRITICAL);
 
