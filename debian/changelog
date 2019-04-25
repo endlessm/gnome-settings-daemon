@@ -1,3 +1,15 @@
+gnome-settings-daemon (3.32.0-1endless0) eos; urgency=medium
+
+  * Fix typo at "-Drfkill"
+    * https://salsa.debian.org/gnome-team/gnome-settings-daemon/merge_requests/4
+  * Rebase previous downstream changes:
+    * Add "led-breathe" to DEB_FIXPERMS_EXCLUDE
+    * Remove packagekit dependency
+      * The plugin is only used to find printer drivers, but we ship the majority of drivers
+        already. See https://gitlab.gnome.org/GNOME/gnome-settings-daemon/issues/406
+
+ -- Georges Basile Stavracas Neto <georges@endlessm.com>  Mon, 08 Apr 2019 17:25:26 -0300
+
 gnome-settings-daemon (3.32.0-1) experimental; urgency=medium
 
   * New upstream release
