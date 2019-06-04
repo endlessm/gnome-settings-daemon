@@ -9,6 +9,8 @@
 # Huib Kleinhout <huib@stack.nl>, 2002
 # Jan-Willem Harmanny <jwharmanny@hotmail.com>, 2002
 # Justin van Steijn <justin50@live.nl>, 2016
+# Justin van Steijn <jvs@fsfe.org>, 2016,2018
+# Nathan Follens <nthn@unseen.is>, 2015-2016, 2019
 # redmar <redmar@ubuntu-nl.org>, 2011
 # Reinout van Schouwen <reinouts@gnome.org>, 2013
 # Rob van den Berg <linuxned@gmail.com>, 2010
@@ -18,7 +20,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-04 13:47+0000\n"
-"PO-Revision-Date: 2019-06-04 13:54+0000\n"
+"PO-Revision-Date: 2019-06-04 15:52+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/endless-os/gnome-settings-daemon/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +45,7 @@ msgstr "Mogelijke waarden zijn ‘aan’, ‘uit’ en ‘aangepast’."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:35
 msgid "Keyboard Bell Custom Filename"
-msgstr "Aangepaste bestandsnaam toetsenbordbelgeluid "
+msgstr "Aangepaste bestandsnaam toetsenbordbelgeluid"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:36
 msgid "File name of the bell sound to be played."
@@ -145,7 +147,7 @@ msgstr "Vertraging toetsherhaling in milliseconden."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:106
 msgid "Initial Key Repeat Delay"
-msgstr "Vertraging toetsherhaling in milliseconden."
+msgstr "Vertraging toetsherhaling in milliseconden"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:107
 msgid "Initial key repeat delay in milliseconds."
@@ -379,7 +381,7 @@ msgstr "Indien de modus nachtlicht is ingeschakeld"
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
-msgstr ""
+msgstr "De nachtlichtmodus wijzigt de kleurtemperatuur van uw scherm wanneer de zon is ondergegaan of op vooraf ingestelde tijdstippen."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
@@ -624,15 +626,15 @@ msgstr "Geluid zachter"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 msgid "Binding to lower the volume."
-msgstr ""
+msgstr "Sneltoets om het geluid zachter te zetten."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 msgid "Volume mute/unmute"
-msgstr ""
+msgstr "Geluid dempen/aanzetten"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 msgid "Binding to mute/unmute the volume."
-msgstr ""
+msgstr "Sneltoets om het geluid te dempen/aan te zetten."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 msgid "Volume up"
@@ -640,15 +642,15 @@ msgstr "Geluid harder"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 msgid "Binding to raise the volume."
-msgstr ""
+msgstr "Sneltoets om het geluid harder te zetten."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 msgid "Microphone mute/unmute"
-msgstr ""
+msgstr "Microfoon dempen/aanzetten"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
 msgid "Binding to mute/unmute the microphone."
-msgstr ""
+msgstr "Sneltoets om de microfoon te dempen/aan te zetten."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
 msgid "Take a screenshot"
@@ -871,7 +873,7 @@ msgstr "Als de functie omgevingslichtsensor ingeschakeld is."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:41
 msgid "Power button action"
-msgstr "aan-/uitknopactie"
+msgstr "Aan-/uitknopactie"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:42
 msgid ""
@@ -1024,7 +1026,7 @@ msgstr "Datum- en tijdsinstellingen"
 
 #: plugins/housekeeping/gsd-disk-space.c:578
 msgid "Disk Space"
-msgstr ""
+msgstr "Schijfruimte"
 
 #: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
@@ -1056,31 +1058,31 @@ msgstr ""
 #: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
-msgstr ""
+msgstr "Weinig schijfruimte op “%s”"
 
 #: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
+msgstr "Het volume “%s” heeft nog maar %s schijfruimte over. U zou wat schijfruimte kunnen vrijmaken door de prullenbak te legen."
 
 #: plugins/housekeeping/gsd-disk-space.c:679
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
-msgstr ""
+msgstr "Het volume “%s” heeft nog maar %s schijfruimte over."
 
 #: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
-msgstr ""
+msgstr "Deze computer heeft nog maar %s schijfruimte over. U zou wat schijfruimte kunnen vrijmaken door de prullenbak te legen."
 
 #: plugins/housekeeping/gsd-disk-space.c:689
 #, c-format
 msgid "This computer has only %s disk space remaining."
-msgstr ""
+msgstr "Deze computer heeft nog maar %s schijfruimte over."
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2300
 msgid "Bluetooth disabled"
@@ -1238,11 +1240,11 @@ msgstr "Accustatus"
 #: plugins/media-keys/shortcuts-list.h:116
 #: plugins/media-keys/shortcuts-list.h:117
 msgid "Toggle Airplane Mode"
-msgstr "Vliegtuigstand in/uitschakelen"
+msgstr "Vliegtuigstand in-/uitschakelen"
 
 #: plugins/media-keys/shortcuts-list.h:118
 msgid "Toggle Bluetooth"
-msgstr "Bluetooth in/uitschakelen"
+msgstr "Bluetooth in-/uitschakelen"
 
 #: plugins/power/gpm-common.c:92
 msgid "Unknown time"
@@ -1362,13 +1364,13 @@ msgstr "De accu van het draadloze toetsenbord is bijna leeg (%.0f%%)"
 #. TRANSLATORS: the PDA battery is very low
 #: plugins/power/gsd-power-manager.c:514 plugins/power/gsd-power-manager.c:651
 msgid "PDA battery low"
-msgstr "Accu PDA bijna leeg"
+msgstr "Accu pda bijna leeg"
 
 #. TRANSLATORS: tell user more details
 #: plugins/power/gsd-power-manager.c:517
 #, c-format
 msgid "PDA is low in power (%.0f%%)"
-msgstr "De accu van de PDA is bijna leeg (%.0f%%)"
+msgstr "De accu van de pda is bijna leeg (%.0f%%)"
 
 #. TRANSLATORS: cell phone (mobile) is getting a little low
 #. TRANSLATORS: the cell battery is very low
@@ -1381,18 +1383,18 @@ msgstr "Accu mobiele telefoon bijna leeg"
 #: plugins/power/gsd-power-manager.c:524
 #, c-format
 msgid "Cell phone is low in power (%.0f%%)"
-msgstr "De accu van de mobiele telefon is bijna leeg (%.0f%%)"
+msgstr "De accu van de mobiele telefoon is bijna leeg (%.0f%%)"
 
 #. TRANSLATORS: media player, e.g. mp3 is getting a little low
 #: plugins/power/gsd-power-manager.c:528
 msgid "Media player battery low"
-msgstr "Accu MP3-speler bijna leeg"
+msgstr "Accu mp3-speler bijna leeg"
 
 #. TRANSLATORS: tell user more details
 #: plugins/power/gsd-power-manager.c:531
 #, c-format
 msgid "Media player is low in power (%.0f%%)"
-msgstr "De accu van de MP3-speler is bijna leeg (%.0f%%)"
+msgstr "De accu van de mp3-speler is bijna leeg (%.0f%%)"
 
 #. TRANSLATORS: graphics tablet, e.g. wacom is getting a little low
 #. TRANSLATORS: the cell battery is very low
@@ -1484,7 +1486,7 @@ msgstr "Draadloos toetsenbord zit bijna zonder stroom (%.0f%%). Dit apparaat sto
 msgid ""
 "PDA is very low in power (%.0f%%). This device will soon stop functioning if"
 " not charged."
-msgstr "PDA zit bijna zonder stroom (%.0f%%). Dit apparaat stopt binnenkort met functioneren als het niet opgeladen wordt."
+msgstr "Pda zit bijna zonder stroom (%.0f%%). Dit apparaat stopt binnenkort met functioneren als het niet opgeladen wordt."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:664
@@ -1500,7 +1502,7 @@ msgstr "Mobiele telefoon zit bijna zonder stroom (%.0f%%). Dit apparaat stopt bi
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr "MP3-speler zit bijna zonder stroom (%.0f%%). Dit apparaat stopt binnenkort met functioneren als het niet opgeladen wordt."
+msgstr "Mp3-speler zit bijna zonder stroom (%.0f%%). Dit apparaat stopt binnenkort met functioneren als het niet opgeladen wordt."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:682
@@ -1716,13 +1718,13 @@ msgstr "Er is een probleem met de printer ‘%s’."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
-msgstr ""
+msgstr "%s vereist authenticatie"
 
 #. Translators: A printer needs credentials to continue printing a job
 #: plugins/print-notifications/gsd-print-notifications-manager.c:533
 #, c-format
 msgid "Credentials required in order to print"
-msgstr ""
+msgstr "Voer uw aanmeldgegevens in om af te drukken"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:600

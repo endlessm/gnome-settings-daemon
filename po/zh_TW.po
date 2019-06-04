@@ -5,6 +5,7 @@
 # Translators:
 # Abel Cheung <abel@oaka.org>, 2001-2003, 2005
 # Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2008,2010
+# byStarTW (pan93412) <pan93412@gmail.com>, 2019
 # S.J. Luo <crystal@mickey.ee.nctu.edu.tw>, 1999
 # Wei-Lun Chao <chaoweilun@gmail.com>, 2010
 msgid ""
@@ -12,7 +13,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-04 13:47+0000\n"
-"PO-Revision-Date: 2019-06-04 13:54+0000\n"
+"PO-Revision-Date: 2019-06-04 15:49+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/endless-os/gnome-settings-daemon/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -93,7 +94,7 @@ msgstr "滑鼠按鈕方向"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:77
 msgid "Swap left and right mouse buttons for left-handed mice."
-msgstr "如使用左撇子鼠標，請切換左右鼠標按鈕。"
+msgstr "為左手滑鼠交換滑鼠左右鍵設定。"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:81
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:143
@@ -105,19 +106,19 @@ msgstr "單擊"
 msgid ""
 "Acceleration multiplier for mouse motion. A value of -1 is the system "
 "default."
-msgstr "滑鼠移動加速倍數。系統預設值為 -1。"
+msgstr "滑鼠運動的加速度乘數。-1 為系統預設值。"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:86
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:148
 msgid "Motion Threshold"
-msgstr "動態閥值"
+msgstr "運動閾值"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:87
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:149
 msgid ""
 "Distance in pixels the pointer must move before accelerated mouse motion is "
 "activated. A value of -1 is the system default."
-msgstr "滑鼠加速啟用前指標必須移動的像素距離。系統預設值為 -1。"
+msgstr "在滑鼠啟用加速度運動之前指標必須先移動的像素距離。-1 為系統預設值。"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:91
 msgid "Middle button emulation"
@@ -131,11 +132,11 @@ msgstr "啟用透過同時按下左鍵和右鍵來模擬滑鼠中鍵。"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:101
 msgid "Key Repeat Interval"
-msgstr "按鍵重複間隔"
+msgstr "按鍵重複間隔時間"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:102
 msgid "Delay between repeats in milliseconds."
-msgstr "兩次重複之間的延遲時間（以毫秒為單位）。"
+msgstr "按鍵訊號重複前的延遲時間，單位為毫秒。"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:106
 msgid "Initial Key Repeat Delay"
@@ -143,7 +144,7 @@ msgstr "初始按鍵重複延遲"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:107
 msgid "Initial key repeat delay in milliseconds."
-msgstr "初始按鍵重複延遲（以毫秒為單位）。"
+msgstr "初始按鍵重複前的延遲時間，單位為毫秒。"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:113
 msgid "Disable touchpad while typing"
@@ -163,7 +164,7 @@ msgstr "啟用水平捲動"
 msgid ""
 "Set this to TRUE to allow horizontal scrolling by the same method selected "
 "with the scroll_method key."
-msgstr "設定此項為 TRUE 可使用水平捲動，如同以 scroll_method 選取的方式一般。"
+msgstr "設定此項為 TRUE 允許水平捲動，會以 scroll_method 鍵所選的相同方式捲動。"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:123
 msgid "Select the touchpad scroll method"
@@ -173,7 +174,7 @@ msgstr "選擇觸控板捲動方式"
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
-msgstr "選擇觸控板捲動方式。支援的值有：「停用」、「邊緣捲動」、「兩指捲動」。"
+msgstr "選擇觸控板的捲動方式。支援的數值有：「disabled」(停用)、「edge-scrolling」(邊緣捲動)、「two-finger-scrolling」(兩指式捲動)。"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:128
 msgid "Enable mouse clicks with touchpad"
@@ -200,7 +201,7 @@ msgstr "觸控板按鈕方向"
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
-msgstr "以「左」來為左撇子滑鼠交換左右滑鼠按鈕，「右」為右撇子，「滑鼠」為依循滑鼠設定。"
+msgstr "「left」為左手滑鼠交換左右鍵，「right」會為右手滑鼠交換，至於「mouse」則依循滑鼠的設定值。"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:153
 msgid "Natural scrolling"
@@ -208,11 +209,11 @@ msgstr "自然捲動"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:154
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
-msgstr "將其設定為 TRUE 以啟用觸控板的自然（反向）捲動功能。"
+msgstr "設定此項為 TRUE 可讓觸控板啟用自然捲動（反轉捲動方向）。"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:161
 msgid "Mouse wheel emulation button. 0 to disable the feature."
-msgstr "鼠標滾輪模擬按鈕。輸入零值可停用功能。"
+msgstr "滑鼠滾輪模擬按鈕。0 則停用這個功能。"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:10
 msgid "Wacom stylus absolute mode"
@@ -353,7 +354,7 @@ msgstr "顯示器設定檔有效期限"
 msgid ""
 "This is the number of days after which the display color profile is "
 "considered invalid."
-msgstr "這是顯示器顏色設定檔被認為無效所需的天數。"
+msgstr "這是顯示器色彩設定檔被認為無效所需的天數。"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:11
 msgid "The duration a printer profile is valid"
@@ -363,7 +364,7 @@ msgstr "印表機設定檔有效的期間"
 msgid ""
 "This is the number of days after which the printer color profile is "
 "considered invalid."
-msgstr "這是印表機顏色設定檔被認為無效所需的天數。"
+msgstr "這是印表機色彩設定檔被認為無效所需的天數。"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:16
 msgid "If the night light mode is enabled"
@@ -373,7 +374,7 @@ msgstr "夜光模式是否啟用"
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
-msgstr ""
+msgstr "夜光模式會在太陽下山後、或在指定時間改變您顯示器的色溫。"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
@@ -618,15 +619,15 @@ msgstr "調低音量"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 msgid "Binding to lower the volume."
-msgstr ""
+msgstr "降低音量的組合鍵。"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 msgid "Volume mute/unmute"
-msgstr ""
+msgstr "音量靜音 / 取消靜音"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 msgid "Binding to mute/unmute the volume."
-msgstr ""
+msgstr "設定靜音與取消靜音的組合鍵。"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 msgid "Volume up"
@@ -634,15 +635,15 @@ msgstr "調高音量"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 msgid "Binding to raise the volume."
-msgstr ""
+msgstr "提高音量的組合鍵。"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 msgid "Microphone mute/unmute"
-msgstr ""
+msgstr "麥克風靜音 / 取消靜音"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
 msgid "Binding to mute/unmute the microphone."
-msgstr ""
+msgstr "設定麥克風靜音與取消靜音的組合鍵。"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
 msgid "Take a screenshot"
@@ -698,7 +699,7 @@ msgstr "錄製短時間的螢幕影片"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:137
 msgid "Binding to record a short video of the screen"
-msgstr "綁定以錄製畫面短片"
+msgstr "錄製短時間的螢幕影片的組合鍵。"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:141
 msgid "Launch web browser"
@@ -774,13 +775,13 @@ msgstr "螢幕放大鏡拉遠的組合鍵"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:186
 msgid "Maximum length of screen recordings"
-msgstr "螢幕錄製的最大長度"
+msgstr "螢幕錄影的最大長度"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:187
 msgid ""
 "The maximum length of single screen cast recordings in seconds or 0 for "
 "unlimited"
-msgstr "單螢幕播放錄製的最長秒數或以 0 表示無限制"
+msgstr "單螢幕錄影的最大時間長度秒數，0 代表無限"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:194
 msgid "Name"
@@ -826,13 +827,13 @@ msgstr "當電腦閒置時是否該讓螢幕變暗以節省電源。"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:16
 msgid "Sleep timeout computer when on AC"
-msgstr "插電時的電腦逾時睡眠時間"
+msgstr "插入 AC 電源時電腦睡眠前的倒數時限"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:17
 msgid ""
 "The amount of time in seconds the computer on AC power needs to be inactive "
 "before it goes to sleep. A value of 0 means never."
-msgstr "採用交流電源供電的電腦需要閒置多久才會進入睡眠狀態（以秒為單位）。零值代表永遠不會。"
+msgstr "電腦插入 AC 電源時進入睡眠狀態之前所需等候的不活動時間 (秒數)。設定為 0 代表永不睡眠。"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:21
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:31
@@ -847,13 +848,13 @@ msgstr "當電腦不活動時要執行的偏好睡眠類型。"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:26
 msgid "Sleep timeout computer when on battery"
-msgstr "使用電池時的電腦逾時睡眠時間"
+msgstr "使用電池時電腦睡眠前的倒數時限"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:27
 msgid ""
 "The amount of time in seconds the computer on battery power needs to be "
 "inactive before it goes to sleep. A value of 0 means never."
-msgstr "採用電池供電的電腦需要閒置多久才會進入睡眠狀態（以秒為單位）。零值代表永遠不會。"
+msgstr "電腦採用電池時進入睡眠之前所需等候的不活動時間 (秒數)。設定為 0 代表永不睡眠。"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:36
 msgid "Enable the ALS sensor"
@@ -872,7 +873,7 @@ msgid ""
 "The action to take when the system power button is pressed. This action is "
 "hard-coded (and the setting ignored) on virtual machines (power off) and "
 "tablets (suspend)."
-msgstr "按下系統電源按鈕時要執行的操作。此操作在虛擬機器（關閉電源）和平板（暫止）上是寫死的（並忽略該設定）。"
+msgstr "當按下電腦電源鍵時所要採取的動作。至於虛擬機（關閉電源）或是平板電腦（休眠）上的電源鍵動作已寫死在程式中（會忽略這個設定值）。"
 
 #: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:6
 msgid "On which connections the service is enabled"
@@ -953,11 +954,11 @@ msgid ""
 "This dictionary maps XSETTINGS names to overrides values. The values must be"
 " either strings, signed int32s or (in the case of colors), 4-tuples of "
 "uint16 (red, green, blue, alpha; 65535 is fully opaque)."
-msgstr "此字典對應 XSETTINGS 名稱以覆蓋值。值必須為字串、signed int32 或（在色彩的情況下）uint16 的 4-tuples（紅、綠、藍、alpha 值；65535 為完全不透明）。"
+msgstr "這個字典會映射到欲凌駕相關值的 XSETTINGS 名稱。這個值必須是字串 (strings)、有號 32 位元整數字串 (signed int32s)、(有顏色的情況下為) 4 個 uint16 值的元組 (tuple) 等（分別是 red, green, blue, alpha；其中 65535 代表完全不透明）等。"
 
 #: plugins/color/gsd-color-calibrate.c:139
 msgid "Color"
-msgstr "顏色"
+msgstr "色彩"
 
 #. TRANSLATORS: button: this is to open GCM
 #: plugins/color/gsd-color-calibrate.c:145
@@ -985,17 +986,17 @@ msgstr "印表機「%s」應該儘快重新校正。"
 #: plugins/color/gsd-color-calibrate.c:347
 #: plugins/color/gsd-color-calibrate.c:363
 msgid "GNOME Settings Daemon Color Plugin"
-msgstr "GNOME 設定值伺服程式顏色外掛程式"
+msgstr "GNOME 設定值伺服程式色彩外掛程式"
 
 #. TRANSLATORS: this is a sound description
 #: plugins/color/gsd-color-calibrate.c:349
 msgid "Color calibration device added"
-msgstr "加入的顏色校正裝置"
+msgstr "加入的色彩校正裝置"
 
 #. TRANSLATORS: this is a sound description
 #: plugins/color/gsd-color-calibrate.c:365
 msgid "Color calibration device removed"
-msgstr "移除的顏色校正裝置"
+msgstr "移除的色彩校正裝置"
 
 #. Translators: UTC here means the Coordinated Universal Time.
 #. * %:::z will be replaced by the offset from UTC e.g. UTC+02
@@ -1018,7 +1019,7 @@ msgstr "日期 & 時刻設定值"
 
 #: plugins/housekeeping/gsd-disk-space.c:578
 msgid "Disk Space"
-msgstr ""
+msgstr "磁碟空間"
 
 #: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
@@ -1026,7 +1027,7 @@ msgstr "檢驗"
 
 #: plugins/housekeeping/gsd-disk-space.c:602
 msgid "Empty Trash"
-msgstr "清理回收筒"
+msgstr "清理垃圾桶"
 
 #: plugins/housekeeping/gsd-disk-space.c:610
 msgid "Ignore"
@@ -1050,31 +1051,31 @@ msgstr ""
 #: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
-msgstr ""
+msgstr "「%s」上的磁碟空間很少"
 
 #: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
+msgstr "儲存區「%s」只剩下 %s 磁碟空間。您可以試著清空垃圾桶來釋放一些空間。"
 
 #: plugins/housekeeping/gsd-disk-space.c:679
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
-msgstr ""
+msgstr "儲存區「%s」只剩下 %s 磁碟空間。"
 
 #: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
-msgstr ""
+msgstr "這臺電腦只剩下 %s 磁碟空間。您可以試著清空垃圾桶來釋放一些空間。"
 
 #: plugins/housekeeping/gsd-disk-space.c:689
 #, c-format
 msgid "This computer has only %s disk space remaining."
-msgstr ""
+msgstr "這臺電腦只剩下 %s 磁碟空間。"
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2300
 msgid "Bluetooth disabled"
@@ -1706,13 +1707,13 @@ msgstr "印表機「%s」發生問題。"
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
-msgstr ""
+msgstr "%s 需要認證"
 
 #. Translators: A printer needs credentials to continue printing a job
 #: plugins/print-notifications/gsd-print-notifications-manager.c:533
 #, c-format
 msgid "Credentials required in order to print"
-msgstr ""
+msgstr "為了列印而需要的憑證"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:600

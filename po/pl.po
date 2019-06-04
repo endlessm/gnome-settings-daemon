@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-04 13:47+0000\n"
-"PO-Revision-Date: 2019-06-04 13:54+0000\n"
+"PO-Revision-Date: 2019-06-04 15:48+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Polish (http://www.transifex.com/endless-os/gnome-settings-daemon/language/pl/)\n"
 "MIME-Version: 1.0\n"
@@ -66,7 +66,7 @@ msgstr "Wyróżnia obecne położenie kursora po naciśnięciu i zwolnieniu kla
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:56
 msgid "Double click time"
-msgstr "Czas dwukrotnego kliknięcia"
+msgstr "Czas podwójnego kliknięcia"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:57
 msgid "Length of a double click in milliseconds."
@@ -370,7 +370,7 @@ msgstr "Czy tryb nocnego światła jest włączony"
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
-msgstr ""
+msgstr "Tryb nocnego światła zmienia temperaturę kolorów ekranu po zachodzie słońca lub o podanym czasie."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
@@ -615,15 +615,15 @@ msgstr "Zmniejszenie głośności"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 msgid "Binding to lower the volume."
-msgstr ""
+msgstr "Skrót do zmniejszania głośności."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 msgid "Volume mute/unmute"
-msgstr ""
+msgstr "Wyciszenie/włączenie dźwięku"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 msgid "Binding to mute/unmute the volume."
-msgstr ""
+msgstr "Skrót do wyciszania/włączania dźwięku."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 msgid "Volume up"
@@ -631,15 +631,15 @@ msgstr "Zwiększenie głośności"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 msgid "Binding to raise the volume."
-msgstr ""
+msgstr "Skrót do zwiększania głośności."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 msgid "Microphone mute/unmute"
-msgstr ""
+msgstr "Wyciszenie/włączenie mikrofonu"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
 msgid "Binding to mute/unmute the microphone."
-msgstr ""
+msgstr "Skrót do wyciszania/włączania mikrofonu."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
 msgid "Take a screenshot"
@@ -923,23 +923,23 @@ msgstr "Kolejność składowych pikseli; używana tylko w wypadku wygładzania 
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:21
 msgid "List of explicitly disabled GTK+ modules"
-msgstr "Lista wyłączonych modułów biblioteki GTK+"
+msgstr "Lista wyłączonych modułów biblioteki GTK"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:22
 msgid ""
 "A list of strings representing the GTK+ modules that will not be loaded, "
 "even if enabled by default in their configuration."
-msgstr "Lista ciągów reprezentująca moduły biblioteki GTK+, które nie zostaną wczytane, nawet jeśli są domyślnie włączone w swojej konfiguracji."
+msgstr "Lista ciągów reprezentująca moduły biblioteki GTK, które nie zostaną wczytane, nawet jeśli są domyślnie włączone w swojej konfiguracji."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:26
 msgid "List of explicitly enabled GTK+ modules"
-msgstr "Lista włączonych modułów biblioteki GTK+"
+msgstr "Lista włączonych modułów biblioteki GTK"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:27
 msgid ""
 "A list of strings representing the GTK+ modules that will be loaded, usually"
 " in addition to conditional and forcibly disabled ones."
-msgstr "Lista ciągów reprezentująca moduły biblioteki GTK+, które zostaną wczytane, zwykle dodatkowo do modułów warunkowych i wyłączonych."
+msgstr "Lista ciągów reprezentująca moduły biblioteki GTK, które zostaną wczytane, zwykle dodatkowo do modułów warunkowych i wyłączonych."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:31
 msgid "A dictionary of XSETTINGS to override"
@@ -1015,7 +1015,7 @@ msgstr "Ustawienia daty i czasu"
 
 #: plugins/housekeeping/gsd-disk-space.c:578
 msgid "Disk Space"
-msgstr ""
+msgstr "Miejsce na dysku"
 
 #: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
@@ -1047,31 +1047,31 @@ msgstr ""
 #: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
-msgstr ""
+msgstr "Mało miejsca na dysku „%s”"
 
 #: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
+msgstr "Wolumin „%s” ma tylko %s wolnego miejsca. Można zwolnić trochę miejsca przez opróżnienie kosza."
 
 #: plugins/housekeeping/gsd-disk-space.c:679
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
-msgstr ""
+msgstr "Wolumin „%s” ma tylko %s wolnego miejsca."
 
 #: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
-msgstr ""
+msgstr "Ten komputer ma tylko %s wolnego miejsca. Można zwolnić trochę miejsca przez opróżnienie kosza."
 
 #: plugins/housekeeping/gsd-disk-space.c:689
 #, c-format
 msgid "This computer has only %s disk space remaining."
-msgstr ""
+msgstr "Ten komputer ma tylko %s wolnego miejsca."
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2300
 msgid "Bluetooth disabled"
@@ -1262,7 +1262,7 @@ msgstr[3] "%i godzin"
 #: plugins/power/gpm-common.c:113
 #, c-format
 msgid "%i %s %i %s"
-msgstr "%i %s %i %s"
+msgstr "%i %s i %i %s"
 
 #: plugins/power/gpm-common.c:114
 msgid "hour"
@@ -1284,7 +1284,7 @@ msgstr[3] "minut"
 #: plugins/power/gpm-common.c:438 plugins/power/gsd-power-manager.c:721
 #: plugins/power/gsd-power-manager.c:818
 msgid "Battery is critically low"
-msgstr "Poziom akumulatora jest krytycznie niski"
+msgstr "Poziom naładowania akumulatora jest krytycznie niski"
 
 #. TRANSLATORS: this is the notification application name
 #: plugins/power/gsd-power-manager.c:351
@@ -1300,7 +1300,7 @@ msgstr "Rozładowywanie urządzenia UPS"
 #: plugins/power/gsd-power-manager.c:396
 #, c-format
 msgid "%s of UPS backup power remaining"
-msgstr "Pozostało %s zasilania z zapasowego urządzenia UPS"
+msgstr "Pozostało zasilania z zapasowego urządzenia UPS: %s"
 
 #: plugins/power/gsd-power-manager.c:399
 msgid "Unknown amount of UPS backup power remaining"
@@ -1314,13 +1314,13 @@ msgstr "Niski poziom naładowania akumulatora"
 #. TRANSLATORS: laptop battery low, and we have more than one kind of battery
 #: plugins/power/gsd-power-manager.c:477
 msgid "Laptop battery low"
-msgstr "Akumulator laptopa ma niski poziom naładowania"
+msgstr "Niski poziom naładowania akumulatora laptopa"
 
 #. TRANSLATORS: tell the user how much time they have got
 #: plugins/power/gsd-power-manager.c:484
 #, c-format
 msgid "Approximately %s remaining (%.0f%%)"
-msgstr "Pozostało około %s (%.0f%%)"
+msgstr "Pozostało około: %s (%.0f%%)"
 
 #. TRANSLATORS: UPS is starting to get a little low
 #: plugins/power/gsd-power-manager.c:489
@@ -1331,37 +1331,37 @@ msgstr "Niski poziom naładowania urządzenia UPS"
 #: plugins/power/gsd-power-manager.c:495
 #, c-format
 msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
-msgstr "Pozostało około %s do rozładowania urządzenia UPS (%.0f%%)"
+msgstr "Około %s do rozładowania urządzenia UPS (%.0f%%)"
 
 #. TRANSLATORS: mouse is getting a little low
 #. TRANSLATORS: the mouse battery is very low
 #: plugins/power/gsd-power-manager.c:500 plugins/power/gsd-power-manager.c:634
 msgid "Mouse battery low"
-msgstr "Akumulator myszy ma niski poziom naładowania"
+msgstr "Niski poziom naładowania akumulatora myszy"
 
 #. TRANSLATORS: tell user more details
 #: plugins/power/gsd-power-manager.c:503
 #, c-format
 msgid "Wireless mouse is low in power (%.0f%%)"
-msgstr "Bezprzewodowa mysz ma niski poziom naładowania akumulatora (%.0f%%)"
+msgstr "Mysz bezprzewodowa ma niski poziom naładowania akumulatora (%.0f%%)"
 
 #. TRANSLATORS: keyboard is getting a little low
 #. TRANSLATORS: the keyboard battery is very low
 #: plugins/power/gsd-power-manager.c:507 plugins/power/gsd-power-manager.c:642
 msgid "Keyboard battery low"
-msgstr "Akumulator klawiatury ma niski poziom naładowania"
+msgstr "Niski poziom naładowania akumulatora klawiatury"
 
 #. TRANSLATORS: tell user more details
 #: plugins/power/gsd-power-manager.c:510
 #, c-format
 msgid "Wireless keyboard is low in power (%.0f%%)"
-msgstr "Bezprzewodowa klawiatura ma niski poziom naładowania akumulatora (%.0f%%)"
+msgstr "Klawiatura bezprzewodowa ma niski poziom naładowania akumulatora (%.0f%%)"
 
 #. TRANSLATORS: PDA is getting a little low
 #. TRANSLATORS: the PDA battery is very low
 #: plugins/power/gsd-power-manager.c:514 plugins/power/gsd-power-manager.c:651
 msgid "PDA battery low"
-msgstr "Akumulator urządzenia PDA ma niski poziom naładowania"
+msgstr "Niski poziom naładowania akumulatora urządzenia PDA"
 
 #. TRANSLATORS: tell user more details
 #: plugins/power/gsd-power-manager.c:517
@@ -1374,7 +1374,7 @@ msgstr "Urządzenie PDA ma niski poziom naładowania akumulatora (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:521 plugins/power/gsd-power-manager.c:661
 #: plugins/power/gsd-power-manager.c:670
 msgid "Cell phone battery low"
-msgstr "Akumulator telefonu ma niski poziom naładowania"
+msgstr "Niski poziom naładowania akumulatora telefonu"
 
 #. TRANSLATORS: tell user more details
 #: plugins/power/gsd-power-manager.c:524
@@ -1385,7 +1385,7 @@ msgstr "Telefon ma niski poziom naładowania akumulatora (%.0f%%)"
 #. TRANSLATORS: media player, e.g. mp3 is getting a little low
 #: plugins/power/gsd-power-manager.c:528
 msgid "Media player battery low"
-msgstr "Akumulator odtwarzacza multimediów ma niski poziom naładowania"
+msgstr "Niski poziom naładowania akumulatora odtwarzacza multimediów"
 
 #. TRANSLATORS: tell user more details
 #: plugins/power/gsd-power-manager.c:531
@@ -1397,7 +1397,7 @@ msgstr "Odtwarzacz multimediów ma niski poziom naładowania akumulatora (%.0f%%
 #. TRANSLATORS: the cell battery is very low
 #: plugins/power/gsd-power-manager.c:535 plugins/power/gsd-power-manager.c:679
 msgid "Tablet battery low"
-msgstr "Akumulator tabletu ma niski poziom naładowania"
+msgstr "Niski poziom naładowania akumulatora tabletu"
 
 #. TRANSLATORS: tell user more details
 #: plugins/power/gsd-power-manager.c:538
@@ -1409,7 +1409,7 @@ msgstr "Tablet ma niski poziom naładowania akumulatora (%.0f%%)"
 #. TRANSLATORS: the cell battery is very low
 #: plugins/power/gsd-power-manager.c:542 plugins/power/gsd-power-manager.c:688
 msgid "Attached computer battery low"
-msgstr "Akumulator podłączonego komputera ma niski poziom naładowania"
+msgstr "Niski poziom naładowania akumulatora podłączonego komputera"
 
 #. TRANSLATORS: tell user more details
 #: plugins/power/gsd-power-manager.c:545
@@ -1433,7 +1433,7 @@ msgstr "Krytycznie niski poziom naładowania akumulatora"
 #. TRANSLATORS: laptop battery is really, really, low
 #: plugins/power/gsd-power-manager.c:601 plugins/power/gsd-power-manager.c:748
 msgid "Laptop battery critically low"
-msgstr "Poziom naładowania akumulatora krytycznie niski"
+msgstr "Krytycznie niski poziom naładowania akumulatora laptopa"
 
 #. TRANSLATORS: give the user a ultimatum
 #: plugins/power/gsd-power-manager.c:610
@@ -1451,7 +1451,7 @@ msgstr "Komputer zostanie niedługo wyłączony, jeśli nie zostanie podłączon
 #. TRANSLATORS: UPS is really, really, low
 #: plugins/power/gsd-power-manager.c:622 plugins/power/gsd-power-manager.c:773
 msgid "UPS critically low"
-msgstr "Poziom naładowania urządzenia UPS krytycznie niski"
+msgstr "Krytycznie niski poziom naładowania urządzenia UPS"
 
 #. TRANSLATORS: give the user a ultimatum
 #: plugins/power/gsd-power-manager.c:628
@@ -1459,7 +1459,7 @@ msgstr "Poziom naładowania urządzenia UPS krytycznie niski"
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
 "computer to avoid losing data."
-msgstr "Pozostało około %s do rozładowania urządzenia UPS (%.0f%%). Proszę przywrócić zasilanie komputera, aby uniknąć utraty danych."
+msgstr "Około %s do rozładowania urządzenia UPS (%.0f%%). Proszę przywrócić zasilanie komputera, aby uniknąć utraty danych."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:637
@@ -1715,13 +1715,13 @@ msgstr "Wystąpił problem drukarki „%s”."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
-msgstr ""
+msgstr "„%s” wymaga uwierzytelnienia"
 
 #. Translators: A printer needs credentials to continue printing a job
 #: plugins/print-notifications/gsd-print-notifications-manager.c:533
 #, c-format
 msgid "Credentials required in order to print"
-msgstr ""
+msgstr "Wymagane jest uwierzytelnienie, aby wydrukować"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:600

@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-04 13:47+0000\n"
-"PO-Revision-Date: 2019-06-04 13:54+0000\n"
+"PO-Revision-Date: 2019-06-04 15:49+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Greek (http://www.transifex.com/endless-os/gnome-settings-daemon/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -381,7 +381,7 @@ msgstr "Εάν η λειτουργία νυχτός είναι ενεργοπο�
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
-msgstr ""
+msgstr "Η λειτουργία νυχτός αλλάζει τη θερμοκρασία χρώματος της οθόνης σας, όταν ο ήλιος έχει δύσει ή την παρούσα στιγμή."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
@@ -626,15 +626,15 @@ msgstr "Μείωση έντασης"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 msgid "Binding to lower the volume."
-msgstr ""
+msgstr "Συνδυασμός για την μείωση του ήχου."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 msgid "Volume mute/unmute"
-msgstr ""
+msgstr "Σίγαση/αναίρεση σίγασης έντασης"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 msgid "Binding to mute/unmute the volume."
-msgstr ""
+msgstr "Συνδυασμός για την σίγαση/αναίρεση σίγασης του ήχου."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 msgid "Volume up"
@@ -642,15 +642,15 @@ msgstr "Αύξηση έντασης"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 msgid "Binding to raise the volume."
-msgstr ""
+msgstr "Συνδυασμός για την αύξηση της έντασης του ήχου."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 msgid "Microphone mute/unmute"
-msgstr ""
+msgstr "Σίγαση/αναίρεση σίγασης μικροφώνου"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
 msgid "Binding to mute/unmute the microphone."
-msgstr ""
+msgstr "Συνδυασμός για σίγαση/αναίρεση σίγασης του μικροφώνου."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
 msgid "Take a screenshot"
@@ -1026,7 +1026,7 @@ msgstr "Ρυθμίσεις ημερομηνίας & ώρας"
 
 #: plugins/housekeeping/gsd-disk-space.c:578
 msgid "Disk Space"
-msgstr ""
+msgstr "Χώρος δίσκου"
 
 #: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
@@ -1058,31 +1058,31 @@ msgstr ""
 #: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
-msgstr ""
+msgstr "Λίγος χώρος στο δίσκο \"%s\""
 
 #: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
+msgstr "Ο τόμος \"%s\" έχει μόνο %s ελεύθερο χώρο.  Μπορείτε να ελευθερώσετε λίγο χώρο αδειάζοντας τον κάδο απορριμμάτων."
 
 #: plugins/housekeeping/gsd-disk-space.c:679
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
-msgstr ""
+msgstr "Ο τόμος \"%s\" έχει μόνο %s ελεύθερο χώρο."
 
 #: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
-msgstr ""
+msgstr "Αυτός ο υπολογιστής έχει μόνο %s ελεύθερο χώρο στο δίσκο.  Μπορείτε να ελευθερώσετε λίγο χώρο με το άδειασμα του κάδου απορριμμάτων."
 
 #: plugins/housekeeping/gsd-disk-space.c:689
 #, c-format
 msgid "This computer has only %s disk space remaining."
-msgstr ""
+msgstr "Αυτός ο υπολογιστής έχει μόνο %s ελεύθερο χώρο στο δίσκο."
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2300
 msgid "Bluetooth disabled"
@@ -1718,13 +1718,13 @@ msgstr "Υπάρχει πρόβλημα στον εκτυπωτή '%s'."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
-msgstr ""
+msgstr "Ο %s απαιτεί πιστοποίηση"
 
 #. Translators: A printer needs credentials to continue printing a job
 #: plugins/print-notifications/gsd-print-notifications-manager.c:533
 #, c-format
 msgid "Credentials required in order to print"
-msgstr ""
+msgstr "Απαιτούνται διαπιστευτήρια για εκτύπωση"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:600

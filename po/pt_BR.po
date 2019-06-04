@@ -6,6 +6,7 @@
 # Alex Camacho Castilho <gnomebr@uol.com.br>, 2004
 # Antonio Fernandes C. Neto <fernandes@pelivre.org>, 2010
 # Artur de Aquino Morais <artur.morais93@outlook.com>, 2016
+# Bruno Lopes da Silva <brunolopesbldsb@gmail.com>, 2018
 # Djavan Fagundes <djavan@comum.org>, 2008,2011
 # Enrico Nicoletto <liverig@gmail.com>, 2011-2014
 # Evandro Fernandes Giovanini <evandrofg@ig.com.br>, 2004,2006
@@ -33,7 +34,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-04 13:47+0000\n"
-"PO-Revision-Date: 2019-06-04 13:54+0000\n"
+"PO-Revision-Date: 2019-06-04 15:51+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/endless-os/gnome-settings-daemon/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -394,7 +395,7 @@ msgstr "Se o modo luz noturna está habilitado"
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
-msgstr ""
+msgstr "O modo luz noturna altera a temperatura da cor de sua tela quando o sol se põe ou de acordo com as denifições."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
@@ -639,15 +640,15 @@ msgstr "Abaixar volume"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 msgid "Binding to lower the volume."
-msgstr ""
+msgstr "Atalho para diminuir o volume."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 msgid "Volume mute/unmute"
-msgstr ""
+msgstr "Volume desativado/ativado"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 msgid "Binding to mute/unmute the volume."
-msgstr ""
+msgstr "Atalho para desativar/ativar o volume."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 msgid "Volume up"
@@ -655,15 +656,15 @@ msgstr "Aumentar volume"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 msgid "Binding to raise the volume."
-msgstr ""
+msgstr "Atalho para aumentar o volume."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 msgid "Microphone mute/unmute"
-msgstr ""
+msgstr "Microfone desativado/ativado"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
 msgid "Binding to mute/unmute the microphone."
-msgstr ""
+msgstr "Atalho para desativar/ativar o microfone."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
 msgid "Take a screenshot"
@@ -1039,7 +1040,7 @@ msgstr "Configurações de data & hora"
 
 #: plugins/housekeeping/gsd-disk-space.c:578
 msgid "Disk Space"
-msgstr ""
+msgstr "Espaço no disco"
 
 #: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
@@ -1071,31 +1072,31 @@ msgstr ""
 #: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
-msgstr ""
+msgstr "Pouco espaço em disco em “%s”"
 
 #: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
+msgstr "O volume “%s” tem apenas %s de espaço em disco restante. Você poderá liberar algum espaço esvaziando a lixeira."
 
 #: plugins/housekeeping/gsd-disk-space.c:679
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
-msgstr ""
+msgstr "O volume “%s” tem apenas %s de espaço em disco restante."
 
 #: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
-msgstr ""
+msgstr "O computador tem apenas %s de espaço em disco restante. Você poderá liberar algum espaço esvaziando a lixeira."
 
 #: plugins/housekeeping/gsd-disk-space.c:689
 #, c-format
 msgid "This computer has only %s disk space remaining."
-msgstr ""
+msgstr "Este computador tem apenas %s de espaço em disco restante."
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2300
 msgid "Bluetooth disabled"
@@ -1731,13 +1732,13 @@ msgstr "Há um problema com a impressora “%s”."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
-msgstr ""
+msgstr "%s requer autenticação"
 
 #. Translators: A printer needs credentials to continue printing a job
 #: plugins/print-notifications/gsd-print-notifications-manager.c:533
 #, c-format
 msgid "Credentials required in order to print"
-msgstr ""
+msgstr "Credenciais são necessárias para imprimir"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:600

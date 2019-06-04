@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-04 13:47+0000\n"
-"PO-Revision-Date: 2019-06-04 13:54+0000\n"
+"PO-Revision-Date: 2019-06-04 15:49+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Korean (http://www.transifex.com/endless-os/gnome-settings-daemon/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -364,13 +364,13 @@ msgstr "프린터 색 프로파일이 유효하다고 취급하는 기간, 일 �
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:16
 msgid "If the night light mode is enabled"
-msgstr "심야 조명 모드가 켜졌는지 여부"
+msgstr "야간 모드가 켜졌는지 여부"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:17
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
-msgstr ""
+msgstr "일몰 시각에 혹은 미리 설정해 놓은 시각에 야간 모드를 켜면 디스플레이의 색 온도를 바꿉니다."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
@@ -380,7 +380,7 @@ msgstr "켰을 때 디스플레이의 색 온도"
 msgid ""
 "This temperature in Kelvin is used to modify the screen tones when night "
 "light mode is enabled. Higher values are bluer, lower redder."
-msgstr "심야 조명 모드를 켰을 때 화면 색을 수정할 색 온도 (켈빈 단위). 높을 수록 파란 색이고, 낮을 수록 빨간 색입니다."
+msgstr "야간 모드를 켰을 때 화면 색을 수정할 색 온도 (켈빈 단위). 높을 수록 파란 색이고, 낮을 수록 빨간 색입니다."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:26
 msgid "Use the sunrise and sunset"
@@ -615,15 +615,15 @@ msgstr "소리 낮춤"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 msgid "Binding to lower the volume."
-msgstr ""
+msgstr "볼륨을 낮추는 바인딩."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 msgid "Volume mute/unmute"
-msgstr ""
+msgstr "소리 묵음/해제"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 msgid "Binding to mute/unmute the volume."
-msgstr ""
+msgstr "볼륨을 묵음으로 만들고/해제하는 바인딩."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 msgid "Volume up"
@@ -631,15 +631,15 @@ msgstr "소리 높임"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 msgid "Binding to raise the volume."
-msgstr ""
+msgstr "볼륨을 올리는 바인딩."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 msgid "Microphone mute/unmute"
-msgstr ""
+msgstr "마이크 묵음/해제"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
 msgid "Binding to mute/unmute the microphone."
-msgstr ""
+msgstr "마이크를 묵음으로 만들고/해제하는 바인딩."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
 msgid "Take a screenshot"
@@ -1015,7 +1015,7 @@ msgstr "날짜 및 시간 설정"
 
 #: plugins/housekeeping/gsd-disk-space.c:578
 msgid "Disk Space"
-msgstr ""
+msgstr "디스크 공간"
 
 #: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
@@ -1047,31 +1047,31 @@ msgstr ""
 #: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
-msgstr ""
+msgstr "디스크 공간 부족(“%s”)"
 
 #: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
+msgstr "“%s” 볼륨에 디스크 공간이 %s 밖에 남지 않았습니다. 휴지통을 비우면 공간을 확보할 수 있습니다."
 
 #: plugins/housekeeping/gsd-disk-space.c:679
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
-msgstr ""
+msgstr "“%s” 볼륨에 디스크 공간이 %s 밖에 남지 않았습니다."
 
 #: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
-msgstr ""
+msgstr "이 컴퓨터에 디스크 공간이 %s 밖에 남지 않았습니다. 휴지통을 비우면 공간을 확보할 수 있습니다."
 
 #: plugins/housekeeping/gsd-disk-space.c:689
 #, c-format
 msgid "This computer has only %s disk space remaining."
-msgstr ""
+msgstr "이 컴퓨터에 디스크 공간이 %s 밖에 남지 않았습니다."
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2300
 msgid "Bluetooth disabled"
@@ -1703,13 +1703,13 @@ msgstr "“%s” 프린터에 문제가 있습니다."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
-msgstr ""
+msgstr "%s 인증이 필요합니다"
 
 #. Translators: A printer needs credentials to continue printing a job
 #: plugins/print-notifications/gsd-print-notifications-manager.c:533
 #, c-format
 msgid "Credentials required in order to print"
-msgstr ""
+msgstr "인쇄하려면 인증 정보가 필요합니다"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:600

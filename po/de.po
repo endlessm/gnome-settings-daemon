@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-04 13:47+0000\n"
-"PO-Revision-Date: 2019-06-04 13:54+0000\n"
+"PO-Revision-Date: 2019-06-04 15:50+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: German (http://www.transifex.com/endless-os/gnome-settings-daemon/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -184,7 +184,7 @@ msgstr "Rollmethode für Touchpad auswählen"
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
-msgstr "Wählen Sie die Rollmethode für das Tastfeld aus. Mögliche Werte sind: »disabled« - deaktiviert, »edge-scrolling« - Kantenrollen, »two-finger-scrolling« - Rollen mit zwei Fingern"
+msgstr "Wählen Sie die Rollmethode für das Tastfeld aus. Mögliche Werte sind: »disabled« - deaktiviert, »edge-scrolling« - Kantenrollen, »two-finger-scrolling« - Rollen mit zwei Fingern."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:128
 msgid "Enable mouse clicks with touchpad"
@@ -384,7 +384,7 @@ msgstr "Gibt an, ob der Nachtmodus aktiviert ist"
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
-msgstr ""
+msgstr "Der Nachtmodus ändert nach Sonnenuntergang oder zu bestimmten Zeiten die Farbtemperatur Ihres Bildschirms."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
@@ -629,15 +629,15 @@ msgstr "Leiser"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 msgid "Binding to lower the volume."
-msgstr ""
+msgstr "Tastenkürzel um die Lautstärke abzusenken."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 msgid "Volume mute/unmute"
-msgstr ""
+msgstr "Stumm schalten/Stummschaltung aufheben"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 msgid "Binding to mute/unmute the volume."
-msgstr ""
+msgstr "Tastenkürzel zur Aktivierung oder Aufhebung der Stummschaltung."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 msgid "Volume up"
@@ -645,15 +645,15 @@ msgstr "Lauter"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 msgid "Binding to raise the volume."
-msgstr ""
+msgstr "Tastenkürzel um die Lautstärke anzuheben."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 msgid "Microphone mute/unmute"
-msgstr ""
+msgstr "Mikrofon einschalten/ausschalten"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
 msgid "Binding to mute/unmute the microphone."
-msgstr ""
+msgstr "Tastenkürzel zum Stumm schalten oder Aufheben der Stummschaltung des Mikrofons."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
 msgid "Take a screenshot"
@@ -791,7 +791,7 @@ msgstr "Maximale Länge von Bildschirmaufzeichnungen"
 msgid ""
 "The maximum length of single screen cast recordings in seconds or 0 for "
 "unlimited"
-msgstr "Maximale Länge von Bildschirmaufzeichnungen in Sekunden, 0 bedeutet unbegrenzt."
+msgstr "Maximale Länge von Bildschirmaufzeichnungen in Sekunden, 0 bedeutet unbegrenzt"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:194
 msgid "Name"
@@ -815,7 +815,7 @@ msgstr "Befehl"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:205
 msgid "Command to run when the binding is invoked"
-msgstr "Auszuführender Befehl, wenn das Tastenkürzel aufgerufen wird."
+msgstr "Auszuführender Befehl, wenn das Tastenkürzel aufgerufen wird"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:6
 msgid "The brightness of the screen when idle"
@@ -893,7 +893,7 @@ msgstr "Festlegen, bei welchen Verbindungen dieser Dienst aktiv ist"
 msgid ""
 "The list of NetworkManager connections (each one represented with its UUID) "
 "on which this service is enabled and started."
-msgstr "Die Liste der NetworkManager-Verbindungen (durch die UUID repräsentiert), bei denen dieser Dienst aktiviert und gestartet ist"
+msgstr "Die Liste der NetworkManager-Verbindungen (durch die UUID repräsentiert), bei denen dieser Dienst aktiviert und gestartet ist."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:6
 msgid "Antialiasing"
@@ -1029,7 +1029,7 @@ msgstr "Datums- & Uhrzeiteinstellungen"
 
 #: plugins/housekeeping/gsd-disk-space.c:578
 msgid "Disk Space"
-msgstr ""
+msgstr "Festplatten-Platz"
 
 #: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
@@ -1061,31 +1061,31 @@ msgstr ""
 #: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
-msgstr ""
+msgstr "Wenig Speicherplatz verfügbar auf »%s«"
 
 #: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
+msgstr "Auf dem Datenträger »%s« ist nur noch %s Speicherplatz verfügbar. Sie können Speicherplatz freigeben, indem Sie den Papierkorb leeren."
 
 #: plugins/housekeeping/gsd-disk-space.c:679
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
-msgstr ""
+msgstr "Auf dem Datenträger »%s« ist nur noch %s Speicherplatz verfügbar."
 
 #: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
-msgstr ""
+msgstr "Auf diesem Rechner ist nur noch %s Speicherplatz verfügbar. Sie können Speicherplatz freigeben, indem Sie den Papierkorb leeren."
 
 #: plugins/housekeeping/gsd-disk-space.c:689
 #, c-format
 msgid "This computer has only %s disk space remaining."
-msgstr ""
+msgstr "Auf diesem Rechner ist nur noch %s Speicherplatz verfügbar."
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2300
 msgid "Bluetooth disabled"
@@ -1117,7 +1117,7 @@ msgstr "Bildschirmvideo von %d %t.webm"
 
 #: plugins/media-keys/gsd-screenshot-utils.c:82
 msgid "Unable to capture a screenshot"
-msgstr "Bildschirmfoto konnte nicht aufgezeichnet werden."
+msgstr "Bildschirmfoto konnte nicht aufgezeichnet werden"
 
 #: plugins/media-keys/gsd-screenshot-utils.c:113
 #: plugins/media-keys/gsd-screenshot-utils.c:155
@@ -1129,7 +1129,7 @@ msgstr "Bildschirmfoto aufgezeichnet"
 #: plugins/media-keys/gsd-screenshot-utils.c:306
 #, c-format
 msgid "Screenshot from %s"
-msgstr "Bildschirmfoto von »%s«"
+msgstr "Bildschirmfoto von %s"
 
 #: plugins/media-keys/shortcuts-list.h:46
 #: plugins/media-keys/shortcuts-list.h:47
@@ -1721,13 +1721,13 @@ msgstr "Es besteht ein Problem mit dem Drucker »%s«."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
-msgstr ""
+msgstr "%s erfordert Legitimierung"
 
 #. Translators: A printer needs credentials to continue printing a job
 #: plugins/print-notifications/gsd-print-notifications-manager.c:533
 #, c-format
 msgid "Credentials required in order to print"
-msgstr ""
+msgstr "Anmeldedaten sind erforderlich, erforderlich, um drucken zu können"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:600
@@ -1870,7 +1870,7 @@ msgstr "Druckerwarnung"
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1004
 #, c-format
 msgid "Printer “%s”: “%s”."
-msgstr "Drucker »%s«: »%s«"
+msgstr "Drucker »%s«: »%s«."
 
 #: plugins/smartcard/gsd-smartcard-service.c:288
 msgid "User was not logged in with smartcard."

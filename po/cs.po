@@ -8,7 +8,7 @@
 # Jakub Friedl <jfriedl@suse.cz>, 2006-2007
 # Jiří Lebl <jirka@5z.cz>, 2002
 # Lukas Novotny <lukasnov@cvs.gnome.org>, 2006
-# Marek Černocký <marek@manet.cz>, 2016-2017
+# Marek Černocký <marek@manet.cz>, 2016-2019
 # Michal Bukovjan <bukm@centrum.cz>, 2002-2003
 # MICHAL D. <black23@gmail.com>, 2017
 # Miloslav Trmač <mitr@volny.cz>, 2003-2006
@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-04 13:47+0000\n"
-"PO-Revision-Date: 2019-06-04 13:54+0000\n"
+"PO-Revision-Date: 2019-06-04 15:48+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Czech (http://www.transifex.com/endless-os/gnome-settings-daemon/language/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -382,7 +382,7 @@ msgstr "Zda je zapnutý režim nočního světla"
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
-msgstr ""
+msgstr "Režim nočního světla změní barevnou teplotu vašeho displeje ve chvíli, kdy zapadne slunce nebo v nastavený čas."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
@@ -627,15 +627,15 @@ msgstr "Snížit hlasitost"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 msgid "Binding to lower the volume."
-msgstr ""
+msgstr "Zkratka pro snížení hlasitosti zvuku."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 msgid "Volume mute/unmute"
-msgstr ""
+msgstr "Ztlumit/obnovit hlasitost"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 msgid "Binding to mute/unmute the volume."
-msgstr ""
+msgstr "Zkratka pro úplné ztlumení/obnovení hlasitosti zvuku."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 msgid "Volume up"
@@ -643,15 +643,15 @@ msgstr "Zvýšit hlasitost"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 msgid "Binding to raise the volume."
-msgstr ""
+msgstr "Zkratka pro zvýšení hlasitosti zvuku."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 msgid "Microphone mute/unmute"
-msgstr ""
+msgstr "Vypnout/zapnout mikrofonu"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
 msgid "Binding to mute/unmute the microphone."
-msgstr ""
+msgstr "Zkratka pro úplné ztlumení/obnovení hlasitosti mikrofonu."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
 msgid "Take a screenshot"
@@ -1027,7 +1027,7 @@ msgstr "Nastavení data a času"
 
 #: plugins/housekeeping/gsd-disk-space.c:578
 msgid "Disk Space"
-msgstr ""
+msgstr "Místo na disku"
 
 #: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
@@ -1059,31 +1059,31 @@ msgstr ""
 #: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
-msgstr ""
+msgstr "Nedostatek místa na disku „%s“"
 
 #: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
+msgstr "Na svazku „%s“ zbývá pouze %s volného místa. Nějaké místo můžete uvolnit vyprázdněním koše."
 
 #: plugins/housekeeping/gsd-disk-space.c:679
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
-msgstr ""
+msgstr "Na svazku „%s“ zbývá pouze %s volného místa."
 
 #: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
-msgstr ""
+msgstr "U tohoto počítače zbývá pouze %s volného místa na disku. Nějaké místo můžete uvolnit vyprázdněním koše."
 
 #: plugins/housekeeping/gsd-disk-space.c:689
 #, c-format
 msgid "This computer has only %s disk space remaining."
-msgstr ""
+msgstr "U tohoto počítače zbývá pouze %s volného místa na disku."
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2300
 msgid "Bluetooth disabled"
@@ -1727,13 +1727,13 @@ msgstr "U tiskárny „%s“ byl zjištěn problém."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
-msgstr ""
+msgstr "%s požaduje ověření"
 
 #. Translators: A printer needs credentials to continue printing a job
 #: plugins/print-notifications/gsd-print-notifications-manager.c:533
 #, c-format
 msgid "Credentials required in order to print"
-msgstr ""
+msgstr "Je požadováno pověření, abyste mohli tisknout"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:600

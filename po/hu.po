@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Andras Timar <timar at gnome dot hu>, 2001-2003
-# Balázs Úr <urbalazs at gmail dot com>, 2013-2017
+# Balázs Úr <urbalazs at gmail dot com>, 2013-2019
 # Emese Kovacs <emese at gnome dot hu>, 2001
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2004-2013,2016-2017
 # Gabor Sari <saga at gnome dot hu>, 2003
@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-04 13:47+0000\n"
-"PO-Revision-Date: 2019-06-04 13:54+0000\n"
+"PO-Revision-Date: 2019-06-04 15:49+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/endless-os/gnome-settings-daemon/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -379,7 +379,7 @@ msgstr "Az éjszakai fény mód engedélyezett-e"
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
-msgstr ""
+msgstr "Az éjszakai fény mód megváltoztatja a kijelző színhőmérsékletét, ha a nap lement vagy feljött, vagy megadott időnként."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
@@ -624,15 +624,15 @@ msgstr "Halkítás"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 msgid "Binding to lower the volume."
-msgstr ""
+msgstr "Gyorsbillentyű a hangerő csökkentéséhez."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 msgid "Volume mute/unmute"
-msgstr ""
+msgstr "Némítás be/ki"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 msgid "Binding to mute/unmute the volume."
-msgstr ""
+msgstr "Gyorsbillentyű a hangerő némításához."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 msgid "Volume up"
@@ -640,15 +640,15 @@ msgstr "Hangosítás"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 msgid "Binding to raise the volume."
-msgstr ""
+msgstr "Gyorsbillentyű a hangerő növeléséhez."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 msgid "Microphone mute/unmute"
-msgstr ""
+msgstr "Mikrofon némítása be/ki"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
 msgid "Binding to mute/unmute the microphone."
-msgstr ""
+msgstr "Gyorsbillentyű a hangerő némításához."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
 msgid "Take a screenshot"
@@ -1024,7 +1024,7 @@ msgstr "Dátum- és időbeállítások"
 
 #: plugins/housekeeping/gsd-disk-space.c:578
 msgid "Disk Space"
-msgstr ""
+msgstr "Lemezterület"
 
 #: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
@@ -1056,31 +1056,31 @@ msgstr ""
 #: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
-msgstr ""
+msgstr "Kevés a lemezterület ezen: „%s”"
 
 #: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
+msgstr "A(z) „%s” köteten már csak %s lemezhely maradt. A Kuka kiürítésével felszabadíthat némi helyet."
 
 #: plugins/housekeeping/gsd-disk-space.c:679
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
-msgstr ""
+msgstr "A(z) „%s” köteten már csak %s lemezhely maradt."
 
 #: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
-msgstr ""
+msgstr "A számítógépen már csak %s lemezhely maradt. A Kuka kiürítésével felszabadíthat némi helyet."
 
 #: plugins/housekeeping/gsd-disk-space.c:689
 #, c-format
 msgid "This computer has only %s disk space remaining."
-msgstr ""
+msgstr "A számítógépen már csak %s lemezhely maradt."
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2300
 msgid "Bluetooth disabled"
@@ -1716,13 +1716,13 @@ msgstr "A(z) „%s” nyomtató problémát észlelt."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
-msgstr ""
+msgstr "%s hitelesítést igényel"
 
 #. Translators: A printer needs credentials to continue printing a job
 #: plugins/print-notifications/gsd-print-notifications-manager.c:533
 #, c-format
 msgid "Credentials required in order to print"
-msgstr ""
+msgstr "Hitelesítési adatok szükségesek a nyomtatáshoz"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:600

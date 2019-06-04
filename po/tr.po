@@ -5,7 +5,7 @@
 # Translators:
 # Baris Cicek <baris@teamforce.name.tr>, 2004-2005,2008-2009
 # Berkay Aktunç <berkay.aktunc@gmail.com>, 2017
-# Emin Tufan <etcetin@gmail.com>, 2017
+# Emin Tufan <etcetin@gmail.com>, 2017-2018
 # Fatih Demir <kabalak@gtranslator.org>, 2000
 # Furkan Ahmet Kara <furkanahmetkara.fk@gmail.com>, 2017
 # Gökhan Gurbetoğlu <ggurbet@gmail.com>, 2013
@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-04 13:47+0000\n"
-"PO-Revision-Date: 2019-06-04 13:54+0000\n"
+"PO-Revision-Date: 2019-06-04 15:50+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/endless-os/gnome-settings-daemon/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -36,11 +36,11 @@ msgstr "Akıllı kart çıkartıldığında uygulanacak eylem"
 msgid ""
 "Set this to one of “none”, “lock-screen”, or “force-logout”. The action will"
 " get performed when the smartcard used for log in is removed."
-msgstr "Bunu “hiçbiri”, “ekranı kilitle” veya “çıkmaya zorla” seçeneklerinden birine ayarlayın. Giriş için kullanılan akıllı kart çıkartıldığında seçtiğiniz eylem gerçekleşecektir."
+msgstr "Bunu “none” (hiçbiri), “lock-screen” (ekranı kilitle) veya “force-logout” (çıkmaya zorla) seçeneklerinden birine ayarlayın. Giriş için kullanılan akıllı kart çıkartıldığında seçtiğiniz eylem gerçekleşecektir."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:25
 msgid "Possible values are “on”, “off”, and “custom”."
-msgstr "Olası değerler ”açık”, ”kapalı” ve ”özel”"
+msgstr "Olası değerler şunlardır: “on” (açık), “off” (kapalı) ve “custom” (özel)."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:35
 msgid "Keyboard Bell Custom Filename"
@@ -58,7 +58,7 @@ msgstr "NumLock durumunu hatırla"
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
-msgstr "Ayarlanmış ise GNOME oturumlar arası NumLock LED durumunu hatırlayacak"
+msgstr "Ayarlanmış ise GNOME oturumlar arası NumLock LED durumunu anımsayacak."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:45
 msgid "NumLock state"
@@ -72,7 +72,7 @@ msgstr "NumLock LED’in hatırlanan durumu."
 msgid ""
 "Highlights the current location of the pointer when the Control key is "
 "pressed and released."
-msgstr "Ctrl tuşuna basılıp bırakıldığında imlecin yerini gösterir"
+msgstr "Ctrl tuşuna basılıp bırakıldığında imlecin geçerli yerini vurgular."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:56
 msgid "Double click time"
@@ -134,7 +134,7 @@ msgstr "Orta tık öykünümü"
 msgid ""
 "Enables middle mouse button emulation through simultaneous left and right "
 "button click."
-msgstr "Hızlı sol ve sağ tıklama ile orta tıklanmış gibi davranmayı etkinleştirir"
+msgstr "Aynı anda sol ve sağ tıklama ile orta tıklanmış gibi davranmayı etkinleştirir."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:101
 msgid "Key Repeat Interval"
@@ -380,7 +380,7 @@ msgstr "Eğer gece lambası kipi etkinse"
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
-msgstr ""
+msgstr "Gece lambası kipi, güneş battığında ya da belirlenen zamanlarda ekranınızın renk sıcaklığını değiştirir."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
@@ -441,7 +441,7 @@ msgstr "Yüklenmesine izin verilmiş eklentilerin listesi"
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: “all”). This is only evaluated on startup."
-msgstr "Yüklenmesine izin verilen eklentileri temsil eden bir dizge listesi (öntanımlı: “tümü”). Bu yalnızca başlangıçta değerlendirilir."
+msgstr "Yüklenmesine izin verilen eklentileri temsil eden bir dizge listesi (öntanımlı: “all” [tümü]). Bu yalnızca başlangıçta değerlendirilir."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:6
 msgid "Mount paths to ignore"
@@ -625,15 +625,15 @@ msgstr "Sesi azalt"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 msgid "Binding to lower the volume."
-msgstr ""
+msgstr "Sesi azaltmak için kısayol."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 msgid "Volume mute/unmute"
-msgstr ""
+msgstr "Sesi kapat/aç"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 msgid "Binding to mute/unmute the volume."
-msgstr ""
+msgstr "Sesi kapatmak/açmak için kısayol."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 msgid "Volume up"
@@ -641,15 +641,15 @@ msgstr "Sesi arttır"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 msgid "Binding to raise the volume."
-msgstr ""
+msgstr "Sesi arttırmak için kısayol."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 msgid "Microphone mute/unmute"
-msgstr ""
+msgstr "Mikrofonu kapat/aç"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
 msgid "Binding to mute/unmute the microphone."
-msgstr ""
+msgstr "Mikrofonu kapatmak/açmak için kısayol."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
 msgid "Take a screenshot"
@@ -803,7 +803,7 @@ msgstr "Kısayol"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:200
 msgid "Binding for the custom binding"
-msgstr "Özel kısayol için kısayol."
+msgstr "Özel kısayol için kısayol"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:204
 msgid "Command"
@@ -820,7 +820,7 @@ msgstr "İşlem yapmıyorken ekran parlaklığı"
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:7
 msgid ""
 "This is the laptop panel screen brightness used when the session is idle."
-msgstr "İşlem yapmıyorken laptop ekran parlaklığı"
+msgstr "Oturum boştayken dizüstü ekranının parlaklığı."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:11
 msgid "Dim the screen after a period of inactivity"
@@ -1008,7 +1008,7 @@ msgstr "Renk düzeltme aygıtı kaldırıldı"
 #. * %:::z will be replaced by the offset from UTC e.g. UTC+02
 #: plugins/datetime/gsd-datetime-manager.c:88
 msgid "UTC%:::z"
-msgstr "UTC%:::2"
+msgstr "UTC%:::3"
 
 #: plugins/datetime/gsd-datetime-manager.c:92
 #, c-format
@@ -1025,7 +1025,7 @@ msgstr "Tarih ve Saat Ayarları"
 
 #: plugins/housekeeping/gsd-disk-space.c:578
 msgid "Disk Space"
-msgstr ""
+msgstr "Disk Alanı"
 
 #: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
@@ -1057,31 +1057,31 @@ msgstr ""
 #: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
-msgstr ""
+msgstr "“%s” Üzerinde Düşük Disk Alanı"
 
 #: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
+msgstr "“%s” biriminde yalnızca %s disk alanı kaldı.  Çöpü boşaltarak biraz yer açabilirsiniz."
 
 #: plugins/housekeeping/gsd-disk-space.c:679
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
-msgstr ""
+msgstr "“%s” biriminde yalnızca %s disk alanı kaldı."
 
 #: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
-msgstr ""
+msgstr "Bu bilgisayarda yalnızca %s disk alanı kaldı.  Çöpü boşaltarak biraz yer açabilirsiniz."
 
 #: plugins/housekeeping/gsd-disk-space.c:689
 #, c-format
 msgid "This computer has only %s disk space remaining."
-msgstr ""
+msgstr "Bu bilgisayarda yalnızca %s disk alanı kaldı."
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2300
 msgid "Bluetooth disabled"
@@ -1302,7 +1302,7 @@ msgstr "UPS Boşalıyor"
 #: plugins/power/gsd-power-manager.c:396
 #, c-format
 msgid "%s of UPS backup power remaining"
-msgstr "UPS yedek gücü %s kaldı"
+msgstr "%s boyunca yetecek UPS yedek gücü kaldı"
 
 #: plugins/power/gsd-power-manager.c:399
 msgid "Unknown amount of UPS backup power remaining"
@@ -1441,13 +1441,13 @@ msgstr "Dizüstü pil gücü tehlikeli biçimde düşük"
 #: plugins/power/gsd-power-manager.c:610
 #, c-format
 msgid "Computer will hibernate very soon unless it is plugged in."
-msgstr "Bilgisayarınız fişe takılmadığı taktirde çok kısa bir süre içinde beklemeye alınacak."
+msgstr "Bilgisayarınız fişe takılmazsa çok kısa sürede beklemeye alınacak."
 
 #. TRANSLATORS: give the user a ultimatum
 #: plugins/power/gsd-power-manager.c:614
 #, c-format
 msgid "Computer will shutdown very soon unless it is plugged in."
-msgstr "Bilgisayarınız fişe takılmadığı taktirde çok kısa bir süre içinde kapanacak."
+msgstr "Bilgisayarınız fişe takılmazsa çok kısa sürede kapanacak."
 
 #. TRANSLATORS: the UPS is very low
 #. TRANSLATORS: UPS is really, really, low
@@ -1461,7 +1461,7 @@ msgstr "UPS tehlikeli biçimde zayıf"
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
 "computer to avoid losing data."
-msgstr "Yaklaşık %s UPS gücü kaldı (%%%.0f). Veri kaybetmemek için bilgisayarınızı prize yeniden bağlayın."
+msgstr "Yaklaşık %s UPS gücü kaldı (%%%.0f). Veri kaybetmemek için AC gücü bilgisayarınıza yeniden sağlayın."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:637
@@ -1469,7 +1469,7 @@ msgstr "Yaklaşık %s UPS gücü kaldı (%%%.0f). Veri kaybetmemek için bilgisa
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr "Kablosuz farenin güç düzeyi çok düşük (%%%.0f). Eğer şarj edilmezse, bu aygıt yakında işlevselliğini yitirecek."
+msgstr "Kablosuz farenin güç düzeyi çok düşük (%%%.0f). Eğer bu aygıt şarj edilmezse yakında işlevselliğini yitirecek."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:645
@@ -1477,7 +1477,7 @@ msgstr "Kablosuz farenin güç düzeyi çok düşük (%%%.0f). Eğer şarj edilm
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr "Kablosuz klavyenin güç düzeyi çok düşük (%%%.0f). Eğer şarj edilmezse, bu aygıt yakında işlevselliğini yitirecek."
+msgstr "Kablosuz klavyenin güç düzeyi çok düşük (%%%.0f). Eğer bu aygıt şarj edilmezse yakında işlevselliğini yitirecek."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:654
@@ -1485,7 +1485,7 @@ msgstr "Kablosuz klavyenin güç düzeyi çok düşük (%%%.0f). Eğer şarj edi
 msgid ""
 "PDA is very low in power (%.0f%%). This device will soon stop functioning if"
 " not charged."
-msgstr "PDA’nın güç düzeyi çok düşük (%%%.0f). Eğer şarj edilmezse, bu aygıt yakında işlevselliğini yitirecek."
+msgstr "PDA’nın güç düzeyi çok düşük (%%%.0f). Eğer bu aygıt şarj edilmezse yakında işlevselliğini yitirecek."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:664
@@ -1493,7 +1493,7 @@ msgstr "PDA’nın güç düzeyi çok düşük (%%%.0f). Eğer şarj edilmezse, 
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr "Cep telefonunun güç düzeyi çok düşük (%%%.0f). Eğer şarj edilmezse, bu aygıt yakında işlevselliğini yitirecek."
+msgstr "Cep telefonunun güç düzeyi çok düşük (%%%.0f). Eğer bu aygıt şarj edilmezse yakında işlevselliğini yitirecek."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:673
@@ -1501,7 +1501,7 @@ msgstr "Cep telefonunun güç düzeyi çok düşük (%%%.0f). Eğer şarj edilme
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr "Ortam yürütücünün güç düzeyi çok düşük (%%%.0f). Eğer şarj edilmezse, bu aygıt yakında işlevselliğini yitirecek."
+msgstr "Ortam yürütücünün güç düzeyi çok düşük (%%%.0f). Eğer bu aygıt şarj edilmezse yakında işlevselliğini yitirecek."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:682
@@ -1509,7 +1509,7 @@ msgstr "Ortam yürütücünün güç düzeyi çok düşük (%%%.0f). Eğer şarj
 msgid ""
 "Tablet is very low in power (%.0f%%). This device will soon stop functioning"
 " if not charged."
-msgstr "Tablet bilgisayarın güç düzeyi çok düşük (%%%.0f). Eğer şarj edilmezse, bu aygıt yakında işlevselliğini yitirecek."
+msgstr "Tablet bilgisayarın güç düzeyi çok düşük (%%%.0f). Eğer bu aygıt şarj edilmezse yakında işlevselliğini yitirecek."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:691
@@ -1517,7 +1517,7 @@ msgstr "Tablet bilgisayarın güç düzeyi çok düşük (%%%.0f). Eğer şarj e
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
 "shutdown if not charged."
-msgstr "Bağlanmış bilgisayarın güç düzeyi çok düşük (%%%.0f). Eğer şarj edilmezse, bu aygıt yakında işlevselliğini yitirecek."
+msgstr "Bağlanmış bilgisayarın güç düzeyi çok düşük (%%%.0f). Eğer bu aygıt şarj edilmezse yakında işlevselliğini yitirecek."
 
 #. TRANSLATORS: computer will hibernate
 #: plugins/power/gsd-power-manager.c:756
@@ -1571,7 +1571,7 @@ msgstr "Kendiliğinden oturum kapatma"
 
 #: plugins/power/gsd-power-manager.c:2085
 msgid "You will soon log out because of inactivity."
-msgstr "Hareketsizlikten dolayı oturumunuz kısa süre içinde kapatılacak"
+msgstr "Hareketsizlikten dolayı oturumunuz kısa süre içinde kapatılacak."
 
 #: plugins/power/gsd-power-manager.c:2090
 msgid "Automatic suspend"
@@ -1657,7 +1657,7 @@ msgstr "“%s” yazıcısı bağlı olmayabilir."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:386
 #, c-format
 msgid "The cover is open on printer “%s”."
-msgstr "“%s” yazıcısının kapağı açık. "
+msgstr "“%s” yazıcısının kapağı açık."
 
 #. Translators: A filter or backend is not installed (same as in system-
 #. config-printer)
@@ -1697,7 +1697,7 @@ msgstr "“%s” yazıcısında kağıt azalmış."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:411
 #, c-format
 msgid "Printer “%s” is out of paper."
-msgstr "“%s” yazıcısında kağıt tükenmiş"
+msgstr "“%s” yazıcısında kağıt tükenmiş."
 
 #. Translators: The printer is offline (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:415
@@ -1717,13 +1717,13 @@ msgstr "“%s” yazıcısında bir sorun var."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
-msgstr ""
+msgstr "%s Kimlik Doğrulaması Gerektiriyor"
 
 #. Translators: A printer needs credentials to continue printing a job
 #: plugins/print-notifications/gsd-print-notifications-manager.c:533
 #, c-format
 msgid "Credentials required in order to print"
-msgstr ""
+msgstr "Yazdırmak için kimlik bilgileri gerekiyor"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:600

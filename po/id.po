@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-04 13:47+0000\n"
-"PO-Revision-Date: 2019-06-04 13:54+0000\n"
+"PO-Revision-Date: 2019-06-04 15:52+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/endless-os/gnome-settings-daemon/language/id/)\n"
 "MIME-Version: 1.0\n"
@@ -372,7 +372,7 @@ msgstr "Bila mode cahaya malam difungsikan"
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
-msgstr ""
+msgstr "Mode cahaya malam mengubah temperatur warna tampilan Anda ketika matahari telah terbenam atau pada waktu yang ditentukan sebelumnya."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
@@ -617,15 +617,15 @@ msgstr "Kecilkan suara"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 msgid "Binding to lower the volume."
-msgstr ""
+msgstr "Ikatan ke memperkecil keras suara."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 msgid "Volume mute/unmute"
-msgstr ""
+msgstr "Volume bisu/suarakan"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 msgid "Binding to mute/unmute the volume."
-msgstr ""
+msgstr "Ikatan ke membisukan suara."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 msgid "Volume up"
@@ -633,15 +633,15 @@ msgstr "Besarkan suara"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 msgid "Binding to raise the volume."
-msgstr ""
+msgstr "Ikatan ke memperbesar keras suara."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 msgid "Microphone mute/unmute"
-msgstr ""
+msgstr "Mikrofon bisu/suarakan"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
 msgid "Binding to mute/unmute the microphone."
-msgstr ""
+msgstr "Ikatan ke bisu/suarakan mikrofon."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
 msgid "Take a screenshot"
@@ -921,7 +921,7 @@ msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing"
 " is set to “rgba”. Possible values are: “rgb” for red on left (most common),"
 " “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
-msgstr "Urutan elemen sub piksel pada layar LCD; hanya dipakai ketika antialias ditata ke \"rgba\". Nilai yang mungkin adalah: \"rgb\" untuk merah di kiri (paling umum), \"bgr\" untuk biru di kiri, \"vrgb\" untuk merah di atas, \"vbgr\" untuk merah di bawah. "
+msgstr "Urutan elemen sub piksel pada layar LCD; hanya dipakai ketika antialias ditata ke \"rgba\". Nilai yang mungkin adalah: \"rgb\" untuk merah di kiri (paling umum), \"bgr\" untuk biru di kiri, \"vrgb\" untuk merah di atas, \"vbgr\" untuk merah di bawah."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:21
 msgid "List of explicitly disabled GTK+ modules"
@@ -1017,7 +1017,7 @@ msgstr "Pengaturan Tanggal & Waktu"
 
 #: plugins/housekeeping/gsd-disk-space.c:578
 msgid "Disk Space"
-msgstr ""
+msgstr "Ruang Diska"
 
 #: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
@@ -1049,31 +1049,31 @@ msgstr ""
 #: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
-msgstr ""
+msgstr "Sisa Ruang Disk pada \"%s\" Sedikit"
 
 #: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
+msgstr "Volume \"%s\" hanya memiliki %s ruang kosong. Anda dapat menambah ruang kosong dengan mengosongkan tempat sampah."
 
 #: plugins/housekeeping/gsd-disk-space.c:679
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
-msgstr ""
+msgstr "Volume \"%s\" hanya memiliki %s ruang kosong tersisa."
 
 #: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
-msgstr ""
+msgstr "Komputer ini hanya memiliki %s ruang kosong pada diska. Anda dapat menambah ruang kosong tersebut dengan mengosongkan folder tempat sampah."
 
 #: plugins/housekeeping/gsd-disk-space.c:689
 #, c-format
 msgid "This computer has only %s disk space remaining."
-msgstr ""
+msgstr "Komputer ini hanya memiliki %s ruang kosong pada diska."
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2300
 msgid "Bluetooth disabled"
@@ -1593,7 +1593,7 @@ msgstr "Mengonfigurasi pencetak baru"
 #. Translators: Just wait
 #: plugins/print-notifications/gsd-printer.c:892
 msgid "Please wait…"
-msgstr "Mohon tunggu..."
+msgstr "Mohon tunggu…"
 
 #. Translators: We have no driver installed for this printer
 #: plugins/print-notifications/gsd-printer.c:919
@@ -1705,13 +1705,13 @@ msgstr "Ada masalah pada pencetak \"%s\"."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
-msgstr ""
+msgstr "%s Memerlukan Autentikasi"
 
 #. Translators: A printer needs credentials to continue printing a job
 #: plugins/print-notifications/gsd-print-notifications-manager.c:533
 #, c-format
 msgid "Credentials required in order to print"
-msgstr ""
+msgstr "Kredensial diperlukan untuk mencetak"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:600

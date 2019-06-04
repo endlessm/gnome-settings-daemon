@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-04 13:47+0000\n"
-"PO-Revision-Date: 2019-06-04 13:54+0000\n"
+"PO-Revision-Date: 2019-06-04 15:49+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: French (http://www.transifex.com/endless-os/gnome-settings-daemon/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -375,7 +375,7 @@ msgstr "Indique si le mode éclairage de nuit est activé"
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
-msgstr ""
+msgstr "Le mode éclairage de nuit modifie la température de couleur de l’écran lorsque la lumière solaire a baissé ou à des heures définies."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
@@ -620,15 +620,15 @@ msgstr "Baisser le volume"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 msgid "Binding to lower the volume."
-msgstr ""
+msgstr "Raccourci pour baisser le volume du son."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 msgid "Volume mute/unmute"
-msgstr ""
+msgstr "Mettre/enlever la sourdine"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 msgid "Binding to mute/unmute the volume."
-msgstr ""
+msgstr "Raccourci pour mettre/enlever le son en sourdine."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 msgid "Volume up"
@@ -636,15 +636,15 @@ msgstr "Augmenter le volume"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 msgid "Binding to raise the volume."
-msgstr ""
+msgstr "Raccourci pour augmenter le volume du son."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 msgid "Microphone mute/unmute"
-msgstr ""
+msgstr "Éteindre/allumer le micro"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
 msgid "Binding to mute/unmute the microphone."
-msgstr ""
+msgstr "Raccourci pour éteindre/allumer le microphone."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
 msgid "Take a screenshot"
@@ -672,27 +672,27 @@ msgstr "Raccourci pour prendre une capture d’une partie de l’écran."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:121
 msgid "Copy a screenshot to clipboard"
-msgstr "Copier une capture d’écran vers le presse-papier"
+msgstr "Copier une capture d’écran vers le presse-papiers"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:122
 msgid "Binding to copy a screenshot to clipboard."
-msgstr "Raccourci pour copier une capture d’écran vers le presse-papier."
+msgstr "Raccourci pour copier une capture d’écran vers le presse-papiers."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:126
 msgid "Copy a screenshot of a window to clipboard"
-msgstr "Copier une capture d’écran d’une fenêtre vers le presse-papier"
+msgstr "Copier une capture d’écran d’une fenêtre vers le presse-papiers"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:127
 msgid "Binding to copy a screenshot of a window to clipboard."
-msgstr "Raccourci pour copier une capture d’écran d’une fenêtre vers le presse-papier."
+msgstr "Raccourci pour copier une capture d’écran d’une fenêtre vers le presse-papiers."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:131
 msgid "Copy a screenshot of an area to clipboard"
-msgstr "Copier une capture d’une partie de l’écran vers le presse-papier"
+msgstr "Copier une capture d’une partie de l’écran vers le presse-papiers"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:132
 msgid "Binding to copy a screenshot of an area to clipboard."
-msgstr "Raccourci pour copier une capture d’une partie de l’écran vers le presse-papier."
+msgstr "Raccourci pour copier une capture d’une partie de l’écran vers le presse-papiers."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:136
 msgid "Record a short video of the screen"
@@ -776,7 +776,7 @@ msgstr "Raccourci du zoom pour diminuer l’image."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:186
 msgid "Maximum length of screen recordings"
-msgstr "Longueur maxmiale des enregistrements d’écran"
+msgstr "Longueur maximale des enregistrements d’écran"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:187
 msgid ""
@@ -1020,7 +1020,7 @@ msgstr "Paramètres de date et heure"
 
 #: plugins/housekeeping/gsd-disk-space.c:578
 msgid "Disk Space"
-msgstr ""
+msgstr "Espace disque"
 
 #: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
@@ -1052,31 +1052,31 @@ msgstr ""
 #: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
-msgstr ""
+msgstr "Espace disque faible sur « %s »"
 
 #: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
+msgstr "Le volume « %s » n’a plus que %s d’espace disque disponible. Vous pouvez libérer de l’espace en vidant la corbeille."
 
 #: plugins/housekeeping/gsd-disk-space.c:679
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
-msgstr ""
+msgstr "Le volume « %s » n’a plus que %s d’espace disque disponible."
 
 #: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
-msgstr ""
+msgstr "Cet ordinateur n’a plus que %s d’espace disque disponible. Vous pouvez libérer de l’espace en vidant la corbeille."
 
 #: plugins/housekeeping/gsd-disk-space.c:689
 #, c-format
 msgid "This computer has only %s disk space remaining."
-msgstr ""
+msgstr "Cet ordinateur n’a plus que %s d’espace disque disponible."
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2300
 msgid "Bluetooth disabled"
@@ -1712,13 +1712,13 @@ msgstr "L’imprimante « %s » a un problème."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
-msgstr ""
+msgstr "Authentification nécessaire pour %s"
 
 #. Translators: A printer needs credentials to continue printing a job
 #: plugins/print-notifications/gsd-print-notifications-manager.c:533
 #, c-format
 msgid "Credentials required in order to print"
-msgstr ""
+msgstr "Identifiants requis pour imprimer"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:600

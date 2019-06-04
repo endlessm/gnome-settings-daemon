@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-04 13:47+0000\n"
-"PO-Revision-Date: 2019-06-04 13:54+0000\n"
+"PO-Revision-Date: 2019-06-04 15:51+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Danish (http://www.transifex.com/endless-os/gnome-settings-daemon/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -86,7 +86,7 @@ msgstr "Afstand før træk påbegyndes."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:68
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
-msgstr "Om tavle-pc'ens orientering er låst, eller om den roteres automatisk."
+msgstr "Om tegnepladens orientering er låst, eller om den roteres automatisk."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:76
 msgid "Mouse button orientation"
@@ -221,11 +221,11 @@ msgstr "Absolut tilstand for Wacom-pegepen"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:11
 msgid "Enable this to set the tablet to absolute mode."
-msgstr "Slå dette til for at sætte tavle-pc'en til absolut tilstand."
+msgstr "Slå dette til for at sætte tegnepladen til absolut tilstand."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:15
 msgid "Wacom tablet area"
-msgstr "Tavleområde for Wacom-tavle-pc"
+msgstr "Wacom-tegnepladens område"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:16
 msgid "Set this to x1, y1 and x2, y2 of the area usable by the tools."
@@ -233,17 +233,17 @@ msgstr "Sæt denne til x1, y1 og x2, y2 for det område, værktøjerne kan bruge
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:20
 msgid "Wacom tablet aspect ratio"
-msgstr "Højde-/breddeforhold for Wacom-tavle-pc"
+msgstr "Højde-/breddeforhold for Wacom-tegnepladen"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:21
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
-msgstr "Slå dette til for at begrænse Wacom-tavle-pc'ens område så det passer til outputtets højde-/breddeforhold."
+msgstr "Slå dette til for at begrænse Wacom-tegnepladens område, så det passer til outputtets højde-/breddeforhold."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:25
 msgid "Wacom tablet rotation"
-msgstr "Rotation for Wacom-tavle-pc"
+msgstr "Rotation for Wacom-tegneplade"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:26
 msgid ""
@@ -257,7 +257,7 @@ msgstr "Wacom-berøringsfunktion"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:31
 msgid "Enable this to move the cursor when the user touches the tablet."
-msgstr "Slå denne til for at flytte markøren, når brugeren berører tavle-pc'en."
+msgstr "Slå denne til for at flytte markøren, når brugeren berører tegnepladen."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:37
 msgid "Wacom stylus pressure curve"
@@ -374,7 +374,7 @@ msgstr "Om nattelystilstand er slået til"
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
-msgstr ""
+msgstr "Nattelystilstand ændrer din skærms farvetemperatur, når solen er gået ned eller på bestemte tidspunkter."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
@@ -487,11 +487,11 @@ msgstr "Angiv en tid i minutter. Efterfølgende advarsler for en diskenhed vil i
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:6
 msgid "Custom keybindings"
-msgstr "Tilpasset tastebindinger"
+msgstr "Tilpassede tastegenveje"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:7
 msgid "List of custom keybindings"
-msgstr "Liste af tilpassede tastebindinger"
+msgstr "Liste af tilpassede tastegenveje"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:11
 msgid "Launch calculator"
@@ -615,19 +615,19 @@ msgstr "Genvej til at stoppe afspilning."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:86
 msgid "Volume down"
-msgstr "Dæmpning af lydstyrken"
+msgstr "Dæmp lydstyrken"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 msgid "Binding to lower the volume."
-msgstr ""
+msgstr "Genvej til at skrue lydstyrken ned."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 msgid "Volume mute/unmute"
-msgstr ""
+msgstr "Slå lyden til/fra"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 msgid "Binding to mute/unmute the volume."
-msgstr ""
+msgstr "Genvej til at slå lyden til/fra."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 msgid "Volume up"
@@ -635,15 +635,15 @@ msgstr "Forøg lydstyrken"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 msgid "Binding to raise the volume."
-msgstr ""
+msgstr "Genvej til at skrue lydstyrken op."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 msgid "Microphone mute/unmute"
-msgstr ""
+msgstr "Slå mikrofon til/fra"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
 msgid "Binding to mute/unmute the microphone."
-msgstr ""
+msgstr "Genvej til at slå mikrofonen til/fra."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
 msgid "Take a screenshot"
@@ -833,7 +833,7 @@ msgstr "Ventetid for hviletilstand for maskinen hvis tilsluttet ekstern strømfo
 msgid ""
 "The amount of time in seconds the computer on AC power needs to be inactive "
 "before it goes to sleep. A value of 0 means never."
-msgstr "Ventetiden i sekunder før maskinen går i hviletilstand, når maskinen er tilsluttet ekstern stømforsyning. Værdien 0 betyder aldrig."
+msgstr "The amount of time in seconds the computer on AC power needs to be inactive before it goes to sleep. A value of 0 means never."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:21
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:31
@@ -873,7 +873,7 @@ msgid ""
 "The action to take when the system power button is pressed. This action is "
 "hard-coded (and the setting ignored) on virtual machines (power off) and "
 "tablets (suspend)."
-msgstr "Handlingen som skal udføres når der trykkes på strømknappen. Denne handling er hard-codet (og indstillingen ignoreres) på virtuelle maskiner (sluk) og tavle-pc'er (hvile)."
+msgstr "Handlingen som skal udføres, når der trykkes på strømknappen. Denne handling er hard-codet (og indstillingen ignoreres) på virtuelle maskiner (sluk) og tablets (hvile)."
 
 #: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:6
 msgid "On which connections the service is enabled"
@@ -1019,7 +1019,7 @@ msgstr "Indstillinger for dato & klokkeslæt"
 
 #: plugins/housekeeping/gsd-disk-space.c:578
 msgid "Disk Space"
-msgstr ""
+msgstr "Diskplads"
 
 #: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
@@ -1051,31 +1051,31 @@ msgstr ""
 #: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
-msgstr ""
+msgstr "Lav resterende diskplads på “%s”"
 
 #: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
+msgstr "Diskenheden “%s” har kun %s resterende diskplads.  Du kan muligvis frigøre noget plads ved at tømme papirkurven."
 
 #: plugins/housekeeping/gsd-disk-space.c:679
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
-msgstr ""
+msgstr "Diskenheden “%s” har kun %s resterende diskplads."
 
 #: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
-msgstr ""
+msgstr "Denne computer har kun %s resterende diskplads.  Du kan frigøre noget plads ved at tømme papirkurven."
 
 #: plugins/housekeeping/gsd-disk-space.c:689
 #, c-format
 msgid "This computer has only %s disk space remaining."
-msgstr ""
+msgstr "Denne computer har kun %s resterende diskplads."
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2300
 msgid "Bluetooth disabled"
@@ -1393,13 +1393,13 @@ msgstr "Medieafspiller har lavt batteriniveau (%.0f%%)"
 #. TRANSLATORS: the cell battery is very low
 #: plugins/power/gsd-power-manager.c:535 plugins/power/gsd-power-manager.c:679
 msgid "Tablet battery low"
-msgstr "Tavle-pc'en har lavt batteriniveau"
+msgstr "Tegnepladen har lavt batteriniveau"
 
 #. TRANSLATORS: tell user more details
 #: plugins/power/gsd-power-manager.c:538
 #, c-format
 msgid "Tablet is low in power (%.0f%%)"
-msgstr "Tavle-pc'en har lavt batteriniveau (%.0f%%)"
+msgstr "Tegnepladen har lavt batteriniveau (%.0f%%)"
 
 #. TRANSLATORS: computer, e.g. ipad is getting a little low
 #. TRANSLATORS: the cell battery is very low
@@ -1503,7 +1503,7 @@ msgstr "Medieafspiller har meget lavt batteriniveau (%.0f%%). Den vil snart hold
 msgid ""
 "Tablet is very low in power (%.0f%%). This device will soon stop functioning"
 " if not charged."
-msgstr "Tavle-pc'en har meget lavt batteriniveau (%.0f%%). Den vil snart holde op med at virke, hvis den ikke bliver opladet."
+msgstr "Tegnepladen har meget lavt batteriniveau (%.0f%%). Den vil snart holde op med at virke, hvis den ikke bliver opladet."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:691
@@ -1711,13 +1711,13 @@ msgstr "Der er et problem med printeren “%s”."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
-msgstr ""
+msgstr "%s kræver godkendelse"
 
 #. Translators: A printer needs credentials to continue printing a job
 #: plugins/print-notifications/gsd-print-notifications-manager.c:533
 #, c-format
 msgid "Credentials required in order to print"
-msgstr ""
+msgstr "Legitimation som kræves for at udskrive"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:600
@@ -1871,19 +1871,19 @@ msgstr "Brugeren var ikke logget ind med smartcard."
 #. to change the LED setting for a Wacom tablet
 #: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:20
 msgid "Modify the lit LED for a Wacom tablet"
-msgstr "Modificér låg-LED'en på en Wacom-tavle-pc"
+msgstr "Modificér den tændte LED på en Wacom-tegneplade"
 
 #: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:21
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
-msgstr "Ændring af låg-LED'en på en Wacom-tavle-pc kræver godkendelse"
+msgstr "Ændring af den tændte LED på en Wacom-tegneplade kræver godkendelse"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the OLED images for a Wacom tablet
 #: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:35
 msgid "Modify the OLED image for a Wacom tablet"
-msgstr "Ændr OLED-billedet for en Wacom-tavle-pc"
+msgstr "Ændr OLED-billedet for en Wacom-tegneplade"
 
 #: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:36
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
-msgstr "Der kræves godkendelse for at ændre OLED-billedet for en Wacom-tavle-pc"
+msgstr "Der kræves godkendelse for at ændre OLED-billedet for en Wacom-tegneplade"
