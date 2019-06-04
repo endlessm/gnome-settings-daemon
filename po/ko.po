@@ -1,28 +1,21 @@
-# gnome-settings-daemon Korean translation
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-settings-daemon package.
-#
-# Young-Ho Cha <ganadist@chollian.net>, 2002, 2006
-# Changwoo Ryu <cwryu@debian.org>, 2002-2006, 2007-2019.
-#
-# - 용어
-#   - UPS => 무정전 전원장치
-#   - calibration (주로 색) => 보정
-#   - tablet: 태블릿 (tablet PC의 경우), 디지타이저 (graphics tablet의 경우)
-#   - Night light: 야간 조명 (gnome-control-center와 일관성)
-#
+# 
+# Translators:
+# Young-Ho Cha <ganadist@chollian.net>, 2002,2006
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-settings-daemon/"
-"issues\n"
-"POT-Creation-Date: 2018-11-06 15:48+0000\n"
-"PO-Revision-Date: 2019-02-23 17:06+0900\n"
-"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
-"Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
-"Language: ko\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-04 13:47+0000\n"
+"PO-Revision-Date: 2019-06-04 13:54+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Korean (http://www.transifex.com/endless-os/gnome-settings-daemon/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:12
@@ -31,11 +24,9 @@ msgstr "스마트카트 제거 동작"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:13
 msgid ""
-"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will "
-"get performed when the smartcard used for log in is removed."
-msgstr ""
-"“none”, “lock-screen”, “force-logout” 중의 하나로 설정합니다. 로그인할 때 사"
-"용한 스마트카드를 제거했을 때 해당 동작을 수행합니다."
+"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will"
+" get performed when the smartcard used for log in is removed."
+msgstr "“none”, “lock-screen”, “force-logout” 중의 하나로 설정합니다. 로그인할 때 사용한 스마트카드를 제거했을 때 해당 동작을 수행합니다."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:25
 msgid "Possible values are “on”, “off”, and “custom”."
@@ -111,8 +102,7 @@ msgstr "단일 단추 누르기"
 msgid ""
 "Acceleration multiplier for mouse motion. A value of -1 is the system "
 "default."
-msgstr ""
-"마우스 동작의 가속 가중치 계수. 값이 -1이면 시스템 기본값을 사용합니다."
+msgstr "마우스 동작의 가속 가중치 계수. 값이 -1이면 시스템 기본값을 사용합니다."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:86
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:148
@@ -124,9 +114,7 @@ msgstr "동작 임계값"
 msgid ""
 "Distance in pixels the pointer must move before accelerated mouse motion is "
 "activated. A value of -1 is the system default."
-msgstr ""
-"가속된 마우스 동작이 발견되었을 때 포인터가 움직일 거리, 픽셀 수 단위. 값이 "
-"-1이면 시스템 기본값을 사용합니다."
+msgstr "가속된 마우스 동작이 발견되었을 때 포인터가 움직일 거리, 픽셀 수 단위. 값이 -1이면 시스템 기본값을 사용합니다."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:91
 msgid "Middle button emulation"
@@ -160,11 +148,9 @@ msgstr "키 입력하는 동안 터치패드 중지"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:114
 msgid ""
-"Set this to TRUE if you have problems with accidentally hitting the touchpad "
-"while typing."
-msgstr ""
-"키 입력하는 동안 실수로 터치패드를 건드리는 문제가 있으면 이 값을 참으로 하십"
-"시오."
+"Set this to TRUE if you have problems with accidentally hitting the touchpad"
+" while typing."
+msgstr "키 입력하는 동안 실수로 터치패드를 건드리는 문제가 있으면 이 값을 참으로 하십시오."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:118
 msgid "Enable horizontal scrolling"
@@ -174,9 +160,7 @@ msgstr "가로 스크롤 사용"
 msgid ""
 "Set this to TRUE to allow horizontal scrolling by the same method selected "
 "with the scroll_method key."
-msgstr ""
-"참이면 scroll_method 키에서 선택한 방법과 같은 방식으로 가로 스크롤을 허용합"
-"니다."
+msgstr "참이면 scroll_method 키에서 선택한 방법과 같은 방식으로 가로 스크롤을 허용합니다."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:123
 msgid "Select the touchpad scroll method"
@@ -186,9 +170,7 @@ msgstr "터치패드 스크롤 방식 선택"
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
-msgstr ""
-"터치패드 스크롤 방식을 선택합니다. 지원하는 값은: “disabled”, “edge-"
-"scrolling”, “two-finger-scrolling”."
+msgstr "터치패드 스크롤 방식을 선택합니다. 지원하는 값은: “disabled”, “edge-scrolling”, “two-finger-scrolling”."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:128
 msgid "Enable mouse clicks with touchpad"
@@ -197,8 +179,7 @@ msgstr "터치패드로 마우스 단추 누르기를 사용합니다"
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:129
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
-msgstr ""
-"터치패드를 두드려서 마우스 단추를 누르는 신호를 보내려면 참으로 하십시오."
+msgstr "터치패드를 두드려서 마우스 단추를 누르는 신호를 보내려면 참으로 하십시오."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:133
 msgid "Enable touchpad"
@@ -216,9 +197,7 @@ msgstr "터치패드 단추 방향"
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
-msgstr ""
-"“left”로 설정하면 왼손잡이용으로 왼쪽과 오른쪽 마우스 단추를 뒤바꿉니다. "
-"“right”는 오른손잡이용이고, “mouse”는 마우스 설정을 따릅니다."
+msgstr "“left”로 설정하면 왼손잡이용으로 왼쪽과 오른쪽 마우스 단추를 뒤바꿉니다. “right”는 오른손잡이용이고, “mouse”는 마우스 설정을 따릅니다."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:153
 msgid "Natural scrolling"
@@ -226,9 +205,7 @@ msgstr "자연스러운 스크롤"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:154
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
-msgstr ""
-"터치패드 스크롤 방향을 자연스러운 (뒤집은) 방향으로 하려면 이 값을 참으로 하"
-"십시오."
+msgstr "터치패드 스크롤 방향을 자연스러운 (뒤집은) 방향으로 하려면 이 값을 참으로 하십시오."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:161
 msgid "Mouse wheel emulation button. 0 to disable the feature."
@@ -266,11 +243,9 @@ msgstr "와콤 디지타이저 회전"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:26
 msgid ""
-"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and "
-"“ccw” for 90 degree counterclockwise."
-msgstr ""
-"아무것도 하지 않으면 “none”, 90도 시계 방향 회전은 “cw”, 180도 회전은 "
-"“half”, 90도 시계 반대 방향 회전은 “ccw”로 설정합니다."
+"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and"
+" “ccw” for 90 degree counterclockwise."
+msgstr "아무것도 하지 않으면 “none”, 90도 시계 방향 회전은 “cw”, 180도 회전은 “half”, 90도 시계 반대 방향 회전은 “ccw”로 설정합니다."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:30
 msgid "Wacom touch feature"
@@ -355,9 +330,7 @@ msgstr "터치링 또는 터치스트립 사용자 정의 동작에 대한 키 �
 msgid ""
 "The keyboard shortcuts generated when a touchring or touchstrip is used for "
 "custom actions (up followed by down)."
-msgstr ""
-"사용자 정의 동작에 터치링이나 터치스트립을 사용할 때 키보드 바로 가기(키보드 "
-"누르고 떼기 포함)."
+msgstr "사용자 정의 동작에 터치링이나 터치스트립을 사용할 때 키보드 바로 가기(키보드 누르고 떼기 포함)."
 
 #. Translators: This is the OLED display on an Intuos4 tablet:
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
@@ -391,15 +364,13 @@ msgstr "프린터 색 프로파일이 유효하다고 취급하는 기간, 일 �
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:16
 msgid "If the night light mode is enabled"
-msgstr "야간 모드가 켜졌는지 여부"
+msgstr "심야 조명 모드가 켜졌는지 여부"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:17
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
 msgstr ""
-"일몰 시각에 혹은 미리 설정해 놓은 시각에 야간 모드를 켜면 디스플레이의 색 온"
-"도를 바꿉니다."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
@@ -409,9 +380,7 @@ msgstr "켰을 때 디스플레이의 색 온도"
 msgid ""
 "This temperature in Kelvin is used to modify the screen tones when night "
 "light mode is enabled. Higher values are bluer, lower redder."
-msgstr ""
-"야간 모드를 켰을 때 화면 색을 수정할 색 온도 (켈빈 단위). 높을 수록 파란 색이"
-"고, 낮을 수록 빨간 색입니다."
+msgstr "심야 조명 모드를 켰을 때 화면 색을 수정할 색 온도 (켈빈 단위). 높을 수록 파란 색이고, 낮을 수록 빨간 색입니다."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:26
 msgid "Use the sunrise and sunset"
@@ -431,9 +400,7 @@ msgstr "시작 시각"
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this start time in "
 "hours from midnight."
-msgstr ""
-"“night-light-schedule-automatic”을 사용하지 않을 때, 이 시작 시각을 사용해 자"
-"정에서 지정한 시간만큼 사용합니다."
+msgstr "“night-light-schedule-automatic”을 사용하지 않을 때, 이 시작 시각을 사용해 자정에서 지정한 시간만큼 사용합니다."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:36
 msgid "The end time"
@@ -443,9 +410,7 @@ msgstr "끝 시각"
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this end time in "
 "hours from midnight."
-msgstr ""
-"“night-light-schedule-automatic”을 사용하지 않을 때, 이 끝 시각을 사용해 자정"
-"에서 지정한 시간만큼 사용합니다."
+msgstr "“night-light-schedule-automatic”을 사용하지 않을 때, 이 끝 시각을 사용해 자정에서 지정한 시간만큼 사용합니다."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:41
 msgid "The last detected position"
@@ -456,9 +421,7 @@ msgid ""
 "When location services are available this represents the last detected "
 "location. The default value is an invalid value to ensure it is always "
 "updated at startup."
-msgstr ""
-"위치 서비스를 사용할 수 있을 때, 이 값은 마지막으로 검색된 위치를 나타냅니"
-"다. 기본값은 잘못된 값으로 시작할 때 항상 업데이트하도록 합니다."
+msgstr "위치 서비스를 사용할 수 있을 때, 이 값은 마지막으로 검색된 위치를 나타냅니다. 기본값은 잘못된 값으로 시작할 때 항상 업데이트하도록 합니다."
 
 #: data/org.gnome.settings-daemon.plugins.gschema.xml.in:6
 msgid "List of plugins that are allowed to be loaded"
@@ -468,10 +431,7 @@ msgstr "읽어들이기 허용하는 플러그인 목록"
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: “all”). This is only evaluated on startup."
-msgstr ""
-"읽어들이기를 허용하는 플러그인을 나타내는 문자열의 목록 (기본값 “all”). 여기 "
-"들어 있어도 플러그인을 읽어들이려면 활성화 표시를 해야 합니다. 처음 시작할 때"
-"만 검사합니다."
+msgstr "읽어들이기를 허용하는 플러그인을 나타내는 문자열의 목록 (기본값 “all”). 여기 들어 있어도 플러그인을 읽어들이려면 활성화 표시를 해야 합니다. 처음 시작할 때만 검사합니다."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:6
 msgid "Mount paths to ignore"
@@ -489,9 +449,7 @@ msgstr "남은 퍼센트 알림 임계값"
 msgid ""
 "Percentage free space threshold for initial warning of low disk space. If "
 "the percentage free space drops below this, a warning will be shown."
-msgstr ""
-"디스크 공간이 부족할 때 처음 경고할 남은 공간 퍼센트 값. 남은 공간의 퍼센트 "
-"값이 이보다 떨어지면 경고를 표시합니다."
+msgstr "디스크 공간이 부족할 때 처음 경고할 남은 공간 퍼센트 값. 남은 공간의 퍼센트 값이 이보다 떨어지면 경고를 표시합니다."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:18
 msgid "Subsequent free space percentage notify threshold"
@@ -501,8 +459,7 @@ msgstr "다음 남은 공간 퍼센트 알림 임계값"
 msgid ""
 "Specify the percentage that the free disk space should reduce by before "
 "issuing a subsequent warning."
-msgstr ""
-"다음 경고를 표시할 때 남은 공간이 줄어들어야 하는 퍼센트 값을 지정합니다."
+msgstr "다음 경고를 표시할 때 남은 공간이 줄어들어야 하는 퍼센트 값을 지정합니다."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:23
 msgid "Free space notify threshold"
@@ -512,9 +469,7 @@ msgstr "남은 용량 알림 임계값"
 msgid ""
 "Specify an amount in GB. If the amount of free space is more than this, no "
 "warning will be shown."
-msgstr ""
-"용량을 GB 단위로 지정합니다. 남은 공간이 이보다 많으면 경고를 표시하지 않습니"
-"다."
+msgstr "용량을 GB 단위로 지정합니다. 남은 공간이 이보다 많으면 경고를 표시하지 않습니다."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:28
 msgid "Minimum notify period for repeated warnings"
@@ -524,9 +479,7 @@ msgstr "반복된 경고를 알리는 최소 간격"
 msgid ""
 "Specify a time in minutes. Subsequent warnings for a volume will not appear "
 "more often than this period."
-msgstr ""
-"시간을 분 단위로 지정합니다. 이 시간만큼 지나기 전에는 볼륨에 대해 같은 경고"
-"가 나타나지 않습니다."
+msgstr "시간을 분 단위로 지정합니다. 이 시간만큼 지나기 전에는 볼륨에 대해 같은 경고가 나타나지 않습니다."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:6
 msgid "Custom keybindings"
@@ -662,15 +615,15 @@ msgstr "소리 낮춤"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 msgid "Binding to lower the volume."
-msgstr "볼륨을 낮추는 바인딩."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 msgid "Volume mute/unmute"
-msgstr "소리 묵음/해제"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 msgid "Binding to mute/unmute the volume."
-msgstr "볼륨을 묵음으로 만들고/해제하는 바인딩."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 msgid "Volume up"
@@ -678,15 +631,15 @@ msgstr "소리 높임"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 msgid "Binding to raise the volume."
-msgstr "볼륨을 올리는 바인딩."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 msgid "Microphone mute/unmute"
-msgstr "마이크 묵음/해제"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
 msgid "Binding to mute/unmute the microphone."
-msgstr "마이크를 묵음으로 만들고/해제하는 바인딩."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
 msgid "Take a screenshot"
@@ -864,7 +817,8 @@ msgid "Dim the screen after a period of inactivity"
 msgstr "활동이 일정 시간 없으면 화면 어둡게"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:12
-msgid "If the screen should be dimmed to save power when the computer is idle."
+msgid ""
+"If the screen should be dimmed to save power when the computer is idle."
 msgstr "컴퓨터가 사용 중이 아닐 때 화면을 어둡게 해서 전기를 아낄지 여부."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:16
@@ -875,9 +829,7 @@ msgstr "AC 전원 상태일 때 대기 모드 시간 제한"
 msgid ""
 "The amount of time in seconds the computer on AC power needs to be inactive "
 "before it goes to sleep. A value of 0 means never."
-msgstr ""
-"컴퓨터가 AC 전원 상태일 때 대기 모드로 들어갈 때까지 걸리는 시간 (초 단위). "
-"값이 0이면 대기 모드로 들어가지 않습니다."
+msgstr "컴퓨터가 AC 전원 상태일 때 대기 모드로 들어갈 때까지 걸리는 시간 (초 단위). 값이 0이면 대기 모드로 들어가지 않습니다."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:21
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:31
@@ -898,9 +850,7 @@ msgstr "배터리 사용 중일 때 절전 모드 시간 제한"
 msgid ""
 "The amount of time in seconds the computer on battery power needs to be "
 "inactive before it goes to sleep. A value of 0 means never."
-msgstr ""
-"컴퓨터가 배터리 전원을 사용할 때 절전 모드로 들어갈 때까지 걸리는 비활동 시"
-"간, 초 단위. 값이 0이면 절전 모드로 들어가지 않습니다."
+msgstr "컴퓨터가 배터리 전원을 사용할 때 절전 모드로 들어갈 때까지 걸리는 비활동 시간, 초 단위. 값이 0이면 절전 모드로 들어가지 않습니다."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:36
 msgid "Enable the ALS sensor"
@@ -919,9 +869,7 @@ msgid ""
 "The action to take when the system power button is pressed. This action is "
 "hard-coded (and the setting ignored) on virtual machines (power off) and "
 "tablets (suspend)."
-msgstr ""
-"시스템 전원 단추를 눌렀을 때 할 동작. 이 동작은 가상 머신 (전원 끄기) 및 태블"
-"릿 (절전) 환경에서는 하드 코딩되어 있으므로 무시됩니다."
+msgstr "시스템 전원 단추를 눌렀을 때 할 동작. 이 동작은 가상 머신 (전원 끄기) 및 태블릿 (절전) 환경에서는 하드 코딩되어 있으므로 무시됩니다."
 
 #: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:6
 msgid "On which connections the service is enabled"
@@ -931,9 +879,7 @@ msgstr "서비스를 사용할 연결"
 msgid ""
 "The list of NetworkManager connections (each one represented with its UUID) "
 "on which this service is enabled and started."
-msgstr ""
-"이 서비스를 사용하고 서비스를 시작할 NetworkManager 연결의 목록, 각 연결은 "
-"UUID로 지정."
+msgstr "이 서비스를 사용하고 서비스를 시작할 NetworkManager 연결의 목록, 각 연결은 UUID로 지정."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:6
 msgid "Antialiasing"
@@ -942,12 +888,9 @@ msgstr "안티알리아싱"
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:7
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
-"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
-"and “rgba” for subpixel antialiasing (LCD screens only)."
-msgstr ""
-"글꼴을 렌더링할 때 사용할 안티알리아싱 방법. 사용 가능한 값은: “none”이면 안"
-"티알리아싱 없음, “grayscale”이면 표준 그레이스케일 안티알리아싱, “rgba”이면 "
-"서브픽셀 안티알리아싱(LCD 화면 전용)."
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing,"
+" and “rgba” for subpixel antialiasing (LCD screens only)."
+msgstr "글꼴을 렌더링할 때 사용할 안티알리아싱 방법. 사용 가능한 값은: “none”이면 안티알리아싱 없음, “grayscale”이면 표준 그레이스케일 안티알리아싱, “rgba”이면 서브픽셀 안티알리아싱(LCD 화면 전용)."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:11
 msgid "Hinting"
@@ -955,26 +898,17 @@ msgstr "힌팅"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:12
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: “none” "
-"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
-"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"The type of hinting to use when rendering fonts. Possible values are: “none”"
+" for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s"
+" ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
 "Ignores native hinting within the font, generates hints algorithmically. "
 "Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
-"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
-"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version"
+" of FreeType. They usually try to fit glyphs to both the X and the Y axis "
 "(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
-msgstr ""
-"폰트 렌더링에 사용할 힌팅 종류. 가능한 값은: 힌팅이 없으면 “none”, 마이크로소"
-"프트 ClearType/DirectWrite 또는 어도비의 독점 글꼴 렌더링 엔진과 마찬가지로 Y"
-"축에 대해서만 맞추려면 “slight”. 글꼴에 들어 있는 고유 힌팅을 무시하고, 알고"
-"리즘에 따라 힌팅을 만들어 냅니다. 우분투에서 기본값으로 사용. 사용을 추천. 값"
-"이 “medium” 또는 “full”이면 글꼴 형식 (.ttf, .otf, .pfa/.pfb) 및 설치한 "
-"FreeType의 버전에 따라 의미가 달라집니다. 이 값은 보통 X와 Y 축 모두에 글리프"
-"를 맞춥니다. (예외적으로 .otf의 경우 Y 축에 대해서만 맞춥니다.) 이렇게 하면 "
-"글꼴의 품질, 글꼴의 형식, FreeType 글꼴 엔진의 상태에 따라서 글자 모양이 일그"
-"러지거나 일관성이 없게 렌더링될 수도 있습니다."
+msgstr "폰트 렌더링에 사용할 힌팅 종류. 가능한 값은: 힌팅이 없으면 “none”, 마이크로소프트 ClearType/DirectWrite 또는 어도비의 독점 글꼴 렌더링 엔진과 마찬가지로 Y축에 대해서만 맞추려면 “slight”. 글꼴에 들어 있는 고유 힌팅을 무시하고, 알고리즘에 따라 힌팅을 만들어 냅니다. 우분투에서 기본값으로 사용. 사용을 추천. 값이 “medium” 또는 “full”이면 글꼴 형식 (.ttf, .otf, .pfa/.pfb) 및 설치한 FreeType의 버전에 따라 의미가 달라집니다. 이 값은 보통 X와 Y 축 모두에 글리프를 맞춥니다. (예외적으로 .otf의 경우 Y 축에 대해서만 맞춥니다.) 이렇게 하면 글꼴의 품질, 글꼴의 형식, FreeType 글꼴 엔진의 상태에 따라서 글자 모양이 일그러지거나 일관성이 없게 렌더링될 수도 있습니다."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:16
 msgid "RGBA order"
@@ -982,13 +916,10 @@ msgstr "RGBA 순서"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:17
 msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
-"“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
-msgstr ""
-"LCD 화면에서 서브픽셀의 순서. 안티알리아싱이 “rgba”일 경우에만 사용합니다. 사"
-"용 가능한 값은: “rgb”이면 빨강이 왼쪽(대부분 사용하는 값), “bgr”이면 파랑이 "
-"왼쪽, “vrgb”이면 빨강이 맨 위, “vbgr”이면 빨강이 맨 아래."
+"The order of subpixel elements on an LCD screen; only used when antialiasing"
+" is set to “rgba”. Possible values are: “rgb” for red on left (most common),"
+" “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
+msgstr "LCD 화면에서 서브픽셀의 순서. 안티알리아싱이 “rgba”일 경우에만 사용합니다. 사용 가능한 값은: “rgb”이면 빨강이 왼쪽(대부분 사용하는 값), “bgr”이면 파랑이 왼쪽, “vrgb”이면 빨강이 맨 위, “vbgr”이면 빨강이 맨 아래."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:21
 msgid "List of explicitly disabled GTK+ modules"
@@ -998,9 +929,7 @@ msgstr "명시적으로 사용 금지한 GTK+ 모듈 목록"
 msgid ""
 "A list of strings representing the GTK+ modules that will not be loaded, "
 "even if enabled by default in their configuration."
-msgstr ""
-"읽어들이지 않을 GTK+ 모듈을 나타내는 문자열의 목록. 설정에 기본값으로 사용했"
-"다고 표시했더라도 사용하지 않음."
+msgstr "읽어들이지 않을 GTK+ 모듈을 나타내는 문자열의 목록. 설정에 기본값으로 사용했다고 표시했더라도 사용하지 않음."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:26
 msgid "List of explicitly enabled GTK+ modules"
@@ -1008,11 +937,9 @@ msgstr "명시적으로 사용 지정한 GTK+ 모듈 목록"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:27
 msgid ""
-"A list of strings representing the GTK+ modules that will be loaded, usually "
-"in addition to conditional and forcibly disabled ones."
-msgstr ""
-"읽어들일 GTK+ 모듈을 나타내는 문자열의 목록. 보통 조건에 따라 읽어들이거나 강"
-"제로 사용 금지할 모듈과 별개로 추가로 읽어들일 모듈."
+"A list of strings representing the GTK+ modules that will be loaded, usually"
+" in addition to conditional and forcibly disabled ones."
+msgstr "읽어들일 GTK+ 모듈을 나타내는 문자열의 목록. 보통 조건에 따라 읽어들이거나 강제로 사용 금지할 모듈과 별개로 추가로 읽어들일 모듈."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:31
 msgid "A dictionary of XSETTINGS to override"
@@ -1020,13 +947,10 @@ msgstr "설정할 XSETTINGS 딕셔너리."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:32
 msgid ""
-"This dictionary maps XSETTINGS names to overrides values. The values must be "
-"either strings, signed int32s or (in the case of colors), 4-tuples of uint16 "
-"(red, green, blue, alpha; 65535 is fully opaque)."
-msgstr ""
-"설정할 XSETTINGS 이름의 딕셔너리. 이 값은 문자열, 부호 있는 32비트 정수, (색"
-"의 경우) 부호 없는 16비트 정수의 4개 튜플 (빨강, 녹색, 파랑, 알파: 알파값 "
-"65535는 완전히 불투명한 값입니다) 중의 하나입니다."
+"This dictionary maps XSETTINGS names to overrides values. The values must be"
+" either strings, signed int32s or (in the case of colors), 4-tuples of "
+"uint16 (red, green, blue, alpha; 65535 is fully opaque)."
+msgstr "설정할 XSETTINGS 이름의 딕셔너리. 이 값은 문자열, 부호 있는 32비트 정수, (색의 경우) 부호 없는 16비트 정수의 4개 튜플 (빨강, 녹색, 파랑, 알파: 알파값 65535는 완전히 불투명한 값입니다) 중의 하나입니다."
 
 #: plugins/color/gsd-color-calibrate.c:139
 msgid "Color"
@@ -1089,84 +1013,90 @@ msgstr "설정"
 msgid "Date & Time Settings"
 msgstr "날짜 및 시간 설정"
 
-#: plugins/housekeeping/gsd-disk-space.c:574
+#: plugins/housekeeping/gsd-disk-space.c:578
 msgid "Disk Space"
-msgstr "디스크 공간"
+msgstr ""
 
-#: plugins/housekeeping/gsd-disk-space.c:587
+#: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
 msgstr "검사"
 
-#: plugins/housekeeping/gsd-disk-space.c:598
+#: plugins/housekeeping/gsd-disk-space.c:602
 msgid "Empty Trash"
 msgstr "휴지통 비우기"
 
-#: plugins/housekeeping/gsd-disk-space.c:606
+#: plugins/housekeeping/gsd-disk-space.c:610
 msgid "Ignore"
 msgstr "무시"
 
-#: plugins/housekeeping/gsd-disk-space.c:637
+#: plugins/housekeeping/gsd-disk-space.c:644
+#: plugins/housekeeping/gsd-disk-space.c:684
+msgid "Low Disk Space"
+msgstr "디스크 공간 부족"
+
+#: plugins/housekeeping/gsd-disk-space.c:646
+msgid ""
+"Your computer is out of space.  You may free up some space by emptying the "
+"trash."
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:648
+msgid "Your computer is out of space."
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
-msgstr "디스크 공간 부족(“%s”)"
+msgstr ""
 
-#: plugins/housekeeping/gsd-disk-space.c:639
+#: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
 msgstr ""
-"“%s” 볼륨에 디스크 공간이 %s 밖에 남지 않았습니다. 휴지통을 비우면 공간을 확"
-"보할 수 있습니다."
 
-#: plugins/housekeeping/gsd-disk-space.c:643
+#: plugins/housekeeping/gsd-disk-space.c:679
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
-msgstr "“%s” 볼륨에 디스크 공간이 %s 밖에 남지 않았습니다."
+msgstr ""
 
-#: plugins/housekeeping/gsd-disk-space.c:648
-msgid "Low Disk Space"
-msgstr "디스크 공간 부족"
-
-#: plugins/housekeeping/gsd-disk-space.c:650
+#: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
 msgstr ""
-"이 컴퓨터에 디스크 공간이 %s 밖에 남지 않았습니다. 휴지통을 비우면 공간을 확"
-"보할 수 있습니다."
 
-#: plugins/housekeeping/gsd-disk-space.c:653
+#: plugins/housekeeping/gsd-disk-space.c:689
 #, c-format
 msgid "This computer has only %s disk space remaining."
-msgstr "이 컴퓨터에 디스크 공간이 %s 밖에 남지 않았습니다."
+msgstr ""
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2266
+#: plugins/media-keys/gsd-media-keys-manager.c:2300
 msgid "Bluetooth disabled"
 msgstr "블루투스 사용 중지"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2269
+#: plugins/media-keys/gsd-media-keys-manager.c:2303
 msgid "Bluetooth enabled"
 msgstr "블루투스 사용 중"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2273
+#: plugins/media-keys/gsd-media-keys-manager.c:2307
 msgid "Airplane mode enabled"
 msgstr "비행기 모드 사용 중"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2276
+#: plugins/media-keys/gsd-media-keys-manager.c:2310
 msgid "Airplane mode disabled"
 msgstr "비행기 모드 사용 중지"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2304
+#: plugins/media-keys/gsd-media-keys-manager.c:2338
 msgid "Hardware Airplane Mode"
 msgstr "하드웨어 비행기 모드"
 
-# 주의: 파일 이름
 #. Translators: this is a filename used for screencast
 #. * recording, where "%d" and "%t" date and time, e.g.
 #. * "Screencast from 07-17-2013 10:00:46 PM.webm"
-#: plugins/media-keys/gsd-media-keys-manager.c:2364
+#: plugins/media-keys/gsd-media-keys-manager.c:2398
 #, no-c-format
 msgid "Screencast from %d %t.webm"
 msgstr "스크린샷, %d %t.webm"
@@ -1187,116 +1117,121 @@ msgstr "스크린샷을 찍었습니다"
 msgid "Screenshot from %s"
 msgstr "스크린샷, %s"
 
-#: plugins/media-keys/shortcuts-list.h:45
 #: plugins/media-keys/shortcuts-list.h:46
+#: plugins/media-keys/shortcuts-list.h:47
 msgid "Touchpad toggle"
 msgstr "터치패드 토글"
 
-#: plugins/media-keys/shortcuts-list.h:47
+#: plugins/media-keys/shortcuts-list.h:48
 msgid "Touchpad On"
 msgstr "터치패드 켜기"
 
-#: plugins/media-keys/shortcuts-list.h:48
+#: plugins/media-keys/shortcuts-list.h:49
 msgid "Touchpad Off"
 msgstr "터치패드 끄기"
 
-#: plugins/media-keys/shortcuts-list.h:55
+#: plugins/media-keys/shortcuts-list.h:56
 msgid "Quiet Volume Mute"
 msgstr "조용히 묵음"
 
-#: plugins/media-keys/shortcuts-list.h:56
+#: plugins/media-keys/shortcuts-list.h:57
 msgid "Quiet Volume Down"
 msgstr "조용히 소리 낮춤"
 
-#: plugins/media-keys/shortcuts-list.h:57
+#: plugins/media-keys/shortcuts-list.h:58
 msgid "Quiet Volume Up"
 msgstr "조용히 소리 높임"
 
-#: plugins/media-keys/shortcuts-list.h:58
+#: plugins/media-keys/shortcuts-list.h:59
 msgid "Precise Volume Down"
 msgstr "정확히 소리 낮춤"
 
-#: plugins/media-keys/shortcuts-list.h:59
+#: plugins/media-keys/shortcuts-list.h:60
 msgid "Precise Volume Up"
 msgstr "정확히 소리 높임"
 
-#: plugins/media-keys/shortcuts-list.h:69
+#: plugins/media-keys/shortcuts-list.h:70
 msgid "Lock Screen"
 msgstr "화면 잠그기"
 
-#: plugins/media-keys/shortcuts-list.h:71
+#: plugins/media-keys/shortcuts-list.h:72
 msgid "Help"
 msgstr "도움말"
 
-#: plugins/media-keys/shortcuts-list.h:88
+#: plugins/media-keys/shortcuts-list.h:89
 msgid "Rewind"
 msgstr "되감기"
 
-#: plugins/media-keys/shortcuts-list.h:89
+#: plugins/media-keys/shortcuts-list.h:90
 msgid "Forward"
 msgstr "앞으로"
 
-#: plugins/media-keys/shortcuts-list.h:90
+#: plugins/media-keys/shortcuts-list.h:91
 msgid "Repeat"
 msgstr "반복"
 
-#: plugins/media-keys/shortcuts-list.h:91
+#: plugins/media-keys/shortcuts-list.h:92
 msgid "Random Play"
 msgstr "임의 재생"
 
-#: plugins/media-keys/shortcuts-list.h:92
+#: plugins/media-keys/shortcuts-list.h:93
 msgid "Orientation Lock"
 msgstr "방향 고정"
 
-#: plugins/media-keys/shortcuts-list.h:101
+#: plugins/media-keys/shortcuts-list.h:102
 msgid "Power Off"
 msgstr "전원 끄기"
 
 #. the kernel / Xorg names really are like this...
-#. translators: "Sleep" means putting the machine to sleep, either through hibernate or suspend
-#: plugins/media-keys/shortcuts-list.h:104
+#. translators: "Sleep" means putting the machine to sleep, either through
+#. hibernate or suspend
+#: plugins/media-keys/shortcuts-list.h:105
 msgid "Sleep"
 msgstr "절전"
 
-#: plugins/media-keys/shortcuts-list.h:105
+#: plugins/media-keys/shortcuts-list.h:106
 msgid "Suspend"
 msgstr "대기"
 
-#: plugins/media-keys/shortcuts-list.h:106
+#: plugins/media-keys/shortcuts-list.h:107
 msgid "Hibernate"
 msgstr "최대 절전"
 
-#: plugins/media-keys/shortcuts-list.h:107
+#: plugins/media-keys/shortcuts-list.h:108
 msgid "Brightness Up"
 msgstr "밝기 높이기"
 
-#: plugins/media-keys/shortcuts-list.h:108
+#: plugins/media-keys/shortcuts-list.h:109
 msgid "Brightness Down"
 msgstr "밝기 낮추기"
 
-#: plugins/media-keys/shortcuts-list.h:109
+#: plugins/media-keys/shortcuts-list.h:110
+msgid "Brightness Cycle"
+msgstr ""
+
+#: plugins/media-keys/shortcuts-list.h:111
 msgid "Keyboard Brightness Up"
 msgstr "키보드 밝기 높이기"
 
-#: plugins/media-keys/shortcuts-list.h:110
+#: plugins/media-keys/shortcuts-list.h:112
 msgid "Keyboard Brightness Down"
 msgstr "키보드 밝기 낮추기"
 
-#: plugins/media-keys/shortcuts-list.h:111
+#: plugins/media-keys/shortcuts-list.h:113
 msgid "Keyboard Brightness Toggle"
 msgstr "키보드 밝기 토글"
 
-#: plugins/media-keys/shortcuts-list.h:112
+#: plugins/media-keys/shortcuts-list.h:114
 msgid "Battery Status"
 msgstr "배터리 상태"
 
-#: plugins/media-keys/shortcuts-list.h:113
-#: plugins/media-keys/shortcuts-list.h:114
 #: plugins/media-keys/shortcuts-list.h:115
+#: plugins/media-keys/shortcuts-list.h:116
+#: plugins/media-keys/shortcuts-list.h:117
 msgid "Toggle Airplane Mode"
 msgstr "비행기 모드 토글"
 
-#: plugins/media-keys/shortcuts-list.h:116
+#: plugins/media-keys/shortcuts-list.h:118
 msgid "Toggle Bluetooth"
 msgstr "블루투스 토글"
 
@@ -1334,319 +1269,306 @@ msgid_plural "minutes"
 msgstr[0] "분"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gpm-common.c:433 plugins/power/gsd-power-manager.c:693
-#: plugins/power/gsd-power-manager.c:790
+#: plugins/power/gpm-common.c:438 plugins/power/gsd-power-manager.c:721
+#: plugins/power/gsd-power-manager.c:818
 msgid "Battery is critically low"
 msgstr "배터리가 전력이 위험 수준으로 부족합니다"
 
 #. TRANSLATORS: this is the notification application name
-#: plugins/power/gsd-power-manager.c:325
+#: plugins/power/gsd-power-manager.c:351
 msgid "Power"
 msgstr "전원"
 
 #. TRANSLATORS: UPS is now discharging
-#: plugins/power/gsd-power-manager.c:363
+#: plugins/power/gsd-power-manager.c:391
 msgid "UPS Discharging"
 msgstr "UPS 방전 중"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: plugins/power/gsd-power-manager.c:368
+#: plugins/power/gsd-power-manager.c:396
 #, c-format
 msgid "%s of UPS backup power remaining"
 msgstr "UPS 비상 전원 %s 남음"
 
-#: plugins/power/gsd-power-manager.c:371
+#: plugins/power/gsd-power-manager.c:399
 msgid "Unknown amount of UPS backup power remaining"
 msgstr "UPS 비상 전원 남은 양 알 수 없음"
 
 #. TRANSLATORS: laptop battery low, and we only have one battery
-#: plugins/power/gsd-power-manager.c:446
+#: plugins/power/gsd-power-manager.c:474
 msgid "Battery low"
 msgstr "배터리 전원 부족"
 
 #. TRANSLATORS: laptop battery low, and we have more than one kind of battery
-#: plugins/power/gsd-power-manager.c:449
+#: plugins/power/gsd-power-manager.c:477
 msgid "Laptop battery low"
 msgstr "노트북 배터리 부족"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: plugins/power/gsd-power-manager.c:456
+#: plugins/power/gsd-power-manager.c:484
 #, c-format
 msgid "Approximately %s remaining (%.0f%%)"
 msgstr "약 %s 남음(%.0f%%)"
 
 #. TRANSLATORS: UPS is starting to get a little low
-#: plugins/power/gsd-power-manager.c:461
+#: plugins/power/gsd-power-manager.c:489
 msgid "UPS low"
 msgstr "UPS 전원 부족"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: plugins/power/gsd-power-manager.c:467
+#: plugins/power/gsd-power-manager.c:495
 #, c-format
 msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
 msgstr "무정전 전원장치 비상 전원 약 %s 남음(%.0f%%)"
 
 #. TRANSLATORS: mouse is getting a little low
 #. TRANSLATORS: the mouse battery is very low
-#: plugins/power/gsd-power-manager.c:472 plugins/power/gsd-power-manager.c:606
+#: plugins/power/gsd-power-manager.c:500 plugins/power/gsd-power-manager.c:634
 msgid "Mouse battery low"
 msgstr "마우스 배터리 전원 부족"
 
 #. TRANSLATORS: tell user more details
-#: plugins/power/gsd-power-manager.c:475
+#: plugins/power/gsd-power-manager.c:503
 #, c-format
 msgid "Wireless mouse is low in power (%.0f%%)"
 msgstr "무선 마우스 전원이 부족합니다(%.0f%%)"
 
 #. TRANSLATORS: keyboard is getting a little low
 #. TRANSLATORS: the keyboard battery is very low
-#: plugins/power/gsd-power-manager.c:479 plugins/power/gsd-power-manager.c:614
+#: plugins/power/gsd-power-manager.c:507 plugins/power/gsd-power-manager.c:642
 msgid "Keyboard battery low"
 msgstr "키보드 배터리 전원 부족"
 
 #. TRANSLATORS: tell user more details
-#: plugins/power/gsd-power-manager.c:482
+#: plugins/power/gsd-power-manager.c:510
 #, c-format
 msgid "Wireless keyboard is low in power (%.0f%%)"
 msgstr "무선 키보드 전원이 부족합니다(%.0f%%)"
 
 #. TRANSLATORS: PDA is getting a little low
 #. TRANSLATORS: the PDA battery is very low
-#: plugins/power/gsd-power-manager.c:486 plugins/power/gsd-power-manager.c:623
+#: plugins/power/gsd-power-manager.c:514 plugins/power/gsd-power-manager.c:651
 msgid "PDA battery low"
 msgstr "PDA 배터리 전원 부족"
 
 #. TRANSLATORS: tell user more details
-#: plugins/power/gsd-power-manager.c:489
+#: plugins/power/gsd-power-manager.c:517
 #, c-format
 msgid "PDA is low in power (%.0f%%)"
 msgstr "PDA 전원이 부족합니다(%.0f%%)"
 
 #. TRANSLATORS: cell phone (mobile) is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: plugins/power/gsd-power-manager.c:493 plugins/power/gsd-power-manager.c:633
-#: plugins/power/gsd-power-manager.c:642
+#: plugins/power/gsd-power-manager.c:521 plugins/power/gsd-power-manager.c:661
+#: plugins/power/gsd-power-manager.c:670
 msgid "Cell phone battery low"
 msgstr "휴대전화 배터리 전원 부족"
 
 #. TRANSLATORS: tell user more details
-#: plugins/power/gsd-power-manager.c:496
+#: plugins/power/gsd-power-manager.c:524
 #, c-format
 msgid "Cell phone is low in power (%.0f%%)"
 msgstr "휴대전화 전원이 부족합니다(%.0f%%)"
 
 #. TRANSLATORS: media player, e.g. mp3 is getting a little low
-#: plugins/power/gsd-power-manager.c:500
+#: plugins/power/gsd-power-manager.c:528
 msgid "Media player battery low"
 msgstr "미디어 플레이어 배터리 전원 부족"
 
 #. TRANSLATORS: tell user more details
-#: plugins/power/gsd-power-manager.c:503
+#: plugins/power/gsd-power-manager.c:531
 #, c-format
 msgid "Media player is low in power (%.0f%%)"
 msgstr "미디어 플레이어 전원이 부족합니다(%.0f%%)"
 
 #. TRANSLATORS: graphics tablet, e.g. wacom is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: plugins/power/gsd-power-manager.c:507 plugins/power/gsd-power-manager.c:651
+#: plugins/power/gsd-power-manager.c:535 plugins/power/gsd-power-manager.c:679
 msgid "Tablet battery low"
 msgstr "디지타이저 배터리 전원 부족"
 
 #. TRANSLATORS: tell user more details
-#: plugins/power/gsd-power-manager.c:510
+#: plugins/power/gsd-power-manager.c:538
 #, c-format
 msgid "Tablet is low in power (%.0f%%)"
 msgstr "디지타이저 전원이 부족합니다(%.0f%%)"
 
 #. TRANSLATORS: computer, e.g. ipad is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: plugins/power/gsd-power-manager.c:514 plugins/power/gsd-power-manager.c:660
+#: plugins/power/gsd-power-manager.c:542 plugins/power/gsd-power-manager.c:688
 msgid "Attached computer battery low"
 msgstr "연결된 컴퓨터 배터리 전원 부족"
 
 #. TRANSLATORS: tell user more details
-#: plugins/power/gsd-power-manager.c:517
+#: plugins/power/gsd-power-manager.c:545
 #, c-format
 msgid "Attached computer is low in power (%.0f%%)"
 msgstr "연결된 컴퓨터의 전원이 부족합니다(%.0f%%)"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:538
+#: plugins/power/gsd-power-manager.c:566
 msgid "Battery is low"
 msgstr "배터리 부족"
 
-#. TRANSLATORS: laptop battery critically low, and only have one kind of battery
-#: plugins/power/gsd-power-manager.c:570
+#. TRANSLATORS: laptop battery critically low, and only have one kind of
+#. battery
+#: plugins/power/gsd-power-manager.c:598
 msgid "Battery critically low"
 msgstr "배터리 위험 수준으로 부족"
 
-#. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
+#. TRANSLATORS: laptop battery critically low, and we have more than one type
+#. of battery
 #. TRANSLATORS: laptop battery is really, really, low
-#: plugins/power/gsd-power-manager.c:573 plugins/power/gsd-power-manager.c:720
+#: plugins/power/gsd-power-manager.c:601 plugins/power/gsd-power-manager.c:748
 msgid "Laptop battery critically low"
 msgstr "노트북 배터리 위험 수준으로 부족"
 
 #. TRANSLATORS: give the user a ultimatum
-#: plugins/power/gsd-power-manager.c:582
+#: plugins/power/gsd-power-manager.c:610
 #, c-format
 msgid "Computer will hibernate very soon unless it is plugged in."
 msgstr "전원을 연결하지 않으면 곧 최대 절전 상태가 됩니다."
 
 #. TRANSLATORS: give the user a ultimatum
-#: plugins/power/gsd-power-manager.c:586
+#: plugins/power/gsd-power-manager.c:614
 #, c-format
 msgid "Computer will shutdown very soon unless it is plugged in."
 msgstr "전원을 연결하지 않으면 곧 컴퓨터가 꺼집니다."
 
 #. TRANSLATORS: the UPS is very low
 #. TRANSLATORS: UPS is really, really, low
-#: plugins/power/gsd-power-manager.c:594 plugins/power/gsd-power-manager.c:745
+#: plugins/power/gsd-power-manager.c:622 plugins/power/gsd-power-manager.c:773
 msgid "UPS critically low"
 msgstr "UPS 전원 위험 수준으로 낮음"
 
 #. TRANSLATORS: give the user a ultimatum
-#: plugins/power/gsd-power-manager.c:600
+#: plugins/power/gsd-power-manager.c:628
 #, c-format
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
 "computer to avoid losing data."
-msgstr ""
-"무정전 전원장치의 전원이 약 %s만큼 남았습니다(%.1f%%). 데이터를 잃지 않으려"
-"면 AC 전원을 다시 연결하십시오."
+msgstr "무정전 전원장치의 전원이 약 %s만큼 남았습니다(%.1f%%). 데이터를 잃지 않으려면 AC 전원을 다시 연결하십시오."
 
 #. TRANSLATORS: the device is just going to stop working
-#: plugins/power/gsd-power-manager.c:609
+#: plugins/power/gsd-power-manager.c:637
 #, c-format
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"무선 마우스의 전력이 매우 낮습니다(%.0f%%). 충전하지 않으면 이 장치는 곧 기능"
-"을 멈춥니다."
-
-#. TRANSLATORS: the device is just going to stop working
-#: plugins/power/gsd-power-manager.c:617
-#, c-format
-msgid ""
-"Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
-"functioning if not charged."
-msgstr ""
-"무선 키보드의 전력이 매우 낮습니다(%.0f%%). 충전하지 않으면 이 장치는 곧 기능"
-"을 멈춥니다."
-
-#. TRANSLATORS: the device is just going to stop working
-#: plugins/power/gsd-power-manager.c:626
-#, c-format
-msgid ""
-"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
-"not charged."
-msgstr ""
-"PDA의 전력이 매우 낮습니다(%.0f%%). 충전하지 않으면 이 장치는 곧 기능을 멈춥"
-"니다."
-
-#. TRANSLATORS: the device is just going to stop working
-#: plugins/power/gsd-power-manager.c:636
-#, c-format
-msgid ""
-"Cell phone is very low in power (%.0f%%). This device will soon stop "
-"functioning if not charged."
-msgstr ""
-"휴대전화의 전력이 매우 낮습니다(%.0f%%). 충전하지 않으면 이 장치는 곧 기능을 "
-"멈춥니다."
+msgstr "무선 마우스의 전력이 매우 낮습니다(%.0f%%). 충전하지 않으면 이 장치는 곧 기능을 멈춥니다."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:645
 #, c-format
 msgid ""
-"Media player is very low in power (%.0f%%). This device will soon stop "
+"Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"미디어 플레이어의 전력이 매우 낮습니다(%.0f%%). 충전하지 않으면 이 장치는 곧 "
-"기능을 멈춥니다."
+msgstr "무선 키보드의 전력이 매우 낮습니다(%.0f%%). 충전하지 않으면 이 장치는 곧 기능을 멈춥니다."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:654
 #, c-format
 msgid ""
-"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
-"if not charged."
-msgstr ""
-"디지타이저의 전력이 매우 낮습니다(%.0f%%). 충전하지 않으면 이 장치는 곧 기능"
-"을 멈춥니다."
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if"
+" not charged."
+msgstr "PDA의 전력이 매우 낮습니다(%.0f%%). 충전하지 않으면 이 장치는 곧 기능을 멈춥니다."
 
 #. TRANSLATORS: the device is just going to stop working
-#: plugins/power/gsd-power-manager.c:663
+#: plugins/power/gsd-power-manager.c:664
+#, c-format
+msgid ""
+"Cell phone is very low in power (%.0f%%). This device will soon stop "
+"functioning if not charged."
+msgstr "휴대전화의 전력이 매우 낮습니다(%.0f%%). 충전하지 않으면 이 장치는 곧 기능을 멈춥니다."
+
+#. TRANSLATORS: the device is just going to stop working
+#: plugins/power/gsd-power-manager.c:673
+#, c-format
+msgid ""
+"Media player is very low in power (%.0f%%). This device will soon stop "
+"functioning if not charged."
+msgstr "미디어 플레이어의 전력이 매우 낮습니다(%.0f%%). 충전하지 않으면 이 장치는 곧 기능을 멈춥니다."
+
+#. TRANSLATORS: the device is just going to stop working
+#: plugins/power/gsd-power-manager.c:682
+#, c-format
+msgid ""
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning"
+" if not charged."
+msgstr "디지타이저의 전력이 매우 낮습니다(%.0f%%). 충전하지 않으면 이 장치는 곧 기능을 멈춥니다."
+
+#. TRANSLATORS: the device is just going to stop working
+#: plugins/power/gsd-power-manager.c:691
 #, c-format
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
 "shutdown if not charged."
-msgstr ""
-"연결한 컴퓨터의 전력이 매우 낮습니다(%.0f%%). 충전하지 않으면 이 장치는 곧 기"
-"능을 멈춥니다."
+msgstr "연결한 컴퓨터의 전력이 매우 낮습니다(%.0f%%). 충전하지 않으면 이 장치는 곧 기능을 멈춥니다."
 
 #. TRANSLATORS: computer will hibernate
-#: plugins/power/gsd-power-manager.c:728
+#: plugins/power/gsd-power-manager.c:756
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
 msgstr "배터리 전력이 위험 수준보다 낮고 이 컴퓨터는 최대절전이 됩니다."
 
 #. TRANSLATORS: computer will just shutdown
-#: plugins/power/gsd-power-manager.c:733
+#: plugins/power/gsd-power-manager.c:761
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "shutdown."
 msgstr "배터리 전력이 위험 수준보다 낮아 이 컴퓨터가 꺼질 예정입니다."
 
 #. TRANSLATORS: computer will hibernate
-#: plugins/power/gsd-power-manager.c:753
+#: plugins/power/gsd-power-manager.c:781
 msgid ""
 "UPS is below the critical level and this computer is about to hibernate."
 msgstr "UPS 전원이 위험 수준보다 낮아 이 컴퓨터는 꺼질 예정입니다."
 
 #. TRANSLATORS: computer will just shutdown
-#: plugins/power/gsd-power-manager.c:758
-msgid "UPS is below the critical level and this computer is about to shutdown."
+#: plugins/power/gsd-power-manager.c:786
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
 msgstr "UPS 전원이 위험 수준보다 낮아 이 컴퓨터는 꺼질 예정입니다."
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1320
+#: plugins/power/gsd-power-manager.c:1270
 msgid "Lid has been opened"
 msgstr "덮개를 열었습니다"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1354
+#: plugins/power/gsd-power-manager.c:1304
 msgid "Lid has been closed"
 msgstr "덮개를 닫았습니다"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1916
+#: plugins/power/gsd-power-manager.c:1890
 msgid "On battery power"
 msgstr "배터리 전원 사용"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1921
+#: plugins/power/gsd-power-manager.c:1895
 msgid "On AC power"
 msgstr "AC 전원 사용"
 
-#: plugins/power/gsd-power-manager.c:2113
+#: plugins/power/gsd-power-manager.c:2085
 msgid "Automatic logout"
 msgstr "자동 로그아웃"
 
-#: plugins/power/gsd-power-manager.c:2113
+#: plugins/power/gsd-power-manager.c:2085
 msgid "You will soon log out because of inactivity."
 msgstr "활동이 없어서 곧 로그아웃합니다."
 
-#: plugins/power/gsd-power-manager.c:2118
+#: plugins/power/gsd-power-manager.c:2090
 msgid "Automatic suspend"
 msgstr "자동 대기 모드"
 
-#: plugins/power/gsd-power-manager.c:2118
-#: plugins/power/gsd-power-manager.c:2123
+#: plugins/power/gsd-power-manager.c:2090
+#: plugins/power/gsd-power-manager.c:2095
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "활동이 없어서 곧 대기 모드로 들어갑니다."
 
-#: plugins/power/gsd-power-manager.c:2123
+#: plugins/power/gsd-power-manager.c:2095
 msgid "Automatic hibernation"
 msgstr "자동 최대 절전 모드"
 
@@ -1689,232 +1611,250 @@ msgstr "이 프린터의 드라이버가 없습니다."
 
 #: plugins/print-notifications/gsd-printer.c:1031
 #: plugins/print-notifications/gsd-print-notifications-manager.c:290
-#: plugins/print-notifications/gsd-print-notifications-manager.c:531
-#: plugins/print-notifications/gsd-print-notifications-manager.c:913
-#: plugins/print-notifications/gsd-print-notifications-manager.c:1004
-#: plugins/print-notifications/gsd-print-notifications-manager.c:1048
+#: plugins/print-notifications/gsd-print-notifications-manager.c:538
+#: plugins/print-notifications/gsd-print-notifications-manager.c:920
+#: plugins/print-notifications/gsd-print-notifications-manager.c:1011
+#: plugins/print-notifications/gsd-print-notifications-manager.c:1055
 msgid "Printers"
 msgstr "프린터"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:367
+#: plugins/print-notifications/gsd-print-notifications-manager.c:374
 #, c-format
 msgid "Printer “%s” is low on toner."
 msgstr "“%s” 프린터의 토너가 부족합니다."
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:371
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:378
 #, c-format
 msgid "Printer “%s” has no toner left."
 msgstr "“%s” 프린터의 토너가 남아있지 않습니다."
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:375
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:382
 #, c-format
 msgid "Printer “%s” may not be connected."
 msgstr "“%s” 프린터가 연결되지 않았을 수 있습니다."
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:379
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:386
 #, c-format
 msgid "The cover is open on printer “%s”."
 msgstr "“%s” 프린터의 덮개가 열려 있습니다."
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:383
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:390
 #, c-format
 msgid "There is a missing print filter for printer “%s”."
 msgstr "“%s” 프린터의 인쇄 필터가 없습니다."
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:388
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "The door is open on printer “%s”."
 msgstr "“%s” 프린터의 문이 열려 있습니다."
 
 #. Translators: "marker" is one color bin of the printer
-#: plugins/print-notifications/gsd-print-notifications-manager.c:392
+#: plugins/print-notifications/gsd-print-notifications-manager.c:399
 #, c-format
 msgid "Printer “%s” is low on a marker supply."
 msgstr "“%s” 프린터의 마커 보급이 부족합니다."
 
 #. Translators: "marker" is one color bin of the printer
-#: plugins/print-notifications/gsd-print-notifications-manager.c:396
+#: plugins/print-notifications/gsd-print-notifications-manager.c:403
 #, c-format
 msgid "Printer “%s” is out of a marker supply."
 msgstr "“%s” 프린터의 마커 보급이 없습니다."
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:400
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:407
 #, c-format
 msgid "Printer “%s” is low on paper."
 msgstr "“%s” 프린터의 용지가 부족합니다."
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:404
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:411
 #, c-format
 msgid "Printer “%s” is out of paper."
 msgstr "“%s” 프린터의 용지가 없습니다."
 
 #. Translators: The printer is offline (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:408
+#: plugins/print-notifications/gsd-print-notifications-manager.c:415
 #, c-format
 msgid "Printer “%s” is currently off-line."
 msgstr "“%s” 프린터가 연결 중지 상태입니다."
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:412
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:419
 #, c-format
 msgid "There is a problem on printer “%s”."
 msgstr "“%s” 프린터에 문제가 있습니다."
 
-#. Translators: The printer has a job to print but the printer needs authentication to continue with the print
-#: plugins/print-notifications/gsd-print-notifications-manager.c:524
+#. Translators: The printer has a job to print but the printer needs
+#. authentication to continue with the print
+#: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
-msgstr "%s 인증이 필요합니다"
+msgstr ""
 
 #. Translators: A printer needs credentials to continue printing a job
-#: plugins/print-notifications/gsd-print-notifications-manager.c:526
+#: plugins/print-notifications/gsd-print-notifications-manager.c:533
 #, c-format
 msgid "Credentials required in order to print"
-msgstr "인쇄하려면 인증 정보가 필요합니다"
+msgstr ""
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:593
+#: plugins/print-notifications/gsd-print-notifications-manager.c:600
 msgid "Toner low"
 msgstr "토너 부족"
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:595
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:602
 msgid "Toner empty"
 msgstr "토너 없음"
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:597
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:604
 msgid "Not connected?"
 msgstr "연결되지 않음?"
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:599
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:606
 msgid "Cover open"
 msgstr "덮개 열림"
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:601
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:608
 msgid "Printer configuration error"
 msgstr "프린터 설정 오류"
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:603
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:610
 msgid "Door open"
 msgstr "문 열림"
 
 #. Translators: "marker" is one color bin of the printer
-#: plugins/print-notifications/gsd-print-notifications-manager.c:605
+#: plugins/print-notifications/gsd-print-notifications-manager.c:612
 msgid "Marker supply low"
 msgstr "마커 보급 부족"
 
 #. Translators: "marker" is one color bin of the printer
-#: plugins/print-notifications/gsd-print-notifications-manager.c:607
+#: plugins/print-notifications/gsd-print-notifications-manager.c:614
 msgid "Out of a marker supply"
 msgstr "마커 보급 없음"
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:609
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:616
 msgid "Paper low"
 msgstr "용지 부족"
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:611
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:618
 msgid "Out of paper"
 msgstr "용지 없음"
 
 #. Translators: The printer is offline (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:613
+#: plugins/print-notifications/gsd-print-notifications-manager.c:620
 msgid "Printer off-line"
 msgstr "프린터 연결 끊김"
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #. Translators: This is a title of an error notification for a printer
-#: plugins/print-notifications/gsd-print-notifications-manager.c:615
-#: plugins/print-notifications/gsd-print-notifications-manager.c:990
+#: plugins/print-notifications/gsd-print-notifications-manager.c:622
+#: plugins/print-notifications/gsd-print-notifications-manager.c:997
 msgid "Printer error"
 msgstr "프린터 오류"
 
 #. Translators: New printer has been added
-#: plugins/print-notifications/gsd-print-notifications-manager.c:663
+#: plugins/print-notifications/gsd-print-notifications-manager.c:670
 msgid "Printer added"
 msgstr "프린터 추가"
 
 #. Translators: A print job has been stopped
-#: plugins/print-notifications/gsd-print-notifications-manager.c:680
-#: plugins/print-notifications/gsd-print-notifications-manager.c:718
+#: plugins/print-notifications/gsd-print-notifications-manager.c:687
+#: plugins/print-notifications/gsd-print-notifications-manager.c:725
 msgctxt "print job state"
 msgid "Printing stopped"
 msgstr "프린터 중지"
 
 #. Translators: "print-job xy" on a printer
-#: plugins/print-notifications/gsd-print-notifications-manager.c:682
-#: plugins/print-notifications/gsd-print-notifications-manager.c:688
-#: plugins/print-notifications/gsd-print-notifications-manager.c:694
-#: plugins/print-notifications/gsd-print-notifications-manager.c:700
-#: plugins/print-notifications/gsd-print-notifications-manager.c:712
-#: plugins/print-notifications/gsd-print-notifications-manager.c:720
-#: plugins/print-notifications/gsd-print-notifications-manager.c:728
-#: plugins/print-notifications/gsd-print-notifications-manager.c:736
-#: plugins/print-notifications/gsd-print-notifications-manager.c:744
-#: plugins/print-notifications/gsd-print-notifications-manager.c:768
+#: plugins/print-notifications/gsd-print-notifications-manager.c:689
+#: plugins/print-notifications/gsd-print-notifications-manager.c:695
+#: plugins/print-notifications/gsd-print-notifications-manager.c:701
+#: plugins/print-notifications/gsd-print-notifications-manager.c:707
+#: plugins/print-notifications/gsd-print-notifications-manager.c:719
+#: plugins/print-notifications/gsd-print-notifications-manager.c:727
+#: plugins/print-notifications/gsd-print-notifications-manager.c:735
+#: plugins/print-notifications/gsd-print-notifications-manager.c:743
+#: plugins/print-notifications/gsd-print-notifications-manager.c:751
+#: plugins/print-notifications/gsd-print-notifications-manager.c:775
 #, c-format
 msgctxt "print job"
 msgid "“%s” on %s"
 msgstr "“%s” (프린터 %s)"
 
 #. Translators: A print job has been canceled
-#: plugins/print-notifications/gsd-print-notifications-manager.c:686
-#: plugins/print-notifications/gsd-print-notifications-manager.c:726
+#: plugins/print-notifications/gsd-print-notifications-manager.c:693
+#: plugins/print-notifications/gsd-print-notifications-manager.c:733
 msgctxt "print job state"
 msgid "Printing canceled"
 msgstr "인쇄 취소"
 
 #. Translators: A print job has been aborted
-#: plugins/print-notifications/gsd-print-notifications-manager.c:692
-#: plugins/print-notifications/gsd-print-notifications-manager.c:734
+#: plugins/print-notifications/gsd-print-notifications-manager.c:699
+#: plugins/print-notifications/gsd-print-notifications-manager.c:741
 msgctxt "print job state"
 msgid "Printing aborted"
 msgstr "인쇄 강제 중지"
 
 #. Translators: A print job has been completed
-#: plugins/print-notifications/gsd-print-notifications-manager.c:698
-#: plugins/print-notifications/gsd-print-notifications-manager.c:742
+#: plugins/print-notifications/gsd-print-notifications-manager.c:705
+#: plugins/print-notifications/gsd-print-notifications-manager.c:749
 msgctxt "print job state"
 msgid "Printing completed"
 msgstr "인쇄 완료"
 
 #. Translators: A job is printing
-#: plugins/print-notifications/gsd-print-notifications-manager.c:710
-#: plugins/print-notifications/gsd-print-notifications-manager.c:766
+#: plugins/print-notifications/gsd-print-notifications-manager.c:717
+#: plugins/print-notifications/gsd-print-notifications-manager.c:773
 msgctxt "print job state"
 msgid "Printing"
 msgstr "인쇄 중"
 
 #. Translators: This is a title of a report notification for a printer
-#: plugins/print-notifications/gsd-print-notifications-manager.c:984
+#: plugins/print-notifications/gsd-print-notifications-manager.c:991
 msgid "Printer report"
 msgstr "프린터 보고"
 
 #. Translators: This is a title of a warning notification for a printer
-#: plugins/print-notifications/gsd-print-notifications-manager.c:987
+#: plugins/print-notifications/gsd-print-notifications-manager.c:994
 msgid "Printer warning"
 msgstr "프린터 경고"
 
-#. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
-#: plugins/print-notifications/gsd-print-notifications-manager.c:997
+#. Translators: "Printer 'MyPrinterName': 'Description of the
+#. report/warning/error from a PPD file'."
+#: plugins/print-notifications/gsd-print-notifications-manager.c:1004
 #, c-format
 msgid "Printer “%s”: “%s”."
 msgstr "프린터 “%s”: “%s”."
 
-#: plugins/smartcard/gsd-smartcard-service.c:224
+#: plugins/smartcard/gsd-smartcard-service.c:288
 msgid "User was not logged in with smartcard."
 msgstr "이 스마트카드로 사용자가 로그인하지 않았습니다."
 
@@ -1939,457 +1879,3 @@ msgstr "와콤 디지타이저의 OLED 그림 수정"
 #: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:36
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
 msgstr "와콤 디지타이저의 OLED를 수정하려면 인증이 필요합니다"
-
-#~ msgid "Slow Keys Turned On"
-#~ msgstr "느린 키 켬"
-
-#~ msgid "Slow Keys Turned Off"
-#~ msgstr "느린 키 끔"
-
-#~ msgid ""
-#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
-#~ "the Slow Keys feature, which affects the way your keyboard works."
-#~ msgstr ""
-#~ "<Shift> 키를 8초 동안 누르고 있었습니다.  느린 키 기능을 사용하게 됩니"
-#~ "다.  느린 키를 사용하면 키보드가 동작하는 방식이 달라집니다."
-
-#~ msgid "Universal Access"
-#~ msgstr "접근성"
-
-#~ msgid "Turn Off"
-#~ msgstr "켜기"
-
-#~ msgid "Turn On"
-#~ msgstr "끄기"
-
-#~ msgid "Leave On"
-#~ msgstr "들어가기"
-
-#~ msgid "Leave Off"
-#~ msgstr "나가기"
-
-#~ msgid "Sticky Keys Turned On"
-#~ msgstr "고정 키 켬"
-
-#~ msgid "Sticky Keys Turned Off"
-#~ msgstr "고정 키 끔"
-
-#~ msgid ""
-#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
-#~ "for the Sticky Keys feature, which affects the way your keyboard works."
-#~ msgstr ""
-#~ "<Shift> 키를 5번 연속해서 눌렀습니다.  고정 키 기능을 사용하게 됩니다.  고"
-#~ "정 키를 사용하면 키보드가 동작하는 방식이 달라집니다."
-
-#~ msgid ""
-#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
-#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
-#~ "keyboard works."
-#~ msgstr ""
-#~ "키 두 개를 동시에 눌렀거나, <Shift> 키를 5번 연속해서 눌렀습니다.  고정 "
-#~ "키 기능을 해제하게 됩니다.  고정 키를 해제하면 키보드가 동작하는 방식이 달"
-#~ "라집니다."
-
-#~ msgid "Disabled"
-#~ msgstr "사용하지 않음"
-
-#~ msgid "%u Output"
-#~ msgid_plural "%u Outputs"
-#~ msgstr[0] "%u개 출력"
-
-#~ msgid "%u Input"
-#~ msgid_plural "%u Inputs"
-#~ msgstr[0] "%u개 입력"
-
-#~ msgid "System Sounds"
-#~ msgstr "시스템 소리"
-
-#~ msgid "File for default configuration for RandR"
-#~ msgstr "RandR 기본 설정 파일"
-
-#~ msgid ""
-#~ "The XRandR plugin will look for a default configuration in the file "
-#~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
-#~ "normally gets stored in users’ home directories. If a user does not have "
-#~ "such a file, or has one that does not match the user’s setup of monitors, "
-#~ "then the file specified by this key will be used instead."
-#~ msgstr ""
-#~ "XRandR 플러그인이 이 키에서 지정한 파일에서 기본 설정을 찾습니다. 사용자"
-#~ "의 홈 디렉터리에 저장되어 있는 ~/.config/monitors.xml 파일과 비슷합니다. "
-#~ "사용자가 이 파일이 없거나 이 파일의 설정이 모니터와 맞지 않는 경우, 이 키"
-#~ "에서 지정한 파일을 대신 사용합니다."
-
-#~ msgid "Whether to turn off specific monitors after boot"
-#~ msgstr "부팅한 뒤에 모니터를 끌지 여부"
-
-#~ msgid ""
-#~ "“clone” will display the same thing on all monitors, “dock” will switch "
-#~ "off the internal monitor, “do-nothing” will use the default Xorg "
-#~ "behaviour (extend the desktop in recent versions). The default, “follow-"
-#~ "lid”, will choose between “do-nothing” and “dock” depending on whether "
-#~ "the lid is (respectively) open or closed."
-#~ msgstr ""
-#~ "'clone'은 모든 모니터에 같은 내용을 표시합니다. “dock”은 내부 모니터를 끕"
-#~ "니다. “do-nothing”은 기본 Xorg 방식을 사용합니다. (최근 버전에서는 바탕 화"
-#~ "면을 확장합니다.) 기본값인 “follow-lid”는 덮개가 열렸냐 닫혔냐에 따라 각"
-#~ "각 “do-nothing”과 “dock” 중 한 가지로 동작합니다."
-
-#~ msgid "Video Out"
-#~ msgstr "화면 출력"
-
-#~ msgid "Rotate Screen"
-#~ msgstr "화면 회전"
-
-#~ msgid "Could not refresh the screen information: %s"
-#~ msgstr "화면 정보를 새로 읽어 올 수 없습니다: %s"
-
-#~ msgid "GNOME Settings Daemon"
-#~ msgstr "그놈 설정 데몬"
-
-#~ msgid "Activation of this plugin"
-#~ msgstr "이 플러그인 활성화"
-
-#~ msgid ""
-#~ "Whether this plugin would be activated by gnome-settings-daemon or not"
-#~ msgstr "gnome-settings-daemon에서 플러그인을 활성화할지 여부"
-
-#~ msgid "Priority to use for this plugin"
-#~ msgstr "이 플러그인 사용 우선 순위"
-
-#~ msgid ""
-#~ "Priority to use for this plugin in gnome-settings-daemon startup queue"
-#~ msgstr "gnome-settings-daemon 시작 대기열에서 이 플러그인 사용 우선 순위"
-
-#~ msgid "Enable debugging code"
-#~ msgstr "디버깅 코드 사용"
-
-#~ msgid "Replace existing daemon"
-#~ msgstr "실행 중인 데몬 바꾸기"
-
-#~ msgid "Exit after a time (for debugging)"
-#~ msgstr "일정 시간 후에 끝냅니다(디버깅 용도)"
-
-#~ msgid "Accessibility Keyboard"
-#~ msgstr "접근성 키보드"
-
-#~ msgid "Accessibility keyboard plugin"
-#~ msgstr "접근성 키보드 플러그인"
-
-#~ msgid "Accessibility settings"
-#~ msgstr "접근성 설정"
-
-#~ msgid "Accessibility settings plugin"
-#~ msgstr "접근성 설정 플러그인"
-
-#~ msgid "Clipboard"
-#~ msgstr "클립보드"
-
-#~ msgid "Clipboard plugin"
-#~ msgstr "클립보드 플러그인"
-
-#~ msgid "Color plugin"
-#~ msgstr "색 플러그인"
-
-#~ msgid "Date and Time"
-#~ msgstr "날짜 및 시각"
-
-#~ msgid "Automatically update timezone"
-#~ msgstr "자동으로 표준 시간대 업데이트"
-
-#~ msgid "Dummy"
-#~ msgstr "더미"
-
-#~ msgid "Dummy plugin"
-#~ msgstr "더미 플러그인"
-
-#~ msgid "Housekeeping"
-#~ msgstr "관리 작업"
-
-#~ msgid ""
-#~ "Automatically prunes thumbnail caches and other transient files, and "
-#~ "warns about low disk space"
-#~ msgstr ""
-#~ "자동으로 섬네일 캐시와 기타 일시적인 파일을 삭제하고, 디스크가 부족할 때 "
-#~ "경고를 표시합니다"
-
-#~ msgid "Keyboard"
-#~ msgstr "키보드"
-
-#~ msgid "Keyboard plugin"
-#~ msgstr "키보드 플러그인"
-
-#~ msgid "Media keys"
-#~ msgstr "미디어 키"
-
-#~ msgid "Media keys plugin"
-#~ msgstr "미디어 키 플러그인"
-
-#~ msgid "Mouse"
-#~ msgstr "마우스"
-
-#~ msgid "Mouse plugin"
-#~ msgstr "마우스 플러그인"
-
-#~ msgid "Orientation"
-#~ msgstr "방향"
-
-#~ msgid "Orientation plugin"
-#~ msgstr "방향 플러그인"
-
-#~ msgid "Power plugin"
-#~ msgstr "전원 플러그인"
-
-#~ msgid "Print-notifications"
-#~ msgstr "인쇄 알림"
-
-#~ msgid "Print-notifications plugin"
-#~ msgstr "인쇄 알림 플러그인"
-
-# 주의: 리눅스 rfkill
-#~ msgid "Rfkill"
-#~ msgstr "rfkill"
-
-# 주의: 리눅스 rfkill
-#~ msgid "Rfkill plugin"
-#~ msgstr "rfkill 플러그인"
-
-#~ msgid "Screensaver Proxy"
-#~ msgstr "화면 보호기 프록시"
-
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
-#~ msgstr "FreeDesktop 화면 보호기 금지를 gnome-session에 프록시"
-
-#~ msgid "Smartcard"
-#~ msgstr "스마트카드"
-
-#~ msgid "Smartcard plugin"
-#~ msgstr "스마트카드 플러그인"
-
-#~ msgid "Sound"
-#~ msgstr "소리"
-
-#~ msgid "Sound Sample Cache plugin"
-#~ msgstr "소리 샘플 캐시 플러그인"
-
-#~ msgctxt "Wacom action-type"
-#~ msgid "None"
-#~ msgstr "없음"
-
-#~ msgctxt "Wacom action-type"
-#~ msgid "Send Keystroke"
-#~ msgstr "키 보내기"
-
-#~ msgctxt "Wacom action-type"
-#~ msgid "Switch Monitor"
-#~ msgstr "모니터 전환"
-
-#~ msgctxt "Wacom action-type"
-#~ msgid "Show On-Screen Help"
-#~ msgstr "화면 도움말 표시"
-
-#~ msgctxt "Action type"
-#~ msgid "Show On-Screen Help"
-#~ msgstr "화면 도움말 표시"
-
-#~ msgctxt "Action type"
-#~ msgid "Switch Monitor"
-#~ msgstr "모니터 전환"
-
-#~ msgctxt "keyboard shortcut"
-#~ msgid "None"
-#~ msgstr "없음"
-
-#~ msgid "Done"
-#~ msgstr "완료"
-
-#~ msgid "Left Ring"
-#~ msgstr "왼쪽 링"
-
-#~ msgid "Left Ring Mode #%d"
-#~ msgstr "왼쪽 링 모드 #%d"
-
-#~ msgid "Right Ring"
-#~ msgstr "오른쪽 링"
-
-#~ msgid "Right Ring Mode #%d"
-#~ msgstr "오른쪽 링 모드 #%d"
-
-#~ msgid "Left Touchstrip"
-#~ msgstr "왼쪽 터치스트립"
-
-#~ msgid "Left Touchstrip Mode #%d"
-#~ msgstr "왼쪽 터치스트립 모드 #%d"
-
-#~ msgid "Right Touchstrip"
-#~ msgstr "오른쪽 터치스트립"
-
-#~ msgid "Right Touchstrip Mode #%d"
-#~ msgstr "오른쪽 터치스트립 모드 #%d"
-
-#~ msgid "Left Touchring Mode Switch"
-#~ msgstr "왼쪽 터치링 모드 전환"
-
-#~ msgid "Right Touchring Mode Switch"
-#~ msgstr "오른쪽 터치링 모드 전환"
-
-#~ msgid "Left Touchstrip Mode Switch"
-#~ msgstr "왼쪽 터치스트립 모드 전환"
-
-#~ msgid "Right Touchstrip Mode Switch"
-#~ msgstr "오른쪽 터치스트립 모드 전환"
-
-#~ msgid "Mode Switch #%d"
-#~ msgstr "모드 전환 #%d"
-
-#~ msgid "Left Button #%d"
-#~ msgstr "왼쪽 단추 #%d"
-
-#~ msgid "Right Button #%d"
-#~ msgstr "오른쪽 단추 #%d"
-
-#~ msgid "Top Button #%d"
-#~ msgstr "위 단추 #%d"
-
-#~ msgid "Bottom Button #%d"
-#~ msgstr "아래 단추 #%d"
-
-#~ msgid "New shortcut…"
-#~ msgstr "새 바로 가기…"
-
-#~ msgid "The \"%s\" tablet may not work as expected."
-#~ msgstr "\"%s\" 디지타이저가 예상대로 동작하지 않을 수 있습니다."
-
-#~ msgid "Unknown Tablet Connected"
-#~ msgstr "알 수 없는 디지타이저를 연결했습니다"
-
-#~ msgid "Wacom Settings"
-#~ msgstr "와콤 설정"
-
-#~ msgctxt "Action type"
-#~ msgid "None"
-#~ msgstr "없음"
-
-#~ msgctxt "Action type"
-#~ msgid "Send Keystroke %s"
-#~ msgstr "키 %s 보내기"
-
-#~ msgid "Mode %d: %s"
-#~ msgstr "모드 %d: %s"
-
-#~ msgid "(press any key to exit)"
-#~ msgstr "(나가려면 아무 키나 누르십시오)"
-
-#~ msgid "Push a button to configure"
-#~ msgstr "설정하려면 단추를 누르십시오"
-
-#~ msgid "(Esc to cancel)"
-#~ msgstr "(취소하려면 Esc)"
-
-#~ msgid "Edit"
-#~ msgstr "편집"
-
-#~ msgid "Wacom"
-#~ msgstr "와콤"
-
-#~ msgid "Wacom plugin"
-#~ msgstr "와콤 플러그인"
-
-#~ msgid "XRandR"
-#~ msgstr "XRandR"
-
-#~ msgid "Set up screen size and rotation settings"
-#~ msgstr "화면 크기 및 회전 설정을 합니다"
-
-#~ msgid "X Settings"
-#~ msgstr "X 설정"
-
-#~ msgid "Manage X Settings"
-#~ msgstr "X 설정 관리"
-
-#~ msgid "Device hotplug custom command"
-#~ msgstr "장치 핫플러그 사용자 설정 명령어"
-
-#~ msgid ""
-#~ "Command to be run when a device is added or removed. An exit value of 1 "
-#~ "means that the device will not be handled further by gnome-settings-"
-#~ "daemon."
-#~ msgstr ""
-#~ "장치를 추가하거나 제거했을 때 실행할 명령. 코드 1번으로 끝나면 이 장치는 "
-#~ "gnome-settings-daemon이 더 이상 처리하지 않는다는 뜻입니다."
-
-#~ msgid ""
-#~ "The type of hinting to use when rendering fonts. Possible values are: "
-#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
-#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
-#~ msgstr ""
-#~ "글꼴을 렌더링할 때 사용할 힌팅 방법. 사용 가능한 값은: \"none\"이면 힌팅 "
-#~ "없음, \"slight\"이면 기초적인 방법, \"medium\"이면 중간, \"full\"이면 최"
-#~ "대 힌팅(글자 모양이 왜곡될 수도 있습니다)."
-
-#~ msgid "Wacom last calibrated resolution"
-#~ msgstr "와콤 최근 보정 해상도"
-
-#~ msgid ""
-#~ "Holds the last calibrated resolution to help check if calibration is "
-#~ "needed."
-#~ msgstr ""
-#~ "최근 보정 해상도 값이 들어 있습니다. 보정이 필요한지 검사하는데 사용합니"
-#~ "다."
-
-#~ msgid "Cursor"
-#~ msgstr "커서"
-
-#~ msgid "Show/hide cursor on tablet devices"
-#~ msgstr "디지타이저 장치에서 커서 표시/감추기"
-
-#~ msgid "Don't show any warnings again for this file system"
-#~ msgstr "이 파일 시스템에 대해 경고를 다시 표시하지 않기"
-
-#~ msgid "Don't show any warnings again"
-#~ msgstr "경고를 다시 표시하지 않기"
-
-#~ msgid "The volume \"%s\" has only %s disk space remaining."
-#~ msgstr "\"%s\" 볼륨에 디스크 공간이 %s 밖에 남지 않았습니다."
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to another disk or partition."
-#~ msgstr ""
-#~ "휴지통을 비우거나, 사용하지 않는 프로그램이나 파일을 지우거나, 파일을 다"
-#~ "른 디스크나 파티션으로 옮기는 방법으로 디스크 공간을 확보할 수 있습니다."
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to another disk or partition."
-#~ msgstr ""
-#~ "사용하지 않는 프로그램이나 파일을 지우거나, 파일을 다른 디스크나 파티션으"
-#~ "로 옮기는 방법으로 디스크 공간을 확보할 수 있습니다."
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to an external disk."
-#~ msgstr ""
-#~ "휴지통을 비우거나, 파일을 외장 디스크로 옮기는 방법으로 디스크 공간을 확보"
-#~ "할 수 있습니다."
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to an external disk."
-#~ msgstr ""
-#~ "사용하지 않는 프로그램이나 파일을 지우거나, 파일을 외장 디스크로 옮기는 방"
-#~ "법으로 디스크 공간을 확보할 수 있습니다."
-
-#~ msgid "Examine…"
-#~ msgstr "검사…"
-
-#~ msgid "Printer removed"
-#~ msgstr "프린터 제거"
-
-#~ msgid "Tablet %s needs to be calibrated."
-#~ msgstr "'%s' 디지타이저를 다시 보정해야 합니다."
-
-#~ msgid "Calibration needed"
-#~ msgstr "보정이 필요합니다"
-
-#~ msgid "Calibrate"
-#~ msgstr "보정"
