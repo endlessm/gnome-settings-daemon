@@ -1,14 +1,84 @@
-gnome-settings-daemon (3.32.0-1endless0) eos; urgency=medium
+gnome-settings-daemon (3.34.0-1) experimental; urgency=medium
 
-  * Fix typo at "-Drfkill"
-    * https://salsa.debian.org/gnome-team/gnome-settings-daemon/merge_requests/4
-  * Rebase previous downstream changes:
-    * Add "led-breathe" to DEB_FIXPERMS_EXCLUDE
-    * Remove packagekit dependency
-      * The plugin is only used to find printer drivers, but we ship the majority of drivers
-        already. See https://gitlab.gnome.org/GNOME/gnome-settings-daemon/issues/406
+  [ Will Thompson ]
+  * debian/rules: pass --auto-servernum to xvfb-run.
 
- -- Georges Basile Stavracas Neto <georges@endlessm.com>  Mon, 08 Apr 2019 17:25:26 -0300
+  [ Andre Moreira Magalhaes ]
+  * New upstream release
+  * debian/control.in: Bump gsettings-desktop-schemas dependency to 3.34.0
+
+ -- Iain Lane <laney@debian.org>  Wed, 11 Sep 2019 15:30:56 +0100
+
+gnome-settings-daemon (3.33.92-1) experimental; urgency=medium
+
+  [ Iain Lane ]
+  * New upstream release
+    + Media-keys
+      - Fix MPRIS controller no longer working
+    + XSettings
+      - Make plugin able to run on demand
+      - Ensure plugin is started after the shell
+    + General
+      - Replace deprecated 'g_type_class_add_private' in
+        GnomeSettingsPluginInfo
+
+  [ Laurent Bigonville ]
+  * Bump debhelper compatibility to 12, this will ensure that
+    dh_installsystemduser is called by default
+  * debian/control.in: Bump gsettings-desktop-schemas dependency to 3.33.0
+    to match the build-dependency version
+  * debian/control.in: Bump Standards-Version to 4.4.0 (no further changes)
+
+ -- Iain Lane <laney@debian.org>  Fri, 06 Sep 2019 13:51:19 +0100
+
+gnome-settings-daemon (3.33.90-1) experimental; urgency=medium
+
+  * New upstream release
+    - Add systemd user service files for all the plugins
+    - With the exception of gsd-xsettings, daemons do not use the GDK X11
+      backend anymore
+    - WWAN:
+      + New daemon, handles WWAN device settings
+    - Mouse:
+      + Removed daemon, everything is now implemented in mutter
+    - Clipboard:
+      + Removed daemon, everything is now implemented in mutter
+    - Color:
+      + Use Planckian calculations on night light
+      + Allow night light to be always on
+    - Rfkill:
+      + Handle airplane mode for WWAN interfaces
+    - XSettings:
+      + Round Xft.dpi setting to an integer
+      + Add entry for overlay scrolling setting
+    - Media-keys:
+      + Use device node from AcceleratorActivated arguments
+      + Keygrabbing has been reworked. The new UngrabAccelerators DBus API on
+        the shell is now required. Non-GNOME Desktops using g-s-d will need to
+        be updated for this.
+      + Add mapping for screen brightness cycle key
+      + Fix launched clients inheriting DESKTOP_AUTOSTART_ID
+      + Signal connector rather than output ID for OSD
+      + Fix MPRIS issues with disconnecting clients
+      + Allow mapping of hard-coded keys
+    - Power:
+      + Fix memory leak
+      + Signal connector rather than output ID for OSD
+      + Only disable Suspend/Hibernate actions inside VM
+      + Remove special handling of tablet devices
+  * debian/control: Update BDs per upstream. There's a new WWAN plugin which
+    pulls in gcr and modemmanager.
+  * meson.build-Lower-polkit-requirement.patch: Let polkit 0.105 satisfy the
+    requirements. The present requirement is for the ITS rules, but we've
+    backported them in Debian.
+
+ -- Iain Lane <laney@debian.org>  Wed, 14 Aug 2019 18:11:46 +0100
+
+gnome-settings-daemon (3.32.1-1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Wed, 19 Jun 2019 13:48:10 +0200
 
 gnome-settings-daemon (3.32.0-1) experimental; urgency=medium
 
@@ -19,17 +89,22 @@ gnome-settings-daemon (3.32.0-1) experimental; urgency=medium
 
 gnome-settings-daemon (3.31.91-1) experimental; urgency=medium
 
+  [ Iain Lane ]
   * New upstream release
     - Ignore key repeat on certain shortcuts
   * control: Depend new mutter, Break old gnome-shell.
     Older versions of gnome-shell don't provide the flag on the
     GrabAccelerators API that we use in this version of g-s-d.
 
+  [ Laurent Bigonville ]
+  * debian/rules: Set libdir to /usr/lib, this is needed for the gtk-modules
+    (Closes: #922125)
+
  -- Iain Lane <laney@debian.org>  Wed, 06 Mar 2019 14:11:56 +0000
 
 gnome-settings-daemon (3.31.90-1) experimental; urgency=medium
 
-  * New upstream development release
+  * New upstream development release 
   * Drop Build-Depend on libxtst-dev
   * Drop patch: applied in new release
 
