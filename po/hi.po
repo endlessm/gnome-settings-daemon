@@ -6,12 +6,13 @@
 # 25c299dc371da5bff014f86901f492aa, 2016-2017
 # rajesh <rajeshkajha@yahoo.com>, 2012,2014
 # Roddy Shuler <roddy@stanfordalumni.org>, 2017
+# Will Thompson <wjt@endlessm.com>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-04 13:47+0000\n"
-"PO-Revision-Date: 2019-06-04 15:52+0000\n"
+"PO-Revision-Date: 2019-10-10 14:00+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Hindi (http://www.transifex.com/endless-os/gnome-settings-daemon/language/hi/)\n"
 "MIME-Version: 1.0\n"
@@ -372,7 +373,7 @@ msgstr "अगर रात्रि मोड सक्रिय हो गय�
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
-msgstr ""
+msgstr "नाइट लाइट मोड आपके डिस्प्ले के रंग तापमान को बदल देता है जब सूरज ढल जाये या पूर्व निर्धारित समय पर।"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
@@ -617,15 +618,15 @@ msgstr "आवाज कम करें"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 msgid "Binding to lower the volume."
-msgstr ""
+msgstr "ध्वनि कम करने के लिए बाइंडिंग"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 msgid "Volume mute/unmute"
-msgstr ""
+msgstr "ध्वनि म्यूट/अनम्यूट"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 msgid "Binding to mute/unmute the volume."
-msgstr ""
+msgstr "वॉल्यूम म्यूट / अनम्यूट करने के लिए बाइंडिंग।"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 msgid "Volume up"
@@ -633,15 +634,15 @@ msgstr "आवाज बढ़ाएँ"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 msgid "Binding to raise the volume."
-msgstr ""
+msgstr "ध्वनि बढ़ाने के लिए बाइंडिंग"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 msgid "Microphone mute/unmute"
-msgstr ""
+msgstr "माइक्रोफ़ोन म्यूट/अनम्यूट"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
 msgid "Binding to mute/unmute the microphone."
-msgstr ""
+msgstr "माइक्रोफ़ोन को म्यूट/अनम्यूट करने के लिए बाइंडिंग।"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
 msgid "Take a screenshot"
@@ -1017,7 +1018,7 @@ msgstr "तारीख़ तथा समय का विन्यास"
 
 #: plugins/housekeeping/gsd-disk-space.c:578
 msgid "Disk Space"
-msgstr ""
+msgstr "डिस्क स्पेस"
 
 #: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
@@ -1040,28 +1041,28 @@ msgstr "डिस्क स्थान कम है"
 msgid ""
 "Your computer is out of space.  You may free up some space by emptying the "
 "trash."
-msgstr ""
+msgstr "आपके कंप्यूटर में स्थान शेष नहीं है। आप ट्रैश को खाली करके कुछ स्थान रिक्त कर सकते हैं।"
 
 #: plugins/housekeeping/gsd-disk-space.c:648
 msgid "Your computer is out of space."
-msgstr ""
+msgstr "आपके कंप्यूटर में जगह नहीं है।"
 
 #: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
-msgstr ""
+msgstr "“%s” पर कम डिस्क स्थान"
 
 #: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
+msgstr "वॉल्यूम \"%s\" में केवल %s डिस्क स्थान शेष है। आप थ्रैश को रिक्त करके कुछ खाली स्थान प्राप्त कर सकते हैं।"
 
 #: plugins/housekeeping/gsd-disk-space.c:679
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
-msgstr ""
+msgstr "वॉल्यूम \"%s\" में केवल %s डिस्क स्थान शेष है।"
 
 #: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
@@ -1209,7 +1210,7 @@ msgstr "चमकीलापन घटाएँ"
 
 #: plugins/media-keys/shortcuts-list.h:110
 msgid "Brightness Cycle"
-msgstr ""
+msgstr "ब्राइटनेस साइकल"
 
 #: plugins/media-keys/shortcuts-list.h:111
 msgid "Keyboard Brightness Up"
@@ -1709,13 +1710,13 @@ msgstr "मुद्रक '%s' में समस्या है."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
-msgstr ""
+msgstr "%s को प्रमाणीकरण की आवश्यकता है"
 
 #. Translators: A printer needs credentials to continue printing a job
 #: plugins/print-notifications/gsd-print-notifications-manager.c:533
 #, c-format
 msgid "Credentials required in order to print"
-msgstr ""
+msgstr "प्रिंट करने के लिए क्रेडेंशियल आवश्यक हैं"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:600
