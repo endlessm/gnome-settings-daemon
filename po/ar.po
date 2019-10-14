@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-04 13:47+0000\n"
-"PO-Revision-Date: 2019-06-04 15:48+0000\n"
+"PO-Revision-Date: 2019-10-06 01:05+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/endless-os/gnome-settings-daemon/language/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -379,7 +379,7 @@ msgstr "إذا كان وضع الإضاءة الليلية ممكنًا"
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
-msgstr ""
+msgstr "يغير وضع الضوء الليلي درجة حرارة لون الشاشة عندما تغرب الشمس أو في أوقات محددة مسبقاً."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
@@ -624,15 +624,15 @@ msgstr "اخفض الصوت"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 msgid "Binding to lower the volume."
-msgstr ""
+msgstr "ملزم بخفض مستوى الصوت."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 msgid "Volume mute/unmute"
-msgstr ""
+msgstr "كتم/إلغاء كتم الصوت"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 msgid "Binding to mute/unmute the volume."
-msgstr ""
+msgstr "مرتبط بكتم /إلغاء كتم الصوت."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 msgid "Volume up"
@@ -640,15 +640,15 @@ msgstr "ارفع الصوت"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 msgid "Binding to raise the volume."
-msgstr ""
+msgstr "ملزمة برفع مستوى الصوت."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 msgid "Microphone mute/unmute"
-msgstr ""
+msgstr "كتم/إلغاء كتم صوت الميكروفون "
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
 msgid "Binding to mute/unmute the microphone."
-msgstr ""
+msgstr "الإلزام بكتم / إلغاء كتم الميكروفون."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
 msgid "Take a screenshot"
@@ -1024,7 +1024,7 @@ msgstr "إعدادات الوقت و التّاريخ"
 
 #: plugins/housekeeping/gsd-disk-space.c:578
 msgid "Disk Space"
-msgstr ""
+msgstr "مساحة القرص"
 
 #: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
@@ -1047,28 +1047,28 @@ msgstr "المساحة المتوفرة قليلة"
 msgid ""
 "Your computer is out of space.  You may free up some space by emptying the "
 "trash."
-msgstr ""
+msgstr "لا توجد مساحة تخزين كافية في حاسوبك. يمكنك توفير بعض المساحة من خلال إفراغ محتويات سلة المحذوفات."
 
 #: plugins/housekeeping/gsd-disk-space.c:648
 msgid "Your computer is out of space."
-msgstr ""
+msgstr "لا توجد مساحة تخزين كافية في حاسوبك."
 
 #: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
-msgstr ""
+msgstr "مساحة قرص منخفضة على “%s”"
 
 #: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
+msgstr "تحتوي وحدة التخزين “%s” على مساحة قرص %s متبقية. يمكنك تحرير بعض المساحة بإفراغ سلة المهملات."
 
 #: plugins/housekeeping/gsd-disk-space.c:679
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
-msgstr ""
+msgstr "تحتوي وحدة التخزين “%s” على مساحة قرص متبقية قدرها %s فقط."
 
 #: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
@@ -1216,7 +1216,7 @@ msgstr "أخفض الإضاءة"
 
 #: plugins/media-keys/shortcuts-list.h:110
 msgid "Brightness Cycle"
-msgstr ""
+msgstr "دورة السطوع"
 
 #: plugins/media-keys/shortcuts-list.h:111
 msgid "Keyboard Brightness Up"
@@ -1732,13 +1732,13 @@ msgstr "هناك مشكلة في الطابعة '%s'."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
-msgstr ""
+msgstr "يتطلب %s المصادقة"
 
 #. Translators: A printer needs credentials to continue printing a job
 #: plugins/print-notifications/gsd-print-notifications-manager.c:533
 #, c-format
 msgid "Credentials required in order to print"
-msgstr ""
+msgstr "بيانات الاعتماد مطلوبة من أجل الطباعة"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:600
