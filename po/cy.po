@@ -1,36 +1,25 @@
-# gnome-control-center yn Gymraeg.
-# www.kyfieithu.co.uk <kyfieithu@kyfieithu.co.uk>, 2003.
-# Dafydd Harries <daf@muse.19inch.net>, 2003.
-# Dafydd Tomos <i10n@da.fydd.org>, 2004.
-# Rhys Jones <rhys@sucs.org>, 2005.
-#
-# Someone needs to check (a) occurrences of key (if GConf, allwedd;
-# if most other things, bysell); (b) occurrences of application(s)
-# rhaglennu or the other one I now can't put my finger on?
-#
-# I think I've caught most of the erroneous "bysell"s. Funnily enough, I
-# changed several occurrences of "bysell" to "allwedd" (GConf context) and
-# several occurrences of "allwedd" to "bysell" (keyboard context). Also
-# replaced "gweithredu" with "cymhwyso" (for "apply") and "wynebfath" with
-# "ffont". I can believe that "wynebfath" is a better word, but I thought it
-# would be better to be consistently wrong for now.
-# - daf
-#
-# [rj] 'Take effect' == 'dod i rym' (cystrawen Saesneg yw 'cymryd effaith')
-# [rj] Wedi gyrru'r cyfan drwy Cysill, 29ain Mai 2005.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-settings-daemon package.
+# 
+# Translators:
+# Dafydd Harries <daf@muse.19inch.net>, 2003
+# Dafydd Tomos <i10n@da.fydd.org>, 2004
+# Rhys Jones <rhys@sucs.org>, 2005
+# www.kyfieithu.co.uk <kyfieithu@kyfieithu.co.uk>, 2003
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
+"Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-31 13:15+0000\n"
-"PO-Revision-Date: 2006-03-08 12:53-0000\n"
-"Last-Translator: Rhys Jones <rhys@sucs.org>\n"
-"Language-Team: Cymraeg <gnome-cy@pengwyn.linux.org.uk>\n"
-"Language: cy\n"
+"PO-Revision-Date: 2019-10-31 13:22+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Welsh (http://www.transifex.com/endless-os/gnome-settings-daemon/language/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n == 2) ? 1 : 0;\n"
+"Language: cy\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:12
 msgid "Smartcard removal action"
@@ -38,8 +27,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:13
 msgid ""
-"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will "
-"get performed when the smartcard used for log in is removed."
+"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will"
+" get performed when the smartcard used for log in is removed."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:25
@@ -55,18 +44,16 @@ msgid "File name of the bell sound to be played."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:42
-#, fuzzy
 msgid "Double click time"
-msgstr "<b>Amser Aros am Glic Dwbl</b>"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:43
 msgid "Length of a double click in milliseconds."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:47
-#, fuzzy
 msgid "Drag threshold"
-msgstr "_Trothwy:"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:48
 msgid "Distance before a drag is started."
@@ -77,9 +64,8 @@ msgid "Whether the tablet’s orientation is locked, or rotated automatically."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:62
-#, fuzzy
 msgid "Mouse button orientation"
-msgstr "<b>Cyfeiriadaeth Llygoden</b>"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:63
 msgid "Swap left and right mouse buttons for left-handed mice."
@@ -99,9 +85,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:72
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:139
-#, fuzzy
 msgid "Motion Threshold"
-msgstr "_Trothwy:"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:73
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:140
@@ -125,9 +110,8 @@ msgid "Key Repeat Interval"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:88
-#, fuzzy
 msgid "Delay between repeats in milliseconds."
-msgstr "Oedi rhwng gwasgu bysell a symudiad y _pwyntydd:"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:92
 msgid "Initial Key Repeat Delay"
@@ -153,8 +137,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:105
 msgid ""
-"Set this to TRUE if you have problems with accidentally hitting the touchpad "
-"while typing."
+"Set this to TRUE if you have problems with accidentally hitting the touchpad"
+" while typing."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:109
@@ -187,9 +171,8 @@ msgid ""
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:124
-#, fuzzy
 msgid "Enable touchpad"
-msgstr "Methu lansio'r ochr gefn"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:125
 msgid "Set this to TRUE to enable all touchpads."
@@ -249,8 +232,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:26
 msgid ""
-"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and "
-"“ccw” for 90 degree counterclockwise."
+"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and"
+" “ccw” for 90 degree counterclockwise."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:30
@@ -501,15 +484,13 @@ msgstr ""
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:11
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:194
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:515
-#, fuzzy
 msgid "Launch settings"
-msgstr "Gosodiadau Rhagosodedig"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:12
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:195
-#, fuzzy
 msgid "Binding to launch GNOME settings."
-msgstr "Lansio porwr gwe"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:16
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:199
@@ -530,9 +511,8 @@ msgstr "Allfwrw"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:22
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:205
-#, fuzzy
 msgid "Binding to eject an optical disc."
-msgstr "Neidio i'r trac nesaf"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:26
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:209
@@ -541,9 +521,8 @@ msgstr "Lansio'r porwr cymorth"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:27
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:210
-#, fuzzy
 msgid "Binding to launch the help browser."
-msgstr "Lansio'r porwr cymorth"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:31
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:214
@@ -570,15 +549,13 @@ msgstr ""
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:41
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:224
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:540
-#, fuzzy
 msgid "Next track"
-msgstr "Neidio i'r trac nesaf"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:42
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:225
-#, fuzzy
 msgid "Binding to skip to next track."
-msgstr "Neidio i'r trac nesaf"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:46
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:229
@@ -615,15 +592,13 @@ msgstr ""
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:61
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:244
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:555
-#, fuzzy
 msgid "Previous track"
-msgstr "Neidio i'r trac blaenorol"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:62
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:245
-#, fuzzy
 msgid "Binding to skip to previous track."
-msgstr "Neidio i'r trac blaenorol"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:66
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:249
@@ -650,9 +625,8 @@ msgstr ""
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:76
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:259
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:570
-#, fuzzy
 msgid "Stop playback"
-msgstr "Bysell stopio chwarae"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:77
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:260
@@ -667,22 +641,19 @@ msgstr "Lefel sain i lawr"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:82
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:267
-#, fuzzy
 msgid "Binding to lower the volume."
-msgstr "Lansio porwr gwe"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:86
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:271
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:582
-#, fuzzy
 msgid "Volume mute/unmute"
-msgstr "Mudo'r sain"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:272
-#, fuzzy
 msgid "Binding to mute/unmute the volume."
-msgstr "Lansio'r porwr cymorth"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:276
@@ -692,9 +663,8 @@ msgstr "Lefel sain i fyny"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:277
-#, fuzzy
 msgid "Binding to raise the volume."
-msgstr "Lansio porwr gwe"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:311
@@ -704,21 +674,18 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:312
-#, fuzzy
 msgid "Binding to mute/unmute the microphone."
-msgstr "Lansio'r porwr cymorth"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:316
-#, fuzzy
 msgid "Take a screenshot"
-msgstr "Byrlwybr i gloi'r sgrin."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:317
-#, fuzzy
 msgid "Binding to take a screenshot."
-msgstr "Neidio i'r trac blaenorol"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:321
@@ -737,9 +704,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:112
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:327
-#, fuzzy
 msgid "Binding to take a screenshot of an area."
-msgstr "Neidio i'r trac nesaf"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:116
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:331
@@ -789,45 +755,38 @@ msgstr "Lansio porwr gwe"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:137
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:352
-#, fuzzy
 msgid "Binding to launch the web browser."
-msgstr "Lansio porwr gwe"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:141
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:381
-#, fuzzy
 msgid "Toggle magnifier"
-msgstr "_Chwyddwr"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:142
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:382
-#, fuzzy
 msgid "Binding to show the screen magnifier"
-msgstr "Lansio porwr gwe"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:146
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:356
-#, fuzzy
 msgid "Toggle screen reader"
-msgstr "_Darllenydd sgrin"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:147
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:357
-#, fuzzy
 msgid "Binding to start the screen reader"
-msgstr "Lansio porwr gwe"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:151
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:361
-#, fuzzy
 msgid "Toggle on-screen keyboard"
-msgstr "Bysellfwrdd _ar y Sgrin"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:152
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:362
-#, fuzzy
 msgid "Binding to show the on-screen keyboard"
-msgstr "Lansio porwr gwe"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:156
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:366
@@ -836,9 +795,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:157
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:367
-#, fuzzy
 msgid "Binding to increase the text size"
-msgstr "Lansio porwr gwe"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:161
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:371
@@ -847,15 +805,13 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:162
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:372
-#, fuzzy
 msgid "Binding to decrease the text size"
-msgstr "Lansio porwr gwe"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:166
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:376
-#, fuzzy
 msgid "Toggle contrast"
-msgstr "_Cyferbyniad gorau"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:167
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:377
@@ -864,9 +820,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:171
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:386
-#, fuzzy
 msgid "Magnifier zoom in"
-msgstr "_Chwyddwr"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:172
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:387
@@ -876,9 +831,8 @@ msgstr ""
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:176
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:391
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:633
-#, fuzzy
 msgid "Magnifier zoom out"
-msgstr "_Chwyddwr"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:177
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:392
@@ -895,9 +849,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:283
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:594
-#, fuzzy
 msgid "Quiet volume down"
-msgstr "Lefel sain i lawr"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:284
 msgid "Binding to lower the volume without emitting a sound effect."
@@ -914,9 +867,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:293
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:604
-#, fuzzy
 msgid "Quiet volume up"
-msgstr "Lefel sain i fyny"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:294
 msgid "Binding to raise the volume without emitting a sound effect."
@@ -924,9 +876,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:300
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:611
-#, fuzzy
 msgid "Precise volume down"
-msgstr "Lefel sain i lawr"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:301
 msgid "Binding to lower the volume with higher precision."
@@ -934,9 +885,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:305
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:616
-#, fuzzy
 msgid "Precise volume up"
-msgstr "Lefel sain i fyny"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:306
 msgid "Binding to raise the volume with higher precision."
@@ -947,9 +897,8 @@ msgid "Toggle touchpad on/off"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:397
-#, fuzzy
 msgid "Binding to toggle the touchpad on/off."
-msgstr "Lansio'r porwr cymorth"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:401
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:638
@@ -957,9 +906,8 @@ msgid "Switch touchpad on"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:402
-#, fuzzy
 msgid "Binding to switch the touchpad on."
-msgstr "Lansio'r porwr cymorth"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:406
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:643
@@ -967,9 +915,8 @@ msgid "Switch touchpad off"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:407
-#, fuzzy
 msgid "Binding to switch the touchpad off."
-msgstr "Lansio'r porwr cymorth"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:412
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:649
@@ -977,9 +924,8 @@ msgid "Skip backward in current track"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:413
-#, fuzzy
 msgid "Binding to skip backward in current track."
-msgstr "Neidio i'r trac nesaf"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:417
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:654
@@ -987,9 +933,8 @@ msgid "Skip forward in current track"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:418
-#, fuzzy
 msgid "Binding to skip forward in current track."
-msgstr "Neidio i'r trac nesaf"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:422
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:659
@@ -1020,9 +965,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:438
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:675
-#, fuzzy
 msgid "Power button"
-msgstr "Botymau Rhybudd"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:439
 msgid "Binding for power button."
@@ -1030,47 +974,39 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:443
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:680
-#, fuzzy
 msgid "Hibernate button"
-msgstr "Botymau Rhybudd"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:444
-#, fuzzy
 msgid "Binding to hibernate the machine."
-msgstr "Neidio i'r trac nesaf"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:448
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:685
-#, fuzzy
 msgid "Suspend button"
-msgstr "Sain"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:449
-#, fuzzy
 msgid "Binding to suspend the machine."
-msgstr "Neidio i'r trac nesaf"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:454
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:691
-#, fuzzy
 msgid "Screen brightness up"
-msgstr "Disgleirdeb i fyny"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:455
-#, fuzzy
 msgid "Binding to increase the screen brightness."
-msgstr "Lansio porwr gwe"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:459
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:696
-#, fuzzy
 msgid "Screen brightness down"
-msgstr "Disgleirdeb i lawr"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:460
-#, fuzzy
 msgid "Binding to decrease the screen brightness."
-msgstr "Lansio porwr gwe"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:464
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:701
@@ -1078,31 +1014,26 @@ msgid "Screen brightness cycle"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:465
-#, fuzzy
 msgid "Binding to cycle the screen brightness."
-msgstr "Lansio porwr gwe"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:470
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:707
-#, fuzzy
 msgid "Keyboard brightness up"
-msgstr "Disgleirdeb i fyny"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:471
-#, fuzzy
 msgid "Binding to increase the keyboard brightness."
-msgstr "Lansio porwr gwe"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:475
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:712
-#, fuzzy
 msgid "Keyboard brightness down"
-msgstr "Disgleirdeb i lawr"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:476
-#, fuzzy
 msgid "Binding to decrease the keyboard brightness."
-msgstr "Lansio porwr gwe"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:480
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:717
@@ -1110,9 +1041,8 @@ msgid "Keyboard brightness toggle"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:481
-#, fuzzy
 msgid "Binding to toggle the keyboard brightness."
-msgstr "Lansio porwr gwe"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:486
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:723
@@ -1120,9 +1050,8 @@ msgid "Show battery status"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:487
-#, fuzzy
 msgid "Binding to show current battery status."
-msgstr "Neidio i'r trac nesaf"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:492
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:729
@@ -1143,37 +1072,32 @@ msgid "Binding to toggle bluetooth airplane mode."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:511
-#, fuzzy
 msgid "Static binding to launch the calculator."
-msgstr "Lansio'r porwr cymorth"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:516
 msgid "Static binding to launch GNOME settings."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:521
-#, fuzzy
 msgid "Static binding to launch the email client."
-msgstr "Lansio'r porwr cymorth"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:526
 msgid "Static binding to eject an optical disc."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:531
-#, fuzzy
 msgid "Static binding to open the Home folder."
-msgstr "Lansio porwr gwe"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:536
-#, fuzzy
 msgid "Static binding to launch the media player."
-msgstr "Lansio porwr gwe"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:541
-#, fuzzy
 msgid "Static binding to skip to next track."
-msgstr "Neidio i'r trac nesaf"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:546
 msgid "Static binding to pause playback."
@@ -1184,18 +1108,16 @@ msgid "Static binding to start playback (or toggle play/pause)."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:556
-#, fuzzy
 msgid "Static binding to skip to previous track."
-msgstr "Neidio i'r trac blaenorol"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:561
 msgid "Static binding to lock the screen."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:566
-#, fuzzy
 msgid "Static binding to launch the search tool."
-msgstr "Lansio porwr gwe"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:571
 msgid "Static binding to stop playback."
@@ -1235,9 +1157,8 @@ msgid "Static binding to mute/unmute the microphone."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:628
-#, fuzzy
 msgid "Static binding to launch the web browser."
-msgstr "Lansio porwr gwe"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:634
 msgid "Static binding to toggle the touchpad on/off."
@@ -1252,14 +1173,12 @@ msgid "Static binding to switch the touchpad off."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:650
-#, fuzzy
 msgid "Static binding to skip backward in current track."
-msgstr "Neidio i'r trac nesaf"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:655
-#, fuzzy
 msgid "Static binding to skip forward in current track."
-msgstr "Neidio i'r trac nesaf"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:660
 msgid "Static binding to toggle repeat mode in media player."
@@ -1332,9 +1251,8 @@ msgid ""
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:748
-#, fuzzy
 msgid "Name"
-msgstr "Enw:"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:749
 msgid "Name of the custom binding"
@@ -1349,9 +1267,8 @@ msgid "Binding for the custom binding"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:758
-#, fuzzy
 msgid "Command"
-msgstr "_Gorchymyn:"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:759
 msgid "Command to run when the binding is invoked"
@@ -1371,7 +1288,8 @@ msgid "Dim the screen after a period of inactivity"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:12
-msgid "If the screen should be dimmed to save power when the computer is idle."
+msgid ""
+"If the screen should be dimmed to save power when the computer is idle."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:16
@@ -1441,24 +1359,23 @@ msgstr ""
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:7
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
-"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
-"and “rgba” for subpixel antialiasing (LCD screens only)."
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing,"
+" and “rgba” for subpixel antialiasing (LCD screens only)."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:11
-#, fuzzy
 msgid "Hinting"
-msgstr "<b>Awgrymu</b>:"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:12
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: “none” "
-"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
-"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"The type of hinting to use when rendering fonts. Possible values are: “none”"
+" for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s"
+" ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
 "Ignores native hinting within the font, generates hints algorithmically. "
 "Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
-"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
-"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version"
+" of FreeType. They usually try to fit glyphs to both the X and the Y axis "
 "(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
@@ -1470,9 +1387,9 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:17
 msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
-"“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
+"The order of subpixel elements on an LCD screen; only used when antialiasing"
+" is set to “rgba”. Possible values are: “rgb” for red on left (most common),"
+" “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:21
@@ -1491,8 +1408,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:27
 msgid ""
-"A list of strings representing the GTK+ modules that will be loaded, usually "
-"in addition to conditional and forcibly disabled ones."
+"A list of strings representing the GTK+ modules that will be loaded, usually"
+" in addition to conditional and forcibly disabled ones."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:31
@@ -1501,15 +1418,14 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:32
 msgid ""
-"This dictionary maps XSETTINGS names to overrides values. The values must be "
-"either strings, signed int32s or (in the case of colors), 4-tuples of uint16 "
-"(red, green, blue, alpha; 65535 is fully opaque)."
+"This dictionary maps XSETTINGS names to overrides values. The values must be"
+" either strings, signed int32s or (in the case of colors), 4-tuples of "
+"uint16 (red, green, blue, alpha; 65535 is fully opaque)."
 msgstr ""
 
 #: plugins/color/gsd-color-calibrate.c:138
-#, fuzzy
 msgid "Color"
-msgstr "Lliw Unffurf"
+msgstr ""
 
 #. TRANSLATORS: button: this is to open GCM
 #: plugins/color/gsd-color-calibrate.c:144
@@ -1561,14 +1477,12 @@ msgid "Time Zone Updated to %s (%s)"
 msgstr ""
 
 #: plugins/datetime/gsd-datetime-manager.c:108
-#, fuzzy
 msgid "Settings"
-msgstr "Defnyddio Gosodiadau X"
+msgstr ""
 
 #: plugins/datetime/gsd-datetime-manager.c:118
-#, fuzzy
 msgid "Date & Time Settings"
-msgstr "Gosodiadau Rhagosodedig"
+msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:578
 msgid "Disk Space"
@@ -1659,15 +1573,13 @@ msgid "Screencast from %d %t.webm"
 msgstr ""
 
 #: plugins/media-keys/gsd-screenshot-utils.c:82
-#, fuzzy
 msgid "Unable to capture a screenshot"
-msgstr "Methu agor y llyfr cyfeiriadau"
+msgstr ""
 
 #: plugins/media-keys/gsd-screenshot-utils.c:113
 #: plugins/media-keys/gsd-screenshot-utils.c:155
-#, fuzzy
 msgid "Screenshot taken"
-msgstr "Dechrau'r arbedwr sgrin"
+msgstr ""
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot
@@ -1677,16 +1589,17 @@ msgid "Screenshot from %s"
 msgstr ""
 
 #: plugins/power/gpm-common.c:92
-#, fuzzy
 msgid "Unknown time"
-msgstr "Pwyntydd Anhysbys"
+msgstr ""
 
 #: plugins/power/gpm-common.c:97
-#, fuzzy, c-format
+#, c-format
 msgid "%i minute"
 msgid_plural "%i minutes"
-msgstr[0] "munud"
-msgstr[1] "munud"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: plugins/power/gpm-common.c:107
 #, c-format
@@ -1694,6 +1607,8 @@ msgid "%i hour"
 msgid_plural "%i hours"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
 #. * Swap order with "%2$s %2$i %1$s %1$i if needed
@@ -1707,13 +1622,16 @@ msgid "hour"
 msgid_plural "hours"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: plugins/power/gpm-common.c:115
-#, fuzzy
 msgid "minute"
 msgid_plural "minutes"
-msgstr[0] "munud"
-msgstr[1] "munud"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. TRANSLATORS: this is the sound description
 #: plugins/power/gpm-common.c:425 plugins/power/gsd-power-manager.c:720
@@ -1783,9 +1701,8 @@ msgstr ""
 #. TRANSLATORS: keyboard is getting a little low
 #. TRANSLATORS: the keyboard battery is very low
 #: plugins/power/gsd-power-manager.c:506 plugins/power/gsd-power-manager.c:641
-#, fuzzy
 msgid "Keyboard battery low"
-msgstr "Cynllun bysellfwrdd"
+msgstr ""
 
 #. TRANSLATORS: tell user more details
 #: plugins/power/gsd-power-manager.c:509
@@ -1858,12 +1775,14 @@ msgstr ""
 msgid "Battery is low"
 msgstr ""
 
-#. TRANSLATORS: laptop battery critically low, and only have one kind of battery
+#. TRANSLATORS: laptop battery critically low, and only have one kind of
+#. battery
 #: plugins/power/gsd-power-manager.c:597
 msgid "Battery critically low"
 msgstr ""
 
-#. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
+#. TRANSLATORS: laptop battery critically low, and we have more than one type
+#. of battery
 #. TRANSLATORS: laptop battery is really, really, low
 #: plugins/power/gsd-power-manager.c:600 plugins/power/gsd-power-manager.c:747
 msgid "Laptop battery critically low"
@@ -1915,8 +1834,8 @@ msgstr ""
 #: plugins/power/gsd-power-manager.c:653
 #, c-format
 msgid ""
-"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
-"not charged."
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if"
+" not charged."
 msgstr ""
 
 #. TRANSLATORS: the device is just going to stop working
@@ -1939,8 +1858,8 @@ msgstr ""
 #: plugins/power/gsd-power-manager.c:681
 #, c-format
 msgid ""
-"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
-"if not charged."
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning"
+" if not charged."
 msgstr ""
 
 #. TRANSLATORS: the device is just going to stop working
@@ -1973,7 +1892,8 @@ msgstr ""
 
 #. TRANSLATORS: computer will just shutdown
 #: plugins/power/gsd-power-manager.c:785
-msgid "UPS is below the critical level and this computer is about to shutdown."
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
 msgstr ""
 
 #. TRANSLATORS: this is the sound description
@@ -2060,9 +1980,8 @@ msgstr ""
 #: plugins/print-notifications/gsd-print-notifications-manager.c:920
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1011
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1055
-#, fuzzy
 msgid "Printers"
-msgstr "Pwyntyddion"
+msgstr ""
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:374
@@ -2070,31 +1989,36 @@ msgstr "Pwyntyddion"
 msgid "Printer “%s” is low on toner."
 msgstr ""
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:378
 #, c-format
 msgid "Printer “%s” has no toner left."
 msgstr ""
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:382
 #, c-format
 msgid "Printer “%s” may not be connected."
 msgstr ""
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:386
 #, c-format
 msgid "The cover is open on printer “%s”."
 msgstr ""
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:390
 #, c-format
 msgid "There is a missing print filter for printer “%s”."
 msgstr ""
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "The door is open on printer “%s”."
@@ -2112,13 +2036,15 @@ msgstr ""
 msgid "Printer “%s” is out of a marker supply."
 msgstr ""
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:407
 #, c-format
 msgid "Printer “%s” is low on paper."
 msgstr ""
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:411
 #, c-format
 msgid "Printer “%s” is out of paper."
@@ -2130,17 +2056,19 @@ msgstr ""
 msgid "Printer “%s” is currently off-line."
 msgstr ""
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:419
 #, c-format
 msgid "There is a problem on printer “%s”."
 msgstr ""
 
-#. Translators: The printer has a job to print but the printer needs authentication to continue with the print
+#. Translators: The printer has a job to print but the printer needs
+#. authentication to continue with the print
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
-#, fuzzy, c-format
+#, c-format
 msgid "%s Requires Authentication"
-msgstr "<b>_Defnyddio dilysiant</b>"
+msgstr ""
 
 #. Translators: A printer needs credentials to continue printing a job
 #: plugins/print-notifications/gsd-print-notifications-manager.c:533
@@ -2153,28 +2081,32 @@ msgstr ""
 msgid "Toner low"
 msgstr ""
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:602
 msgid "Toner empty"
 msgstr ""
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:604
 msgid "Not connected?"
 msgstr ""
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:606
 msgid "Cover open"
 msgstr ""
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:608
-#, fuzzy
 msgid "Printer configuration error"
-msgstr "Cyfluniad Dirprwy"
+msgstr ""
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:610
 msgid "Door open"
 msgstr ""
@@ -2189,35 +2121,35 @@ msgstr ""
 msgid "Out of a marker supply"
 msgstr ""
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:616
 msgid "Paper low"
 msgstr ""
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:618
 msgid "Out of paper"
 msgstr ""
 
 #. Translators: The printer is offline (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:620
-#, fuzzy
 msgid "Printer off-line"
-msgstr "Maint Pwyntydd:"
+msgstr ""
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #. Translators: This is a title of an error notification for a printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:622
 #: plugins/print-notifications/gsd-print-notifications-manager.c:997
-#, fuzzy
 msgid "Printer error"
-msgstr "Thema Pwyntydd"
+msgstr ""
 
 #. Translators: New printer has been added
 #: plugins/print-notifications/gsd-print-notifications-manager.c:670
-#, fuzzy
 msgid "Printer added"
-msgstr "Thema Pwyntydd"
+msgstr ""
 
 #. Translators: A print job has been stopped
 #: plugins/print-notifications/gsd-print-notifications-manager.c:687
@@ -2259,18 +2191,16 @@ msgstr ""
 #. Translators: A print job has been completed
 #: plugins/print-notifications/gsd-print-notifications-manager.c:705
 #: plugins/print-notifications/gsd-print-notifications-manager.c:749
-#, fuzzy
 msgctxt "print job state"
 msgid "Printing completed"
-msgstr "Canran wedi'i gwblhau"
+msgstr ""
 
 #. Translators: A job is printing
 #: plugins/print-notifications/gsd-print-notifications-manager.c:717
 #: plugins/print-notifications/gsd-print-notifications-manager.c:773
-#, fuzzy
 msgctxt "print job state"
 msgid "Printing"
-msgstr "<b>Awgrymu</b>:"
+msgstr ""
 
 #. Translators: This is a title of a report notification for a printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:991
@@ -2282,7 +2212,8 @@ msgstr ""
 msgid "Printer warning"
 msgstr ""
 
-#. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
+#. Translators: "Printer 'MyPrinterName': 'Description of the
+#. report/warning/error from a PPD file'."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1004
 #, c-format
 msgid "Printer “%s”: “%s”."
@@ -2343,6 +2274,8 @@ msgid "%2$s You have %1$u try left"
 msgid_plural "%2$s You have %1$u tries left"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: plugins/wwan/gsd-wwan-pinentry.c:127
 #, c-format
@@ -2350,6 +2283,8 @@ msgid "You have %u try left"
 msgid_plural "You have %u tries left"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. Set up the dialog
 #: plugins/wwan/gsd-wwan-pinentry.c:173 plugins/wwan/gsd-wwan-pinentry.c:175
@@ -2368,2634 +2303,3 @@ msgstr ""
 #: plugins/wwan/gsd-wwan-pinentry.c:200
 msgid "Wrong PIN code"
 msgstr ""
-
-#, fuzzy
-#~ msgid ""
-#~ "Set to True to keep the handlers for text/plain and text/* MIME types "
-#~ "synchronized."
-#~ msgstr "Os yn wir, cedwir y trinwyr testun/plaen a thestun/* yn gydwedd"
-
-#~ msgid "Sync text/plain and text/* handlers"
-#~ msgstr "Trinwyr testun/plaen a thestun/*"
-
-#~ msgid "Volume step"
-#~ msgstr "Gris lefel sain"
-
-#~ msgid "Volume step as percentage of volume."
-#~ msgstr "Gris lefel sain fel canran o'r lefel."
-
-#, fuzzy
-#~ msgid ""
-#~ "Set to True to display a dialog when there are errors running the "
-#~ "screensaver."
-#~ msgstr "Dangos deialog pan fo gwallau wrth redeg yr arbedwr sgrin"
-
-#, fuzzy
-#~ msgid "Set to True to run the screensaver at login."
-#~ msgstr "Cychwyn yr arbedwr sgrin wrth fewngofnodi"
-
-#, fuzzy
-#~ msgid "Show startup errors"
-#~ msgstr "Dangos Gwallau Ymgychwyn"
-
-#~ msgid "Start screensaver"
-#~ msgstr "Dechrau'r arbedwr sgrin"
-
-#, fuzzy
-#~ msgid "Enable accessibility keyboard plugin"
-#~ msgstr "_Galluogi nodweddion hygyrchedd bysellfwrdd"
-
-#, fuzzy
-#~ msgid "Enable screensaver plugin"
-#~ msgstr "Cychwyn yr arbedwr sgrin wrth fewngofnodi"
-
-#, fuzzy
-#~ msgid "Accessibility Keyboard"
-#~ msgstr "_Hygyrchedd"
-
-#, fuzzy
-#~ msgid "Accessibility keyboard plugin"
-#~ msgstr "_Hygyrchedd"
-
-#~ msgid "There was an error displaying help: %s"
-#~ msgstr "Gwall wrth ddangos cymorth:%s"
-
-#~ msgid "Do you want to activate Slow Keys?"
-#~ msgstr "Ydych chi eisiau troi Bysellau Araf ymlaen?"
-
-#~ msgid "Do you want to deactivate Slow Keys?"
-#~ msgstr "Ydych chi eisiau troi Bysellau Araf i ffwrdd?"
-
-#~ msgid ""
-#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
-#~ "the Slow Keys feature, which affects the way your keyboard works."
-#~ msgstr ""
-#~ "Rydych newydd ddal lawr y fysell Shift am 8 eiliad. Dyma'r byrlwybr ar "
-#~ "gyfer y nodwedd Bysellau Araf, sy'n effeithio sut mae'ch bysellfwrdd yn "
-#~ "gweithio"
-
-#~ msgid "Do_n't activate"
-#~ msgstr "_Peidio ag actifadu"
-
-#~ msgid "Do_n't deactivate"
-#~ msgstr "_Peidio â dad-actifadu"
-
-#~ msgid "_Activate"
-#~ msgstr "_Actifadu"
-
-#~ msgid "_Deactivate"
-#~ msgstr "_Dad-actifadu"
-
-#~ msgid "Slow Keys Alert"
-#~ msgstr "Rhybudd Bysellau Araf"
-
-#~ msgid "Do you want to activate Sticky Keys?"
-#~ msgstr "Ydych chi eisiau troi Bysellau Gludiog ymlaen?"
-
-#~ msgid "Do you want to deactivate Sticky Keys?"
-#~ msgstr "Ydych chi eisiau troi Bysellau Gludio i ffwrdd?"
-
-#~ msgid ""
-#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
-#~ "for the Sticky Keys feature, which affects the way your keyboard works."
-#~ msgstr ""
-#~ "Rydych newydd wasgu'r fysell Shift 5 gwaith mewn rhes. Dyma'r byrlwybr ar "
-#~ "gyfer y nodwedd Bysellau Gludiog, sy'n effeithio sut mae'ch bysellfwrdd "
-#~ "yn gweithio"
-
-#~ msgid ""
-#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
-#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
-#~ "keyboard works."
-#~ msgstr ""
-#~ "Rydych newydd wasgu dwy fysell ar unwaith neu wasgu'r fysell Shift 5 "
-#~ "gwaith mewn rhes. Mae hyn yn troi'r nodwedd Bysedd Gludiog ymlaen, sy'n "
-#~ "effeithio sut mae'ch bysellfwrdd yn gweithio."
-
-#~ msgid "Sticky Keys Alert"
-#~ msgstr "Rhybudd Bysellau Gludiog"
-
-#, fuzzy
-#~ msgid "Background"
-#~ msgstr "Cymhwyso _Cefndir"
-
-#~ msgid "Font"
-#~ msgstr "Ffont"
-
-#~ msgid ""
-#~ "Cannot create the directory \"%s\".\n"
-#~ "This is needed to allow changing the mouse pointer theme."
-#~ msgstr ""
-#~ "Methu creu'r cyfeiriadur \"%s\".\n"
-#~ "Mae angen hwn i ganiatáu newid thema pwyntydd y llygoden."
-
-#~ msgid ""
-#~ "Cannot create the directory \"%s\".\n"
-#~ "This is needed to allow changing cursors."
-#~ msgstr ""
-#~ "Methu creu'r cyfeiriadur \"%s\".\n"
-#~ "Mae angen hwn i ganiatáu newid cyrchwyr."
-
-#~ msgid "Key Binding (%s) has its action defined multiple times\n"
-#~ msgstr "Diffinnir gweithred y Rhwymiad Bysell (%s) sawl gwaith\n"
-
-#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
-#~ msgstr "Diffinnir rhwymiad y Rhwymiad Bysell (%s) sawl gwaith\n"
-
-#~ msgid "Key Binding (%s) is incomplete\n"
-#~ msgstr "Mae'r Rhwymiad Bysell (%s) yn anghyflawn\n"
-
-#~ msgid "Key Binding (%s) is invalid\n"
-#~ msgstr "Mae'r Rhwymiad Bysell (%s) yn annilys\n"
-
-#~ msgid "It seems that another application already has access to key '%u'."
-#~ msgstr "Mae'n debyg fod gan raglen arall fynediad i'r fysell '%u' eisoes."
-
-#~ msgid "Key Binding (%s) is already in use\n"
-#~ msgstr "Defnyddir y Rhwymiad Bysell (%s) eisoes\n"
-
-#~ msgid ""
-#~ "Error while trying to run (%s)\n"
-#~ "which is linked to the key (%s)"
-#~ msgstr ""
-#~ "Gwall wrth geisio gweithredu (%s)\n"
-#~ "sy'n rhwym i'r fysell (%s)"
-
-#~ msgid "Keyboard"
-#~ msgstr "Bysellfwrdd"
-
-#, fuzzy
-#~ msgid "Keyboard plugin"
-#~ msgstr "Dewisiadau bysellfwrdd"
-
-#~ msgid "A_vailable files:"
-#~ msgstr "_Ffeiliau ar gael:"
-
-#~ msgid "Do _not show this warning again."
-#~ msgstr "_Peidio â dangos y rhybudd yma eto."
-
-#~ msgid "Load modmap files"
-#~ msgstr "Llwytho ffeiliau modmap"
-
-#~ msgid "Would you like to load the modmap file(s)?"
-#~ msgstr "Hoffech chi lwytho'r ffeil(iau) modmap?"
-
-#~ msgid "_Load"
-#~ msgstr "_Llwytho"
-
-#~ msgid "_Loaded files:"
-#~ msgstr "_Ffeiliau wedi'u llwytho:"
-
-#~ msgid "Volume"
-#~ msgstr "Lefel Sain"
-
-#, fuzzy
-#~ msgid ""
-#~ "Couldn't execute command: %s\n"
-#~ "Verify that this is a valid command."
-#~ msgstr ""
-#~ "Methwyd gweithredu'r gorchymyn: %s\n"
-#~ "Gwirio fod y gorchymyn yma'n bodoli."
-
-#~ msgid ""
-#~ "Couldn't put the machine to sleep.\n"
-#~ "Verify that the machine is correctly configured."
-#~ msgstr ""
-#~ "Methwyd rhoi'r peiriant i gysgu.\n"
-#~ "Gwirio fod y peiriant wedi ei gyflunio yn gywir."
-
-#, fuzzy
-#~ msgid "Media keys"
-#~ msgstr "Bysellau Llygoden"
-
-#, fuzzy
-#~ msgid "Could not enable mouse accessibility features"
-#~ msgstr "_Galluogi nodweddion hygyrchedd bysellfwrdd"
-
-#~ msgid "Mouse Preferences"
-#~ msgstr "Hoffterau Llygoden"
-
-#~ msgid "Mouse"
-#~ msgstr "Llygoden"
-
-#~ msgid ""
-#~ "There was an error starting up the screensaver:\n"
-#~ "\n"
-#~ "%s\n"
-#~ "\n"
-#~ "Screensaver functionality will not work in this session."
-#~ msgstr ""
-#~ "Bu gwall wrth gychwyn yr arbedwr sgrin:\n"
-#~ "\n"
-#~ "%s\n"
-#~ "\n"
-#~ "Fydd arbed sgrin ddim yn gweithio yn ystod y sesiwn yma."
-
-#~ msgid "_Do not show this message again"
-#~ msgstr "_Peidiwch â dangos y neges yma eto"
-
-#, fuzzy
-#~ msgid "Screensaver plugin"
-#~ msgstr "Cychwyn yr arbedwr sgrin wrth fewngofnodi"
-
-#~ msgid "Couldn't load sound file %s as sample %s"
-#~ msgstr "Methwyd llwytho ffeil sain %s fel sampl %s"
-
-#~ msgid "Login"
-#~ msgstr "Mewngofnodi"
-
-#~ msgid "Logout"
-#~ msgstr "Allgofnodi"
-
-#~ msgid "Boing"
-#~ msgstr "Boing"
-
-#~ msgid "Siren"
-#~ msgstr "Seiren"
-
-#~ msgid "Clink"
-#~ msgstr "Clinc"
-
-#~ msgid "Beep"
-#~ msgstr "Bîp"
-
-#~ msgid "No sound"
-#~ msgstr "Dim sain"
-
-#~ msgid "Sound not set for this event."
-#~ msgstr "Seiniau heb eu gosod ar gyfer y digwyddiad hwn."
-
-#~ msgid ""
-#~ "The sound file for this event does not exist.\n"
-#~ "You may want to install the gnome-audio package for a set of default "
-#~ "sounds."
-#~ msgstr ""
-#~ "Nid yw'r ffeil sain ar gyfer y digwyddiad yma'n bodoli.\n"
-#~ "Efallai yr hoffech chi sefydlu'r pecyn gnome-audio er mwyn gael set o "
-#~ "seiniau rhagosodedig."
-
-#~ msgid "The sound file for this event does not exist."
-#~ msgstr "Nid yw'r ffeil sain i'r digwyddiad yma'n bodoli."
-
-#~ msgid "Select Sound File"
-#~ msgstr "Dewiswch Ffeil Sain"
-
-#~ msgid "The file %s is not a valid wav file"
-#~ msgstr "NId yw'r ffeil %s yn ffeil WAV ddilys"
-
-#, fuzzy
-#~ msgid "Select sound file..."
-#~ msgstr "Dewiswch Ffeil Sain"
-
-#~ msgid "System Sounds"
-#~ msgstr "Synau'r System"
-
-#~ msgid "Sound"
-#~ msgstr "Sain"
-
-#~ msgid "Typing Break"
-#~ msgstr "Gorffwys Teipio"
-
-#, fuzzy
-#~ msgid "Typing break plugin"
-#~ msgstr "Gorffwys Teipio"
-
-#~ msgid "Cannot determine user's home directory"
-#~ msgstr "Methwyd canfod cyfeiriadur cartref y defnyddiwr"
-
-#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
-#~ msgstr "Gosodwyd yr allwedd GConf %s i fath %s ond disgwylid math %s\n"
-
-#, fuzzy
-#~ msgid "Manage X Settings"
-#~ msgstr "Defnyddio Gosodiadau X"
-
-#~ msgid "Image/label border"
-#~ msgstr "Border delwedd/label"
-
-#~ msgid "Width of border around the label and image in the alert dialog"
-#~ msgstr "Lled y border o amgylch y label a'r ddelwedd yn y ddeialog rhybudd"
-
-#~ msgid "Alert Type"
-#~ msgstr "Math y Rhybudd"
-
-#~ msgid "The type of alert"
-#~ msgstr "Y math o rybudd"
-
-#~ msgid "The buttons shown in the alert dialog"
-#~ msgstr "Y botymau a ddangosir yn y ddeialog rhybudd"
-
-#~ msgid "Show more _details"
-#~ msgstr "Dangos _mwy o fanylion"
-
-#~ msgid "About Me"
-#~ msgstr "Amdana I"
-
-#~ msgid "Set your personal information"
-#~ msgstr "Gosodwch eich gwybodaeth bersonol"
-
-#~ msgid "Select Image"
-#~ msgstr "Dewis Delwedd"
-
-#~ msgid "No Image"
-#~ msgstr "Dim Delwedd"
-
-#~ msgid ""
-#~ "There was an error while trying to get the addressbook information\n"
-#~ "Evolution Data Server can't handle the protocol"
-#~ msgstr ""
-#~ "Roedd gwall wrth geisio cael gwybodaeth y llyfr cyfeiriadau\n"
-#~ "Fedr Gweinydd Data Evolution ddim delio â'r protocol"
-
-#~ msgid "Unknown login ID, the user database might be corrupted"
-#~ msgstr ""
-#~ "ID mewngofnodi anhysbys, gall fod y gronfa ddata o ddefnyddwyr wedi ei "
-#~ "llygru"
-
-#~ msgid "About %s"
-#~ msgstr "Ynghylch %s"
-
-#~ msgid "Old password is incorrect, please retype it"
-#~ msgstr "Hen gyfrinair yn anghywir, aildeipiwch ef"
-
-#~ msgid "System error has occurred"
-#~ msgstr "Digwyddodd gwall system"
-
-#~ msgid "Could not run /usr/bin/passwd"
-#~ msgstr "Methu rhedeg /usr/bin/passwd"
-
-#~ msgid "Unexpected error has occurred"
-#~ msgstr "Digwyddodd gwall anhysbys"
-
-#~ msgid "Password is too short"
-#~ msgstr "Cyfrinair yn rhy fyr"
-
-#~ msgid "Password is too simple"
-#~ msgstr "Cyfrinair yn rhy syml"
-
-#~ msgid "Old and new passwords are too similar"
-#~ msgstr "Mae'r cyfrinair newydd yn rhy debyg i'r hen un"
-
-#~ msgid "Must contain numeric or special character(s)"
-#~ msgstr "Rhaid iddo gynnwys nod(au) arbennig neu rif(au)"
-
-#~ msgid "Old and new password are the same"
-#~ msgstr "Mae'r cyfrinair newydd yr un peth â'r hen un"
-
-#~ msgid "Please type the passwords."
-#~ msgstr "Teipiwch y cyfrineiriau."
-
-#~ msgid "Please type the password again, it is wrong."
-#~ msgstr "Teipiwch y cyfrinair eto: mae'n anghywir."
-
-#~ msgid "Click on Change Password to change the password."
-#~ msgstr "Cliciwch Newid Cyfrinair er mwyn newid y cyfrinair."
-
-#~ msgid " "
-#~ msgstr " "
-
-#~ msgid "    "
-#~ msgstr "    "
-
-#~ msgid "<b>Email</b>"
-#~ msgstr "<b>E-bost</b>"
-
-#~ msgid "<b>Home</b>"
-#~ msgstr "<b>Cartref</b>"
-
-#~ msgid "<b>Instant Messaging</b>"
-#~ msgstr "<b>Negesu Chwim</b>"
-
-#~ msgid "<b>Job</b>"
-#~ msgstr "<b>Swydd</b>"
-
-#~ msgid "<b>Please type the passwords.</b>"
-#~ msgstr "<b>Teipiwch y cyfrineiriau.</b>"
-
-#~ msgid "<b>Telephone</b>"
-#~ msgstr "<b>Ffôn</b>"
-
-#~ msgid "<b>Web</b>"
-#~ msgstr "<b>Gwe</b>"
-
-#~ msgid "<b>Work</b>"
-#~ msgstr "<b>Gwaith</b>"
-
-#~ msgid "A_IM/iChat:"
-#~ msgstr "A_IM/iChat:"
-
-#~ msgid "A_ddress:"
-#~ msgstr "_Cyfeiriad:"
-
-#~ msgid "A_ssistant:"
-#~ msgstr "_Cynorthwyydd:"
-
-#~ msgid "Address"
-#~ msgstr "Cyfeiriad"
-
-#~ msgid "C_ity:"
-#~ msgstr "_Dinas:"
-
-#~ msgid "C_ompany:"
-#~ msgstr "_Cwmni:"
-
-#~ msgid "Cale_ndar:"
-#~ msgstr "C_alendr:"
-
-#~ msgid "Change Passwo_rd..."
-#~ msgstr "Newid C_yfrinair..."
-
-#~ msgid "Change Password"
-#~ msgstr "Newid Cyfrinair"
-
-#~ msgid "Ci_ty:"
-#~ msgstr "_Dinas:"
-
-#~ msgid "Co_untry:"
-#~ msgstr "_Gwlad:"
-
-#~ msgid "Contact"
-#~ msgstr "Cyswllt"
-
-#~ msgid "Cou_ntry:"
-#~ msgstr "G_wlad:"
-
-#~ msgid "Full Name"
-#~ msgstr "Enw Llawn"
-
-#~ msgid "Hom_e:"
-#~ msgstr "_Cartref:"
-
-#~ msgid "IC_Q:"
-#~ msgstr "IC_Q:"
-
-#~ msgid "M_SN:"
-#~ msgstr "M_SN:"
-
-#~ msgid "Old pa_ssword:"
-#~ msgstr "Hen _gyfrinair:"
-
-#~ msgid "P.O. _box:"
-#~ msgstr "Blwch _post:"
-
-#~ msgid "P._O. box:"
-#~ msgstr "_Blwch post:"
-
-#~ msgid "Personal Info"
-#~ msgstr "Gwybodaeth Bersonol"
-
-#~ msgid "State/Pro_vince:"
-#~ msgstr "Talaith/_Ardal:"
-
-#~ msgid "User name:"
-#~ msgstr "Enw defnyddiwr:"
-
-#~ msgid "Web _log:"
-#~ msgstr "Gwe_log:"
-
-#~ msgid "Wor_k:"
-#~ msgstr "_Gwaith:"
-
-#~ msgid "Work _fax:"
-#~ msgstr "_Ffacs gwaith:"
-
-#~ msgid "Zip/_Postal code:"
-#~ msgstr "Co_d post/zip:"
-
-#~ msgid "_Address:"
-#~ msgstr "_Cyfeiriad:"
-
-#~ msgid "_Department:"
-#~ msgstr "_Adran:"
-
-#~ msgid "_Groupwise:"
-#~ msgstr "_Groupwise:"
-
-#~ msgid "_Home page:"
-#~ msgstr "Tudalen _cartref:"
-
-#~ msgid "_Home:"
-#~ msgstr "C_artref:"
-
-#~ msgid "_Jabber:"
-#~ msgstr "_Jabber:"
-
-#~ msgid "_Manager:"
-#~ msgstr "_Rheolwr:"
-
-#~ msgid "_Mobile:"
-#~ msgstr "_Ffôn symudol:"
-
-#~ msgid "_New password:"
-#~ msgstr "Cyfrinair _newydd:"
-
-#~ msgid "_Profession:"
-#~ msgstr "_Proffesiwn:"
-
-#~ msgid "_Retype new password:"
-#~ msgstr "_Aildeipiwch y cyfrinair newydd:"
-
-#~ msgid "_State/Province:"
-#~ msgstr "_Talaith/Ardal:"
-
-#~ msgid "_Title:"
-#~ msgstr "_Teitl:"
-
-#~ msgid "_Work:"
-#~ msgstr "_Gwaith:"
-
-#~ msgid "_Yahoo:"
-#~ msgstr "_Yahoo:"
-
-#~ msgid "_Zip/Postal code:"
-#~ msgstr "_Cod post/zip:"
-
-#~ msgid "<b>Applications</b>"
-#~ msgstr "<b>Rhaglenni</b>"
-
-#~ msgid "<b>Support</b>"
-#~ msgstr "<b>Cynhaliaeth</b>"
-
-#~ msgid ""
-#~ "<small><i><b>Note:</b> Changes to this setting will not take effect until "
-#~ "you next log in.</i></small>"
-#~ msgstr ""
-#~ "<small><i><b>Noder:</b> Ni fydd newidiadau i'r gosodiad yma yn dod i rym "
-#~ "tan y tro nesa i chi fewngofnodi.</i></small>"
-
-#~ msgid "Assistive Technology Preferences"
-#~ msgstr "Hoffterau Technoleg Gynorthwyol"
-
-#~ msgid "Close and _Log Out"
-#~ msgstr "Cau ac _Allgofnodi"
-
-#~ msgid "Start these assistive technologies every time you log in:"
-#~ msgstr ""
-#~ "Cychwyn y technolegau cynorthwyol yma bob tro rydych chi'n mewngofnodi:"
-
-#~ msgid "_Enable assistive technologies"
-#~ msgstr "_Galluogi technolegau cynorthwyol"
-
-#~ msgid "Assistive Technology Support"
-#~ msgstr "Cynhaliaeth Technoleg Gynorthwyol"
-
-#~ msgid "Enable support for GNOME assistive technologies at login"
-#~ msgstr ""
-#~ "Galluogi cynhaliaeth ar gyfer technolegau cynorthwyol GNOME wrth "
-#~ "fewngofnodi"
-
-#~ msgid ""
-#~ "No Assistive Technology is available on your system.  The 'gok' package "
-#~ "must be installed in order to get on-screen keyboard support, and the "
-#~ "'gnopernicus' package must be installed for screenreading and magnifying "
-#~ "capabilities."
-#~ msgstr ""
-#~ "Does dim Technoleg Gynorthwyol ar gael ar eich system. Rhaid sefydlu'r "
-#~ "pecyn 'gok' ar gyfer cael cynhaliaeth bysell ar sgrin, a'r pecyn "
-#~ "'gnopernicus' ar gyfer medru sgrînddarllen a chwyddo."
-
-#~ msgid ""
-#~ "Not all available assistive technologies are installed on your system.  "
-#~ "The 'gok' package must be installed in order to get on-screen keyboard "
-#~ "support."
-#~ msgstr ""
-#~ "Nid yw pob technoleg gynorthwyol wedi eu sefydlu ar eich system. Rhaid "
-#~ "sefydlu'r pecyn 'gok' er mwyn cael bysell ar sgrin."
-
-#~ msgid ""
-#~ "Not all available assistive technologies are installed on your system.  "
-#~ "The 'gnopernicus' package must be installed for screenreading and "
-#~ "magnifying capabilities."
-#~ msgstr ""
-#~ "Nid yw pob technoleg gynorthwyol wedi eu sefydlu ar eich system. Rhaid "
-#~ "sefydlu'r pecyn 'gnopernicus' ar gyfer sgrînddarllen a chwyddo."
-
-#~ msgid "There was an error launching the mouse preferences dialog: %s"
-#~ msgstr "Roedd gwall wrth lansio'r deialog hoffterau llygoden: %s"
-
-#~ msgid "Unable to import AccessX settings from file '%s'"
-#~ msgstr "Methu mewnforio gosodiadau AccessX o'r ffeil '%s'"
-
-#~ msgid "Import Feature Settings File"
-#~ msgstr "Mewnforio Ffeil Gosodiadau Nodweddion"
-
-#~ msgid "_Import"
-#~ msgstr "_Mewnforio"
-
-#~ msgid "Set your keyboard accessibility preferences"
-#~ msgstr "Dewis eich hoffterau hygyrchedd bysellfwrdd"
-
-#~ msgid ""
-#~ "This system does not seem to have the XKB extension.  The keyboard "
-#~ "accessibility features will not operate without it."
-#~ msgstr ""
-#~ "Ymddengys nad yw'r estyniad XKB ar gael ar y system hon. Ni fydd "
-#~ "nodweddion hygyrchedd y bysellfwrdd yn gweithio hebddi."
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#~ msgid "<b>Enable Bo_unce Keys</b>"
-#~ msgstr "<b>Galluogi Bysellau Sb_onciog</b>"
-
-#~ msgid "<b>Enable Slo_w Keys</b>"
-#~ msgstr "<b>Galluogi Bysellau _Araf</b>"
-
-#~ msgid "<b>Enable _Mouse Keys</b>"
-#~ msgstr "<b>Galluogi Bysellau _Llygoden</b>"
-
-#~ msgid "<b>Enable _Repeat Keys</b>"
-#~ msgstr "<b>Galluogi Bysellau _Ailadroddus</b>"
-
-#~ msgid "<b>Enable _Sticky Keys</b>"
-#~ msgstr "<b>Galluogi Bysellau _Gludiog</b>"
-
-#~ msgid "<b>Features</b>"
-#~ msgstr "<b>Nodweddion</b>"
-
-#~ msgid "<b>Toggle Keys</b>"
-#~ msgstr "<b>Bysellau Togl</b>"
-
-#~ msgid "Basic"
-#~ msgstr "Sylfaenol"
-
-#~ msgid "Beep if key is re_jected"
-#~ msgstr "Bîp os ni _wrthodir y fysell"
-
-#~ msgid "Beep when _features turned on or off from keyboard"
-#~ msgstr "Bîp wrth droi'r _nodwedd ymlaen neu bant o'r bysellfwrdd"
-
-#~ msgid "Beep when _modifier is pressed"
-#~ msgstr "Bîp pan mae'r _addasydd yn cael ei wasgu"
-
-#~ msgid "Beep when an LED is turned on and two beeps when one is turned off."
-#~ msgstr "Bîp pan fo'r LED yn goleuo a dau fîp pan mae'n cael ei ddiffodd."
-
-#~ msgid "Beep when key is:"
-#~ msgstr "Bîp os yw'r fysell yn:"
-
-#~ msgid "Del_ay:"
-#~ msgstr "_Oedi:"
-
-#~ msgid "Disa_ble if two keys pressed together"
-#~ msgstr "_Analluogi pan mae dwy fysell yn cael eu gwasgu ar yr un pryd"
-
-#~ msgid "E_nable Toggle Keys"
-#~ msgstr "Galluogi Bysellau _Togl"
-
-#~ msgid "Filters"
-#~ msgstr "Hidlau"
-
-#~ msgid "I_gnore duplicate keypresses within:"
-#~ msgstr "Anwybyddu a_il-wasgiadau o fewn:"
-
-#~ msgid ""
-#~ "Ignore all subsequent presses of the SAME key if they happen within a "
-#~ "user selectable period of time."
-#~ msgstr ""
-#~ "Anwybyddu pob gwasgiad dilynol o'r UN fysell os maent yn digwydd o fewn "
-#~ "cyfnod a gall y defnyddiwr ei ddewis."
-
-#~ msgid "Keyboard Accessibility Preferences (AccessX)"
-#~ msgstr "Hoffterau Hygyrchedd Bysellfwrdd (AccessX)"
-
-#~ msgid "Ma_ximum pointer speed:"
-#~ msgstr "Cyflymdra m_wya'r pwyntydd:"
-
-#~ msgid "Mouse _Preferences..."
-#~ msgstr "Hoffterau _Llygoden..."
-
-#~ msgid ""
-#~ "Only accept keys after they have been pressed and held for a user "
-#~ "adjustable amount of time."
-#~ msgstr ""
-#~ "Derbyn bysellau dim ond ar ôl iddynt gael eu gwasgu a'u dal am gyfnod "
-#~ "gall y defnyddiwr ei ddewis."
-
-#~ msgid ""
-#~ "Perform multiple simultaneous key press operations by pressing modifier "
-#~ "keys in sequence."
-#~ msgstr ""
-#~ "Cyflawni nifer o wasgiadau bysell cydamserol gan wasgu dilyniant o "
-#~ "fysellau addasu."
-
-#~ msgid "S_peed:"
-#~ msgstr "Cy_flymder:"
-
-#~ msgid "Time to acce_lerate to maximum speed:"
-#~ msgstr "Amser i gyf_lymu i'r cyflymder mwyaf:"
-
-#~ msgid "Turn the numeric keypad into a mouse control pad."
-#~ msgstr "Trowch y bysellfwrdd rhifau yn fysellfwrdd rheoli'r llygoden"
-
-#~ msgid "_Disable if unused for:"
-#~ msgstr "_Analluogi os na ddefnyddiwyd am:"
-
-#~ msgid "_Import Feature Settings..."
-#~ msgstr "_Mewnforio Gosodiadau Nodweddion..."
-
-#~ msgid "_Only accept keys held for:"
-#~ msgstr "_Derbyn bysell wedi'u dal am:"
-
-#~ msgid "_Type to test settings:"
-#~ msgstr "_Teipiwch i arbrofi'r gosodiadau:"
-
-#~ msgid "_accepted"
-#~ msgstr "_derbyniwyd"
-
-#~ msgid "_pressed"
-#~ msgstr "_gwasgedig"
-
-#~ msgid "_rejected"
-#~ msgstr "_gwrthodwyd"
-
-#~ msgid "characters/second"
-#~ msgstr "nodau'r eiliad"
-
-#~ msgid "milliseconds"
-#~ msgstr "milfedau o eiliadau"
-
-#~ msgid "pixels/second"
-#~ msgstr "picseli'r eiliad"
-
-#~ msgid "seconds"
-#~ msgstr "eiliadau"
-
-#~ msgid "Change your Desktop Background settings"
-#~ msgstr "Newid gosodiadau eich Cefndir Penbwrdd"
-
-#~ msgid "Desktop Background"
-#~ msgstr "Cefndir Penbwrdd"
-
-#~ msgid "<b>Desktop _Wallpaper</b>"
-#~ msgstr "<b>Papur _Wal Penbwrdd</b>"
-
-#~ msgid "<b>_Desktop Colors</b>"
-#~ msgstr "<b>_Lliwiau Penbwrdd</b>"
-
-#~ msgid "Desktop Background Preferences"
-#~ msgstr "Hoffterau Cefndir Penbwrdd"
-
-#~ msgid "Open a dialog to specify the color"
-#~ msgstr "Agorwch ddeialog i ddewis y lliw"
-
-#~ msgid "_Add Wallpaper"
-#~ msgstr "_Ychwanegu Papur Wal"
-
-#~ msgid "_Finish"
-#~ msgstr "_Gorffen"
-
-#~ msgid "_Remove"
-#~ msgstr "_Gwaredu:"
-
-#~ msgid "_Style:"
-#~ msgstr "_Arddull:"
-
-#~ msgid "Centered"
-#~ msgstr "Wedi ei ganoli"
-
-#~ msgid "Fill Screen"
-#~ msgstr "Llenwi'r Sgrin"
-
-#~ msgid "Scaled"
-#~ msgstr "Graddio"
-
-#~ msgid "Zoom"
-#~ msgstr "Chwyddo"
-
-#~ msgid "Tiled"
-#~ msgstr "Teilsio"
-
-#~ msgid "Horizontal Gradient"
-#~ msgstr "Graddfa Lorweddol"
-
-#~ msgid "Vertical Gradient"
-#~ msgstr "Graddfa Fertigol"
-
-#~ msgid "Add Wallpaper"
-#~ msgstr "Ychwanegu Papur Wal"
-
-#~ msgid "Images"
-#~ msgstr "Delweddau"
-
-#~ msgid "All Files"
-#~ msgstr "Pob Ffeil"
-
-#~ msgid "No Wallpaper"
-#~ msgstr "Dim Papur Wal"
-
-#~ msgid "pixel"
-#~ msgid_plural "pixels"
-#~ msgstr[0] "picsel"
-#~ msgstr[1] "bicsel"
-
-#~ msgid ""
-#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#~ "Without the GNOME settings manager running, some preferences may not take "
-#~ "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. "
-#~ "KDE) settings manager may already be active and conflicting with the "
-#~ "GNOME settings manager."
-#~ msgstr ""
-#~ "Methu cychwyn y rheolwr gosodiadau 'gnome-settings-daemon'.\n"
-#~ "Heb i'r rheolydd gosodiadau GNOME fod yn weithgar, mae'n bosib na fydd "
-#~ "rhai hoffterau'n dod i rym. Gall hyn olygu fod problem gyda Bonobo, neu "
-#~ "fe all rheolydd gosodiadau arall (e.e. KDE) fod yn weithgar ac yn creu "
-#~ "anghysondebau gyda rheolydd gosodiadau GNOME."
-
-#~ msgid "Unable to load stock icon '%s'\n"
-#~ msgstr "Methu llwytho'r eicon stoc '%s'\n"
-
-#~ msgid "Just apply settings and quit"
-#~ msgstr "Cymhwyso'r gosodiadau a therfynu"
-
-#~ msgid "Retrieve and store legacy settings"
-#~ msgstr "Nol a chadw'r hen osodiadau"
-
-#~ msgid "Copying file: %u of %u"
-#~ msgstr "Copïo ffeil: %u o %u"
-
-#~ msgid "Copying '%s'"
-#~ msgstr "Copïo '%s'"
-
-#~ msgid "From URI"
-#~ msgstr "URI Tarddiad"
-
-#~ msgid "URI currently transferring from"
-#~ msgstr "URI yn trosglwyddo o"
-
-#~ msgid "To URI"
-#~ msgstr "URI Cyrchiad"
-
-#~ msgid "URI currently transferring to"
-#~ msgstr "URI yn trosglwyddo i"
-
-#~ msgid "Fraction of transfer currently completed"
-#~ msgstr "Canran y trosglwyddiad wedi'i gwblhau ar hyn o bryd"
-
-#~ msgid "Current URI index"
-#~ msgstr "Mynegai URI cyfredol"
-
-#~ msgid "Current URI index - starts from 1"
-#~ msgstr "Mynegai URI cyfredol - mae'n dechrau o 1"
-
-#~ msgid "Total URIs"
-#~ msgstr "Cyfanswm URIau"
-
-#~ msgid "Total number of URIs"
-#~ msgstr "Nifer cyflawn URIau"
-
-#~ msgid "Copying files"
-#~ msgstr "Copïo ffeiliau"
-
-#~ msgid "From:"
-#~ msgstr "O:"
-
-#~ msgid "To:"
-#~ msgstr "I:"
-
-#~ msgid "Connecting..."
-#~ msgstr "Yn cysylltu..."
-
-#~ msgid "Key"
-#~ msgstr "Allwedd"
-
-#~ msgid "GConf key to which this property editor is attached"
-#~ msgstr "Allwedd GConf sy'n cyfateb i'r golygydd priodwedd yma"
-
-#~ msgid "Callback"
-#~ msgstr "Adalwad"
-
-#~ msgid "Issue this callback when the value associated with key gets changed"
-#~ msgstr "Galw'r adalwad yma pan newidir gwerth cysylltiedig yr allwedd"
-
-#~ msgid "Change set"
-#~ msgstr "Newid set"
-
-#~ msgid ""
-#~ "GConf change set containing data to be forwarded to the gconf client on "
-#~ "apply"
-#~ msgstr ""
-#~ "Set newid GConf yn cynnwys data i'w anfon ymlaen i'r cleient gconf wrth "
-#~ "gymhwyso"
-
-#~ msgid "Conversion to widget callback"
-#~ msgstr "Trosi i adalwad celficyn"
-
-#~ msgid ""
-#~ "Callback to be issued when data are to be converted from GConf to the "
-#~ "widget"
-#~ msgstr "Yr adalwad i'w alw pan fo data i'w trosi o GConf i'r teclyn"
-
-#~ msgid "Conversion from widget callback"
-#~ msgstr "Trosi o adalwad teclyn"
-
-#~ msgid ""
-#~ "Callback to be issued when data are to be converted to GConf from the "
-#~ "widget"
-#~ msgstr "Adalwad i alw pan fo data i'w trosi i GConf o'r teclyn"
-
-#~ msgid "UI Control"
-#~ msgstr "Rheolydd RhD (UI)"
-
-#~ msgid "Object that controls the property (normally a widget)"
-#~ msgstr "Gwrthrych sy'n rheoli'r briodwedd (celficyn gan amlaf)"
-
-#~ msgid "Property editor object data"
-#~ msgstr "Data gwrthrychol golygydd priodweddau"
-
-#~ msgid "Custom data required by the specific property editor"
-#~ msgstr "Data addasol sy'n anghenraid gan y golygydd priodweddau penodol"
-
-#~ msgid "Property editor data freeing callback"
-#~ msgstr "Adalwad rhyddhau data golygydd priodweddau"
-
-#~ msgid ""
-#~ "Callback to be issued when property editor object data is to be freed"
-#~ msgstr ""
-#~ "Adalwad i'w alw pan fo data gwrthrychol golygydd priodweddau i'w rhyddhau"
-
-#~ msgid ""
-#~ "Couldn't find the file '%s'.\n"
-#~ "\n"
-#~ "Please make sure it exists and try again, or choose a different "
-#~ "background picture."
-#~ msgstr ""
-#~ "Methwyd canfod y ffeil '%s'\n"
-#~ "\n"
-#~ "Gwiriwch ei bod yn bodoli a cheisiwch eto, neu dewiswch lun cefndir arall "
-#~ "os gwelwch yn dda."
-
-#~ msgid ""
-#~ "I don't know how to open the file '%s'.\n"
-#~ "Perhaps it's a kind of picture that is not yet supported.\n"
-#~ "\n"
-#~ "Please select a different picture instead."
-#~ msgstr ""
-#~ "Nid ydw i'n deall sut i agor y ffeil '%s'.\n"
-#~ "Efallai ei bod yn fath o lun nas cynhelir eto.\n"
-#~ "\n"
-#~ "Dewiswch lun gwahanol yn ei le, os gwelwch yn dda."
-
-#~ msgid "Please select an image."
-#~ msgstr "Dewiswch ddelwedd."
-
-#~ msgid "_Select"
-#~ msgstr "_Dewis"
-
-#~ msgid "Preferred Applications"
-#~ msgstr "Rhaglenni Amgen"
-
-#~ msgid "Select your default applications"
-#~ msgstr "Dewiswch eich rhaglenni rhagosodedig"
-
-#~ msgid "Could not display help"
-#~ msgstr "Methu dangos y cymorth"
-
-#~ msgid "Please make sure that the applet is properly installed"
-#~ msgstr "Gwnewch yn siwr fod y rhaglennig wedi ei osod yn gywir"
-
-#~ msgid "Error saving configuration: %s"
-#~ msgstr "Gwall wrth gadw cyfluniad: %s"
-
-#~ msgid "Custom"
-#~ msgstr "Addasedig"
-
-#~ msgid "Could not load the main interface"
-#~ msgstr "Methu llwytho'r prif ryngwyneb"
-
-#~ msgid "Balsa"
-#~ msgstr "Balsa"
-
-#~ msgid "Debian Sensible Browser"
-#~ msgstr "\"Sensible-Browser\" (Debian)"
-
-#~ msgid "Debian Terminal Emulator"
-#~ msgstr "Efelychydd Terfynell Debian"
-
-#~ msgid "ETerm"
-#~ msgstr "ETerm"
-
-#~ msgid "Encompass"
-#~ msgstr "Encompass"
-
-#~ msgid "Epiphany Web Browser"
-#~ msgstr "Porwr Gwe Epiphany"
-
-#~ msgid "Evolution Mail Reader"
-#~ msgstr "Y Darllenwr Ebost Evolution"
-
-#~ msgid "Evolution Mail Reader 1.4"
-#~ msgstr "Darllenwr Ebost Evolution 1.4"
-
-#~ msgid "Evolution Mail Reader 1.5"
-#~ msgstr "Darllenwr Ebost Evolution 1.5"
-
-#~ msgid "Evolution Mail Reader 1.6"
-#~ msgstr "Darllenwr Ebost Evolution 1.6"
-
-#~ msgid "Evolution Mail Reader 2.0"
-#~ msgstr "Darllenwr Ebost Evolution 2.0"
-
-#~ msgid "Evolution Mail Reader 2.2"
-#~ msgstr "Darllenwr Ebost Evolution 2.2"
-
-#~ msgid "Evolution Mail Reader 2.4"
-#~ msgstr "Darllenwr Ebost Evolution 2.4"
-
-#~ msgid "Firebird"
-#~ msgstr "Firebird"
-
-#~ msgid "Firefox"
-#~ msgstr "Firefox"
-
-#~ msgid "GNOME Terminal"
-#~ msgstr "Terfynell GNOME"
-
-#~ msgid "Galeon"
-#~ msgstr "Galeon"
-
-#~ msgid "KMail"
-#~ msgstr "KMail"
-
-#~ msgid "Konqueror"
-#~ msgstr "Konqueror"
-
-#~ msgid "Links Text Browser"
-#~ msgstr "Y Porwr Gwe Links"
-
-#~ msgid "Lynx Text Browser"
-#~ msgstr "Y Porwr Gwe Lynx"
-
-#~ msgid "Mozilla"
-#~ msgstr "Mozilla"
-
-#~ msgid "Mozilla 1.6"
-#~ msgstr "Mozilla 1.6"
-
-#~ msgid "Mozilla Mail"
-#~ msgstr "E-bost Mozilla"
-
-#~ msgid "Mozilla Thunderbird"
-#~ msgstr "Mozilla Thunderbird"
-
-#~ msgid "Mutt"
-#~ msgstr "Mutt"
-
-#~ msgid "NXterm"
-#~ msgstr "NXterm"
-
-#~ msgid "Netscape Communicator"
-#~ msgstr "Netscape Communicator"
-
-#~ msgid "Opera"
-#~ msgstr "Opera"
-
-#~ msgid "RXVT"
-#~ msgstr "RXVT"
-
-#~ msgid "Standard XTerminal"
-#~ msgstr "XTerminal arferol"
-
-#~ msgid "Sylpheed-Claws"
-#~ msgstr "Sylpheed-Claws"
-
-#~ msgid "Thunderbird"
-#~ msgstr "Thunderbird"
-
-#~ msgid "W3M Text Browser"
-#~ msgstr "Y Porwr Gwe W3M"
-
-#~ msgid "aterm"
-#~ msgstr "aterm"
-
-#~ msgid "<b>Audio Player</b>"
-#~ msgstr "<b>Chwaraeydd Sain</b>"
-
-#~ msgid "<b>Image Viewer</b>"
-#~ msgstr "<b>Gwelydd Delweddau</b>"
-
-#~ msgid "<b>Instant Messenger</b>"
-#~ msgstr "<b>Negesu Chwim</b>"
-
-#~ msgid "<b>Mail Reader</b>"
-#~ msgstr "<b>Darllenwr E-bost</b>"
-
-#~ msgid "<b>Terminal Emulator</b>"
-#~ msgstr "<b>Efelychydd Terfynell</b>"
-
-#~ msgid "<b>Text Editor</b>"
-#~ msgstr "<b>Golygydd Testun</b>"
-
-#~ msgid "<b>Video Player</b>"
-#~ msgstr "<b>Chwaraewr Fideo</b>"
-
-#~ msgid "<b>Web Browser</b>"
-#~ msgstr "<b>Porwr Gwe</b>"
-
-#~ msgid "All %s occurrences will be replaced with actual link"
-#~ msgstr "Fe roddir y cyswllt go iawn yn lle pob %s"
-
-#~ msgid "Co_mmand:"
-#~ msgstr "_Gorchymyn:"
-
-#~ msgid "E_xecute flag:"
-#~ msgstr "Baner E_xec:"
-
-#~ msgid "Internet"
-#~ msgstr "Rhyngrwyd"
-
-#~ msgid "Multimedia"
-#~ msgstr "Amlgyfrwng"
-
-#~ msgid "Open link in new _tab"
-#~ msgstr "Agor cyswllt mewn _tab newydd"
-
-#~ msgid "Open link in new _window"
-#~ msgstr "Agor cyswllt mewn _ffenestr newydd"
-
-#~ msgid "Open link with web browser _default"
-#~ msgstr "Agor cyswllt gyda'r porwr gwe sy'n _ragosodiad"
-
-#~ msgid "Run in t_erminal"
-#~ msgstr "Rhedeg mewn t_erfynell"
-
-#~ msgid "System"
-#~ msgstr "System"
-
-#~ msgid "Change screen resolution"
-#~ msgstr "Newid cydraniad y sgrin"
-
-#~ msgid "Screen Resolution"
-#~ msgstr "Cydraniad y Sgrin"
-
-#~ msgid "%d Hz"
-#~ msgstr "%d Hz"
-
-#~ msgid "_Resolution:"
-#~ msgstr "_Cydraniad:"
-
-#~ msgid "Re_fresh rate:"
-#~ msgstr "Cyfradd _adnewyddu:"
-
-#~ msgid "Screen %d Settings\n"
-#~ msgstr "Gosodiadau Sgrin %d\n"
-
-#~ msgid "Screen Resolution Preferences"
-#~ msgstr "Hoffterau Cydraniad y Sgrin"
-
-#~ msgid "_Make default for this computer (%s) only"
-#~ msgstr "Gwneud yn rhagosodiad ar gyfer y _cyfrifiadur hwn (%s) yn unig"
-
-#~ msgid "Options"
-#~ msgstr "Opsiynau"
-
-#~ msgid ""
-#~ "Testing the new settings. If you don't respond in %d second the previous "
-#~ "settings will be restored."
-#~ msgid_plural ""
-#~ "Testing the new settings. If you don't respond in %d seconds the previous "
-#~ "settings will be restored."
-#~ msgstr[0] ""
-#~ "Profi'r gosodiadau newydd. Os nad ydych chi'n ymateb o fewn %d eiliad "
-#~ "caiff y gosodiadau blaenorol eu hadfer."
-#~ msgstr[1] ""
-#~ "Profi'r gosodiadau newydd. Os nad ydych chi'n ymateb o fewn %d eiliad "
-#~ "caiff y gosodiadau blaenorol eu hadfer."
-
-#~ msgid "Keep Resolution"
-#~ msgstr "Cadw'r Cydraniad"
-
-#~ msgid "Do you want to keep this resolution?"
-#~ msgstr "A hoffech gadw'r cyfraniad yma?"
-
-#~ msgid "Use _previous resolution"
-#~ msgstr "Defnyddio'r cydraniad _blaenorol"
-
-#~ msgid "_Keep resolution"
-#~ msgstr "_Cadw'r cydraniad"
-
-#~ msgid ""
-#~ "The X Server does not support the XRandR extension.  Runtime resolution "
-#~ "changes to the display size are not available."
-#~ msgstr ""
-#~ "Nid yw'r gweinydd X yn cynnal yr estyniad XRandR. Nid yw'n bosib newid y "
-#~ "cydraniad tra mae'r gweinydd X yn rhedeg."
-
-#~ msgid ""
-#~ "The version of the XRandR extension is incompatible with this program. "
-#~ "Runtime changes to the display size are not available."
-#~ msgstr ""
-#~ "Mae fersiwn yr estyniad XRandR yn anghytunol gyda'r rhaglen hon. Nid yw'n "
-#~ "bosib newid y cydraniad tra bo'r gweinydd X yn rhedeg."
-
-#~ msgid "Select fonts for the desktop"
-#~ msgstr "Dewiswch ffontiau ar gyfer y penbwrdd"
-
-#~ msgid "<b>Font Rendering</b>"
-#~ msgstr "<b>Llunio Ffontiau</b>"
-
-#~ msgid "<b>Smoothing</b>:"
-#~ msgstr "<b>Llyfnhau</b>:"
-
-#~ msgid "<b>Subpixel order</b>:"
-#~ msgstr "<b>Trefn is-bicsel</b>:"
-
-#~ msgid "Best _shapes"
-#~ msgstr "_Siapau gorau"
-
-#~ msgid "D_etails..."
-#~ msgstr "_Manylion..."
-
-#~ msgid "Des_ktop font:"
-#~ msgstr "_Ffont y penbwrdd:"
-
-#~ msgid "Font Preferences"
-#~ msgstr "Hoffterau Ffont"
-
-#~ msgid "Font Rendering Details"
-#~ msgstr "Manylion Llunio Ffontiau"
-
-#~ msgid "Go _to font folder"
-#~ msgstr "_Mynd i'r blygell ffont"
-
-#~ msgid "Gra_yscale"
-#~ msgstr "_Graddlwyd"
-
-#~ msgid "N_one"
-#~ msgstr "_Dim"
-
-#~ msgid "R_esolution:"
-#~ msgstr "_Cydraniad:"
-
-#~ msgid "Sub_pixel (LCDs)"
-#~ msgstr "Is_bicsel (LCDau)"
-
-#~ msgid "Sub_pixel smoothing (LCDs)"
-#~ msgstr "Llyfnu is_bicsel (LCDau)"
-
-#~ msgid "VB_GR"
-#~ msgstr "VB_GR"
-
-#~ msgid "_Application font:"
-#~ msgstr "Ffont _rhaglenni:"
-
-#~ msgid "_BGR"
-#~ msgstr "_BGR"
-
-#~ msgid "_Document font:"
-#~ msgstr "_Ffont y ddogfen:"
-
-#~ msgid "_Fixed width font:"
-#~ msgstr "_Ffont lled rhagosodedig:"
-
-#~ msgid "_Full"
-#~ msgstr "_Llawn"
-
-#~ msgid "_Medium"
-#~ msgstr "_Canolig"
-
-#~ msgid "_Monochrome"
-#~ msgstr "_Unlliw"
-
-#~ msgid "_None"
-#~ msgstr "_Dim"
-
-#~ msgid "_RGB"
-#~ msgstr "_RGB"
-
-#~ msgid "_Slight"
-#~ msgstr "_Eiddil"
-
-#~ msgid "_VRGB"
-#~ msgstr "_VRGB"
-
-#~ msgid "_Window title font:"
-#~ msgstr "_Ffont teitl y ffenest:"
-
-#~ msgid "dots per inch"
-#~ msgstr "dot y fodfedd"
-
-#~ msgid "Font may be too large"
-#~ msgstr "Mae'n bosib fod y ffont rhy fawr"
-
-#~ msgid ""
-#~ "The font selected is %d point large, and may make it difficult to "
-#~ "effectively use the computer.  It is recommended that you select a size "
-#~ "smaller than %d."
-#~ msgid_plural ""
-#~ "The font selected is %d points large, and may make it difficult to "
-#~ "effectively use the computer. It is recommended that you select a size "
-#~ "smaller than %d."
-#~ msgstr[0] ""
-#~ "Mae'r ffont a ddewiswyd yn %d pwynt o faint, a gall ei wneud yn anodd "
-#~ "defnyddio'r cyfrifiadur yn effeithlon. Argymhellir eich bod chi'n dewis "
-#~ "maint yn llai na %d."
-#~ msgstr[1] ""
-#~ "Mae'r ffont a ddewiswyd yn %d bwynt o faint, a gall ei wneud yn anodd "
-#~ "defnyddio'r cyfrifiadur yn effeithlon. Argymhellir eich bod chi'n dewis "
-#~ "maint yn llai na %d."
-
-#~ msgid ""
-#~ "The font selected is %d point large, and may make it difficult to "
-#~ "effectively use the computer.  It is recommended that you select a "
-#~ "smaller sized font."
-#~ msgid_plural ""
-#~ "The font selected is %d points large, and may make it difficult to "
-#~ "effectively use the computer. It is recommended that you select a smaller "
-#~ "sized font."
-#~ msgstr[0] ""
-#~ "Mae'r ffont a ddewiswyd yn %d pwynt o faint, a gall ei wneud yn anodd "
-#~ "defnyddio'r cyfrifiadur yn effeithlon. Argymhellir eich bod chi'n dewis "
-#~ "maint ffont llai."
-#~ msgstr[1] ""
-#~ "Mae'r ffont a ddewiswyd yn %d bwynt o faint, a gall ei wneud yn anodd "
-#~ "defnyddio'r cyfrifiadur yn effeithlon. Argymhellir eich bod chi'n dewis "
-#~ "maint ffont llai."
-
-#~ msgid "New accelerator..."
-#~ msgstr "Cyflymydd newydd..."
-
-#~ msgid "Accelerator key"
-#~ msgstr "Bysell cyflymu"
-
-#~ msgid "Accelerator modifiers"
-#~ msgstr "Addasyddion cyflymu"
-
-#~ msgid "Accelerator keycode"
-#~ msgstr "Cod bysell cyflymu"
-
-#~ msgid "Accel Mode"
-#~ msgstr "Modd Cyflymu"
-
-#~ msgid "The type of accelerator."
-#~ msgstr "Y math o gyflymydd."
-
-#~ msgid "Disabled"
-#~ msgstr "Analluogwyd"
-
-#~ msgid "<Unknown Action>"
-#~ msgstr "<Gweithred Anhysbys>"
-
-#~ msgid "Desktop"
-#~ msgstr "Penbwrdd"
-
-#~ msgid "Window Management"
-#~ msgstr "Rheoli Ffenestri"
-
-#~ msgid ""
-#~ "The shortcut \"%s\" cannot be used because it will become unusable to "
-#~ "type using this key.\n"
-#~ "Please try with a key such as Control, Alt or Shift at the same time.\n"
-#~ msgstr ""
-#~ "Methu defnyddio'r llwybr byr \"%s\" am y bydd wedyn yn amhosib teipio "
-#~ "gyda'r allweddell yna.\n"
-#~ "Ail-geisiwch gydag allwedd fel Control, Alt or Shift ar yr un pryd.\n"
-
-#~ msgid ""
-#~ "The shortcut \"%s\" is already used for:\n"
-#~ " \"%s\"\n"
-#~ msgstr ""
-#~ "Defnyddir y byrlwybr \"%s\" eisoes ar gyfer:\n"
-#~ " \"%s\"\n"
-
-#~ msgid "Error setting new accelerator in configuration database: %s\n"
-#~ msgstr "Gwall wrth osod cyflymydd newydd yn y gronfa cyfluniad: %s\n"
-
-#~ msgid "Error unsetting accelerator in configuration database: %s\n"
-#~ msgstr "Gwall wrth ddadosod cyflymydd yn y gronfa cyfluniad: %s\n"
-
-#~ msgid "Action"
-#~ msgstr "Gweithred"
-
-#~ msgid "Shortcut"
-#~ msgstr "Byrlwybr"
-
-#~ msgid "Keyboard Shortcuts"
-#~ msgstr "Llwybrau byr y Bysellfwrdd"
-
-#~ msgid ""
-#~ "To edit a shortcut key, click on the corresponding row and type a new "
-#~ "accelerator, or press backspace to clear."
-#~ msgstr ""
-#~ "I olygu bysell cyflymydd, cliciwch ar y rhes sy'n cyfateb a theipiwch "
-#~ "gyflymydd newydd, neu gwasgwch olnod er mwyn clirio."
-
-#~ msgid "Assign shortcut keys to commands"
-#~ msgstr "_Neilltuo bysell byrlwybr â gorchmynion"
-
-#~ msgid "Unknown"
-#~ msgstr "Anhysbys"
-
-#~ msgid "Layout"
-#~ msgstr "Cyflwyniad"
-
-#~ msgid "Default"
-#~ msgstr "Rhagosodiad"
-
-#~ msgid "Models"
-#~ msgstr "Modelau"
-
-#~ msgid "There was an error launching the keyboard tool: %s"
-#~ msgstr "Roedd gwall wrth gychwyn offer y bysellfwrdd: %s"
-
-#~ msgid ""
-#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
-#~ msgstr ""
-#~ "Cymhwyso'r gosodiadau a therfynu (cydnawsedd yn unig; trinnir gan ellyll "
-#~ "bellach)"
-
-#~ msgid "Start the page with the typing break settings showing"
-#~ msgstr "Cychwyn y dudalen gyda'r gosodiadau gorffwys teipio yn dangos"
-
-#~ msgid "..."
-#~ msgstr "..."
-
-#~ msgid "<b>Cursor Blinking</b>"
-#~ msgstr "<b>Chwincio'r Cyrchydd</b>"
-
-#~ msgid "<b>Repeat Keys</b>"
-#~ msgstr "<b>Bysellau Ailadroddus</b>"
-
-#~ msgid "<b>_Lock screen to enforce typing break</b>"
-#~ msgstr "<b>_Cloi'r sgrin er mwyn gorfodi'r saib teipio</b>"
-
-#~ msgid "<small><i>Fast</i></small>"
-#~ msgstr "<small><i>Cyflym</i></small>"
-
-#~ msgid "<small><i>Long</i></small>"
-#~ msgstr "<small><i>Hir</i></small>"
-
-#~ msgid "<small><i>Short</i></small>"
-#~ msgstr "<small><i>Byr</i></small>"
-
-#~ msgid "<small><i>Slow</i></small>"
-#~ msgstr "<small><i>Araf</i></small>"
-
-#~ msgid "A_vailable layouts:"
-#~ msgstr "_Cynlluniau ar gael:"
-
-#~ msgid "All_ow postponing of breaks"
-#~ msgstr "_Caniatáu gohirio seibiau"
-
-#~ msgid "Check if breaks are allowed to be postponed"
-#~ msgstr "Gwirio os ceir gohirio seibiau"
-
-#~ msgid "Choose a Keyboard Model"
-#~ msgstr "Dewiswch Fodel Bysellfwrdd"
-
-#~ msgid "Choose a Layout"
-#~ msgstr "Dewiswch Gynllun"
-
-#~ msgid "Cursor _blinks in text boxes and fields"
-#~ msgstr "_Mae'r cyrchydd yn chwincio mewn blychau testun a meysydd"
-
-#~ msgid "Cursor blinks speed"
-#~ msgstr "Cyflymder chwincio'r cyrchwr"
-
-#~ msgid "Duration of the break when typing is disallowed"
-#~ msgstr "Hyd y saib tra mae teipio wedi ei wahardd"
-
-#~ msgid "Duration of work before forcing a break"
-#~ msgstr "Hyd y gwaith cyn gorfodi saib"
-
-#~ msgid "Key presses _repeat when key is held down"
-#~ msgstr "Bysellau yn _ailadrodd wrth gael eu dal i lawr"
-
-#~ msgid "Keyboard Preferences"
-#~ msgstr "Hoffterau Bysellfwrdd"
-
-#~ msgid "Keyboard _model:"
-#~ msgstr "Model bysellfwrdd"
-
-#~ msgid "Layout Options"
-#~ msgstr "Opsiynau Cynllun:"
-
-#~ msgid "Layouts"
-#~ msgstr "Cynlluniau"
-
-#~ msgid ""
-#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
-#~ "use injuries"
-#~ msgstr ""
-#~ "Cloi'r sgrin ar ôl cyfnod penodedig er mwyn cynorthwyo atal anafiadau "
-#~ "defnydd bysellfwrdd ailadroddus"
-
-#~ msgid "Microsoft Natural Keyboard"
-#~ msgstr "Bysellfwrdd Naturiol Microsoft"
-
-#~ msgid "Preview:"
-#~ msgstr "Rhagolwg:"
-
-#~ msgid "Repeat keys speed"
-#~ msgstr "Cyflymder ail-adrodd bysellau"
-
-#~ msgid "Reset To De_faults"
-#~ msgstr "_Ailosod i'r dewisiadau rhagosodedig"
-
-#~ msgid "Separate _group for each window"
-#~ msgstr "_Grwp ar wahân ar gyfer pob ffenestr"
-
-#~ msgid "_Accessibility..."
-#~ msgstr "_Hygyrchedd..."
-
-#~ msgid "_Add..."
-#~ msgstr "_Ychwanegu..."
-
-#~ msgid "_Break interval lasts:"
-#~ msgstr "_Cyfnod seibio yn para:"
-
-#~ msgid "_Delay:"
-#~ msgstr "_Oediad:"
-
-#~ msgid "_Models:"
-#~ msgstr "_Modelau:"
-
-#~ msgid "_Selected layouts:"
-#~ msgstr "_Cynlluniau dewiswyd:"
-
-#~ msgid "_Speed:"
-#~ msgstr "_Cyflymder:"
-
-#~ msgid "_Work interval lasts:"
-#~ msgstr "_Cyfnod gweithio yn para:"
-
-#~ msgid "Set your keyboard preferences"
-#~ msgstr "Gosodwch eich hoffterau bysellfwrdd"
-
-#~ msgid "%d milliseconds"
-#~ msgid_plural "%d milliseconds"
-#~ msgstr[0] "%d milfed eiliad"
-#~ msgstr[1] "%d milfedau o eiliadau"
-
-#~ msgid "Default Pointer"
-#~ msgstr "Pwyntydd Rhagosodedig"
-
-#~ msgid "Default Pointer - Current"
-#~ msgstr "Pwyntydd Rhagosodedig - Cyfredol"
-
-#~ msgid "The default pointer that ships with X"
-#~ msgstr "Y pwyntydd rhagosodedig a gludir gydag X"
-
-#~ msgid "White Pointer"
-#~ msgstr "Pwyntydd Gwyn"
-
-#~ msgid "White Pointer - Current"
-#~ msgstr "Pwyntydd Gwyn - Cyfredol"
-
-#~ msgid "The default pointer inverted"
-#~ msgstr "Y pwyntydd rhagosodedig wedi'i wrthdroi"
-
-#~ msgid "Large Pointer"
-#~ msgstr "Pwyntydd Mawr"
-
-#~ msgid "Large Pointer - Current"
-#~ msgstr "Pwyntydd Mawr - Cyfredol"
-
-#~ msgid "Large version of normal pointer"
-#~ msgstr "Fersiwn mawr o'r pwyntydd arferol"
-
-#~ msgid "Large White Pointer - Current"
-#~ msgstr "Pwyntydd Mawr Gwyn - Cyfredol"
-
-#~ msgid "Large White Pointer"
-#~ msgstr "Pwyntydd Mawr Gwyn"
-
-#~ msgid "Large version of white pointer"
-#~ msgstr "Fersiwn mawr o'r pwyntydd gwyn"
-
-#~ msgid "<b>Drag and Drop</b>"
-#~ msgstr "<b>Llusgo a Gollwng</b>"
-
-#~ msgid "<b>Locate Pointer</b>"
-#~ msgstr "<b>Lleoli'r Pwyntydd</b>"
-
-#~ msgid "<b>Speed</b>"
-#~ msgstr "<b>Cyflymder</b>"
-
-#~ msgid "<i>Fast</i>"
-#~ msgstr "<i>Cyflym</i>"
-
-#~ msgid "<i>High</i>"
-#~ msgstr "<i>Uchel</i>"
-
-#~ msgid "<i>Large</i>"
-#~ msgstr "<i>Mawr</i>"
-
-#~ msgid "<i>Low</i>"
-#~ msgstr "<i>Isel</i>"
-
-#~ msgid "<i>Slow</i>"
-#~ msgstr "<i>Araf</i>"
-
-#~ msgid "<i>Small</i>"
-#~ msgstr "<i>Bach</i>"
-
-#~ msgid "Buttons"
-#~ msgstr "Botymau"
-
-#~ msgid "Highlight the _pointer when you press Ctrl"
-#~ msgstr "Amlygu'r _pwyntydd pan rydych chi'n gwasgu Ctrl"
-
-#~ msgid "Large"
-#~ msgstr "Mawr"
-
-#~ msgid "Medium"
-#~ msgstr "Canolig"
-
-#~ msgid "Motion"
-#~ msgstr "Symudiad"
-
-#~ msgid "Small"
-#~ msgstr "Bach"
-
-#~ msgid "_Acceleration:"
-#~ msgstr "_Cyflymiad:"
-
-#~ msgid "_Left-handed mouse"
-#~ msgstr "_Llygoden lawchwith"
-
-#~ msgid "_Sensitivity:"
-#~ msgstr "_Sensitifrwydd:"
-
-#~ msgid "_Timeout:"
-#~ msgstr "_Terfyn aros:"
-
-#~ msgid "Set your mouse preferences"
-#~ msgstr "Gosodwch eich hoffterau llygoden"
-
-#~ msgid "Network Proxy"
-#~ msgstr "Dirprwy Rhwydwaith"
-
-#~ msgid "Set your network proxy preferences"
-#~ msgstr "Gosod eich hoffterau dirprwy rhwydwaith"
-
-#~ msgid "      "
-#~ msgstr "      "
-
-#~ msgid "<b>Di_rect internet connection</b>"
-#~ msgstr "<b>_Cysylltiad Rhyngrwyd uniongyrchol</b>"
-
-#~ msgid "<b>Ignore Host List</b>"
-#~ msgstr "<b>Anwybyddu Rhestr Gwesteiwyr</b>"
-
-#~ msgid "<b>_Automatic proxy configuration</b>"
-#~ msgstr "<b>Cyfluniad dirprwy _awtomatig</b>"
-
-#~ msgid "<b>_Manual proxy configuration</b>"
-#~ msgstr "<b>Cyflunio dirprwy â _llaw</b>"
-
-#~ msgid "Advanced Configuration"
-#~ msgstr "Cyfluniad Uwch"
-
-#~ msgid "Autoconfiguration _URL:"
-#~ msgstr "_URL cyfluniad awtomatig:"
-
-#~ msgid "HTTP Proxy Details"
-#~ msgstr "Manylion dirprwy HTTP"
-
-#~ msgid "H_TTP proxy:"
-#~ msgstr "Dirprwy _HTTP:"
-
-#~ msgid "Network Proxy Preferences"
-#~ msgstr "Hoffterau Dirprwy Rhwydwaith"
-
-#~ msgid "Port:"
-#~ msgstr "Porth:"
-
-#~ msgid "S_ocks host:"
-#~ msgstr "Gweinydd S_ocks:"
-
-#~ msgid "U_sername:"
-#~ msgstr "_Enw Defnyddiwr:"
-
-#~ msgid "_Details"
-#~ msgstr "_Manylion"
-
-#~ msgid "_FTP proxy:"
-#~ msgstr "Dirprwy _FTP:"
-
-#~ msgid "_Password:"
-#~ msgstr "_Cyfrinair:"
-
-#~ msgid "_Secure HTTP proxy:"
-#~ msgstr "Dirprwy HTTP _Diogel:"
-
-#~ msgid "Enable sound and associate sounds with events"
-#~ msgstr "Galluogi sain a chysylltu seiniau â digwyddiadau"
-
-#~ msgid "Sound Preferences"
-#~ msgstr "Hoffterau Sain"
-
-#~ msgid "E_nable software sound mixing (ESD)"
-#~ msgstr "_Galluogi cymysgu sain o fewn meddalwedd (ESD)"
-
-#~ msgid "Flash _entire screen"
-#~ msgstr "Fflachio'r _sgrin gyfan"
-
-#~ msgid "Flash _window titlebar"
-#~ msgstr "Fflachio bar teitl y _ffenest"
-
-#~ msgid "Sounds"
-#~ msgstr "Seiniau"
-
-#~ msgid "System Beep"
-#~ msgstr "Bîp y System"
-
-#~ msgid "_Enable system beep"
-#~ msgstr "_Galluogi bîp y system"
-
-#~ msgid "_Play system sounds"
-#~ msgstr "_Chwarae synau'r system"
-
-#~ msgid "_Visual system beep"
-#~ msgstr "Bîp _gweledol y system"
-
-#~ msgid "Would you like to remove this theme?"
-#~ msgstr "Hoffech chi dynnu'r thema hon?"
-
-#~ msgid "Theme deleted succesfully. Please select another theme."
-#~ msgstr "Thema wedi'i ddileu yn llwyddiannus. Dewiswch thema wahanol."
-
-#~ msgid "Theme can not be deleted"
-#~ msgstr "Methu dileu'r thema"
-
-#~ msgid ""
-#~ "No themes could be found on your system.  This probably means that your "
-#~ "\"Theme Preferences\" dialog was improperly installed, or you haven't "
-#~ "installed the \"gnome-themes\" package."
-#~ msgstr ""
-#~ "Ni chanfuwyd unrhyw themâu ar eich system. Mae'n debyg golyga hyn bod "
-#~ "eich deialog \"Hoffterau Thema\" wedi ei osod yn anghywir, neu nad ydych "
-#~ "wedi gosod y pecyn \"gnome-themes\"."
-
-#~ msgid "This theme is not in a supported format."
-#~ msgstr "Nid yw'r thema mewn ffurf a gynhelir."
-
-#~ msgid "Failed to create temporary directory"
-#~ msgstr "Methu creu cyfeiriadur dros dro"
-
-#~ msgid ""
-#~ "Can not install theme. \n"
-#~ "The bzip2 utility is not installed."
-#~ msgstr ""
-#~ "Methu gosod thema. \n"
-#~ "Nid yw'r rhaglen bzip2 wedi ei osod."
-
-#~ msgid "Installation Failed"
-#~ msgstr "Methodd Gosodiad"
-
-#~ msgid ""
-#~ "Can not install themes. \n"
-#~ "The gzip utility is not installed."
-#~ msgstr ""
-#~ "Methu gosod themâu. \n"
-#~ "Nid yw'r rhaglen bzip2 wedi ei osod."
-
-#~ msgid ""
-#~ "Icon Theme %s correctly installed.\n"
-#~ "You can select it in the theme details."
-#~ msgstr ""
-#~ "Thema Eicon %s wedi ei gosod yn gywir.\n"
-#~ "Gallwch ei dewis yn y manylion themâu."
-
-#~ msgid "Gnome Theme %s correctly installed"
-#~ msgstr "Thema Gnome %s wedi ei gosod yn gywir"
-
-#~ msgid ""
-#~ "Windows Border Theme %s correctly installed.\n"
-#~ "You can select it in the theme details."
-#~ msgstr ""
-#~ "Thema Border Ffenest %s wedi ei gosod yn gywir.\n"
-#~ "Gallwch ei dewis yn y manylion themâu."
-
-#~ msgid ""
-#~ "Controls Theme %s correctly installed.\n"
-#~ "You can select it in the theme details."
-#~ msgstr ""
-#~ "Thema Rheolyddion %s wedi ei gosod yn gywir.\n"
-#~ "Gallwch ei dewis yn y manylion themâu."
-
-#~ msgid "The theme is an engine. You need to compile the theme."
-#~ msgstr "Mae'r thema yn injan. Rhaid i chi grynhoi'r thema."
-
-#~ msgid "The file format is invalid"
-#~ msgstr "Fformat ffeil yn annilys"
-
-#~ msgid "No theme file location specified to install"
-#~ msgstr "Ni chafodd lleoliad ffeil thema ei bennu ar gyfer ei osod"
-
-#~ msgid "The theme file location specified to install is invalid"
-#~ msgstr "Roedd y lleoliad ffeil thema a benodwyd i'w osod yn annilys"
-
-#~ msgid ""
-#~ "Insufficient permissions to install the theme in:\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Caniatadau annigonol i osod y thema yn:\n"
-#~ "%s"
-
-#~ msgid "The file format is invalid."
-#~ msgstr "Fformat ffeil yn annilys."
-
-#~ msgid ""
-#~ "%s is the path where the theme files will be installed. This can not be "
-#~ "selected as the source location"
-#~ msgstr ""
-#~ "%s yw'r llwybr lle fydd y ffeiliau thema wedi ei gosod. Ni ellir dewis "
-#~ "hwn fel lleoliad y ffynhonnell"
-
-#~ msgid ""
-#~ "Cannot install theme.\n"
-#~ "The tar program is not installed on your system."
-#~ msgstr ""
-#~ "Methu gosod thema.\n"
-#~ "Nid yw'r rhaglen tar wedi ei osod ar eich system."
-
-#~ msgid "Custom theme"
-#~ msgstr "Thema Addasedig"
-
-#~ msgid "You can save this theme by pressing the Save Theme button."
-#~ msgstr "Gallwch gadw'r thema yma drwy glicio'r botwm Cadw Thema."
-
-#~ msgid ""
-#~ "The default theme schemas could not be found on your system.  This means "
-#~ "that you probably don't have metacity installed, or that your gconf is "
-#~ "configured incorrectly."
-#~ msgstr ""
-#~ "Methwyd canfod y sgemâu thema rhagosodedig ar eich system. Mae hyn yn "
-#~ "awgrymu nad yw metacity wedi ei ymsefydlu gennych, neu fod eich gconf "
-#~ "wedi ei gyflunio'n anghywir."
-
-#~ msgid "Theme name must be present"
-#~ msgstr "Rhaid bod enw thema yn bresennol"
-
-#~ msgid "The theme already exists. Would you like to replace it?"
-#~ msgstr "Mae'r thema'n bodoli eisoes. A hoffech ei newid?"
-
-#~ msgid "Select themes for various parts of the desktop"
-#~ msgstr "Dewiswch themâu i amryw rannau'r penbwrdd"
-
-#~ msgid "Theme"
-#~ msgstr "Thema"
-
-#~ msgid "<span size=\"larger\" weight=\"bold\">Install a Theme</span>"
-#~ msgstr "<span size=\"larger\" weight=\"bold\">Gosod Thema</span>"
-
-#~ msgid "Theme Installation"
-#~ msgstr "Gosodiad Thema"
-
-#~ msgid "_Install"
-#~ msgstr "_Gosod"
-
-#~ msgid "_Location:"
-#~ msgstr "_Lleoliad:"
-
-#~ msgid "<span size=\"larger\" weight=\"bold\">Save Theme to Disk</span>"
-#~ msgstr "<span size=\"larger\" weight=\"bold\">Cadw Thema i Ddisg</span>"
-
-#~ msgid "Apply _Font"
-#~ msgstr "Cymhwyso _Ffont"
-
-#~ msgid "Controls"
-#~ msgstr "Rheolyddion"
-
-#~ msgid "Icons"
-#~ msgstr "Eiconau"
-
-#~ msgid "New themes can also be installed by dragging them into the window."
-#~ msgstr "Gellir gosod themâu newydd drwy ei llusgo i'r ffenestr hefyd"
-
-#~ msgid "Save Theme"
-#~ msgstr "Cadw'r Thema"
-
-#~ msgid "Select theme for the desktop"
-#~ msgstr "Dewiswch thema ar gyfer y penbwrdd"
-
-#~ msgid "Short _description:"
-#~ msgstr "_Disgrifiad byr:"
-
-#~ msgid "Theme Details"
-#~ msgstr "Manylion Thema"
-
-#~ msgid "Theme Preferences"
-#~ msgstr "Hoffterau Thema"
-
-#~ msgid "Theme _Details"
-#~ msgstr "_Manylion Thema"
-
-#~ msgid "This theme does not suggest any particular font or background."
-#~ msgstr "Nid yw'r thema yma yn awgrymu unrhyw ffont neu gefndir penodol"
-
-#~ msgid "This theme suggests a background:"
-#~ msgstr "Mae'r thema yma yn awgrymu cefndir:"
-
-#~ msgid "This theme suggests a font and a background:"
-#~ msgstr "Mae'r thema yma yn awgrymu ffont a chefndir:"
-
-#~ msgid "This theme suggests a font:"
-#~ msgstr "Mae'r thema yma yn awgrymu ffont:"
-
-#~ msgid "Window Border"
-#~ msgstr "Ymyl Ffenestr"
-
-#~ msgid "_Install Theme..."
-#~ msgstr "_Ymsefydlu Thema..."
-
-#~ msgid "_Revert"
-#~ msgstr "_Dychwelyd:"
-
-#~ msgid "_Save Theme..."
-#~ msgstr "_Cadw'r thema..."
-
-#~ msgid "_Theme name:"
-#~ msgstr "_Enw thema:"
-
-#~ msgid "theme selection tree"
-#~ msgstr "coeden dewis thema"
-
-#~ msgid "Customize the appearance of toolbars and menubars in applications"
-#~ msgstr "Addasu golwg bariau offer a bariau dewislenni mewn rhaglenni"
-
-#~ msgid "Menus & Toolbars"
-#~ msgstr "Dewislenni a Bariau Offer"
-
-#~ msgid "<b>Behavior and Appearance</b>"
-#~ msgstr "<b>Ymddygiad ac Ymddangosiad</b>"
-
-#~ msgid "<b>Preview</b>"
-#~ msgstr "<b>Rhagolwg</b>"
-
-#~ msgid "C_ut"
-#~ msgstr "T_orri"
-
-#~ msgid "Icons only"
-#~ msgstr "Eiconau'n unig"
-
-#~ msgid "Menu and Toolbar Preferences"
-#~ msgstr "Hoffterau Dewislen a Bar Offer"
-
-#~ msgid "New File"
-#~ msgstr "Ffeil Newydd"
-
-#~ msgid "Open File"
-#~ msgstr "Agor Ffeil"
-
-#~ msgid "Save File"
-#~ msgstr "Cadw Ffeil"
-
-#~ msgid "Show _icons in menus"
-#~ msgstr "Dangos _eiconau mewn dewislenni"
-
-#~ msgid "Text below icons"
-#~ msgstr "Testun islaw eiconau"
-
-#~ msgid "Text beside icons"
-#~ msgstr "Testun wrth ochr eiconau"
-
-#~ msgid "Text only"
-#~ msgstr "Testun yn unig"
-
-#~ msgid "Toolbar _button labels:"
-#~ msgstr "Labeli _botymau bar offer:"
-
-#~ msgid "_Copy"
-#~ msgstr "_Copïo"
-
-#~ msgid "_Detachable toolbars"
-#~ msgstr "Barau offer gellir _datgysylltu"
-
-#~ msgid "_Edit"
-#~ msgstr "_Golygu"
-
-#~ msgid "_Editable menu accelerators"
-#~ msgstr "Posib _golygu cyflymwyr dewislen"
-
-#~ msgid "_File"
-#~ msgstr "_Ffeil"
-
-#~ msgid "_New"
-#~ msgstr "_Newydd"
-
-#~ msgid "_Open"
-#~ msgstr "_Agor"
-
-#~ msgid "_Paste"
-#~ msgstr "_Gludo"
-
-#~ msgid "_Print"
-#~ msgstr "_Argraffu"
-
-#~ msgid "_Quit"
-#~ msgstr "_Gadael"
-
-#~ msgid "_Save"
-#~ msgstr "_Cadw"
-
-#~ msgid ""
-#~ "<b>Cannot start the preferences application for your window manager</b>\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "<b>Methu cychwyn y rhaglen hoffterau ar gyfer eich rheolwr ffenestri</b>\n"
-#~ "\n"
-#~ "%s"
-
-#~ msgid "C_ontrol"
-#~ msgstr "C_ontrol"
-
-#~ msgid "_Alt"
-#~ msgstr "_Alt"
-
-#~ msgid "H_yper"
-#~ msgstr "_Goruwch (hyper)"
-
-#~ msgid "S_uper (or \"Windows logo\")"
-#~ msgstr "_Uwch (neu \"Logo Windows\")"
-
-#~ msgid "_Meta"
-#~ msgstr "_Meta"
-
-#~ msgid "<b>Movement Key</b>"
-#~ msgstr "<b>Bysell Symud</b>"
-
-#~ msgid "<b>Titlebar Action</b>"
-#~ msgstr "<b>Gweithred Bar Teitl</b>"
-
-#~ msgid "<b>Window Selection</b>"
-#~ msgstr "<b>Dewis Ffenestri</b>"
-
-#~ msgid "To move a window, press-and-hold this key then grab the window:"
-#~ msgstr ""
-#~ "I symud ffenestr, gwasgwch a chydiwch y fysell yma yna cydiwch yn y "
-#~ "ffenestr:"
-
-#~ msgid "Window Preferences"
-#~ msgstr "Hoffterau Ffenestr"
-
-#~ msgid "_Double-click titlebar to perform this action:"
-#~ msgstr "_Rhoi clic dwbl ar y bar teitl i gyflawni'r weithred hon:"
-
-#~ msgid "_Interval before raising:"
-#~ msgstr "_Cyfnod cyn codi:"
-
-#~ msgid "_Raise selected windows after an interval"
-#~ msgstr "_Codi ffenestri dewisedig ar ôl cyfnod"
-
-#~ msgid "_Select windows when the mouse moves over them"
-#~ msgstr "_Dewis ffenestri pan fo'r llygoden yn symud drostynt"
-
-#~ msgid "Set your window properties"
-#~ msgstr "Gosod eich priodweddau ffenestr"
-
-#~ msgid "Windows"
-#~ msgstr "Ffenestri"
-
-#~ msgid "Others"
-#~ msgstr "Eraill"
-
-#~ msgid "Desktop Preferences"
-#~ msgstr "Hoffterau Penbwrdd"
-
-#~ msgid "GNOME Control Center"
-#~ msgstr "Canolfan Reoli GNOME"
-
-#~ msgid "The GNOME configuration tool"
-#~ msgstr "Yr erfyn cyfluniad GNOME"
-
-#~ msgid "No '/dev/pmu' device found"
-#~ msgstr "Dim dyfais '/dev/pmu' wedi ei ganfod"
-
-#~ msgid "Not a powerbook"
-#~ msgstr "Ddim yn 'powerbook'"
-
-#~ msgid "Wrong permission for '/dev/pmu' device"
-#~ msgstr "Caniatâd anghywir ar gyfer y ddyfais '/dev/pmu'"
-
-#~ msgid "Could not initialize Bonobo"
-#~ msgstr "Methu ymgychwyn Bonobo"
-
-#~ msgid ""
-#~ "Error activating XKB configuration.\n"
-#~ "It can happen under various circumstances:\n"
-#~ "- a bug in libxklavier library\n"
-#~ "- a bug in X server (xkbcomp, xmodmap utilities)\n"
-#~ "- X server with incompatible libxkbfile implementation\n"
-#~ "\n"
-#~ "X server version data:\n"
-#~ "%s\n"
-#~ "%d\n"
-#~ "%s\n"
-#~ "If you report this situation as a bug, please include:\n"
-#~ "- The result of <b>%s</b>\n"
-#~ "- The result of <b>%s</b>"
-#~ msgstr ""
-#~ "Gwall wrth gychwyn cyfluniad XKB.\n"
-#~ "Gall nifer o amgylchiadau achosi hyn:\n"
-#~ "- gwall yn llyfrgell libxklavier\n"
-#~ "- gwall yng ngweinydd X (xkbcomp, offer xmodmap)\n"
-#~ "- Gweinydd X gyda gweithrediad libxfile anghyson\n"
-#~ "\n"
-#~ "Gwybodaeth fersiwn gweinydd X:\n"
-#~ "%s\n"
-#~ "%d\n"
-#~ "%s\n"
-#~ "Os wnewch chi adrodd nam, a wnewch chi gynnwys:\n"
-#~ "- Canlyniad <b>%s</b>\n"
-#~ "- Canlyniad <b>%s</b>"
-
-#~ msgid ""
-#~ "You are using XFree 4.3.0.\n"
-#~ "There are known problems with complex XKB configurations.\n"
-#~ "Try using a simpler configuration or taking a fresher version of XFree "
-#~ "software."
-#~ msgstr ""
-#~ "Rydych chi'n defnyddio XFree 4.3.0.\n"
-#~ "Mae yna broblemau hysbys gyda chyfluniadau XKB cymhleth.\n"
-#~ "Ceisiwch ddefnyddio cyfluniad symlach neu ddefnyddio fersiwn mwy diweddar "
-#~ "o feddalwedd XFree"
-
-#~ msgid "Do _not show this warning again"
-#~ msgstr "_Peidio â dangos y rhybudd yma eto"
-
-#~ msgid ""
-#~ "The X system keyboard settings differ from your current GNOME keyboard "
-#~ "settings.  Which set would you like to use?"
-#~ msgstr ""
-#~ "Mae gosodiadau bysellfwrdd y system X yn wahanol i'ch gosodiadau "
-#~ "bysellfwrdd GNOME cyfredol. Pa set hoffech ddefnyddio?"
-
-#~ msgid "Use GNOME settings"
-#~ msgstr "Defnyddio Gosodiadau GNOME"
-
-#~ msgid ""
-#~ "Couldn't load the Glade file.\n"
-#~ "Make sure that this daemon is properly installed."
-#~ msgstr ""
-#~ "Methwyd llwytho ffeil Glade.\n"
-#~ "Gwnewch yn siwr fod y daemon wedi ei osod yn gywir."
-
-#~ msgid "Error creating signal pipe."
-#~ msgstr "Gwall wrth greu piben signal."
-
-#~ msgid "Type"
-#~ msgstr "Math"
-
-#~ msgid ""
-#~ "Type of bg_applier: BG_APPLIER_ROOT for root window or BG_APPLIER_PREVIEW "
-#~ "for preview"
-#~ msgstr ""
-#~ "Math o bg_applier: BG_APPLIER_ROOT ar gyfer y ffenestr gwraidd neu "
-#~ "BG_APPLIER_PREVIEW ar gyfer rhagolwg"
-
-#~ msgid "Preview Width"
-#~ msgstr "Lled Rhagolwg"
-
-#~ msgid "Width if applier is a preview: Defaults to 64."
-#~ msgstr "Lled os yw'r cymhwysydd yn rhagolwg: Rhagosod fel 64"
-
-#~ msgid "Preview Height"
-#~ msgstr "Uchder y Rhagolwg"
-
-#~ msgid "Height if applier is a preview: Defaults to 48."
-#~ msgstr "Uchder os yw'r cymhwysydd yn rhagolwg: Rhagosod fel 48"
-
-#~ msgid "Screen"
-#~ msgstr "Sgrin"
-
-#~ msgid "Screen on which BGApplier is to draw"
-#~ msgstr "Sgrin y dylai BGApplier ddarlunio arni"
-
-#~ msgid "There was an error loading an image: %s"
-#~ msgstr "Gwall wrth lwytho delwedd: %s"
-
-#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
-#~ msgstr "Nid yw rheolwr ffenestri \"%s\" wedi cofrestru arf cyfluniad\n"
-
-#~ msgid "Maximize"
-#~ msgstr "Ehangu"
-
-#~ msgid "Roll up"
-#~ msgstr "Rholio i fyny"
-
-#~ msgid "Brightness down's shortcut."
-#~ msgstr "Byrlwybr disgleirdeb i lawr."
-
-#~ msgid "Brightness up's shortcut."
-#~ msgstr "Byrlwybr disgleirdeb i fyny."
-
-#~ msgid "E-mail"
-#~ msgstr "E-bost"
-
-#~ msgid "E-mail's shortcut."
-#~ msgstr "Byrlwybr E-bost."
-
-#~ msgid "Eject's shortcut."
-#~ msgstr "Byrlwybr allfwrw."
-
-#~ msgid "Home folder's shortcut."
-#~ msgstr "Byrlwybr i fy Mhlygell Cartref."
-
-#~ msgid "Launch help browser's shortcut."
-#~ msgstr "Byrlwybr i lansio'r porwr cymorth."
-
-#~ msgid "Launch web browser's shortcut."
-#~ msgstr "Byrlwybr i lansio porwr gwe."
-
-#~ msgid "Log out's shortcut."
-#~ msgstr "Byrlwybr i allgofnodi."
-
-#~ msgid "Next track key's shortcut."
-#~ msgstr "Byrlwybr bysell trac nesaf."
-
-#~ msgid "Pause"
-#~ msgstr "Seibio"
-
-#~ msgid "Pause key's shortcut."
-#~ msgstr "Byrlwybr y fysell seibio."
-
-#~ msgid "Play (or play/pause) key's shortcut."
-#~ msgstr "Byrlwybr y fysell chwarae (neu chwarae/seibio)."
-
-#~ msgid "Previous track key's shortcut."
-#~ msgstr "Byrlwybr y fysell trac blaenorol."
-
-#~ msgid "Search's shortcut."
-#~ msgstr "Byrlwybr chwilio"
-
-#~ msgid "Sleep"
-#~ msgstr "Cysgu"
-
-#~ msgid "Sleep's shortcut."
-#~ msgstr "Byrlwybr cysgu."
-
-#~ msgid "Stop playback key's shortcut."
-#~ msgstr "Byrlwybr y fysell stopio chwarae."
-
-#~ msgid "Volume down's shortcut."
-#~ msgstr "Byrlwybr lefel sain i lawr."
-
-#~ msgid "Volume mute's shortcut"
-#~ msgstr "Byrlwybr mudo'r sain"
-
-#~ msgid "Volume up's shortcut."
-#~ msgstr "Byrlwybr lefel sain i fyny."
-
-#~ msgid ""
-#~ "A collection of scripts to run whenever the keyboard state is reloaded. "
-#~ "Useful for re-applying xmodmap based adjustments"
-#~ msgstr ""
-#~ "Casgliad o sgriptiau i'w rhedeg pryd bynnag caiff cyflwr yr allweddell ei "
-#~ "ail-lwytho. Yn ddefnyddiol er mwyn rhoi newidiadau ar waith sy'n "
-#~ "seiliedig ar xmodmap."
-
-#~ msgid "A list of modmap files available in the $HOME directory."
-#~ msgstr "Rhestr o ffeiliau modmap ar gael yn y cyfeiriadur $HOME."
-
-#~ msgid "Default group, assigned on window creation"
-#~ msgstr "Grwp rhagosodedig, wedi ei neilltuo wrth greu ffenestr"
-
-#~ msgid "Keep and manage separate group per window"
-#~ msgstr "Cadw a rheoli grwp ar wahân am bob ffenestr"
-
-#~ msgid "Keyboard Update Handlers"
-#~ msgstr "Trinwyr Diweddariad Bysellfwrdd"
-
-#~ msgid "Keyboard model"
-#~ msgstr "Model bysellfwrdd"
-
-#~ msgid ""
-#~ "Keyboard settings in gconf will be overridden from the system ASAP "
-#~ "(deprecated)"
-#~ msgstr ""
-#~ "Caiff gosodiadau bysellfwrdd o fewn gconf eu trosysgrifo gan y system cyn "
-#~ "gynted â phosib (anghymeradwyir)"
-
-#~ msgid "Save/restore indicators together with layout groups"
-#~ msgstr "Cadw/adfer dangoswyr ynghyd â grwpiau cynllun"
-
-#~ msgid "Show layout names instead of group names"
-#~ msgstr "Dangos enwau cynllun yn lle enwau grwp"
-
-#~ msgid ""
-#~ "Show layout names instead of group names (only for versions of XFree "
-#~ "supporting multiple layouts)"
-#~ msgstr ""
-#~ "Dangos enwau gosodiad yn lle enwau grwp (dim ond ar gyfer fersiynau o "
-#~ "XFree sy'n cynnal amryw gynlluniau)"
-
-#~ msgid "Suppress the \"X sysconfig changed\" warning message"
-#~ msgstr "Atal y neges rybudd \"sysconfig X wedi newid\""
-
-#~ msgid ""
-#~ "Very soon, keyboard settings in gconf will be overridden (from the system "
-#~ "configuration) This key has been deprecated since GNOME 2.12, please "
-#~ "unset the model, layouts and options keys to get the default system "
-#~ "configuration."
-#~ msgstr ""
-#~ "Yn fuan iawn, bydd gosodiadau bysellfwrdd o fewn gconf yn cael eu "
-#~ "trosysgrifo (gan gyfluniad y system). Mae'r allwedd hon wedi ei "
-#~ "anghymeradwyo ers GNOME 2.12. Dadosodwch yr allweddi model, cynllun ac "
-#~ "opsiynau er mwyn cael cyfluniad rhagosodedig y system."
-
-#~ msgid "keyboard layout"
-#~ msgstr "cynllun bysellfwrdd"
-
-#~ msgid "keyboard model"
-#~ msgstr "model bysellfwrdd"
-
-#~ msgid "modmap file list"
-#~ msgstr "Rhestr ffeil modmap"
-
-#~ msgid "_Postpone break"
-#~ msgstr "_Gohirio'r saib"
-
-#~ msgid "Take a break!"
-#~ msgstr "Cymerwch saib!"
-
-#~ msgid "/_Preferences"
-#~ msgstr "/_Hoffterau"
-
-#~ msgid "/_About"
-#~ msgstr "/_Ynghylch"
-
-#~ msgid "/_Take a Break"
-#~ msgstr "/_Cymryd Saib"
-
-#~ msgid "%d minute until the next break"
-#~ msgid_plural "%d minutes until the next break"
-#~ msgstr[0] "%d munud tan y saib nesaf"
-#~ msgstr[1] "%d funud tan y saib nesaf"
-
-#~ msgid "Less than one minute until the next break"
-#~ msgstr "Llai nag un munud tan y saib nesaf"
-
-#~ msgid ""
-#~ "Unable to bring up the typing break properties dialog with the following "
-#~ "error: %s"
-#~ msgstr ""
-#~ "Methwyd codi'r deialog hoffterau gorffwys teipio gyda'r gwall canlynol: "
-#~ "%s "
-
-#~ msgid "About GNOME Typing Monitor"
-#~ msgstr "Ynghylch Monitor Teipio GNOME"
-
-#~ msgid "A computer break reminder."
-#~ msgstr "Eich atgoffa i gymryd saib o'r cyfrifiadur."
-
-#~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
-#~ msgstr "Ysgrifennwyd gan Richard Hult &lt;richard@imendio.com&gt;"
-
-#~ msgid "Eye candy added by Anders Carlsson"
-#~ msgstr "Ychwanegwyd melysion gweledol gan Anders Carlsson"
-
-#~ msgid "Break reminder"
-#~ msgstr "Eich atgof seibiau"
-
-#~ msgid "Orientation"
-#~ msgstr "Gogwydd"
-
-#~ msgid "The orientation of the tray."
-#~ msgstr "Gogwydd yr hambwrdd."
-
-#~ msgid ""
-#~ "The typing monitor uses the notification area to display information. You "
-#~ "don't seem to have a notification area on your panel. You can add it by "
-#~ "right-clicking on your panel and choosing 'Add to panel', selecting "
-#~ "'Notification area' and clicking 'Add'."
-#~ msgstr ""
-#~ "Mae'r arsylwr teipio yn defnyddio'r man hysbysu er mwyn dangos "
-#~ "gwybodaeth. Ymddengys nad oes man hysbysu ar eich panel. Gallwch "
-#~ "ychwanegu man hysbysu gan dde-glicio ar eich panel a dewis 'Ychwanegu at "
-#~ "y Panel', dewis 'Man hysbysu' a chlicio 'Ychwanegu.'"
-
-#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
-#~ msgstr "Parciais fy jac codi baw hud llawn dwr ger ty Mabon. 0123456789"
-
-#~ msgid "Style:"
-#~ msgstr "Arddull:"
-
-#~ msgid "Type:"
-#~ msgstr "Math:"
-
-#~ msgid "Size:"
-#~ msgstr "Maint:"
-
-#~ msgid "Version:"
-#~ msgstr "Fersiwn:"
-
-#~ msgid "Copyright:"
-#~ msgstr "Hawlfraint:"
-
-#~ msgid "Description:"
-#~ msgstr "Disgrifiad:"
-
-#~ msgid "usage: %s fontfile\n"
-#~ msgstr "defnydd: %s ffeil_ffont\n"
-
-#~ msgid "Set as Application Font"
-#~ msgstr "Gosod fel y Ffont Rhaglenni"
-
-#~ msgid "Sets the default application font"
-#~ msgstr "Dewis y ffont rhagosodedig ar gyfer rhaglenni"
-
-#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
-#~ msgstr "Os yn wir, caiff lluniau cryno eu creu ar gyfer ffontiau OpenType."
-
-#~ msgid "If set to true, then PCF fonts will be thumbnailed."
-#~ msgstr "Os yn wir, caiff lluniau cryno eu creu ar gyfer ffontiau PCF."
-
-#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
-#~ msgstr "Os yn wir, caiff lluniau cryno eu creu ar gyfer ffontiau TrueType."
-
-#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
-#~ msgstr "Os yn wir, caiff lluniau cryno eu creu ar gyfer ffontiau Type1"
-
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for OpenType fonts."
-#~ msgstr ""
-#~ "Gosodwch yr allwedd hon i'r gorchymyn a ddefnyddir er mwyn creu lluniau "
-#~ "cryno o ffontiau OpenType."
-
-#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
-#~ msgstr ""
-#~ "Gosodwch yr allwedd hon i'r gorchymyn a ddefnyddir er mwyn creu lluniau "
-#~ "cryno o ffontiau PCF."
-
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for TrueType fonts."
-#~ msgstr ""
-#~ "Gosodwch yr allwedd hon i'r gorchymyn a ddefnyddir er mwyn creu lluniau "
-#~ "cryno o ffontiau TrueType."
-
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for Type1 fonts."
-#~ msgstr ""
-#~ "Gosodwch yr allwedd hon i'r gorchymyn a ddefnyddir er mwyn creu lluniau "
-#~ "cryno o ffontiau Type1."
-
-#~ msgid "Thumbnail command for OpenType fonts"
-#~ msgstr "Gorchymyn lluniau cryno ar gyfer ffontiau OpenType"
-
-#~ msgid "Thumbnail command for PCF fonts"
-#~ msgstr "Gorchymyn lluniau cryno ar gyfer ffontiau PCF"
-
-#~ msgid "Thumbnail command for TrueType fonts"
-#~ msgstr "Gorchymyn lluniau cryno ar gyfer ffontiau TrueType"
-
-#~ msgid "Thumbnail command for Type1 fonts"
-#~ msgstr "Gorchymyn lluniau cryno ar gyfer ffontiau Type1"
-
-#~ msgid "Whether to thumbnail OpenType fonts"
-#~ msgstr "A ddylid creu lluniau cryno o ffontiau OpenType"
-
-#~ msgid "Whether to thumbnail PCF fonts"
-#~ msgstr "A ddylid creu lluniau cryno o ffontiau PCF"
-
-#~ msgid "Whether to thumbnail TrueType fonts"
-#~ msgstr "A ddylid creu lluniau cryno o ffontiau TrueType"
-
-#~ msgid "Whether to thumbnail Type1 fonts"
-#~ msgstr "A ddylid creu lluniau cryno o ffontiau Type1"
-
-#~ msgid "GNOME Font Viewer"
-#~ msgstr "Gwelydd Ffontiau GNOME"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Cymhwyso'r ffont newydd?</span>"
-
-#~ msgid "Do _not apply font"
-#~ msgstr "_Peidio cymhwyso'r ffont"
-
-#~ msgid ""
-#~ "The theme you have selected suggests a new font. A preview of the font is "
-#~ "shown below."
-#~ msgstr ""
-#~ "Mae'r thema rydych chi wedi dewis yn awgrymu ffont newydd. Dangosir "
-#~ "rhagolwg o'r ffont isod."
-
-#~ msgid "_Apply font"
-#~ msgstr "_Cymhwyso'r ffont"
-
-#~ msgid "Themes"
-#~ msgstr "Themâu"
-
-#~ msgid "Description"
-#~ msgstr "Disgrifiad"
-
-#~ msgid "Control theme"
-#~ msgstr "Thema rheoli"
-
-#~ msgid "Window border theme"
-#~ msgstr "Thema ymyl ffenestr"
-
-#~ msgid "Icon theme"
-#~ msgstr "Thema eiconau"
-
-#~ msgid "ABCDEFG"
-#~ msgstr "ABCDEFG"
-
-#~ msgid "Apply theme"
-#~ msgstr "Defnyddio thema"
-
-#~ msgid "Sets the default theme"
-#~ msgstr "Dewis thema ragosodedig"
-
-#~ msgid "If set to true, then installed themes will be thumbnailed."
-#~ msgstr "Os yn wir, caiff lluniau cryno eu creu ar gyfer themâu sefydledig."
-
-#~ msgid "If set to true, then themes will be thumbnailed."
-#~ msgstr "Os yn wir, caiff lluniau cryno eu creu ar gyfer themâu."
-
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for installed "
-#~ "themes."
-#~ msgstr ""
-#~ "Gosodwch yr allwedd hon i'r gorchymyn a ddefnyddir er mwyn creu lluniau "
-#~ "cryno o themâu sefydledig."
-
-#~ msgid "Set this key to the command used to create thumbnails for themes."
-#~ msgstr ""
-#~ "Gosodwch yr allwedd hon i'r gorchymyn a ddefnyddir er mwyn creu lluniau "
-#~ "cryno o themâu."
-
-#~ msgid "Thumbnail command for installed themes"
-#~ msgstr "Gorchymyn lluniau cryno ar gyfer themâu sefydledig"
-
-#~ msgid "Thumbnail command for themes"
-#~ msgstr "Gorchymyn lluniau cryno ar gyfer themâu sefydledig"
-
-#~ msgid "Whether to thumbnail installed themes"
-#~ msgstr "A ddylid creu lluniau cryno o themâu sefydledig"
-
-#~ msgid "Whether to thumbnail themes"
-#~ msgstr "A ddylid creu lluniau cryno o themâu"
-
-#~ msgid "Epiphany"
-#~ msgstr "Epiphany"
-
-#~ msgid "Please specify a name and a command for this editor."
-#~ msgstr "Penodi enw a gorchymyn i'r golygydd yma"
-
-#~ msgid "Add..."
-#~ msgstr "Ychwanegu..."
-
-#~ msgid "C_ustom:"
-#~ msgstr "A_ddasedig:"
-
-#~ msgid "Can open _URIs"
-#~ msgstr "Gall agor _URIau"
-
-#~ msgid "Can open multiple _files"
-#~ msgstr "Gall agor _mwy nag n ffeil"
-
-#~ msgid "Custom Editor Properties"
-#~ msgstr "Priodweddau'r Golygydd Personol"
-
-#~ msgid "Default Mail Reader"
-#~ msgstr "Darllenwr E-bost Rhagosodedig"
-
-#~ msgid "Default Terminal"
-#~ msgstr "Terfynell Rhagosodedig"
-
-#~ msgid "Default Text Editor"
-#~ msgstr "Golygydd Testun Arferol"
-
-#~ msgid "Default Web Browser"
-#~ msgstr "Porydd We Arferol"
-
-#~ msgid "Default Window Manager"
-#~ msgstr "Rheolydd Ffenestri Arferol"
-
-#~ msgid "Delete"
-#~ msgstr "Dileu"
-
-#~ msgid "Edit..."
-#~ msgstr "Golygu..."
-
-#~ msgid "Run in a _terminal"
-#~ msgstr "Rhedeg mewn _terfynell"
-
-#~ msgid ""
-#~ "Select the window manager you want.  You will need to hit apply, wave the "
-#~ "magic wand, and do a magic dance for it to work."
-#~ msgstr ""
-#~ "Dewiswch eich rheolwr ffenestri. Rhaid i chi wasgu \"Cymhwyso\", "
-#~ "chwifio'r hudlath, a gwneud dawns hudol er mwyn iddo weithio."
-
-#~ msgid "Terminal"
-#~ msgstr "Terfynell"
-
-#~ msgid "Understands _Netscape Remote Control"
-#~ msgstr "Deall _Netscape Remote Control"
-
-#~ msgid "Use this _editor to open text files in the file manager"
-#~ msgstr ""
-#~ "Defnyddio'r _golygydd yma i agor ffeiliau testun y tu mewn i'r trefnydd "
-#~ "ffeiliau"
-
-#~ msgid "Window Manager"
-#~ msgstr "Trefnydd Ffenestri"
-
-#~ msgid "_Name:"
-#~ msgstr "_Enw:"

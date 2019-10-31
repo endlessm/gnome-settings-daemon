@@ -1,20 +1,23 @@
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-settings-daemon package.
+# 
+# Translators:
+# Aditi Kabir <aditi.kabir@gmail.com>, 2016
+# Roddy Shuler <roddy@stanfordalumni.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: bn\n"
+"Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-31 13:15+0000\n"
-"PO-Revision-Date: 2011-04-04 15:48+0600\n"
-"Last-Translator: Israt Jahan <israt@ankur.org.bd>\n"
-"Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
-"Language: bn\n"
+"PO-Revision-Date: 2019-10-31 13:22+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Bengali (http://www.transifex.com/endless-os/gnome-settings-daemon/language/bn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: bn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-DamnedLies-Scope: partial\n"
-"X-Generator: Translate Toolkit 1.8.0\n"
-"X-Language: bn_BD\n"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:12
 msgid "Smartcard removal action"
@@ -22,11 +25,9 @@ msgstr "স্মার্টকার্ড সরানোর ক্রিয়�
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:13
 msgid ""
-"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will "
-"get performed when the smartcard used for log in is removed."
-msgstr ""
-"এটা ঠিক করুন যেকোন একটি \"কোনটি নয়\", \"আটকানো-পর্দা\", বা \"জোরপূর্বক-লগআউট\"। "
-"এই ক্রিয়াটি হবে যখন লগিন করার জন্য স্মার্টকার্ড সরান হবে। "
+"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will"
+" get performed when the smartcard used for log in is removed."
+msgstr "এটা ঠিক করুন যেকোন একটি \"কোনটি নয়\", \"আটকানো-পর্দা\", বা \"জোরপূর্বক-লগআউট\"। এই ক্রিয়াটি হবে যখন লগিন করার জন্য স্মার্টকার্ড সরান হবে। "
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:25
 msgid "Possible values are “on”, “off”, and “custom”."
@@ -61,9 +62,8 @@ msgid "Whether the tablet’s orientation is locked, or rotated automatically."
 msgstr "ট্যাবলেটের প্রবণতা বন্ধ থাক বা স্বয়ংক্রিয়ভাবে ঘুরে যাক। "
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:62
-#, fuzzy
 msgid "Mouse button orientation"
-msgstr "আরও তথ্য"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:63
 msgid "Swap left and right mouse buttons for left-handed mice."
@@ -135,10 +135,9 @@ msgstr "টাইপ করার সময় টাচ-প্যাড নিষ�
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:105
 msgid ""
-"Set this to TRUE if you have problems with accidentally hitting the touchpad "
-"while typing."
-msgstr ""
-"টাইপ করার সময় ভুলবসত টাচ-প্যাড ছুঁয়ে ফেলার সমস্যা থাকলে এই মান TRUE  ধার্য করুন।"
+"Set this to TRUE if you have problems with accidentally hitting the touchpad"
+" while typing."
+msgstr "টাইপ করার সময় ভুলবসত টাচ-প্যাড ছুঁয়ে ফেলার সমস্যা থাকলে এই মান TRUE  ধার্য করুন।"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:109
 msgid "Enable horizontal scrolling"
@@ -148,22 +147,17 @@ msgstr "অনুভূমিক দিশায় স্ক্রলিং ব্
 msgid ""
 "Set this to TRUE to allow horizontal scrolling by the same method selected "
 "with the scroll_method key."
-msgstr ""
-"scroll_method কি দ্বারা নির্বাচিত পদ্ধতি দ্বারা অনুভূমিক স্ক্রোলিং ব্যবস্থার অনুমতি "
-"প্রদান করার উদ্দেশ্যে এই মান TRUE (সত্য) ধার্য করুন।"
+msgstr "scroll_method কি দ্বারা নির্বাচিত পদ্ধতি দ্বারা অনুভূমিক স্ক্রোলিং ব্যবস্থার অনুমতি প্রদান করার উদ্দেশ্যে এই মান TRUE (সত্য) ধার্য করুন।"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:114
 msgid "Select the touchpad scroll method"
 msgstr "টাচ-প্যাড স্ক্রলের ব্যবস্থা নির্বাচন করা হবে"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:115
-#, fuzzy
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
 msgstr ""
-"টাচ-প্যাড স্ক্রলের ব্যবস্থা নির্বাচন। সমর্থিত মান হল: \"নিষ্ক্রিয়\", \"প্রান্তে স্ক্রোলিং"
-"\",\"দুই আঙ্গুলের স্ক্রোলিং\"।"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:119
 msgid "Enable mouse clicks with touchpad"
@@ -172,8 +166,7 @@ msgstr "টাচ-প্যাডের সাথে মাউস ক্লি�
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:120
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
-msgstr ""
-"টাচ-প্যাডের মধ্যে টোকা মেরে মাউসের ক্লিকের অনুকরণের জন্য এই মান TRUE ধার্য করুন।"
+msgstr "টাচ-প্যাডের মধ্যে টোকা মেরে মাউসের ক্লিকের অনুকরণের জন্য এই মান TRUE ধার্য করুন।"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:124
 msgid "Enable touchpad"
@@ -194,14 +187,12 @@ msgid ""
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:144
-#, fuzzy
 msgid "Natural scrolling"
-msgstr "অনুভূমিক দিশায় স্ক্রলিং ব্যবস্থা সক্রিয় করুন"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:145
-#, fuzzy
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
-msgstr "টাচ-প্যাড সক্রিয় করতে TRUE ধার্য করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:152
 msgid "Mouse wheel emulation button. 0 to disable the feature."
@@ -231,8 +222,7 @@ msgstr "ওয়াকম ট্যাবলেট আনুপাতিক অন
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
-msgstr ""
-"এটি সক্রিয় করুন ওয়াকম ট্যাবলেট অঞ্চলকে আনুপাতিক অনুমানের সাথে আউটপুট মেলানোর জন্য। "
+msgstr "এটি সক্রিয় করুন ওয়াকম ট্যাবলেট অঞ্চলকে আনুপাতিক অনুমানের সাথে আউটপুট মেলানোর জন্য। "
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:25
 msgid "Wacom tablet rotation"
@@ -240,11 +230,9 @@ msgstr "ওয়াকম ট্যাবলেট ঘূর্ণন "
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:26
 msgid ""
-"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and "
-"“ccw” for 90 degree counterclockwise."
-msgstr ""
-"এটি সেট করুন 'কোনটি নয়' 'সিডব্লিউ' 90 ডিগ্রী ঘড়ির কাঁটার দিকে, 'অর্ধেক' 180 , এবং "
-"'সিসিডব্লিউ' 90 ডিগ্রী ঘড়ির কাঁটার উল্টো দিকে। "
+"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and"
+" “ccw” for 90 degree counterclockwise."
+msgstr "এটি সেট করুন 'কোনটি নয়' 'সিডব্লিউ' 90 ডিগ্রী ঘড়ির কাঁটার দিকে, 'অর্ধেক' 180 , এবং 'সিসিডব্লিউ' 90 ডিগ্রী ঘড়ির কাঁটার উল্টো দিকে। "
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:30
 msgid "Wacom touch feature"
@@ -252,8 +240,7 @@ msgstr "ওয়াকম স্পর্শ ফিচার "
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:31
 msgid "Enable this to move the cursor when the user touches the tablet."
-msgstr ""
-"ব্যবহারকারী যখন ট্যাবলেট স্পর্শ করবেন তখন কার্সার নাড়াবার জন্য এটি সক্রিয় করুন। "
+msgstr "ব্যবহারকারী যখন ট্যাবলেট স্পর্শ করবেন তখন কার্সার নাড়াবার জন্য এটি সক্রিয় করুন। "
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:37
 msgid "Wacom stylus pressure curve"
@@ -330,9 +317,7 @@ msgstr "টাচরিং বা টাচস্ট্রিপ বিশেষ
 msgid ""
 "The keyboard shortcuts generated when a touchring or touchstrip is used for "
 "custom actions (up followed by down)."
-msgstr ""
-"কীবোর্ড সংক্ষেপ হয় যখন কোন টাচরিং বা টাচস্ট্রিপ ব্যবহার করা হয় বিশেষায়িত ক্রিয়ার "
-"জন্য (নিচেরটা অনুসরণ করে ওপরেরটাকে) "
+msgstr "কীবোর্ড সংক্ষেপ হয় যখন কোন টাচরিং বা টাচস্ট্রিপ ব্যবহার করা হয় বিশেষায়িত ক্রিয়ার জন্য (নিচেরটা অনুসরণ করে ওপরেরটাকে) "
 
 #. Translators: This is the OLED display on an Intuos4 tablet:
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
@@ -415,9 +400,8 @@ msgid ""
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:41
-#, fuzzy
 msgid "The last detected position"
-msgstr "যার মধ্যে কার্ড স্লট করা হবে"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:42
 msgid ""
@@ -446,17 +430,13 @@ msgstr "অবশিষ্ট স্থান হ্রাস হলে, উপ�
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:12
 msgid "Free percentage notify threshold"
-msgstr ""
-"সতর্কতামূলক সূচনা উৎপন্ন করার জন্য চিহ্নিত অবশিষ্ট শতাংশের পরিমাণের প্রান্তিক মাপ"
+msgstr "সতর্কতামূলক সূচনা উৎপন্ন করার জন্য চিহ্নিত অবশিষ্ট শতাংশের পরিমাণের প্রান্তিক মাপ"
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:13
 msgid ""
 "Percentage free space threshold for initial warning of low disk space. If "
 "the percentage free space drops below this, a warning will be shown."
-msgstr ""
-"ডিস্কে স্থান হ্রাস হওয়ার প্রারম্ভিক সতর্কবার্তা প্রদর্শনের জন্য অবশিষ্ট ফাঁকা স্থানের "
-"শতকরা পরিমান। ডিস্কের অবশিষ্ট স্থান এই পরিমাণের থেকে কম হয়ে গেলে একটি সতর্কবার্তা "
-"প্রদর্শন করা হবে।"
+msgstr "ডিস্কে স্থান হ্রাস হওয়ার প্রারম্ভিক সতর্কবার্তা প্রদর্শনের জন্য অবশিষ্ট ফাঁকা স্থানের শতকরা পরিমান। ডিস্কের অবশিষ্ট স্থান এই পরিমাণের থেকে কম হয়ে গেলে একটি সতর্কবার্তা প্রদর্শন করা হবে।"
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:18
 msgid "Subsequent free space percentage notify threshold"
@@ -466,9 +446,7 @@ msgstr "পরবর্তী অব্যবহৃত জায়গা থাক
 msgid ""
 "Specify the percentage that the free disk space should reduce by before "
 "issuing a subsequent warning."
-msgstr ""
-"পরবর্তী সতর্কবার্তা প্রদর্শনের পূর্বে ডিস্কের অবশিষ্ট স্থানের পরিমাণ কত শতকরা হারে "
-"হ্রাস হবে তা নির্ধারণ।"
+msgstr "পরবর্তী সতর্কবার্তা প্রদর্শনের পূর্বে ডিস্কের অবশিষ্ট স্থানের পরিমাণ কত শতকরা হারে হ্রাস হবে তা নির্ধারণ।"
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:23
 msgid "Free space notify threshold"
@@ -478,9 +456,7 @@ msgstr "অব্যবহৃত জায়গা দিয়ে থ্রেশহ
 msgid ""
 "Specify an amount in GB. If the amount of free space is more than this, no "
 "warning will be shown."
-msgstr ""
-"গিগাবাইটে একটি পরিমাণ ধার্য। এই পরিমাণের থেকে অবশিষ্ট স্থান বেশি থাকলে কোনো "
-"সতর্কবার্তা প্রদর্শন করা হবে না।"
+msgstr "গিগাবাইটে একটি পরিমাণ ধার্য। এই পরিমাণের থেকে অবশিষ্ট স্থান বেশি থাকলে কোনো সতর্কবার্তা প্রদর্শন করা হবে না।"
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:28
 msgid "Minimum notify period for repeated warnings"
@@ -490,9 +466,7 @@ msgstr "নিয়মিত সর্তকতামূলক বার্তা�
 msgid ""
 "Specify a time in minutes. Subsequent warnings for a volume will not appear "
 "more often than this period."
-msgstr ""
-"মিনিট অনুযায়ী সময় ধার্য করুন। কোনো ভলিউম সম্পর্কে সতর্কতামূলক বার্তাগুলি প্রদর্শন এই "
-"সময়ের অবকাল অবধি সীমিত রাখা হবে।"
+msgstr "মিনিট অনুযায়ী সময় ধার্য করুন। কোনো ভলিউম সম্পর্কে সতর্কতামূলক বার্তাগুলি প্রদর্শন এই সময়ের অবকাল অবধি সীমিত রাখা হবে।"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:6
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:189
@@ -592,7 +566,6 @@ msgstr "প্লে-ব্যাক স্থগিত করুন"
 msgid "Binding to pause playback."
 msgstr "প্লে-ব্যাক স্থগিত করার জন্য বাইন্ড করুন।"
 
-# FIXME
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:51
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:234
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:550
@@ -602,9 +575,7 @@ msgstr "বাজাও (বা বাজাও/বিরতি)"
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:52
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:235
 msgid "Binding to start playback (or toggle play/pause)."
-msgstr ""
-"প্লে-ব্যাক অর্থাৎ চালনার আরম্ভের জন্য বাইন্ড করুন (অথবা চালনা/স্থগিত কর্মের মধ্যে "
-"পরিবর্তন)।"
+msgstr "প্লে-ব্যাক অর্থাৎ চালনার আরম্ভের জন্য বাইন্ড করুন (অথবা চালনা/স্থগিত কর্মের মধ্যে পরিবর্তন)।"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:56
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:239
@@ -668,22 +639,19 @@ msgstr "ভলিউম কমান"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:82
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:267
-#, fuzzy
 msgid "Binding to lower the volume."
-msgstr "সিস্টেমের আওয়াজ হ্রাস করার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:86
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:271
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:582
-#, fuzzy
 msgid "Volume mute/unmute"
-msgstr "ভলিউম বন্ধ করুন"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:272
-#, fuzzy
 msgid "Binding to mute/unmute the volume."
-msgstr "সিস্টেমের আওয়াজ নিঃশব্দ করার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:276
@@ -693,9 +661,8 @@ msgstr "ভলিউম বৃদ্ধি করুন"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:277
-#, fuzzy
 msgid "Binding to raise the volume."
-msgstr "সিস্টেমের আওয়াজ বৃদ্ধির জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:311
@@ -705,9 +672,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:312
-#, fuzzy
 msgid "Binding to mute/unmute the microphone."
-msgstr "কম্পিউটার স্থগিত করার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:316
@@ -776,9 +742,8 @@ msgstr "পর্দার ছোট ভিডিও রেকর্ড কর�
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:132
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:347
-#, fuzzy
 msgid "Binding to record a short video of the screen"
-msgstr "পর্দা লক করার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:136
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:351
@@ -882,14 +847,12 @@ msgstr "বিশেষায়িত কী বাইন্ডিংসমূহ�
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:283
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:594
-#, fuzzy
 msgid "Quiet volume down"
-msgstr "ভলিউম কমান"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:284
-#, fuzzy
 msgid "Binding to lower the volume without emitting a sound effect."
-msgstr "সিস্টেমের আওয়াজ হ্রাস করার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:288
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:599
@@ -902,46 +865,38 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:293
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:604
-#, fuzzy
 msgid "Quiet volume up"
-msgstr "ভলিউম বৃদ্ধি করুন"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:294
-#, fuzzy
 msgid "Binding to raise the volume without emitting a sound effect."
-msgstr "সিস্টেমের আওয়াজ বৃদ্ধির জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:300
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:611
-#, fuzzy
 msgid "Precise volume down"
-msgstr "ভলিউম কমান"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:301
-#, fuzzy
 msgid "Binding to lower the volume with higher precision."
-msgstr "সিস্টেমের আওয়াজ হ্রাস করার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:305
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:616
-#, fuzzy
 msgid "Precise volume up"
-msgstr "ভলিউম বৃদ্ধি করুন"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:306
-#, fuzzy
 msgid "Binding to raise the volume with higher precision."
-msgstr "সিস্টেমের আওয়াজ বৃদ্ধির জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:396
-#, fuzzy
 msgid "Toggle touchpad on/off"
-msgstr "টাচপ্যাড টোগল"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:397
-#, fuzzy
 msgid "Binding to toggle the touchpad on/off."
-msgstr "টাচপ্যাড সক্রিয় বা নিষ্ক্রিয় করার জন্য বাইন্ডিং"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:401
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:638
@@ -949,9 +904,8 @@ msgid "Switch touchpad on"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:402
-#, fuzzy
 msgid "Binding to switch the touchpad on."
-msgstr "টাচপ্যাড সক্রিয় বা নিষ্ক্রিয় করার জন্য বাইন্ডিং"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:406
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:643
@@ -959,9 +913,8 @@ msgid "Switch touchpad off"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:407
-#, fuzzy
 msgid "Binding to switch the touchpad off."
-msgstr "টাচপ্যাড সক্রিয় বা নিষ্ক্রিয় করার জন্য বাইন্ডিং"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:412
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:649
@@ -969,9 +922,8 @@ msgid "Skip backward in current track"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:413
-#, fuzzy
 msgid "Binding to skip backward in current track."
-msgstr "পরবর্তী গানে এগিয়ে চলনার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:417
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:654
@@ -979,9 +931,8 @@ msgid "Skip forward in current track"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:418
-#, fuzzy
 msgid "Binding to skip forward in current track."
-msgstr "পরবর্তী গানে এগিয়ে চলনার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:422
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:659
@@ -989,9 +940,8 @@ msgid "Toggle repeat playback mode"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:423
-#, fuzzy
 msgid "Binding to toggle repeat mode in media player."
-msgstr "মিডিয়া প্লেয়ার আরম্ভ করতে বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:427
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:664
@@ -999,20 +949,17 @@ msgid "Toggle random playback mode"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:428
-#, fuzzy
 msgid "Binding to toggle random playback mode in media player."
-msgstr "মিডিয়া প্লেয়ার আরম্ভ করতে বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:433
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:670
-#, fuzzy
 msgid "Toggle automatic screen orientation"
-msgstr "পর্দা পাঠের ব্যবস্থা টগল করা হবে"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:434
-#, fuzzy
 msgid "Binding to toggle automatic screen orientation."
-msgstr "ইন্টারফেসে রংয়ের বৈষম্য টগল করার জন্য বাইন্ড।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:438
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:675
@@ -1020,9 +967,8 @@ msgid "Power button"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:439
-#, fuzzy
 msgid "Binding for power button."
-msgstr "লগ-আউটের জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:443
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:680
@@ -1030,20 +976,17 @@ msgid "Hibernate button"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:444
-#, fuzzy
 msgid "Binding to hibernate the machine."
-msgstr "ই-মেইল ক্লায়েন্ট আরম্ভ করার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:448
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:685
-#, fuzzy
 msgid "Suspend button"
-msgstr "স্থগিত করুন"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:449
-#, fuzzy
 msgid "Binding to suspend the machine."
-msgstr "কম্পিউটার স্থগিত করার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:454
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:691
@@ -1051,9 +994,8 @@ msgid "Screen brightness up"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:455
-#, fuzzy
 msgid "Binding to increase the screen brightness."
-msgstr "টেক্সট এর আকার বড় করার জন্য বাইন্ড"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:459
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:696
@@ -1061,9 +1003,8 @@ msgid "Screen brightness down"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:460
-#, fuzzy
 msgid "Binding to decrease the screen brightness."
-msgstr "টেক্সট এর আকার ছোট করার জন্য বাইন্ড"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:464
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:701
@@ -1071,20 +1012,17 @@ msgid "Screen brightness cycle"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:465
-#, fuzzy
 msgid "Binding to cycle the screen brightness."
-msgstr "পর্দা লক করার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:470
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:707
-#, fuzzy
 msgid "Keyboard brightness up"
-msgstr "কীবোর্ড পছন্দসমূহ (_P)"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:471
-#, fuzzy
 msgid "Binding to increase the keyboard brightness."
-msgstr "টেক্সট এর আকার বড় করার জন্য বাইন্ড"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:475
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:712
@@ -1092,9 +1030,8 @@ msgid "Keyboard brightness down"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:476
-#, fuzzy
 msgid "Binding to decrease the keyboard brightness."
-msgstr "টেক্সট এর আকার ছোট করার জন্য বাইন্ড"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:480
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:717
@@ -1102,9 +1039,8 @@ msgid "Keyboard brightness toggle"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:481
-#, fuzzy
 msgid "Binding to toggle the keyboard brightness."
-msgstr "ইন্টারফেসে রংয়ের বৈষম্য টগল করার জন্য বাইন্ড।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:486
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:723
@@ -1112,9 +1048,8 @@ msgid "Show battery status"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:487
-#, fuzzy
 msgid "Binding to show current battery status."
-msgstr "বিবর্ধক প্রদর্শন করার জন্য বাইন্ড।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:492
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:729
@@ -1122,9 +1057,8 @@ msgid "RF kill"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:493
-#, fuzzy
 msgid "Binding to toggle airplane mode."
-msgstr "ইন্টারফেসে রংয়ের বৈষম্য টগল করার জন্য বাইন্ড।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:497
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:734
@@ -1132,91 +1066,73 @@ msgid "Bluetooth RF kill"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:498
-#, fuzzy
 msgid "Binding to toggle bluetooth airplane mode."
-msgstr "ইন্টারফেসে রংয়ের বৈষম্য টগল করার জন্য বাইন্ড।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:511
-#, fuzzy
 msgid "Static binding to launch the calculator."
-msgstr "ক্যালকুলেটর আরম্ভের জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:516
 msgid "Static binding to launch GNOME settings."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:521
-#, fuzzy
 msgid "Static binding to launch the email client."
-msgstr "ই-মেইল ক্লায়েন্ট আরম্ভ করার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:526
-#, fuzzy
 msgid "Static binding to eject an optical disc."
-msgstr "অপটিক্যাল ডিস্ক ইজেক্ট করার জন্য বাইন্ড।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:531
-#, fuzzy
 msgid "Static binding to open the Home folder."
-msgstr "ব্যক্তিগত ফোল্ডার খোলার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:536
-#, fuzzy
 msgid "Static binding to launch the media player."
-msgstr "মিডিয়া প্লেয়ার আরম্ভ করতে বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:541
-#, fuzzy
 msgid "Static binding to skip to next track."
-msgstr "পরবর্তী গানে এগিয়ে চলনার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:546
-#, fuzzy
 msgid "Static binding to pause playback."
-msgstr "প্লে-ব্যাক স্থগিত করার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:551
-#, fuzzy
 msgid "Static binding to start playback (or toggle play/pause)."
 msgstr ""
-"প্লে-ব্যাক অর্থাৎ চালনার আরম্ভের জন্য বাইন্ড করুন (অথবা চালনা/স্থগিত কর্মের মধ্যে "
-"পরিবর্তন)।"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:556
-#, fuzzy
 msgid "Static binding to skip to previous track."
-msgstr "পূর্ববর্তী গানে পিছিয়ে যাওয়ার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:561
-#, fuzzy
 msgid "Static binding to lock the screen."
-msgstr "পর্দা লক করার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:566
-#, fuzzy
 msgid "Static binding to launch the search tool."
-msgstr "অনুসন্ধানের সামগ্রী আরম্ভ করতে বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:571
-#, fuzzy
 msgid "Static binding to stop playback."
-msgstr "প্লে-ব্যাক বন্ধ করার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:578
-#, fuzzy
 msgid "Static binding to lower the volume."
-msgstr "সিস্টেমের আওয়াজ হ্রাস করার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:583
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:600
-#, fuzzy
 msgid "Static binding to mute/unmute the volume."
-msgstr "সিস্টেমের আওয়াজ নিঃশব্দ করার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:588
-#, fuzzy
 msgid "Static binding to raise the volume."
-msgstr "সিস্টেমের আওয়াজ বৃদ্ধির জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:595
 msgid "Static binding to lower the volume without emitting a sound effect."
@@ -1239,43 +1155,36 @@ msgid "Static binding to mute/unmute the microphone."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:628
-#, fuzzy
 msgid "Static binding to launch the web browser."
-msgstr "ওয়েব ব্রাউজার আরম্ভ করতে বাউন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:634
-#, fuzzy
 msgid "Static binding to toggle the touchpad on/off."
-msgstr "টাচপ্যাড সক্রিয় বা নিষ্ক্রিয় করার জন্য বাইন্ডিং"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:639
-#, fuzzy
 msgid "Static binding to switch the touchpad on."
-msgstr "টাচপ্যাড সক্রিয় বা নিষ্ক্রিয় করার জন্য বাইন্ডিং"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:644
 msgid "Static binding to switch the touchpad off."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:650
-#, fuzzy
 msgid "Static binding to skip backward in current track."
-msgstr "পরবর্তী গানে এগিয়ে চলনার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:655
-#, fuzzy
 msgid "Static binding to skip forward in current track."
-msgstr "পরবর্তী গানে এগিয়ে চলনার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:660
-#, fuzzy
 msgid "Static binding to toggle repeat mode in media player."
-msgstr "মিডিয়া প্লেয়ার আরম্ভ করতে বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:665
-#, fuzzy
 msgid "Static binding to toggle random playback mode in media player."
-msgstr "মিডিয়া প্লেয়ার আরম্ভ করতে বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:671
 msgid "Static binding to toggle automatic screen orientation."
@@ -1290,34 +1199,28 @@ msgid "Static binding to hibernate the machine."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:686
-#, fuzzy
 msgid "Static binding to suspend the machine."
-msgstr "কম্পিউটার স্থগিত করার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:692
-#, fuzzy
 msgid "Static binding to increase the screen brightness."
-msgstr "টেক্সট এর আকার বড় করার জন্য বাইন্ড"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:697
-#, fuzzy
 msgid "Static binding to decrease the screen brightness."
-msgstr "টেক্সট এর আকার ছোট করার জন্য বাইন্ড"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:702
-#, fuzzy
 msgid "Static binding to cycle the screen brightness."
-msgstr "পর্দা লক করার জন্য বাইন্ড করুন।"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:708
-#, fuzzy
 msgid "Static binding to increase the keyboard brightness."
-msgstr "টেক্সট এর আকার বড় করার জন্য বাইন্ড"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:713
-#, fuzzy
 msgid "Static binding to decrease the keyboard brightness."
-msgstr "টেক্সট এর আকার ছোট করার জন্য বাইন্ড"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:718
 msgid "Static binding to toggle the keyboard brightness."
@@ -1383,7 +1286,8 @@ msgid "Dim the screen after a period of inactivity"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:12
-msgid "If the screen should be dimmed to save power when the computer is idle."
+msgid ""
+"If the screen should be dimmed to save power when the computer is idle."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:16
@@ -1444,9 +1348,7 @@ msgstr "সেবার সংযোগ যেটাতে সক্রিয় "
 msgid ""
 "The list of NetworkManager connections (each one represented with its UUID) "
 "on which this service is enabled and started."
-msgstr ""
-"সংযোগের নেটওয়ার্ক ব্যবস্থাপকের তালিকা (প্রতিটি প্রতিনিত্ব করছে সেটার ইউইউআইডি "
-"নিয়ে) যেটার জন্য সেবা সক্রিয় ও আরম্ভ হয়েছে। "
+msgstr "সংযোগের নেটওয়ার্ক ব্যবস্থাপকের তালিকা (প্রতিটি প্রতিনিত্ব করছে সেটার ইউইউআইডি নিয়ে) যেটার জন্য সেবা সক্রিয় ও আরম্ভ হয়েছে। "
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:6
 msgid "Antialiasing"
@@ -1455,13 +1357,9 @@ msgstr "অ্যান্ট-অ্যালায়েসিং"
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:7
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
-"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
-"and “rgba” for subpixel antialiasing (LCD screens only)."
-msgstr ""
-"ফন্ট রেন্ডার করার সময় ব্যবহারযোগ্য অ্যান্টি-অ্যালায়েসিংয়ের ধরন। সম্ভাব্য মানগুলি হল: "
-"অ্যান্টি-অ্যালয়েসিং ব্যবহার না করার জন্য \"none\", সাধারণ সাদা-কালো অ্যান্টি-"
-"অ্যালায়েসিংয়ের জন্য \"grayscale\", ও সাব-পিক্সেল অ্যান্টি-অ্যালায়েসিংয়ের জন্য "
-"(শুধুমাত্র LCD পর্দায় প্রযোজ্য) \"rgba\"।"
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing,"
+" and “rgba” for subpixel antialiasing (LCD screens only)."
+msgstr "ফন্ট রেন্ডার করার সময় ব্যবহারযোগ্য অ্যান্টি-অ্যালায়েসিংয়ের ধরন। সম্ভাব্য মানগুলি হল: অ্যান্টি-অ্যালয়েসিং ব্যবহার না করার জন্য \"none\", সাধারণ সাদা-কালো অ্যান্টি-অ্যালায়েসিংয়ের জন্য \"grayscale\", ও সাব-পিক্সেল অ্যান্টি-অ্যালায়েসিংয়ের জন্য (শুধুমাত্র LCD পর্দায় প্রযোজ্য) \"rgba\"।"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:11
 msgid "Hinting"
@@ -1469,26 +1367,17 @@ msgstr "হিন্টিং"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:12
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: “none” "
-"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
-"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"The type of hinting to use when rendering fonts. Possible values are: “none”"
+" for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s"
+" ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
 "Ignores native hinting within the font, generates hints algorithmically. "
 "Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
-"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
-"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version"
+" of FreeType. They usually try to fit glyphs to both the X and the Y axis "
 "(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
-msgstr ""
-"অক্ষর তৈরির সময় এই ধরনের ঈঙ্গিত দেয়া হয়। সম্ভাব্য মূল্যমানগুলো হচ্ছে- ঈঙ্গিত দেবার "
-"জন্য “কোনটি নয়” এবং “সামান্য” হচ্ছে মাইক্রোসফটের ওয়াই-এক্স যেমন- ক্লিয়ারটাইপ, "
-"ডিরেক্টরাইট এবং অ্যাডোবির নিজস্ব অক্ষর তৈরির ইঞ্জিনে ফিট হবার সময়ে। অক্ষরের "
-"ভেতরকার ঈঙ্গিত অগ্রাহ্য করে যায়, ঈঙ্গিত দেয় অ্যালোগরিদম মাফিক। উবুন্তুতে স্থিরকৃতভাবেই "
-"ব্যবহৃত হয়। পরামর্শকৃত। “মধ্যম” এবং “পূর্ণ” অর্থ নির্ভর করবে অক্ষরের ফর্ম্যাটের ওপর (."
-"ttf, .otf, .pfa/.pfb) এবং ফ্রিধরনের যে সংস্করণ ইন্সটল আছে তার ওপর। এরা সাধারণত "
-"গ্লিফসের সাথে খাপ খাওয়াতে চেষ্টা করে এক্স এবং ওয়াই উভয় এক্সিসের সাথেই (শুধু .otf: "
-"ওয়াই বাদে)। এর ফলে বিকৃতি এবং/বা অধারাবাহিকতা আসতে পারে অক্ষরের মান, ফ্রিধরনের "
-"অক্ষ্র ইঞ্জিনের ফর্ম্যাট ও অবস্থার ওপর নির্ভর করে।  "
+msgstr "অক্ষর তৈরির সময় এই ধরনের ঈঙ্গিত দেয়া হয়। সম্ভাব্য মূল্যমানগুলো হচ্ছে- ঈঙ্গিত দেবার জন্য “কোনটি নয়” এবং “সামান্য” হচ্ছে মাইক্রোসফটের ওয়াই-এক্স যেমন- ক্লিয়ারটাইপ, ডিরেক্টরাইট এবং অ্যাডোবির নিজস্ব অক্ষর তৈরির ইঞ্জিনে ফিট হবার সময়ে। অক্ষরের ভেতরকার ঈঙ্গিত অগ্রাহ্য করে যায়, ঈঙ্গিত দেয় অ্যালোগরিদম মাফিক। উবুন্তুতে স্থিরকৃতভাবেই ব্যবহৃত হয়। পরামর্শকৃত। “মধ্যম” এবং “পূর্ণ” অর্থ নির্ভর করবে অক্ষরের ফর্ম্যাটের ওপর (.ttf, .otf, .pfa/.pfb) এবং ফ্রিধরনের যে সংস্করণ ইন্সটল আছে তার ওপর। এরা সাধারণত গ্লিফসের সাথে খাপ খাওয়াতে চেষ্টা করে এক্স এবং ওয়াই উভয় এক্সিসের সাথেই (শুধু .otf: ওয়াই বাদে)। এর ফলে বিকৃতি এবং/বা অধারাবাহিকতা আসতে পারে অক্ষরের মান, ফ্রিধরনের অক্ষ্র ইঞ্জিনের ফর্ম্যাট ও অবস্থার ওপর নির্ভর করে।  "
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:16
 msgid "RGBA order"
@@ -1496,14 +1385,10 @@ msgstr "RGBA ক্রম"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:17
 msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
-"“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
-msgstr ""
-"LCD পর্দায় উপস্থিত সাব-পিক্সেল বস্তুর অনুক্রম; অ্যান্টি-অ্যালায়েসিংয়ের মান \"rgba\" "
-"নির্ধারিত হলে এটি ব্যবহার করা হবে। সম্ভাব্য মান হল: বাঁদিকে লাল ব্যবহারের জন্য \"rgb"
-"\" (সবচেয়ে বেশি ব্যবহৃত মান), বাঁদিকে নীল ব্যবহারের জন্য \"bgr\", উপরে লাল "
-"ব্যবহারের জন্য \"vrgb\", নীচে লাল ব্যবহারের জন্য \"vbgr\"।"
+"The order of subpixel elements on an LCD screen; only used when antialiasing"
+" is set to “rgba”. Possible values are: “rgb” for red on left (most common),"
+" “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
+msgstr "LCD পর্দায় উপস্থিত সাব-পিক্সেল বস্তুর অনুক্রম; অ্যান্টি-অ্যালায়েসিংয়ের মান \"rgba\" নির্ধারিত হলে এটি ব্যবহার করা হবে। সম্ভাব্য মান হল: বাঁদিকে লাল ব্যবহারের জন্য \"rgb\" (সবচেয়ে বেশি ব্যবহৃত মান), বাঁদিকে নীল ব্যবহারের জন্য \"bgr\", উপরে লাল ব্যবহারের জন্য \"vrgb\", নীচে লাল ব্যবহারের জন্য \"vbgr\"।"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:21
 msgid "List of explicitly disabled GTK+ modules"
@@ -1513,9 +1398,7 @@ msgstr "খোলাখুলিভাবে নিষ্ক্রিয় জি�
 msgid ""
 "A list of strings representing the GTK+ modules that will not be loaded, "
 "even if enabled by default in their configuration."
-msgstr ""
-"জিটিকে+মডিউলের প্রতিনিত্বকারী স্ট্রিংয়ের তালিকা যা লোড করবার জন্য নয়, যদিও তা "
-"ডফল্টের দ্বারা সক্রিয় তাদের কনফিগারেশনে। "
+msgstr "জিটিকে+মডিউলের প্রতিনিত্বকারী স্ট্রিংয়ের তালিকা যা লোড করবার জন্য নয়, যদিও তা ডফল্টের দ্বারা সক্রিয় তাদের কনফিগারেশনে। "
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:26
 msgid "List of explicitly enabled GTK+ modules"
@@ -1523,11 +1406,9 @@ msgstr "খোলাখুলি সক্রিয় জিটিকে+মডি
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:27
 msgid ""
-"A list of strings representing the GTK+ modules that will be loaded, usually "
-"in addition to conditional and forcibly disabled ones."
-msgstr ""
-"জিটিকে+মডিউলের প্রতিনিত্বকারী স্ট্রিংয়ের তালিকা যা লোড ক্করা যাবে, সাধারণত "
-"শর্তসাপেক্ষে এবং জোরপূর্বক নিষ্ক্রিয়র সাথে যুক্ত হয়ে। "
+"A list of strings representing the GTK+ modules that will be loaded, usually"
+" in addition to conditional and forcibly disabled ones."
+msgstr "জিটিকে+মডিউলের প্রতিনিত্বকারী স্ট্রিংয়ের তালিকা যা লোড ক্করা যাবে, সাধারণত শর্তসাপেক্ষে এবং জোরপূর্বক নিষ্ক্রিয়র সাথে যুক্ত হয়ে। "
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:31
 msgid "A dictionary of XSETTINGS to override"
@@ -1535,9 +1416,9 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:32
 msgid ""
-"This dictionary maps XSETTINGS names to overrides values. The values must be "
-"either strings, signed int32s or (in the case of colors), 4-tuples of uint16 "
-"(red, green, blue, alpha; 65535 is fully opaque)."
+"This dictionary maps XSETTINGS names to overrides values. The values must be"
+" either strings, signed int32s or (in the case of colors), 4-tuples of "
+"uint16 (red, green, blue, alpha; 65535 is fully opaque)."
 msgstr ""
 
 #: plugins/color/gsd-color-calibrate.c:138
@@ -1602,9 +1483,8 @@ msgid "Date & Time Settings"
 msgstr "তারইখ ও সময় সেটিংস "
 
 #: plugins/housekeeping/gsd-disk-space.c:578
-#, fuzzy
 msgid "Disk Space"
-msgstr "ডিস্কে উপস্থিত স্থানের পরিমাণ কম"
+msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
@@ -1624,46 +1504,38 @@ msgid "Low Disk Space"
 msgstr "ডিস্কে উপস্থিত স্থানের পরিমাণ কম"
 
 #: plugins/housekeeping/gsd-disk-space.c:646
-#, fuzzy
 msgid ""
 "Your computer is out of space.  You may free up some space by emptying the "
 "trash."
 msgstr ""
-"এই কম্পিউটারের মধ্যে শুধুমাত্র %s স্থান ডিস্কে অবশিষ্ট রয়েছে। ট্র্যাশ খালি করে আপনি "
-"কিছু জায়গা ফাঁকা করতে পারেন।"
 
 #: plugins/housekeeping/gsd-disk-space.c:648
-#, fuzzy
 msgid "Your computer is out of space."
-msgstr "প্রিন্টার '%s' এর কাগজ শেষ।"
+msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:673
-#, fuzzy, c-format
+#, c-format
 msgid "Low Disk Space on “%s”"
-msgstr "ডিস্কে \"%s\" উপস্থিত স্থানের পরিমাণ কম"
+msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:675
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
 msgstr ""
-"\"%s\" ভলিউমের মধ্যে শুধুমাত্র %s স্থান ডিস্কে অবশিষ্ট রয়েছে। ট্র্যাশ খালি করে আপনি "
-"কিছু জায়গা ফাঁকা করতে পারেন।"
 
 #: plugins/housekeeping/gsd-disk-space.c:679
-#, fuzzy, c-format
+#, c-format
 msgid "The volume “%s” has only %s disk space remaining."
-msgstr "\"%s\" ভলিউমের মধ্যে শুধুমাত্র %s স্থান ডিস্কে অবশিষ্ট রয়েছে।"
+msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
-msgstr ""
-"এই কম্পিউটারের মধ্যে শুধুমাত্র %s স্থান ডিস্কে অবশিষ্ট রয়েছে। ট্র্যাশ খালি করে আপনি "
-"কিছু জায়গা ফাঁকা করতে পারেন।"
+msgstr "এই কম্পিউটারের মধ্যে শুধুমাত্র %s স্থান ডিস্কে অবশিষ্ট রয়েছে। ট্র্যাশ খালি করে আপনি কিছু জায়গা ফাঁকা করতে পারেন।"
 
 #: plugins/housekeeping/gsd-disk-space.c:689
 #, c-format
@@ -1893,12 +1765,14 @@ msgstr "সংযুক্ত কম্পিউটারে শক্তি ক
 msgid "Battery is low"
 msgstr "ব্যাটারী কম "
 
-#. TRANSLATORS: laptop battery critically low, and only have one kind of battery
+#. TRANSLATORS: laptop battery critically low, and only have one kind of
+#. battery
 #: plugins/power/gsd-power-manager.c:597
 msgid "Battery critically low"
 msgstr "ব্যাটারী আশঙ্কাজনকভাবে কম "
 
-#. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
+#. TRANSLATORS: laptop battery critically low, and we have more than one type
+#. of battery
 #. TRANSLATORS: laptop battery is really, really, low
 #: plugins/power/gsd-power-manager.c:600 plugins/power/gsd-power-manager.c:747
 msgid "Laptop battery critically low"
@@ -1928,9 +1802,7 @@ msgstr "ইউপিএস আশঙ্কাজনকভাবে কম "
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
 "computer to avoid losing data."
-msgstr ""
-"ইউপিএস-এর আনুমানিক %s সঞ্চিত শক্তি বাকী (%.0f%%)। তথ্য না হারাতে চাইলে আপনার "
-"কম্পিউটারের এসি শক্তি পূরণ করুন। "
+msgstr "ইউপিএস-এর আনুমানিক %s সঞ্চিত শক্তি বাকী (%.0f%%)। তথ্য না হারাতে চাইলে আপনার কম্পিউটারের এসি শক্তি পূরণ করুন। "
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:636
@@ -1938,9 +1810,7 @@ msgstr ""
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"তারবিহীন মাউসের শক্তি খুবই কম  (%.0f%%)। চার্জ দেয়া না হলে ডিভাইসটি শিঘ্রই কাজ "
-"করা বন্ধ করে দেবে। "
+msgstr "তারবিহীন মাউসের শক্তি খুবই কম  (%.0f%%)। চার্জ দেয়া না হলে ডিভাইসটি শিঘ্রই কাজ করা বন্ধ করে দেবে। "
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:644
@@ -1948,19 +1818,15 @@ msgstr ""
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"তারবিহীন কীবোর্ডের শক্তি খুবই কম  (%.0f%%)। চার্জ দেয়া না হলে ডিভাইসটি শিঘ্রই কাজ "
-"করা বন্ধ করে দেবে। "
+msgstr "তারবিহীন কীবোর্ডের শক্তি খুবই কম  (%.0f%%)। চার্জ দেয়া না হলে ডিভাইসটি শিঘ্রই কাজ করা বন্ধ করে দেবে। "
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:653
 #, c-format
 msgid ""
-"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
-"not charged."
-msgstr ""
-"পিডিএ-এর শক্তি খুবই কম  (%.0f%%)। চার্জ দেয়া না হলে ডিভাইসটি শিঘ্রই কাজ করা বন্ধ "
-"করে দেবে। "
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if"
+" not charged."
+msgstr "পিডিএ-এর শক্তি খুবই কম  (%.0f%%)। চার্জ দেয়া না হলে ডিভাইসটি শিঘ্রই কাজ করা বন্ধ করে দেবে। "
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:663
@@ -1968,9 +1834,7 @@ msgstr ""
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"মুঠোফোনের শক্তি খুবই কম  (%.0f%%)। চার্জ দেয়া না হলে ডিভাইসটি শিঘ্রই কাজ করা বন্ধ "
-"করে দেবে। "
+msgstr "মুঠোফোনের শক্তি খুবই কম  (%.0f%%)। চার্জ দেয়া না হলে ডিভাইসটি শিঘ্রই কাজ করা বন্ধ করে দেবে। "
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:672
@@ -1978,19 +1842,15 @@ msgstr ""
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"মিডিয়া প্লেয়ারের শক্তি খুবই কম  (%.0f%%)। চার্জ দেয়া না হলে ডিভাইসটি শিঘ্রই কাজ "
-"করা বন্ধ করে দেবে। "
+msgstr "মিডিয়া প্লেয়ারের শক্তি খুবই কম  (%.0f%%)। চার্জ দেয়া না হলে ডিভাইসটি শিঘ্রই কাজ করা বন্ধ করে দেবে। "
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:681
 #, c-format
 msgid ""
-"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
-"if not charged."
-msgstr ""
-"ট্যাবলেটের শক্তি খুবই কম  (%.0f%%)। চার্জ দেয়া না হলে ডিভাইসটি শিঘ্রই কাজ করা বন্ধ "
-"করে দেবে। "
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning"
+" if not charged."
+msgstr "ট্যাবলেটের শক্তি খুবই কম  (%.0f%%)। চার্জ দেয়া না হলে ডিভাইসটি শিঘ্রই কাজ করা বন্ধ করে দেবে। "
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:690
@@ -1998,9 +1858,7 @@ msgstr ""
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
 "shutdown if not charged."
-msgstr ""
-"সংযুক্ত কম্পিউটারের শক্তি খুবই কম  (%.0f%%)। চার্জ দেয়া না হলে ডিভাইসটি শিঘ্রই বন্ধ "
-"হয়ে যাবে। "
+msgstr "সংযুক্ত কম্পিউটারের শক্তি খুবই কম  (%.0f%%)। চার্জ দেয়া না হলে ডিভাইসটি শিঘ্রই বন্ধ হয়ে যাবে। "
 
 #. TRANSLATORS: computer will hibernate
 #: plugins/power/gsd-power-manager.c:755
@@ -2024,7 +1882,8 @@ msgstr "ইউপিএস-এর অবস্থা আশঙ্কাজনক
 
 #. TRANSLATORS: computer will just shutdown
 #: plugins/power/gsd-power-manager.c:785
-msgid "UPS is below the critical level and this computer is about to shutdown."
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
 msgstr "ইউপিএস-এর অবস্থা আশঙ্কাজনকেরও নিচে এবং কম্পিউটার বন্ধ হয়ে যাচ্ছে। "
 
 #. TRANSLATORS: this is the sound description
@@ -2120,31 +1979,36 @@ msgstr "ছাপাযন্ত্রসমূহ "
 msgid "Printer “%s” is low on toner."
 msgstr "প্রিন্টারের কালি '%s' কমে গেছে।"
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:378
 #, c-format
 msgid "Printer “%s” has no toner left."
 msgstr "প্রিন্টারের '%s' কালিও নেই।"
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:382
 #, c-format
 msgid "Printer “%s” may not be connected."
 msgstr "প্রিন্টার '%s' সংযুক্ত নাও হতে পারে।"
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:386
 #, c-format
 msgid "The cover is open on printer “%s”."
 msgstr "প্রিন্টার '%s' এর কভার খোলা।"
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:390
 #, c-format
 msgid "There is a missing print filter for printer “%s”."
 msgstr "প্রিন্টার '%s' এ অনুপস্থিত মুদ্রণফিল্টার।"
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "The door is open on printer “%s”."
@@ -2162,13 +2026,15 @@ msgstr "প্রিন্টার '%s' এ মার্কারের সা�
 msgid "Printer “%s” is out of a marker supply."
 msgstr "প্রিন্টার '%s'  এ মার্কারের সাপ্লাই শেষ।"
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:407
 #, c-format
 msgid "Printer “%s” is low on paper."
 msgstr "প্রিন্টার '%s' এ কাগজ কমে গেছে।"
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:411
 #, c-format
 msgid "Printer “%s” is out of paper."
@@ -2180,13 +2046,15 @@ msgstr "প্রিন্টার '%s' এর কাগজ শেষ।"
 msgid "Printer “%s” is currently off-line."
 msgstr "প্রিন্টার '%s' বর্তমানে বন্ধ।"
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:419
 #, c-format
 msgid "There is a problem on printer “%s”."
 msgstr "প্রিন্টার '%s' এ সমস্যা হয়েছে।"
 
-#. Translators: The printer has a job to print but the printer needs authentication to continue with the print
+#. Translators: The printer has a job to print but the printer needs
+#. authentication to continue with the print
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
@@ -2203,27 +2071,32 @@ msgstr ""
 msgid "Toner low"
 msgstr "কালি কমে গেছে"
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:602
 msgid "Toner empty"
 msgstr "কালি নেই"
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:604
 msgid "Not connected?"
 msgstr "সংযুক্ত নয় কি?"
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:606
 msgid "Cover open"
 msgstr "কভার উন্মুক্ত"
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:608
 msgid "Printer configuration error"
 msgstr "প্রিন্টার কনফিগারেশন ত্রুটি"
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:610
 msgid "Door open"
 msgstr "দরজা খোলা"
@@ -2238,12 +2111,14 @@ msgstr "মার্কারের সাপ্লাই কমে গেছে
 msgid "Out of a marker supply"
 msgstr "মার্কারের সাপ্লাই শেষ"
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:616
 msgid "Paper low"
 msgstr "কাগজ কমে গেছে"
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:618
 msgid "Out of paper"
 msgstr "কাগজ শেষ"
@@ -2253,7 +2128,8 @@ msgstr "কাগজ শেষ"
 msgid "Printer off-line"
 msgstr "প্রিন্টার বন্ধ"
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #. Translators: This is a title of an error notification for a printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:622
 #: plugins/print-notifications/gsd-print-notifications-manager.c:997
@@ -2326,7 +2202,8 @@ msgstr "ছাপাযন্ত্র বিবরণ "
 msgid "Printer warning"
 msgstr "ছাপাযন্ত্র সাবধানবাণী "
 
-#. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
+#. Translators: "Printer 'MyPrinterName': 'Description of the
+#. report/warning/error from a PPD file'."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1004
 #, c-format
 msgid "Printer “%s”: “%s”."
@@ -2412,945 +2289,3 @@ msgstr ""
 #: plugins/wwan/gsd-wwan-pinentry.c:200
 msgid "Wrong PIN code"
 msgstr ""
-
-#~ msgid "Allowed keys"
-#~ msgstr "অনুমোদিত কী"
-
-#~ msgid ""
-#~ "If non-empty, keybindings will be ignored unless their settings directory "
-#~ "is in the list. This is useful for lockdown."
-#~ msgstr ""
-#~ "ফাঁকা না হলে, তালিকায় ডিরেক্টরি উপস্থিত না থাকলে কি-বাইন্ডিংগুলি উপেক্ষা করা "
-#~ "হবে। লক-ডাউনের ক্ষেত্রে এটি সুবিধাজনক।"
-
-#~ msgid ""
-#~ "The type of hinting to use when rendering fonts. Possible values are: "
-#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
-#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
-#~ msgstr ""
-#~ "ফন্ট রেন্ডার করার সময় ব্যবহারযোগ্য হিন্টিংয়ের ধরন। সম্ভাব্য মানগুলি হল: অ্যান্টি-"
-#~ "অ্যালয়েসিং ব্যবহার না করার জন্য \"none\", সাধারণ সাদা-কালো অ্যান্টি-"
-#~ "অ্যালায়েসিংয়ের জন্য \"grayscale\", ও সাব-পিক্সেল অ্যান্টি-অ্যালায়েসিংয়ের জন্য "
-#~ "(শুধুমাত্র LCD পর্দায় প্রযোজ্য) \"rgba\"।"
-
-#~ msgid "Enable debugging code"
-#~ msgstr "কোড ডিবাগ ব্যবস্থা সক্রিয় করুন"
-
-#~ msgid "Exit after a time (for debugging)"
-#~ msgstr "নির্দিষ্ট সময় পর প্রস্থান (ডিবাগের জন্য)"
-
-#~ msgid "Accessibility Keyboard"
-#~ msgstr "সহায়ক প্রযুক্তি বিশিষ্ট কী-বোর্ড"
-
-#~ msgid "Accessibility keyboard plugin"
-#~ msgstr "সহায়ক প্রযুক্তি বিশিষ্ট কী-বোর্ডের প্লাগ-ইন"
-
-#~ msgid "There was an error displaying help: %s"
-#~ msgstr "সাহায্যকারী তথ্য দেখাতে সমস্যা হয়েছে: %s"
-
-#~ msgid "Do you want to activate Slow Keys?"
-#~ msgstr "আপনি কি ধীর কী সক্রিয় করতে চান?"
-
-#~ msgid "Do you want to deactivate Slow Keys?"
-#~ msgstr "আপনি কি ধীর কী নিষ্ক্রিয় করতে চান?"
-
-#~ msgid ""
-#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
-#~ "the Slow Keys feature, which affects the way your keyboard works."
-#~ msgstr ""
-#~ "আপনি এইমাত্র Shift কী-কে ৮ সেকেন্ড যাবত চেপে রেখেছিলেন।  এটি হল ধীর কী "
-#~ "সক্রিয়কারক শর্টকাট যা সম্পূর্ণ কীবোর্ড ব্যবস্থা কীভাবে কাজ করবে তা নির্ধারণ করে।"
-
-#~ msgid "Don't activate"
-#~ msgstr "সক্রিয় করা হবে না"
-
-#~ msgid "Don't deactivate"
-#~ msgstr "নিষ্ক্রিয় করা হবে না"
-
-#~ msgid "Activate"
-#~ msgstr "সক্রিয় করুন"
-
-#~ msgid "Deactivate"
-#~ msgstr "নিষ্ক্রিয় করুন"
-
-#~ msgid "Do_n't activate"
-#~ msgstr "সক্রিয় করবেন না (_n)"
-
-#~ msgid "Do_n't deactivate"
-#~ msgstr "নিষ্ক্রিয় করবেন না (_n)"
-
-#~ msgid "_Activate"
-#~ msgstr "সক্রিয় করুন (_A)"
-
-#~ msgid "_Deactivate"
-#~ msgstr "নিষ্ক্রিয় করুন (_D)"
-
-# FIXME
-#~ msgid "Slow Keys Alert"
-#~ msgstr "ধীর কী সম্পর্কিত সতর্কবাণী"
-
-#~ msgid "Do you want to activate Sticky Keys?"
-#~ msgstr "আপনি কি স্টিকি কী সক্রিয় করতে চান?"
-
-#~ msgid "Do you want to deactivate Sticky Keys?"
-#~ msgstr "আপনি কি স্টিকি কী নিষ্ক্রিয় করতে চান?"
-
-# FIXME
-#~ msgid ""
-#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
-#~ "for the Sticky Keys feature, which affects the way your keyboard works."
-#~ msgstr ""
-#~ "আপনি এইমাত্র Shift কী-কে ৫ সেকেন্ড যাবত চেপে রেখেছিলেন।  এটি হল স্টিকি কী "
-#~ "সক্রিয়কারক শর্টকাট যা সম্পূর্ণ কীবোর্ড ব্যবস্থা কীভাবে কাজ করবে তা নির্ধারণ করে।"
-
-#~ msgid ""
-#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
-#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
-#~ "keyboard works."
-#~ msgstr ""
-#~ "আপনি এইমাত্র দুটি কী কে একত্রে চেপে রেখেছিলেন কিংবা Shift কী কে পরপর ৫ বার "
-#~ "চেপেছেন।  এর ফলে স্টিকি কী নিষ্ক্রিয় হয়ে যায় যা সম্পূর্ণ কীবোর্ড ব্যবস্থা কীভাবে "
-#~ "কাজ করবে তা নির্ধারণ করে।"
-
-#~ msgid "Sticky Keys Alert"
-#~ msgstr "স্টিকি কী সম্পর্কিত সতর্কবাণী"
-
-#~ msgid "Universal Access Preferences"
-#~ msgstr "সার্বজনীন ব্যবহার সংক্রান্ত পছন্দ"
-
-#~ msgid "Enhance _contrast in colors"
-#~ msgstr "রঙের তারতম্য বৃদ্ধি করা হবে (_c)"
-
-#~ msgid "Make _text larger and easier to read"
-#~ msgstr "সহজে পাঠ করার জন্য হরফের মাপ বৃদ্ধি করা হবে (_t)"
-
-#~ msgid "Press and _hold keys to accept them (Slow Keys)"
-#~ msgstr "কি গ্রহণ করা জন্য সেগুলি চেপে রাখুন (ধীরগতির কী) (_h)"
-
-#~ msgid "Use on-screen _keyboard"
-#~ msgstr "পর্দার মধ্যে উপস্থিত কী-বোর্ড প্রয়োগ করা হবে (_k)"
-
-#~ msgid "Use screen _magnifier"
-#~ msgstr "পর্দার বিবর্ধক ব্যবহার করা হবে (_m)"
-
-#~ msgid "Use screen _reader"
-#~ msgstr "পর্দা পাঠের ব্যবস্থা ব্যবহার করা হবে (_r)"
-
-#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
-#~ msgstr "দুইবার কি চাপা হলে তা উপেক্ষা করা হবে (বাউন্স-কী) (_I)"
-
-#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
-#~ msgstr "কীবোর্ড শর্ট-কাট চাপার সময় একবারে একটি কি চাপা হবে (স্টিকি-কী) (_P)"
-
-#~ msgid "Accessibility settings"
-#~ msgstr "স্বাচ্ছন্দ্যকরণ সেটিং"
-
-#~ msgid "Accessibility settings plugin"
-#~ msgstr "স্বাচ্ছন্দ্যকরণ সেটিং প্লাগইন"
-
-#~ msgid "Automounter plugin"
-#~ msgstr "অটোমাউন্টার প্লাগ-ইন"
-
-#~ msgid "Unable to mount %s"
-#~ msgstr "%s মাউন্ট করতে ব্যর্থ"
-
-#~ msgid "Unable to open a folder for %s"
-#~ msgstr "%s এর জন্য ফোল্ডার খুলতে ব্যর্থ"
-
-#~ msgid "Ask what to do"
-#~ msgstr "কি করে হবে তা জিজ্ঞাসা"
-
-#~ msgid "Do Nothing"
-#~ msgstr "কিছুই করা হবে না"
-
-#~ msgid "Open Folder"
-#~ msgstr "ফোল্ডার খুলুন"
-
-#~ msgid "Unable to eject %p"
-#~ msgstr "%p বের করতে ব্যর্থ"
-
-#~ msgid "Unable to unmount %p"
-#~ msgstr "%p আনমাউন্ট করতে ব্যর্থ"
-
-#~ msgid "You have just inserted an Audio CD."
-#~ msgstr "আপনি মাত্র একটি অডিও CD সন্নিবেশ করছেন।"
-
-#~ msgid "You have just inserted an Audio DVD."
-#~ msgstr "আপনি মাত্র একটি অডিও DVD সন্নিবেশ করেছেন।"
-
-#~ msgid "You have just inserted a Video DVD."
-#~ msgstr "আপনি মাত্র একটি ভিডিও DVD সন্নিবেশ করেছেন।"
-
-#~ msgid "You have just inserted a Video CD."
-#~ msgstr "আপনি মাত্র একটি ভিডিও CD সন্নিবেশ করছেন।"
-
-#~ msgid "You have just inserted a Super Video CD."
-#~ msgstr "আপনি মাত্র একটি সুপার ভিডিও CD সন্নিবেশ করছেন।"
-
-#~ msgid "You have just inserted a blank CD."
-#~ msgstr "আপনি মাত্র একটি খালি CD সন্নিবেশ করছেন।"
-
-#~ msgid "You have just inserted a blank DVD."
-#~ msgstr "আপনি মাত্র একটি খালি DVD সন্নিবেশ করছেন।"
-
-#~ msgid "You have just inserted a blank Blu-Ray disc."
-#~ msgstr "আপনি মাত্র একটি খালি ব্লু-রে ডিক্স সন্নিবেশ করছেন।"
-
-#~ msgid "You have just inserted a blank HD DVD."
-#~ msgstr "আপনি মাত্র একটি খালি ব্লু-রে ডিক্স সন্নিবেশ করছেন।"
-
-#~ msgid "You have just inserted a Photo CD."
-#~ msgstr "আপনি মাত্র একটি ফটো CD সন্নিবেশ করছেন।"
-
-#~ msgid "You have just inserted a Picture CD."
-#~ msgstr "আপনি মাত্র একটি ছবির CD সন্নিবেশ করছেন।"
-
-#~ msgid "You have just inserted a medium with digital photos."
-#~ msgstr "আপনি মাত্র একটি ডিজিটাল ফটোসহ মিডিয়াম সন্নিবেশ করছেন।"
-
-#~ msgid "You have just inserted a digital audio player."
-#~ msgstr "আপনি মাত্র একটি ডিজিটাল অডিও প্লেয়ার সন্নিবেশ করছেন।"
-
-#~ msgid ""
-#~ "You have just inserted a medium with software intended to be "
-#~ "automatically started."
-#~ msgstr ""
-#~ "আপনি মাত্র সফ্টওয়্যারসহ মিডিয়াম যা স্বয়ংক্রিয়ভাবে শুরু করতে সাহায্য করবে তা "
-#~ "সন্নিবেশ করছেন।"
-
-#~ msgid "You have just inserted a medium."
-#~ msgstr "আপনি মাত্র একটি মিডিয়াম সন্নিবেশ করছেন।"
-
-#~ msgid "Choose what application to launch."
-#~ msgstr "কি অ্যাপ্লিকেশন চালু করতে হবে তা নির্বাচন।"
-
-#~ msgid ""
-#~ "Select how to open \"%s\" and whether to perform this action in the "
-#~ "future for other media of type \"%s\"."
-#~ msgstr ""
-#~ "কিভাবে \"%s\" খোলা হবে তা নির্বাচন এবং \"%s\" ধরণের মিডিয়ার জন্য এ অ্যাকশন "
-#~ "চালানে হবে কিনা।"
-
-#~ msgid "_Always perform this action"
-#~ msgstr "সবসময় এ কাজটি করা হবে (_A)"
-
-#~ msgid "_Eject"
-#~ msgstr "বের করা (_E)"
-
-#~ msgid "_Unmount"
-#~ msgstr "আনমাউন্ট (_U)"
-
-#~ msgid "Background"
-#~ msgstr "পটভূমি"
-
-#~ msgid "Background plugin"
-#~ msgstr "পটভূমির প্লাগ-ইন"
-
-#~ msgid "Clipboard"
-#~ msgstr "ক্লিপ-বোর্ড"
-
-#~ msgid "Clipboard plugin"
-#~ msgstr "ক্লিপ-বোর্ডের প্লাগ-ইন"
-
-#~ msgid "Dummy"
-#~ msgstr "ডামি"
-
-#~ msgid "Dummy plugin"
-#~ msgstr "ডামি প্লাগ-ইন"
-
-#~ msgid "Don't show any warnings again for this file system"
-#~ msgstr "এই ফাইল-সিস্টেমের জন্য আর কোনো সতর্তকবার্তা প্রদর্শন করা হবে না"
-
-#~ msgid "Don't show any warnings again"
-#~ msgstr "পুনরায় সতর্কবার্তা প্রদর্শন করা হবে না"
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to another disk or partition."
-#~ msgstr ""
-#~ "আবর্জনার বাক্স ফাঁকা করে আপনি ডিস্কের স্থান বৃদ্ধি করতে করতে পারেন। অব্যবহৃত "
-#~ "প্রোগ্রাম, ফাইল মুছে ফেলে ও অন্য কোনো ডিস্ক অথবা পার্টিশনে ফাইল সরিয়েও ডিস্কের "
-#~ "স্থান বৃদ্ধি করা যাবে।"
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to another disk or partition."
-#~ msgstr ""
-#~ "অব্যবহৃত প্রোগ্রাম, ফাইল মুছে ফেলে ও অন্য কোনো ডিস্ক অথবা পার্টিশনে ফাইল সরিয়ে "
-#~ "ডিস্কের স্থান বৃদ্ধি করা যাবে।"
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to an external disk."
-#~ msgstr ""
-#~ "আবর্জনার বাক্স ফাঁকা করে আপনি ডিস্কের স্থান বৃদ্ধি করতে করতে পারেন। অব্যবহৃত "
-#~ "প্রোগ্রাম, ফাইল মুছে ফেলে ও কোনো বহিস্থিত ডিস্কে ফাইল সরিয়েও ডিস্কের স্থান বৃদ্ধি "
-#~ "করা যাবে।"
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to an external disk."
-#~ msgstr ""
-#~ "অব্যবহৃত প্রোগ্রাম, ফাইল মুছে ফেলে ও কোনো বহিস্থিত ডিস্কে ফাইল সরিয়ে ডিস্কের স্থান "
-#~ "বৃদ্ধি করা যাবে।"
-
-#~ msgid "Examine…"
-#~ msgstr "পরীক্ষা…"
-
-#~ msgid "Key binding (%s) is invalid"
-#~ msgstr "কী-বাইন্ডিং (%s) বৈধ নয়"
-
-#~ msgid "Key binding (%s) is incomplete"
-#~ msgstr "কী-বাইন্ডিং (%s) অসম্পূর্ণ"
-
-#~ msgid ""
-#~ "Error while trying to run (%s)\n"
-#~ "which is linked to the key (%s)"
-#~ msgstr ""
-#~ "কী (key) (%s) এর সাথে যুক্ত\n"
-#~ "(%s) চালাতে সমস্যা হয়েছে"
-
-#~ msgid "Keybindings plugin"
-#~ msgstr "কী-বাইন্ডিং প্লাগ-ইন"
-
-#~ msgid "Keyboard"
-#~ msgstr "কী-বোর্ড"
-
-#~ msgid "Keyboard plugin"
-#~ msgstr "কী-বোর্ড প্লাগ-ইন"
-
-#~ msgid ""
-#~ "Error activating XKB configuration.\n"
-#~ "There can be various reasons for that.\n"
-#~ "\n"
-#~ "If you report this situation as a bug, include the results of\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>"
-#~ msgstr ""
-#~ "XKB কনফিগারেশন সক্রিয় করতে ত্রুটি।\n"
-#~ "এর অনেকগুলো কারণ হতে পারে।\n"
-#~ "\n"
-#~ "আপনি যদি এ পরিস্থতি বাগ হিসাবে রিপোর্ট করেন তবে,\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b> ফলাফল যোগ করা হবে "
-
-#~ msgid "_Layouts"
-#~ msgstr "লেআউট (_L)"
-
-#~ msgid "Show _Current Layout"
-#~ msgstr "বর্তমান বহির্বিন্যাস প্রদর্শন (_C)"
-
-#~ msgid ""
-#~ "Could not get default terminal. Verify that your default terminal command "
-#~ "is set and points to a valid application."
-#~ msgstr ""
-#~ "ডিফল্ট টার্মিনাল প্রাপ্ত করতে ব্যর্থ। অনুগ্রহ করে পরীক্ষা করুন যে ডিফল্ট টার্মিনালের "
-#~ "কমান্ড ধার্য করে তা একটি বৈধ অ্যাপ্লিকেশনের প্রতি নির্দেশ করা হয়েছে কি না।"
-
-#~ msgid ""
-#~ "Couldn't execute command: %s\n"
-#~ "Verify that this is a valid command."
-#~ msgstr ""
-#~ "চিহ্নিত কমান্ডটি চালানো যায়নি: %s\n"
-#~ "কমান্ডের বৈধতা নিশ্চিত করুন।"
-
-#~ msgid "Disabled"
-#~ msgstr "নিষ্ক্রিয়"
-
-#~ msgid "%u Output"
-#~ msgid_plural "%u Outputs"
-#~ msgstr[0] "%u-টি আউটপুট"
-#~ msgstr[1] "%u-টি আউটপুট"
-
-#~ msgid "%u Input"
-#~ msgid_plural "%u Inputs"
-#~ msgstr[0] "%u-টি ইনপুট"
-#~ msgstr[1] "%u-টি ইনপুট"
-
-# FIXME
-#~ msgid "System Sounds"
-#~ msgstr "সিস্টেমের শব্দ"
-
-#~ msgid "Media keys"
-#~ msgstr "মিডিয়া কী"
-
-#~ msgid "Media keys plugin"
-#~ msgstr "মিডিয়া-কি প্লাগ-ইন"
-
-#~ msgid "Could not enable mouse accessibility features"
-#~ msgstr "মাউস ব্যবহারের বিশেষ সহায়ক বৈশিষ্ট্য সক্রিয় করতে ব্যর্থ"
-
-#~ msgid ""
-#~ "Mouse accessibility requires Mousetweaks to be installed on your system."
-#~ msgstr "মাউসের সহায়ক প্রযুক্তি ব্যবহারের জন্য সিস্টেমে মাউসটুইক্স ইনস্টল করা আবশ্যক।"
-
-#~ msgid "Universal Access"
-#~ msgstr "সার্বজনীন ব্যবহার"
-
-#~ msgid "Mouse"
-#~ msgstr "মাউস"
-
-#~ msgid "Mouse plugin"
-#~ msgstr "মাউস প্লাগ-ইন"
-
-#~ msgid "Print-notifications"
-#~ msgstr "মুদ্রণ-ঘোষনা"
-
-#~ msgid "Print-notifications plugin"
-#~ msgstr "মুদ্রণ-ঘোষনা প্লাগইন"
-
-#~ msgid "Printer removed"
-#~ msgstr "প্রিন্টার অপসারণ করা হয়েছে"
-
-#~ msgid "Set up screen size and rotation settings"
-#~ msgstr "পর্দার মাপ ও আবর্তন সংক্রান্ত বৈশিষ্ট্য নির্ধারণ করুন"
-
-#~ msgid "XRandR"
-#~ msgstr "XRandR"
-
-#~ msgid "Could not switch the monitor configuration"
-#~ msgstr "মনিটরের কনফিগারেশন পরিবর্তন করতে ব্যর্থ"
-
-#~ msgid "Could not restore the display's configuration"
-#~ msgstr "ডিসপ্লের কনফিগারেশন পুনরুদ্ধার করতে ব্যর্থ"
-
-#~ msgid "Could not restore the display's configuration from a backup"
-#~ msgstr "ব্যাক-আপ থেকে ডিসপ্লের কনফিগারেশন পুনরুদ্ধার করতে ব্যর্থ"
-
-#~ msgid "The display will be reset to its previous configuration in %d second"
-#~ msgid_plural ""
-#~ "The display will be reset to its previous configuration in %d seconds"
-#~ msgstr[0] "%d সেকেন্ড পরে ডিসপ্লের পূর্ববর্তী কনফিগারেশন পুনরায় স্থাপন করা হবে"
-#~ msgstr[1] "%d সেকেন্ড পরে ডিসপ্লের পূর্ববর্তী কনফিগারেশন পুনরায় স্থাপন করা হবে"
-
-#~ msgid "Does the display look OK?"
-#~ msgstr "ডিসপ্লে কি ঠিক ভাবে প্রদর্শিত হচ্ছে?"
-
-#~ msgid "_Restore Previous Configuration"
-#~ msgstr "পূর্ববর্তী কনফিগারেশন পুনরুদ্ধার করা হবে (_R)"
-
-#~ msgid "_Keep This Configuration"
-#~ msgstr "এই কনফিগারেশন প্রয়োগ করা হবে (_K)"
-
-#~ msgid "Could not refresh the screen information: %s"
-#~ msgstr "পর্দা সংক্রান্ত তথ্য নতুন করে প্রদর্শন করতে ব্যর্থ: %s"
-
-#~ msgid "Trying to switch the monitor configuration anyway."
-#~ msgstr "তথাপি মনিটর সংক্রান্ত কনফিগারেশন পরিবর্তনের প্রয়াস করা হবে।"
-
-#~ msgid "Could not apply the stored configuration for monitors"
-#~ msgstr "মনিটরের জন্য সংরক্ষিত কনফিগারেশন প্রয়োগ করতে ব্যর্থ"
-
-#~ msgid "Module Path"
-#~ msgstr "মডিউল পাথ"
-
-#~ msgid "path to smartcard PKCS #11 driver"
-#~ msgstr "স্মার্টকার্ড PKCS #11 ড্রাইভারের পাথ"
-
-#~ msgid "received error or hang up from event source"
-#~ msgstr "ইভেন্ট সোর্সে ত্রুটি বা হ্যাঙ-আপ হয়েছে"
-
-#~ msgid "NSS security system could not be initialized"
-#~ msgstr "NSS নিরাপত্তা সিস্টেম শুরু করা যায়নি"
-
-#~ msgid "no suitable smartcard driver could be found"
-#~ msgstr "কোনো উপযুক্ত স্মার্টকার্ড ড্রাইভার খুঁজে পাওয়া যায়নি"
-
-#~ msgid "smartcard driver '%s' could not be loaded"
-#~ msgstr "স্মার্টকার্ড ড্রাইভার '%s' লোড করা যায়নি"
-
-#~ msgid "could not watch for incoming card events - %s"
-#~ msgstr "ইনকামিং কার্ড ইভেন্ট পাওয়া যায়নি - %s"
-
-#~ msgid "encountered unexpected error while waiting for smartcard events"
-#~ msgstr "স্মার্টকার্ড ইভেন্টের জন্য অপেক্ষা করার সময় অনাকাঙ্খিত ত্রুটি ধরা পড়ে"
-
-#~ msgid "Slot ID"
-#~ msgstr "স্লট আইডি"
-
-# FIXME
-#~ msgid "Slot Series"
-#~ msgstr "স্লট সিরিজ"
-
-#~ msgid "per-slot card identifier"
-#~ msgstr "প্রতি স্লট কার্ড আইডেন্টিফায়ারে"
-
-#~ msgid "name"
-#~ msgstr "নাম"
-
-#~ msgid "Module"
-#~ msgstr "মডিউল"
-
-#~ msgid "smartcard driver"
-#~ msgstr "স্মার্টকার্ড ড্রাইভার"
-
-#~ msgid "Change system time and date settings"
-#~ msgstr "সিস্টেমের সময় এবং তারিখের সেটিং পরিবর্তন"
-
-#~ msgid "Privileges are required to configure time and date settings."
-#~ msgstr "সময় এবং তারিখের সেটিং কনফিগার করা জরুরী।"
-
-#~ msgid "Distribution upgrades available"
-#~ msgstr "ডিসট্রিবিউশন আপগ্রেড বিদ্যমান"
-
-#~ msgid "Update"
-#~ msgid_plural "Updates"
-#~ msgstr[0] "হালনাগাদ"
-#~ msgstr[1] "হালনাগাদ"
-
-#~ msgid "An important software update is available"
-#~ msgid_plural "Important software updates are available"
-#~ msgstr[0] "একটি জরুরী সফ্টওয়্যার হালনাগাদ পাওয়া গেছে"
-#~ msgstr[1] "জরুরী কিছু সফ্টওয়্যার হালনাগাদ পাওয়া গেছে"
-
-#~ msgid "Install updates"
-#~ msgstr "হালনাগাদ ইনস্টল"
-
-#~ msgid "A software update is available."
-#~ msgid_plural "Software updates are available."
-#~ msgstr[0] "একটি সফ্টওয়্যার হালনাগাদ পাওয়া যায়।"
-#~ msgstr[1] "সফ্টওয়্যার হালনাগাদ পাওয়া যায়।"
-
-#~ msgid ""
-#~ "Automatic updates are not being installed as the computer is running on "
-#~ "battery power"
-#~ msgstr ""
-#~ "যেহেতু কম্পিউটার ব্যাটারির সাহায্যে চলছে তাই স্বয়ংক্রিয় হালনাগাদ ইন্সটল করা হয়নি"
-
-#~ msgid "Updates not installed"
-#~ msgstr "হালনাগাদ ইনস্টল করা হয়নি"
-
-#~ msgid "Install the updates anyway"
-#~ msgstr "যেকোনোভাবে হালনাগাদ ইনস্টল"
-
-#~ msgid "No restart is required."
-#~ msgstr "রিস্টার্ট করা আবশ্যক নয়।"
-
-#~ msgid "You need to log out and log back in."
-#~ msgstr "লগ আউট করে পুনরায় আবার লগ ব্যাক করা উচিত।"
-
-#~ msgid "You need to restart the application."
-#~ msgstr "আপনার উচিত এ অ্যাপ্লিকেশন পুনরায় শুরু করা।"
-
-#~ msgid "You need to log out and log back in to remain secure."
-#~ msgstr "নিরাপদ থাকার জন্য লগ আউট করে পুনরায় আবার লগ ব্যাক করা উচিত।"
-
-#~ msgid "A restart is required to remain secure."
-#~ msgstr "নিরাপদ থাকার জন্য রিস্টার্ট করা আবশ্যক।"
-
-#~ msgid "One package was skipped:"
-#~ msgid_plural "Some packages were skipped:"
-#~ msgstr[0] "একটি প্যাকেজ বাদ পড়েছে:"
-#~ msgstr[1] "কিছু প্যাকেজ বাদ পড়েছে:"
-
-#~ msgid "The system update has completed"
-#~ msgstr "সিস্টেম হালনাগাদ সম্পন্ন"
-
-#~ msgid "Restart computer now"
-#~ msgstr "কম্পিউটার এখন রিস্টার্ট"
-
-#~ msgid "Updates"
-#~ msgstr "হালনাগাদ"
-
-#~ msgid "Unable to access software updates"
-#~ msgstr "সফ্টওয়্যার হালনাগাদে প্রবেশ করতে ব্যর্থ"
-
-#~ msgid "Try again"
-#~ msgstr "পুনরায় চেষ্টা"
-
-#~ msgid "A transaction that cannot be interrupted is running"
-#~ msgstr "বিঘ্নিত হতে পারে না এমন একটি ট্র্যানজ্যাকশন চলছে"
-
-#~ msgid ""
-#~ "You will need to restart this computer before the hardware will work "
-#~ "correctly."
-#~ msgstr "হার্ডওয়্যার সঠিকভাবে কাজ করার আগে আপনার উচিত কম্পিউটার রিস্টার্ট দেয়া।"
-
-#~ msgid "Additional software was installed"
-#~ msgstr "অতিরিক্ত সফ্টওয়্যার ইনস্টল করা হয়েছে"
-
-#~ msgid ""
-#~ "You will need to remove and then reinsert the hardware before it will "
-#~ "work correctly."
-#~ msgstr ""
-#~ "হার্ডওয়্যার সঠিকভাবে কাজ করার আগে আপনার উচিত এটা অপসারণ করে পুনরায় সন্নিবেশ "
-#~ "করা।"
-
-#~ msgid "Your hardware has been set up and is now ready to use."
-#~ msgstr ""
-#~ "আপনার হার্ডওয়্যার ঠিকভাবে নির্ধারণ করা হয়েছে এবং ব্যবহার করার জন্য প্রস্তুত।"
-
-#~ msgid ""
-#~ "Additional firmware is required to make hardware in this computer "
-#~ "function correctly."
-#~ msgstr ""
-#~ "কম্পিউটার ফাংশনে এ হার্ডওয়্যার ঠিকভাবে কাজ করার জন্য একটি অতিরিক্ত ফার্মওয়্যার "
-#~ "আবশ্যক।"
-
-#~ msgid "Additional firmware required"
-#~ msgstr "অতিরিক্ত ফার্মওয়্যার আবশ্যক"
-
-#~ msgid "Install firmware"
-#~ msgstr "ফার্মওয়্যার ইনস্টল"
-
-#~ msgid "Ignore devices"
-#~ msgstr "ডিভাইস উপেক্ষা"
-
-# FIXME
-#~ msgid "Volume step"
-#~ msgstr "ভলিউম"
-
-# FIXME
-#~ msgid "Volume step as percentage of volume."
-#~ msgstr "শব্দসীমার শতাংশ হিসাবে ভলিউম।"
-
-#~ msgid ""
-#~ "If a notification icon with display related things should be shown in the "
-#~ "panel."
-#~ msgstr "প্রদর্শন সংক্রান্ত ঘোষনার একটি আইকন প্যানেলের মধ্যে দৃশ্যমান হবে কি না।"
-
-#~ msgid "Show Displays in Notification Area"
-#~ msgstr "ঘোষনা প্রদানের স্থানে ডিসপ্লে প্রদর্শন করা হবে"
-
-#~ msgid "DPI"
-#~ msgstr "DPI"
-
-#~ msgid ""
-#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
-#~ "inch."
-#~ msgstr ""
-#~ "ফন্টের মাপকে পিক্সেলের মাপে পরিবর্তনের জন্য ব্যবহৃত রেসোলিউশন, প্রতি ইঞ্চে বিন্দুর "
-#~ "সংখ্যা অনুযায়ী গণনা করা হয়েছে।"
-
-#~ msgid "Bounce keys"
-#~ msgstr "বাউন্স কী"
-
-#~ msgid "Command used to turn the magnifier on or off."
-#~ msgstr "বিবর্ধক চালু অথবা বন্ধ করার জন্য ব্যবহৃত কমান্ড।"
-
-#~ msgid "Command used to turn the on-screen keyboard on or off."
-#~ msgstr "পর্দার কি-বোর্ড চালু অথবা বন্ধ করার জন্য ব্যবহৃত কমান্ড।"
-
-#~ msgid "Command used to turn the screen reader on or off."
-#~ msgstr "পর্দা পাঠের ব্যবস্থা চালু অথবা বন্ধ করার জন্য ব্যবহৃত কমান্ড।"
-
-#~ msgid "Enable accessibility keyboard plugin"
-#~ msgstr "কী-বোর্ড ব্যবহারের বিশেষ সহায়ক প্রযুক্তির প্লাগ-ইন সক্রিয় করুন"
-
-#~ msgid "Enable background plugin"
-#~ msgstr "পটভূমির ছবি সংক্রান্ত প্লাগ-ইন সক্রিয় করুন"
-
-#~ msgid "Enable clipboard plugin"
-#~ msgstr "ক্লিপ-বোর্ড প্লাগ-ইন সক্রিয় করুন"
-
-#~ msgid "Enable font plugin"
-#~ msgstr "ফন্ট প্লাগ-ইন সক্রিয় করুন"
-
-#~ msgid "Enable housekeeping plugin"
-#~ msgstr "housekeeping প্লাগ-ইন সক্রিয় করুন"
-
-#~ msgid "Enable keybindings plugin"
-#~ msgstr "কী-বাইন্ডিং প্লাগ-ইন সক্রিয় করুন"
-
-#~ msgid "Enable keyboard plugin"
-#~ msgstr "কী-বোর্ড প্লাগ-ইন সক্রিয় করুন"
-
-#~ msgid "Enable media keys plugin"
-#~ msgstr "মিডিয়া-কি প্লাগ-ইন সক্রিয় করুন"
-
-#~ msgid "Enable mouse plugin"
-#~ msgstr "মাউজ প্লাগ-ইন সক্রিয় করুন"
-
-#~ msgid "Enable sound plugin"
-#~ msgstr "শব্দের প্লাগ-ইন সক্রিয় করুন"
-
-#~ msgid "Enable typing breaks plugin"
-#~ msgstr "টাইপিং বিরতির প্লাগ-ইন সক্রিয় করুন"
-
-#~ msgid "Enable xrandr plugin"
-#~ msgstr "xrandr প্লাগ-ইন সক্রিয় করুন"
-
-#~ msgid "Enable xrdb plugin"
-#~ msgstr "xrdb প্লাগ-ইন সক্রিয় করুন"
-
-#~ msgid "Enable xsettings plugin"
-#~ msgstr "xsettings প্লাগ-ইন সক্রিয় করুন"
-
-#~ msgid "Mouse keys"
-#~ msgstr "মাউস কি"
-
-#~ msgid "On-screen keyboard"
-#~ msgstr "পর্দার কি-বোর্ড"
-
-#~ msgid "Screen magnifier"
-#~ msgstr "পর্দা বিবর্ধক"
-
-#~ msgid ""
-#~ "Set to True to enable the housekeeping plugin, to prune transient file "
-#~ "caches."
-#~ msgstr ""
-#~ "সাময়িক ফাইল ক্যাশে ছাঁটাই করার উদ্দেশ্যে housekeeping প্লাগ-ইন সক্রিয় করার জন্য "
-#~ "মান True নির্ধারণ করুন।"
-
-#~ msgid "Set to True to enable the plugin to manage clipboard settings."
-#~ msgstr ""
-#~ "প্লাগ-ইন দ্বারা ক্লিপ-বোর্ডের বৈশিষ্ট্য পরিচালনার জন্য মান সত্য নির্ধারণ করুন।"
-
-#~ msgid ""
-#~ "Set to True to enable the plugin to manage desktop background settings."
-#~ msgstr ""
-#~ "প্লাগ-ইন দ্বারা ডেস্কটপের পটভূমির বৈশিষ্ট্য পরিচালনার জন্য মান True নির্ধারণ করুন।"
-
-#~ msgid "Set to True to enable the plugin to manage font settings."
-#~ msgstr "প্লাগ-ইন দ্বারা ফন্টের বৈশিষ্ট্য পরিচালনার জন্য মান True নির্ধারণ করুন।"
-
-#~ msgid "Set to True to enable the plugin to manage keyboard settings."
-#~ msgstr "প্লাগ-ইন দ্বারা কি-বোর্ডের বৈশিষ্ট্য পরিচালনার জন্য মান True নির্ধারণ করুন।"
-
-#~ msgid "Set to True to enable the plugin to manage mouse settings."
-#~ msgstr "প্লাগ-ইন দ্বারা মাউসের বৈশিষ্ট্য পরিচালনার জন্য মান True নির্ধারণ করুন।"
-
-#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
-#~ msgstr ""
-#~ "প্লাগ-ইন দ্বারা মাল্টিমিডিয়া কী-এর বৈশিষ্ট্য পরিচালনার জন্য মান True নির্ধারণ "
-#~ "করুন।"
-
-#~ msgid "Set to True to enable the plugin to manage sound sample caches."
-#~ msgstr "প্লাগ-ইন দ্বারা শব্দের নমূনার ক্যাশে পরিচালনার জন্য মান True নির্ধারণ করুন।"
-
-#~ msgid ""
-#~ "Set to True to enable the plugin to manage the accessibility keyboard "
-#~ "settings."
-#~ msgstr ""
-#~ "প্লাগ-ইন দ্বারা বিশেষ ব্যবহারের কী-বোর্ডের বৈশিষ্ট্য পরিচালনার জন্য মান True "
-#~ "নির্ধারণ করুন।"
-
-#~ msgid "Set to True to enable the plugin to manage the keybindings."
-#~ msgstr "প্লাগ-ইন দ্বারা কি-বাইন্ডিং পরিচালনার জন্য মান True নির্ধারণ করুন।"
-
-#~ msgid "Set to True to enable the plugin to manage typing breaks."
-#~ msgstr "প্লাগ-ইন দ্বারা টাইপিং-বিরতি পরিচালনার জন্য মান True নির্ধারণ করুন।"
-
-#~ msgid "Set to True to enable the plugin to manage xrandr settings."
-#~ msgstr "প্লাগ-ইন দ্বারা xrandr-এর বৈশিষ্ট্য পরিচালনার জন্য মান True নির্ধারণ করুন।"
-
-#~ msgid "Set to True to enable the plugin to manage xrdb settings."
-#~ msgstr "প্লাগ-ইন দ্বারা xrdb-র বৈশিষ্ট্য পরিচালনার জন্য মান True নির্ধারণ করুন।"
-
-#~ msgid "Set to True to enable the plugin to manage xsettings."
-#~ msgstr ""
-#~ "প্লাগ-ইন দ্বারা xsettings-র বৈশিষ্ট্য পরিচালনার জন্য মান True নির্ধারণ করুন।"
-
-#~ msgid "Sticky keys"
-#~ msgstr "স্টিকি কী"
-
-#~ msgid "The name of the keyboard shortcut to toggle the magnifier"
-#~ msgstr "বিবর্ধক টগল করার উদ্দেশ্যে ব্যবহৃত কি-বোর্ড শর্ট-কাটের নাম"
-
-#~ msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
-#~ msgstr "পর্দার কি-বোর্ড টগল করার উদ্দেশ্যে ব্যবহৃত কি-বোর্ড শর্ট-কাটের নাম"
-
-#~ msgid "The name of the keyboard shortcut to toggle the screen reader"
-#~ msgstr "পর্দা থেকে পাঠের ব্যবস্থা টগল করার উদ্দেশ্যে ব্যবহৃত কি-বোর্ড শর্ট-কাটের নাম"
-
-#~ msgid ""
-#~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
-#~ "name will be shown in the keyboard shortcut preferences dialog."
-#~ msgstr ""
-#~ "বিবর্ধক টগল করার উদ্দেশ্যে ব্যবহৃত কি-বোর্ড শর্ট-কাটের নাম। কি-বোর্ড শর্ট-কাট "
-#~ "সংক্রান্ত পছন্দসই বৈশিষ্ট্যের ডায়লগ বক্সের মধ্যে এই নামটি প্রদর্শন করা হবে।"
-
-#~ msgid ""
-#~ "This is the name of the keyboard shortcut to toggle the on-screen "
-#~ "keyboard. This name will be shown in the keyboard shortcut preferences "
-#~ "dialog."
-#~ msgstr ""
-#~ "পর্দার কি-বোর্ড টগল করার উদ্দেশ্যে ব্যবহৃত কি-বোর্ড শর্ট-কাটের নাম। কি-বোর্ড শর্ট-"
-#~ "কাট সংক্রান্ত পছন্দসই বৈশিষ্ট্যের ডায়লগ বক্সের মধ্যে এই নামটি প্রদর্শন করা হবে।"
-
-#~ msgid ""
-#~ "This is the name of the keyboard shortcut to toggle the screen reader. "
-#~ "This name will be shown in the keyboard shortcut preferences dialog."
-#~ msgstr ""
-#~ "পর্দা থেকে পাঠের ব্যবস্থা টগল করার উদ্দেশ্যে ব্যবহৃত কি-বোর্ড শর্ট-কাটের নাম। কি-"
-#~ "বোর্ড শর্ট-কাট সংক্রান্ত পছন্দসই বৈশিষ্ট্যের ডায়লগ বক্সের মধ্যে এই নামটি প্রদর্শন "
-#~ "করা হবে।"
-
-#~ msgid "Whether the bounce keys keyboard accessibility feature is turned on."
-#~ msgstr "বাউন্স কী নামক কী-বোর্ডের সহায়ক প্রযুক্তি সক্রিয় করা হয়েছে কি না।"
-
-#~ msgid "Whether the mouse keys keyboard accessibility feature is turned on."
-#~ msgstr "মাউস কী-এর কী-বোর্ডের সহায়ক প্রযুক্তি সক্রিয় করা হয়েছে কি না।"
-
-#~ msgid "Whether the on-screen keyboard is turned on."
-#~ msgstr "পর্দার কি-বোর্ড সক্রিয় করা হয়েছে কি না।"
-
-#~ msgid "Whether the screen magnifier is turned on."
-#~ msgstr "পর্দার বিবর্ধক সক্রিয় করা হয়েছে কি না।"
-
-#~ msgid "Whether the screen reader is turned on."
-#~ msgstr "পর্দা থেকে পাঠে ব্যবস্থা সক্রিয় করা হয়েছে কি না।"
-
-#~ msgid "Whether the slow keys keyboard accessibility feature is turned on."
-#~ msgstr "কী-বোর্ডের সহায়ক প্রযুক্তি ধীর গতির কি সক্রিয় করা হয়েছে কি না।"
-
-#~ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
-#~ msgstr "কী-বোর্ডের সহায়ক প্রযুক্তি স্টিকি-কী সক্রিয় করা হয়েছে কি না।"
-
-#~ msgid "Don't become a daemon"
-#~ msgstr "ডেমন তৈরি করা হবে না"
-
-#~ msgid "GConf prefix from which to load plugin settings"
-#~ msgstr "প্লাগ-ইন লোড করার জন্য ব্যবহৃত GConf প্রে-ফিক্স"
-
-#~ msgid "Font"
-#~ msgstr "ফন্ট"
-
-#~ msgid "Removing item %lu of %lu"
-#~ msgstr "%lu বস্তুটি মুছে ফেলা হচ্ছে, সর্বমোট %lu"
-
-#~ msgid "<i>Removing: %s</i>"
-#~ msgstr "<i>সরিয়ে ফেলা হচ্ছে: %s</i>"
-
-#~ msgid "Emptying the trash"
-#~ msgstr "আবর্জনার বাক্স ফাঁকা করা হচ্ছে"
-
-#~ msgid "Preparing to empty trash..."
-#~ msgstr "আবর্জনা মুছে ফেলার প্রস্তুতি চলছে..."
-
-#~ msgid "From: "
-#~ msgstr "থেকে: "
-
-#~ msgid "Empty all of the items from the trash?"
-#~ msgstr "আবর্জনার বাক্সে উপস্থিত সকল সামগ্রী মুছে ফেলা হবে কি?"
-
-#~ msgid ""
-#~ "If you choose to empty the trash, all items in it will be permanently "
-#~ "lost. Please note that you can also delete them separately."
-#~ msgstr ""
-#~ "আবর্জনার বাক্স ফাঁকা করা হলে, এর মধ্যে বর্তমানে উপস্থিত সকল সামগ্রী স্থায়ীরূপে মুছে "
-#~ "ফেলা হবে। উল্লেখ্য, এই সকল সামগ্রী পৃথকভাবেও মুছে ফেলা যাবে।"
-
-#~ msgid "_Empty Trash"
-#~ msgstr "আবর্জনা বাক্স ফাঁকা করুন (_E)"
-
-#~ msgid ""
-#~ "Error activating XKB configuration.\n"
-#~ "It can happen under various circumstances:\n"
-#~ "- a bug in libxklavier library\n"
-#~ "- a bug in X server (xkbcomp, xmodmap utilities)\n"
-#~ "- X server with incompatible libxkbfile implementation\n"
-#~ "\n"
-#~ "X server version data:\n"
-#~ "%s\n"
-#~ "%d\n"
-#~ "%s\n"
-#~ "If you report this situation as a bug, please include:\n"
-#~ "- The result of <b>%s</b>\n"
-#~ "- The result of <b>%s</b>"
-#~ msgstr ""
-#~ "XKB কনফিগারেশন সক্রয় করায় ত্রুটি।\n"
-#~ "এটি বিভিন্ন অবস্থায় সম্পন্ন হতে পারে:\n"
-#~ "- libxklavier লাইব্রেরিতে বিদ্যমান একটি বাগ\n"
-#~ "- X সার্ভারে (xkbcomp, xmodmap ইউটিলিটি) বিদ্যমান একটি বাগ\n"
-#~ "- সঙ্গতিবিহীন libxkbfile প্রয়োগসহকারে X সার্ভার\n"
-#~ "\n"
-#~ "X সার্ভার সংস্করণ ডাটা:\n"
-#~ "%s\n"
-#~ "%d\n"
-#~ "%s\n"
-#~ "আপনি যদি এটিকে একটি বাগ হিসেবে রিপোর্ট করতে চান তাহলে নিচের বিযয়সমূহ "
-#~ "অন্তর্ভুক্ত করুন:\n"
-#~ "- <b>%s</b> এর ফলাফল\n"
-#~ "- <b>%s</b> এর ফলাফল"
-
-#~ msgid ""
-#~ "You are using XFree 4.3.0.\n"
-#~ "There are known problems with complex XKB configurations.\n"
-#~ "Try using a simpler configuration or taking a fresher version of XFree "
-#~ "software."
-#~ msgstr ""
-#~ "আপনি XFree 4.3.0 ব্যবহার করছেন।\n"
-#~ "জটিল XKB কনফিগারেশনে কিছু জানা সমস্যা রয়েছে।\n"
-#~ "একটি অপেক্ষাকৃত সহজ কনফিগারেশন অথবা XFree সফ্টওয়্যারের নতুন সংস্করণ নিয়ে কাজ "
-#~ "করার চেষ্টা করুন।"
-
-#~ msgid "Keyboard Layout \"%s\""
-#~ msgstr "কীবোর্ড বহির্বিন্যাস \"%s\""
-
-#~ msgid "_Groups"
-#~ msgstr "গ্রুপ (_G)"
-
-#~ msgid "A_vailable files:"
-#~ msgstr "ব্যবহারযোগ্য ফাইল (_v):"
-
-#~ msgid "Load modmap files"
-#~ msgstr "modmap-এর ফাইল লোড করুন"
-
-#~ msgid "Would you like to load the modmap file(s)?"
-#~ msgstr "আপনি কি modmap-এর ফাইল লোড করতে চান?"
-
-#~ msgid "_Do not show this message again"
-#~ msgstr "আর কখনো এই তথ্যটি দেখাবে না (_D)"
-
-#~ msgid "_Load"
-#~ msgstr "লোড করুন (_L)"
-
-#~ msgid "_Loaded files:"
-#~ msgstr "লোড করা ফাইল (_L):"
-
-#~ msgid "Mouse Preferences"
-#~ msgstr "মাউস সম্পর্কিত পছন্দ"
-
-#~ msgid "Typing Break"
-#~ msgstr "টাইপিং বিরতি"
-
-#~ msgid "Typing break plugin"
-#~ msgstr "টাইপিং বিরতির প্লাগ-ইন"
-
-#~ msgid "<i>Rotation not supported</i>"
-#~ msgstr "<i>আবর্তন সমর্থিত নয়</i>"
-
-#~ msgid "Could not save monitor configuration"
-#~ msgstr "মনিটর সংক্রান্ত কনফিগারেশন সংরক্ষণ করতে ব্যর্থ"
-
-#~ msgid "Normal"
-#~ msgstr "স্বাভাবিক"
-
-#~ msgid "Left"
-#~ msgstr "বামদিকে"
-
-#~ msgid "Right"
-#~ msgstr "ডানদিকে"
-
-#~ msgid "Upside Down"
-#~ msgstr "উল্টো"
-
-#~ msgid "_Configure Display Settings ..."
-#~ msgstr "পর্দা সংক্রান্ত বৈশিষ্ট্য পরিবর্তন করুন... (_C)"
-
-#~ msgid "Configure display settings"
-#~ msgstr "পর্দা সংক্রান্ত বৈশিষ্ট্য পরিবর্তন করুন"
-
-#~ msgid "Cannot determine user's home directory"
-#~ msgstr "ব্যবহারকারীর ব্যক্তিগত ডিরেক্টরি (Home) খুঁজে পাওয়া যাচ্ছে না"
-
-#~ msgid "Manage the X resource database"
-#~ msgstr "X রিসোর্সের ডাটাবেস পরিচালনা করুন"
-
-#~ msgid "X Resource Database"
-#~ msgstr "X রিসোর্স ডাটাবেস"
-
-#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
-#~ msgstr "GConf কী (key) %1$s এর মান %2$s করা হলেও তা %3$s হওয়ার কথা\n"
-
-#~ msgid ""
-#~ "Couldn't put the machine to sleep.\n"
-#~ "Verify that the machine is correctly configured."
-#~ msgstr ""
-#~ "কম্পিউটারকে স্থগিতাবস্থায় নিয়ে যাওয়া যায় নি।\n"
-#~ "কম্পিউটারটি সঠিকভাবে কনফিগার করা আছে কিনা তা নিশ্চিত হোন।"
