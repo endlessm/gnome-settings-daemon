@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-31 11:30+0000\n"
+"POT-Creation-Date: 2019-10-31 13:15+0000\n"
 "PO-Revision-Date: 2019-09-04 11:17-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
@@ -570,7 +570,8 @@ msgstr "Iniciar calculadora"
 msgid "Binding to launch the calculator."
 msgstr "Atalho para iniciar a calculadora."
 
-# Para tornar a frase menos ambígua, deixei Configurações de execução ao invés de Configurações de lançamento. --Enrico
+# Para tornar a frase menos ambígua, deixei Configurações de execução ao invés
+# de Configurações de lançamento. --Enrico
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:11
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:194
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:515
@@ -1643,18 +1644,16 @@ msgid "Low Disk Space"
 msgstr "Pouco espaço em disco"
 
 #: plugins/housekeeping/gsd-disk-space.c:646
-#, fuzzy
 msgid ""
 "Your computer is out of space.  You may free up some space by emptying the "
 "trash."
 msgstr ""
-"O computador tem apenas %s de espaço em disco restante. Você poderá liberar "
-"algum espaço esvaziando a lixeira."
+"Seu computador está sem espaço. Você pode liberar algum espaço esvaziando a "
+"lixeira."
 
 #: plugins/housekeeping/gsd-disk-space.c:648
-#, fuzzy
 msgid "Your computer is out of space."
-msgstr "A impressora “%s” está sem papel."
+msgstr "Seu computador está sem espaço."
 
 #: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
@@ -1895,7 +1894,9 @@ msgstr "Tablet com bateria baixa"
 msgid "Tablet is low in power (%.0f%%)"
 msgstr "A bateria do tablet está baixa (%.0f%%)"
 
-# Dizer 'Computador conectado' remete a idéia de computador com acesso a internet, podendo confundir o usuário. A idéia aqui é dizer que é um dispositivo anexo ao computador--Enrico
+# Dizer 'Computador conectado' remete a idéia de computador com acesso a
+# internet, podendo confundir o usuário. A idéia aqui é dizer que é um
+# dispositivo anexo ao computador--Enrico
 #. TRANSLATORS: computer, e.g. ipad is getting a little low
 #. TRANSLATORS: the cell battery is very low
 #: plugins/power/gsd-power-manager.c:541 plugins/power/gsd-power-manager.c:687
@@ -2360,7 +2361,9 @@ msgstr "Advertência da impressora"
 msgid "Printer “%s”: “%s”."
 msgstr "Impressora “%s”: “%s”."
 
-# Não deve ser usado 'conectado' pois o fato de conectar o cartão inteligente não implica diretamente em inicio de sessão (ex: pode estar conectado, mas não ser reconhecido)--Enrico
+# Não deve ser usado 'conectado' pois o fato de conectar o cartão inteligente
+# não implica diretamente em inicio de sessão (ex: pode estar conectado, mas
+# não ser reconhecido)--Enrico
 #: plugins/smartcard/gsd-smartcard-service.c:282
 msgid "User was not logged in with smartcard."
 msgstr "O usuário não havia iniciado sessão com cartão inteligente."
@@ -2564,12 +2567,6 @@ msgstr "Código PIN incorreto."
 #~ msgid "File for default configuration for RandR"
 #~ msgstr "Arquivo de configuração padrão para RandR"
 
-#~| msgid ""
-#~| "The XRandR plugin will look for a default configuration in the file "
-#~| "specified by this key. This is similar to the ~/.config/monitors.xml "
-#~| "that normally gets stored in users' home directories. If a user does not "
-#~| "have such a file, or has one that does not match the user's setup of "
-#~| "monitors, then the file specified by this key will be used instead."
 #~ msgid ""
 #~ "The XRandR plugin will look for a default configuration in the file "
 #~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
@@ -2587,12 +2584,6 @@ msgstr "Código PIN incorreto."
 #~ msgid "Whether to turn off specific monitors after boot"
 #~ msgstr "Apagar monitores específicos depois do boot"
 
-#~| msgid ""
-#~| "'clone' will display the same thing on all monitors, 'dock' will switch "
-#~| "off the internal monitor, 'do-nothing' will use the default Xorg "
-#~| "behaviour (extend the desktop in recent versions). The default, 'follow-"
-#~| "lid', will choose between 'do-nothing' and 'dock' depending on whether "
-#~| "the lid is (respectively) open or closed."
 #~ msgid ""
 #~ "“clone” will display the same thing on all monitors, “dock” will switch "
 #~ "off the internal monitor, “do-nothing” will use the default Xorg "

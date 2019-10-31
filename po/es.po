@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-31 11:30+0000\n"
+"POT-Creation-Date: 2019-10-31 13:15+0000\n"
 "PO-Revision-Date: 2019-08-20 10:22+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
@@ -26,8 +26,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 3.32.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 3.32.1\n"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:12
 msgid "Smartcard removal action"
@@ -1644,26 +1644,24 @@ msgstr "Ignorar"
 #: plugins/housekeeping/gsd-disk-space.c:644
 #: plugins/housekeeping/gsd-disk-space.c:684
 msgid "Low Disk Space"
-msgstr "Espacio de disco bajo"
+msgstr "Poco espacio en disco"
 
 #: plugins/housekeeping/gsd-disk-space.c:646
-#, fuzzy
 msgid ""
 "Your computer is out of space.  You may free up some space by emptying the "
 "trash."
 msgstr ""
-"Este equipo sólo tiene %s de espacio en disco libre. Puede liberar algún "
-"espacio vaciando la papelera."
+"Tu computadora ya no tiene espacio de almacenamiento. Sugerimos liberar "
+"espacio al borrar contenido en la carpeta de basura"
 
 #: plugins/housekeeping/gsd-disk-space.c:648
-#, fuzzy
 msgid "Your computer is out of space."
-msgstr "La impresora «%s» no tiene papel."
+msgstr "Tu computadora ya no tiene espacio de almacenamiento"
 
 #: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
-msgstr "Espacio de disco bajo en «%s»"
+msgstr "Poco espacio en disco «%s»"
 
 #: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
@@ -4339,7 +4337,6 @@ msgstr "Código PIN incorrecto"
 #~ msgid "X Resource Database"
 #~ msgstr "Base de datos de recursos de las X"
 
-#~| msgid "Could not switch the monitor configuration"
 #~ msgid "Do not touch monitor configuration"
 #~ msgstr "No cambiar la configuración del monitor"
 
@@ -4384,20 +4381,6 @@ msgstr "Código PIN incorrecto"
 #~ msgid "Enable simulated secondary clicks"
 #~ msgstr "Activar pulsaciones secundarias simuladas"
 
-#~| msgid ""
-#~| "Error activating XKB configuration.\n"
-#~| "It can happen under various circumstances:\n"
-#~| " • a bug in libxklavier library\n"
-#~| " • a bug in X server (xkbcomp, xmodmap utilities)\n"
-#~| " • X server with incompatible libxkbfile implementation\n"
-#~| "\n"
-#~| "X server version data:\n"
-#~| "%s\n"
-#~| "%d\n"
-#~| "%s\n"
-#~| "If you report this situation as a bug, please include:\n"
-#~| " • The result of <b>%s</b>\n"
-#~| " • The result of <b>%s</b>"
 #~ msgid ""
 #~ "Error activating XKB configuration.\n"
 #~ "It can happen under various circumstances:\n"

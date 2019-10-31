@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-31 11:30+0000\n"
+"POT-Creation-Date: 2019-10-31 13:15+0000\n"
 "PO-Revision-Date: 2017-09-01 15:30+0200\n"
 "Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
@@ -1585,11 +1585,16 @@ msgstr "Klávesová skratka"
 # PM: toto mi nedáva zmysel
 # PK: ani mne
 # MČ: Podľa mňa sú tri možnosti, neviem ktorá je správna, nepoužívam to:
-# MČ:  1) určuje prednastavený predraďovač pre klávesové skratky (nejaká kombinácia Shift-Ctrl-Alt-mod4)
-# MČ:  2) určuje klávesovú skratku predradenú pred klávesovú skratku (v pekwm sa to nazýva „chain“, vo ViM LocalLeader), aby bolo možné definovať viac klávesových skratiek, aby sa vzájomne nebili
-# MČ:  3) určuje klávesovú skratku, ktorá spustí program, na nastavovanie klávesových skratiek.
+# MČ:  1) určuje prednastavený predraďovač pre klávesové skratky (nejaká
+# kombinácia Shift-Ctrl-Alt-mod4)
+# MČ:  2) určuje klávesovú skratku predradenú pred klávesovú skratku (v pekwm
+# sa to nazýva „chain“, vo ViM LocalLeader), aby bolo možné definovať viac
+# klávesových skratiek, aby sa vzájomne nebili
+# MČ:  3) určuje klávesovú skratku, ktorá spustí program, na nastavovanie
+# klávesových skratiek.
 # PK: mas moznost to otestovat, lebo ja to tam nemam v ubuntu
-# PK: podla mna to je to je klavesova skratka, ktora spusti napr prehravanie (vlastna akcia)
+# PK: podla mna to je to je klavesova skratka, ktora spusti napr prehravanie
+# (vlastna akcia)
 # description
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:754
 msgid "Binding for the custom binding"
@@ -1990,6 +1995,7 @@ msgid_plural "%i minutes"
 msgstr[0] "%i minút"
 msgstr[1] "%i minúta"
 msgstr[2] "%i minúty"
+msgstr[3] "%i minúty"
 
 #: plugins/power/gpm-common.c:107
 #, c-format
@@ -1998,6 +2004,7 @@ msgid_plural "%i hours"
 msgstr[0] "%i hodín"
 msgstr[1] "%i hodina"
 msgstr[2] "%i hodiny"
+msgstr[3] "%i hodiny"
 
 #. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
 #. * Swap order with "%2$s %2$i %1$s %1$i if needed
@@ -2012,6 +2019,7 @@ msgid_plural "hours"
 msgstr[0] "hodín"
 msgstr[1] "hodina"
 msgstr[2] "hodiny"
+msgstr[3] "hodiny"
 
 #: plugins/power/gpm-common.c:115
 msgid "minute"
@@ -2019,6 +2027,7 @@ msgid_plural "minutes"
 msgstr[0] "minút"
 msgstr[1] "minúta"
 msgstr[2] "minúty"
+msgstr[3] "minúty"
 
 #. TRANSLATORS: this is the sound description
 #: plugins/power/gpm-common.c:425 plugins/power/gsd-power-manager.c:720
@@ -2454,7 +2463,9 @@ msgstr "Tlačiareň „%s“ má málo papiera."
 msgid "Printer “%s” is out of paper."
 msgstr "Tlačiarni „%s“ sa minul papier."
 
-# MČ: off-line je stav tlačiarne, ktorý sa dá vyvolať z jej ovládacích prvkov a vtedy sa ovláda lokálne a odmieta príkazy z počítača. Myslím, že vypnutá by bolo Power Off. Ale istý si nie som.
+# MČ: off-line je stav tlačiarne, ktorý sa dá vyvolať z jej ovládacích prvkov
+# a vtedy sa ovláda lokálne a odmieta príkazy z počítača. Myslím, že vypnutá
+# by bolo Power Off. Ale istý si nie som.
 # PM: mám rovnaký pocit ale neviem ako inak to preložiť.
 #. Translators: The printer is offline (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:415
@@ -2826,9 +2837,12 @@ msgstr ""
 #~ msgid "Power Off"
 #~ msgstr "Vypnúť"
 
-# PM: ak zoberiem do úvahy sleep = standby a podla rtcwake -m to má menšiu váhu tak by som to možno preložil ako zadriemať
+# PM: ak zoberiem do úvahy sleep = standby a podla rtcwake -m to má menšiu
+# váhu tak by som to možno preložil ako zadriemať
 # PK: ja by som to nesilil len za tu cenu rozneho prekladu
-# MČ: pokiaľ sa to nemá šancu objaviť blizko seba, tak by som to nechal tak, ale pokiaľ áno, radšej by som to rozlíšil, lebo niekto môže byť zmätený, že má dve rovnaké akcie zobrazené naraz. A keď vypne slovenčinu, tak zrazu nie.
+# MČ: pokiaľ sa to nemá šancu objaviť blizko seba, tak by som to nechal tak,
+# ale pokiaľ áno, radšej by som to rozlíšil, lebo niekto môže byť zmätený, že
+# má dve rovnaké akcie zobrazené naraz. A keď vypne slovenčinu, tak zrazu nie.
 # https://bugzilla.gnome.org/show_bug.cgi?id=694986
 #~ msgid "Sleep"
 #~ msgstr "Uspať"
@@ -3134,7 +3148,8 @@ msgstr ""
 #~ msgid "Rfkill plugin"
 #~ msgstr "Zásuvný modul Rfkill"
 
-# MČ: myslí sa tento prostredník _I_? Asi by som skôr použil „sprostredkovateľ“
+# MČ: myslí sa tento prostredník _I_? Asi by som skôr použil
+# „sprostredkovateľ“
 #~ msgid "Screensaver Proxy"
 #~ msgstr "Sprostredkovateľ pre šetrič obrazovky"
 

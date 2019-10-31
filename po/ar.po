@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-31 11:30+0000\n"
+"POT-Creation-Date: 2019-10-31 13:15+0000\n"
 "PO-Revision-Date: 2014-02-28 23:50+0200\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
@@ -35,18 +35,21 @@ msgid ""
 "Set this to one of “none”, “lock-screen”, or “force-logout”. The action will "
 "get performed when the smartcard used for log in is removed."
 msgstr ""
+"اضبط هذا بقيمة من القيم \"لا شيء\" أو \"قَفْل الشاشة\" أو \"فرض تسجيل الخروج"
+"\". سيتم تنفيذ هذا الإجراء عندما يتم نزع البطاقة الذكية المستخدمة في تسجيل "
+"الدخول."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:25
 msgid "Possible values are “on”, “off”, and “custom”."
-msgstr ""
+msgstr "القيم المقبولة هي \"تشغيل\" و \"إيقاف\" و \"مخصص\"."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:35
 msgid "Keyboard Bell Custom Filename"
-msgstr ""
+msgstr "جرس لوحة المفاتيح اسم ملف مخصص"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:36
 msgid "File name of the bell sound to be played."
-msgstr ""
+msgstr "اسم ملف صوت الجرس المراد تشغيله."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:42
 msgid "Double click time"
@@ -66,34 +69,32 @@ msgstr "المسافة قبل بدأ النقل."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:54
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
-msgstr ""
+msgstr "سواء كان تدوير الجهاز اللوحي مُغلق أو مضبوط على وضع التدوير التلقائي."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:62
-#, fuzzy
 msgid "Mouse button orientation"
-msgstr "مزيد من المعلومات"
+msgstr "اتجاه زر الماوس"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:63
 msgid "Swap left and right mouse buttons for left-handed mice."
-msgstr ""
+msgstr "قُم بمبادلة أزرار الماوس يساراً ويميناً للتعامل مع ماوس اليد اليسرى."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:67
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:134
 msgid "Single Click"
-msgstr ""
+msgstr "نقرة واحدة"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:68
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:135
 msgid ""
 "Acceleration multiplier for mouse motion. A value of -1 is the system "
 "default."
-msgstr ""
+msgstr "مضاعِف سرعة حركة الماوس. القيمة الافتراضية للنظام هي -1."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:72
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:139
-#, fuzzy
 msgid "Motion Threshold"
-msgstr "عتبة السحب"
+msgstr "حدود استشعار الحركة"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:73
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:140
@@ -101,6 +102,8 @@ msgid ""
 "Distance in pixels the pointer must move before accelerated mouse motion is "
 "activated. A value of -1 is the system default."
 msgstr ""
+"المسافة بنقاط الشاشة يجب أن يتحرك المؤشر قبل تنشيط حركة الفأرة المتسارعة. "
+"تعتبر القيمة -1 الافتراضية في النظام."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:77
 msgid "Middle button emulation"
@@ -114,29 +117,30 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:87
 msgid "Key Repeat Interval"
-msgstr ""
+msgstr "الفاصل الزمني لتكرار المفتاح"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:88
 msgid "Delay between repeats in milliseconds."
-msgstr ""
+msgstr "المهلة بين عمليات التكرار بالملي ثانية."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:92
 msgid "Initial Key Repeat Delay"
-msgstr ""
+msgstr "مفتاح البداية تأخير التكرار"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:93
 msgid "Initial key repeat delay in milliseconds."
-msgstr ""
+msgstr "مهلة التكرار للمفتاح الأول."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:97
 msgid "Remember NumLock state"
-msgstr ""
+msgstr "تذكر حالة قفل الأرقام"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:98
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
 msgstr ""
+"عند الضبط بقيمة (صحيح)، سيتذكر GNOME حالة لمبة إشارة غلق الأرقام بين الجلسات."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:104
 msgid "Disable touchpad while typing"
@@ -167,6 +171,8 @@ msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
 msgstr ""
+"حدد طريقة التمرير على شاشة اللمس. القيم المدعومة هي: \"معطل\" و\"تمرير-الحواف"
+"\" و\"التمرير-بأصبعين\"."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:119
 msgid "Enable mouse clicks with touchpad"
@@ -187,26 +193,27 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:129
 msgid "Touchpad button orientation"
-msgstr ""
+msgstr "اتجاه زر لوحة اللمس"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:130
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
 msgstr ""
+"قُم بمبادلة أزرار الماوس يساراً ويميناً للتعامل مع ماوس اليد اليسرى بالـ \"يسار"
+"\"، وبالـ \"يمين\" لماوس اليد اليمني، و\"ماوس\" لمتابعة إعدادات الماوس."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:144
-#, fuzzy
 msgid "Natural scrolling"
-msgstr "فعّل اللف الأفقي"
+msgstr "تمرير طبيعي"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:145
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
-msgstr ""
+msgstr "اضبط هذا بقيمة \"صحيح\"، لتمكين التمرير الطبيعي (العكسي) للوحات اللمس."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:152
 msgid "Mouse wheel emulation button. 0 to disable the feature."
-msgstr ""
+msgstr "زر محاكاة عجلة الماوس. 0 لتعطيل الميزة."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:10
 msgid "Wacom stylus absolute mode"
@@ -243,6 +250,9 @@ msgid ""
 "Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and "
 "“ccw” for 90 degree counterclockwise."
 msgstr ""
+"اضبط هذا بقيمة 'لا شيء'، 'ا س' للحصول على 90 درجة باتجاه عقارب الساعة، "
+"وبقيمة 'النصف'، للحصول على 180 درجة، وبقيمة 'ع ع س' للحصول على 90 درجة عكس "
+"عقارب الساعة. "
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:30
 msgid "Wacom touch feature"
@@ -361,58 +371,65 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:16
 msgid "If the night light mode is enabled"
-msgstr ""
+msgstr "إذا كان وضع الإضاءة الليلية ممكنًا"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:17
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
 msgstr ""
+"يغير وضع الضوء الليلي درجة حرارة لون الشاشة عندما تغرب الشمس أو في أوقات "
+"محددة مسبقاً."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
-msgstr ""
+msgstr "درجة حرارة الشاشة عند التمكين"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:22
 msgid ""
 "This temperature in Kelvin is used to modify the screen tones when night "
 "light mode is enabled. Higher values are bluer, lower redder."
 msgstr ""
+"تستخدم درجة الحرارة هذه في Kelvin لتعديل درجات لون الشاشة عندما يكون وضع "
+"الإضاءة الليلية ممكنًا، والقيم الأعلى هي أكثر زرقة، وأقل حمرة."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:26
 msgid "Use the sunrise and sunset"
-msgstr ""
+msgstr "استخدم الشروق والغروب"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:27
 msgid ""
 "Calculate the sunrise and sunset times automatically, from the current "
 "location."
-msgstr ""
+msgstr "احسب أوقات الشروق والغروب تلقائيًا للموقع الحالي."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:31
-#, fuzzy
 msgid "The start time"
-msgstr "وقت الشحن:"
+msgstr "وقت البدء"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:32
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this start time in "
 "hours from midnight."
 msgstr ""
+"عندما يكون \"جدول الإضاءة الليلية التلقائي\" معطلًا، استخدم وقت البدء هذا "
+"والمحدد بعدد ساعاتٍ تبدأ من منتصف الليل."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:36
 msgid "The end time"
-msgstr ""
+msgstr "وقت الانتهاء"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:37
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this end time in "
 "hours from midnight."
 msgstr ""
+"عندما يكون \"جدول الإضاءة الليلية التلقائي\" معطلًا، استخدم وقت الانتهاء هذا "
+"والمحدد بعدد ساعاتٍ تبدأ من منتصف الليل."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:41
 msgid "The last detected position"
-msgstr ""
+msgstr "آخر موضع تم اكتشافه"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:42
 msgid ""
@@ -420,6 +437,8 @@ msgid ""
 "location. The default value is an invalid value to ensure it is always "
 "updated at startup."
 msgstr ""
+"عندما تكون خدمات الموقع متاحة، فهذا يمثل آخر موقع تم اكتشافه. تكون القيمة "
+"الافتراضية قيمة غير صالحة لضمان تحديثها دائمًا مع بدء التشغيل."
 
 #: data/org.gnome.settings-daemon.plugins.gschema.xml.in:6
 msgid "List of plugins that are allowed to be loaded"
@@ -430,6 +449,8 @@ msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: “all”). This is only evaluated on startup."
 msgstr ""
+"قائمة سلاسل تمثل الإضافات المسموح بتحميلها (الوضع الافتراضي: \"الكل\"). تُقرأ "
+"هذه القائمة عند بدء التشغيل فقط."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:6
 msgid "Mount paths to ignore"
@@ -493,15 +514,13 @@ msgstr "ارتباط إطلاق الحاسبة."
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:11
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:194
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:515
-#, fuzzy
 msgid "Launch settings"
-msgstr "إعدادات X"
+msgstr "تدشين الإعدادات"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:12
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:195
-#, fuzzy
 msgid "Binding to launch GNOME settings."
-msgstr "ارتباط إطلاق أداة البحث."
+msgstr "الربط لتدشين إعدادات GNOME."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:16
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:199
@@ -652,22 +671,19 @@ msgstr "اخفض الصوت"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:82
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:267
-#, fuzzy
 msgid "Binding to lower the volume."
-msgstr "ارتباط خفض صوت النظام."
+msgstr "ملزم بخفض مستوى الصوت."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:86
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:271
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:582
-#, fuzzy
 msgid "Volume mute/unmute"
-msgstr "أسكِت الصوت"
+msgstr "كتم/إلغاء كتم الصوت"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:272
-#, fuzzy
 msgid "Binding to mute/unmute the volume."
-msgstr "ارتباط إسكات صوت النظام."
+msgstr "مرتبط بكتم /إلغاء كتم الصوت."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:276
@@ -677,22 +693,19 @@ msgstr "ارفع الصوت"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:277
-#, fuzzy
 msgid "Binding to raise the volume."
-msgstr "ارتباط رفع صوت النظام."
+msgstr "ملزمة برفع مستوى الصوت."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:311
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:622
-#, fuzzy
 msgid "Microphone mute/unmute"
-msgstr "صوت الميكروفون"
+msgstr "كتم/إلغاء كتم صوت الميكروفون "
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:312
-#, fuzzy
 msgid "Binding to mute/unmute the microphone."
-msgstr "ارتباط إسكات صوت النظام."
+msgstr "الإلزام بكتم / إلغاء كتم الميكروفون."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:316
@@ -761,9 +774,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:132
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:347
-#, fuzzy
 msgid "Binding to record a short video of the screen"
-msgstr "ارتباط إقفال الشاشة."
+msgstr "الالتزام بتسجيل فيديو قصير للشاشة"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:136
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:351
@@ -1334,13 +1346,13 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:740
 msgid "Maximum length of screen recordings"
-msgstr ""
+msgstr "الحد الأقصى لطول مدة &"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:741
 msgid ""
 "The maximum length of single screen cast recordings in seconds or 0 for "
 "unlimited"
-msgstr ""
+msgstr "الحد الأقصى لتسجيلات الشاشة بالثواني، أو 0 للسماح بطول غير محدود"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:748
 msgid "Name"
@@ -1368,63 +1380,71 @@ msgstr "الأمر الذي سيُشغل عند استخدام الارتباط"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:6
 msgid "The brightness of the screen when idle"
-msgstr ""
+msgstr "درجة سطوع الشاشة في وضع الخمول"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:7
 msgid ""
 "This is the laptop panel screen brightness used when the session is idle."
 msgstr ""
+"هذا سطوع شاشة لوحة الحاسوب المحمول المستخدم عندما تكون الجلسة في وضع الخمول."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:11
 msgid "Dim the screen after a period of inactivity"
-msgstr ""
+msgstr "قُم بتعتيم الشاشة بعد مرور فترة من عدم النشاط"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:12
 msgid "If the screen should be dimmed to save power when the computer is idle."
 msgstr ""
+"إذا كان المطلوب هو تعتيم الشاشة لتوفير الطاقة، عندما يكون الكمبيوتر في وضع "
+"الخمول."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:16
 msgid "Sleep timeout computer when on AC"
-msgstr ""
+msgstr "انتهاء مهلة السكون للكمبيوتر عندما يكون مُشَغَّلاً بالتيار المتردد"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:17
 msgid ""
 "The amount of time in seconds the computer on AC power needs to be inactive "
 "before it goes to sleep. A value of 0 means never."
 msgstr ""
+"مقدار الوقت بالثواني الذي يحتاجه الكمبيوتر الذي يعمل على التيار المتردد، "
+"ليعتبر غير نشط، قبل الدخول في وضع السكون. قيمة مقدارها 0 تعني عدم الدخول فيه "
+"أبداً."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:21
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:31
 msgid "Whether to hibernate, suspend or do nothing when inactive"
-msgstr ""
+msgstr "إما الدخول في وضع السبات أو التعليق أو عدم فعل أي شيء عند توقف النشاط"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:22
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:32
 msgid ""
 "The type of sleeping that should be performed when the computer is inactive."
-msgstr ""
+msgstr "نوع وضع السكون، الذي ينبغي تنفيذه عندما يكون الكمبيوتر غير نشط."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:26
 msgid "Sleep timeout computer when on battery"
-msgstr ""
+msgstr "انتهاء مهلة السكون للكمبيوتر، عندما يكون مُشَغَّلاً بالبطارية"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:27
 msgid ""
 "The amount of time in seconds the computer on battery power needs to be "
 "inactive before it goes to sleep. A value of 0 means never."
 msgstr ""
+"مقدار الوقت بالثواني، الذي يحتاجه الكمبيوتر الذي يعمل على بطاريات، ليعتبر "
+"غير نشط، قبل دخوله إلى وضع السكون. قيمة مقدارها 0 تعني عدم الدخول إليه أبداً."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:36
 msgid "Enable the ALS sensor"
-msgstr ""
+msgstr "تمكين مستشعر الأضواء المحيطة (ALS)"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:37
 msgid "If the ambient light sensor functionality is enabled."
-msgstr ""
+msgstr "إذا كانت ميزة مستشعر الأضواء المحيطة مُمَكَّنة."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:41
 msgid "Power button action"
-msgstr ""
+msgstr "الإجراء الخاص بزر الطاقة"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:42
 msgid ""
@@ -1432,23 +1452,27 @@ msgid ""
 "hard-coded (and the setting ignored) on virtual machines (power off) and "
 "tablets (suspend)."
 msgstr ""
+"الإجراء المطلوب اتخاذه عند الضغط على زر الطاقة. هذا الإجراء ثابت (وتم تجاهل "
+"الإعدادات) على الماكينات الافتراضية (إيقاف التشغيل) وعلى الأجهزة اللوحية "
+"(إيقاف مؤقت)."
 
 #: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:6
 msgid "On which connections the service is enabled"
-msgstr ""
+msgstr "على الاتصالات المُمَكَّنْةُ عليها الخدمة"
 
 #: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:7
 msgid ""
 "The list of NetworkManager connections (each one represented with its UUID) "
 "on which this service is enabled and started."
 msgstr ""
+"قائمة اتصالات NetworkManager (كل اتصال يمثل UUID الخاص به) الممكن عليه هذه "
+"الخدمة وتم بد."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:6
 msgid "Antialiasing"
 msgstr "التنعيم"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:7
-#, fuzzy
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
@@ -1475,13 +1499,21 @@ msgid ""
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
 msgstr ""
+"نوع التلميح الذي يجب استعمال عند عرض الخطوط. القيم المحتملة هي: \"لا شيئ\" "
+"في غياب أي تلميح، و\"خفيف\" من أجل ما يستخدم للمحور الصادي ففقط مثل "
+"ClearType من مايكروسوفت، وDirectWrite ووحرك عرض الخط الإمتلاكي لأدوبي. "
+"يتجاهل التلميح المحلي في الخط، ويولد التلميحات حسابياً. يستخدم في Ubuntu بشكل "
+"افتراضي. موصى به. يتوقف معنى \"متوسطة\" و\"كامل\" على صيغة الخط (ttf ,.otf,."
+"pfa/.pfb) والنسخة المثبتة من FreeType. وهي تحاولون عادة ملائمة الصورة "
+"الرمزية مع المحورين السيني والصادي (ماعدا  otf: الصادي فقط). ويمكن أن يؤدي "
+"هذا إلى التشويه و/ أو العرض المغاير اعتماداً على نوعية الخط، وصيغة الخط وحالة "
+"محركات FreeType للخط."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:16
 msgid "RGBA order"
 msgstr "ترتيب RGBA"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:17
-#, fuzzy
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing "
 "is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
@@ -1513,7 +1545,7 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:31
 msgid "A dictionary of XSETTINGS to override"
-msgstr ""
+msgstr "قاموس XSETTINGS المطلوب تجاوزه"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:32
 msgid ""
@@ -1521,6 +1553,9 @@ msgid ""
 "either strings, signed int32s or (in the case of colors), 4-tuples of uint16 "
 "(red, green, blue, alpha; 65535 is fully opaque)."
 msgstr ""
+"يقوم هذا القاموس بتعيين أسماء XSETTINGS لتجاوز القيم. يجب أن تكون القيم إما "
+"سلاسل أو int32s موقعة أو (في حالة الألوان) ، 4-tuples uint16 (أحمر ، أخضر ، "
+"أزرق ، alpha ، 65535 معتمة بالكامل)."
 
 #: plugins/color/gsd-color-calibrate.c:138
 msgid "Color"
@@ -1538,13 +1573,13 @@ msgstr "إعادة المعايرة مطلوبة"
 
 #. TRANSLATORS: this is when the display has not been recalibrated in a while
 #: plugins/color/gsd-color-calibrate.c:198
-#, fuzzy, c-format
+#, c-format
 msgid "The display “%s” should be recalibrated soon."
 msgstr "العرض '%s' يحتاج لإعادة المعايرة في أقرب وقت."
 
 #. TRANSLATORS: this is when the printer has not been recalibrated in a while
 #: plugins/color/gsd-color-calibrate.c:207
-#, fuzzy, c-format
+#, c-format
 msgid "The printer “%s” should be recalibrated soon."
 msgstr "الطابعة '%s' تحتاج لإعادة المعايرة في أقرب وقت."
 
@@ -1584,7 +1619,6 @@ msgid "Date & Time Settings"
 msgstr "إعدادات الوقت و التّاريخ"
 
 #: plugins/housekeeping/gsd-disk-space.c:578
-#, fuzzy
 msgid "Disk Space"
 msgstr "مساحة القرص"
 
@@ -1606,37 +1640,35 @@ msgid "Low Disk Space"
 msgstr "المساحة المتوفرة قليلة"
 
 #: plugins/housekeeping/gsd-disk-space.c:646
-#, fuzzy
 msgid ""
 "Your computer is out of space.  You may free up some space by emptying the "
 "trash."
 msgstr ""
-"يحتوي الحاسوب على %s فقط من المساحة الخالية. قد تُخلي بعض المساحة بإفراغ "
-"المهملات."
+"لا توجد مساحة تخزين كافية في حاسوبك. يمكنك توفير بعض المساحة من خلال إفراغ "
+"محتويات سلة المحذوفات."
 
 #: plugins/housekeeping/gsd-disk-space.c:648
-#, fuzzy
 msgid "Your computer is out of space."
-msgstr "نفد الورق من الطابعة '%s'."
+msgstr "لا توجد مساحة تخزين كافية في حاسوبك."
 
 #: plugins/housekeeping/gsd-disk-space.c:673
-#, fuzzy, c-format
+#, c-format
 msgid "Low Disk Space on “%s”"
-msgstr "المساحة المتوفرة على \"%s\" قليلة"
+msgstr "مساحة قرص منخفضة على “%s”"
 
 #: plugins/housekeeping/gsd-disk-space.c:675
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
 msgstr ""
-"يحتوي الجزء \"%s\" على %s فقط من المساحة الخالية. قد تُخلي بعض المساحة بإفراغ "
-"المهملات."
+"تحتوي وحدة التخزين “%s” على مساحة قرص %s متبقية. يمكنك تحرير بعض المساحة "
+"بإفراغ سلة المهملات."
 
 #: plugins/housekeeping/gsd-disk-space.c:679
-#, fuzzy, c-format
+#, c-format
 msgid "The volume “%s” has only %s disk space remaining."
-msgstr "يحتوي الجزء \"%s\" على %s فقط من المساحة الخالية."
+msgstr "تحتوي وحدة التخزين “%s” على مساحة قرص متبقية قدرها %s فقط."
 
 #: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
@@ -1654,23 +1686,23 @@ msgstr "يحتوي الحاسوب على %s فقط من المساحة الخا�
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2439
 msgid "Bluetooth disabled"
-msgstr ""
+msgstr "البلوتوث مُعطل"
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2442
 msgid "Bluetooth enabled"
-msgstr ""
+msgstr "البلوتوث مُمَكَّنْ"
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2446
 msgid "Airplane mode enabled"
-msgstr ""
+msgstr "وضع الطائرة مُمَكَّنْ"
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2449
 msgid "Airplane mode disabled"
-msgstr ""
+msgstr "وضع الطائرة مُعَطَل"
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2478
 msgid "Hardware Airplane Mode"
-msgstr ""
+msgstr "وضع الطائرة المادي"
 
 #. Translators: this is a filename used for screencast
 #. * recording, where "%d" and "%t" date and time, e.g.
@@ -2034,14 +2066,13 @@ msgstr "أُغلق الغطاء"
 
 #. TRANSLATORS: this is the sound description
 #: plugins/power/gsd-power-manager.c:1887
-#, fuzzy
 msgid "On battery power"
-msgstr "طاقة بطارية المساعد الرقمي منخفضة"
+msgstr "عند انخفاض شحن البطارية"
 
 #. TRANSLATORS: this is the sound description
 #: plugins/power/gsd-power-manager.c:1892
 msgid "On AC power"
-msgstr ""
+msgstr "عند توصيل التيار"
 
 #: plugins/power/gsd-power-manager.c:2080
 msgid "Automatic logout"
@@ -2082,9 +2113,8 @@ msgstr "تُضبط الطابعة الجديدة"
 
 #. Translators: Just wait
 #: plugins/print-notifications/gsd-printer.c:892
-#, fuzzy
 msgid "Please wait…"
-msgstr "انتظر من فضلك..."
+msgstr "انتظر من فضلك…"
 
 #. Translators: We have no driver installed for this printer
 #: plugins/print-notifications/gsd-printer.c:919
@@ -2113,73 +2143,73 @@ msgstr "الطابعات"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:374
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is low on toner."
 msgstr "حبر الطابعة '%s' منخفض."
 
 #. Translators: The printer has no toner left (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:378
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” has no toner left."
 msgstr "نفد الحبر من الطابعة '%s'."
 
 #. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:382
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” may not be connected."
 msgstr "قد تكون الطابعة '%s' غير متصلة."
 
 #. Translators: One or more covers on the printer are open (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:386
-#, fuzzy, c-format
+#, c-format
 msgid "The cover is open on printer “%s”."
 msgstr "غطاء الطابعة '%s' مفتوح."
 
 #. Translators: A filter or backend is not installed (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:390
-#, fuzzy, c-format
+#, c-format
 msgid "There is a missing print filter for printer “%s”."
 msgstr "هناك مرشِّح ناقص للطابعة '%s'."
 
 #. Translators: One or more doors on the printer are open (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:395
-#, fuzzy, c-format
+#, c-format
 msgid "The door is open on printer “%s”."
 msgstr "باب الطابعة '%s' مفتوح."
 
 #. Translators: "marker" is one color bin of the printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:399
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is low on a marker supply."
 msgstr "نقص حبر أقلام الطابعة '%s'."
 
 #. Translators: "marker" is one color bin of the printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:403
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is out of a marker supply."
 msgstr "نفد حبر أقلام الطابعة '%s'."
 
 #. Translators: At least one input tray is low on media (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:407
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is low on paper."
 msgstr "ورق الطابعة '%s' قليل."
 
 #. Translators: At least one input tray is empty (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:411
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is out of paper."
 msgstr "نفد الورق من الطابعة '%s'."
 
 #. Translators: The printer is offline (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:415
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is currently off-line."
 msgstr "الطابعة '%s' غير متصلة حاليا."
 
 #. Translators: The printer has detected an error (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:419
-#, fuzzy, c-format
+#, c-format
 msgid "There is a problem on printer “%s”."
 msgstr "هناك مشكلة في الطابعة '%s'."
 
@@ -2187,13 +2217,13 @@ msgstr "هناك مشكلة في الطابعة '%s'."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
-msgstr ""
+msgstr "يتطلب %s المصادقة"
 
 #. Translators: A printer needs credentials to continue printing a job
 #: plugins/print-notifications/gsd-print-notifications-manager.c:533
 #, c-format
 msgid "Credentials required in order to print"
-msgstr ""
+msgstr "بيانات الاعتماد مطلوبة من أجل الطباعة"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:600
@@ -2280,7 +2310,7 @@ msgstr "أُوقِفت الطباعة"
 #: plugins/print-notifications/gsd-print-notifications-manager.c:743
 #: plugins/print-notifications/gsd-print-notifications-manager.c:751
 #: plugins/print-notifications/gsd-print-notifications-manager.c:775
-#, fuzzy, c-format
+#, c-format
 msgctxt "print job"
 msgid "“%s” on %s"
 msgstr "‏\"%s\"في %s"
@@ -2325,7 +2355,7 @@ msgstr "تحذير من الطابعة"
 
 #. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1004
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s”: “%s”."
 msgstr "الطابعة '%s': ‏'%s'."
 
