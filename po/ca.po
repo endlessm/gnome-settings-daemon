@@ -15,9 +15,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-settings-daemon/"
-"issues\n"
-"POT-Creation-Date: 2019-08-16 09:33+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-31 11:30+0000\n"
 "PO-Revision-Date: 2019-08-21 11:14+0200\n"
 "Last-Translator: Carles Ferrando Garcia <carles.ferrando@gmail.com>\n"
 "Language-Team: Catalan <info@softcatala.org>\n"
@@ -431,9 +430,9 @@ msgid ""
 "This temperature in Kelvin is used to modify the screen tones when night "
 "light mode is enabled. Higher values are bluer, lower redder."
 msgstr ""
-"La temperatura en Kelvin s'utilitza per modificar els tons de la "
-"pantalla quan el mode llum nocturna està habilitat. Els valors més alts són "
-"els blaus i els més baixos els vermells."
+"La temperatura en Kelvin s'utilitza per modificar els tons de la pantalla "
+"quan el mode llum nocturna està habilitat. Els valors més alts són els blaus "
+"i els més baixos els vermells."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:26
 msgid "Use the sunrise and sunset"
@@ -960,13 +959,11 @@ msgstr ""
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:293
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:604
 #, fuzzy
-#| msgid "Quiet Volume Up"
 msgid "Quiet volume up"
 msgstr "Apuja el volum"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:294
 #, fuzzy
-#| msgid "Binding to raise the system volume."
 msgid "Binding to raise the volume without emitting a sound effect."
 msgstr "Vinculació per apujar el volum del sistema."
 
@@ -1021,7 +1018,6 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:413
 #, fuzzy
-#| msgid "Binding to skip to next track."
 msgid "Binding to skip backward in current track."
 msgstr "Vinculació per saltar a la peça següent."
 
@@ -1032,46 +1028,39 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:418
 #, fuzzy
-#| msgid "Binding to skip to next track."
 msgid "Binding to skip forward in current track."
 msgstr "Vinculació per saltar a la peça següent."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:422
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:659
 #, fuzzy
-#| msgid "Toggle Airplane Mode"
 msgid "Toggle repeat playback mode"
 msgstr "Commuta el mode d'avió"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:423
 #, fuzzy
-#| msgid "Binding to launch the media player."
 msgid "Binding to toggle repeat mode in media player."
 msgstr "Vinculació per executar el reproductor multimèdia."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:427
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:664
 #, fuzzy
-#| msgid "Toggle Airplane Mode"
 msgid "Toggle random playback mode"
 msgstr "Commuta el mode d'avió"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:428
 #, fuzzy
-#| msgid "Binding to launch the media player."
 msgid "Binding to toggle random playback mode in media player."
 msgstr "Vinculació per executar el reproductor multimèdia."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:433
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:670
 #, fuzzy
-#| msgid "Mouse button orientation"
 msgid "Toggle automatic screen orientation"
 msgstr "Orientació del botó del ratolí"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:434
 #, fuzzy
-#| msgid "Binding to take a screenshot."
 msgid "Binding to toggle automatic screen orientation."
 msgstr "Vinculació per fer una captura de pantalla."
 
@@ -1127,7 +1116,6 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:465
 #, fuzzy
-#| msgid "Binding to lock the screen."
 msgid "Binding to cycle the screen brightness."
 msgstr "Vinculació per bloquejar la pantalla."
 
@@ -1152,13 +1140,11 @@ msgstr "Vinculació per reduir la brillantor del teclat."
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:480
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:717
 #, fuzzy
-#| msgid "Keyboard Brightness Toggle"
 msgid "Keyboard brightness toggle"
 msgstr "Commuta la brillantor del teclat"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:481
 #, fuzzy
-#| msgid "Binding to toggle the interface contrast"
 msgid "Binding to toggle the keyboard brightness."
 msgstr "Vinculació per commutar el contrast de la interfície"
 
@@ -1174,80 +1160,67 @@ msgstr "Vinculació per mostrar l'estat de la bateria."
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:492
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:729
 #, fuzzy
-#| msgid "Rfkill"
 msgid "RF kill"
 msgstr "Rfkill"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:493
 #, fuzzy
-#| msgid "Binding to toggle the interface contrast"
 msgid "Binding to toggle airplane mode."
 msgstr "Vinculació per commutar el contrast de la interfície"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:497
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:734
 #, fuzzy
-#| msgid "Bluetooth disabled"
 msgid "Bluetooth RF kill"
 msgstr "Bluetooth inhabilitat"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:498
 #, fuzzy
-#| msgid "Binding to toggle the interface contrast"
 msgid "Binding to toggle bluetooth airplane mode."
 msgstr "Vinculació per commutar el contrast de la interfície"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:511
 #, fuzzy
-#| msgid "Binding to launch the calculator."
 msgid "Static binding to launch the calculator."
 msgstr "Vinculació per executar la calculadora."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:516
 #, fuzzy
-#| msgid "Binding to launch GNOME settings."
 msgid "Static binding to launch GNOME settings."
 msgstr "Vinculació per executar els paràmetres del GNOME."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:521
 #, fuzzy
-#| msgid "Binding to launch the email client."
 msgid "Static binding to launch the email client."
 msgstr "Vinculació per executar el client de correu electrònic."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:526
 #, fuzzy
-#| msgid "Binding to eject an optical disc."
 msgid "Static binding to eject an optical disc."
 msgstr "Vinculació per expulsar un disc òptic."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:531
 #, fuzzy
-#| msgid "Binding to open the Home folder."
 msgid "Static binding to open the Home folder."
 msgstr "Vinculació per obrir la carpeta de l'usuari."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:536
 #, fuzzy
-#| msgid "Binding to launch the media player."
 msgid "Static binding to launch the media player."
 msgstr "Vinculació per executar el reproductor multimèdia."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:541
 #, fuzzy
-#| msgid "Binding to skip to next track."
 msgid "Static binding to skip to next track."
 msgstr "Vinculació per saltar a la peça següent."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:546
 #, fuzzy
-#| msgid "Binding to pause playback."
 msgid "Static binding to pause playback."
 msgstr "Vinculació per fer una pausa a la reproducció."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:551
 #, fuzzy
-#| msgid "Binding to start playback (or toggle play/pause)."
 msgid "Static binding to start playback (or toggle play/pause)."
 msgstr ""
 "Vinculació per iniciar el reproductor (o commutar entre reproducció/en "
@@ -1255,7 +1228,6 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:556
 #, fuzzy
-#| msgid "Binding to skip to previous track."
 msgid "Static binding to skip to previous track."
 msgstr "Vinculació per saltar a la peça anterior."
 
@@ -1310,7 +1282,6 @@ msgstr "Vinculació estàtica per executar el navegador web."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:634
 #, fuzzy
-#| msgid "Binding to toggle the interface contrast"
 msgid "Static binding to toggle the touchpad on/off."
 msgstr "Vinculació per commutar el contrast de la interfície"
 
@@ -1324,25 +1295,21 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:650
 #, fuzzy
-#| msgid "Binding to skip to next track."
 msgid "Static binding to skip backward in current track."
 msgstr "Vinculació per saltar a la peça següent."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:655
 #, fuzzy
-#| msgid "Binding to skip to next track."
 msgid "Static binding to skip forward in current track."
 msgstr "Vinculació per saltar a la peça següent."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:660
 #, fuzzy
-#| msgid "Binding to launch the media player."
 msgid "Static binding to toggle repeat mode in media player."
 msgstr "Vinculació per executar el reproductor multimèdia."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:665
 #, fuzzy
-#| msgid "Binding to launch the media player."
 msgid "Static binding to toggle random playback mode in media player."
 msgstr "Vinculació per executar el reproductor multimèdia."
 
@@ -1360,37 +1327,31 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:686
 #, fuzzy
-#| msgid "Binding to launch the email client."
 msgid "Static binding to suspend the machine."
 msgstr "Vinculació per executar el client de correu electrònic."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:692
 #, fuzzy
-#| msgid "Binding to increase the text size"
 msgid "Static binding to increase the screen brightness."
 msgstr "Vinculació per incrementar la mida del text"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:697
 #, fuzzy
-#| msgid "Binding to decrease the text size"
 msgid "Static binding to decrease the screen brightness."
 msgstr "Vinculació per reduir la mida del text"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:702
 #, fuzzy
-#| msgid "Binding to lock the screen."
 msgid "Static binding to cycle the screen brightness."
 msgstr "Vinculació per bloquejar la pantalla."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:708
 #, fuzzy
-#| msgid "Binding to increase the text size"
 msgid "Static binding to increase the keyboard brightness."
 msgstr "Vinculació per incrementar la mida del text"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:713
 #, fuzzy
-#| msgid "Binding to decrease the text size"
 msgid "Static binding to decrease the keyboard brightness."
 msgstr "Vinculació per reduir la mida del text"
 
@@ -1701,28 +1662,47 @@ msgstr "Paràmetres"
 msgid "Date & Time Settings"
 msgstr "Paràmetres de data i hora"
 
-#: plugins/housekeeping/gsd-disk-space.c:575
+#: plugins/housekeeping/gsd-disk-space.c:578
 msgid "Disk Space"
 msgstr "Espai en disc"
 
-#: plugins/housekeeping/gsd-disk-space.c:588
+#: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
 msgstr "Examina"
 
-#: plugins/housekeeping/gsd-disk-space.c:599
+#: plugins/housekeeping/gsd-disk-space.c:602
 msgid "Empty Trash"
 msgstr "Buida la paperera"
 
-#: plugins/housekeeping/gsd-disk-space.c:607
+#: plugins/housekeeping/gsd-disk-space.c:610
 msgid "Ignore"
 msgstr "Ignora"
 
-#: plugins/housekeeping/gsd-disk-space.c:638
+#: plugins/housekeeping/gsd-disk-space.c:644
+#: plugins/housekeeping/gsd-disk-space.c:684
+msgid "Low Disk Space"
+msgstr "Espai del disc baix"
+
+#: plugins/housekeeping/gsd-disk-space.c:646
+#, fuzzy
+msgid ""
+"Your computer is out of space.  You may free up some space by emptying the "
+"trash."
+msgstr ""
+"Aquest ordinador només li resta %s d'espai de disc. Podeu alliberar espai "
+"buidant la paperera."
+
+#: plugins/housekeeping/gsd-disk-space.c:648
+#, fuzzy
+msgid "Your computer is out of space."
+msgstr "La impressora «%s» no té paper."
+
+#: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
 msgstr "Poc espai de disc lliure a «%s»"
 
-#: plugins/housekeeping/gsd-disk-space.c:640
+#: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
@@ -1731,16 +1711,12 @@ msgstr ""
 "Al volum «%s» només li resta %s d'espai de disc. Podeu alliberar espai "
 "buidant la paperera."
 
-#: plugins/housekeeping/gsd-disk-space.c:644
+#: plugins/housekeeping/gsd-disk-space.c:679
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
 msgstr "Al volum «%s» només li resta %s d'espai de disc."
 
-#: plugins/housekeeping/gsd-disk-space.c:649
-msgid "Low Disk Space"
-msgstr "Espai del disc baix"
-
-#: plugins/housekeeping/gsd-disk-space.c:651
+#: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
@@ -1749,35 +1725,35 @@ msgstr ""
 "Aquest ordinador només li resta %s d'espai de disc. Podeu alliberar espai "
 "buidant la paperera."
 
-#: plugins/housekeeping/gsd-disk-space.c:654
+#: plugins/housekeeping/gsd-disk-space.c:689
 #, c-format
 msgid "This computer has only %s disk space remaining."
 msgstr "Aquest ordinador només li resta %s d'espai de disc."
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2428
+#: plugins/media-keys/gsd-media-keys-manager.c:2439
 msgid "Bluetooth disabled"
 msgstr "Bluetooth inhabilitat"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2431
+#: plugins/media-keys/gsd-media-keys-manager.c:2442
 msgid "Bluetooth enabled"
 msgstr "Bluetooth habilitat"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2435
+#: plugins/media-keys/gsd-media-keys-manager.c:2446
 msgid "Airplane mode enabled"
 msgstr "Mode avió habilitat"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2438
+#: plugins/media-keys/gsd-media-keys-manager.c:2449
 msgid "Airplane mode disabled"
 msgstr "Mode avió inhabilitat"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2467
+#: plugins/media-keys/gsd-media-keys-manager.c:2478
 msgid "Hardware Airplane Mode"
 msgstr "Mode d'avió del maquinari"
 
 #. Translators: this is a filename used for screencast
 #. * recording, where "%d" and "%t" date and time, e.g.
 #. * "Screencast from 07-17-2013 10:00:46 PM.webm"
-#: plugins/media-keys/gsd-media-keys-manager.c:2530
+#: plugins/media-keys/gsd-media-keys-manager.c:2541
 #, no-c-format
 msgid "Screencast from %d %t.webm"
 msgstr "Screencast de %d %t.webm"
@@ -2119,43 +2095,43 @@ msgstr ""
 "d'aturar-se."
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1260
+#: plugins/power/gsd-power-manager.c:1266
 msgid "Lid has been opened"
 msgstr "S'ha obert la tapa"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1294
+#: plugins/power/gsd-power-manager.c:1300
 msgid "Lid has been closed"
 msgstr "S'ha tancat la tapa"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1857
+#: plugins/power/gsd-power-manager.c:1887
 msgid "On battery power"
 msgstr "Quan s'utilitzi la bateria"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1862
+#: plugins/power/gsd-power-manager.c:1892
 msgid "On AC power"
 msgstr "Quan s'utilitzi el corrent"
 
-#: plugins/power/gsd-power-manager.c:2050
+#: plugins/power/gsd-power-manager.c:2080
 msgid "Automatic logout"
 msgstr "Surt automàticament"
 
-#: plugins/power/gsd-power-manager.c:2050
+#: plugins/power/gsd-power-manager.c:2080
 msgid "You will soon log out because of inactivity."
 msgstr "Es tancarà la sessió d'aquí poc perquè no s'utilitza."
 
-#: plugins/power/gsd-power-manager.c:2055
+#: plugins/power/gsd-power-manager.c:2085
 msgid "Automatic suspend"
 msgstr "Atura temporalment automàticament"
 
-#: plugins/power/gsd-power-manager.c:2055
-#: plugins/power/gsd-power-manager.c:2060
+#: plugins/power/gsd-power-manager.c:2085
+#: plugins/power/gsd-power-manager.c:2090
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "S'aturarà l'ordinador temporalment d'aquí poc perquè no s'utilitza."
 
-#: plugins/power/gsd-power-manager.c:2060
+#: plugins/power/gsd-power-manager.c:2090
 msgid "Automatic hibernation"
 msgstr "Hibernació automàtica"
 

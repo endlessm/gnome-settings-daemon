@@ -19,9 +19,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-settings-daemon/"
-"issues\n"
-"POT-Creation-Date: 2019-06-05 11:08+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-31 11:30+0000\n"
 "PO-Revision-Date: 2019-06-18 10:57+0200\n"
 "Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
@@ -60,75 +59,55 @@ msgstr "Aangepaste bestandsnaam toetsenbordbelgeluid"
 msgid "File name of the bell sound to be played."
 msgstr "Bestandsnaam van het belgeluid dat wordt afgespeeld."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:40
-msgid "Remember NumLock state"
-msgstr "Status NumLock onthouden"
-
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:41
-msgid ""
-"When set to true, GNOME will remember the state of the NumLock LED between "
-"sessions."
-msgstr ""
-"Indien ingesteld op ‘true’, zal Gnome de status van het NumLock-led tussen "
-"sessies onthouden."
-
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:45
-msgid "NumLock state"
-msgstr "Status NumLock"
-
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:46
-msgid "The remembered state of the NumLock LED."
-msgstr "De onthouden status van het NumLock-led."
-
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:52
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:42
 msgid "Double click time"
 msgstr "Dubbelklik-tijd"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:53
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:43
 msgid "Length of a double click in milliseconds."
 msgstr "Duur van dubbel klikken in milliseconden."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:57
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:47
 msgid "Drag threshold"
 msgstr "Sleepdrempel"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:58
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:48
 msgid "Distance before a drag is started."
 msgstr "Afstand voordat slepen wordt gestart."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:64
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:54
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
 msgstr "Of de oriëntatie van de tablet vast staat of automatisch roteert."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:72
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:62
 msgid "Mouse button orientation"
 msgstr "Oriëntatie muisknop"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:73
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:63
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr ""
 "Linker- en rechtermuisknoppen verwisselen voor muis voor linkshandigen."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:77
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:139
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:67
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:134
 msgid "Single Click"
 msgstr "Enkele muisklik"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:78
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:140
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:68
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:135
 msgid ""
 "Acceleration multiplier for mouse motion. A value of -1 is the system "
 "default."
 msgstr ""
 "Versnellingsvermenigvuldiger voor muisbeweging. De waarde -1 is de standaard."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:82
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:144
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:72
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:139
 msgid "Motion Threshold"
 msgstr "Sleepdrempel"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:83
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:145
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:73
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:140
 msgid ""
 "Distance in pixels the pointer must move before accelerated mouse motion is "
 "activated. A value of -1 is the system default."
@@ -136,11 +115,11 @@ msgstr ""
 "Afstand in beeldpunten die de aanwijzer moet bewegen voordat de versnelde "
 "muisbeweging geactiveerd wordt. De waarde -1 is de standaard."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:87
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:77
 msgid "Middle button emulation"
 msgstr "Emulatie middelste knop"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:88
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:78
 msgid ""
 "Enables middle mouse button emulation through simultaneous left and right "
 "button click."
@@ -148,27 +127,39 @@ msgstr ""
 "Schakelt emulatie van middelste muisknop in door gelijktijdig met de linker- "
 "en rechtermuisknop te klikken."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:97
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:87
 msgid "Key Repeat Interval"
 msgstr "Interval toetsherhaling"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:98
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:88
 msgid "Delay between repeats in milliseconds."
 msgstr "Vertraging toetsherhaling in milliseconden."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:102
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:92
 msgid "Initial Key Repeat Delay"
 msgstr "Vertraging toetsherhaling in milliseconden"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:103
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:93
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Vertraging toetsherhaling in milliseconden."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:109
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:97
+msgid "Remember NumLock state"
+msgstr "Status NumLock onthouden"
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:98
+msgid ""
+"When set to true, GNOME will remember the state of the NumLock LED between "
+"sessions."
+msgstr ""
+"Indien ingesteld op ‘true’, zal Gnome de status van het NumLock-led tussen "
+"sessies onthouden."
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:104
 msgid "Disable touchpad while typing"
 msgstr "Touchpad uitschakelen tijdens het typen"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:110
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:105
 msgid ""
 "Set this to TRUE if you have problems with accidentally hitting the touchpad "
 "while typing."
@@ -176,11 +167,11 @@ msgstr ""
 "Stel dit in op ‘true’ als u problemen heeft met het per ongeluk aanraken van "
 "het touchpad tijdens het typen."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:114
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:109
 msgid "Enable horizontal scrolling"
 msgstr "Horizontaal scrollen inschakelen"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:115
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:110
 msgid ""
 "Set this to TRUE to allow horizontal scrolling by the same method selected "
 "with the scroll_method key."
@@ -188,11 +179,11 @@ msgstr ""
 "Stel dit in op ‘true’ om horizontaal scrollen mogelijk te maken via dezelfde "
 "methode die is geselecteerd met de scroll_method-toets."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:119
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:114
 msgid "Select the touchpad scroll method"
 msgstr "Wijze van scrollen via touchpad selecteren"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:120
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:115
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
@@ -200,30 +191,30 @@ msgstr ""
 "Kies de wijze van scrollen via het touchpad. Ondersteunde methoden zijn: "
 "‘uitgeschakeld’, ‘rand-scrollen’, ‘twee-vinger-scrollen’."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:124
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:119
 msgid "Enable mouse clicks with touchpad"
 msgstr "Muisklikken via touchpad inschakelen"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:125
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:120
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
 "Stel dit in op ‘true’ om te kunnen muisklikken door op het touchpad te "
 "tikken."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:129
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:124
 msgid "Enable touchpad"
 msgstr "Touchpad inschakelen"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:130
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:125
 msgid "Set this to TRUE to enable all touchpads."
 msgstr "Stel dit in op ‘true’ om alle touchpads in te schakelen."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:134
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:129
 msgid "Touchpad button orientation"
 msgstr "Oriëntatie touchpadknop"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:135
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:130
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
@@ -232,17 +223,17 @@ msgstr ""
 "‘links’, ‘rechts’ voor rechtshandigen, ‘muis’ om de muisinstellingen te "
 "volgen."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:149
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:144
 msgid "Natural scrolling"
 msgstr "Natuurlijk scrollen"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:150
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:145
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Stel dit in op ‘true’ om natuurlijk (omgekeerd) scrollen via touchpads in te "
 "schakelen."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:157
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:152
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr "Knop voor emulatie van muiswiel. 0 om de functie uit te schakelen."
 
@@ -1032,7 +1023,8 @@ msgid "Skip forward in current track"
 msgstr "Doorspoelen in huidig nummer"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:418
-msgid "Binding to skip forward in in current track."
+#, fuzzy
+msgid "Binding to skip forward in current track."
 msgstr "Sneltoets om door te spoelen in het huidige nummer."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:422
@@ -1281,7 +1273,8 @@ msgid "Static binding to skip backward in current track."
 msgstr "Statische sneltoets om terug te spoelen in het huidige nummer."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:655
-msgid "Static binding to skip forward in in current track."
+#, fuzzy
+msgid "Static binding to skip forward in current track."
 msgstr "Statische sneltoets om door te spoelen in het huidige nummer."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:660
@@ -1640,28 +1633,47 @@ msgstr "Instellingen"
 msgid "Date & Time Settings"
 msgstr "Datum- en tijdsinstellingen"
 
-#: plugins/housekeeping/gsd-disk-space.c:575
+#: plugins/housekeeping/gsd-disk-space.c:578
 msgid "Disk Space"
 msgstr "Schijfruimte"
 
-#: plugins/housekeeping/gsd-disk-space.c:588
+#: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
 msgstr "Onderzoeken"
 
-#: plugins/housekeeping/gsd-disk-space.c:599
+#: plugins/housekeeping/gsd-disk-space.c:602
 msgid "Empty Trash"
 msgstr "Prullenbak legen"
 
-#: plugins/housekeeping/gsd-disk-space.c:607
+#: plugins/housekeeping/gsd-disk-space.c:610
 msgid "Ignore"
 msgstr "Negeren"
 
-#: plugins/housekeeping/gsd-disk-space.c:638
+#: plugins/housekeeping/gsd-disk-space.c:644
+#: plugins/housekeeping/gsd-disk-space.c:684
+msgid "Low Disk Space"
+msgstr "Weinig schijfruimte"
+
+#: plugins/housekeeping/gsd-disk-space.c:646
+#, fuzzy
+msgid ""
+"Your computer is out of space.  You may free up some space by emptying the "
+"trash."
+msgstr ""
+"Deze computer heeft nog maar %s schijfruimte over. U zou wat schijfruimte "
+"kunnen vrijmaken door de prullenbak te legen."
+
+#: plugins/housekeeping/gsd-disk-space.c:648
+#, fuzzy
+msgid "Your computer is out of space."
+msgstr "De printer ‘%s’ heeft geen papier meer."
+
+#: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
 msgstr "Weinig schijfruimte op “%s”"
 
-#: plugins/housekeeping/gsd-disk-space.c:640
+#: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
@@ -1670,16 +1682,12 @@ msgstr ""
 "Het volume “%s” heeft nog maar %s schijfruimte over. U zou wat schijfruimte "
 "kunnen vrijmaken door de prullenbak te legen."
 
-#: plugins/housekeeping/gsd-disk-space.c:644
+#: plugins/housekeeping/gsd-disk-space.c:679
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
 msgstr "Het volume “%s” heeft nog maar %s schijfruimte over."
 
-#: plugins/housekeeping/gsd-disk-space.c:649
-msgid "Low Disk Space"
-msgstr "Weinig schijfruimte"
-
-#: plugins/housekeeping/gsd-disk-space.c:651
+#: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
@@ -1688,35 +1696,35 @@ msgstr ""
 "Deze computer heeft nog maar %s schijfruimte over. U zou wat schijfruimte "
 "kunnen vrijmaken door de prullenbak te legen."
 
-#: plugins/housekeeping/gsd-disk-space.c:654
+#: plugins/housekeeping/gsd-disk-space.c:689
 #, c-format
 msgid "This computer has only %s disk space remaining."
 msgstr "Deze computer heeft nog maar %s schijfruimte over."
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2436
+#: plugins/media-keys/gsd-media-keys-manager.c:2439
 msgid "Bluetooth disabled"
 msgstr "Bluetooth uitgeschakeld"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2439
+#: plugins/media-keys/gsd-media-keys-manager.c:2442
 msgid "Bluetooth enabled"
 msgstr "Bluetooth ingeschakeld"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2443
+#: plugins/media-keys/gsd-media-keys-manager.c:2446
 msgid "Airplane mode enabled"
 msgstr "Vliegtuigstand ingeschakeld"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2446
+#: plugins/media-keys/gsd-media-keys-manager.c:2449
 msgid "Airplane mode disabled"
 msgstr "Vliegtuigstand uitgeschakeld"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2475
+#: plugins/media-keys/gsd-media-keys-manager.c:2478
 msgid "Hardware Airplane Mode"
 msgstr "Hardware-vliegtuigstand"
 
 #. Translators: this is a filename used for screencast
 #. * recording, where "%d" and "%t" date and time, e.g.
 #. * "Screencast from 07-17-2013 10:00:46 PM.webm"
-#: plugins/media-keys/gsd-media-keys-manager.c:2538
+#: plugins/media-keys/gsd-media-keys-manager.c:2541
 #, no-c-format
 msgid "Screencast from %d %t.webm"
 msgstr "Schermfilm van %d %t.webm"
@@ -2062,43 +2070,43 @@ msgstr ""
 "uitschakelen."
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1260
+#: plugins/power/gsd-power-manager.c:1266
 msgid "Lid has been opened"
 msgstr "Laptop is geopend"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1294
+#: plugins/power/gsd-power-manager.c:1300
 msgid "Lid has been closed"
 msgstr "Laptop is gesloten"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1857
+#: plugins/power/gsd-power-manager.c:1887
 msgid "On battery power"
 msgstr "Op batterij"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1862
+#: plugins/power/gsd-power-manager.c:1892
 msgid "On AC power"
 msgstr "Op netstroom"
 
-#: plugins/power/gsd-power-manager.c:2050
+#: plugins/power/gsd-power-manager.c:2080
 msgid "Automatic logout"
 msgstr "Automatisch afmelden"
 
-#: plugins/power/gsd-power-manager.c:2050
+#: plugins/power/gsd-power-manager.c:2080
 msgid "You will soon log out because of inactivity."
 msgstr "U wordt binnenkort afgemeld wegens inactiviteit."
 
-#: plugins/power/gsd-power-manager.c:2055
+#: plugins/power/gsd-power-manager.c:2085
 msgid "Automatic suspend"
 msgstr "Automatische pauzestand"
 
-#: plugins/power/gsd-power-manager.c:2055
-#: plugins/power/gsd-power-manager.c:2060
+#: plugins/power/gsd-power-manager.c:2085
+#: plugins/power/gsd-power-manager.c:2090
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "De computer zal binnenkort in pauzestand gaan wegens inactiviteit."
 
-#: plugins/power/gsd-power-manager.c:2060
+#: plugins/power/gsd-power-manager.c:2090
 msgid "Automatic hibernation"
 msgstr "Automatische slaapstand"
 
@@ -2395,6 +2403,67 @@ msgid "Authentication is required to modify the OLED image for a Wacom tablet"
 msgstr ""
 "Authenticatie is vereist om de OLED-afbeelding voor een Wacom tablet te "
 "wijzigen"
+
+#. Set up the dialog
+#: plugins/wwan/gsd-wwan-pinentry.c:89
+msgid "Unlock SIM card"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:90
+msgid "Unlock"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:91
+msgid "Cancel"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:95
+#, c-format
+msgid "Please provide the PIN for SIM card %s"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:97
+msgid "Enter PIN to unlock your SIM card"
+msgstr ""
+
+#. msg is already localised
+#: plugins/wwan/gsd-wwan-pinentry.c:123
+#, c-format
+msgid "%2$s You have %1$u try left"
+msgid_plural "%2$s You have %1$u tries left"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:127
+#, c-format
+msgid "You have %u try left"
+msgid_plural "You have %u tries left"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Set up the dialog
+#: plugins/wwan/gsd-wwan-pinentry.c:173 plugins/wwan/gsd-wwan-pinentry.c:175
+msgid "SIM card unlock error"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:174
+msgid "OK"
+msgstr ""
+
+#. TODO: handle PUK as well
+#: plugins/wwan/gsd-wwan-pinentry.c:194
+msgid "Too many incorrect PINs."
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:200
+msgid "Wrong PIN code"
+msgstr ""
+
+#~ msgid "NumLock state"
+#~ msgstr "Status NumLock"
+
+#~ msgid "The remembered state of the NumLock LED."
+#~ msgstr "De onthouden status van het NumLock-led."
 
 #~ msgid ""
 #~ "Highlights the current location of the pointer when the Control key is "

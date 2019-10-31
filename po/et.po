@@ -16,9 +16,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GNOME Settings Daemon MASTER\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-settings-daemon/"
-"issues\n"
-"POT-Creation-Date: 2018-08-03 15:18+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-31 11:30+0000\n"
 "PO-Revision-Date: 2018-09-02 01:12+0300\n"
 "Last-Translator: Mart Raudsepp <leio@gentoo.org>\n"
 "Language-Team: Estonian <>\n"
@@ -43,48 +42,75 @@ msgstr ""
 "või „force-logout“ (väljalogimise sundimine). See tegevus käivitatakse "
 "sisselogimiseks kasutatud smartcardi eemaldamisel."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:52
-msgid ""
-"Highlights the current location of the pointer when the Control key is "
-"pressed and released."
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:25
+msgid "Possible values are “on”, “off”, and “custom”."
 msgstr ""
-"Näitab hiirekursori asukohta, kui Control klahv alla vajutatakse ning "
-"vabastatakse."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:56
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:35
+msgid "Keyboard Bell Custom Filename"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:36
+msgid "File name of the bell sound to be played."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:42
 msgid "Double click time"
 msgstr "Topeltklõpsu kestus"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:57
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:43
 msgid "Length of a double click in milliseconds."
 msgstr "Topeltklõpsu kestus millisekundites."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:61
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:47
 msgid "Drag threshold"
 msgstr "Lohistamise lävi"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:62
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:48
 msgid "Distance before a drag is started."
 msgstr "Lohistamise alustamiseks vajalik vahemaa."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:68
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:54
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
 msgstr "Kas tahvelarvuti suund on lukus või pöördub automaatselt."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:76
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:62
 msgid "Mouse button orientation"
 msgstr "Hiireklahvi orientatsioon"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:86
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:148
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:63
+msgid "Swap left and right mouse buttons for left-handed mice."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:67
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:134
+msgid "Single Click"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:68
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:135
+msgid ""
+"Acceleration multiplier for mouse motion. A value of -1 is the system "
+"default."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:72
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:139
 msgid "Motion Threshold"
 msgstr "Liikumise lävi"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:91
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:73
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:140
+msgid ""
+"Distance in pixels the pointer must move before accelerated mouse motion is "
+"activated. A value of -1 is the system default."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:77
 msgid "Middle button emulation"
 msgstr "Keskmise nupu emulatsioon"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:92
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:78
 msgid ""
 "Enables middle mouse button emulation through simultaneous left and right "
 "button click."
@@ -92,27 +118,37 @@ msgstr ""
 "Keskmise nupu emulatsiooni lubamine samaaegsel vasaku ja parema nupu "
 "vajutamisel."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:101
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:87
 msgid "Key Repeat Interval"
 msgstr "Klahvikorduse intervall"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:102
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:88
 msgid "Delay between repeats in milliseconds."
 msgstr "Korduste viide millisekundites."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:106
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:92
 msgid "Initial Key Repeat Delay"
 msgstr "Esialgne klahvikorduse viide"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:107
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:93
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Esialgne klahvikorduse viide millisekundites."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:113
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:97
+msgid "Remember NumLock state"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:98
+msgid ""
+"When set to true, GNOME will remember the state of the NumLock LED between "
+"sessions."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:104
 msgid "Disable touchpad while typing"
 msgstr "Puuteplaadi keelamine tippimise ajaks"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:114
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:105
 msgid ""
 "Set this to TRUE if you have problems with accidentally hitting the touchpad "
 "while typing."
@@ -120,11 +156,11 @@ msgstr ""
 "Märgi see väärtus juhul, kui sind segab, et sa tippimise ajal kogemata "
 "puuteplaati puudutad."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:118
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:109
 msgid "Enable horizontal scrolling"
 msgstr "Rõhtsa kerimise lubamine"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:119
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:110
 msgid ""
 "Set this to TRUE to allow horizontal scrolling by the same method selected "
 "with the scroll_method key."
@@ -132,11 +168,11 @@ msgstr ""
 "Kui märgitud, siis on rõhtne kerimine lubatud scroll_method võtmega määratud "
 "moel."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:123
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:114
 msgid "Select the touchpad scroll method"
 msgstr "Puuteplaadi kerimismeetodi valimine"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:124
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:115
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
@@ -145,36 +181,46 @@ msgstr ""
 "„edge-scrolling“ (kerimine servalt) ja „two-finger-scrolling“ (kahe sõrmega "
 "kerimine)."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:128
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:119
 msgid "Enable mouse clicks with touchpad"
 msgstr "Hiireklõpsude lubamine puuteplaadilt"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:129
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:120
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
 "Kui märgitud, siis tõlgendatakse puuteplaadil toksimist hiireklõpsudena."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:133
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:124
 msgid "Enable touchpad"
 msgstr "Puuteplaadi lubamine"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:134
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:125
 msgid "Set this to TRUE to enable all touchpads."
 msgstr "Kui märgitud, siis on kõik puuteplaadid lubatud."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:138
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:129
 msgid "Touchpad button orientation"
 msgstr "Puuteplaadi nupu orientatsioon"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:153
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:130
+msgid ""
+"Swap left and right mouse buttons for left-handed mice with “left”, “right” "
+"for right-handed, “mouse” to follow the mouse setting."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:144
 msgid "Natural scrolling"
 msgstr "Loomulik kerimine"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:154
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:145
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Kui märgitud, siis on loomulik (pööratud) kerimine puuteplaatidel lubatud."
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:152
+msgid "Mouse wheel emulation button. 0 to disable the feature."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:10
 msgid "Wacom stylus absolute mode"
@@ -312,6 +358,16 @@ msgstr ""
 "Klaviatuuri klahviseos, mis genereeritakse, kui puuteringi või puuteriba "
 "kasutatakse kohandatud tegevuste jaoks (üles, siis alla)."
 
+#. Translators: This is the OLED display on an Intuos4 tablet:
+#. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:88
+msgid "Button label for OLED display."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:89
+msgid "Label will be rendered to OLED display belonging to the button"
+msgstr ""
+
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:6
 msgid "The duration a display profile is valid"
 msgstr "Kui kaua monitori profiil kehtib"
@@ -332,13 +388,70 @@ msgid ""
 "considered invalid."
 msgstr "Nii mitme päeva pärast loetakse printeri profiil aegunuks."
 
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:16
+msgid "If the night light mode is enabled"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:17
+msgid ""
+"Night light mode changes the color temperature of your display when the sun "
+"has gone down or at preset times."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
+msgid "Temperature of the display when enabled"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:22
+msgid ""
+"This temperature in Kelvin is used to modify the screen tones when night "
+"light mode is enabled. Higher values are bluer, lower redder."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:26
+msgid "Use the sunrise and sunset"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:27
+msgid ""
+"Calculate the sunrise and sunset times automatically, from the current "
+"location."
+msgstr ""
+
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:31
 msgid "The start time"
 msgstr "Käivitusaeg"
 
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:32
+msgid ""
+"When “night-light-schedule-automatic” is disabled, use this start time in "
+"hours from midnight."
+msgstr ""
+
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:36
 msgid "The end time"
 msgstr "Lõpuaeg"
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:37
+msgid ""
+"When “night-light-schedule-automatic” is disabled, use this end time in "
+"hours from midnight."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:41
+msgid "The last detected position"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:42
+msgid ""
+"When location services are available this represents the last detected "
+"location. The default value is an invalid value to ensure it is always "
+"updated at startup."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.gschema.xml.in:6
+msgid "List of plugins that are allowed to be loaded"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.gschema.xml.in:7
 msgid ""
@@ -404,320 +517,963 @@ msgstr ""
 "määratud vahemik."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:6
-msgid "Custom keybindings"
-msgstr "Kohandatud kiirklahvid"
-
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:7
-msgid "List of custom keybindings"
-msgstr "Kohandatud kiirklahvide loend"
-
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:11
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:189
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:510
 msgid "Launch calculator"
 msgstr "Kalkulaatori käivitamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:12
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:7
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:190
 msgid "Binding to launch the calculator."
 msgstr "Klahviseos kalkulaatori käivitamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:16
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:11
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:194
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:515
 msgid "Launch settings"
 msgstr "Käivituse sätted"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:17
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:12
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:195
 msgid "Binding to launch GNOME settings."
 msgstr "Klahviseos GNOME seadete käivitamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:21
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:16
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:199
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:520
 msgid "Launch email client"
 msgstr "E-posti kliendi käivitamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:22
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:17
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:200
 msgid "Binding to launch the email client."
 msgstr "Klahviseos e-posti kliendi käivitamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:26
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:21
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:204
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:525
 msgid "Eject"
 msgstr "Sahtli lahtilükkamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:27
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:22
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:205
 msgid "Binding to eject an optical disc."
 msgstr "Klahviseos optilise ketta väljastamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:31
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:26
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:209
 msgid "Launch help browser"
 msgstr "Abiteabe sirvija käivitamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:32
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:27
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:210
 msgid "Binding to launch the help browser."
 msgstr "Klahviseos abiteabe sirvija käivitamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:36
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:31
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:214
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:530
 msgid "Home folder"
 msgstr "Kodukataloog"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:37
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:32
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:215
 msgid "Binding to open the Home folder."
 msgstr "Klahviseos kodukataloogi avamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:41
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:36
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:219
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:535
 msgid "Launch media player"
 msgstr "Meediaesitaja käivitamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:42
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:37
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:220
 msgid "Binding to launch the media player."
 msgstr "Klahviseos meediaesitaja käivitamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:46
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:41
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:224
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:540
 msgid "Next track"
 msgstr "Järgmisele loole hüppamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:47
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:42
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:225
 msgid "Binding to skip to next track."
 msgstr "Klahviseos järgmise loo peale hüppamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:51
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:46
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:229
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:545
 msgid "Pause playback"
 msgstr "Esitamise paus"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:52
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:47
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:230
 msgid "Binding to pause playback."
 msgstr "Klahviseos meediaesituse pausimiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:56
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:51
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:234
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:550
 msgid "Play (or play/pause)"
 msgstr "Esitamine (või esitamine/paus)"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:57
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:52
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:235
 msgid "Binding to start playback (or toggle play/pause)."
 msgstr "Klahviseos esitamise alustamiseks (või esitamiseks/pausimiseks)"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:61
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:56
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:239
 msgid "Log out"
 msgstr "Väljalogimine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:62
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:57
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:240
 msgid "Binding to log out."
 msgstr "Klahviseos väljalogimiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:66
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:61
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:244
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:555
 msgid "Previous track"
 msgstr "Eelmisele loole hüppamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:67
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:62
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:245
 msgid "Binding to skip to previous track."
 msgstr "Klahviseos eelmise loo peale hüppamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:71
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:66
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:249
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:560
 msgid "Lock screen"
 msgstr "Ekraani lukustamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:72
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:67
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:250
 msgid "Binding to lock the screen."
 msgstr "Klahviseos ekraani lukustamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:76
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:71
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:254
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:565
 msgid "Search"
 msgstr "Otsing"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:77
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:72
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:255
 msgid "Binding to launch the search tool."
 msgstr "Klahviseos otsinguvahendi käivitamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:81
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:76
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:259
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:570
 msgid "Stop playback"
 msgstr "Esitamise lõpetamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:82
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:77
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:260
 msgid "Binding to stop playback."
 msgstr "Klahviseos meediaesituse seiskamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:86
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:81
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:266
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:577
 msgid "Volume down"
 msgstr "Heli vaiksemaks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:82
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:267
 msgid "Binding to lower the volume."
 msgstr "Klahviseos helivaljuse vähendamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:86
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:271
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:582
 msgid "Volume mute/unmute"
 msgstr "Heli tummaks/kuuldavaks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:272
 msgid "Binding to mute/unmute the volume."
 msgstr "Klahviseos tummaks/kuuldavaks tegemiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:276
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:587
 msgid "Volume up"
 msgstr "Heli valjemaks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:277
 msgid "Binding to raise the volume."
 msgstr "Klahviseos helivaljuse suurendamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:311
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:622
 msgid "Microphone mute/unmute"
 msgstr "Mikrofon tummaks/kuuldavaks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:312
 msgid "Binding to mute/unmute the microphone."
 msgstr "Klahviseos mikrofoni tummaks/kuuldavaks tegemiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:316
 msgid "Take a screenshot"
 msgstr "Kuvatõmmise tegemine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:107
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:317
 msgid "Binding to take a screenshot."
 msgstr "Klahviseos kuvatõmmise tegemiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:111
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:321
 msgid "Take a screenshot of a window"
 msgstr "Kuvatõmmise tegemine aknast"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:112
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:107
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:322
 msgid "Binding to take a screenshot of a window."
 msgstr "Klahviseos aknast kuvatõmmise tegemiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:116
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:111
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:326
 msgid "Take a screenshot of an area"
 msgstr "Kuvatõmmise tegemine alast"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:117
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:112
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:327
 msgid "Binding to take a screenshot of an area."
 msgstr "Klahviseos alast kuvatõmmise tegemiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:121
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:116
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:331
 msgid "Copy a screenshot to clipboard"
 msgstr "Kuvatõmmise kopeerimine lõikepuhvrisse"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:122
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:117
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:332
 msgid "Binding to copy a screenshot to clipboard."
 msgstr "Klahviseos kuvatõmmise kopeerimiseks lõikepuhvrisse."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:126
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:121
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:336
 msgid "Copy a screenshot of a window to clipboard"
 msgstr "Akna kuvatõmmise kopeerimine lõikepuhvrisse"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:127
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:122
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:337
 msgid "Binding to copy a screenshot of a window to clipboard."
 msgstr "Klahviseos akna kuvatõmmise kopeerimiseks lõikepuhvrisse."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:131
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:126
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:341
 msgid "Copy a screenshot of an area to clipboard"
 msgstr "Ala kuvatõmmise kopeerimine lõikepuhvrisse"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:132
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:127
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:342
 msgid "Binding to copy a screenshot of an area to clipboard."
 msgstr "Klahviseos ala kuvatõmmise kopeerimiseks lõikepuhvrisse."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:136
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:131
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:346
 msgid "Record a short video of the screen"
 msgstr "Salvesta ekraanist lühike video"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:137
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:132
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:347
 msgid "Binding to record a short video of the screen"
 msgstr "Klahviseos ekraanist lühikese video salvestamiseks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:141
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:136
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:351
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:627
 msgid "Launch web browser"
 msgstr "Veebisirvija käivitamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:142
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:137
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:352
 msgid "Binding to launch the web browser."
 msgstr "Klahviseos veebisirvija käivitamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:146
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:141
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:381
 msgid "Toggle magnifier"
 msgstr "Ekraaniluup sisse/välja"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:147
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:142
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:382
 msgid "Binding to show the screen magnifier"
 msgstr "Klahviseos ekraaniluubi näitamiseks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:151
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:146
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:356
 msgid "Toggle screen reader"
 msgstr "Ekraanilugeja sisse/välja"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:152
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:147
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:357
 msgid "Binding to start the screen reader"
 msgstr "Klahviseos ekraanilugeja käivitamiseks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:156
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:151
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:361
 msgid "Toggle on-screen keyboard"
 msgstr "Ekraaniklaviatuur sisse/välja"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:157
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:152
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:362
 msgid "Binding to show the on-screen keyboard"
 msgstr "Klahviseos ekraaniklaviatuuri näitamiseks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:161
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:156
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:366
 msgid "Increase text size"
 msgstr "Teksti suurendamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:162
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:157
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:367
 msgid "Binding to increase the text size"
 msgstr "Klahviseos teksti suuruse suurendamiseks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:166
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:161
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:371
 msgid "Decrease text size"
 msgstr "Teksti vähendamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:167
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:162
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:372
 msgid "Binding to decrease the text size"
 msgstr "Klahviseos teksti suuruse vähendamiseks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:171
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:166
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:376
 msgid "Toggle contrast"
 msgstr "Kontrastsuse lülitamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:172
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:167
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:377
 msgid "Binding to toggle the interface contrast"
 msgstr "Klahviseos kasutajaliidese kontrastsuse lülitamiseks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:176
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:171
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:386
 msgid "Magnifier zoom in"
 msgstr "Luubi suurendus suuremaks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:177
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:172
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:387
 msgid "Binding for the magnifier to zoom in"
 msgstr "Klahviseos ekraaniluubi suurenduse suurendamiseks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:181
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:176
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:391
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:633
 msgid "Magnifier zoom out"
 msgstr "Luubi suurendus väiksemaks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:182
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:177
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:392
 msgid "Binding for the magnifier to zoom out"
 msgstr "Klahviseos ekraaniluubi suurenduse vähendamiseks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:194
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:184
+msgid "Custom keybindings"
+msgstr "Kohandatud kiirklahvid"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:185
+msgid "List of custom keybindings"
+msgstr "Kohandatud kiirklahvide loend"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:283
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:594
+#, fuzzy
+msgid "Quiet volume down"
+msgstr "Heli vaiksemaks heliefektita"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:284
+#, fuzzy
+msgid "Binding to lower the volume without emitting a sound effect."
+msgstr "Klahviseos helivaljuse vähendamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:288
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:599
+#, fuzzy
+msgid "Quiet volume mute/unmute"
+msgstr "Heli tummaks/kuuldavaks"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:289
+#, fuzzy
+msgid "Binding to mute/unmute the volume without emitting a sound effect."
+msgstr "Klahviseos tummaks/kuuldavaks tegemiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:293
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:604
+#, fuzzy
+msgid "Quiet volume up"
+msgstr "Vaikne heli valjemaks"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:294
+#, fuzzy
+msgid "Binding to raise the volume without emitting a sound effect."
+msgstr "Klahviseos helivaljuse suurendamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:300
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:611
+#, fuzzy
+msgid "Precise volume down"
+msgstr "Heli vaiksemaks vähehaaval"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:301
+#, fuzzy
+msgid "Binding to lower the volume with higher precision."
+msgstr "Klahviseos helivaljuse vähendamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:305
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:616
+#, fuzzy
+msgid "Precise volume up"
+msgstr "Heli valjemaks vähehaaval"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:306
+#, fuzzy
+msgid "Binding to raise the volume with higher precision."
+msgstr "Klahviseos helivaljuse suurendamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:396
+#, fuzzy
+msgid "Toggle touchpad on/off"
+msgstr "Puuteplaat välja"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:397
+#, fuzzy
+msgid "Binding to toggle the touchpad on/off."
+msgstr "Klahviseos kasutajaliidese kontrastsuse lülitamiseks"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:401
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:638
+#, fuzzy
+msgid "Switch touchpad on"
+msgstr "Puuteplaat sisse"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:402
+#, fuzzy
+msgid "Binding to switch the touchpad on."
+msgstr "Klahviseos otsinguvahendi käivitamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:406
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:643
+#, fuzzy
+msgid "Switch touchpad off"
+msgstr "Puuteplaat välja"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:407
+#, fuzzy
+msgid "Binding to switch the touchpad off."
+msgstr "Klahviseos otsinguvahendi käivitamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:412
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:649
+msgid "Skip backward in current track"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:413
+#, fuzzy
+msgid "Binding to skip backward in current track."
+msgstr "Klahviseos järgmise loo peale hüppamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:417
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:654
+msgid "Skip forward in current track"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:418
+#, fuzzy
+msgid "Binding to skip forward in current track."
+msgstr "Klahviseos järgmise loo peale hüppamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:422
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:659
+#, fuzzy
+msgid "Toggle repeat playback mode"
+msgstr "Lennurežiimi lülitamine"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:423
+#, fuzzy
+msgid "Binding to toggle repeat mode in media player."
+msgstr "Klahviseos meediaesitaja käivitamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:427
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:664
+#, fuzzy
+msgid "Toggle random playback mode"
+msgstr "Lennurežiimi lülitamine"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:428
+#, fuzzy
+msgid "Binding to toggle random playback mode in media player."
+msgstr "Klahviseos meediaesitaja käivitamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:433
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:670
+#, fuzzy
+msgid "Toggle automatic screen orientation"
+msgstr "Hiireklahvi orientatsioon"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:434
+#, fuzzy
+msgid "Binding to toggle automatic screen orientation."
+msgstr "Klahviseos kuvatõmmise tegemiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:438
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:675
+#, fuzzy
+msgid "Power button"
+msgstr "Toitenupu tegevus"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:439
+#, fuzzy
+msgid "Binding for power button."
+msgstr "Klahviseos väljalogimiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:443
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:680
+#, fuzzy
+msgid "Hibernate button"
+msgstr "Talveuni"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:444
+#, fuzzy
+msgid "Binding to hibernate the machine."
+msgstr "Klahviseos mikrofoni tummaks/kuuldavaks tegemiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:448
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:685
+#, fuzzy
+msgid "Suspend button"
+msgstr "Uinak"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:449
+#, fuzzy
+msgid "Binding to suspend the machine."
+msgstr "Klahviseos e-posti kliendi käivitamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:454
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:691
+#, fuzzy
+msgid "Screen brightness up"
+msgstr "Suurenda heledust"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:455
+#, fuzzy
+msgid "Binding to increase the screen brightness."
+msgstr "Klahviseos teksti suuruse suurendamiseks"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:459
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:696
+#, fuzzy
+msgid "Screen brightness down"
+msgstr "Vähenda heledust"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:460
+#, fuzzy
+msgid "Binding to decrease the screen brightness."
+msgstr "Klahviseos teksti suuruse vähendamiseks"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:464
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:701
+msgid "Screen brightness cycle"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:465
+#, fuzzy
+msgid "Binding to cycle the screen brightness."
+msgstr "Klahviseos ekraani lukustamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:470
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:707
+#, fuzzy
+msgid "Keyboard brightness up"
+msgstr "Klaviatuuri valgustus tugevamaks"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:471
+#, fuzzy
+msgid "Binding to increase the keyboard brightness."
+msgstr "Klahviseos teksti suuruse suurendamiseks"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:475
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:712
+#, fuzzy
+msgid "Keyboard brightness down"
+msgstr "Klaviatuuri valgustus nõrgemaks"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:476
+#, fuzzy
+msgid "Binding to decrease the keyboard brightness."
+msgstr "Klahviseos teksti suuruse vähendamiseks"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:480
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:717
+#, fuzzy
+msgid "Keyboard brightness toggle"
+msgstr "Klaviatuuri valgustuse lülitamine"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:481
+#, fuzzy
+msgid "Binding to toggle the keyboard brightness."
+msgstr "Klahviseos kasutajaliidese kontrastsuse lülitamiseks"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:486
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:723
+#, fuzzy
+msgid "Show battery status"
+msgstr "Aku olek"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:487
+#, fuzzy
+msgid "Binding to show current battery status."
+msgstr "Klahviseos ekraaniluubi näitamiseks"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:492
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:729
+msgid "RF kill"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:493
+#, fuzzy
+msgid "Binding to toggle airplane mode."
+msgstr "Klahviseos kasutajaliidese kontrastsuse lülitamiseks"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:497
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:734
+#, fuzzy
+msgid "Bluetooth RF kill"
+msgstr "Bluetooth keelatud"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:498
+#, fuzzy
+msgid "Binding to toggle bluetooth airplane mode."
+msgstr "Klahviseos kasutajaliidese kontrastsuse lülitamiseks"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:511
+#, fuzzy
+msgid "Static binding to launch the calculator."
+msgstr "Klahviseos kalkulaatori käivitamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:516
+#, fuzzy
+msgid "Static binding to launch GNOME settings."
+msgstr "Klahviseos GNOME seadete käivitamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:521
+#, fuzzy
+msgid "Static binding to launch the email client."
+msgstr "Klahviseos e-posti kliendi käivitamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:526
+#, fuzzy
+msgid "Static binding to eject an optical disc."
+msgstr "Klahviseos optilise ketta väljastamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:531
+#, fuzzy
+msgid "Static binding to open the Home folder."
+msgstr "Klahviseos kodukataloogi avamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:536
+#, fuzzy
+msgid "Static binding to launch the media player."
+msgstr "Klahviseos meediaesitaja käivitamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:541
+#, fuzzy
+msgid "Static binding to skip to next track."
+msgstr "Klahviseos järgmise loo peale hüppamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:546
+#, fuzzy
+msgid "Static binding to pause playback."
+msgstr "Klahviseos meediaesituse pausimiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:551
+#, fuzzy
+msgid "Static binding to start playback (or toggle play/pause)."
+msgstr "Klahviseos esitamise alustamiseks (või esitamiseks/pausimiseks)"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:556
+#, fuzzy
+msgid "Static binding to skip to previous track."
+msgstr "Klahviseos eelmise loo peale hüppamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:561
+#, fuzzy
+msgid "Static binding to lock the screen."
+msgstr "Klahviseos ekraani lukustamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:566
+#, fuzzy
+msgid "Static binding to launch the search tool."
+msgstr "Klahviseos otsinguvahendi käivitamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:571
+#, fuzzy
+msgid "Static binding to stop playback."
+msgstr "Klahviseos meediaesituse seiskamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:578
+#, fuzzy
+msgid "Static binding to lower the volume."
+msgstr "Klahviseos helivaljuse vähendamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:583
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:600
+#, fuzzy
+msgid "Static binding to mute/unmute the volume."
+msgstr "Klahviseos tummaks/kuuldavaks tegemiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:588
+#, fuzzy
+msgid "Static binding to raise the volume."
+msgstr "Klahviseos helivaljuse suurendamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:595
+msgid "Static binding to lower the volume without emitting a sound effect."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:605
+msgid "Static binding to raise the volume without emitting a sound effect."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:612
+#, fuzzy
+msgid "Static binding to lower the volume with higher precision."
+msgstr "Klahviseos helivaljuse vähendamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:617
+#, fuzzy
+msgid "Static binding to raise the volume with higher precision."
+msgstr "Klahviseos helivaljuse suurendamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:623
+#, fuzzy
+msgid "Static binding to mute/unmute the microphone."
+msgstr "Klahviseos mikrofoni tummaks/kuuldavaks tegemiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:628
+#, fuzzy
+msgid "Static binding to launch the web browser."
+msgstr "Klahviseos veebisirvija käivitamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:634
+#, fuzzy
+msgid "Static binding to toggle the touchpad on/off."
+msgstr "Klahviseos kasutajaliidese kontrastsuse lülitamiseks"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:639
+msgid "Static binding to switch the touchpad on."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:644
+msgid "Static binding to switch the touchpad off."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:650
+#, fuzzy
+msgid "Static binding to skip backward in current track."
+msgstr "Klahviseos järgmise loo peale hüppamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:655
+#, fuzzy
+msgid "Static binding to skip forward in current track."
+msgstr "Klahviseos järgmise loo peale hüppamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:660
+#, fuzzy
+msgid "Static binding to toggle repeat mode in media player."
+msgstr "Klahviseos meediaesitaja käivitamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:665
+#, fuzzy
+msgid "Static binding to toggle random playback mode in media player."
+msgstr "Klahviseos meediaesitaja käivitamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:671
+msgid "Static binding to toggle automatic screen orientation."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:676
+msgid "Static binding for power button."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:681
+#, fuzzy
+msgid "Static binding to hibernate the machine."
+msgstr "Klahviseos mikrofoni tummaks/kuuldavaks tegemiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:686
+#, fuzzy
+msgid "Static binding to suspend the machine."
+msgstr "Klahviseos mikrofoni tummaks/kuuldavaks tegemiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:692
+#, fuzzy
+msgid "Static binding to increase the screen brightness."
+msgstr "Klahviseos teksti suuruse suurendamiseks"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:697
+#, fuzzy
+msgid "Static binding to decrease the screen brightness."
+msgstr "Klahviseos teksti suuruse vähendamiseks"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:702
+#, fuzzy
+msgid "Static binding to cycle the screen brightness."
+msgstr "Klahviseos ekraani lukustamiseks."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:708
+#, fuzzy
+msgid "Static binding to increase the keyboard brightness."
+msgstr "Klahviseos teksti suuruse suurendamiseks"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:713
+#, fuzzy
+msgid "Static binding to decrease the keyboard brightness."
+msgstr "Klahviseos teksti suuruse vähendamiseks"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:718
+msgid "Static binding to toggle the keyboard brightness."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:724
+msgid "Static binding to show current battery status."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:730
+msgid "Static binding to toggle airplane mode."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:735
+msgid "Static binding to toggle bluetooth airplane mode."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:740
+msgid "Maximum length of screen recordings"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:741
+msgid ""
+"The maximum length of single screen cast recordings in seconds or 0 for "
+"unlimited"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:748
 msgid "Name"
 msgstr "Nimi"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:195
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:749
 msgid "Name of the custom binding"
 msgstr "Kohandatud kiirklahvi nimi"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:199
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:753
 msgid "Binding"
 msgstr "Seos"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:200
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:754
 msgid "Binding for the custom binding"
 msgstr "Kohandatud seose klahviseos"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:204
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:758
 msgid "Command"
 msgstr "Käsk"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:205
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:759
 msgid "Command to run when the binding is invoked"
 msgstr "Klahvikombinatsiooni vajutamisel käivitatav käsk"
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:6
+msgid "The brightness of the screen when idle"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:7
+msgid ""
+"This is the laptop panel screen brightness used when the session is idle."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:11
+msgid "Dim the screen after a period of inactivity"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:12
+msgid "If the screen should be dimmed to save power when the computer is idle."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:16
+msgid "Sleep timeout computer when on AC"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:17
+msgid ""
+"The amount of time in seconds the computer on AC power needs to be inactive "
+"before it goes to sleep. A value of 0 means never."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:21
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:31
+msgid "Whether to hibernate, suspend or do nothing when inactive"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:22
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:32
+msgid ""
+"The type of sleeping that should be performed when the computer is inactive."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:26
+msgid "Sleep timeout computer when on battery"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:27
+msgid ""
+"The amount of time in seconds the computer on battery power needs to be "
+"inactive before it goes to sleep. A value of 0 means never."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:36
+msgid "Enable the ALS sensor"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:37
+msgid "If the ambient light sensor functionality is enabled."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:41
 msgid "Power button action"
 msgstr "Toitenupu tegevus"
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:42
+msgid ""
+"The action to take when the system power button is pressed. This action is "
+"hard-coded (and the setting ignored) on virtual machines (power off) and "
+"tablets (suspend)."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:6
+msgid "On which connections the service is enabled"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:7
+msgid ""
+"The list of NetworkManager connections (each one represented with its UUID) "
+"on which this service is enabled and started."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:6
 msgid "Antialiasing"
@@ -737,6 +1493,20 @@ msgstr ""
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:11
 msgid "Hinting"
 msgstr "Varjundamine"
+
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:12
+msgid ""
+"The type of hinting to use when rendering fonts. Possible values are: “none” "
+"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
+"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"Ignores native hinting within the font, generates hints algorithmically. "
+"Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
+"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
+"rendering depending on the quality of the font, the font format and the "
+"state of FreeType’s font engines."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:16
 msgid "RGBA order"
@@ -777,7 +1547,18 @@ msgstr ""
 "Sõnede loend GTK+ laaditavatest moodulitest. Tavaliselt lisaks "
 "tingimuslikult ning selgesõnaliselt keelatud moodulitele."
 
-#: plugins/color/gsd-color-calibrate.c:139
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:31
+msgid "A dictionary of XSETTINGS to override"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:32
+msgid ""
+"This dictionary maps XSETTINGS names to overrides values. The values must be "
+"either strings, signed int32s or (in the case of colors), 4-tuples of uint16 "
+"(red, green, blue, alpha; 65535 is fully opaque)."
+msgstr ""
+
+#: plugins/color/gsd-color-calibrate.c:138
 msgid "Color"
 msgstr "Värv"
 
@@ -787,35 +1568,35 @@ msgid "Recalibrate now"
 msgstr "Kalibreeri kohe uuesti"
 
 #. TRANSLATORS: this is when the device has not been recalibrated in a while
-#: plugins/color/gsd-color-calibrate.c:187
+#: plugins/color/gsd-color-calibrate.c:186
 msgid "Recalibration required"
 msgstr "Vajalik on uuesti kalibreerimine"
 
 #. TRANSLATORS: this is when the display has not been recalibrated in a while
-#: plugins/color/gsd-color-calibrate.c:199
+#: plugins/color/gsd-color-calibrate.c:198
 #, c-format
 msgid "The display “%s” should be recalibrated soon."
 msgstr "Kuva „%s“ tuleks varsti uuesti kalibreerida."
 
 #. TRANSLATORS: this is when the printer has not been recalibrated in a while
-#: plugins/color/gsd-color-calibrate.c:208
+#: plugins/color/gsd-color-calibrate.c:207
 #, c-format
 msgid "The printer “%s” should be recalibrated soon."
 msgstr "Printerit „%s“ tuleks varsti uuesti kalibreerida."
 
 #. TRANSLATORS: this is the application name
-#: plugins/color/gsd-color-calibrate.c:346
-#: plugins/color/gsd-color-calibrate.c:362
+#: plugins/color/gsd-color-calibrate.c:345
+#: plugins/color/gsd-color-calibrate.c:361
 msgid "GNOME Settings Daemon Color Plugin"
 msgstr "GNOME sätetedeemoni värviplugin"
 
 #. TRANSLATORS: this is a sound description
-#: plugins/color/gsd-color-calibrate.c:348
+#: plugins/color/gsd-color-calibrate.c:347
 msgid "Color calibration device added"
 msgstr "Värvide kalibreerimise seade lisatud"
 
 #. TRANSLATORS: this is a sound description
-#: plugins/color/gsd-color-calibrate.c:364
+#: plugins/color/gsd-color-calibrate.c:363
 msgid "Color calibration device removed"
 msgstr "Värvide kalibreerimise seade eemaldatud"
 
@@ -838,28 +1619,48 @@ msgstr "Seaded"
 msgid "Date & Time Settings"
 msgstr "Kuupäeva ja kellaaja seaded"
 
-#: plugins/housekeeping/gsd-disk-space.c:574
-msgid "Disk space"
+#: plugins/housekeeping/gsd-disk-space.c:578
+#, fuzzy
+msgid "Disk Space"
 msgstr "Kettaruum"
 
-#: plugins/housekeeping/gsd-disk-space.c:586
+#: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
 msgstr "Uuri olukorda"
 
-#: plugins/housekeeping/gsd-disk-space.c:597
+#: plugins/housekeeping/gsd-disk-space.c:602
 msgid "Empty Trash"
 msgstr "Tühjenda prügikast"
 
-#: plugins/housekeeping/gsd-disk-space.c:605
+#: plugins/housekeeping/gsd-disk-space.c:610
 msgid "Ignore"
 msgstr "Eira"
 
-#: plugins/housekeeping/gsd-disk-space.c:636
+#: plugins/housekeeping/gsd-disk-space.c:644
+#: plugins/housekeeping/gsd-disk-space.c:684
+msgid "Low Disk Space"
+msgstr "Kettal on vähe ruumi"
+
+#: plugins/housekeeping/gsd-disk-space.c:646
+#, fuzzy
+msgid ""
+"Your computer is out of space.  You may free up some space by emptying the "
+"trash."
+msgstr ""
+"Sellel arvutil on ainult %s vaba kettaruumi.  Prügikasti tühjendamisega on "
+"võimalik veidi vaba ruumi juurde tekitada."
+
+#: plugins/housekeeping/gsd-disk-space.c:648
+#, fuzzy
+msgid "Your computer is out of space."
+msgstr "Printeril „%s“ on paber otsas."
+
+#: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
 msgstr "Kettal „%s“ on vähe ruumi"
 
-#: plugins/housekeeping/gsd-disk-space.c:638
+#: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
@@ -868,16 +1669,12 @@ msgstr ""
 "Köitel „%s“ on ainult %s vaba kettaruumi.  Prügikasti tühjendamisega on "
 "võimalik veidi vaba ruumi juurde tekitada."
 
-#: plugins/housekeeping/gsd-disk-space.c:642
+#: plugins/housekeeping/gsd-disk-space.c:679
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
 msgstr "Köitel „%s“ on ainult %s vaba kettaruumi."
 
-#: plugins/housekeeping/gsd-disk-space.c:647
-msgid "Low Disk Space"
-msgstr "Kettal on vähe ruumi"
-
-#: plugins/housekeeping/gsd-disk-space.c:649
+#: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
@@ -886,35 +1683,35 @@ msgstr ""
 "Sellel arvutil on ainult %s vaba kettaruumi.  Prügikasti tühjendamisega on "
 "võimalik veidi vaba ruumi juurde tekitada."
 
-#: plugins/housekeeping/gsd-disk-space.c:652
+#: plugins/housekeeping/gsd-disk-space.c:689
 #, c-format
 msgid "This computer has only %s disk space remaining."
 msgstr "Sellel arvutil on ainult %s vaba kettaruumi."
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2266
+#: plugins/media-keys/gsd-media-keys-manager.c:2439
 msgid "Bluetooth disabled"
 msgstr "Bluetooth keelatud"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2269
+#: plugins/media-keys/gsd-media-keys-manager.c:2442
 msgid "Bluetooth enabled"
 msgstr "Bluetooth lubatud"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2273
+#: plugins/media-keys/gsd-media-keys-manager.c:2446
 msgid "Airplane mode enabled"
 msgstr "Lennurežiim lubatud"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2276
+#: plugins/media-keys/gsd-media-keys-manager.c:2449
 msgid "Airplane mode disabled"
 msgstr "Lennurežiim keelatud"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2304
+#: plugins/media-keys/gsd-media-keys-manager.c:2478
 msgid "Hardware Airplane Mode"
 msgstr "Riistvaraline lennurežiim"
 
 #. Translators: this is a filename used for screencast
 #. * recording, where "%d" and "%t" date and time, e.g.
 #. * "Screencast from 07-17-2013 10:00:46 PM.webm"
-#: plugins/media-keys/gsd-media-keys-manager.c:2364
+#: plugins/media-keys/gsd-media-keys-manager.c:2541
 #, no-c-format
 msgid "Screencast from %d %t.webm"
 msgstr "Ekraanivideo %d %t.webm"
@@ -935,131 +1732,18 @@ msgstr "Kuvatõmmis tehtud"
 msgid "Screenshot from %s"
 msgstr "Kuvatõmmis %s"
 
-#: plugins/media-keys/shortcuts-list.h:45
-#: plugins/media-keys/shortcuts-list.h:46
-msgid "Touchpad toggle"
-msgstr "Puuteplaadi lülitamine"
-
-#: plugins/media-keys/shortcuts-list.h:47
-msgid "Touchpad On"
-msgstr "Puuteplaat sisse"
-
-#: plugins/media-keys/shortcuts-list.h:48
-msgid "Touchpad Off"
-msgstr "Puuteplaat välja"
-
-#: plugins/media-keys/shortcuts-list.h:53
-msgid "Quiet Volume Mute"
-msgstr "Heli tummaks heliefektita"
-
-#: plugins/media-keys/shortcuts-list.h:54
-msgid "Quiet Volume Down"
-msgstr "Heli vaiksemaks heliefektita"
-
-#: plugins/media-keys/shortcuts-list.h:55
-msgid "Quiet Volume Up"
-msgstr "Vaikne heli valjemaks"
-
-#: plugins/media-keys/shortcuts-list.h:56
-msgid "Precise Volume Down"
-msgstr "Heli vaiksemaks vähehaaval"
-
-#: plugins/media-keys/shortcuts-list.h:57
-msgid "Precise Volume Up"
-msgstr "Heli valjemaks vähehaaval"
-
-#: plugins/media-keys/shortcuts-list.h:67
-msgid "Lock Screen"
-msgstr "Ekraani lukustamine"
-
-#: plugins/media-keys/shortcuts-list.h:69
-msgid "Help"
-msgstr "Abi"
-
-#: plugins/media-keys/shortcuts-list.h:83
-msgid "Rewind"
-msgstr "Keri tagasi"
-
-#: plugins/media-keys/shortcuts-list.h:84
-msgid "Forward"
-msgstr "Keri edasi"
-
-#: plugins/media-keys/shortcuts-list.h:85
-msgid "Repeat"
-msgstr "Korda"
-
-#: plugins/media-keys/shortcuts-list.h:86
-msgid "Random Play"
-msgstr "Juhuesitus"
-
-#: plugins/media-keys/shortcuts-list.h:87
-msgid "Orientation Lock"
-msgstr "Orientatsioonilukk"
-
-#: plugins/media-keys/shortcuts-list.h:96
-msgid "Power Off"
-msgstr "Väljalülitus"
-
-#. the kernel / Xorg names really are like this...
-#. translators: "Sleep" means putting the machine to sleep, either through hibernate or suspend
-#: plugins/media-keys/shortcuts-list.h:99
-msgid "Sleep"
-msgstr "Unerežiim"
-
-#: plugins/media-keys/shortcuts-list.h:100
-msgid "Suspend"
-msgstr "Uinak"
-
-#: plugins/media-keys/shortcuts-list.h:101
-msgid "Hibernate"
-msgstr "Talveuni"
-
-#: plugins/media-keys/shortcuts-list.h:102
-msgid "Brightness Up"
-msgstr "Suurenda heledust"
-
-#: plugins/media-keys/shortcuts-list.h:103
-msgid "Brightness Down"
-msgstr "Vähenda heledust"
-
-#: plugins/media-keys/shortcuts-list.h:104
-msgid "Keyboard Brightness Up"
-msgstr "Klaviatuuri valgustus tugevamaks"
-
-#: plugins/media-keys/shortcuts-list.h:105
-msgid "Keyboard Brightness Down"
-msgstr "Klaviatuuri valgustus nõrgemaks"
-
-#: plugins/media-keys/shortcuts-list.h:106
-msgid "Keyboard Brightness Toggle"
-msgstr "Klaviatuuri valgustuse lülitamine"
-
-#: plugins/media-keys/shortcuts-list.h:107
-msgid "Battery Status"
-msgstr "Aku olek"
-
-#: plugins/media-keys/shortcuts-list.h:108
-#: plugins/media-keys/shortcuts-list.h:109
-#: plugins/media-keys/shortcuts-list.h:110
-msgid "Toggle Airplane Mode"
-msgstr "Lennurežiimi lülitamine"
-
-#: plugins/media-keys/shortcuts-list.h:111
-msgid "Toggle Bluetooth"
-msgstr "Bluetoothi lülitamine"
-
-#: plugins/power/gpm-common.c:99
+#: plugins/power/gpm-common.c:92
 msgid "Unknown time"
 msgstr "Aeg pole teada"
 
-#: plugins/power/gpm-common.c:104
+#: plugins/power/gpm-common.c:97
 #, c-format
 msgid "%i minute"
 msgid_plural "%i minutes"
 msgstr[0] "%i minut"
 msgstr[1] "%i minutit"
 
-#: plugins/power/gpm-common.c:114
+#: plugins/power/gpm-common.c:107
 #, c-format
 msgid "%i hour"
 msgid_plural "%i hours"
@@ -1068,184 +1752,184 @@ msgstr[1] "%i tundi"
 
 #. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
 #. * Swap order with "%2$s %2$i %1$s %1$i if needed
-#: plugins/power/gpm-common.c:120
+#: plugins/power/gpm-common.c:113
 #, c-format
 msgid "%i %s %i %s"
 msgstr "%i %s %i %s"
 
-#: plugins/power/gpm-common.c:121
+#: plugins/power/gpm-common.c:114
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "tund"
 msgstr[1] "tundi"
 
-#: plugins/power/gpm-common.c:122
+#: plugins/power/gpm-common.c:115
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "minut"
 msgstr[1] "minutit"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gpm-common.c:929 plugins/power/gsd-power-manager.c:686
-#: plugins/power/gsd-power-manager.c:783
+#: plugins/power/gpm-common.c:425 plugins/power/gsd-power-manager.c:720
+#: plugins/power/gsd-power-manager.c:817
 msgid "Battery is critically low"
 msgstr "Aku on kriitiliselt tühi"
 
 #. TRANSLATORS: this is the notification application name
-#: plugins/power/gsd-power-manager.c:324
+#: plugins/power/gsd-power-manager.c:350
 msgid "Power"
 msgstr "Vool"
 
 #. TRANSLATORS: UPS is now discharging
-#: plugins/power/gsd-power-manager.c:356
+#: plugins/power/gsd-power-manager.c:390
 msgid "UPS Discharging"
 msgstr "UPS tühjeneb"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: plugins/power/gsd-power-manager.c:361
+#: plugins/power/gsd-power-manager.c:395
 #, c-format
 msgid "%s of UPS backup power remaining"
 msgstr "UPSis on jäänud veel %s"
 
-#: plugins/power/gsd-power-manager.c:364
+#: plugins/power/gsd-power-manager.c:398
 msgid "Unknown amount of UPS backup power remaining"
 msgstr "UPSis on tundmatu kogus varuvoolu"
 
 #. TRANSLATORS: laptop battery low, and we only have one battery
-#: plugins/power/gsd-power-manager.c:439
+#: plugins/power/gsd-power-manager.c:473
 msgid "Battery low"
 msgstr "Aku on tühi"
 
 #. TRANSLATORS: laptop battery low, and we have more than one kind of battery
-#: plugins/power/gsd-power-manager.c:442
+#: plugins/power/gsd-power-manager.c:476
 msgid "Laptop battery low"
 msgstr "Süleri aku on tühi"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: plugins/power/gsd-power-manager.c:449
+#: plugins/power/gsd-power-manager.c:483
 #, c-format
 msgid "Approximately %s remaining (%.0f%%)"
 msgstr "Jäänud umbes %s (%.0f%%)"
 
 #. TRANSLATORS: UPS is starting to get a little low
-#: plugins/power/gsd-power-manager.c:454
+#: plugins/power/gsd-power-manager.c:488
 msgid "UPS low"
 msgstr "UPS on tühi"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: plugins/power/gsd-power-manager.c:460
+#: plugins/power/gsd-power-manager.c:494
 #, c-format
 msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
 msgstr "Umbes %s saadaolevast UPS varuvoolust (%.0f%%)"
 
 #. TRANSLATORS: mouse is getting a little low
 #. TRANSLATORS: the mouse battery is very low
-#: plugins/power/gsd-power-manager.c:465 plugins/power/gsd-power-manager.c:599
+#: plugins/power/gsd-power-manager.c:499 plugins/power/gsd-power-manager.c:633
 msgid "Mouse battery low"
 msgstr "Hiire aku on tühi"
 
 #. TRANSLATORS: tell user more details
-#: plugins/power/gsd-power-manager.c:468
+#: plugins/power/gsd-power-manager.c:502
 #, c-format
 msgid "Wireless mouse is low in power (%.0f%%)"
 msgstr "Juhtmeta hiire aku on otsakorral (%.0f%%)"
 
 #. TRANSLATORS: keyboard is getting a little low
 #. TRANSLATORS: the keyboard battery is very low
-#: plugins/power/gsd-power-manager.c:472 plugins/power/gsd-power-manager.c:607
+#: plugins/power/gsd-power-manager.c:506 plugins/power/gsd-power-manager.c:641
 msgid "Keyboard battery low"
 msgstr "Klaviatuuri aku on otsakorral"
 
 #. TRANSLATORS: tell user more details
-#: plugins/power/gsd-power-manager.c:475
+#: plugins/power/gsd-power-manager.c:509
 #, c-format
 msgid "Wireless keyboard is low in power (%.0f%%)"
 msgstr "Juhtmeta klaviatuuri aku on otsakorral (%.0f%%)"
 
 #. TRANSLATORS: PDA is getting a little low
 #. TRANSLATORS: the PDA battery is very low
-#: plugins/power/gsd-power-manager.c:479 plugins/power/gsd-power-manager.c:616
+#: plugins/power/gsd-power-manager.c:513 plugins/power/gsd-power-manager.c:650
 msgid "PDA battery low"
 msgstr "Pihuarvuti aku on tühi"
 
 #. TRANSLATORS: tell user more details
-#: plugins/power/gsd-power-manager.c:482
+#: plugins/power/gsd-power-manager.c:516
 #, c-format
 msgid "PDA is low in power (%.0f%%)"
 msgstr "Pihuarvuti aku on otsakorral (%.0f%%)"
 
 #. TRANSLATORS: cell phone (mobile) is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: plugins/power/gsd-power-manager.c:486 plugins/power/gsd-power-manager.c:626
-#: plugins/power/gsd-power-manager.c:635
+#: plugins/power/gsd-power-manager.c:520 plugins/power/gsd-power-manager.c:660
+#: plugins/power/gsd-power-manager.c:669
 msgid "Cell phone battery low"
 msgstr "Mobiili aku on otsakorral"
 
 #. TRANSLATORS: tell user more details
-#: plugins/power/gsd-power-manager.c:489
+#: plugins/power/gsd-power-manager.c:523
 #, c-format
 msgid "Cell phone is low in power (%.0f%%)"
 msgstr "Mobiili aku on otsakorral (%.0f%%)"
 
 #. TRANSLATORS: media player, e.g. mp3 is getting a little low
-#: plugins/power/gsd-power-manager.c:493
+#: plugins/power/gsd-power-manager.c:527
 msgid "Media player battery low"
 msgstr "Meediaesitaja aku on otsakorral"
 
 #. TRANSLATORS: tell user more details
-#: plugins/power/gsd-power-manager.c:496
+#: plugins/power/gsd-power-manager.c:530
 #, c-format
 msgid "Media player is low in power (%.0f%%)"
 msgstr "Meediaesitaja aku on otsakorral (%.0f%%)"
 
 #. TRANSLATORS: graphics tablet, e.g. wacom is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: plugins/power/gsd-power-manager.c:500 plugins/power/gsd-power-manager.c:644
+#: plugins/power/gsd-power-manager.c:534 plugins/power/gsd-power-manager.c:678
 msgid "Tablet battery low"
 msgstr "Tahvelarvuti aku on otsakorral"
 
 #. TRANSLATORS: tell user more details
-#: plugins/power/gsd-power-manager.c:503
+#: plugins/power/gsd-power-manager.c:537
 #, c-format
 msgid "Tablet is low in power (%.0f%%)"
 msgstr "Tahvelarvuti aku on otsakorral (%.0f%%)"
 
 #. TRANSLATORS: computer, e.g. ipad is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: plugins/power/gsd-power-manager.c:507 plugins/power/gsd-power-manager.c:653
+#: plugins/power/gsd-power-manager.c:541 plugins/power/gsd-power-manager.c:687
 msgid "Attached computer battery low"
 msgstr "Ühendatud arvuti aku on otsakorral"
 
 #. TRANSLATORS: tell user more details
-#: plugins/power/gsd-power-manager.c:510
+#: plugins/power/gsd-power-manager.c:544
 #, c-format
 msgid "Attached computer is low in power (%.0f%%)"
 msgstr "Ühendatud arvuti aku on otsakorral (%.0f%%)"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:531
+#: plugins/power/gsd-power-manager.c:565
 msgid "Battery is low"
 msgstr "Aku on tühi"
 
 #. TRANSLATORS: laptop battery critically low, and only have one kind of battery
-#: plugins/power/gsd-power-manager.c:563
+#: plugins/power/gsd-power-manager.c:597
 msgid "Battery critically low"
 msgstr "Aku on kriitiliselt tühi"
 
 #. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
 #. TRANSLATORS: laptop battery is really, really, low
-#: plugins/power/gsd-power-manager.c:566 plugins/power/gsd-power-manager.c:713
+#: plugins/power/gsd-power-manager.c:600 plugins/power/gsd-power-manager.c:747
 msgid "Laptop battery critically low"
 msgstr "Süleri aku on kriitiliselt tühi"
 
 #. TRANSLATORS: give the user a ultimatum
-#: plugins/power/gsd-power-manager.c:575
+#: plugins/power/gsd-power-manager.c:609
 #, c-format
 msgid "Computer will hibernate very soon unless it is plugged in."
 msgstr "Arvuti läheb üsna varsti talveunne, kui seda vooluvõrku ei ühendata."
 
 #. TRANSLATORS: give the user a ultimatum
-#: plugins/power/gsd-power-manager.c:579
+#: plugins/power/gsd-power-manager.c:613
 #, c-format
 msgid "Computer will shutdown very soon unless it is plugged in."
 msgstr ""
@@ -1253,12 +1937,12 @@ msgstr ""
 
 #. TRANSLATORS: the UPS is very low
 #. TRANSLATORS: UPS is really, really, low
-#: plugins/power/gsd-power-manager.c:587 plugins/power/gsd-power-manager.c:738
+#: plugins/power/gsd-power-manager.c:621 plugins/power/gsd-power-manager.c:772
 msgid "UPS critically low"
 msgstr "UPS on kriitiliselt tühi"
 
 #. TRANSLATORS: give the user a ultimatum
-#: plugins/power/gsd-power-manager.c:593
+#: plugins/power/gsd-power-manager.c:627
 #, c-format
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
@@ -1268,7 +1952,7 @@ msgstr ""
 "vältida andmete kaotamist."
 
 #. TRANSLATORS: the device is just going to stop working
-#: plugins/power/gsd-power-manager.c:602
+#: plugins/power/gsd-power-manager.c:636
 #, c-format
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
@@ -1278,7 +1962,7 @@ msgstr ""
 "seda ei laadita."
 
 #. TRANSLATORS: the device is just going to stop working
-#: plugins/power/gsd-power-manager.c:610
+#: plugins/power/gsd-power-manager.c:644
 #, c-format
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
@@ -1288,7 +1972,7 @@ msgstr ""
 "kui seda ei laadita."
 
 #. TRANSLATORS: the device is just going to stop working
-#: plugins/power/gsd-power-manager.c:619
+#: plugins/power/gsd-power-manager.c:653
 #, c-format
 msgid ""
 "PDA is very low in power (%.0f%%). This device will soon stop functioning if "
@@ -1298,7 +1982,7 @@ msgstr ""
 "ei laadita."
 
 #. TRANSLATORS: the device is just going to stop working
-#: plugins/power/gsd-power-manager.c:629
+#: plugins/power/gsd-power-manager.c:663
 #, c-format
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
@@ -1308,7 +1992,7 @@ msgstr ""
 "laadita."
 
 #. TRANSLATORS: the device is just going to stop working
-#: plugins/power/gsd-power-manager.c:638
+#: plugins/power/gsd-power-manager.c:672
 #, c-format
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
@@ -1318,7 +2002,7 @@ msgstr ""
 "seda ei laadita."
 
 #. TRANSLATORS: the device is just going to stop working
-#: plugins/power/gsd-power-manager.c:647
+#: plugins/power/gsd-power-manager.c:681
 #, c-format
 msgid ""
 "Tablet is very low in power (%.0f%%). This device will soon stop functioning "
@@ -1328,7 +2012,7 @@ msgstr ""
 "ei laadita."
 
 #. TRANSLATORS: the device is just going to stop working
-#: plugins/power/gsd-power-manager.c:656
+#: plugins/power/gsd-power-manager.c:690
 #, c-format
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
@@ -1338,14 +2022,14 @@ msgstr ""
 "seda ei laadita."
 
 #. TRANSLATORS: computer will hibernate
-#: plugins/power/gsd-power-manager.c:721
+#: plugins/power/gsd-power-manager.c:755
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
 msgstr "Aku täituvus on allpool kriitilist taset ja arvuti läheb talveunne."
 
 #. TRANSLATORS: computer will just shutdown
-#: plugins/power/gsd-power-manager.c:726
+#: plugins/power/gsd-power-manager.c:760
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "shutdown."
@@ -1353,55 +2037,55 @@ msgstr ""
 "Aku täituvus on allpool kriitilist taset ja arvuti lülitab ennast välja."
 
 #. TRANSLATORS: computer will hibernate
-#: plugins/power/gsd-power-manager.c:746
+#: plugins/power/gsd-power-manager.c:780
 msgid ""
 "UPS is below the critical level and this computer is about to hibernate."
 msgstr "UPSi täituvus on allpool kriitilist taset ja arvuti läheb talveunne."
 
 #. TRANSLATORS: computer will just shutdown
-#: plugins/power/gsd-power-manager.c:751
+#: plugins/power/gsd-power-manager.c:785
 msgid "UPS is below the critical level and this computer is about to shutdown."
 msgstr ""
 "UPSi täituvus on allpool kriitilist taset ja arvuti lülitab ennast välja."
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1305
+#: plugins/power/gsd-power-manager.c:1266
 msgid "Lid has been opened"
 msgstr "Ekraanikaas avati"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1339
+#: plugins/power/gsd-power-manager.c:1300
 msgid "Lid has been closed"
 msgstr "Ekraanikaas suleti"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1935
+#: plugins/power/gsd-power-manager.c:1887
 msgid "On battery power"
 msgstr "Akutoite peal"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1940
+#: plugins/power/gsd-power-manager.c:1892
 msgid "On AC power"
 msgstr "Vooluvõrgus"
 
-#: plugins/power/gsd-power-manager.c:2132
+#: plugins/power/gsd-power-manager.c:2080
 msgid "Automatic logout"
 msgstr "Automaatne väljalogimine"
 
-#: plugins/power/gsd-power-manager.c:2132
+#: plugins/power/gsd-power-manager.c:2080
 msgid "You will soon log out because of inactivity."
 msgstr "Sind logitakse varsti välja mitteaktiivsuse tõttu."
 
-#: plugins/power/gsd-power-manager.c:2137
+#: plugins/power/gsd-power-manager.c:2085
 msgid "Automatic suspend"
 msgstr "Automaatne uinumine"
 
-#: plugins/power/gsd-power-manager.c:2137
-#: plugins/power/gsd-power-manager.c:2142
+#: plugins/power/gsd-power-manager.c:2085
+#: plugins/power/gsd-power-manager.c:2090
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "Arvuti alustab üsna varsti uinakut mitteaktiivsuse tõttu."
 
-#: plugins/power/gsd-power-manager.c:2142
+#: plugins/power/gsd-power-manager.c:2090
 msgid "Automatic hibernation"
 msgstr "Automaatne talveuni"
 
@@ -1444,232 +2128,232 @@ msgstr "Selle printeri jaoks puudub draiver."
 
 #: plugins/print-notifications/gsd-printer.c:1031
 #: plugins/print-notifications/gsd-print-notifications-manager.c:290
-#: plugins/print-notifications/gsd-print-notifications-manager.c:530
-#: plugins/print-notifications/gsd-print-notifications-manager.c:911
-#: plugins/print-notifications/gsd-print-notifications-manager.c:1001
-#: plugins/print-notifications/gsd-print-notifications-manager.c:1044
+#: plugins/print-notifications/gsd-print-notifications-manager.c:538
+#: plugins/print-notifications/gsd-print-notifications-manager.c:920
+#: plugins/print-notifications/gsd-print-notifications-manager.c:1011
+#: plugins/print-notifications/gsd-print-notifications-manager.c:1055
 msgid "Printers"
 msgstr "Printerid"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:366
+#: plugins/print-notifications/gsd-print-notifications-manager.c:374
 #, c-format
 msgid "Printer “%s” is low on toner."
 msgstr "Printeril „%s“ on tooner otsakorral."
 
 #. Translators: The printer has no toner left (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:370
+#: plugins/print-notifications/gsd-print-notifications-manager.c:378
 #, c-format
 msgid "Printer “%s” has no toner left."
 msgstr "Printeril „%s“ on tooner otsas."
 
 #. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:374
+#: plugins/print-notifications/gsd-print-notifications-manager.c:382
 #, c-format
 msgid "Printer “%s” may not be connected."
 msgstr "Võib-olla pole printer „%s“ ühendatud."
 
 #. Translators: One or more covers on the printer are open (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:378
+#: plugins/print-notifications/gsd-print-notifications-manager.c:386
 #, c-format
 msgid "The cover is open on printer “%s”."
 msgstr "Printeri „%s“ kaas on lahti."
 
 #. Translators: A filter or backend is not installed (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:382
+#: plugins/print-notifications/gsd-print-notifications-manager.c:390
 #, c-format
 msgid "There is a missing print filter for printer “%s”."
 msgstr "Printeril „%s“ puudub printimisfilter."
 
 #. Translators: One or more doors on the printer are open (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:387
+#: plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "The door is open on printer “%s”."
 msgstr "Printeri „%s“ uks on lahti."
 
 #. Translators: "marker" is one color bin of the printer
-#: plugins/print-notifications/gsd-print-notifications-manager.c:391
+#: plugins/print-notifications/gsd-print-notifications-manager.c:399
 #, c-format
 msgid "Printer “%s” is low on a marker supply."
 msgstr "Printeril „%s“ on üks värv otsakorral."
 
 #. Translators: "marker" is one color bin of the printer
-#: plugins/print-notifications/gsd-print-notifications-manager.c:395
+#: plugins/print-notifications/gsd-print-notifications-manager.c:403
 #, c-format
 msgid "Printer “%s” is out of a marker supply."
 msgstr "Printeril „%s“ on üks värv otsas."
 
 #. Translators: At least one input tray is low on media (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:399
+#: plugins/print-notifications/gsd-print-notifications-manager.c:407
 #, c-format
 msgid "Printer “%s” is low on paper."
 msgstr "Printeril „%s“ on paber otsakorral."
 
 #. Translators: At least one input tray is empty (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:403
+#: plugins/print-notifications/gsd-print-notifications-manager.c:411
 #, c-format
 msgid "Printer “%s” is out of paper."
 msgstr "Printeril „%s“ on paber otsas."
 
 #. Translators: The printer is offline (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:407
+#: plugins/print-notifications/gsd-print-notifications-manager.c:415
 #, c-format
 msgid "Printer “%s” is currently off-line."
 msgstr "Printer „%s“ pole praegu võrgus."
 
 #. Translators: The printer has detected an error (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:411
+#: plugins/print-notifications/gsd-print-notifications-manager.c:419
 #, c-format
 msgid "There is a problem on printer “%s”."
 msgstr "Printeriga „%s“ on probleem."
 
 #. Translators: The printer has a job to print but the printer needs authentication to continue with the print
-#: plugins/print-notifications/gsd-print-notifications-manager.c:523
+#: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
 msgstr "%s vajab autentimist"
 
 #. Translators: A printer needs credentials to continue printing a job
-#: plugins/print-notifications/gsd-print-notifications-manager.c:525
+#: plugins/print-notifications/gsd-print-notifications-manager.c:533
 #, c-format
 msgid "Credentials required in order to print"
 msgstr "Printimiseks on vajalik autentimine"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:591
+#: plugins/print-notifications/gsd-print-notifications-manager.c:600
 msgid "Toner low"
 msgstr "Tooner on otsakorral"
 
 #. Translators: The printer has no toner left (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:593
+#: plugins/print-notifications/gsd-print-notifications-manager.c:602
 msgid "Toner empty"
 msgstr "Tooner on otsas"
 
 #. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:595
+#: plugins/print-notifications/gsd-print-notifications-manager.c:604
 msgid "Not connected?"
 msgstr "Pole ühendatud?"
 
 #. Translators: One or more covers on the printer are open (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:597
+#: plugins/print-notifications/gsd-print-notifications-manager.c:606
 msgid "Cover open"
 msgstr "Kaas on lahti"
 
 #. Translators: A filter or backend is not installed (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:599
+#: plugins/print-notifications/gsd-print-notifications-manager.c:608
 msgid "Printer configuration error"
 msgstr "Printeri seadistuse viga"
 
 #. Translators: One or more doors on the printer are open (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:601
+#: plugins/print-notifications/gsd-print-notifications-manager.c:610
 msgid "Door open"
 msgstr "Uks on lahti"
 
 #. Translators: "marker" is one color bin of the printer
-#: plugins/print-notifications/gsd-print-notifications-manager.c:603
+#: plugins/print-notifications/gsd-print-notifications-manager.c:612
 msgid "Marker supply low"
 msgstr "Värv on otsakorral"
 
 #. Translators: "marker" is one color bin of the printer
-#: plugins/print-notifications/gsd-print-notifications-manager.c:605
+#: plugins/print-notifications/gsd-print-notifications-manager.c:614
 msgid "Out of a marker supply"
 msgstr "Värv on otsas"
 
 #. Translators: At least one input tray is low on media (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:607
+#: plugins/print-notifications/gsd-print-notifications-manager.c:616
 msgid "Paper low"
 msgstr "Paber on otsakorral"
 
 #. Translators: At least one input tray is empty (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:609
+#: plugins/print-notifications/gsd-print-notifications-manager.c:618
 msgid "Out of paper"
 msgstr "Paber on otsas"
 
 #. Translators: The printer is offline (same as in system-config-printer)
-#: plugins/print-notifications/gsd-print-notifications-manager.c:611
+#: plugins/print-notifications/gsd-print-notifications-manager.c:620
 msgid "Printer off-line"
 msgstr "Printer pole võrgus"
 
 #. Translators: The printer has detected an error (same as in system-config-printer)
 #. Translators: This is a title of an error notification for a printer
-#: plugins/print-notifications/gsd-print-notifications-manager.c:613
-#: plugins/print-notifications/gsd-print-notifications-manager.c:987
+#: plugins/print-notifications/gsd-print-notifications-manager.c:622
+#: plugins/print-notifications/gsd-print-notifications-manager.c:997
 msgid "Printer error"
 msgstr "Printeri viga"
 
 #. Translators: New printer has been added
-#: plugins/print-notifications/gsd-print-notifications-manager.c:661
+#: plugins/print-notifications/gsd-print-notifications-manager.c:670
 msgid "Printer added"
 msgstr "Printer lisati"
 
 #. Translators: A print job has been stopped
-#: plugins/print-notifications/gsd-print-notifications-manager.c:678
-#: plugins/print-notifications/gsd-print-notifications-manager.c:716
+#: plugins/print-notifications/gsd-print-notifications-manager.c:687
+#: plugins/print-notifications/gsd-print-notifications-manager.c:725
 msgctxt "print job state"
 msgid "Printing stopped"
 msgstr "Printer on peatatud"
 
 #. Translators: "print-job xy" on a printer
-#: plugins/print-notifications/gsd-print-notifications-manager.c:680
-#: plugins/print-notifications/gsd-print-notifications-manager.c:686
-#: plugins/print-notifications/gsd-print-notifications-manager.c:692
-#: plugins/print-notifications/gsd-print-notifications-manager.c:698
-#: plugins/print-notifications/gsd-print-notifications-manager.c:710
-#: plugins/print-notifications/gsd-print-notifications-manager.c:718
-#: plugins/print-notifications/gsd-print-notifications-manager.c:726
-#: plugins/print-notifications/gsd-print-notifications-manager.c:734
-#: plugins/print-notifications/gsd-print-notifications-manager.c:742
-#: plugins/print-notifications/gsd-print-notifications-manager.c:766
+#: plugins/print-notifications/gsd-print-notifications-manager.c:689
+#: plugins/print-notifications/gsd-print-notifications-manager.c:695
+#: plugins/print-notifications/gsd-print-notifications-manager.c:701
+#: plugins/print-notifications/gsd-print-notifications-manager.c:707
+#: plugins/print-notifications/gsd-print-notifications-manager.c:719
+#: plugins/print-notifications/gsd-print-notifications-manager.c:727
+#: plugins/print-notifications/gsd-print-notifications-manager.c:735
+#: plugins/print-notifications/gsd-print-notifications-manager.c:743
+#: plugins/print-notifications/gsd-print-notifications-manager.c:751
+#: plugins/print-notifications/gsd-print-notifications-manager.c:775
 #, c-format
 msgctxt "print job"
 msgid "“%s” on %s"
 msgstr "„%s“ printeris %s"
 
 #. Translators: A print job has been canceled
-#: plugins/print-notifications/gsd-print-notifications-manager.c:684
-#: plugins/print-notifications/gsd-print-notifications-manager.c:724
+#: plugins/print-notifications/gsd-print-notifications-manager.c:693
+#: plugins/print-notifications/gsd-print-notifications-manager.c:733
 msgctxt "print job state"
 msgid "Printing canceled"
 msgstr "Printimisest loobuti"
 
 #. Translators: A print job has been aborted
-#: plugins/print-notifications/gsd-print-notifications-manager.c:690
-#: plugins/print-notifications/gsd-print-notifications-manager.c:732
+#: plugins/print-notifications/gsd-print-notifications-manager.c:699
+#: plugins/print-notifications/gsd-print-notifications-manager.c:741
 msgctxt "print job state"
 msgid "Printing aborted"
 msgstr "Printimine katkestati"
 
 #. Translators: A print job has been completed
-#: plugins/print-notifications/gsd-print-notifications-manager.c:696
-#: plugins/print-notifications/gsd-print-notifications-manager.c:740
+#: plugins/print-notifications/gsd-print-notifications-manager.c:705
+#: plugins/print-notifications/gsd-print-notifications-manager.c:749
 msgctxt "print job state"
 msgid "Printing completed"
 msgstr "Printimine lõpetatud"
 
 #. Translators: A job is printing
-#: plugins/print-notifications/gsd-print-notifications-manager.c:708
-#: plugins/print-notifications/gsd-print-notifications-manager.c:764
+#: plugins/print-notifications/gsd-print-notifications-manager.c:717
+#: plugins/print-notifications/gsd-print-notifications-manager.c:773
 msgctxt "print job state"
 msgid "Printing"
 msgstr "Printimine"
 
 #. Translators: This is a title of a report notification for a printer
-#: plugins/print-notifications/gsd-print-notifications-manager.c:981
+#: plugins/print-notifications/gsd-print-notifications-manager.c:991
 msgid "Printer report"
 msgstr "Printeri raport"
 
 #. Translators: This is a title of a warning notification for a printer
-#: plugins/print-notifications/gsd-print-notifications-manager.c:984
+#: plugins/print-notifications/gsd-print-notifications-manager.c:994
 msgid "Printer warning"
 msgstr "Printeri hoiatus"
 
 #. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
-#: plugins/print-notifications/gsd-print-notifications-manager.c:994
+#: plugins/print-notifications/gsd-print-notifications-manager.c:1004
 #, c-format
 msgid "Printer “%s”: “%s”."
 msgstr "Printer „%s“: „%s“."
 
-#: plugins/smartcard/gsd-smartcard-service.c:224
+#: plugins/smartcard/gsd-smartcard-service.c:282
 msgid "User was not logged in with smartcard."
 msgstr "Kasutaja ei loginud smartcardiga sisse."
 
@@ -1694,6 +2378,104 @@ msgstr "Wacomi digitaallaua OLED pildi muutmine"
 #: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:36
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
 msgstr "Wacomi digitaallaua OLED pildi muutmiseks on vajalik autentimine"
+
+#. Set up the dialog
+#: plugins/wwan/gsd-wwan-pinentry.c:89
+msgid "Unlock SIM card"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:90
+msgid "Unlock"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:91
+msgid "Cancel"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:95
+#, c-format
+msgid "Please provide the PIN for SIM card %s"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:97
+msgid "Enter PIN to unlock your SIM card"
+msgstr ""
+
+#. msg is already localised
+#: plugins/wwan/gsd-wwan-pinentry.c:123
+#, c-format
+msgid "%2$s You have %1$u try left"
+msgid_plural "%2$s You have %1$u tries left"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:127
+#, c-format
+msgid "You have %u try left"
+msgid_plural "You have %u tries left"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Set up the dialog
+#: plugins/wwan/gsd-wwan-pinentry.c:173 plugins/wwan/gsd-wwan-pinentry.c:175
+msgid "SIM card unlock error"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:174
+msgid "OK"
+msgstr "Olgu"
+
+#. TODO: handle PUK as well
+#: plugins/wwan/gsd-wwan-pinentry.c:194
+msgid "Too many incorrect PINs."
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:200
+msgid "Wrong PIN code"
+msgstr ""
+
+#~ msgid ""
+#~ "Highlights the current location of the pointer when the Control key is "
+#~ "pressed and released."
+#~ msgstr ""
+#~ "Näitab hiirekursori asukohta, kui Control klahv alla vajutatakse ning "
+#~ "vabastatakse."
+
+#~ msgid "Touchpad toggle"
+#~ msgstr "Puuteplaadi lülitamine"
+
+#~ msgid "Quiet Volume Mute"
+#~ msgstr "Heli tummaks heliefektita"
+
+#~ msgid "Lock Screen"
+#~ msgstr "Ekraani lukustamine"
+
+#~ msgid "Help"
+#~ msgstr "Abi"
+
+#~ msgid "Rewind"
+#~ msgstr "Keri tagasi"
+
+#~ msgid "Forward"
+#~ msgstr "Keri edasi"
+
+#~ msgid "Repeat"
+#~ msgstr "Korda"
+
+#~ msgid "Random Play"
+#~ msgstr "Juhuesitus"
+
+#~ msgid "Orientation Lock"
+#~ msgstr "Orientatsioonilukk"
+
+#~ msgid "Power Off"
+#~ msgstr "Väljalülitus"
+
+#~ msgid "Sleep"
+#~ msgstr "Unerežiim"
+
+#~ msgid "Toggle Bluetooth"
+#~ msgstr "Bluetoothi lülitamine"
 
 #~ msgid "GNOME Settings Daemon"
 #~ msgstr "GNOME sätetedeemon"
@@ -2650,9 +3432,6 @@ msgstr "Wacomi digitaallaua OLED pildi muutmiseks on vajalik autentimine"
 
 #~ msgid "Show details"
 #~ msgstr "Näita üksikasju"
-
-#~ msgid "OK"
-#~ msgstr "Olgu"
 
 #~ msgid "Left Ring"
 #~ msgstr "Vasak ratas"
