@@ -1,31 +1,32 @@
-# Hungarian translation for gnome-settings-daemon.
-# Copyright (C) 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-settings-daemon package.
-#
-# Szabolcs Ban <shooby at gnome dot hu>, 1998, 1999, 2000.
-# Emese Kovacs <emese at gnome dot hu>, 2001.
-# Peter Doma <zelin at pointernet dot hu>, 2002.
-# Andras Timar <timar at gnome dot hu>, 2001, 2002, 2003.
-# Gabor Sari <saga at gnome dot hu>, 2003.
-# Laszlo Dvornik <dvornik at gnome dot hu>, 2004.
-# Gabor Kelemen <kelemeng at gnome dot hu>, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2016, 2017.
-# Mate ORY <orymate at gmail d0t com>, 2006.
-# Balázs Úr <ur.balazs at fsf dot hu>, 2013, 2014, 2015, 2016, 2017, 2018, 2019.
+# 
+# Translators:
+# Andras Timar <timar at gnome dot hu>, 2001-2003
+# Balázs Úr <ur.balazs at fsf dot hu>, 2013-2019
+# Balázs Úr <urbalazs at gmail dot com>, 2013-2019
+# Emese Kovacs <emese at gnome dot hu>, 2001
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2004-2013,2016-2017
+# Gabor Sari <saga at gnome dot hu>, 2003
+# Laszlo Dvornik <dvornik at gnome dot hu>, 2004
+# Mate ORY <orymate at gmail d0t com>, 2006
+# Peter Doma <zelin at pointernet dot hu>, 2002
+# Szabolcs Ban <shooby at gnome dot hu>, 1998-2000
+# Zoltan Hoppar <hopparz@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-settings-daemon master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-settings-daemon/iss"
-"ues\n"
-"POT-Creation-Date: 2019-08-16 09:33+0000\n"
-"PO-Revision-Date: 2019-08-24 21:51+0200\n"
-"Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
-"Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
-"Language: hu\n"
+"Project-Id-Version: gnome-settings-daemon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-31 13:15+0000\n"
+"PO-Revision-Date: 2019-10-31 13:31+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/endless-os/gnome-settings-daemon/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 18.12.3\n"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:12
 msgid "Smartcard removal action"
@@ -33,12 +34,9 @@ msgstr "Intelligenskártya-eltávolítási művelet"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:13
 msgid ""
-"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will "
-"get performed when the smartcard used for log in is removed."
-msgstr ""
-"Állítsa a „none” (semmi), „lock-screen” (képernyő zárolása) vagy „force-"
-"logout” (kijelentkeztetés) egyikére. A művelet a bejelentkezéshez használt "
-"intelligens kártya eltávolításakor kerül végrehajtásra."
+"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will"
+" get performed when the smartcard used for log in is removed."
+msgstr "Állítsa a „none” (semmi), „lock-screen” (képernyő zárolása) vagy „force-logout” (kijelentkeztetés) egyikére. A művelet a bejelentkezéshez használt intelligens kártya eltávolításakor kerül végrehajtásra."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:25
 msgid "Possible values are “on”, “off”, and “custom”."
@@ -90,9 +88,7 @@ msgstr "Egyszeres kattintás"
 msgid ""
 "Acceleration multiplier for mouse motion. A value of -1 is the system "
 "default."
-msgstr ""
-"Gyorsítási szorzó az egér mozgatásához. A -1 érték a rendszer "
-"alapértelmezése."
+msgstr "Gyorsítási szorzó az egér mozgatásához. A -1 érték a rendszer alapértelmezése."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:72
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:139
@@ -104,9 +100,7 @@ msgstr "Mozgási küszöbérték"
 msgid ""
 "Distance in pixels the pointer must move before accelerated mouse motion is "
 "activated. A value of -1 is the system default."
-msgstr ""
-"Az a távolság képpontokban, amit az egérnek meg kell tennie, mielőtt a "
-"gyorsított egérmozgatás aktivizálódik. A -1 érték a rendszer alapértelmezése."
+msgstr "Az a távolság képpontokban, amit az egérnek meg kell tennie, mielőtt a gyorsított egérmozgatás aktivizálódik. A -1 érték a rendszer alapértelmezése."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:77
 msgid "Middle button emulation"
@@ -116,9 +110,7 @@ msgstr "Középső gomb emulációja"
 msgid ""
 "Enables middle mouse button emulation through simultaneous left and right "
 "button click."
-msgstr ""
-"Középső egérgomb emulációjának engedélyezése a bal és jobb gomb együttes "
-"megnyomásával."
+msgstr "Középső egérgomb emulációjának engedélyezése a bal és jobb gomb együttes megnyomásával."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:87
 msgid "Key Repeat Interval"
@@ -144,9 +136,7 @@ msgstr "A NumLock állapotának megjegyzése"
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
-msgstr ""
-"Ha be van állítva, a GNOME megjegyzi a NumLock LED állapotát a munkamenetek "
-"között."
+msgstr "Ha be van állítva, a GNOME megjegyzi a NumLock LED állapotát a munkamenetek között."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:104
 msgid "Disable touchpad while typing"
@@ -154,11 +144,9 @@ msgstr "Érintőtábla letiltása gépelés közben"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:105
 msgid ""
-"Set this to TRUE if you have problems with accidentally hitting the touchpad "
-"while typing."
-msgstr ""
-"Állítsa igazra, ha problémát okoz az érintőtábla véletlen megérintése "
-"gépelés közben."
+"Set this to TRUE if you have problems with accidentally hitting the touchpad"
+" while typing."
+msgstr "Állítsa igazra, ha problémát okoz az érintőtábla véletlen megérintése gépelés közben."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:109
 msgid "Enable horizontal scrolling"
@@ -168,9 +156,7 @@ msgstr "Vízszintes görgetés engedélyezése"
 msgid ""
 "Set this to TRUE to allow horizontal scrolling by the same method selected "
 "with the scroll_method key."
-msgstr ""
-"Állítsa igazra a vízszintes görgetés engedélyezéséhez a scroll_method "
-"kulcsban kiválasztott módon."
+msgstr "Állítsa igazra a vízszintes görgetés engedélyezéséhez a scroll_method kulcsban kiválasztott módon."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:114
 msgid "Select the touchpad scroll method"
@@ -180,10 +166,7 @@ msgstr "Válassza ki az érintőtábla görgetési módját"
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
-msgstr ""
-"Válassza ki az érintőtábla görgetési módját. Lehetséges értékek: "
-"„disabled” (letiltva), „edge-scrolling” (görgetés a szélen), „two-finger-"
-"scrolling” (kétujjas görgetés)."
+msgstr "Válassza ki az érintőtábla görgetési módját. Lehetséges értékek: „disabled” (letiltva), „edge-scrolling” (görgetés a szélen), „two-finger-scrolling” (kétujjas görgetés)."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:119
 msgid "Enable mouse clicks with touchpad"
@@ -192,8 +175,7 @@ msgstr "Egérkattintások engedélyezése az érintőtáblán"
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:120
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
-msgstr ""
-"Állítsa igazra egérkattintások küldéséhez az érintőtáblára koppintással."
+msgstr "Állítsa igazra egérkattintások küldéséhez az érintőtáblára koppintással."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:124
 msgid "Enable touchpad"
@@ -201,8 +183,7 @@ msgstr "Érintőtábla engedélyezése"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:125
 msgid "Set this to TRUE to enable all touchpads."
-msgstr ""
-"Állítsa igazra egérkattintások küldéséhez az érintőtáblára koppintással."
+msgstr "Állítsa igazra egérkattintások küldéséhez az érintőtáblára koppintással."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:129
 msgid "Touchpad button orientation"
@@ -212,9 +193,7 @@ msgstr "Érintőtábla gombjának elhelyezkedése"
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
-msgstr ""
-"A bal és jobb egérgombok felcserélése balkezes egerekhez; „left” (balkezes), "
-"„right” (jobbkezes), „mouse” (az egér beállításainak követése)."
+msgstr "A bal és jobb egérgombok felcserélése balkezes egerekhez; „left” (balkezes), „right” (jobbkezes), „mouse” (az egér beállításainak követése)."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:144
 msgid "Natural scrolling"
@@ -222,9 +201,7 @@ msgstr "Természetes görgetés"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:145
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
-msgstr ""
-"Állítsa IGAZRA a természetes (fordított) görgetés engedélyezéséhez az "
-"érintőtábláknál."
+msgstr "Állítsa IGAZRA a természetes (fordított) görgetés engedélyezéséhez az érintőtábláknál."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:152
 msgid "Mouse wheel emulation button. 0 to disable the feature."
@@ -254,9 +231,7 @@ msgstr "Wacom táblagép méretaránya"
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
-msgstr ""
-"Ha engedélyezett, a táblagép területe le lesz korlátozva, hogy megegyezzen a "
-"kimenet méretarányával."
+msgstr "Ha engedélyezett, a táblagép területe le lesz korlátozva, hogy megegyezzen a kimenet méretarányával."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:25
 msgid "Wacom tablet rotation"
@@ -264,11 +239,9 @@ msgstr "Wacom táblagép forgatása"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:26
 msgid ""
-"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and "
-"“ccw” for 90 degree counterclockwise."
-msgstr ""
-"Lehetséges értékek: „none” (semmi), „cw” (90 fok órajárás irányában), "
-"„half” (180 fok), és „ccw” (90 fok órajárással ellentétes irányban)."
+"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and"
+" “ccw” for 90 degree counterclockwise."
+msgstr "Lehetséges értékek: „none” (semmi), „cw” (90 fok órajárás irányában), „half” (180 fok), és „ccw” (90 fok órajárással ellentétes irányban)."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:30
 msgid "Wacom touch feature"
@@ -276,9 +249,7 @@ msgstr "Wacom érintőképernyős szolgáltatás"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:31
 msgid "Enable this to move the cursor when the user touches the tablet."
-msgstr ""
-"Ha engedélyezett, a kurzor akkor mozog, ha a felhasználó megérinti a "
-"rajztáblát."
+msgstr "Ha engedélyezett, a kurzor akkor mozog, ha a felhasználó megérinti a rajztáblát."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:37
 msgid "Wacom stylus pressure curve"
@@ -345,10 +316,8 @@ msgstr "Az egyéni művelet billentyűkombinációja"
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
-msgstr ""
-"Az egyéni műveletek gombjának megnyomásakor generált billentyűkombináció."
+msgstr "Az egyéni műveletek gombjának megnyomásakor generált billentyűkombináció."
 
-# FIXME: jobb ötlet?
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:81
 msgid "Key combinations for a touchring or touchstrip custom action"
 msgstr "Billentyűkombinációk az érintőgyűrű vagy érintősáv egyéni műveletéhez"
@@ -357,9 +326,7 @@ msgstr "Billentyűkombinációk az érintőgyűrű vagy érintősáv egyéni mű
 msgid ""
 "The keyboard shortcuts generated when a touchring or touchstrip is used for "
 "custom actions (up followed by down)."
-msgstr ""
-"Az érintőgyűrű vagy érintősáv egyéni műveletekre való használatakor (fel, "
-"majd le) előállított gyorsbillentyűk."
+msgstr "Az érintőgyűrű vagy érintősáv egyéni műveletekre való használatakor (fel, majd le) előállított gyorsbillentyűk."
 
 #. Translators: This is the OLED display on an Intuos4 tablet:
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
@@ -399,9 +366,7 @@ msgstr "Az éjszakai fény mód engedélyezett-e"
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
-msgstr ""
-"Az éjszakai fény mód megváltoztatja a kijelző színhőmérsékletét, ha a nap "
-"lement vagy feljött, vagy megadott időnként."
+msgstr "Az éjszakai fény mód megváltoztatja a kijelző színhőmérsékletét, ha a nap lement vagy feljött, vagy megadott időnként."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
@@ -411,10 +376,7 @@ msgstr "A kijelző színhőmérséklete engedélyezéskor"
 msgid ""
 "This temperature in Kelvin is used to modify the screen tones when night "
 "light mode is enabled. Higher values are bluer, lower redder."
-msgstr ""
-"Ez a Kelvinben megadott hőmérséklet a szín tónusait változtatja meg, ha az "
-"éjszaki fény mód engedélyezett. A magasabb értékek kékebbek, az "
-"alacsonyabbak vörösebbek."
+msgstr "Ez a Kelvinben megadott hőmérséklet a szín tónusait változtatja meg, ha az éjszaki fény mód engedélyezett. A magasabb értékek kékebbek, az alacsonyabbak vörösebbek."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:26
 msgid "Use the sunrise and sunset"
@@ -424,9 +386,7 @@ msgstr "Napkelte és napnyugta használata"
 msgid ""
 "Calculate the sunrise and sunset times automatically, from the current "
 "location."
-msgstr ""
-"Automatikusan kiszámolja a napfelkelte és napnyugta időpontját a jelenlegi "
-"hely alapján."
+msgstr "Automatikusan kiszámolja a napfelkelte és napnyugta időpontját a jelenlegi hely alapján."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:31
 msgid "The start time"
@@ -436,9 +396,7 @@ msgstr "Kezdési idő"
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this start time in "
 "hours from midnight."
-msgstr ""
-"Ha a „night-light-schedule-automatic” letiltott, akkor ezt használja kezdési "
-"időnek, órákban megadva, éjféltől számítva."
+msgstr "Ha a „night-light-schedule-automatic” letiltott, akkor ezt használja kezdési időnek, órákban megadva, éjféltől számítva."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:36
 msgid "The end time"
@@ -448,9 +406,7 @@ msgstr "Befejezési idő"
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this end time in "
 "hours from midnight."
-msgstr ""
-"Ha a „night-light-schedule-automatic” letiltott, akkor ezt használja "
-"befejezési időnek, órákban megadva, éjféltől számítva."
+msgstr "Ha a „night-light-schedule-automatic” letiltott, akkor ezt használja befejezési időnek, órákban megadva, éjféltől számítva."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:41
 msgid "The last detected position"
@@ -461,10 +417,7 @@ msgid ""
 "When location services are available this represents the last detected "
 "location. The default value is an invalid value to ensure it is always "
 "updated at startup."
-msgstr ""
-"Ha a helymeghatározási szolgáltatások elérhetőek, akkor ez képviseli a "
-"legutóbb észlelt helyet. Az alapértelmezés egy érvénytelen érték, hogy "
-"indításkor biztosan frissítve legyen."
+msgstr "Ha a helymeghatározási szolgáltatások elérhetőek, akkor ez képviseli a legutóbb észlelt helyet. Az alapértelmezés egy érvénytelen érték, hogy indításkor biztosan frissítve legyen."
 
 #: data/org.gnome.settings-daemon.plugins.gschema.xml.in:6
 msgid "List of plugins that are allowed to be loaded"
@@ -474,9 +427,7 @@ msgstr "Betölthető bővítmények listája"
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: “all”). This is only evaluated on startup."
-msgstr ""
-"A betöltendő bővítményeket képviselő karakterláncok listája "
-"(alapértelmezett: „all”). Ez csak indításkor kerül kiértékelésre."
+msgstr "A betöltendő bővítményeket képviselő karakterláncok listája (alapértelmezett: „all”). Ez csak indításkor kerül kiértékelésre."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:6
 msgid "Mount paths to ignore"
@@ -484,9 +435,7 @@ msgstr "Figyelmen kívül hagyandó csatolások"
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:7
 msgid "Specify a list of mount paths to ignore when they run low on space."
-msgstr ""
-"Adja meg azon csatolási útvonalak listáját, amelyeken az elfogyó szabad hely "
-"figyelmen kívül hagyandó."
+msgstr "Adja meg azon csatolási útvonalak listáját, amelyeken az elfogyó szabad hely figyelmen kívül hagyandó."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:12
 msgid "Free percentage notify threshold"
@@ -496,10 +445,7 @@ msgstr "Szabad hely százalékos arányának értesítési küszöbe"
 msgid ""
 "Percentage free space threshold for initial warning of low disk space. If "
 "the percentage free space drops below this, a warning will be shown."
-msgstr ""
-"Szabad hely százalékos arányának küszöbértéke az első figyelmeztetéshez a "
-"kevés szabad helyről. Ha a szabad terület százalékos aránya ez alá csökken, "
-"akkor megjelenik egy figyelmeztetés."
+msgstr "Szabad hely százalékos arányának küszöbértéke az első figyelmeztetéshez a kevés szabad helyről. Ha a szabad terület százalékos aránya ez alá csökken, akkor megjelenik egy figyelmeztetés."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:18
 msgid "Subsequent free space percentage notify threshold"
@@ -509,9 +455,7 @@ msgstr "Szabad hely százalékos arányáról szóló újabb értesítés küsz�
 msgid ""
 "Specify the percentage that the free disk space should reduce by before "
 "issuing a subsequent warning."
-msgstr ""
-"Adja meg azt a százalékos arányt, amelyet a szabad lemezterületnek el kell "
-"érnie újabb figyelmeztetés kiadásához."
+msgstr "Adja meg azt a százalékos arányt, amelyet a szabad lemezterületnek el kell érnie újabb figyelmeztetés kiadásához."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:23
 msgid "Free space notify threshold"
@@ -521,9 +465,7 @@ msgstr "Szabad hely értesítés küszöbe"
 msgid ""
 "Specify an amount in GB. If the amount of free space is more than this, no "
 "warning will be shown."
-msgstr ""
-"Adjon meg egy értéket GB-ban. Ha a szabad hely mennyisége ennél több, nem "
-"jelenik meg figyelmeztetés."
+msgstr "Adjon meg egy értéket GB-ban. Ha a szabad hely mennyisége ennél több, nem jelenik meg figyelmeztetés."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:28
 msgid "Minimum notify period for repeated warnings"
@@ -533,9 +475,7 @@ msgstr "Minimális értesítési időköz ismételt figyelmeztetésekhez"
 msgid ""
 "Specify a time in minutes. Subsequent warnings for a volume will not appear "
 "more often than this period."
-msgstr ""
-"A kötetre vonatkozó figyelmeztetések nem jelennek meg ennyi percnél "
-"gyakrabban."
+msgstr "A kötetre vonatkozó figyelmeztetések nem jelennek meg ennyi percnél gyakrabban."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:6
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:189
@@ -644,8 +584,7 @@ msgstr "Lejátszás (vagy lejátszás/szünet)"
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:52
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:235
 msgid "Binding to start playback (or toggle play/pause)."
-msgstr ""
-"Gyorsbillentyű a lejátszás indításához (vagy a lejátszás/szünet váltáshoz)."
+msgstr "Gyorsbillentyű a lejátszás indításához (vagy a lejátszás/szünet váltáshoz)."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:56
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:239
@@ -931,9 +870,7 @@ msgstr "Csendes hangerő-némítás vagy -visszahangosítás"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:289
 msgid "Binding to mute/unmute the volume without emitting a sound effect."
-msgstr ""
-"Gyorsbillentyű a hangerő némításához vagy visszahangosításához hanghatás "
-"kibocsátása nélkül."
+msgstr "Gyorsbillentyű a hangerő némításához vagy visszahangosításához hanghatás kibocsátása nélkül."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:293
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:604
@@ -1003,7 +940,6 @@ msgid "Skip forward in current track"
 msgstr "Ugrás előrefelé a jelenlegi számban"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:418
-#| msgid "Binding to skip forward in in current track."
 msgid "Binding to skip forward in current track."
 msgstr "Gyorsbillentyű az előrefelé ugráshoz a jelenlegi számban."
 
@@ -1014,8 +950,7 @@ msgstr "Ismétléses lejátszási mód be- vagy kikapcsolása"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:423
 msgid "Binding to toggle repeat mode in media player."
-msgstr ""
-"Gyorsbillentyű az ismétléses mód be- vagy kikapcsolásához a médialejátszóban."
+msgstr "Gyorsbillentyű az ismétléses mód be- vagy kikapcsolásához a médialejátszóban."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:427
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:664
@@ -1024,9 +959,7 @@ msgstr "Véletlenszerű lejátszási mód be- vagy kikapcsolása"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:428
 msgid "Binding to toggle random playback mode in media player."
-msgstr ""
-"Gyorsbillentyű a véletlenszerű lejátszási mód be- vagy kikapcsolásához a "
-"médialejátszóban."
+msgstr "Gyorsbillentyű a véletlenszerű lejátszási mód be- vagy kikapcsolásához a médialejátszóban."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:433
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:670
@@ -1035,8 +968,7 @@ msgstr "Automatikus képernyőtájolás be- vagy kikapcsolása"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:434
 msgid "Binding to toggle automatic screen orientation."
-msgstr ""
-"Gyorsbillentyű az automatikus képernyőtájolás be- vagy kikapcsolásához."
+msgstr "Gyorsbillentyű az automatikus képernyőtájolás be- vagy kikapcsolásához."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:438
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:675
@@ -1144,8 +1076,7 @@ msgstr "Bluetooth repülőgép-üzemmód"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:498
 msgid "Binding to toggle bluetooth airplane mode."
-msgstr ""
-"Gyorsbillentyű a Bluetooth repülőgép-üzemmódjának be- vagy kikapcsolásához."
+msgstr "Gyorsbillentyű a Bluetooth repülőgép-üzemmódjának be- vagy kikapcsolásához."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:511
 msgid "Static binding to launch the calculator."
@@ -1181,9 +1112,7 @@ msgstr "Statikus gyorsbillentyű a lejátszás szüneteltetéséhez."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:551
 msgid "Static binding to start playback (or toggle play/pause)."
-msgstr ""
-"Statikus gyorsbillentyű a lejátszás indításához (vagy a lejátszás és "
-"szüneteltetés váltásához)."
+msgstr "Statikus gyorsbillentyű a lejátszás indításához (vagy a lejátszás és szüneteltetés váltásához)."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:556
 msgid "Static binding to skip to previous track."
@@ -1208,8 +1137,7 @@ msgstr "Statikus gyorsbillentyű a hangerő csökkentéséhez."
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:583
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:600
 msgid "Static binding to mute/unmute the volume."
-msgstr ""
-"Statikus gyorsbillentyű a hangerő némításához vagy visszahangosításához."
+msgstr "Statikus gyorsbillentyű a hangerő némításához vagy visszahangosításához."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:588
 msgid "Static binding to raise the volume."
@@ -1217,14 +1145,11 @@ msgstr "Statikus gyorsbillentyű a hangerő növeléséhez."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:595
 msgid "Static binding to lower the volume without emitting a sound effect."
-msgstr ""
-"Statikus gyorsbillentyű a hangerő csökkentéséhez hanghatás kibocsátása "
-"nélkül."
+msgstr "Statikus gyorsbillentyű a hangerő csökkentéséhez hanghatás kibocsátása nélkül."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:605
 msgid "Static binding to raise the volume without emitting a sound effect."
-msgstr ""
-"Statikus gyorsbillentyű a hangerő növeléséhez hanghatás kibocsátása nélkül."
+msgstr "Statikus gyorsbillentyű a hangerő növeléséhez hanghatás kibocsátása nélkül."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:612
 msgid "Static binding to lower the volume with higher precision."
@@ -1236,8 +1161,7 @@ msgstr "Statikus gyorsbillentyű a hangerő növeléséhez nagyobb pontossággal
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:623
 msgid "Static binding to mute/unmute the microphone."
-msgstr ""
-"Statikus gyorsbillentyű a mikrofon némításához vagy visszahangosításához."
+msgstr "Statikus gyorsbillentyű a mikrofon némításához vagy visszahangosításához."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:628
 msgid "Static binding to launch the web browser."
@@ -1260,27 +1184,20 @@ msgid "Static binding to skip backward in current track."
 msgstr "Statikus gyorsbillentyű a visszafelé ugráshoz a jelenlegi számban."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:655
-#| msgid "Static binding to skip forward in in current track."
 msgid "Static binding to skip forward in current track."
 msgstr "Statikus gyorsbillentyű az előrefelé ugráshoz a jelenlegi számban."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:660
 msgid "Static binding to toggle repeat mode in media player."
-msgstr ""
-"Statikus gyorsbillentyű az ismétléses mód be- vagy kikapcsolásához a "
-"médialejátszóban."
+msgstr "Statikus gyorsbillentyű az ismétléses mód be- vagy kikapcsolásához a médialejátszóban."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:665
 msgid "Static binding to toggle random playback mode in media player."
-msgstr ""
-"Statikus gyorsbillentyű a véletlenszerű lejátszási mód be- vagy "
-"kikapcsolásához a médialejátszóban."
+msgstr "Statikus gyorsbillentyű a véletlenszerű lejátszási mód be- vagy kikapcsolásához a médialejátszóban."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:671
 msgid "Static binding to toggle automatic screen orientation."
-msgstr ""
-"Statikus gyorsbillentyű az automatikus képernyőtájolás be- vagy "
-"kikapcsolásához."
+msgstr "Statikus gyorsbillentyű az automatikus képernyőtájolás be- vagy kikapcsolásához."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:676
 msgid "Static binding for power button."
@@ -1316,13 +1233,11 @@ msgstr "Statikus gyorsbillentyű a billentyűzet fényerejének csökkentéséhe
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:718
 msgid "Static binding to toggle the keyboard brightness."
-msgstr ""
-"Statikus gyorsbillentyű a billentyűzet fényerejének be- vagy kikapcsolásához."
+msgstr "Statikus gyorsbillentyű a billentyűzet fényerejének be- vagy kikapcsolásához."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:724
 msgid "Static binding to show current battery status."
-msgstr ""
-"Statikus gyorsbillentyű a jelenlegi akkumulátorállapot megjelenítéséhez."
+msgstr "Statikus gyorsbillentyű a jelenlegi akkumulátorállapot megjelenítéséhez."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:730
 msgid "Static binding to toggle airplane mode."
@@ -1330,9 +1245,7 @@ msgstr "Statikus gyorsbillentyű a repülőgép-üzemmód be- vagy kikapcsolás�
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:735
 msgid "Static binding to toggle bluetooth airplane mode."
-msgstr ""
-"Statikus gyorsbillentyű a Bluetooth repülőgép-üzemmódjának be- vagy "
-"kikapcsolásához."
+msgstr "Statikus gyorsbillentyű a Bluetooth repülőgép-üzemmódjának be- vagy kikapcsolásához."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:740
 msgid "Maximum length of screen recordings"
@@ -1342,9 +1255,7 @@ msgstr "Képernyőfelvételek maximális hossza"
 msgid ""
 "The maximum length of single screen cast recordings in seconds or 0 for "
 "unlimited"
-msgstr ""
-"Egy önálló képernyőfelvétel rögzítésének legnagyobb hossza másodpercben, "
-"vagy 0, ha korlátlan"
+msgstr "Egy önálló képernyőfelvétel rögzítésének legnagyobb hossza másodpercben, vagy 0, ha korlátlan"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:748
 msgid "Name"
@@ -1377,19 +1288,16 @@ msgstr "A képernyő fényereje üresjáratban"
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:7
 msgid ""
 "This is the laptop panel screen brightness used when the session is idle."
-msgstr ""
-"Ez a noteszgép-képernyőjének a munkamenet tétlensége esetén használandó "
-"fényereje."
+msgstr "Ez a noteszgép-képernyőjének a munkamenet tétlensége esetén használandó fényereje."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:11
 msgid "Dim the screen after a period of inactivity"
 msgstr "A képernyő elsötétítése adott idejű tétlenség után"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:12
-msgid "If the screen should be dimmed to save power when the computer is idle."
-msgstr ""
-"Elsötétüljön-e a képernyő az energiatakarékosság érdekében, ha a számítógép "
-"tétlen."
+msgid ""
+"If the screen should be dimmed to save power when the computer is idle."
+msgstr "Elsötétüljön-e a képernyő az energiatakarékosság érdekében, ha a számítógép tétlen."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:16
 msgid "Sleep timeout computer when on AC"
@@ -1399,9 +1307,7 @@ msgstr "Energiatakarékossági időkorlát hálózati tápellátás esetén"
 msgid ""
 "The amount of time in seconds the computer on AC power needs to be inactive "
 "before it goes to sleep. A value of 0 means never."
-msgstr ""
-"Hálózati tápellátás esetén ennyi másodpercnyi tétlenség után vált "
-"energiatakarékos módba a számítógép. A 0 érték jelentése: soha."
+msgstr "Hálózati tápellátás esetén ennyi másodpercnyi tétlenség után vált energiatakarékos módba a számítógép. A 0 érték jelentése: soha."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:21
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:31
@@ -1412,8 +1318,7 @@ msgstr "Legyen-e hibernálás, felfüggesztés vagy sem tétlenség esetén"
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:32
 msgid ""
 "The type of sleeping that should be performed when the computer is inactive."
-msgstr ""
-"A számítógép tétlensége esetén használandó energiatakarékossági mód típusa."
+msgstr "A számítógép tétlensége esetén használandó energiatakarékossági mód típusa."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:26
 msgid "Sleep timeout computer when on battery"
@@ -1423,9 +1328,7 @@ msgstr "Energiatakarékossági időkorlát akkumulátoros tápellátás esetén"
 msgid ""
 "The amount of time in seconds the computer on battery power needs to be "
 "inactive before it goes to sleep. A value of 0 means never."
-msgstr ""
-"Akkumulátoros tápellátás esetén ennyi másodpercnyi tétlenség után vált "
-"energiatakarékos módba a számítógép. A 0 érték jelentése: soha."
+msgstr "Akkumulátoros tápellátás esetén ennyi másodpercnyi tétlenség után vált energiatakarékos módba a számítógép. A 0 érték jelentése: soha."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:36
 msgid "Enable the ALS sensor"
@@ -1444,10 +1347,7 @@ msgid ""
 "The action to take when the system power button is pressed. This action is "
 "hard-coded (and the setting ignored) on virtual machines (power off) and "
 "tablets (suspend)."
-msgstr ""
-"Az elvégzendő művelet, amikor a rendszer bekapcsológombját megnyomják. Ez a "
-"művelet előre meghatározott (és a beállítás figyelmen kívül lesz hagyva) "
-"virtuális gépeken (kikapcsolás) és táblagépeken (felfüggesztés)."
+msgstr "Az elvégzendő művelet, amikor a rendszer bekapcsológombját megnyomják. Ez a művelet előre meghatározott (és a beállítás figyelmen kívül lesz hagyva) virtuális gépeken (kikapcsolás) és táblagépeken (felfüggesztés)."
 
 #: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:6
 msgid "On which connections the service is enabled"
@@ -1457,9 +1357,7 @@ msgstr "Amely kapcsolatokon a szolgáltatás engedélyezve van"
 msgid ""
 "The list of NetworkManager connections (each one represented with its UUID) "
 "on which this service is enabled and started."
-msgstr ""
-"A hálózatkezelő kapcsolatainak listája (mindegyik az UUID-jával van "
-"ábrázolva), amelyen ez a szolgáltatás engedélyezett és el van indítva."
+msgstr "A hálózatkezelő kapcsolatainak listája (mindegyik az UUID-jával van ábrázolva), amelyen ez a szolgáltatás engedélyezett és el van indítva."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:6
 msgid "Antialiasing"
@@ -1468,12 +1366,9 @@ msgstr "Élsimítás"
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:7
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
-"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
-"and “rgba” for subpixel antialiasing (LCD screens only)."
-msgstr ""
-"A betűkészletek megjelenítéséhez használandó élsimítás típusa. A lehetséges "
-"értékek: „none” (élsimítás kikapcsolása), „grayscale” (szürkeárnyalatos "
-"élsimítás) és „rgba” (képponton belüli élsimítás, csak LCD képernyőkhöz)."
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing,"
+" and “rgba” for subpixel antialiasing (LCD screens only)."
+msgstr "A betűkészletek megjelenítéséhez használandó élsimítás típusa. A lehetséges értékek: „none” (élsimítás kikapcsolása), „grayscale” (szürkeárnyalatos élsimítás) és „rgba” (képponton belüli élsimítás, csak LCD képernyőkhöz)."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:11
 msgid "Hinting"
@@ -1481,28 +1376,17 @@ msgstr "Hinting"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:12
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: “none” "
-"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
-"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"The type of hinting to use when rendering fonts. Possible values are: “none”"
+" for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s"
+" ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
 "Ignores native hinting within the font, generates hints algorithmically. "
 "Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
-"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
-"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version"
+" of FreeType. They usually try to fit glyphs to both the X and the Y axis "
 "(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
-msgstr ""
-"A szövegek renderelése során használt hinting típusa. A lehetséges értékek: "
-"„none” (nincs) a hinting elhagyásához, és „slight” (enyhe) a csak Y "
-"tengelyen történő feszítéshez, amit a Microsoft ClearType-ja, DirectWrite-ja "
-"és az Adobe zárt szövegrenderelési motorja is használ. Figyelmen kívül "
-"hagyja a betűkészletben lévő natív hintinget, algoritmikusan generálja őket. "
-"Ubuntun alapértelmezett. Ajánlott. A „medium” (közepes) vagy „full” (teljes) "
-"a betűkészlet formátumától (.ttf, .otf, .pfa/.pfb) és a FreeType telepített "
-"változatától függ. Általában megpróbálják az X és Y tengelyeket is igazítani "
-"(kivéve .otf esetén: ott csak Y). Ez torzuláshoz vagy inkonzisztens "
-"rendereléshez vezethet a betűkészlet minőségétől, a betűkészlet "
-"formátumától, és a FreeType betűkészlet-motorjaitól függően."
+msgstr "A szövegek renderelése során használt hinting típusa. A lehetséges értékek: „none” (nincs) a hinting elhagyásához, és „slight” (enyhe) a csak Y tengelyen történő feszítéshez, amit a Microsoft ClearType-ja, DirectWrite-ja és az Adobe zárt szövegrenderelési motorja is használ. Figyelmen kívül hagyja a betűkészletben lévő natív hintinget, algoritmikusan generálja őket. Ubuntun alapértelmezett. Ajánlott. A „medium” (közepes) vagy „full” (teljes) a betűkészlet formátumától (.ttf, .otf, .pfa/.pfb) és a FreeType telepített változatától függ. Általában megpróbálják az X és Y tengelyeket is igazítani (kivéve .otf esetén: ott csak Y). Ez torzuláshoz vagy inkonzisztens rendereléshez vezethet a betűkészlet minőségétől, a betűkészlet formátumától, és a FreeType betűkészlet-motorjaitól függően."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:16
 msgid "RGBA order"
@@ -1510,14 +1394,10 @@ msgstr "RGBA sorrend"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:17
 msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
-"“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
-msgstr ""
-"Az LCD képernyő alképpont-elemeinek sorrendje; csak akkor kerül "
-"felhasználásra, ha az élsimítás típusa „rgba”. A lehetséges értékek: "
-"„rgb” (vörös a bal oldalon - a leggyakoribb), „bgr” (kék a bal oldalon), "
-"„vrgb” (vörös fent), „vbgr” (vörös lent)."
+"The order of subpixel elements on an LCD screen; only used when antialiasing"
+" is set to “rgba”. Possible values are: “rgb” for red on left (most common),"
+" “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
+msgstr "Az LCD képernyő alképpont-elemeinek sorrendje; csak akkor kerül felhasználásra, ha az élsimítás típusa „rgba”. A lehetséges értékek: „rgb” (vörös a bal oldalon - a leggyakoribb), „bgr” (kék a bal oldalon), „vrgb” (vörös fent), „vbgr” (vörös lent)."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:21
 msgid "List of explicitly disabled GTK+ modules"
@@ -1527,9 +1407,7 @@ msgstr "Kifejezetten letiltott GTK+ modulok listája"
 msgid ""
 "A list of strings representing the GTK+ modules that will not be loaded, "
 "even if enabled by default in their configuration."
-msgstr ""
-"A be nem töltendő GTK+ modulokat képviselő karakterláncok listája, még ha a "
-"beállításaikban alapértelmezetten engedélyezve is vannak."
+msgstr "A be nem töltendő GTK+ modulokat képviselő karakterláncok listája, még ha a beállításaikban alapértelmezetten engedélyezve is vannak."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:26
 msgid "List of explicitly enabled GTK+ modules"
@@ -1537,11 +1415,9 @@ msgstr "Kifejezetten engedélyezett GTK+ modulok listája"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:27
 msgid ""
-"A list of strings representing the GTK+ modules that will be loaded, usually "
-"in addition to conditional and forcibly disabled ones."
-msgstr ""
-"A betöltendő GTK+ modulokat képviselő karakterláncok listája, általában a "
-"feltételeseken és a kifejezetten letiltottakon túl."
+"A list of strings representing the GTK+ modules that will be loaded, usually"
+" in addition to conditional and forcibly disabled ones."
+msgstr "A betöltendő GTK+ modulokat képviselő karakterláncok listája, általában a feltételeseken és a kifejezetten letiltottakon túl."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:31
 msgid "A dictionary of XSETTINGS to override"
@@ -1549,13 +1425,10 @@ msgstr "Felülbírálandó XSETTINGS beállítások szótára"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:32
 msgid ""
-"This dictionary maps XSETTINGS names to overrides values. The values must be "
-"either strings, signed int32s or (in the case of colors), 4-tuples of uint16 "
-"(red, green, blue, alpha; 65535 is fully opaque)."
-msgstr ""
-"Ez a szótár XSETTINGS neveket képez le felülbírálási értékekre. Az értékek "
-"karakterláncok, előjeles int32-k vagy (színek esetén) uin16-ok négyes tuple-"
-"jai (vörös, zöld, kék, alfa - a 65535 = teljesen átlátszatlan)."
+"This dictionary maps XSETTINGS names to overrides values. The values must be"
+" either strings, signed int32s or (in the case of colors), 4-tuples of "
+"uint16 (red, green, blue, alpha; 65535 is fully opaque)."
+msgstr "Ez a szótár XSETTINGS neveket képez le felülbírálási értékekre. Az értékek karakterláncok, előjeles int32-k vagy (színek esetén) uin16-ok négyes tuple-jai (vörös, zöld, kék, alfa - a 65535 = teljesen átlátszatlan)."
 
 #: plugins/color/gsd-color-calibrate.c:138
 msgid "Color"
@@ -1618,83 +1491,90 @@ msgstr "Beállítások"
 msgid "Date & Time Settings"
 msgstr "Dátum- és időbeállítások"
 
-#: plugins/housekeeping/gsd-disk-space.c:575
+#: plugins/housekeeping/gsd-disk-space.c:578
 msgid "Disk Space"
 msgstr "Lemezterület"
 
-#: plugins/housekeeping/gsd-disk-space.c:588
+#: plugins/housekeeping/gsd-disk-space.c:591
 msgid "Examine"
 msgstr "Vizsgálat"
 
-#: plugins/housekeeping/gsd-disk-space.c:599
+#: plugins/housekeeping/gsd-disk-space.c:602
 msgid "Empty Trash"
 msgstr "Kuka ürítése"
 
-#: plugins/housekeeping/gsd-disk-space.c:607
+#: plugins/housekeeping/gsd-disk-space.c:610
 msgid "Ignore"
 msgstr "Mellőzés"
 
-#: plugins/housekeeping/gsd-disk-space.c:638
+#: plugins/housekeeping/gsd-disk-space.c:644
+#: plugins/housekeeping/gsd-disk-space.c:684
+msgid "Low Disk Space"
+msgstr "Kevés a lemezterület"
+
+#: plugins/housekeeping/gsd-disk-space.c:646
+msgid ""
+"Your computer is out of space.  You may free up some space by emptying the "
+"trash."
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:648
+msgid "Your computer is out of space."
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:673
 #, c-format
 msgid "Low Disk Space on “%s”"
 msgstr "Kevés a lemezterület ezen: „%s”"
 
-#: plugins/housekeeping/gsd-disk-space.c:640
+#: plugins/housekeeping/gsd-disk-space.c:675
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
-"A(z) „%s” köteten már csak %s lemezhely maradt. A Kuka kiürítésével "
-"felszabadíthat némi helyet."
+msgstr "A(z) „%s” köteten már csak %s lemezhely maradt. A Kuka kiürítésével felszabadíthat némi helyet."
 
-#: plugins/housekeeping/gsd-disk-space.c:644
+#: plugins/housekeeping/gsd-disk-space.c:679
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
 msgstr "A(z) „%s” köteten már csak %s lemezhely maradt."
 
-#: plugins/housekeeping/gsd-disk-space.c:649
-msgid "Low Disk Space"
-msgstr "Kevés a lemezterület"
-
-#: plugins/housekeeping/gsd-disk-space.c:651
+#: plugins/housekeeping/gsd-disk-space.c:686
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
-msgstr ""
-"A számítógépen már csak %s lemezhely maradt. A Kuka kiürítésével "
-"felszabadíthat némi helyet."
+msgstr "A számítógépen már csak %s lemezhely maradt. A Kuka kiürítésével felszabadíthat némi helyet."
 
-#: plugins/housekeeping/gsd-disk-space.c:654
+#: plugins/housekeeping/gsd-disk-space.c:689
 #, c-format
 msgid "This computer has only %s disk space remaining."
 msgstr "A számítógépen már csak %s lemezhely maradt."
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2428
+#: plugins/media-keys/gsd-media-keys-manager.c:2439
 msgid "Bluetooth disabled"
 msgstr "Bluetooth letiltva"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2431
+#: plugins/media-keys/gsd-media-keys-manager.c:2442
 msgid "Bluetooth enabled"
 msgstr "Bluetooth engedélyezve"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2435
+#: plugins/media-keys/gsd-media-keys-manager.c:2446
 msgid "Airplane mode enabled"
 msgstr "Repülőgép-üzemmód engedélyezve"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2438
+#: plugins/media-keys/gsd-media-keys-manager.c:2449
 msgid "Airplane mode disabled"
 msgstr "Repülőgép-üzemmód letiltva"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2467
+#: plugins/media-keys/gsd-media-keys-manager.c:2478
 msgid "Hardware Airplane Mode"
 msgstr "Hardveres repülőgép-üzemmód"
 
 #. Translators: this is a filename used for screencast
 #. * recording, where "%d" and "%t" date and time, e.g.
 #. * "Screencast from 07-17-2013 10:00:46 PM.webm"
-#: plugins/media-keys/gsd-media-keys-manager.c:2530
+#: plugins/media-keys/gsd-media-keys-manager.c:2541
 #, no-c-format
 msgid "Screencast from %d %t.webm"
 msgstr "Képernyővideó ekkor: %d %t.webm"
@@ -1803,9 +1683,7 @@ msgstr "A szünetmentes táp gyenge"
 #: plugins/power/gsd-power-manager.c:494
 #, c-format
 msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
-msgstr ""
-"A szünetmentes táp áthidalási idejéből még megközelítőleg %s van hátra (%.0f"
-"%%)"
+msgstr "A szünetmentes táp áthidalási idejéből még megközelítőleg %s van hátra (%.0f%%)"
 
 #. TRANSLATORS: mouse is getting a little low
 #. TRANSLATORS: the mouse battery is very low
@@ -1896,12 +1774,14 @@ msgstr "A csatlakozó számítógép akkumulátora gyenge (%.0f%%)"
 msgid "Battery is low"
 msgstr "Az akkumulátor gyenge"
 
-#. TRANSLATORS: laptop battery critically low, and only have one kind of battery
+#. TRANSLATORS: laptop battery critically low, and only have one kind of
+#. battery
 #: plugins/power/gsd-power-manager.c:597
 msgid "Battery critically low"
 msgstr "Az akkumulátor kritikusan gyenge"
 
-#. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
+#. TRANSLATORS: laptop battery critically low, and we have more than one type
+#. of battery
 #. TRANSLATORS: laptop battery is really, really, low
 #: plugins/power/gsd-power-manager.c:600 plugins/power/gsd-power-manager.c:747
 msgid "Laptop battery critically low"
@@ -1931,10 +1811,7 @@ msgstr "A szünetmentes táp kritikusan gyenge"
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
 "computer to avoid losing data."
-msgstr ""
-"A szünetmentes táp áthidalási idejéből még megközelítőleg %s van hátra (%.0f"
-"%%). Az adatvesztés elkerülése érdekében állítsa vissza a hálózati "
-"tápellátást."
+msgstr "A szünetmentes táp áthidalási idejéből még megközelítőleg %s van hátra (%.0f%%). Az adatvesztés elkerülése érdekében állítsa vissza a hálózati tápellátást."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:636
@@ -1942,9 +1819,7 @@ msgstr ""
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"A vezeték nélküli egér akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti "
-"fel, az eszköz le fog állni."
+msgstr "A vezeték nélküli egér akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az eszköz le fog állni."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:644
@@ -1952,19 +1827,15 @@ msgstr ""
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"A vezeték nélküli billentyűzet akkumulátora nagyon gyenge (%.0f%%). Ha nem "
-"tölti fel, az eszköz le fog állni."
+msgstr "A vezeték nélküli billentyűzet akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az eszköz le fog állni."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:653
 #, c-format
 msgid ""
-"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
-"not charged."
-msgstr ""
-"A PDA akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az eszköz le "
-"fog állni."
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if"
+" not charged."
+msgstr "A PDA akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az eszköz le fog állni."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:663
@@ -1972,9 +1843,7 @@ msgstr ""
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"A mobiltelefon akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az "
-"eszköz le fog állni."
+msgstr "A mobiltelefon akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az eszköz le fog állni."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:672
@@ -1982,19 +1851,15 @@ msgstr ""
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"A médialejátszó akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az "
-"eszköz le fog állni."
+msgstr "A médialejátszó akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az eszköz le fog állni."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:681
 #, c-format
 msgid ""
-"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
-"if not charged."
-msgstr ""
-"A táblagép akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az eszköz "
-"le fog állni."
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning"
+" if not charged."
+msgstr "A táblagép akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az eszköz le fog állni."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:690
@@ -2002,81 +1867,72 @@ msgstr ""
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
 "shutdown if not charged."
-msgstr ""
-"A csatlakozó számítógép akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti "
-"fel, az eszköz le fog állni."
+msgstr "A csatlakozó számítógép akkumulátora nagyon gyenge (%.0f%%). Ha nem tölti fel, az eszköz le fog állni."
 
 #. TRANSLATORS: computer will hibernate
 #: plugins/power/gsd-power-manager.c:755
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
-msgstr ""
-"Az akkumulátor kapacitása a kritikus szint alá esett, és a gép hibernálásra "
-"készül."
+msgstr "Az akkumulátor kapacitása a kritikus szint alá esett, és a gép hibernálásra készül."
 
 #. TRANSLATORS: computer will just shutdown
 #: plugins/power/gsd-power-manager.c:760
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "shutdown."
-msgstr ""
-"Az akkumulátor kapacitása a kritikus szint alá esett, és a gép leállni "
-"készül."
+msgstr "Az akkumulátor kapacitása a kritikus szint alá esett, és a gép leállni készül."
 
 #. TRANSLATORS: computer will hibernate
 #: plugins/power/gsd-power-manager.c:780
 msgid ""
 "UPS is below the critical level and this computer is about to hibernate."
-msgstr ""
-"A szünetmentes táp kapacitása a kritikus szint alá esett, és a gép "
-"hibernálásra készül."
+msgstr "A szünetmentes táp kapacitása a kritikus szint alá esett, és a gép hibernálásra készül."
 
 #. TRANSLATORS: computer will just shutdown
 #: plugins/power/gsd-power-manager.c:785
-msgid "UPS is below the critical level and this computer is about to shutdown."
-msgstr ""
-"A szünetmentes táp kapacitása a kritikus szint alá esett, és a gép leállni "
-"készül."
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
+msgstr "A szünetmentes táp kapacitása a kritikus szint alá esett, és a gép leállni készül."
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1260
+#: plugins/power/gsd-power-manager.c:1266
 msgid "Lid has been opened"
 msgstr "Fedél kinyitva"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1294
+#: plugins/power/gsd-power-manager.c:1300
 msgid "Lid has been closed"
 msgstr "Fedél lezárva"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1857
+#: plugins/power/gsd-power-manager.c:1887
 msgid "On battery power"
 msgstr "Akkumulátoron"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1862
+#: plugins/power/gsd-power-manager.c:1892
 msgid "On AC power"
 msgstr "Hálózaton"
 
-#: plugins/power/gsd-power-manager.c:2050
+#: plugins/power/gsd-power-manager.c:2080
 msgid "Automatic logout"
 msgstr "Automatikus kijelentkezés"
 
-#: plugins/power/gsd-power-manager.c:2050
+#: plugins/power/gsd-power-manager.c:2080
 msgid "You will soon log out because of inactivity."
 msgstr "Hamarosan kijelentkezik inaktivitás miatt."
 
-#: plugins/power/gsd-power-manager.c:2055
+#: plugins/power/gsd-power-manager.c:2085
 msgid "Automatic suspend"
 msgstr "Automatikus felfüggesztés"
 
-#: plugins/power/gsd-power-manager.c:2055
-#: plugins/power/gsd-power-manager.c:2060
+#: plugins/power/gsd-power-manager.c:2085
+#: plugins/power/gsd-power-manager.c:2090
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "A számítógép inaktivitás miatt hamarosan fel lesz függesztve."
 
-#: plugins/power/gsd-power-manager.c:2060
+#: plugins/power/gsd-power-manager.c:2090
 msgid "Automatic hibernation"
 msgstr "Automatikus hibernálás"
 
@@ -2132,31 +1988,36 @@ msgstr "Nyomtatók"
 msgid "Printer “%s” is low on toner."
 msgstr "A(z) „%s” nyomtatóban kevés a festék."
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:378
 #, c-format
 msgid "Printer “%s” has no toner left."
 msgstr "A(z) „%s” nyomtatóból kifogyott a festék."
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:382
 #, c-format
 msgid "Printer “%s” may not be connected."
 msgstr "Lehet, hogy a(z) „%s” nyomtató nincs csatlakoztatva."
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:386
 #, c-format
 msgid "The cover is open on printer “%s”."
 msgstr "A(z) „%s” nyomtató fedele nyitva van."
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:390
 #, c-format
 msgid "There is a missing print filter for printer “%s”."
 msgstr "Hiányzik a nyomtatószűrő a(z) „%s” nyomtatóhoz."
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "The door is open on printer “%s”."
@@ -2174,13 +2035,15 @@ msgstr "A(z) „%s” nyomtató tintapatronja kifogyóban van."
 msgid "Printer “%s” is out of a marker supply."
 msgstr "A(z) „%s” nyomtató tintapatronja kifogyott."
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:407
 #, c-format
 msgid "Printer “%s” is low on paper."
 msgstr "A(z) „%s” nyomtatóban kevés a papír."
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:411
 #, c-format
 msgid "Printer “%s” is out of paper."
@@ -2192,13 +2055,15 @@ msgstr "A(z) „%s” nyomtatóból kifogyott a papír."
 msgid "Printer “%s” is currently off-line."
 msgstr "A(z) „%s” nyomtató jelenleg nem érhető el."
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:419
 #, c-format
 msgid "There is a problem on printer “%s”."
 msgstr "A(z) „%s” nyomtató problémát észlelt."
 
-#. Translators: The printer has a job to print but the printer needs authentication to continue with the print
+#. Translators: The printer has a job to print but the printer needs
+#. authentication to continue with the print
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
@@ -2215,27 +2080,32 @@ msgstr "Hitelesítési adatok szükségesek a nyomtatáshoz"
 msgid "Toner low"
 msgstr "A festékkazetta kimerülőben"
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:602
 msgid "Toner empty"
 msgstr "A festékkazetta üres"
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:604
 msgid "Not connected?"
 msgstr "Nincs csatlakoztatva?"
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:606
 msgid "Cover open"
 msgstr "Nyitva a nyomtatófedél"
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:608
 msgid "Printer configuration error"
 msgstr "Nyomtatóbeállítási hiba"
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:610
 msgid "Door open"
 msgstr "Az ajtó nyitva van"
@@ -2250,12 +2120,14 @@ msgstr "A tintapatron kifogyóban"
 msgid "Out of a marker supply"
 msgstr "A tintapatron kifogyott"
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:616
 msgid "Paper low"
 msgstr "Kevés a papír"
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:618
 msgid "Out of paper"
 msgstr "Kifogyott a papír"
@@ -2265,7 +2137,8 @@ msgstr "Kifogyott a papír"
 msgid "Printer off-line"
 msgstr "A nyomtató nem érhető el"
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #. Translators: This is a title of an error notification for a printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:622
 #: plugins/print-notifications/gsd-print-notifications-manager.c:997
@@ -2338,7 +2211,8 @@ msgstr "Nyomtatójelentés"
 msgid "Printer warning"
 msgstr "Nyomtatófigyelmeztetés"
 
-#. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
+#. Translators: "Printer 'MyPrinterName': 'Description of the
+#. report/warning/error from a PPD file'."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1004
 #, c-format
 msgid "Printer “%s”: “%s”."
@@ -2357,8 +2231,7 @@ msgstr "Wacom táblagép megvilágított LED-jének módosítása"
 
 #: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:21
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
-msgstr ""
-"Hitelesítés szükséges a Wacom táblagép megvilágított LED-jének módosításához"
+msgstr "Hitelesítés szükséges a Wacom táblagép megvilágított LED-jének módosításához"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
