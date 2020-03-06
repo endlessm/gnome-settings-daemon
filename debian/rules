@@ -7,6 +7,9 @@ export DEB_LDFLAGS_MAINT_STRIP = -Wl,-Bsymbolic-functions
 %:
 	dh $@
 
+# needs setuid root
+DEB_FIXPERMS_EXCLUDE := led-breathe
+
 ifneq ($(DEB_HOST_ARCH_OS),linux)
 CONFFLAGS = \
 	-Drfkill=false \
