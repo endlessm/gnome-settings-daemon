@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-16 23:15+0100\n"
+"POT-Creation-Date: 2020-04-16 23:25+0100\n"
 "PO-Revision-Date: 2020-01-27 17:23+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
@@ -1634,18 +1634,16 @@ msgid "Low Disk Space"
 msgstr "Düşük Disk Alanı"
 
 #: plugins/housekeeping/gsd-disk-space.c:700
-#, fuzzy
 msgid ""
 "Your computer is out of space.  You may free up some space by emptying the "
 "trash."
 msgstr ""
-"Bu bilgisayarda yalnızca %s disk alanı kaldı.  Çöpü boşaltarak biraz yer "
+"Bilgisayarınız da boş alan kalmadı. Çöpleri boşaltarak biraz yer "
 "açabilirsiniz."
 
 #: plugins/housekeeping/gsd-disk-space.c:702
-#, fuzzy
 msgid "Your computer is out of space."
-msgstr "“%s” yazıcısında kağıt tükenmiş."
+msgstr "Bilgisayarınız da boş alan kalmadı."
 
 #: plugins/housekeeping/gsd-disk-space.c:727
 #, c-format
@@ -1732,12 +1730,14 @@ msgstr "Bilinmeyen süre"
 msgid "%i minute"
 msgid_plural "%i minutes"
 msgstr[0] "%i dakika"
+msgstr[1] "%i dakika"
 
 #: plugins/power/gpm-common.c:106
 #, c-format
 msgid "%i hour"
 msgid_plural "%i hours"
 msgstr[0] "%i saat"
+msgstr[1] "%i saat"
 
 #. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
 #. * Swap order with "%2$s %2$i %1$s %1$i if needed
@@ -1750,11 +1750,13 @@ msgstr "%i %s %i %s"
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "saat"
+msgstr[1] "saat"
 
 #: plugins/power/gpm-common.c:114
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "dakika"
+msgstr[1] "dakika"
 
 #. TRANSLATORS: this is the sound description
 #: plugins/power/gpm-common.c:424 plugins/power/gsd-power-manager.c:720
@@ -2454,13 +2456,15 @@ msgstr "SIM kartınızın kilidini açmak için PIN girin"
 #, c-format
 msgid "%2$s You have %1$u try left"
 msgid_plural "%2$s You have %1$u tries left"
-msgstr[0] "%2$s, %1$u denemeniz kaldı"
+msgstr[0] "%2$s %1$u deneme hakkın kaldı"
+msgstr[1] "%2$s %1$u deneme hakkın kaldı"
 
 #: plugins/wwan/gsd-wwan-pinentry.c:127
 #, c-format
 msgid "You have %u try left"
 msgid_plural "You have %u tries left"
-msgstr[0] "%u denemeniz kaldı"
+msgstr[0] "%u deneme hakkın kaldı"
+msgstr[1] "%u deneme hakkın kaldı"
 
 #. Set up the dialog
 #: plugins/wwan/gsd-wwan-pinentry.c:173 plugins/wwan/gsd-wwan-pinentry.c:175
@@ -2708,7 +2712,6 @@ msgstr "Yanlış PIN kodu"
 #~ msgid "Date and Time"
 #~ msgstr "Tarih ve Saat"
 
-#~| msgid "Automatically update timezone and display notifications"
 #~ msgid "Automatically update timezone"
 #~ msgstr "Saat dilimini otomatik olarak güncelle"
 
@@ -3246,7 +3249,8 @@ msgstr "Yanlış PIN kodu"
 # TRANSLATORS: device is charging, and we have a time to full and a percentage
 # * The first parameter is the device type, e.g. "Laptop battery" and
 # * the second is the time, e.g. "7 hours 6 minutes"
-# TRANSLATORS: device is charging, and we have a time to full and a percentage.
+# TRANSLATORS: device is charging, and we have a time to full and a
+# percentage.
 # * The first parameter is the device type, e.g. "Laptop battery" and
 # * the second is the time, e.g. "7 hours 6 minutes"
 #
@@ -3760,9 +3764,6 @@ msgstr "Yanlış PIN kodu"
 #~ msgstr "İzin verilen tuşlar"
 
 #, fuzzy
-#~| msgid ""
-#~| "If non-empty, keybindings will be ignored unless their GConf directory "
-#~| "is in the list. This is useful for lockdown."
 #~ msgid ""
 #~ "If non-empty, keybindings will be ignored unless their settings directory "
 #~ "is in the list. This is useful for lockdown."
@@ -3770,11 +3771,9 @@ msgstr "Yanlış PIN kodu"
 #~ "Eğer boş değilse, kendi GConf  dizini listede olmadığı sürece tuş bağı "
 #~ "yok sayılır. Bu kilitleme için kullanışlıdır."
 
-#~| msgid "Automatically update these types of updates"
 #~ msgid "Automatically install these types of updates"
 #~ msgstr "Bu tür güncellemeleri otomatik olarak kur"
 
-#~| msgid "Automatically update these types of updates."
 #~ msgid "Automatically install these types of updates."
 #~ msgstr "Bu tür güncellemeleri otomatik olarak kur."
 
@@ -4067,7 +4066,6 @@ msgstr "Yanlış PIN kodu"
 #~ msgid "Default"
 #~ msgstr "Öntanımlı"
 
-#~| msgid "Key binding (%s) is invalid"
 #~ msgid "Key binding (%s) is invalid (%d)"
 #~ msgstr "Tuş bağı (%s) geçersiz (%d)"
 
@@ -4107,11 +4105,9 @@ msgstr "Yanlış PIN kodu"
 #~ msgid "_Layouts"
 #~ msgstr "_Düzenler"
 
-#~| msgid "Show _Current Layout"
 #~ msgid "Show _Keyboard Layout..."
 #~ msgstr "_Klavye Düzenini Göster..."
 
-#~| msgid "Manage X Settings"
 #~ msgid "Region and Language Settings"
 #~ msgstr "Bölge ve Dil Ayarları"
 

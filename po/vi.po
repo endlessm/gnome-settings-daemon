@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-16 23:15+0100\n"
+"POT-Creation-Date: 2020-04-16 23:25+0100\n"
 "PO-Revision-Date: 2016-09-08 14:56+0700\n"
 "Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <gnome-vi-list@gnome.org>\n"
@@ -26,7 +26,6 @@ msgid "Smartcard removal action"
 msgstr "Thao tác tháo thẻ thông minh"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:13
-#, fuzzy
 msgid ""
 "Set this to one of “none”, “lock-screen”, or “force-logout”. The action will "
 "get performed when the smartcard used for log in is removed."
@@ -37,15 +36,15 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:25
 msgid "Possible values are “on”, “off”, and “custom”."
-msgstr ""
+msgstr "Các giá trị khả dĩ là \"bật\", \"tắt\" và \"tùy chỉnh\"."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:35
 msgid "Keyboard Bell Custom Filename"
-msgstr ""
+msgstr "Tên tập tin Tùy chỉnh Chuông Bàn phím"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:36
 msgid "File name of the bell sound to be played."
-msgstr ""
+msgstr "Tên tập tin âm thanh chuông sẽ được phát."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:42
 msgid "Double click time"
@@ -64,23 +63,22 @@ msgid "Distance before a drag is started."
 msgstr "Khoảng cách trước khi bắt đầu kéo."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:54
-#, fuzzy
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
 msgstr "Có khóa hướng bảng vẽ, hay quay tự động."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:62
-#, fuzzy
 msgid "Mouse button orientation"
-msgstr "Mô phỏng nút chuột giữa"
+msgstr "Hướng nút chuột"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:63
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr ""
+"Hoán đổi nút chuột trái và phải cho chuột dành cho người thuận tay trái."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:67
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:134
 msgid "Single Click"
-msgstr ""
+msgstr "Nhấp Đơn"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:68
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:135
@@ -88,12 +86,13 @@ msgid ""
 "Acceleration multiplier for mouse motion. A value of -1 is the system "
 "default."
 msgstr ""
+"Hệ số nhân tăng tốc cho tốc độ chuột. Giá trị -1 là giá trị mặc định của hệ "
+"thống"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:72
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:139
-#, fuzzy
 msgid "Motion Threshold"
-msgstr "Ngưỡng kéo"
+msgstr "Ngưỡng Chuyển động"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:73
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:140
@@ -101,120 +100,129 @@ msgid ""
 "Distance in pixels the pointer must move before accelerated mouse motion is "
 "activated. A value of -1 is the system default."
 msgstr ""
+"Khoảng cách tính bằng pixel mà con trỏ phải di chuyển trước khi chuyển động "
+"chuột tăng tốc được kích hoạt. Giá trị -1 là mặc định của hệ thống."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:77
 msgid "Middle button emulation"
-msgstr "Mô phỏng nút chuột giữa"
+msgstr "Mô phỏng nút giữa"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:78
 msgid ""
 "Enables middle mouse button emulation through simultaneous left and right "
 "button click."
-msgstr "Bật mô phỏng nút chuột giữa qua việc nhấn đồng thời nút trái và phải."
+msgstr ""
+"Bật giả lập nút chuột giữa bằng cách nhấp đồng thời nút chuột trái và phải."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:87
 msgid "Key Repeat Interval"
-msgstr ""
+msgstr "Khoảng thời gian Lặp lại Phím"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:88
 msgid "Delay between repeats in milliseconds."
-msgstr ""
+msgstr "Thời gian chờ giữa hai lần lặp lại tính bằng mili giây."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:92
 msgid "Initial Key Repeat Delay"
-msgstr ""
+msgstr "Độ trễ Lặp lại của Phím Ban đầu"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:93
-#, fuzzy
 msgid "Initial key repeat delay in milliseconds."
-msgstr "Độ dài sự kiện nhấp đúp tính theo mili giây."
+msgstr "Độ trễ lặp lại của phím ban đầu tính bằng mili giây."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:97
 msgid "Remember NumLock state"
-msgstr ""
+msgstr "Nhớ trạng thái phím NumLock"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:98
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
 msgstr ""
+"Khi đặt thành đúng, GNOME sẽ nhớ trạng thái của đèn LED phím NumLock giữa "
+"các phiên làm việc."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:104
 msgid "Disable touchpad while typing"
-msgstr "Tắt touchpad khi đang gõ"
+msgstr "Tắt bàn di chuột khi đánh máy"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:105
 msgid ""
 "Set this to TRUE if you have problems with accidentally hitting the touchpad "
 "while typing."
-msgstr "Đặt là TRUE nếu bạn hay chạm phải touchpad khi đang gõ phím."
+msgstr ""
+"Đặt giá trị này thành ĐÚNG nếu bạn gặp vấn đề vô tình chạm vào bàn di chuột "
+"khi đánh máy."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:109
 msgid "Enable horizontal scrolling"
-msgstr "Bật cuộn ngang"
+msgstr "Mở tính năng cuộn theo chiều ngang"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:110
 msgid ""
 "Set this to TRUE to allow horizontal scrolling by the same method selected "
 "with the scroll_method key."
 msgstr ""
-"Đặt là TRUE để cho phép cuộn ngang bằng cùng cách cuộn xác định bởi khóa "
-"scroll_method."
+"Chuyển giá trị này thành TRUE (ĐÚNG) để cho phép cuộn ngang theo chính cách "
+"thức đã được chọn với phím scroll_method (phương thức_cuộn)."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:114
 msgid "Select the touchpad scroll method"
-msgstr "Chọn cách cuộn bằng touchpad"
+msgstr "Chọn phương pháp cuộn của bàn di chuột"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:115
-#, fuzzy
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
 msgstr ""
-"Chọn cách cuộn bằng touchpad. Giá trị hỗ trợ là: \"disabled\", \"edge-"
-"scrolling\", \"two-finger-scrolling\"."
+"Hãy chọn cách thức cuộn cho bàn rê chuột cảm ứng (touchpad). Các giá trị "
+"được hỗ trợ bao gồm: \"disabled\" (\"tắt\"), “edge-scrolling” (\"cuộn ở rìa "
+"bàn rê chuột\"), “two-finger-scrolling” (\"cuộn bằng hai ngón\")."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:119
 msgid "Enable mouse clicks with touchpad"
-msgstr "Bật nhấn chuột bằng touchpad"
+msgstr "Bật nhấp chuột với bàn di chuột"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:120
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
-msgstr "Đặt là TRUE để có thể gửi phím nhấn chuột bằng cách gõ vào touchpad."
+msgstr ""
+"Đặt giá trị này thành ĐÚNG để có thể gửi nhấp chuột bằng việc chạm vào bàn "
+"di chuột."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:124
 msgid "Enable touchpad"
-msgstr "Bật touchpad"
+msgstr "Bật bàn di chuột"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:125
 msgid "Set this to TRUE to enable all touchpads."
-msgstr "Đặt là TRUE để kích hoạt tất cả touchpad."
+msgstr "Đặt giá trị này thành ĐÚNG để bật mọi bàn di chuột."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:129
-#, fuzzy
 msgid "Touchpad button orientation"
-msgstr "Mô phỏng nút chuột giữa"
+msgstr "Hướng xoay nút bàn di chuột"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:130
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
 msgstr ""
+"Hoán đổi nút chuột trái và nút chuột phải với mục \"trái\" dành cho chuột "
+"của người thuận tay trái, mục \"phải\" dành cho chuột của người thuận tay "
+"phải, mục \"chuột\" để làm theo cài đặt chuột."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:144
-#, fuzzy
 msgid "Natural scrolling"
-msgstr "Bật cuộn ngang"
+msgstr "Cuộn tự nhiên"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:145
-#, fuzzy
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
-msgstr "Đặt là TRUE để kích hoạt tất cả touchpad."
+msgstr ""
+"Đặt giá trị này thành ĐÚNG để bật cuộn tự nhiên (ngược) cho bàn di chuột."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:152
 msgid "Mouse wheel emulation button. 0 to disable the feature."
-msgstr "Nút mô phỏng bánh xe chuột. 0 để tắt tính năng này."
+msgstr "Nút mô phỏng con lăn của chuột. Chọn giá trị 0 để tắt tính năng này."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:10
 msgid "Wacom stylus absolute mode"
@@ -248,7 +256,6 @@ msgid "Wacom tablet rotation"
 msgstr "Quay bảng vẽ Wacom"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:26
-#, fuzzy
 msgid ""
 "Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and "
 "“ccw” for 90 degree counterclockwise."
@@ -375,7 +382,7 @@ msgstr "Hồ sơ màu in sẽ không còn hợp lệ sau số ngày này."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:16
 msgid "If the night light mode is enabled"
-msgstr ""
+msgstr "Nếu bật chế độ đèn ban đêm"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:17
 msgid ""
@@ -385,48 +392,53 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
-msgstr ""
+msgstr "Nhiệt độ của màn hình hiển thị khi được kích hoạt"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:22
 msgid ""
 "This temperature in Kelvin is used to modify the screen tones when night "
 "light mode is enabled. Higher values are bluer, lower redder."
 msgstr ""
+"Nhiệt độ Kelvin này được sử dụng để điều chỉnh tông màn hình khi chế độ ánh "
+"sáng ban đêm được kích hoạt. Giá trị cao hơn là xanh hơn, thấp hơn là đỏ hơn."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:26
 msgid "Use the sunrise and sunset"
-msgstr ""
+msgstr "Sử dụng bình minh và hoàng hôn"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:27
 msgid ""
 "Calculate the sunrise and sunset times automatically, from the current "
 "location."
-msgstr ""
+msgstr "Tự động tính thời gian mặt trời mọc và lặn từ vị trí hiện tại."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:31
-#, fuzzy
 msgid "The start time"
-msgstr "Thời gian sạc:"
+msgstr "Thời điểm bắt đầu"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:32
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this start time in "
 "hours from midnight."
 msgstr ""
+"Khi \"ánh sáng-ban đêm-lịch-tự động\" được tắt, sử dụng thời gian bắt đầu "
+"này theo giờ từ nửa đêm."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:36
 msgid "The end time"
-msgstr ""
+msgstr "Thời điểm kết thúc"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:37
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this end time in "
 "hours from midnight."
 msgstr ""
+"Khi tắt chế độ \"night-light-schedule-automatic\", hãy thiết lập thời điểm "
+"kết thúc này vài giờ sau thời gian nửa đêm."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:41
 msgid "The last detected position"
-msgstr ""
+msgstr "Vị trí phát hiện cuối cùng"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:42
 msgid ""
@@ -434,20 +446,21 @@ msgid ""
 "location. The default value is an invalid value to ensure it is always "
 "updated at startup."
 msgstr ""
+"Khi có dịch vụ vị trí, địa điểm được tìm thấy lần cuối sẽ được hiển thị. Giá "
+"trị mặc định là một giá trị không hợp lệ nhằm đảm bảo vị trí luôn được cập "
+"nhật khi khởi động chức năng này."
 
 #: data/org.gnome.settings-daemon.plugins.gschema.xml.in:6
 msgid "List of plugins that are allowed to be loaded"
 msgstr "Liệt kê các phần bổ xung được phép tải"
 
 #: data/org.gnome.settings-daemon.plugins.gschema.xml.in:7
-#, fuzzy
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: “all”). This is only evaluated on startup."
 msgstr ""
-"Danh sách các chuỗi đại diện cho phần bổ xung mà được phép tải (mặc định là "
-"“all”). Các phần bổ xung vẫn cần đánh dấu là hoạt động để có thể được tải. "
-"Cái này chỉ được ước tính khi khởi động."
+"Một danh sách chuỗi thể hiện các phần bổ trợ cho phép tải (mặc định: \"tất cả"
+"\"). Danh sách này chỉ được đánh giá tại thời điểm khởi động."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:6
 msgid "Mount paths to ignore"
@@ -787,9 +800,8 @@ msgstr "Ghi màn hình thành một đoạn phim ngắn"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:132
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:353
-#, fuzzy
 msgid "Binding to record a short video of the screen"
-msgstr "Ghi màn hình thành một đoạn phim ngắn"
+msgstr "Liên kết để quay một đoạn video ngắn nội dung của màn hình"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:136
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:357
@@ -1369,13 +1381,15 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:746
 msgid "Maximum length of screen recordings"
-msgstr ""
+msgstr "Độ dài tối đa của các đoạn phim quay màn hình"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:747
 msgid ""
 "The maximum length of single screen cast recordings in seconds or 0 for "
 "unlimited"
 msgstr ""
+"Thời gian quay tối đa một màn hình chiếu tính bằng giây hoặc nhập 0 để không "
+"giới hạn"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:754
 msgid "Name"
@@ -1403,64 +1417,72 @@ msgstr "Lệnh cần chạy khi nhấn tổ hợp phím"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:6
 msgid "The brightness of the screen when idle"
-msgstr ""
+msgstr "Độ sáng của màn hình khi ở chế độ nghỉ"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:7
 msgid ""
 "This is the laptop panel screen brightness used when the session is idle."
 msgstr ""
+"Đây là độ sáng màn hình mà panel laptop sử dụng khi phiên làm việc không "
+"chạy."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:11
 msgid "Dim the screen after a period of inactivity"
-msgstr ""
+msgstr "Giảm độ sáng màn hình sau một thời gian không dùng đến"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:12
 msgid "If the screen should be dimmed to save power when the computer is idle."
 msgstr ""
+"Nếu màn hình nên tối đi để tiết kiệm điện khi máy tính không hoạt động."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:16
 msgid "Sleep timeout computer when on AC"
-msgstr ""
+msgstr "Thời gian chờ để ngủ của máy tính khi có nguồn AC"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:17
 msgid ""
 "The amount of time in seconds the computer on AC power needs to be inactive "
 "before it goes to sleep. A value of 0 means never."
 msgstr ""
+"Thời gian tính bằng giây khi mà máy tính dùng nguồn AC cần phải không hoạt "
+"động trước khi vào trạng thái ngủ. Giá trị 0 nghĩa là không bao giờ."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:21
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:31
 msgid "Whether to hibernate, suspend or do nothing when inactive"
 msgstr ""
+"Có chọn ngủ đông, tạm ngừng hoặc không làm gì hay không khi không hoạt động"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:22
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:32
 msgid ""
 "The type of sleeping that should be performed when the computer is inactive."
 msgstr ""
+"Kiểu chế độ ngủ nên được sử dụng khi máy tính ở trạng thái không sử dụng."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:26
 msgid "Sleep timeout computer when on battery"
-msgstr ""
+msgstr "Lượng thời gian máy tính ở chế độ ngủ khi dùng pin"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:27
 msgid ""
 "The amount of time in seconds the computer on battery power needs to be "
 "inactive before it goes to sleep. A value of 0 means never."
 msgstr ""
+"Thời gian tính bằng giây khi mà máy tính dùng pin cần phải không hoạt động "
+"trước khi vào trạng thái ngủ. Giá trị 0 nghĩa là không bao giờ."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:36
 msgid "Enable the ALS sensor"
-msgstr ""
+msgstr "Bật cảm biến ALS"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:37
 msgid "If the ambient light sensor functionality is enabled."
-msgstr ""
+msgstr "Nếu chức năng cảm biến ánh sáng xung quanh được bật."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:41
-#, fuzzy
 msgid "Power button action"
-msgstr "Kiểu hành động nút Wacom"
+msgstr "Chức năng nút nguồn"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:42
 msgid ""
@@ -1468,6 +1490,9 @@ msgid ""
 "hard-coded (and the setting ignored) on virtual machines (power off) and "
 "tablets (suspend)."
 msgstr ""
+"Hành động sẽ thực hiện khi nhấn nút nguồn hệ thống. Hành động này được mã "
+"hóa cứng (và cài đặt bị bỏ qua) trên máy ảo (tắt nguồn) và máy tính bảng "
+"(tạm ngưng)."
 
 #: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:6
 msgid "On which connections the service is enabled"
@@ -1486,7 +1511,6 @@ msgid "Antialiasing"
 msgstr "Khử răng cưa"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:7
-#, fuzzy
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
@@ -1502,7 +1526,6 @@ msgid "Hinting"
 msgstr "Tinh chỉnh phông"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:12
-#, fuzzy
 msgid ""
 "The type of hinting to use when rendering fonts. Possible values are: “none” "
 "for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
@@ -1515,23 +1538,22 @@ msgid ""
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
 msgstr ""
-"KieThe type of hinting to use when rendering fonts. Possible values are: "
-"\"none\" for no hinting and \"slight\" for fitting only to the Y-axis like "
-"Microsoft's ClearType, DirectWrite and Adobe's proprietary font rendering "
-"engine. Ignores native hinting within the font, generates hints "
-"algorithmically. Used on Ubuntu by default. Recommended. The meaning of "
-"\"medium\" and \"full\" depends on the font format (.ttf, .otf, .pfa/.pfb) "
-"and the installed version of FreeType. They usually try to fit glyphs to "
-"both the X and the Y axis (except for .otf: Y-only). This can lead to "
-"distortion and/or inconsistent rendering depending on the quality of the "
-"font, the font format and the state of FreeType's font engines."
+"Loại gợi ý để sử dụng khi kết xuất phông chữ. Các giá trị có thể là: \"không "
+"có\" khi không có gợi ý và \"ít\" với trường hợp chỉ vừa với trục Y như "
+"ClearType, DirectWrite của Microsoft và công cụ kết xuất phông chữ độc quyền "
+"của Adobe. Bỏ qua gợi ý gốc trong phông chữ, tạo các gợi ý theo thuật toán. "
+"Được sử dụng trên Ubuntu theo mặc định. Được khuyên dùng. Ý nghĩa của "
+"\"trung bình\" và \"đầy đủ\" phụ thuộc vào định dạng phông chữ (.ttf, .otf, ."
+"pfa/.pfb) và phiên bản FreeType được cài đặt. Họ thường cố gắng căn các hình "
+"chữ vừa với cả trục X và trục Y (trừ .otf: chỉ trục Y). Điều này có thể gây "
+"biến dạng và/ hoặc kết xuất không nhất quán phụ thuộc vào chất lượng của "
+"phông chữ, định dạng phông và tình trạng công cụ phông của FreeType."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:16
 msgid "RGBA order"
 msgstr "Thứ tự RGBA"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:17
-#, fuzzy
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing "
 "is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
@@ -1570,7 +1592,7 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:31
 msgid "A dictionary of XSETTINGS to override"
-msgstr ""
+msgstr "Từ điển XSETTINGS để ghi đè"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:32
 msgid ""
@@ -1578,6 +1600,9 @@ msgid ""
 "either strings, signed int32s or (in the case of colors), 4-tuples of uint16 "
 "(red, green, blue, alpha; 65535 is fully opaque)."
 msgstr ""
+"Từ điển này ánh xạ các tên XSETTINGS để ghi đè các giá trị. Các giá trị phải "
+"là chuỗi, int32 có dấu hoặc (trong trường hợp màu), 4 bộ uint16 (đỏ, lục, "
+"lam, alpha; 65535 là hoàn toàn mờ)."
 
 #: plugins/color/gsd-color-calibrate.c:138
 msgid "Color"
@@ -1595,13 +1620,13 @@ msgstr "Cần cân chỉnh lại."
 
 #. TRANSLATORS: this is when the display has not been recalibrated in a while
 #: plugins/color/gsd-color-calibrate.c:198
-#, fuzzy, c-format
+#, c-format
 msgid "The display “%s” should be recalibrated soon."
 msgstr "Thiết bị hiển thị “%s” cần được cân chỉnh sớm."
 
 #. TRANSLATORS: this is when the printer has not been recalibrated in a while
 #: plugins/color/gsd-color-calibrate.c:207
-#, fuzzy, c-format
+#, c-format
 msgid "The printer “%s” should be recalibrated soon."
 msgstr "Máy in “%s” cần được cân chỉnh sớm."
 
@@ -2114,7 +2139,6 @@ msgstr "Cấu hình máy in mới"
 
 #. Translators: Just wait
 #: plugins/print-notifications/gsd-printer.c:892
-#, fuzzy
 msgid "Please wait…"
 msgstr "Vui lòng chờ…"
 
@@ -2145,73 +2169,73 @@ msgstr "Máy in"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:374
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is low on toner."
 msgstr "Máy in “%s” ở trạng thái trống mực sắp hết."
 
 #. Translators: The printer has no toner left (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:378
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” has no toner left."
 msgstr "Máy in “%s” đã hết mực trên trống."
 
 #. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:382
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” may not be connected."
 msgstr "Máy in “%s” có thể chưa kết nối."
 
 #. Translators: One or more covers on the printer are open (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:386
-#, fuzzy, c-format
+#, c-format
 msgid "The cover is open on printer “%s”."
 msgstr "Nắp máy in “%s” đang mở."
 
 #. Translators: A filter or backend is not installed (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:390
-#, fuzzy, c-format
+#, c-format
 msgid "There is a missing print filter for printer “%s”."
 msgstr "Thiếu bộ lọc in cho máy in “%s”."
 
 #. Translators: One or more doors on the printer are open (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:395
-#, fuzzy, c-format
+#, c-format
 msgid "The door is open on printer “%s”."
 msgstr "Cửa máy in “%s” đang mở."
 
 #. Translators: "marker" is one color bin of the printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:399
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is low on a marker supply."
 msgstr "Máy in “%s” còn ít mực."
 
 #. Translators: "marker" is one color bin of the printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:403
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is out of a marker supply."
 msgstr "Máy in “%s” hết mực."
 
 #. Translators: At least one input tray is low on media (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:407
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is low on paper."
 msgstr "Máy in “%s” còn ít giấy."
 
 #. Translators: At least one input tray is empty (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:411
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is out of paper."
 msgstr "Máy in “%s” hết giấy."
 
 #. Translators: The printer is offline (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:415
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is currently off-line."
 msgstr "Máy in “%s” ngoại tuyến."
 
 #. Translators: The printer has detected an error (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:419
-#, fuzzy, c-format
+#, c-format
 msgid "There is a problem on printer “%s”."
 msgstr "Có vấn đề với máy in “%s”."
 
@@ -2312,7 +2336,7 @@ msgstr "Đã dừng in"
 #: plugins/print-notifications/gsd-print-notifications-manager.c:743
 #: plugins/print-notifications/gsd-print-notifications-manager.c:751
 #: plugins/print-notifications/gsd-print-notifications-manager.c:775
-#, fuzzy, c-format
+#, c-format
 msgctxt "print job"
 msgid "“%s” on %s"
 msgstr "“%s” trên %s"
@@ -2357,7 +2381,7 @@ msgstr "Cảnh báo máy in"
 
 #. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1004
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s”: “%s”."
 msgstr "Máy in “%s”: “%s”."
 

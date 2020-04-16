@@ -30,7 +30,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-16 23:15+0100\n"
+"POT-Creation-Date: 2020-04-16 23:25+0100\n"
 "PO-Revision-Date: 2019-08-21 22:18+0200\n"
 "Last-Translator: Christian Kirbach <christian.kirbach@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
@@ -60,7 +60,7 @@ msgstr "Mögliche Werte sind »on«, »off« und »custom«."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:35
 msgid "Keyboard Bell Custom Filename"
-msgstr "Dateiname für Systemglocke"
+msgstr "Dateiname für Tastentöne."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:36
 msgid "File name of the bell sound to be played."
@@ -753,7 +753,8 @@ msgstr "Tastenkürzel um die Lautstärke abzusenken."
 msgid "Volume mute/unmute"
 msgstr "Stumm schalten/Stummschaltung aufheben"
 
-# Alternative: einschalten/ausschalten. Ist der Vorwärtsschrägstrich OK, oder benutzen wir besser ein "oder" oder ein "und" oder ein "bzw."?
+# Alternative: einschalten/ausschalten. Ist der Vorwärtsschrägstrich OK, oder
+# benutzen wir besser ein "oder" oder ein "und" oder ein "bzw."?
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:272
 msgid "Binding to mute/unmute the volume."
@@ -1136,7 +1137,8 @@ msgstr "Bildschirmhelligkeit verringern"
 msgid "Binding to decrease the screen brightness."
 msgstr "Tastenkürzel zur Verringerung der Bildschirmhelligkeit."
 
-# https://gitlab.gnome.org/GNOME/gnome-settings-daemon/commit/dce8028ef85c487d2ae39831432104864aa95664
+# https://gitlab.gnome.org/GNOME/gnome-settings-
+# daemon/commit/dce8028ef85c487d2ae39831432104864aa95664
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:470
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:707
 msgid "Screen brightness cycle"
@@ -1201,7 +1203,9 @@ msgstr "Bluetooth-RF-Kill"
 msgid "Binding to toggle bluetooth airplane mode."
 msgstr "Tastenkürzel zum Ein- und Ausschalten des Bluetooth-Flugmodus."
 
-# Zur Erklärung der static-bindings siehe die Commit-Nachricht: https://gitlab.gnome.org/GNOME/gnome-settings-daemon/commit/121a6f89917898b8d05db2e1933dd0ad59c26768
+# Zur Erklärung der static-bindings siehe die Commit-Nachricht:
+# https://gitlab.gnome.org/GNOME/gnome-settings-
+# daemon/commit/121a6f89917898b8d05db2e1933dd0ad59c26768
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:517
 msgid "Static binding to launch the calculator."
 msgstr "System-Tastenkürzel um den Taschenrechner zu öffnen."
@@ -1695,18 +1699,16 @@ msgid "Low Disk Space"
 msgstr "Wenig Speicherplatz"
 
 #: plugins/housekeeping/gsd-disk-space.c:700
-#, fuzzy
 msgid ""
 "Your computer is out of space.  You may free up some space by emptying the "
 "trash."
 msgstr ""
-"Auf diesem Rechner ist nur noch %s Speicherplatz verfügbar. Sie können "
+"Auf diesem Computer ist nur noch wenig Speicherplatz verfügbar. Sie können "
 "Speicherplatz freigeben, indem Sie den Papierkorb leeren."
 
 #: plugins/housekeeping/gsd-disk-space.c:702
-#, fuzzy
 msgid "Your computer is out of space."
-msgstr "Drucker »%s« hat kein Papier mehr."
+msgstr "Auf diesem Computer ist nur noch wenig Speicherplatz verfügbar."
 
 #: plugins/housekeeping/gsd-disk-space.c:727
 #, c-format

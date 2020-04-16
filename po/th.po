@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-16 23:15+0100\n"
+"POT-Creation-Date: 2020-04-16 23:25+0100\n"
 "PO-Revision-Date: 2012-10-10 12:19+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -27,7 +27,6 @@ msgid "Smartcard removal action"
 msgstr "การกระทำเมื่อถอดสมาร์ทการ์ด"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:13
-#, fuzzy
 msgid ""
 "Set this to one of “none”, “lock-screen”, or “force-logout”. The action will "
 "get performed when the smartcard used for log in is removed."
@@ -37,15 +36,15 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:25
 msgid "Possible values are “on”, “off”, and “custom”."
-msgstr ""
+msgstr "ค่าที่เลือกได้ ได้แก่ \"เปิด\" \"ปิด\" และ \"กำหนดเอง\""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:35
 msgid "Keyboard Bell Custom Filename"
-msgstr ""
+msgstr "ชื่อไฟล์กำหนดเองด้วยรหัสเบลล์แป้นพิมพ์"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:36
 msgid "File name of the bell sound to be played."
-msgstr ""
+msgstr "ชื่อไฟล์ของเสียงกระดิ่งที่จะเล่น"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:42
 msgid "Double click time"
@@ -64,36 +63,33 @@ msgid "Distance before a drag is started."
 msgstr "ระยะทางก่อนที่จะเริ่มลาก"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:54
-#, fuzzy
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
 msgstr "กำหนดว่าจะล็อคแนววางของแท็บเล็ต หรือจะหมุนโดยอัตโนมัติ"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:62
-#, fuzzy
 msgid "Mouse button orientation"
-msgstr "จำลองเมาส์ปุ่มกลาง"
+msgstr "การวางแนวปุ่มเมาส์"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:63
 msgid "Swap left and right mouse buttons for left-handed mice."
-msgstr ""
+msgstr "สลับปุ่มเมาส์ซ้ายขวาสำหรับเมาส์แบบถนัดซ้าย"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:67
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:134
 msgid "Single Click"
-msgstr ""
+msgstr "คลิกครั้งเดียว"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:68
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:135
 msgid ""
 "Acceleration multiplier for mouse motion. A value of -1 is the system "
 "default."
-msgstr ""
+msgstr "ตัวคูณการเร่งสำหรับการเคลื่อนไหวของเมาส์ ค่าเริ่มต้นของระบบคือ -1"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:72
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:139
-#, fuzzy
 msgid "Motion Threshold"
-msgstr "ระยะเริ่มลาก"
+msgstr "ขีดจำกัดการเคลื่อนไหว"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:73
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:140
@@ -101,6 +97,8 @@ msgid ""
 "Distance in pixels the pointer must move before accelerated mouse motion is "
 "activated. A value of -1 is the system default."
 msgstr ""
+"ระยะห่างเป็นพิกเซลที่ตัวชี้จะต้องเคลื่อนที่ก่อนทำการเร่งความเร็วการเคลื่อนไหวของเมาส์ "
+"ค่าเริ่มต้นของระบบคือ -1"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:77
 msgid "Middle button emulation"
@@ -114,30 +112,29 @@ msgstr "เปิดใช้การจำลองการกดปุ่ม
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:87
 msgid "Key Repeat Interval"
-msgstr ""
+msgstr "ช่วงห่างในการพิมพ์ซ้ำ"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:88
 msgid "Delay between repeats in milliseconds."
-msgstr ""
+msgstr "เกิดความล่าช้าระหว่างการทำซ้ำเป็นมิลลิวินาที"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:92
 msgid "Initial Key Repeat Delay"
-msgstr ""
+msgstr "ความล่าช้าในการทำซ้ำคีย์เริ่มต้น"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:93
-#, fuzzy
 msgid "Initial key repeat delay in milliseconds."
-msgstr "ระยะเวลาของดับเบิลคลิกเป็นมิลลิวินาที"
+msgstr "ค่าหน่วงการพิมพ์ซ้ำเริ่มต้นในหน่วยมิลลิวินาที"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:97
 msgid "Remember NumLock state"
-msgstr ""
+msgstr "จดจำสถานะ NumLock"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:98
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
-msgstr ""
+msgstr "เมื่อตั้งค่าเป็นจริง GNOME จะจดจำสถานะของ NumLock LED ระหว่างเซสชันต่างๆ"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:104
 msgid "Disable touchpad while typing"
@@ -166,13 +163,11 @@ msgid "Select the touchpad scroll method"
 msgstr "เลือกวิธีการเลื่อนหน้าจอด้วยทัชแพด"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:115
-#, fuzzy
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
 msgstr ""
-"เลือกวิธีการเลื่อนหน้าจอด้วยทัชแพด ค่าที่รองรับคือ: \"disabled\" (ปิดใช้), \"edge-scrolling"
-"\" (เลื่อนที่ขอบ), \"two-finger-scrolling\" (เลื่อนโดยใช้สองนิ้ว)"
+"เลือกวิธีการเลื่อนทัชแพด ค่าที่รองรับ ได้แก่ \"ปิดใช้งาน\", \"เลื่อนที่ขอบ\", \"เลื่อนด้วย 2 นิ้ว\""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:119
 msgid "Enable mouse clicks with touchpad"
@@ -192,29 +187,28 @@ msgid "Set this to TRUE to enable all touchpads."
 msgstr "กำหนดค่านี้เป็น TRUE ถ้าต้องการเปิดใช้ทัชแพดทั้งหมดในเครื่อง"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:129
-#, fuzzy
 msgid "Touchpad button orientation"
-msgstr "จำลองเมาส์ปุ่มกลาง"
+msgstr "การวางแนวปุ่มแผงสัมผัส"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:130
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
 msgstr ""
+"สับเปลี่ยนปุ่มเมาส์ซ้ายและเมาส์ขวาสำหรับเมาส์ของผู้ที่ถนัดมือซ้ายด้วยค่า \"ซ้าย\", \"ขวา\" "
+"สำหรับผู้ที่ถนัดมือขวา, \"เมาส์\" เพื่อใช้ตามการตั้งค่าเมาส์"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:144
-#, fuzzy
 msgid "Natural scrolling"
-msgstr "เปิดใช้การเลื่อนหน้าจอแนวนอน"
+msgstr "เลื่อนแบบธรรมชาติ"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:145
-#, fuzzy
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
-msgstr "กำหนดค่านี้เป็น TRUE ถ้าต้องการเปิดใช้ทัชแพดทั้งหมดในเครื่อง"
+msgstr "ตั้งค่านี้เป็น TRUE เพื่อใช้งานการเลื่อนดูแบบธรรมชาติ (ย้อนกลับ) สำหรับแผงสัมผัส"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:152
 msgid "Mouse wheel emulation button. 0 to disable the feature."
-msgstr ""
+msgstr "ปุ่มจำลองล้อเมาส์ ตั้งค่าเป็น 0 เพื่อปิดคุณสมบัตินี้"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:10
 msgid "Wacom stylus absolute mode"
@@ -247,7 +241,6 @@ msgid "Wacom tablet rotation"
 msgstr "การหมุนของแท็บเล็ต Wacom"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:26
-#, fuzzy
 msgid ""
 "Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and "
 "“ccw” for 90 degree counterclockwise."
@@ -331,9 +324,8 @@ msgid ""
 msgstr "ปุ่มลัดแป้นพิมพ์ที่จะสร้างเมื่อมีการกดปุ่มสำหรับการกระทำที่กำหนดเอง"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:81
-#, fuzzy
 msgid "Key combinations for a touchring or touchstrip custom action"
-msgstr "ชุดปุ่มกดร่วมสำหรับการกระทำเลื่อนระดับที่กำหนดเอง"
+msgstr "ชุดคำสั่งของปุ่มสำหรับคำสั่งแบบกำหนดเองของ touchring หรือ touchstrip"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:82
 msgid ""
@@ -347,11 +339,11 @@ msgstr ""
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:88
 msgid "Button label for OLED display."
-msgstr ""
+msgstr "ป้ายปุ่มสำหรับการแสดงผล OLED "
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:89
 msgid "Label will be rendered to OLED display belonging to the button"
-msgstr ""
+msgstr "ป้ายจะประมวลผลจับคู่กับการแสดงผล OLED ที่ตรงกับปุ่ม"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:6
 msgid "The duration a display profile is valid"
@@ -375,7 +367,7 @@ msgstr "จำนวนวันที่จะใช้โพรไฟล์ส
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:16
 msgid "If the night light mode is enabled"
-msgstr ""
+msgstr "หากโหมดแสงแสงกลางคืนเปิดใช้งาน"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:17
 msgid ""
@@ -385,48 +377,49 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
-msgstr ""
+msgstr "ปรับเปลี่ยนอุณหภูมิการแสดงผลเมื่อเปิดใช้งาน"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:22
 msgid ""
 "This temperature in Kelvin is used to modify the screen tones when night "
 "light mode is enabled. Higher values are bluer, lower redder."
 msgstr ""
+"อุณหภูมิองศาเคลวินใช้ในการปรับแต่งโทนสีหน้าจอเมื่อเปิดใช้งานโหมดแสงกลางคืน  "
+"ค่าสูงขึ้นจะให้แสงสีน้ำเงินขึ้น ค่าต่ำแสงจะให้แสงสีแดงขึ้น"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:26
 msgid "Use the sunrise and sunset"
-msgstr ""
+msgstr "ใช้ดวงอาทิตย์ตกและดวงอาทิตย์ขึ้น"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:27
 msgid ""
 "Calculate the sunrise and sunset times automatically, from the current "
 "location."
-msgstr ""
+msgstr "คำนวณเวลาดวงอาทิตย์ขึ้นและตกอัตโนมัติจากตำแหน่งปัจจุบัน"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:31
-#, fuzzy
 msgid "The start time"
-msgstr "เวลาประจุไฟ:"
+msgstr "เวลาเริ่มต้น"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:32
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this start time in "
 "hours from midnight."
-msgstr ""
+msgstr "เมื่อปิดการใช้งาน “night-light-schedule-automatic” ใช้เวลาเริ่มต้นนี้ตั้งแต่เที่ยงคืน"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:36
 msgid "The end time"
-msgstr ""
+msgstr "เวลาสิ้นสุด"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:37
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this end time in "
 "hours from midnight."
-msgstr ""
+msgstr "เมื่อปิดการใช้งาน “night-light-schedule-automatic” ใช้เวลาสิ้นสุดนี้ตั้งแต่เที่ยงคืน"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:41
 msgid "The last detected position"
-msgstr ""
+msgstr "ตำแหน่งที่ตรวจสอบได้ล่าสุด"
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:42
 msgid ""
@@ -434,17 +427,20 @@ msgid ""
 "location. The default value is an invalid value to ensure it is always "
 "updated at startup."
 msgstr ""
+"ข้อมูลนี้จะแสดงตำแหน่งล่าสุดที่ตรวจพบเมื่อมีบริการระบุตำแหน่ง "
+"ค่าเริ่มต้นจะเป็นค่าที่ไม่ถูกต้องเพื่อให้มีการอัปเดตที่จุดเริ่มต้นเสมอ"
 
 #: data/org.gnome.settings-daemon.plugins.gschema.xml.in:6
 msgid "List of plugins that are allowed to be loaded"
-msgstr ""
+msgstr "รายชื่อปลั๊กอินที่ได้รับอนุญาตให้โหลด"
 
 #: data/org.gnome.settings-daemon.plugins.gschema.xml.in:7
-#, fuzzy
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: “all”). This is only evaluated on startup."
-msgstr "รายชื่อของมอดูล GTK+ ที่จะไม่โหลด แม้จะเปิดใช้งานโดยปริยายจากค่าตั้งของมอดูล"
+msgstr ""
+"รายการสตริงแสดงปลั๊กอินต่างๆ ที่สามารถโหลดได้ (ค่าเริ่มต้น: \"ทั้งหมด\") "
+"ค่านี้จะประเมินผลเฉพาะเมื่อเริ่มต้น"
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:6
 msgid "Mount paths to ignore"
@@ -510,9 +506,8 @@ msgstr "ปุ่มลัดสำหรับเรียกเครื่อ
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:11
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:194
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:521
-#, fuzzy
 msgid "Launch settings"
-msgstr "ค่าตั้งของ X"
+msgstr "การตั้งค่าการเปิดใช้งาน"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:12
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:195
@@ -773,13 +768,12 @@ msgstr "ปุ่มลัดสำหรับคัดลอกภาพพื
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:131
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:352
 msgid "Record a short video of the screen"
-msgstr ""
+msgstr "บันทึกวิดีโอหน้าจอแบบสั้น"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:132
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:353
-#, fuzzy
 msgid "Binding to record a short video of the screen"
-msgstr "ปุ่มลัดสำหรับล็อคหน้าจอ"
+msgstr "การผูกเพื่อบันทึกวิดีโอสั้น ๆ ของหน้าจอ"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:136
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:357
@@ -1348,13 +1342,13 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:746
 msgid "Maximum length of screen recordings"
-msgstr ""
+msgstr "ความยาวสูงสุดสำหรับการบันทึกหน้าจอ"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:747
 msgid ""
 "The maximum length of single screen cast recordings in seconds or 0 for "
 "unlimited"
-msgstr ""
+msgstr "ความยาวสูงสุดของวิดีโอบันทึกภาพหน้าจอครั้งหนึ่งๆ ในหน่วยวินาที หรือ 0 กรณีไม่จำกัด"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:754
 msgid "Name"
@@ -1382,64 +1376,67 @@ msgstr "คำสั่งที่จะเรียกเมื่อกดป
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:6
 msgid "The brightness of the screen when idle"
-msgstr ""
+msgstr "ความสว่างของหน้าจอเมื่อไม่ได้ใช้งาน"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:7
 msgid ""
 "This is the laptop panel screen brightness used when the session is idle."
-msgstr ""
+msgstr "นี่คือความสว่างหน้าจอแผงแล็ปท็อปที่ใช้เมื่อเซสชั่นไม่ได้ใช้งาน"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:11
 msgid "Dim the screen after a period of inactivity"
-msgstr ""
+msgstr "ลดแสงหน้าจอเมื่อไม่ได้ใช้งานระยะหนึ่ง"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:12
 msgid "If the screen should be dimmed to save power when the computer is idle."
-msgstr ""
+msgstr "ว่าควรปรับหน้าจอให้มืดลงหรือไม่เพื่อประหยัดพลังงานเวลาไม่ได้ใช้งานคอมพิวเตอร์"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:16
 msgid "Sleep timeout computer when on AC"
-msgstr ""
+msgstr "คอมพิวเตอร์หมดเวลาสลีปเมื่ออยู่ในโหมด AC"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:17
 msgid ""
 "The amount of time in seconds the computer on AC power needs to be inactive "
 "before it goes to sleep. A value of 0 means never."
 msgstr ""
+"ระยะเวลาในหน่วยวินาทีที่คอมพิวเตอร์ที่ใช้ไฟกระแสสลับต้องอยู่ในโหมดไม่ได้ใช้งานก่อนที่จะเข้าสู่โหมดสลีป "
+"ค่าเป็น 0 หมายถึง ไม่เลย"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:21
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:31
 msgid "Whether to hibernate, suspend or do nothing when inactive"
-msgstr ""
+msgstr "ต้องการให้จำศีล หยุดชั่วคราว หรือไม่ดำเนินการสิ่งใดเมื่อไม่ได้ใช้งาน"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:22
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:32
 msgid ""
 "The type of sleeping that should be performed when the computer is inactive."
-msgstr ""
+msgstr "ชนิดของโหมดสลีปที่จะดำเนินการเมื่อคอมพิวเตอร์ไม่ได้ใช้งาน"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:26
 msgid "Sleep timeout computer when on battery"
-msgstr ""
+msgstr "ให้คอมพิวเตอร์เข้าโหมดสลีปหลังหมดเวลาเมื่อใช้พลังงานจากแบตเตอรี่"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:27
 msgid ""
 "The amount of time in seconds the computer on battery power needs to be "
 "inactive before it goes to sleep. A value of 0 means never."
 msgstr ""
+"จำนวนเวลาเป็นวินาทีที่คอมพิวเตอร์ที่ใช้แบตเตอรี่จำเป็นต้องหยุดทำงานก่อนที่จะเข้าโหมดสลีป ค่า 0 "
+"หมายถึงไม่ต้องเลย"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:36
 msgid "Enable the ALS sensor"
-msgstr ""
+msgstr "เปิดใช้เซ็นเซอร์ ALS"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:37
 msgid "If the ambient light sensor functionality is enabled."
-msgstr ""
+msgstr "หากเปิดใช้ฟังก์ชันเซ็นเซอร์วัดแสงโดยรอบ"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:41
-#, fuzzy
 msgid "Power button action"
-msgstr "ชนิดของการกระทำของปุ่ม Wacom"
+msgstr "การดำเนินการกับปุ่มเปิด/ปิด"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:42
 msgid ""
@@ -1447,23 +1444,26 @@ msgid ""
 "hard-coded (and the setting ignored) on virtual machines (power off) and "
 "tablets (suspend)."
 msgstr ""
+"ระบบจะดำเนินการนี้เมื่อมีการกดปุ่มเปิด/ปิดระบบ การดำเนินการนี้เป็นการกำหนดค่าตายตัว "
+"(และไม่พิจารณาการตั้งค่า) บนเครื่องเสมือน (ปิดเครื่อง) และแท็บเล็ต (หยุดการทำงาน)"
 
 #: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:6
 msgid "On which connections the service is enabled"
-msgstr ""
+msgstr "บนการเชื่อมต่อที่มีการเปิดใช้บริการ"
 
 #: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:7
 msgid ""
 "The list of NetworkManager connections (each one represented with its UUID) "
 "on which this service is enabled and started."
 msgstr ""
+"รายการของการเชื่อมต่อ NetworkManager (แต่ละอันแทนด้วย UUID) "
+"ที่บริการนี้เปิดใช้งานและเริ่มต้นอยู่"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:6
 msgid "Antialiasing"
 msgstr "การขจัดรอยหยัก"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:7
-#, fuzzy
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
@@ -1489,13 +1489,21 @@ msgid ""
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
 msgstr ""
+"ประเภทของ Hinting สำหรับใช้เมื่อแสดงแบบอักษร ค่าที่เป็นไปได้ได้แก่ \"none\" ซึ่งหมายถึงไม่มี "
+"Hinting และ \"slight\" ซึ่งหมายถึงให้จัดอักษรตามแกน Y เท่านั้น ดังเช่น ClearType และ "
+"DirectWrite ของ Microsoft และระบบแสดงแบบอักษรที่เป็นกรรมสิทธิ์ของ Adobe ไม่ใช้ "
+"Hinting ที่อยู่ในแบบอักษร แต่สร้าง Hint ขึ้นตามอัลกอริทึม ใช้ใน Ubuntu โดยค่าดีฟอลต์ ขอแนะนำ "
+"ความหมายของ \"medium\" และ \"full\" ขึ้นอยู่กับรูปแบบของแบบอักษร (.ttf, .otf, .pfa/."
+"pfb) และเวอร์ชันของ FreeType ที่ติดตั้ง รูปแบบของแบบอักษรเหล่านี้มักจะพยายามจัด Glyph "
+"ทั้งตามแกน X และ Y (ยกเว้น .otf ที่จะจัดตามแกน Y เท่านั้น) "
+"ซึ่งอาจทำให้เกิดการแสดงผลแบบบิดเบี้ยวและ/หรือไม่เสมอต้นเสมอปลาย "
+"ทั้งนี้ขึ้นอยู่กับคุณภาพของแบบอักษร รูปแบบของแบบอักษร และสถานะของระบบแบบอักษรของ FreeType"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:16
 msgid "RGBA order"
 msgstr "ลำดับ RGBA"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:17
-#, fuzzy
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing "
 "is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
@@ -1529,7 +1537,7 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:31
 msgid "A dictionary of XSETTINGS to override"
-msgstr ""
+msgstr "พจนานุกรมของ XSETTINGS ที่จะแทนที่"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:32
 msgid ""
@@ -1537,6 +1545,8 @@ msgid ""
 "either strings, signed int32s or (in the case of colors), 4-tuples of uint16 "
 "(red, green, blue, alpha; 65535 is fully opaque)."
 msgstr ""
+"พจนานุกรมนี้จะแมปชื่อ XSETTINGS เพื่อแทนที่ค่า ค่าดังกล่าวต้องเป็นสตริง, int32s ที่มีลายเซ็น หรือ "
+"(ในกรณีของสี) 4-tuples ของ uint16 (สีแดง, เขียว, ฟ้า, อัลฟา; 65535 มีความทึบเต็ม)"
 
 #: plugins/color/gsd-color-calibrate.c:138
 msgid "Color"
@@ -1554,13 +1564,13 @@ msgstr "จำเป็นต้องเทียบมาตรฐานให
 
 #. TRANSLATORS: this is when the display has not been recalibrated in a while
 #: plugins/color/gsd-color-calibrate.c:198
-#, fuzzy, c-format
+#, c-format
 msgid "The display “%s” should be recalibrated soon."
 msgstr "จอแสดงผล '%s' ควรเทียบมาตรฐานใหม่เร็วๆ นี้"
 
 #. TRANSLATORS: this is when the printer has not been recalibrated in a while
 #: plugins/color/gsd-color-calibrate.c:207
-#, fuzzy, c-format
+#, c-format
 msgid "The printer “%s” should be recalibrated soon."
 msgstr "เครื่องพิมพ์ '%s' ควรเทียบมาตรฐานใหม่เร็วๆ นี้"
 
@@ -1584,22 +1594,20 @@ msgstr "เอาอุปกรณ์เทียบมาตรฐานสี
 #. * %:::z will be replaced by the offset from UTC e.g. UTC+02
 #: plugins/datetime/gsd-datetime-manager.c:88
 msgid "UTC%:::z"
-msgstr ""
+msgstr "UTC%:::z"
 
 #: plugins/datetime/gsd-datetime-manager.c:92
 #, c-format
 msgid "Time Zone Updated to %s (%s)"
-msgstr ""
+msgstr "อัพเดตเขตเวลาเป็น %s (%s)"
 
 #: plugins/datetime/gsd-datetime-manager.c:108
-#, fuzzy
 msgid "Settings"
-msgstr "ค่าตั้งของ X"
+msgstr "การตั้งค่า"
 
 #: plugins/datetime/gsd-datetime-manager.c:118
-#, fuzzy
 msgid "Date & Time Settings"
-msgstr "จัดการค่าตั้งของ X"
+msgstr "การตั้งค่าวันและเวลา"
 
 #: plugins/housekeeping/gsd-disk-space.c:632
 #, fuzzy
@@ -1666,23 +1674,23 @@ msgstr "คอมพิวเตอร์เครื่องนี้มีเ
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2477
 msgid "Bluetooth disabled"
-msgstr ""
+msgstr "ปิดใช้งาน Bluetooth"
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2480
 msgid "Bluetooth enabled"
-msgstr ""
+msgstr "เปิดใช้งานบลูทูธ"
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2484
 msgid "Airplane mode enabled"
-msgstr ""
+msgstr "เปิดใช้งานโหมดการบิน"
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2487
 msgid "Airplane mode disabled"
-msgstr ""
+msgstr "ปิดโหมดเครื่องบิน"
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2516
 msgid "Hardware Airplane Mode"
-msgstr ""
+msgstr "ฮาร์ดแวร์โหมดเครื่องบิน"
 
 #. Translators: this is a filename used for screencast
 #. * recording, where "%d" and "%t" date and time, e.g.
@@ -1690,24 +1698,22 @@ msgstr ""
 #: plugins/media-keys/gsd-media-keys-manager.c:2579
 #, no-c-format
 msgid "Screencast from %d %t.webm"
-msgstr ""
+msgstr "Screencast จาก %d %t.webm"
 
 #: plugins/media-keys/gsd-screenshot-utils.c:82
-#, fuzzy
 msgid "Unable to capture a screenshot"
-msgstr "ปุ่มลัดสำหรับจับภาพหน้าจอ"
+msgstr "ไม่สามารถบันทึกภาพหน้าจอได้"
 
 #: plugins/media-keys/gsd-screenshot-utils.c:125
-#, fuzzy
 msgid "Screenshot taken"
-msgstr "โปรแกรมรักษาหน้าจอ"
+msgstr "ถ่ายภาพหน้าจอแล้ว"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot
 #: plugins/media-keys/gsd-screenshot-utils.c:264
 #, c-format
 msgid "Screenshot from %s"
-msgstr ""
+msgstr "ภาพหน้าจอจาก %s"
 
 #: plugins/power/gpm-common.c:91
 msgid "Unknown time"
@@ -1765,9 +1771,8 @@ msgid "%s of UPS backup power remaining"
 msgstr "UPS มีพลังงานสำรองเหลือ %s"
 
 #: plugins/power/gsd-power-manager.c:398
-#, fuzzy
 msgid "Unknown amount of UPS backup power remaining"
-msgstr "UPS มีพลังงานสำรองเหลือ %s"
+msgstr "ยังคงเหลือพลังงาน UPS สำรองไม่ทราบจำนวน"
 
 #. TRANSLATORS: laptop battery low, and we only have one battery
 #: plugins/power/gsd-power-manager.c:473
@@ -2018,37 +2023,34 @@ msgstr "ฝาเครื่องปิด"
 
 #. TRANSLATORS: this is the sound description
 #: plugins/power/gsd-power-manager.c:1887
-#, fuzzy
 msgid "On battery power"
-msgstr "แบตเตอรี่ PDA เหลือไฟต่ำ"
+msgstr "ใช้พลังงานแบตเตอรี่"
 
 #. TRANSLATORS: this is the sound description
 #: plugins/power/gsd-power-manager.c:1892
 msgid "On AC power"
-msgstr ""
+msgstr "ใช้พลังงาน AC"
 
 #: plugins/power/gsd-power-manager.c:2080
-#, fuzzy
 msgid "Automatic logout"
-msgstr "เมานท์อัตโนมัติ"
+msgstr "ออกจากระบบอัตโนมัติ"
 
 #: plugins/power/gsd-power-manager.c:2080
 msgid "You will soon log out because of inactivity."
-msgstr ""
+msgstr "คุณจะออกจากระบบเร็วๆ นี้เนื่องจากไม่มีการใช้งาน"
 
 #: plugins/power/gsd-power-manager.c:2085
 msgid "Automatic suspend"
-msgstr ""
+msgstr "เลื่อนออกไปอัตโนมัติ"
 
 #: plugins/power/gsd-power-manager.c:2085
 #: plugins/power/gsd-power-manager.c:2090
-#, fuzzy
 msgid "Computer will suspend very soon because of inactivity."
-msgstr "คอมพิวเตอร์จะพักเครื่องเร็วๆ นี้ ถ้าไม่เสียบปลั๊ก"
+msgstr "คอมพิวเตอร์จะถูกระงับทันทีเมื่อไม่มีการใช้งาน"
 
 #: plugins/power/gsd-power-manager.c:2090
 msgid "Automatic hibernation"
-msgstr ""
+msgstr "พักเครื่องอัตโนมัติ"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
@@ -2068,9 +2070,8 @@ msgstr "กำลังตั้งค่าเครื่องพิมพ์
 
 #. Translators: Just wait
 #: plugins/print-notifications/gsd-printer.c:892
-#, fuzzy
 msgid "Please wait…"
-msgstr "กรุณารอสักครู่..."
+msgstr "กรุณารอสักครู่…"
 
 #. Translators: We have no driver installed for this printer
 #: plugins/print-notifications/gsd-printer.c:919
@@ -2099,73 +2100,73 @@ msgstr "เครื่องพิมพ์"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:374
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is low on toner."
 msgstr "เครื่องพิมพ์ '%s' เหลือผงหมึกน้อย"
 
 #. Translators: The printer has no toner left (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:378
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” has no toner left."
 msgstr "เครื่องพิมพ์ '%s' ผงหมึกหมดแล้ว"
 
 #. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:382
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” may not be connected."
 msgstr "เครื่องพิมพ์ '%s' อาจไม่ได้เชื่อมต่ออยู่"
 
 #. Translators: One or more covers on the printer are open (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:386
-#, fuzzy, c-format
+#, c-format
 msgid "The cover is open on printer “%s”."
 msgstr "ฝาปิดเปิดอยู่ที่เครื่องพิมพ์ '%s'"
 
 #. Translators: A filter or backend is not installed (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:390
-#, fuzzy, c-format
+#, c-format
 msgid "There is a missing print filter for printer “%s”."
 msgstr "ไม่มีตัวกรองงานพิมพ์สำหรับเครื่องพิมพ์ '%s'"
 
 #. Translators: One or more doors on the printer are open (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:395
-#, fuzzy, c-format
+#, c-format
 msgid "The door is open on printer “%s”."
 msgstr "ประตูเปิดอยู่ที่เครื่องพิมพ์ '%s'"
 
 #. Translators: "marker" is one color bin of the printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:399
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is low on a marker supply."
 msgstr "เครื่องพิมพ์ '%s' เหลือน้ำหมึกน้อย"
 
 #. Translators: "marker" is one color bin of the printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:403
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is out of a marker supply."
 msgstr "เครื่องพิมพ์ '%s' น้ำหมึกหมดแล้ว"
 
 #. Translators: At least one input tray is low on media (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:407
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is low on paper."
 msgstr "เครื่องพิมพ์ '%s' เหลือกระดาษน้อย"
 
 #. Translators: At least one input tray is empty (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:411
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is out of paper."
 msgstr "เครื่องพิมพ์ '%s' กระดาษหมดแล้ว"
 
 #. Translators: The printer is offline (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:415
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is currently off-line."
 msgstr "เครื่องพิมพ์ '%s' ออฟไลน์อยู่"
 
 #. Translators: The printer has detected an error (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:419
-#, fuzzy, c-format
+#, c-format
 msgid "There is a problem on printer “%s”."
 msgstr "เครื่องพิมพ์ '%s' มีปัญหา"
 
@@ -2266,7 +2267,7 @@ msgstr "หยุดงานพิมพ์แล้ว"
 #: plugins/print-notifications/gsd-print-notifications-manager.c:743
 #: plugins/print-notifications/gsd-print-notifications-manager.c:751
 #: plugins/print-notifications/gsd-print-notifications-manager.c:775
-#, fuzzy, c-format
+#, c-format
 msgctxt "print job"
 msgid "“%s” on %s"
 msgstr "\"%s\" ที่ %s"
@@ -2311,13 +2312,13 @@ msgstr "คำเตือนจากเครื่องพิมพ์"
 
 #. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1004
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s”: “%s”."
 msgstr "เครื่องพิมพ์ '%s': '%s'"
 
 #: plugins/smartcard/gsd-smartcard-service.c:282
 msgid "User was not logged in with smartcard."
-msgstr ""
+msgstr "ผู้ใช้ไม่ได้เข้าสู่ระบบด้วยสมาร์ทการ์ด"
 
 #: plugins/usb-protection/gsd-usb-protection-manager.c:386
 msgid "USB Protection"
@@ -2385,14 +2386,12 @@ msgstr "ต้องยืนยันตัวบุคคลก่อนปร
 #. - A normal active user on the local machine does not need permission
 #. to change the OLED images for a Wacom tablet
 #: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:35
-#, fuzzy
 msgid "Modify the OLED image for a Wacom tablet"
-msgstr "ปรับ LED ส่องสว่างของแท็บเล็ต Wacom"
+msgstr "แก้ไขภาพ OLED สำหรับแท็บเล็ต Wacom"
 
 #: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:36
-#, fuzzy
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
-msgstr "ต้องยืนยันตัวบุคคลก่อนปรับ LED ส่องสว่างของแท็บเล็ต Wacom"
+msgstr "จำเป็นต้องยืนยันตัวตนเพื่อแก้ไขภาพ OLED สำหรับแท็บเล็ต Wacom"
 
 #. Set up the dialog
 #: plugins/wwan/gsd-wwan-pinentry.c:89
