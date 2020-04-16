@@ -11,9 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-settings-daemon/"
-"issues\n"
-"POT-Creation-Date: 2020-01-18 13:37+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-16 23:15+0100\n"
 "PO-Revision-Date: 2020-01-26 12:57+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -1611,28 +1610,47 @@ msgstr "Inställningar"
 msgid "Date & Time Settings"
 msgstr "Datum- & tidsinställningar"
 
-#: plugins/housekeeping/gsd-disk-space.c:575
+#: plugins/housekeeping/gsd-disk-space.c:632
 msgid "Disk Space"
 msgstr "Diskutrymme"
 
-#: plugins/housekeeping/gsd-disk-space.c:588
+#: plugins/housekeeping/gsd-disk-space.c:645
 msgid "Examine"
 msgstr "Undersök"
 
-#: plugins/housekeeping/gsd-disk-space.c:599
+#: plugins/housekeeping/gsd-disk-space.c:656
 msgid "Empty Trash"
 msgstr "Töm papperskorgen"
 
-#: plugins/housekeeping/gsd-disk-space.c:607
+#: plugins/housekeeping/gsd-disk-space.c:664
 msgid "Ignore"
 msgstr "Ignorera"
 
-#: plugins/housekeeping/gsd-disk-space.c:638
+#: plugins/housekeeping/gsd-disk-space.c:698
+#: plugins/housekeeping/gsd-disk-space.c:738
+msgid "Low Disk Space"
+msgstr "Lågt diskutrymme"
+
+#: plugins/housekeeping/gsd-disk-space.c:700
+#, fuzzy
+msgid ""
+"Your computer is out of space.  You may free up some space by emptying the "
+"trash."
+msgstr ""
+"Denna dator har endast %s diskutrymme ledigt. Du kan frigöra utrymme genom "
+"att tömma papperskorgen."
+
+#: plugins/housekeeping/gsd-disk-space.c:702
+#, fuzzy
+msgid "Your computer is out of space."
+msgstr "Skrivaren ”%s” har slut på papper."
+
+#: plugins/housekeeping/gsd-disk-space.c:727
 #, c-format
 msgid "Low Disk Space on “%s”"
 msgstr "Lågt diskutrymme på ”%s”"
 
-#: plugins/housekeeping/gsd-disk-space.c:640
+#: plugins/housekeeping/gsd-disk-space.c:729
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
@@ -1641,16 +1659,12 @@ msgstr ""
 "Volymen ”%s” har endast %s diskutrymme ledigt. Du kan frigöra utrymme genom "
 "att tömma papperskorgen."
 
-#: plugins/housekeeping/gsd-disk-space.c:644
+#: plugins/housekeeping/gsd-disk-space.c:733
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
 msgstr "Volymen ”%s” har endast %s diskutrymme kvar."
 
-#: plugins/housekeeping/gsd-disk-space.c:649
-msgid "Low Disk Space"
-msgstr "Lågt diskutrymme"
-
-#: plugins/housekeeping/gsd-disk-space.c:651
+#: plugins/housekeeping/gsd-disk-space.c:740
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
@@ -1659,35 +1673,35 @@ msgstr ""
 "Denna dator har endast %s diskutrymme ledigt. Du kan frigöra utrymme genom "
 "att tömma papperskorgen."
 
-#: plugins/housekeeping/gsd-disk-space.c:654
+#: plugins/housekeeping/gsd-disk-space.c:743
 #, c-format
 msgid "This computer has only %s disk space remaining."
 msgstr "Denna dator har endast %s diskutrymme kvar."
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2466
+#: plugins/media-keys/gsd-media-keys-manager.c:2477
 msgid "Bluetooth disabled"
 msgstr "Bluetooth inaktiverat"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2469
+#: plugins/media-keys/gsd-media-keys-manager.c:2480
 msgid "Bluetooth enabled"
 msgstr "Bluetooth aktiverat"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2473
+#: plugins/media-keys/gsd-media-keys-manager.c:2484
 msgid "Airplane mode enabled"
 msgstr "Flygplansläge aktiverat"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2476
+#: plugins/media-keys/gsd-media-keys-manager.c:2487
 msgid "Airplane mode disabled"
 msgstr "Flygplansläge inaktiverat"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2505
+#: plugins/media-keys/gsd-media-keys-manager.c:2516
 msgid "Hardware Airplane Mode"
 msgstr "Flygplansläge i hårdvaran"
 
 #. Translators: this is a filename used for screencast
 #. * recording, where "%d" and "%t" date and time, e.g.
 #. * "Screencast from 07-17-2013 10:00:46 PM.webm"
-#: plugins/media-keys/gsd-media-keys-manager.c:2568
+#: plugins/media-keys/gsd-media-keys-manager.c:2579
 #, no-c-format
 msgid "Screencast from %d %t.webm"
 msgstr "Skärminspelning från %d %t.webm"
@@ -2034,43 +2048,43 @@ msgstr ""
 "datorn kommer inom kort att stängas av."
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1260
+#: plugins/power/gsd-power-manager.c:1266
 msgid "Lid has been opened"
 msgstr "Locket har öppnats"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1294
+#: plugins/power/gsd-power-manager.c:1300
 msgid "Lid has been closed"
 msgstr "Locket har stängts"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1857
+#: plugins/power/gsd-power-manager.c:1887
 msgid "On battery power"
 msgstr "Batteridrift"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1862
+#: plugins/power/gsd-power-manager.c:1892
 msgid "On AC power"
 msgstr "Går på ström"
 
-#: plugins/power/gsd-power-manager.c:2050
+#: plugins/power/gsd-power-manager.c:2080
 msgid "Automatic logout"
 msgstr "Automatisk utloggning"
 
-#: plugins/power/gsd-power-manager.c:2050
+#: plugins/power/gsd-power-manager.c:2080
 msgid "You will soon log out because of inactivity."
 msgstr "Du kommer snart att loggas ut på grund av inaktivitet."
 
-#: plugins/power/gsd-power-manager.c:2055
+#: plugins/power/gsd-power-manager.c:2085
 msgid "Automatic suspend"
 msgstr "Automatiskt vänteläge"
 
-#: plugins/power/gsd-power-manager.c:2055
-#: plugins/power/gsd-power-manager.c:2060
+#: plugins/power/gsd-power-manager.c:2085
+#: plugins/power/gsd-power-manager.c:2090
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "Datorn försätts i vänteläge snart på grund av inaktivitet."
 
-#: plugins/power/gsd-power-manager.c:2060
+#: plugins/power/gsd-power-manager.c:2090
 msgid "Automatic hibernation"
 msgstr "Automatiskt viloläge"
 

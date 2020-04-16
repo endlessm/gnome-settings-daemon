@@ -17,9 +17,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon.master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-settings-daemon/"
-"issues\n"
-"POT-Creation-Date: 2020-01-18 23:53+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-16 23:15+0100\n"
 "PO-Revision-Date: 2020-01-21 11:32+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
@@ -1634,28 +1633,47 @@ msgstr "Configuración"
 msgid "Date & Time Settings"
 msgstr "Configuración de fecha y hora"
 
-#: plugins/housekeeping/gsd-disk-space.c:575
+#: plugins/housekeeping/gsd-disk-space.c:632
 msgid "Disk Space"
 msgstr "Espacio en el disco"
 
-#: plugins/housekeeping/gsd-disk-space.c:588
+#: plugins/housekeeping/gsd-disk-space.c:645
 msgid "Examine"
 msgstr "Examinar"
 
-#: plugins/housekeeping/gsd-disk-space.c:599
+#: plugins/housekeeping/gsd-disk-space.c:656
 msgid "Empty Trash"
 msgstr "Vaciar la papelera"
 
-#: plugins/housekeeping/gsd-disk-space.c:607
+#: plugins/housekeeping/gsd-disk-space.c:664
 msgid "Ignore"
 msgstr "Ignorar"
 
-#: plugins/housekeeping/gsd-disk-space.c:638
+#: plugins/housekeeping/gsd-disk-space.c:698
+#: plugins/housekeeping/gsd-disk-space.c:738
+msgid "Low Disk Space"
+msgstr "Espacio de disco bajo"
+
+#: plugins/housekeeping/gsd-disk-space.c:700
+#, fuzzy
+msgid ""
+"Your computer is out of space.  You may free up some space by emptying the "
+"trash."
+msgstr ""
+"Este equipo sólo tiene %s de espacio en disco libre. Puede liberar algún "
+"espacio vaciando la papelera."
+
+#: plugins/housekeeping/gsd-disk-space.c:702
+#, fuzzy
+msgid "Your computer is out of space."
+msgstr "La impresora «%s» no tiene papel."
+
+#: plugins/housekeeping/gsd-disk-space.c:727
 #, c-format
 msgid "Low Disk Space on “%s”"
 msgstr "Espacio de disco bajo en «%s»"
 
-#: plugins/housekeeping/gsd-disk-space.c:640
+#: plugins/housekeeping/gsd-disk-space.c:729
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
@@ -1664,16 +1682,12 @@ msgstr ""
 "El volumen «%s» sólo tiene %s de espacio en disco libre. Puede liberar algo "
 "de espacio vaciando la papelera."
 
-#: plugins/housekeeping/gsd-disk-space.c:644
+#: plugins/housekeeping/gsd-disk-space.c:733
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
 msgstr "El volumen «%s» sólo tiene %s de espacio en disco libre."
 
-#: plugins/housekeeping/gsd-disk-space.c:649
-msgid "Low Disk Space"
-msgstr "Espacio de disco bajo"
-
-#: plugins/housekeeping/gsd-disk-space.c:651
+#: plugins/housekeeping/gsd-disk-space.c:740
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
@@ -1682,35 +1696,35 @@ msgstr ""
 "Este equipo sólo tiene %s de espacio en disco libre. Puede liberar algún "
 "espacio vaciando la papelera."
 
-#: plugins/housekeeping/gsd-disk-space.c:654
+#: plugins/housekeeping/gsd-disk-space.c:743
 #, c-format
 msgid "This computer has only %s disk space remaining."
 msgstr "Este equipo sólo tiene %s de espacio en disco libre."
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2466
+#: plugins/media-keys/gsd-media-keys-manager.c:2477
 msgid "Bluetooth disabled"
 msgstr "Bluetooth desactivado"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2469
+#: plugins/media-keys/gsd-media-keys-manager.c:2480
 msgid "Bluetooth enabled"
 msgstr "Bluetooth activado"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2473
+#: plugins/media-keys/gsd-media-keys-manager.c:2484
 msgid "Airplane mode enabled"
 msgstr "Modo avión activado"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2476
+#: plugins/media-keys/gsd-media-keys-manager.c:2487
 msgid "Airplane mode disabled"
 msgstr "Modo avión desactivado"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2505
+#: plugins/media-keys/gsd-media-keys-manager.c:2516
 msgid "Hardware Airplane Mode"
 msgstr "Modo avión hardware"
 
 #. Translators: this is a filename used for screencast
 #. * recording, where "%d" and "%t" date and time, e.g.
 #. * "Screencast from 07-17-2013 10:00:46 PM.webm"
-#: plugins/media-keys/gsd-media-keys-manager.c:2568
+#: plugins/media-keys/gsd-media-keys-manager.c:2579
 #, no-c-format
 msgid "Screencast from %d %t.webm"
 msgstr "Captura del escritorio de %d %t.webm"
@@ -2052,43 +2066,43 @@ msgstr ""
 "apagarse."
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1260
+#: plugins/power/gsd-power-manager.c:1266
 msgid "Lid has been opened"
 msgstr "La tapa se ha abierto"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1294
+#: plugins/power/gsd-power-manager.c:1300
 msgid "Lid has been closed"
 msgstr "La tapa se ha cerrado"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1857
+#: plugins/power/gsd-power-manager.c:1887
 msgid "On battery power"
 msgstr "Con batería"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1862
+#: plugins/power/gsd-power-manager.c:1892
 msgid "On AC power"
 msgstr "Con adaptador de corriente"
 
-#: plugins/power/gsd-power-manager.c:2050
+#: plugins/power/gsd-power-manager.c:2080
 msgid "Automatic logout"
 msgstr "Cierre de sesión automático"
 
-#: plugins/power/gsd-power-manager.c:2050
+#: plugins/power/gsd-power-manager.c:2080
 msgid "You will soon log out because of inactivity."
 msgstr "Pronto se cerrará su sesión por inactividad."
 
-#: plugins/power/gsd-power-manager.c:2055
+#: plugins/power/gsd-power-manager.c:2085
 msgid "Automatic suspend"
 msgstr "Suspensión automática"
 
-#: plugins/power/gsd-power-manager.c:2055
-#: plugins/power/gsd-power-manager.c:2060
+#: plugins/power/gsd-power-manager.c:2085
+#: plugins/power/gsd-power-manager.c:2090
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "El equipo se suspenderá pronto se cerrará su sesión por inactividad."
 
-#: plugins/power/gsd-power-manager.c:2060
+#: plugins/power/gsd-power-manager.c:2090
 msgid "Automatic hibernation"
 msgstr "Hibernación automática"
 

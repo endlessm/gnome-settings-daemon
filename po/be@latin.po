@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-02-26 21:06-0500\n"
+"POT-Creation-Date: 2020-04-16 23:15+0100\n"
 "PO-Revision-Date: 2008-02-17 01:02+0200\n"
 "Last-Translator: Alaksandar Navicki <zolak@lacinka.org>\n"
 "Language-Team: Polish <pl@li.org>\n"
@@ -18,799 +18,2858 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: ../data/apps_gnome_settings_daemon_default_editor.schemas.in.h:1
-msgid ""
-"Set to True to keep the handlers for text/plain and text/* MIME types "
-"synchronized."
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:12
+msgid "Smartcard removal action"
 msgstr ""
-"Uklučy, kab nałady absłuhoŭvańnia dla typaŭ text/plain i text/* byli "
-"synchranizavanymi miž saboj."
 
-#: ../data/apps_gnome_settings_daemon_default_editor.schemas.in.h:2
-msgid "Sync text/plain and text/* handlers"
-msgstr "Synchranizuj absłuhoŭvańnie text/plain i text/*"
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:13
+msgid ""
+"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will "
+"get performed when the smartcard used for log in is removed."
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:1
-msgid "Binding to eject an optical disk."
-msgstr "Klavijaturny skarot dla vysoŭvańnia aptyčnaha dysku."
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:25
+msgid "Possible values are “on”, “off”, and “custom”."
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:2
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:35
+msgid "Keyboard Bell Custom Filename"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:36
+msgid "File name of the bell sound to be played."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:42
+msgid "Double click time"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:43
+msgid "Length of a double click in milliseconds."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:47
+msgid "Drag threshold"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:48
+msgid "Distance before a drag is started."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:54
+msgid "Whether the tablet’s orientation is locked, or rotated automatically."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:62
+msgid "Mouse button orientation"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:63
+msgid "Swap left and right mouse buttons for left-handed mice."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:67
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:134
+msgid "Single Click"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:68
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:135
+msgid ""
+"Acceleration multiplier for mouse motion. A value of -1 is the system "
+"default."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:72
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:139
+msgid "Motion Threshold"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:73
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:140
+msgid ""
+"Distance in pixels the pointer must move before accelerated mouse motion is "
+"activated. A value of -1 is the system default."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:77
+msgid "Middle button emulation"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:78
+msgid ""
+"Enables middle mouse button emulation through simultaneous left and right "
+"button click."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:87
+msgid "Key Repeat Interval"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:88
+msgid "Delay between repeats in milliseconds."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:92
+msgid "Initial Key Repeat Delay"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:93
+msgid "Initial key repeat delay in milliseconds."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:97
+msgid "Remember NumLock state"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:98
+msgid ""
+"When set to true, GNOME will remember the state of the NumLock LED between "
+"sessions."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:104
+msgid "Disable touchpad while typing"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:105
+msgid ""
+"Set this to TRUE if you have problems with accidentally hitting the touchpad "
+"while typing."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:109
+#, fuzzy
+msgid "Enable horizontal scrolling"
+msgstr "Uklučy plugin šryftoŭ"
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:110
+msgid ""
+"Set this to TRUE to allow horizontal scrolling by the same method selected "
+"with the scroll_method key."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:114
+msgid "Select the touchpad scroll method"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:115
+msgid ""
+"Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
+"scrolling”, “two-finger-scrolling”."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:119
+msgid "Enable mouse clicks with touchpad"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:120
+msgid ""
+"Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:124
+msgid "Enable touchpad"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:125
+msgid "Set this to TRUE to enable all touchpads."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:129
+msgid "Touchpad button orientation"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:130
+msgid ""
+"Swap left and right mouse buttons for left-handed mice with “left”, “right” "
+"for right-handed, “mouse” to follow the mouse setting."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:144
+msgid "Natural scrolling"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:145
+msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:152
+msgid "Mouse wheel emulation button. 0 to disable the feature."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:10
+msgid "Wacom stylus absolute mode"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:11
+msgid "Enable this to set the tablet to absolute mode."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:15
+msgid "Wacom tablet area"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:16
+msgid "Set this to x1, y1 and x2, y2 of the area usable by the tools."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:20
+msgid "Wacom tablet aspect ratio"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:21
+msgid ""
+"Enable this to restrict the Wacom tablet area to match the aspect ratio of "
+"the output."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:25
+msgid "Wacom tablet rotation"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:26
+msgid ""
+"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and "
+"“ccw” for 90 degree counterclockwise."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:30
+msgid "Wacom touch feature"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:31
+msgid "Enable this to move the cursor when the user touches the tablet."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:37
+msgid "Wacom stylus pressure curve"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:38
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:42
+msgid "Wacom stylus button mapping"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:43
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:60
+msgid "Set this to the logical button mapping."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:47
+msgid "Wacom stylus pressure threshold"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:48
+msgid ""
+"Set this to the pressure value at which a stylus click event is generated."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:54
+msgid "Wacom eraser pressure curve"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:55
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:59
+msgid "Wacom eraser button mapping"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:64
+msgid "Wacom eraser pressure threshold"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:65
+msgid ""
+"Set this to the pressure value at which an eraser click event is generated."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:71
+msgid "Wacom button action type"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:72
+msgid "The type of action triggered by the button being pressed."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:76
+msgid "Key combination for the custom action"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:77
+msgid ""
+"The keyboard shortcut generated when the button is pressed for custom "
+"actions."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:81
+msgid "Key combinations for a touchring or touchstrip custom action"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:82
+msgid ""
+"The keyboard shortcuts generated when a touchring or touchstrip is used for "
+"custom actions (up followed by down)."
+msgstr ""
+
+#. Translators: This is the OLED display on an Intuos4 tablet:
+#. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:88
+msgid "Button label for OLED display."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:89
+msgid "Label will be rendered to OLED display belonging to the button"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:6
+msgid "The duration a display profile is valid"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:7
+msgid ""
+"This is the number of days after which the display color profile is "
+"considered invalid."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:11
+msgid "The duration a printer profile is valid"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:12
+msgid ""
+"This is the number of days after which the printer color profile is "
+"considered invalid."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:16
+msgid "If the night light mode is enabled"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:17
+msgid ""
+"Night light mode changes the color temperature of your display when the sun "
+"has gone down or at preset times."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
+msgid "Temperature of the display when enabled"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:22
+msgid ""
+"This temperature in Kelvin is used to modify the screen tones when night "
+"light mode is enabled. Higher values are bluer, lower redder."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:26
+msgid "Use the sunrise and sunset"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:27
+msgid ""
+"Calculate the sunrise and sunset times automatically, from the current "
+"location."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:31
+msgid "The start time"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:32
+msgid ""
+"When “night-light-schedule-automatic” is disabled, use this start time in "
+"hours from midnight."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:36
+msgid "The end time"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:37
+msgid ""
+"When “night-light-schedule-automatic” is disabled, use this end time in "
+"hours from midnight."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:41
+msgid "The last detected position"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:42
+msgid ""
+"When location services are available this represents the last detected "
+"location. The default value is an invalid value to ensure it is always "
+"updated at startup."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.gschema.xml.in:6
+msgid "List of plugins that are allowed to be loaded"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.gschema.xml.in:7
+msgid ""
+"A list of strings representing the plugins that are allowed to be loaded "
+"(default: “all”). This is only evaluated on startup."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:6
+msgid "Mount paths to ignore"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:7
+msgid "Specify a list of mount paths to ignore when they run low on space."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:12
+msgid "Free percentage notify threshold"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:13
+msgid ""
+"Percentage free space threshold for initial warning of low disk space. If "
+"the percentage free space drops below this, a warning will be shown."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:18
+msgid "Subsequent free space percentage notify threshold"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:19
+msgid ""
+"Specify the percentage that the free disk space should reduce by before "
+"issuing a subsequent warning."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:23
+msgid "Free space notify threshold"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:24
+msgid ""
+"Specify an amount in GB. If the amount of free space is more than this, no "
+"warning will be shown."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:28
+msgid "Minimum notify period for repeated warnings"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:29
+msgid ""
+"Specify a time in minutes. Subsequent warnings for a volume will not appear "
+"more often than this period."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:6
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:189
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:516
+msgid "Launch calculator"
+msgstr "Uruchom kalkulatar"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:7
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:190
 msgid "Binding to launch the calculator."
 msgstr "Klavijaturny skarot dla ŭklučeńnia kalkulatara."
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:3
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:11
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:194
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:521
+#, fuzzy
+msgid "Launch settings"
+msgstr "Nałady X"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:12
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:195
+#, fuzzy
+msgid "Binding to launch GNOME Settings."
+msgstr "Klavijaturny skarot dla ŭklučeńnia paštovaj prahramy."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:16
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:199
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:526
+msgid "Launch email client"
+msgstr "Uklučy paštovuju prahramu"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:17
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:200
 msgid "Binding to launch the email client."
 msgstr "Klavijaturny skarot dla ŭklučeńnia paštovaj prahramy."
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:4
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:21
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:204
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:531
+msgid "Eject"
+msgstr "Vysuń"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:22
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:205
+#, fuzzy
+msgid "Binding to eject an optical disc."
+msgstr "Klavijaturny skarot dla vysoŭvańnia aptyčnaha dysku."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:26
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:209
+msgid "Launch help browser"
+msgstr "Uruchom hartač dapamohi"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:27
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:210
 msgid "Binding to launch the help browser."
 msgstr "Klavijaturny skarot dla ŭklučeńnia hartača dapamohi."
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:5
-msgid "Binding to launch the media player."
-msgstr "Klavijaturny skarot dla ŭklučeńnia playera medyjaŭ."
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:31
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:214
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:536
+msgid "Home folder"
+msgstr "Chatni kataloh"
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:6
-msgid "Binding to launch the search tool."
-msgstr "Klavijaturny skarot dla ŭklučeńnia pryłady pošuku."
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:7
-msgid "Binding to launch the web browser."
-msgstr "Klavijaturny skarot dla ŭklučeńnia web-hartača."
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:8
-msgid "Binding to lock the screen."
-msgstr "Klavijaturny skarot dla blakavańnia ekranu."
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:9
-msgid "Binding to log out."
-msgstr "Klavijaturny skarot dla vychadu."
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:10
-msgid "Binding to lower the system volume."
-msgstr "Klavijaturny skarot dla pamianšeńnia hučnaści."
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:11
-msgid "Binding to mute the system volume."
-msgstr "Klavijaturny skarot dla ścišeńnia systemnaha huku."
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:12
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:32
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:215
 msgid "Binding to open the Home folder."
 msgstr "Klavijaturny skarot dla adčynieńnia chatniaha katalohu."
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:13
-msgid "Binding to pause playback."
-msgstr "Klavijaturny skarot dla prypynieńnia vykanańnia."
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:36
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:219
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:541
+msgid "Launch media player"
+msgstr "Uklučy player medyjaŭ"
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:14
-msgid "Binding to raise the system volume."
-msgstr "Klavijaturny skarot dla pavieličeńnia hučnaści."
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:37
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:220
+msgid "Binding to launch the media player."
+msgstr "Klavijaturny skarot dla ŭklučeńnia playera medyjaŭ."
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:15
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:41
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:224
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:546
+msgid "Next track"
+msgstr "Nastupnaja ściežka"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:42
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:225
 msgid "Binding to skip to next track."
 msgstr "Klavijaturny skarot dla pierachodu da nastupnaj ściežki."
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:16
-msgid "Binding to skip to previous track."
-msgstr "Klavijaturny skarot dla pierachodu da papiaredniaj ściežki."
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:46
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:229
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:551
+msgid "Pause playback"
+msgstr "Prypyni vykanańnie"
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:17
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:47
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:230
+msgid "Binding to pause playback."
+msgstr "Klavijaturny skarot dla prypynieńnia vykanańnia."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:51
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:234
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:556
+msgid "Play (or play/pause)"
+msgstr "Hraj (albo hraj/prypyni)"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:52
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:235
 msgid "Binding to start playback (or toggle play/pause)."
 msgstr ""
 "Klavijaturny skarot dla pačatku vykanańnia (ci pieraklučeńnia hrańnia/paŭzy)."
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:18
-msgid "Binding to stop playback."
-msgstr "Klavijaturny skarot dla spynieńnia vykanańnia."
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:19
-msgid "Binding to suspend the computer."
-msgstr "Klavijaturny skarot dla ŭsypleńnia kamputara."
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:20
-msgid "Eject"
-msgstr "Vysuń"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:21
-msgid "Home folder"
-msgstr "Chatni kataloh"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:22
-msgid "Launch calculator"
-msgstr "Uruchom kalkulatar"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:23
-msgid "Launch email client"
-msgstr "Uklučy paštovuju prahramu"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:24
-msgid "Launch help browser"
-msgstr "Uruchom hartač dapamohi"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:25
-msgid "Launch media player"
-msgstr "Uklučy player medyjaŭ"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:26
-msgid "Launch web browser"
-msgstr "Uruchom web-hartač"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:27
-msgid "Lock screen"
-msgstr "Blakuj ekran"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:28
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:56
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:239
 msgid "Log out"
 msgstr "Vyjdzi"
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:29
-msgid "Next track"
-msgstr "Nastupnaja ściežka"
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:57
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:240
+msgid "Binding to log out."
+msgstr "Klavijaturny skarot dla vychadu."
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:30
-msgid "Pause playback"
-msgstr "Prypyni vykanańnie"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:31
-msgid "Play (or play/pause)"
-msgstr "Hraj (albo hraj/prypyni)"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:32
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:61
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:244
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:561
 msgid "Previous track"
 msgstr "Papiaredniaja ściežka"
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:33
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:62
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:245
+msgid "Binding to skip to previous track."
+msgstr "Klavijaturny skarot dla pierachodu da papiaredniaj ściežki."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:66
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:249
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:566
+msgid "Lock screen"
+msgstr "Blakuj ekran"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:67
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:250
+msgid "Binding to lock the screen."
+msgstr "Klavijaturny skarot dla blakavańnia ekranu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:71
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:254
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:571
 msgid "Search"
 msgstr "Šukaj"
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:34
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:72
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:255
+msgid "Binding to launch the search tool."
+msgstr "Klavijaturny skarot dla ŭklučeńnia pryłady pošuku."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:76
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:259
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:576
 msgid "Stop playback"
 msgstr "Spyni vykanańnie"
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:35
-msgid "Suspend"
-msgstr "Zaśni"
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:77
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:260
+msgid "Binding to stop playback."
+msgstr "Klavijaturny skarot dla spynieńnia vykanańnia."
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:36
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:81
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:266
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:583
 msgid "Volume down"
 msgstr "Cišej"
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:37
-msgid "Volume mute"
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:82
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:267
+#, fuzzy
+msgid "Binding to lower the volume."
+msgstr "Klavijaturny skarot dla pamianšeńnia hučnaści."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:86
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:271
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:588
+#, fuzzy
+msgid "Volume mute/unmute"
 msgstr "Abiazhuč"
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:38
-msgid "Volume step"
-msgstr "Krok hučnaści"
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:272
+#, fuzzy
+msgid "Binding to mute/unmute the volume."
+msgstr "Klavijaturny skarot dla ścišeńnia systemnaha huku."
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:39
-msgid "Volume step as percentage of volume."
-msgstr "Pracentny krok hučnaści."
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:40
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:276
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:593
 msgid "Volume up"
 msgstr "Hučniej"
 
-#: ../data/apps_gnome_settings_daemon_screensaver.schemas.in.h:1
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:277
+#, fuzzy
+msgid "Binding to raise the volume."
+msgstr "Klavijaturny skarot dla pavieličeńnia hučnaści."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:317
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:628
+msgid "Microphone mute/unmute"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:318
+#, fuzzy
+msgid "Binding to mute/unmute the microphone."
+msgstr "Klavijaturny skarot dla ŭsypleńnia kamputara."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:322
+#, fuzzy
+msgid "Take a screenshot"
+msgstr "Klavijaturny skarot blakavańnia ekranu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:323
+#, fuzzy
+msgid "Binding to take a screenshot."
+msgstr "Klavijaturny skarot dla blakavańnia ekranu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:327
+msgid "Take a screenshot of a window"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:107
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:328
+#, fuzzy
+msgid "Binding to take a screenshot of a window."
+msgstr "Klavijaturny skarot dla blakavańnia ekranu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:111
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:332
+msgid "Take a screenshot of an area"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:112
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:333
+#, fuzzy
+msgid "Binding to take a screenshot of an area."
+msgstr "Klavijaturny skarot dla blakavańnia ekranu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:116
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:337
+msgid "Copy a screenshot to clipboard"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:117
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:338
+#, fuzzy
+msgid "Binding to copy a screenshot to clipboard."
+msgstr "Klavijaturny skarot dla blakavańnia ekranu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:121
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:342
+msgid "Copy a screenshot of a window to clipboard"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:122
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:343
+msgid "Binding to copy a screenshot of a window to clipboard."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:126
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:347
+msgid "Copy a screenshot of an area to clipboard"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:127
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:348
+msgid "Binding to copy a screenshot of an area to clipboard."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:131
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:352
+msgid "Record a short video of the screen"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:132
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:353
+#, fuzzy
+msgid "Binding to record a short video of the screen"
+msgstr "Klavijaturny skarot dla blakavańnia ekranu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:136
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:357
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:633
+msgid "Launch web browser"
+msgstr "Uruchom web-hartač"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:137
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:358
+msgid "Binding to launch the web browser."
+msgstr "Klavijaturny skarot dla ŭklučeńnia web-hartača."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:141
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:387
+msgid "Toggle magnifier"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:142
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:388
+#, fuzzy
+msgid "Binding to show the screen magnifier"
+msgstr "Klavijaturny skarot dla blakavańnia ekranu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:146
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:362
+msgid "Toggle screen reader"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:147
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:363
+#, fuzzy
+msgid "Binding to start the screen reader"
+msgstr "Klavijaturny skarot dla blakavańnia ekranu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:151
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:367
+msgid "Toggle on-screen keyboard"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:152
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:368
+#, fuzzy
+msgid "Binding to show the on-screen keyboard"
+msgstr "Klavijaturny skarot dla blakavańnia ekranu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:156
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:372
+msgid "Increase text size"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:157
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:373
+#, fuzzy
+msgid "Binding to increase the text size"
+msgstr "Klavijaturny skarot dla pavieličeńnia hučnaści."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:161
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:377
+msgid "Decrease text size"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:162
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:378
+#, fuzzy
+msgid "Binding to decrease the text size"
+msgstr "Klavijaturny skarot dla pavieličeńnia hučnaści."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:166
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:382
+msgid "Toggle contrast"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:167
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:383
+#, fuzzy
+msgid "Binding to toggle the interface contrast"
+msgstr "Klavijaturny skarot dla ŭklučeńnia paštovaj prahramy."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:171
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:392
+msgid "Magnifier zoom in"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:172
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:393
+msgid "Binding for the magnifier to zoom in"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:176
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:397
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:639
+msgid "Magnifier zoom out"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:177
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:398
+msgid "Binding for the magnifier to zoom out"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:184
+#, fuzzy
+msgid "Custom keybindings"
+msgstr "Klavijaturnyja skaroty"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:185
+msgid "List of custom keybindings"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:282
+#, fuzzy
+msgid "Size of volume step"
+msgstr "Krok hučnaści"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:283
+msgid "Size of the volume step for each volume change"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:289
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:600
+#, fuzzy
+msgid "Quiet volume down"
+msgstr "Cišej"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:290
+#, fuzzy
+msgid "Binding to lower the volume without emitting a sound effect."
+msgstr "Klavijaturny skarot dla pamianšeńnia hučnaści."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:294
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:605
+msgid "Quiet volume mute/unmute"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:295
+msgid "Binding to mute/unmute the volume without emitting a sound effect."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:299
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:610
+#, fuzzy
+msgid "Quiet volume up"
+msgstr "Hučniej"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:300
+#, fuzzy
+msgid "Binding to raise the volume without emitting a sound effect."
+msgstr "Klavijaturny skarot dla pavieličeńnia hučnaści."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:306
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:617
+#, fuzzy
+msgid "Precise volume down"
+msgstr "Cišej"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:307
+#, fuzzy
+msgid "Binding to lower the volume with higher precision."
+msgstr "Klavijaturny skarot dla pamianšeńnia hučnaści."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:311
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:622
+#, fuzzy
+msgid "Precise volume up"
+msgstr "Hučniej"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:312
+#, fuzzy
+msgid "Binding to raise the volume with higher precision."
+msgstr "Klavijaturny skarot dla pavieličeńnia hučnaści."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:402
+msgid "Toggle touchpad on/off"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:403
+#, fuzzy
+msgid "Binding to toggle the touchpad on/off."
+msgstr "Klavijaturny skarot dla ŭklučeńnia pryłady pošuku."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:407
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:644
+msgid "Switch touchpad on"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:408
+#, fuzzy
+msgid "Binding to switch the touchpad on."
+msgstr "Klavijaturny skarot dla ŭklučeńnia pryłady pošuku."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:412
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:649
+msgid "Switch touchpad off"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:413
+#, fuzzy
+msgid "Binding to switch the touchpad off."
+msgstr "Klavijaturny skarot dla ŭklučeńnia pryłady pošuku."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:418
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:655
+msgid "Skip backward in current track"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:419
+#, fuzzy
+msgid "Binding to skip backward in current track."
+msgstr "Klavijaturny skarot dla pierachodu da nastupnaj ściežki."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:423
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:660
+msgid "Skip forward in current track"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:424
+#, fuzzy
+msgid "Binding to skip forward in current track."
+msgstr "Klavijaturny skarot dla pierachodu da nastupnaj ściežki."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:428
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:665
+msgid "Toggle repeat playback mode"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:429
+#, fuzzy
+msgid "Binding to toggle repeat mode in media player."
+msgstr "Klavijaturny skarot dla ŭklučeńnia playera medyjaŭ."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:433
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:670
+msgid "Toggle random playback mode"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:434
+#, fuzzy
+msgid "Binding to toggle random playback mode in media player."
+msgstr "Klavijaturny skarot dla ŭklučeńnia playera medyjaŭ."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:439
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:676
+msgid "Toggle automatic screen orientation"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:440
+#, fuzzy
+msgid "Binding to toggle automatic screen orientation."
+msgstr "Klavijaturny skarot dla ŭklučeńnia paštovaj prahramy."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:444
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:681
+msgid "Power button"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:445
+#, fuzzy
+msgid "Binding for power button."
+msgstr "Klavijaturny skarot dla vychadu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:449
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:686
+msgid "Hibernate button"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:450
+#, fuzzy
+msgid "Binding to hibernate the machine."
+msgstr "Klavijaturny skarot dla ŭklučeńnia paštovaj prahramy."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:454
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:691
+#, fuzzy
+msgid "Suspend button"
+msgstr "Zaśni"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:455
+#, fuzzy
+msgid "Binding to suspend the machine."
+msgstr "Klavijaturny skarot dla ŭsypleńnia kamputara."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:460
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:697
+msgid "Screen brightness up"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:461
+#, fuzzy
+msgid "Binding to increase the screen brightness."
+msgstr "Klavijaturny skarot dla blakavańnia ekranu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:465
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:702
+msgid "Screen brightness down"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:466
+#, fuzzy
+msgid "Binding to decrease the screen brightness."
+msgstr "Klavijaturny skarot dla blakavańnia ekranu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:470
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:707
+msgid "Screen brightness cycle"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:471
+#, fuzzy
+msgid "Binding to cycle the screen brightness."
+msgstr "Klavijaturny skarot dla blakavańnia ekranu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:476
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:713
+msgid "Keyboard brightness up"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:477
+#, fuzzy
+msgid "Binding to increase the keyboard brightness."
+msgstr "Klavijaturny skarot dla ŭklučeńnia web-hartača."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:481
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:718
+msgid "Keyboard brightness down"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:482
+#, fuzzy
+msgid "Binding to decrease the keyboard brightness."
+msgstr "Klavijaturny skarot dla ŭklučeńnia web-hartača."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:486
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:723
+msgid "Keyboard brightness toggle"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:487
+#, fuzzy
+msgid "Binding to toggle the keyboard brightness."
+msgstr "Klavijaturny skarot dla ŭklučeńnia web-hartača."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:492
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:729
+msgid "Show battery status"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:493
+#, fuzzy
+msgid "Binding to show current battery status."
+msgstr "Klavijaturny skarot dla pierachodu da nastupnaj ściežki."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:498
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:735
+msgid "RF kill"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:499
+#, fuzzy
+msgid "Binding to toggle airplane mode."
+msgstr "Klavijaturny skarot dla adčynieńnia chatniaha katalohu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:503
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:740
+msgid "Bluetooth RF kill"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:504
+#, fuzzy
+msgid "Binding to toggle bluetooth airplane mode."
+msgstr "Klavijaturny skarot dla adčynieńnia chatniaha katalohu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:517
+#, fuzzy
+msgid "Static binding to launch the calculator."
+msgstr "Klavijaturny skarot dla ŭklučeńnia kalkulatara."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:522
+msgid "Static binding to launch GNOME Settings."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:527
+#, fuzzy
+msgid "Static binding to launch the email client."
+msgstr "Klavijaturny skarot dla ŭklučeńnia paštovaj prahramy."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:532
+#, fuzzy
+msgid "Static binding to eject an optical disc."
+msgstr "Klavijaturny skarot dla vysoŭvańnia aptyčnaha dysku."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:537
+#, fuzzy
+msgid "Static binding to open the Home folder."
+msgstr "Klavijaturny skarot dla adčynieńnia chatniaha katalohu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:542
+#, fuzzy
+msgid "Static binding to launch the media player."
+msgstr "Klavijaturny skarot dla ŭklučeńnia playera medyjaŭ."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:547
+#, fuzzy
+msgid "Static binding to skip to next track."
+msgstr "Klavijaturny skarot dla pierachodu da nastupnaj ściežki."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:552
+#, fuzzy
+msgid "Static binding to pause playback."
+msgstr "Klavijaturny skarot dla prypynieńnia vykanańnia."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:557
+#, fuzzy
+msgid "Static binding to start playback (or toggle play/pause)."
+msgstr ""
+"Klavijaturny skarot dla pačatku vykanańnia (ci pieraklučeńnia hrańnia/paŭzy)."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:562
+#, fuzzy
+msgid "Static binding to skip to previous track."
+msgstr "Klavijaturny skarot dla pierachodu da papiaredniaj ściežki."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:567
+#, fuzzy
+msgid "Static binding to lock the screen."
+msgstr "Klavijaturny skarot dla blakavańnia ekranu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:572
+#, fuzzy
+msgid "Static binding to launch the search tool."
+msgstr "Klavijaturny skarot dla ŭklučeńnia pryłady pošuku."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:577
+#, fuzzy
+msgid "Static binding to stop playback."
+msgstr "Klavijaturny skarot dla spynieńnia vykanańnia."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:584
+#, fuzzy
+msgid "Static binding to lower the volume."
+msgstr "Klavijaturny skarot dla pamianšeńnia hučnaści."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:589
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:606
+#, fuzzy
+msgid "Static binding to mute/unmute the volume."
+msgstr "Klavijaturny skarot dla ścišeńnia systemnaha huku."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:594
+#, fuzzy
+msgid "Static binding to raise the volume."
+msgstr "Klavijaturny skarot dla pavieličeńnia hučnaści."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:601
+msgid "Static binding to lower the volume without emitting a sound effect."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:611
+msgid "Static binding to raise the volume without emitting a sound effect."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:618
+msgid "Static binding to lower the volume with higher precision."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:623
+msgid "Static binding to raise the volume with higher precision."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:629
+msgid "Static binding to mute/unmute the microphone."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:634
+#, fuzzy
+msgid "Static binding to launch the web browser."
+msgstr "Klavijaturny skarot dla ŭklučeńnia web-hartača."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:640
+msgid "Static binding to toggle the touchpad on/off."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:645
+msgid "Static binding to switch the touchpad on."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:650
+msgid "Static binding to switch the touchpad off."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:656
+#, fuzzy
+msgid "Static binding to skip backward in current track."
+msgstr "Klavijaturny skarot dla pierachodu da nastupnaj ściežki."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:661
+#, fuzzy
+msgid "Static binding to skip forward in current track."
+msgstr "Klavijaturny skarot dla pierachodu da nastupnaj ściežki."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:666
+#, fuzzy
+msgid "Static binding to toggle repeat mode in media player."
+msgstr "Klavijaturny skarot dla ŭklučeńnia playera medyjaŭ."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:671
+#, fuzzy
+msgid "Static binding to toggle random playback mode in media player."
+msgstr "Klavijaturny skarot dla ŭklučeńnia playera medyjaŭ."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:677
+msgid "Static binding to toggle automatic screen orientation."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:682
+msgid "Static binding for power button."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:687
+msgid "Static binding to hibernate the machine."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:692
+#, fuzzy
+msgid "Static binding to suspend the machine."
+msgstr "Klavijaturny skarot dla ŭsypleńnia kamputara."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:698
+#, fuzzy
+msgid "Static binding to increase the screen brightness."
+msgstr "Klavijaturny skarot dla blakavańnia ekranu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:703
+#, fuzzy
+msgid "Static binding to decrease the screen brightness."
+msgstr "Klavijaturny skarot dla blakavańnia ekranu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:708
+#, fuzzy
+msgid "Static binding to cycle the screen brightness."
+msgstr "Klavijaturny skarot dla blakavańnia ekranu."
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:714
+msgid "Static binding to increase the keyboard brightness."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:719
+msgid "Static binding to decrease the keyboard brightness."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:724
+msgid "Static binding to toggle the keyboard brightness."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:730
+msgid "Static binding to show current battery status."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:736
+msgid "Static binding to toggle airplane mode."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:741
+msgid "Static binding to toggle bluetooth airplane mode."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:746
+msgid "Maximum length of screen recordings"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:747
 msgid ""
-"Set to True to display a dialog when there are errors running the "
-"screensaver."
-msgstr "Uklučy, kab pakazvać dyjaloh pry pamyłkach źbierahalnika ekranu."
+"The maximum length of single screen cast recordings in seconds or 0 for "
+"unlimited"
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_screensaver.schemas.in.h:2
-msgid "Set to True to run the screensaver at login."
-msgstr "Uklučy, kab źbierahalnik ekranu ŭruchamlaŭsia pry ŭvachodzie."
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:754
+msgid "Name"
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_screensaver.schemas.in.h:3
-msgid "Show startup errors"
-msgstr "Pakazvaj pamyłki ŭklučeńnia"
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:755
+msgid "Name of the custom binding"
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_screensaver.schemas.in.h:4
-msgid "Start screensaver"
-msgstr "Uklučy źbierahalnik ekranu"
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:759
+#, fuzzy
+msgid "Binding"
+msgstr "Klavijaturnyja skaroty"
 
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:1
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:760
+msgid "Binding for the custom binding"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:764
+msgid "Command"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:765
+msgid "Command to run when the binding is invoked"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:6
+msgid "The brightness of the screen when idle"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:7
+msgid ""
+"This is the laptop panel screen brightness used when the session is idle."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:11
+msgid "Dim the screen after a period of inactivity"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:12
+msgid "If the screen should be dimmed to save power when the computer is idle."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:16
+msgid "Sleep timeout computer when on AC"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:17
+msgid ""
+"The amount of time in seconds the computer on AC power needs to be inactive "
+"before it goes to sleep. A value of 0 means never."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:21
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:31
+msgid "Whether to hibernate, suspend or do nothing when inactive"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:22
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:32
+msgid ""
+"The type of sleeping that should be performed when the computer is inactive."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:26
+msgid "Sleep timeout computer when on battery"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:27
+msgid ""
+"The amount of time in seconds the computer on battery power needs to be "
+"inactive before it goes to sleep. A value of 0 means never."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:36
+msgid "Enable the ALS sensor"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:37
+msgid "If the ambient light sensor functionality is enabled."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:41
+msgid "Power button action"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:42
+msgid ""
+"The action to take when the system power button is pressed. This action is "
+"hard-coded (and the setting ignored) on virtual machines (power off) and "
+"tablets (suspend)."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:6
+msgid "On which connections the service is enabled"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:7
+msgid ""
+"The list of NetworkManager connections (each one represented with its UUID) "
+"on which this service is enabled and started."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:6
 msgid "Antialiasing"
 msgstr "Antialiasing"
 
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:2
-msgid "DPI"
-msgstr "DPI"
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:7
+#, fuzzy
+msgid ""
+"The type of antialiasing to use when rendering fonts. Possible values are: "
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
+"and “rgba” for subpixel antialiasing (LCD screens only)."
+msgstr ""
+"Typ antialiasingu dla rysavańnia šryftoŭ. Mahčymyja vartaści: \"none\" (biaz "
+"antialiasingu), \"grayscale\" (dla zvyčajnaha čorna-biełaha antialiasingu) i "
+"\"rgba\" (dla subpikselnaha antialiasingu; tolki dla ekranaŭ LCD)."
 
 # Mechanizm papraŭleńnia jakaści druku na aparatury ź nizkaj padzielnaj zdolnaściu. Adpaviednika niama, pakinuŭ jak jość. Prapanuju heta pryniać tak jak i widget.
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:3
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:11
 msgid "Hinting"
 msgstr "Hinting"
 
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:4
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:12
+msgid ""
+"The type of hinting to use when rendering fonts. Possible values are: “none” "
+"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
+"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"Ignores native hinting within the font, generates hints algorithmically. "
+"Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
+"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
+"rendering depending on the quality of the font, the font format and the "
+"state of FreeType’s font engines."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:16
 msgid "RGBA order"
 msgstr "Paradak RGBA"
 
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:5
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:17
+#, fuzzy
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
-"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red "
-"on bottom."
+"is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
+"“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
 msgstr ""
 "Paradak subpikselnych elementaŭ na ekranie LCD; upłyvaje, tolki kali "
 "antialiasing maje vartaść \"rgba\". Mahčymyja vartaści: \"rgb\" (čyrvony "
 "źleva, najčaściej tak), \"bgr\" (sini źleva) \"vrgb\" (čyrvony ŭviersie) "
 "\"vbgr\" (čyrvony ŭnizie)."
 
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:6
-msgid ""
-"The resolution used for converting font sizes to pixel sizes, in dots per "
-"inch."
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:21
+msgid "List of explicitly disabled GTK+ modules"
 msgstr ""
-"Pamiery ekranu dziela kanvertavańnia pamieraŭ šryftoŭ u pamiery pikselaŭ, "
-"punktaŭ na cal."
 
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:7
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:22
 msgid ""
-"The type of antialiasing to use when rendering fonts. Possible values are: "
-"\"none\" for no antialiasing, \"grayscale\" for standard grayscale "
-"antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+"A list of strings representing the GTK+ modules that will not be loaded, "
+"even if enabled by default in their configuration."
 msgstr ""
-"Typ antialiasingu dla rysavańnia šryftoŭ. Mahčymyja vartaści: \"none\" (biaz "
-"antialiasingu), \"grayscale\" (dla zvyčajnaha čorna-biełaha antialiasingu) i "
-"\"rgba\" (dla subpikselnaha antialiasingu; tolki dla ekranaŭ LCD)."
 
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:8
-msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: \"none"
-"\" for no hinting, \"slight\" for basic, \"medium\" for moderate, and \"full"
-"\" for maximum hinting (may cause distortion of letter forms)."
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:26
+msgid "List of explicitly enabled GTK+ modules"
 msgstr ""
-"Typ hintingu dla rysavańnia šryftoŭ. Mahčymyja vartaści: \"none\" (biaź "
-"hintingu), \"slight\" (prosty), \"medium\" (siaredni) i \"full\" (maksymalny "
-"hinting, moža vyklikać skryŭleńni formy litaraŭ)."
 
-#: ../data/gnome-settings-daemon.schemas.in.h:1
-msgid "Enable accessibility keyboard plugin"
-msgstr "Uklučy plugin dastupnaj klavijatury"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:2
-msgid "Enable background plugin"
-msgstr "Uklučy plugin fonu"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:3
-msgid "Enable clipboard plugin"
-msgstr "Uklučy plugin abmiennaha bufera"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:4
-msgid "Enable default editor plugin"
-msgstr "Uklučy plugin zmoŭčanaha redaktara"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:5
-msgid "Enable font plugin"
-msgstr "Uklučy plugin šryftoŭ"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:6
-msgid "Enable keybindings plugin"
-msgstr "Uklučy plugin klavijaturnych skarotaŭ"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:7
-msgid "Enable keyboard plugin"
-msgstr "Uklučy plugin klavijatury"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:8
-msgid "Enable media keys plugin"
-msgstr "Uklučy plugin medyjnych klavišaŭ"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:9
-msgid "Enable mouse plugin"
-msgstr "Uklučy plugin myšy"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:10
-msgid "Enable screensaver plugin"
-msgstr "Uklučy plugin źbierahalnika ekranu"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:11
-msgid "Enable sound plugin"
-msgstr "Uklučy plugin huku"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:12
-msgid "Enable typing breaks plugin"
-msgstr "Uklučy plugin pierapynkaŭ u pisańni"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:13
-msgid "Enable xrandr plugin"
-msgstr "Uklučy plugin xrandr"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:14
-msgid "Enable xrdb plugin"
-msgstr "Uklučy plugin xrdb"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:15
-msgid "Enable xsettings plugin"
-msgstr "Uklučy plugin xsettings"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:16
-msgid "Set to True to enable the plugin to manage clipboard settings."
-msgstr "Uklučy plugin dla kiravańnia naładami abmiennaha buferu."
-
-#: ../data/gnome-settings-daemon.schemas.in.h:17
-msgid "Set to True to enable the plugin to manage desktop background settings."
-msgstr "Uklučy plugin dla kiravańnia naładami fonu stała."
-
-#: ../data/gnome-settings-daemon.schemas.in.h:18
-msgid "Set to True to enable the plugin to manage font settings."
-msgstr "Uklučy plugin dla kiravańnia naładami šryftoŭ."
-
-#: ../data/gnome-settings-daemon.schemas.in.h:19
-msgid "Set to True to enable the plugin to manage keyboard settings."
-msgstr "Uklučy plugin dla kiravańnia naładami klavijatury."
-
-#: ../data/gnome-settings-daemon.schemas.in.h:20
-msgid "Set to True to enable the plugin to manage mouse settings."
-msgstr "Uklučy plugin dla kiravańnia naładami myšy."
-
-#: ../data/gnome-settings-daemon.schemas.in.h:21
-msgid "Set to True to enable the plugin to manage multimedia keys settings."
-msgstr "Uklučy plugin dla kiravańnia naładami multymedyjnych klavišaŭ."
-
-#: ../data/gnome-settings-daemon.schemas.in.h:22
-msgid "Set to True to enable the plugin to manage screensaver settings."
-msgstr "Uklučy plugin dla kiravańnia naładami źbierahalnika ekranu."
-
-#: ../data/gnome-settings-daemon.schemas.in.h:23
-msgid "Set to True to enable the plugin to manage sound settings."
-msgstr "Uklučy plugin dla kiravańnia naładami huku."
-
-#: ../data/gnome-settings-daemon.schemas.in.h:24
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:27
 msgid ""
-"Set to True to enable the plugin to manage the accessibility keyboard "
-"settings."
-msgstr "Uklučy plugin dla kiravańnia naładami dastupnaj klavijatury."
-
-#: ../data/gnome-settings-daemon.schemas.in.h:25
-msgid ""
-"Set to True to enable the plugin to manage the default text editor setting."
-msgstr "Uklučy plugin dla kiravańnia zmoŭčanym tekstavym redaktaram."
-
-#: ../data/gnome-settings-daemon.schemas.in.h:26
-msgid "Set to True to enable the plugin to manage the keybindings."
-msgstr "Uklučy plugin dla kiravańnia klavijaturnymi skarotami."
-
-#: ../data/gnome-settings-daemon.schemas.in.h:27
-msgid "Set to True to enable the plugin to manage typing breaks."
-msgstr "Uklučy plugin dla kiravańnia pierapynkami ŭ pisańni na klavijatury."
-
-#: ../data/gnome-settings-daemon.schemas.in.h:28
-msgid "Set to True to enable the plugin to manage xrandr settings."
-msgstr "Uklučy plugin dla kiravańnia naładami xrandr."
-
-#: ../data/gnome-settings-daemon.schemas.in.h:29
-msgid "Set to True to enable the plugin to manage xrdb settings."
-msgstr "Uklučy plugin dla kiravańnia naładami xrdb."
-
-#: ../data/gnome-settings-daemon.schemas.in.h:30
-msgid "Set to True to enable the plugin to manage xsettings."
-msgstr "Uklučy plugin dla kiravańnia naładami xsettings."
-
-#: ../gnome-settings-daemon/main.c:49
-msgid "Don't become a daemon"
-msgstr "Nie stanavisia demanam"
-
-#: ../gnome-settings-daemon/main.c:50
-msgid "GConf prefix from which to load plugin settings"
-msgstr "Prefiks GConf, ź jakoha čytać nałady pluginaŭ"
-
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:1
-msgid "Accessibility Keyboard"
-msgstr "Dastupnaja klavijatura"
-
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:2
-msgid "Accessibility keyboard plugin"
-msgstr "Plugin dastupnaj klavijatury"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:393
-#, c-format
-msgid "There was an error displaying help: %s"
-msgstr "Padčas pakazu dapamohi adbyłasia pamyłka: %s"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:445
-msgid "Do you want to activate Slow Keys?"
-msgstr "Ci chočaš uklučyć pavolnyja klavišy?"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:446
-msgid "Do you want to deactivate Slow Keys?"
-msgstr "Ci chočaš vyklučyć pavolnyja klavišy?"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:449
-msgid ""
-"You just held down the Shift key for 8 seconds.  This is the shortcut for "
-"the Slow Keys feature, which affects the way your keyboard works."
+"A list of strings representing the GTK+ modules that will be loaded, usually "
+"in addition to conditional and forcibly disabled ones."
 msgstr ""
-"Ty pratrymaŭ klavišu Shift 8 sekundaŭ. Heta klavijaturny skarot dla funkcyi "
-"pavolnych klavišaŭ, jakaja ŭpłyvaje na režym pracy klavijatury."
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:456
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:508
-msgid "Do_n't activate"
-msgstr "_Nie ŭklučaj"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:456
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:508
-msgid "Do_n't deactivate"
-msgstr "_Nie vyklučaj"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:459
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:511
-msgid "_Activate"
-msgstr "_Uklučy"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:459
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:511
-msgid "_Deactivate"
-msgstr "_Vyklučy"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:463
-msgid "Slow Keys Alert"
-msgstr "Aściaroha pavolnych klavišaŭ"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:495
-msgid "Do you want to activate Sticky Keys?"
-msgstr "Ci chočaš uklučyć funkcyju tryvałych klavišaŭ?"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:496
-msgid "Do you want to deactivate Sticky Keys?"
-msgstr "Ci chočaš vyklučyć funkcyju tryvałych klavišaŭ?"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:499
-msgid ""
-"You just pressed the Shift key 5 times in a row.  This is the shortcut for "
-"the Sticky Keys feature, which affects the way your keyboard works."
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:31
+msgid "A dictionary of XSETTINGS to override"
 msgstr ""
-"Ty nacisnuŭ klavišu Shift 5 razoŭ zapar. Heta klavijaturny skarot funkcyi "
-"tryvałych klavišaŭ, jakaja ŭpłyvaje na režym pracy klavijatury."
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:501
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:32
 msgid ""
-"You just pressed two keys at once, or pressed the Shift key 5 times in a "
-"row.  This turns off the Sticky Keys feature, which affects the way your "
-"keyboard works."
+"This dictionary maps XSETTINGS names to overrides values. The values must be "
+"either strings, signed int32s or (in the case of colors), 4-tuples of uint16 "
+"(red, green, blue, alpha; 65535 is fully opaque)."
 msgstr ""
-"Ty nacisnuŭ adnačasova dźvie klavišy albo klavišu Shift 5 razoŭ zapar. Heta "
-"klavijaturny skarot funkcyi tryvałych klavišaŭ, jakaja ŭpłyvaje na režym "
-"pracy klavijatury."
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:515
-msgid "Sticky Keys Alert"
-msgstr "Aściaroha tryvałych klavišaŭ"
-
-#: ../plugins/background/background.gnome-settings-plugin.in.h:1
-msgid "Background"
-msgstr "Fon"
-
-#: ../plugins/background/background.gnome-settings-plugin.in.h:2
-msgid "Background plugin"
-msgstr "Plugin fonu"
-
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:1
-msgid "Clipboard"
-msgstr "Abmienny bufer"
-
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:2
-msgid "Clipboard plugin"
-msgstr "Plugin abmiennaha bufera"
-
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:1
-msgid "Dummy"
-msgstr "Biessensoŭny"
-
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:2
-msgid "Dummy plugin"
-msgstr "Biessensoŭny plugin"
-
-#: ../plugins/font/font.gnome-settings-plugin.in.h:1
-msgid "Font"
-msgstr "Šryft"
-
-#: ../plugins/font/font.gnome-settings-plugin.in.h:2
-msgid "Font plugin"
-msgstr "Plugin šryftoŭ"
-
-#: ../plugins/font/gsd-font-manager.c:208
-#, c-format
-msgid ""
-"Cannot create the directory \"%s\".\n"
-"This is needed to allow changing the mouse pointer theme."
+#: plugins/color/gsd-color-calibrate.c:138
+msgid "Color"
 msgstr ""
-"Niemahčyma stvaryć kataloh \"%s\".\n"
-"Jon patrebny dziela źmieny matyvu kursora."
 
-#: ../plugins/font/gsd-font-manager.c:231
-#, c-format
-msgid ""
-"Cannot create the directory \"%s\".\n"
-"This is needed to allow changing cursors."
+#. TRANSLATORS: button: this is to open GCM
+#: plugins/color/gsd-color-calibrate.c:144
+msgid "Recalibrate now"
 msgstr ""
-"Niemahčyma stvaryć kataloh \"%s\".\n"
-"Jon patrebny, kab mahčy źmianiać kursory."
 
-#: ../plugins/keybindings/gsd-keybindings-manager.c:195
-#, c-format
-msgid "Key Binding (%s) has its action defined multiple times\n"
+#. TRANSLATORS: this is when the device has not been recalibrated in a while
+#: plugins/color/gsd-color-calibrate.c:186
+msgid "Recalibration required"
 msgstr ""
-"Dziejańnie dla klavijaturnaha skarotu (%s) akreślenaje niekalki razoŭ\n"
 
-#: ../plugins/keybindings/gsd-keybindings-manager.c:202
+#. TRANSLATORS: this is when the display has not been recalibrated in a while
+#: plugins/color/gsd-color-calibrate.c:198
 #, c-format
-msgid "Key Binding (%s) has its binding defined multiple times\n"
-msgstr "Poviaź dla klavijaturnaha skarotu (%s) akreślenaje niekalki razoŭ\n"
-
-#: ../plugins/keybindings/gsd-keybindings-manager.c:211
-#, c-format
-msgid "Key Binding (%s) is incomplete\n"
-msgstr "Klavijaturny skarot (%s) niapoŭny\n"
-
-#: ../plugins/keybindings/gsd-keybindings-manager.c:239
-#, c-format
-msgid "Key Binding (%s) is invalid\n"
-msgstr "Klavijaturny skarot (%s) niapravilny\n"
-
-#: ../plugins/keybindings/gsd-keybindings-manager.c:292
-#, c-format
-msgid "It seems that another application already has access to key '%u'."
-msgstr "Vierahodna, inšaja aplikacyja maje dostup da klavišy \"%u\"."
-
-#: ../plugins/keybindings/gsd-keybindings-manager.c:365
-#, c-format
-msgid "Key Binding (%s) is already in use\n"
-msgstr "Klavijaturny skarot (%s) užo ŭžyvajecca\n"
-
-#: ../plugins/keybindings/gsd-keybindings-manager.c:502
-#, c-format
-msgid ""
-"Error while trying to run (%s)\n"
-"which is linked to the key (%s)"
+msgid "The display “%s” should be recalibrated soon."
 msgstr ""
-"Adbyłasia pamyłka pry sprobie ŭruchomić (%s),\n"
-"źviazanuju z klavišaj (%s)"
 
-#: ../plugins/keybindings/keybindings.gnome-settings-plugin.in.h:1
-msgid "Keybindings"
-msgstr "Klavijaturnyja skaroty"
-
-#: ../plugins/keybindings/keybindings.gnome-settings-plugin.in.h:2
-msgid "Keybindings plugin"
-msgstr "Plugin klavijaturnych skarotaŭ"
-
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
-msgid "Keyboard"
-msgstr "Klavijatura"
-
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:2
-msgid "Keyboard plugin"
-msgstr "Plugin klavijatury"
-
-#: ../plugins/keyboard/modmap-dialog.glade.h:1
-msgid "A_vailable files:"
-msgstr "Das_tupnyja fajły:"
-
-#: ../plugins/keyboard/modmap-dialog.glade.h:2
-msgid "Do _not show this warning again."
-msgstr "_Nie pakazvaj bolej hetaj aściarohi."
-
-#: ../plugins/keyboard/modmap-dialog.glade.h:3
-msgid "Load modmap files"
-msgstr "Zahruzu fajły modmap"
-
-#: ../plugins/keyboard/modmap-dialog.glade.h:4
-msgid "Would you like to load the modmap file(s)?"
-msgstr "Ci chočaš zahruzić fajł(y) modmap?"
-
-#: ../plugins/keyboard/modmap-dialog.glade.h:5
-msgid "_Load"
-msgstr "_Zahruzi"
-
-#: ../plugins/keyboard/modmap-dialog.glade.h:6
-msgid "_Loaded files:"
-msgstr "Zahr_užanyja fajły:"
-
-#: ../plugins/media-keys/actions/acme.glade.h:1
-msgid "Volume"
-msgstr "Hučnaść"
-
-#: ../plugins/media-keys/gsd-media-keys-manager.c:200
-msgid ""
-"Could not get default terminal. Verify that your default terminal command is "
-"set and points to a valid application."
-msgstr ""
-"Niemahčyma atrymać zmoŭčany terminał. Pravier, ci akreśleny zahad dla tvajho "
-"zmoŭčanaha terminału i ci jon źviartajecca da pravilnaj aplikacyi."
-
-#: ../plugins/media-keys/gsd-media-keys-manager.c:240
+#. TRANSLATORS: this is when the printer has not been recalibrated in a while
+#: plugins/color/gsd-color-calibrate.c:207
 #, c-format
-msgid ""
-"Couldn't execute command: %s\n"
-"Verify that this is a valid command."
+msgid "The printer “%s” should be recalibrated soon."
 msgstr ""
-"Niemahčyma vykanać zahad: %s\n"
-"Pravier, ci heta pravilny zahad."
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:256
-msgid ""
-"Couldn't put the machine to sleep.\n"
-"Verify that the machine is correctly configured."
+#. TRANSLATORS: this is the application name
+#: plugins/color/gsd-color-calibrate.c:345
+#: plugins/color/gsd-color-calibrate.c:361
+msgid "GNOME Settings Daemon Color Plugin"
 msgstr ""
-"Niemahčyma ŭsypić kamputar.\n"
-"Pravier, ci pravilna skanfihuravany kamputar."
 
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:1
-msgid "Media keys"
-msgstr "Medyja-klavišy"
-
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:2
-msgid "Media keys plugin"
-msgstr "Plugin medyja-klavišaŭ"
-
-#: ../plugins/mouse/gsd-mouse-manager.c:566
-msgid "Could not enable mouse accessibility features"
-msgstr "Niemahčyma ŭklučyć dastupnaść myšy"
-
-#: ../plugins/mouse/gsd-mouse-manager.c:568
-msgid ""
-"Mouse accessibility requires the mousetweaks daemon to be installed on your "
-"system."
-msgstr "Dastupnaja myš vymahaje zainstalavanaha ŭ systemie demana mousetweaks."
-
-#: ../plugins/mouse/gsd-mouse-manager.c:571
-msgid "Mouse Preferences"
-msgstr "Nałady myšy"
-
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
-msgid "Mouse"
-msgstr "Myš"
-
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:2
-msgid "Mouse plugin"
-msgstr "Plugin myšy"
-
-#: ../plugins/screensaver/gsd-screensaver-manager.c:151
-#, c-format
-msgid ""
-"There was an error starting up the screensaver:\n"
-"\n"
-"%s\n"
-"\n"
-"Screensaver functionality will not work in this session."
+#. TRANSLATORS: this is a sound description
+#: plugins/color/gsd-color-calibrate.c:347
+msgid "Color calibration device added"
 msgstr ""
-"Adbyłasia pamyłka pry ŭklučeńni źbierahalnika ekranu:\n"
-"\n"
-"%s\n"
-"\n"
-"Padčas hetaj sesii funkcyi źbierahalnika ekranu buduć niedastupnyja."
 
-#: ../plugins/screensaver/gsd-screensaver-manager.c:160
-msgid "_Do not show this message again"
-msgstr "_Nie pakazvaj bolej hetaha paviedamleńnia"
-
-#: ../plugins/screensaver/screensaver.gnome-settings-plugin.in.h:1
-msgid "Screensaver"
-msgstr "Źbierahalnik ekranu"
-
-#: ../plugins/screensaver/screensaver.gnome-settings-plugin.in.h:2
-msgid "Screensaver plugin"
-msgstr "Plugin źbierahalnika ekranu"
-
-#: ../plugins/sound/gsd-sound-manager.c:164
-#, c-format
-msgid "Couldn't load sound file %s as sample %s"
-msgstr "Niemahčyma zahruzić hukavy fajł %s u jakaści sempła %s"
-
-#: ../plugins/sound/libsounds/sound-view.c:44
-msgid "Login"
-msgstr "Aŭtaryzuj"
-
-#: ../plugins/sound/libsounds/sound-view.c:45
-msgid "Logout"
-msgstr "Vyjdzi"
-
-#: ../plugins/sound/libsounds/sound-view.c:46
-msgid "Boing"
-msgstr "Boing"
-
-#: ../plugins/sound/libsounds/sound-view.c:47
-msgid "Siren"
-msgstr "Syrena"
-
-#: ../plugins/sound/libsounds/sound-view.c:48
-msgid "Clink"
-msgstr "Klik"
-
-#: ../plugins/sound/libsounds/sound-view.c:49
-msgid "Beep"
-msgstr "Zvanočak"
-
-#: ../plugins/sound/libsounds/sound-view.c:50
-msgid "No sound"
-msgstr "Biaz huku"
-
-#: ../plugins/sound/libsounds/sound-view.c:132
-msgid "Sound not set for this event."
-msgstr "Nie akreśleny huk dla hetaj padziei."
-
-#: ../plugins/sound/libsounds/sound-view.c:141
-msgid ""
-"The sound file for this event does not exist.\n"
-"You may want to install the gnome-audio package for a set of default sounds."
+#. TRANSLATORS: this is a sound description
+#: plugins/color/gsd-color-calibrate.c:363
+msgid "Color calibration device removed"
 msgstr ""
-"Hukavoha fajłu dla hetaj padziei nie isnuje.\n"
-"Zainstaluj nabor zmoŭčanych hukaŭ z pakunku \"gnome-audio\"."
 
-#: ../plugins/sound/libsounds/sound-view.c:152
-msgid "The sound file for this event does not exist."
-msgstr "Hukavoha fajłu dla hetaj padziei nie isnuje."
+#. Translators: UTC here means the Coordinated Universal Time.
+#. * %:::z will be replaced by the offset from UTC e.g. UTC+02
+#: plugins/datetime/gsd-datetime-manager.c:88
+msgid "UTC%:::z"
+msgstr ""
 
-#: ../plugins/sound/libsounds/sound-view.c:183
-msgid "Select Sound File"
-msgstr "Abiary hukavy fajł"
-
-#: ../plugins/sound/libsounds/sound-view.c:210
+#: plugins/datetime/gsd-datetime-manager.c:92
 #, c-format
-msgid "The file %s is not a valid wav file"
-msgstr "Fajł %s nie źjaŭlajecca pravilnym wav-fajłam"
+msgid "Time Zone Updated to %s (%s)"
+msgstr ""
 
-#: ../plugins/sound/libsounds/sound-view.c:271
-msgid "Select sound file..."
-msgstr "Abiary hukavy fajł..."
+#: plugins/datetime/gsd-datetime-manager.c:108
+#, fuzzy
+msgid "Settings"
+msgstr "Nałady X"
 
-#: ../plugins/sound/libsounds/sound-view.c:373
-msgid "System Sounds"
-msgstr "Systemnyja huki"
-
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:1
-msgid "Sound"
-msgstr "Huk"
-
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:2
-msgid "Sound plugin"
-msgstr "Plugin huku"
-
-#: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:1
-msgid "Typing Break"
-msgstr "Pierapynak u pisańni"
-
-#: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:2
-msgid "Typing break plugin"
-msgstr "Plugin pierapynkaŭ u pisańni"
-
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:1
-msgid "Set up screen size and rotation settings"
-msgstr "Akreśl pamiery ekranu i nałady pavarotu"
-
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:2
-msgid "XRandR"
-msgstr "XRandR"
-
-#: ../plugins/xrdb/gsd-xrdb-manager.c:258
-#: ../plugins/xrdb/gsd-xrdb-manager.c:327
-msgid "Cannot determine user's home directory"
-msgstr "Niemahčyma vyznačyć chatni kataloh karystalnika"
-
-#: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:1
-msgid "Manage the X resource database"
-msgstr "Kiruj bazaju źviestak resursaŭ X"
-
-#: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:2
-msgid "X Resource Database"
-msgstr "Baza źviestak resursaŭ X"
-
-#: ../plugins/xsettings/gsd-xsettings-manager.c:551
-#, c-format
-msgid "GConf key %s set to type %s but its expected type was %s\n"
-msgstr "Kluč GConfa %s byŭ vyznačany jak typ %s, ale jaho čakany typ byŭ %s\n"
-
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:1
-msgid "Manage X Settings"
+#: plugins/datetime/gsd-datetime-manager.c:118
+#, fuzzy
+msgid "Date & Time Settings"
 msgstr "Kiruj naładami X"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
-msgid "X Settings"
-msgstr "Nałady X"
+#: plugins/housekeeping/gsd-disk-space.c:632
+msgid "Disk Space"
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:645
+msgid "Examine"
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:656
+msgid "Empty Trash"
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:664
+msgid "Ignore"
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:698
+#: plugins/housekeeping/gsd-disk-space.c:738
+msgid "Low Disk Space"
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:700
+msgid ""
+"Your computer is out of space.  You may free up some space by emptying the "
+"trash."
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:702
+msgid "Your computer is out of space."
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:727
+#, c-format
+msgid "Low Disk Space on “%s”"
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:729
+#, c-format
+msgid ""
+"The volume “%s” has only %s disk space remaining.  You may free up some "
+"space by emptying the trash."
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:733
+#, c-format
+msgid "The volume “%s” has only %s disk space remaining."
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:740
+#, c-format
+msgid ""
+"This computer has only %s disk space remaining.  You may free up some space "
+"by emptying the trash."
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:743
+#, c-format
+msgid "This computer has only %s disk space remaining."
+msgstr ""
+
+#: plugins/media-keys/gsd-media-keys-manager.c:2477
+msgid "Bluetooth disabled"
+msgstr ""
+
+#: plugins/media-keys/gsd-media-keys-manager.c:2480
+msgid "Bluetooth enabled"
+msgstr ""
+
+#: plugins/media-keys/gsd-media-keys-manager.c:2484
+msgid "Airplane mode enabled"
+msgstr ""
+
+#: plugins/media-keys/gsd-media-keys-manager.c:2487
+msgid "Airplane mode disabled"
+msgstr ""
+
+#: plugins/media-keys/gsd-media-keys-manager.c:2516
+msgid "Hardware Airplane Mode"
+msgstr ""
+
+#. Translators: this is a filename used for screencast
+#. * recording, where "%d" and "%t" date and time, e.g.
+#. * "Screencast from 07-17-2013 10:00:46 PM.webm"
+#: plugins/media-keys/gsd-media-keys-manager.c:2579
+#, no-c-format
+msgid "Screencast from %d %t.webm"
+msgstr ""
+
+#: plugins/media-keys/gsd-screenshot-utils.c:82
+msgid "Unable to capture a screenshot"
+msgstr ""
+
+#: plugins/media-keys/gsd-screenshot-utils.c:125
+#, fuzzy
+msgid "Screenshot taken"
+msgstr "Źbierahalnik ekranu"
+
+#. translators: this is the name of the file that gets made up
+#. * with the screenshot
+#: plugins/media-keys/gsd-screenshot-utils.c:264
+#, c-format
+msgid "Screenshot from %s"
+msgstr ""
+
+#: plugins/power/gpm-common.c:91
+msgid "Unknown time"
+msgstr ""
+
+#: plugins/power/gpm-common.c:96
+#, c-format
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: plugins/power/gpm-common.c:106
+#, c-format
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
+#. * Swap order with "%2$s %2$i %1$s %1$i if needed
+#: plugins/power/gpm-common.c:112
+#, c-format
+msgid "%i %s %i %s"
+msgstr ""
+
+#: plugins/power/gpm-common.c:113
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: plugins/power/gpm-common.c:114
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. TRANSLATORS: this is the sound description
+#: plugins/power/gpm-common.c:424 plugins/power/gsd-power-manager.c:720
+#: plugins/power/gsd-power-manager.c:817
+msgid "Battery is critically low"
+msgstr ""
+
+#. TRANSLATORS: this is the notification application name
+#: plugins/power/gsd-power-manager.c:350
+msgid "Power"
+msgstr ""
+
+#. TRANSLATORS: UPS is now discharging
+#: plugins/power/gsd-power-manager.c:390
+msgid "UPS Discharging"
+msgstr ""
+
+#. TRANSLATORS: tell the user how much time they have got
+#: plugins/power/gsd-power-manager.c:395
+#, c-format
+msgid "%s of UPS backup power remaining"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:398
+msgid "Unknown amount of UPS backup power remaining"
+msgstr ""
+
+#. TRANSLATORS: laptop battery low, and we only have one battery
+#: plugins/power/gsd-power-manager.c:473
+msgid "Battery low"
+msgstr ""
+
+#. TRANSLATORS: laptop battery low, and we have more than one kind of battery
+#: plugins/power/gsd-power-manager.c:476
+msgid "Laptop battery low"
+msgstr ""
+
+#. TRANSLATORS: tell the user how much time they have got
+#: plugins/power/gsd-power-manager.c:483
+#, c-format
+msgid "Approximately %s remaining (%.0f%%)"
+msgstr ""
+
+#. TRANSLATORS: UPS is starting to get a little low
+#: plugins/power/gsd-power-manager.c:488
+msgid "UPS low"
+msgstr ""
+
+#. TRANSLATORS: tell the user how much time they have got
+#: plugins/power/gsd-power-manager.c:494
+#, c-format
+msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
+msgstr ""
+
+#. TRANSLATORS: mouse is getting a little low
+#. TRANSLATORS: the mouse battery is very low
+#: plugins/power/gsd-power-manager.c:499 plugins/power/gsd-power-manager.c:633
+msgid "Mouse battery low"
+msgstr ""
+
+#. TRANSLATORS: tell user more details
+#: plugins/power/gsd-power-manager.c:502
+#, c-format
+msgid "Wireless mouse is low in power (%.0f%%)"
+msgstr ""
+
+#. TRANSLATORS: keyboard is getting a little low
+#. TRANSLATORS: the keyboard battery is very low
+#: plugins/power/gsd-power-manager.c:506 plugins/power/gsd-power-manager.c:641
+msgid "Keyboard battery low"
+msgstr ""
+
+#. TRANSLATORS: tell user more details
+#: plugins/power/gsd-power-manager.c:509
+#, c-format
+msgid "Wireless keyboard is low in power (%.0f%%)"
+msgstr ""
+
+#. TRANSLATORS: PDA is getting a little low
+#. TRANSLATORS: the PDA battery is very low
+#: plugins/power/gsd-power-manager.c:513 plugins/power/gsd-power-manager.c:650
+msgid "PDA battery low"
+msgstr ""
+
+#. TRANSLATORS: tell user more details
+#: plugins/power/gsd-power-manager.c:516
+#, c-format
+msgid "PDA is low in power (%.0f%%)"
+msgstr ""
+
+#. TRANSLATORS: cell phone (mobile) is getting a little low
+#. TRANSLATORS: the cell battery is very low
+#: plugins/power/gsd-power-manager.c:520 plugins/power/gsd-power-manager.c:660
+#: plugins/power/gsd-power-manager.c:669
+msgid "Cell phone battery low"
+msgstr ""
+
+#. TRANSLATORS: tell user more details
+#: plugins/power/gsd-power-manager.c:523
+#, c-format
+msgid "Cell phone is low in power (%.0f%%)"
+msgstr ""
+
+#. TRANSLATORS: media player, e.g. mp3 is getting a little low
+#: plugins/power/gsd-power-manager.c:527
+#, fuzzy
+msgid "Media player battery low"
+msgstr "Klavišny skarot medyja-playera."
+
+#. TRANSLATORS: tell user more details
+#: plugins/power/gsd-power-manager.c:530
+#, c-format
+msgid "Media player is low in power (%.0f%%)"
+msgstr ""
+
+#. TRANSLATORS: graphics tablet, e.g. wacom is getting a little low
+#. TRANSLATORS: the cell battery is very low
+#: plugins/power/gsd-power-manager.c:534 plugins/power/gsd-power-manager.c:678
+msgid "Tablet battery low"
+msgstr ""
+
+#. TRANSLATORS: tell user more details
+#: plugins/power/gsd-power-manager.c:537
+#, c-format
+msgid "Tablet is low in power (%.0f%%)"
+msgstr ""
+
+#. TRANSLATORS: computer, e.g. ipad is getting a little low
+#. TRANSLATORS: the cell battery is very low
+#: plugins/power/gsd-power-manager.c:541 plugins/power/gsd-power-manager.c:687
+msgid "Attached computer battery low"
+msgstr ""
+
+#. TRANSLATORS: tell user more details
+#: plugins/power/gsd-power-manager.c:544
+#, c-format
+msgid "Attached computer is low in power (%.0f%%)"
+msgstr ""
+
+#. TRANSLATORS: this is the sound description
+#: plugins/power/gsd-power-manager.c:565
+msgid "Battery is low"
+msgstr ""
+
+#. TRANSLATORS: laptop battery critically low, and only have one kind of battery
+#: plugins/power/gsd-power-manager.c:597
+msgid "Battery critically low"
+msgstr ""
+
+#. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
+#. TRANSLATORS: laptop battery is really, really, low
+#: plugins/power/gsd-power-manager.c:600 plugins/power/gsd-power-manager.c:747
+msgid "Laptop battery critically low"
+msgstr ""
+
+#. TRANSLATORS: give the user a ultimatum
+#: plugins/power/gsd-power-manager.c:609
+#, c-format
+msgid "Computer will hibernate very soon unless it is plugged in."
+msgstr ""
+
+#. TRANSLATORS: give the user a ultimatum
+#: plugins/power/gsd-power-manager.c:613
+#, c-format
+msgid "Computer will shutdown very soon unless it is plugged in."
+msgstr ""
+
+#. TRANSLATORS: the UPS is very low
+#. TRANSLATORS: UPS is really, really, low
+#: plugins/power/gsd-power-manager.c:621 plugins/power/gsd-power-manager.c:772
+msgid "UPS critically low"
+msgstr ""
+
+#. TRANSLATORS: give the user a ultimatum
+#: plugins/power/gsd-power-manager.c:627
+#, c-format
+msgid ""
+"Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
+"computer to avoid losing data."
+msgstr ""
+
+#. TRANSLATORS: the device is just going to stop working
+#: plugins/power/gsd-power-manager.c:636
+#, c-format
+msgid ""
+"Wireless mouse is very low in power (%.0f%%). This device will soon stop "
+"functioning if not charged."
+msgstr ""
+
+#. TRANSLATORS: the device is just going to stop working
+#: plugins/power/gsd-power-manager.c:644
+#, c-format
+msgid ""
+"Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
+"functioning if not charged."
+msgstr ""
+
+#. TRANSLATORS: the device is just going to stop working
+#: plugins/power/gsd-power-manager.c:653
+#, c-format
+msgid ""
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
+"not charged."
+msgstr ""
+
+#. TRANSLATORS: the device is just going to stop working
+#: plugins/power/gsd-power-manager.c:663
+#, c-format
+msgid ""
+"Cell phone is very low in power (%.0f%%). This device will soon stop "
+"functioning if not charged."
+msgstr ""
+
+#. TRANSLATORS: the device is just going to stop working
+#: plugins/power/gsd-power-manager.c:672
+#, c-format
+msgid ""
+"Media player is very low in power (%.0f%%). This device will soon stop "
+"functioning if not charged."
+msgstr ""
+
+#. TRANSLATORS: the device is just going to stop working
+#: plugins/power/gsd-power-manager.c:681
+#, c-format
+msgid ""
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
+"if not charged."
+msgstr ""
+
+#. TRANSLATORS: the device is just going to stop working
+#: plugins/power/gsd-power-manager.c:690
+#, c-format
+msgid ""
+"Attached computer is very low in power (%.0f%%). The device will soon "
+"shutdown if not charged."
+msgstr ""
+
+#. TRANSLATORS: computer will hibernate
+#: plugins/power/gsd-power-manager.c:755
+msgid ""
+"The battery is below the critical level and this computer is about to "
+"hibernate."
+msgstr ""
+
+#. TRANSLATORS: computer will just shutdown
+#: plugins/power/gsd-power-manager.c:760
+msgid ""
+"The battery is below the critical level and this computer is about to "
+"shutdown."
+msgstr ""
+
+#. TRANSLATORS: computer will hibernate
+#: plugins/power/gsd-power-manager.c:780
+msgid ""
+"UPS is below the critical level and this computer is about to hibernate."
+msgstr ""
+
+#. TRANSLATORS: computer will just shutdown
+#: plugins/power/gsd-power-manager.c:785
+msgid "UPS is below the critical level and this computer is about to shutdown."
+msgstr ""
+
+#. TRANSLATORS: this is the sound description
+#: plugins/power/gsd-power-manager.c:1266
+msgid "Lid has been opened"
+msgstr ""
+
+#. TRANSLATORS: this is the sound description
+#: plugins/power/gsd-power-manager.c:1300
+msgid "Lid has been closed"
+msgstr ""
+
+#. TRANSLATORS: this is the sound description
+#: plugins/power/gsd-power-manager.c:1887
+msgid "On battery power"
+msgstr ""
+
+#. TRANSLATORS: this is the sound description
+#: plugins/power/gsd-power-manager.c:1892
+msgid "On AC power"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:2080
+msgid "Automatic logout"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:2080
+msgid "You will soon log out because of inactivity."
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:2085
+msgid "Automatic suspend"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:2085
+#: plugins/power/gsd-power-manager.c:2090
+msgid "Computer will suspend very soon because of inactivity."
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:2090
+msgid "Automatic hibernation"
+msgstr ""
+
+#. SECURITY:
+#. - A normal active user on the local machine does not need permission
+#. to change the backlight brightness.
+#: plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in:21
+msgid "Modify the laptop brightness"
+msgstr ""
+
+#: plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in:22
+msgid "Authentication is required to modify the laptop brightness"
+msgstr ""
+
+#. Translators: We are configuring new printer
+#: plugins/print-notifications/gsd-printer.c:890
+msgid "Configuring new printer"
+msgstr ""
+
+#. Translators: Just wait
+#: plugins/print-notifications/gsd-printer.c:892
+msgid "Please wait…"
+msgstr ""
+
+#. Translators: We have no driver installed for this printer
+#: plugins/print-notifications/gsd-printer.c:919
+msgid "Missing printer driver"
+msgstr ""
+
+#. Translators: We have no driver installed for the device
+#: plugins/print-notifications/gsd-printer.c:928
+#, c-format
+msgid "No printer driver for %s."
+msgstr ""
+
+#. Translators: We have no driver installed for this printer
+#: plugins/print-notifications/gsd-printer.c:933
+msgid "No driver for this printer."
+msgstr ""
+
+#: plugins/print-notifications/gsd-printer.c:1031
+#: plugins/print-notifications/gsd-print-notifications-manager.c:290
+#: plugins/print-notifications/gsd-print-notifications-manager.c:538
+#: plugins/print-notifications/gsd-print-notifications-manager.c:920
+#: plugins/print-notifications/gsd-print-notifications-manager.c:1011
+#: plugins/print-notifications/gsd-print-notifications-manager.c:1055
+msgid "Printers"
+msgstr ""
+
+#. Translators: The printer is low on toner (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:374
+#, c-format
+msgid "Printer “%s” is low on toner."
+msgstr ""
+
+#. Translators: The printer has no toner left (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:378
+#, c-format
+msgid "Printer “%s” has no toner left."
+msgstr ""
+
+#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:382
+#, c-format
+msgid "Printer “%s” may not be connected."
+msgstr ""
+
+#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:386
+#, c-format
+msgid "The cover is open on printer “%s”."
+msgstr ""
+
+#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:390
+#, c-format
+msgid "There is a missing print filter for printer “%s”."
+msgstr ""
+
+#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:395
+#, c-format
+msgid "The door is open on printer “%s”."
+msgstr ""
+
+#. Translators: "marker" is one color bin of the printer
+#: plugins/print-notifications/gsd-print-notifications-manager.c:399
+#, c-format
+msgid "Printer “%s” is low on a marker supply."
+msgstr ""
+
+#. Translators: "marker" is one color bin of the printer
+#: plugins/print-notifications/gsd-print-notifications-manager.c:403
+#, c-format
+msgid "Printer “%s” is out of a marker supply."
+msgstr ""
+
+#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:407
+#, c-format
+msgid "Printer “%s” is low on paper."
+msgstr ""
+
+#. Translators: At least one input tray is empty (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:411
+#, c-format
+msgid "Printer “%s” is out of paper."
+msgstr ""
+
+#. Translators: The printer is offline (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:415
+#, c-format
+msgid "Printer “%s” is currently off-line."
+msgstr ""
+
+#. Translators: The printer has detected an error (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:419
+#, c-format
+msgid "There is a problem on printer “%s”."
+msgstr ""
+
+#. Translators: The printer has a job to print but the printer needs authentication to continue with the print
+#: plugins/print-notifications/gsd-print-notifications-manager.c:531
+#, c-format
+msgid "%s Requires Authentication"
+msgstr ""
+
+#. Translators: A printer needs credentials to continue printing a job
+#: plugins/print-notifications/gsd-print-notifications-manager.c:533
+#, c-format
+msgid "Credentials required in order to print"
+msgstr ""
+
+#. Translators: The printer is low on toner (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:600
+msgid "Toner low"
+msgstr ""
+
+#. Translators: The printer has no toner left (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:602
+msgid "Toner empty"
+msgstr ""
+
+#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:604
+msgid "Not connected?"
+msgstr ""
+
+#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:606
+msgid "Cover open"
+msgstr ""
+
+#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:608
+msgid "Printer configuration error"
+msgstr ""
+
+#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:610
+msgid "Door open"
+msgstr ""
+
+#. Translators: "marker" is one color bin of the printer
+#: plugins/print-notifications/gsd-print-notifications-manager.c:612
+msgid "Marker supply low"
+msgstr ""
+
+#. Translators: "marker" is one color bin of the printer
+#: plugins/print-notifications/gsd-print-notifications-manager.c:614
+msgid "Out of a marker supply"
+msgstr ""
+
+#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:616
+msgid "Paper low"
+msgstr ""
+
+#. Translators: At least one input tray is empty (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:618
+msgid "Out of paper"
+msgstr ""
+
+#. Translators: The printer is offline (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:620
+msgid "Printer off-line"
+msgstr ""
+
+#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: This is a title of an error notification for a printer
+#: plugins/print-notifications/gsd-print-notifications-manager.c:622
+#: plugins/print-notifications/gsd-print-notifications-manager.c:997
+msgid "Printer error"
+msgstr ""
+
+#. Translators: New printer has been added
+#: plugins/print-notifications/gsd-print-notifications-manager.c:670
+msgid "Printer added"
+msgstr ""
+
+#. Translators: A print job has been stopped
+#: plugins/print-notifications/gsd-print-notifications-manager.c:687
+#: plugins/print-notifications/gsd-print-notifications-manager.c:725
+msgctxt "print job state"
+msgid "Printing stopped"
+msgstr ""
+
+#. Translators: "print-job xy" on a printer
+#: plugins/print-notifications/gsd-print-notifications-manager.c:689
+#: plugins/print-notifications/gsd-print-notifications-manager.c:695
+#: plugins/print-notifications/gsd-print-notifications-manager.c:701
+#: plugins/print-notifications/gsd-print-notifications-manager.c:707
+#: plugins/print-notifications/gsd-print-notifications-manager.c:719
+#: plugins/print-notifications/gsd-print-notifications-manager.c:727
+#: plugins/print-notifications/gsd-print-notifications-manager.c:735
+#: plugins/print-notifications/gsd-print-notifications-manager.c:743
+#: plugins/print-notifications/gsd-print-notifications-manager.c:751
+#: plugins/print-notifications/gsd-print-notifications-manager.c:775
+#, c-format
+msgctxt "print job"
+msgid "“%s” on %s"
+msgstr ""
+
+#. Translators: A print job has been canceled
+#: plugins/print-notifications/gsd-print-notifications-manager.c:693
+#: plugins/print-notifications/gsd-print-notifications-manager.c:733
+msgctxt "print job state"
+msgid "Printing canceled"
+msgstr ""
+
+#. Translators: A print job has been aborted
+#: plugins/print-notifications/gsd-print-notifications-manager.c:699
+#: plugins/print-notifications/gsd-print-notifications-manager.c:741
+msgctxt "print job state"
+msgid "Printing aborted"
+msgstr ""
+
+#. Translators: A print job has been completed
+#: plugins/print-notifications/gsd-print-notifications-manager.c:705
+#: plugins/print-notifications/gsd-print-notifications-manager.c:749
+msgctxt "print job state"
+msgid "Printing completed"
+msgstr ""
+
+# Mechanizm papraŭleńnia jakaści druku na aparatury ź nizkaj padzielnaj zdolnaściu. Adpaviednika niama, pakinuŭ jak jość. Prapanuju heta pryniać tak jak i widget.
+#. Translators: A job is printing
+#: plugins/print-notifications/gsd-print-notifications-manager.c:717
+#: plugins/print-notifications/gsd-print-notifications-manager.c:773
+#, fuzzy
+msgctxt "print job state"
+msgid "Printing"
+msgstr "Hinting"
+
+#. Translators: This is a title of a report notification for a printer
+#: plugins/print-notifications/gsd-print-notifications-manager.c:991
+msgid "Printer report"
+msgstr ""
+
+#. Translators: This is a title of a warning notification for a printer
+#: plugins/print-notifications/gsd-print-notifications-manager.c:994
+msgid "Printer warning"
+msgstr ""
+
+#. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
+#: plugins/print-notifications/gsd-print-notifications-manager.c:1004
+#, c-format
+msgid "Printer “%s”: “%s”."
+msgstr ""
+
+#: plugins/smartcard/gsd-smartcard-service.c:282
+msgid "User was not logged in with smartcard."
+msgstr ""
+
+#: plugins/usb-protection/gsd-usb-protection-manager.c:386
+msgid "USB Protection"
+msgstr ""
+
+#: plugins/usb-protection/gsd-usb-protection-manager.c:513
+msgid "New USB device"
+msgstr ""
+
+#: plugins/usb-protection/gsd-usb-protection-manager.c:514
+msgid ""
+"New device has been detected while the session was not locked. If you did "
+"not plug anything, check your system for any suspicious device."
+msgstr ""
+
+#: plugins/usb-protection/gsd-usb-protection-manager.c:593
+msgid "New keyboard detected"
+msgstr ""
+
+#: plugins/usb-protection/gsd-usb-protection-manager.c:594
+msgid ""
+"Either your keyboard has been reconnected or a new one has been plugged in. "
+"If you did not do it, check your system for any suspicious device."
+msgstr ""
+
+#: plugins/usb-protection/gsd-usb-protection-manager.c:600
+msgid "Reconnect USB device"
+msgstr ""
+
+#: plugins/usb-protection/gsd-usb-protection-manager.c:601
+msgid ""
+"New device has been detected while you were away. Please disconnect and "
+"reconnect the device to start using it."
+msgstr ""
+
+#: plugins/usb-protection/gsd-usb-protection-manager.c:607
+#: plugins/usb-protection/gsd-usb-protection-manager.c:631
+msgid "USB device blocked"
+msgstr ""
+
+#: plugins/usb-protection/gsd-usb-protection-manager.c:608
+msgid ""
+"New device has been detected while you were away. It has been blocked "
+"because the USB protection is active."
+msgstr ""
+
+#: plugins/usb-protection/gsd-usb-protection-manager.c:632
+msgid ""
+"The new inserted device has been blocked because the USB protection is "
+"active."
+msgstr ""
+
+#. SECURITY:
+#. - A normal active user on the local machine does not need permission
+#. to change the LED setting for a Wacom tablet
+#: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:20
+msgid "Modify the lit LED for a Wacom tablet"
+msgstr ""
+
+#: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:21
+msgid "Authentication is required to modify the lit LED for a Wacom tablet"
+msgstr ""
+
+#. SECURITY:
+#. - A normal active user on the local machine does not need permission
+#. to change the OLED images for a Wacom tablet
+#: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:35
+msgid "Modify the OLED image for a Wacom tablet"
+msgstr ""
+
+#: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:36
+msgid "Authentication is required to modify the OLED image for a Wacom tablet"
+msgstr ""
+
+#. Set up the dialog
+#: plugins/wwan/gsd-wwan-pinentry.c:89
+msgid "Unlock SIM card"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:90
+msgid "Unlock"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:91
+msgid "Cancel"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:95
+#, c-format
+msgid "Please provide the PIN for SIM card %s"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:97
+msgid "Enter PIN to unlock your SIM card"
+msgstr ""
+
+#. msg is already localised
+#: plugins/wwan/gsd-wwan-pinentry.c:123
+#, c-format
+msgid "%2$s You have %1$u try left"
+msgid_plural "%2$s You have %1$u tries left"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:127
+#, c-format
+msgid "You have %u try left"
+msgid_plural "You have %u tries left"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. Set up the dialog
+#: plugins/wwan/gsd-wwan-pinentry.c:173 plugins/wwan/gsd-wwan-pinentry.c:175
+msgid "SIM card unlock error"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:174
+msgid "OK"
+msgstr ""
+
+#. TODO: handle PUK as well
+#: plugins/wwan/gsd-wwan-pinentry.c:194
+msgid "Too many incorrect PINs."
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-pinentry.c:200
+msgid "Wrong PIN code"
+msgstr ""
+
+#~ msgid ""
+#~ "Set to True to keep the handlers for text/plain and text/* MIME types "
+#~ "synchronized."
+#~ msgstr ""
+#~ "Uklučy, kab nałady absłuhoŭvańnia dla typaŭ text/plain i text/* byli "
+#~ "synchranizavanymi miž saboj."
+
+#~ msgid "Sync text/plain and text/* handlers"
+#~ msgstr "Synchranizuj absłuhoŭvańnie text/plain i text/*"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "Pracentny krok hučnaści."
+
+#~ msgid ""
+#~ "Set to True to display a dialog when there are errors running the "
+#~ "screensaver."
+#~ msgstr "Uklučy, kab pakazvać dyjaloh pry pamyłkach źbierahalnika ekranu."
+
+#~ msgid "Set to True to run the screensaver at login."
+#~ msgstr "Uklučy, kab źbierahalnik ekranu ŭruchamlaŭsia pry ŭvachodzie."
+
+#~ msgid "Show startup errors"
+#~ msgstr "Pakazvaj pamyłki ŭklučeńnia"
+
+#~ msgid "Start screensaver"
+#~ msgstr "Uklučy źbierahalnik ekranu"
+
+#~ msgid "DPI"
+#~ msgstr "DPI"
+
+#~ msgid ""
+#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
+#~ "inch."
+#~ msgstr ""
+#~ "Pamiery ekranu dziela kanvertavańnia pamieraŭ šryftoŭ u pamiery pikselaŭ, "
+#~ "punktaŭ na cal."
+
+#~ msgid ""
+#~ "The type of hinting to use when rendering fonts. Possible values are: "
+#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
+#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
+#~ msgstr ""
+#~ "Typ hintingu dla rysavańnia šryftoŭ. Mahčymyja vartaści: \"none\" (biaź "
+#~ "hintingu), \"slight\" (prosty), \"medium\" (siaredni) i \"full"
+#~ "\" (maksymalny hinting, moža vyklikać skryŭleńni formy litaraŭ)."
+
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "Uklučy plugin dastupnaj klavijatury"
+
+#~ msgid "Enable background plugin"
+#~ msgstr "Uklučy plugin fonu"
+
+#~ msgid "Enable clipboard plugin"
+#~ msgstr "Uklučy plugin abmiennaha bufera"
+
+#~ msgid "Enable default editor plugin"
+#~ msgstr "Uklučy plugin zmoŭčanaha redaktara"
+
+#~ msgid "Enable keybindings plugin"
+#~ msgstr "Uklučy plugin klavijaturnych skarotaŭ"
+
+#~ msgid "Enable keyboard plugin"
+#~ msgstr "Uklučy plugin klavijatury"
+
+#~ msgid "Enable media keys plugin"
+#~ msgstr "Uklučy plugin medyjnych klavišaŭ"
+
+#~ msgid "Enable mouse plugin"
+#~ msgstr "Uklučy plugin myšy"
+
+#~ msgid "Enable screensaver plugin"
+#~ msgstr "Uklučy plugin źbierahalnika ekranu"
+
+#~ msgid "Enable sound plugin"
+#~ msgstr "Uklučy plugin huku"
+
+#~ msgid "Enable typing breaks plugin"
+#~ msgstr "Uklučy plugin pierapynkaŭ u pisańni"
+
+#~ msgid "Enable xrandr plugin"
+#~ msgstr "Uklučy plugin xrandr"
+
+#~ msgid "Enable xrdb plugin"
+#~ msgstr "Uklučy plugin xrdb"
+
+#~ msgid "Enable xsettings plugin"
+#~ msgstr "Uklučy plugin xsettings"
+
+#~ msgid "Set to True to enable the plugin to manage clipboard settings."
+#~ msgstr "Uklučy plugin dla kiravańnia naładami abmiennaha buferu."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage desktop background settings."
+#~ msgstr "Uklučy plugin dla kiravańnia naładami fonu stała."
+
+#~ msgid "Set to True to enable the plugin to manage font settings."
+#~ msgstr "Uklučy plugin dla kiravańnia naładami šryftoŭ."
+
+#~ msgid "Set to True to enable the plugin to manage keyboard settings."
+#~ msgstr "Uklučy plugin dla kiravańnia naładami klavijatury."
+
+#~ msgid "Set to True to enable the plugin to manage mouse settings."
+#~ msgstr "Uklučy plugin dla kiravańnia naładami myšy."
+
+#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
+#~ msgstr "Uklučy plugin dla kiravańnia naładami multymedyjnych klavišaŭ."
+
+#~ msgid "Set to True to enable the plugin to manage screensaver settings."
+#~ msgstr "Uklučy plugin dla kiravańnia naładami źbierahalnika ekranu."
+
+#~ msgid "Set to True to enable the plugin to manage sound settings."
+#~ msgstr "Uklučy plugin dla kiravańnia naładami huku."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the accessibility keyboard "
+#~ "settings."
+#~ msgstr "Uklučy plugin dla kiravańnia naładami dastupnaj klavijatury."
+
+#~ msgid ""
+#~ "Set to True to enable the plugin to manage the default text editor "
+#~ "setting."
+#~ msgstr "Uklučy plugin dla kiravańnia zmoŭčanym tekstavym redaktaram."
+
+#~ msgid "Set to True to enable the plugin to manage the keybindings."
+#~ msgstr "Uklučy plugin dla kiravańnia klavijaturnymi skarotami."
+
+#~ msgid "Set to True to enable the plugin to manage typing breaks."
+#~ msgstr "Uklučy plugin dla kiravańnia pierapynkami ŭ pisańni na klavijatury."
+
+#~ msgid "Set to True to enable the plugin to manage xrandr settings."
+#~ msgstr "Uklučy plugin dla kiravańnia naładami xrandr."
+
+#~ msgid "Set to True to enable the plugin to manage xrdb settings."
+#~ msgstr "Uklučy plugin dla kiravańnia naładami xrdb."
+
+#~ msgid "Set to True to enable the plugin to manage xsettings."
+#~ msgstr "Uklučy plugin dla kiravańnia naładami xsettings."
+
+#~ msgid "Don't become a daemon"
+#~ msgstr "Nie stanavisia demanam"
+
+#~ msgid "GConf prefix from which to load plugin settings"
+#~ msgstr "Prefiks GConf, ź jakoha čytać nałady pluginaŭ"
+
+#~ msgid "Accessibility Keyboard"
+#~ msgstr "Dastupnaja klavijatura"
+
+#~ msgid "Accessibility keyboard plugin"
+#~ msgstr "Plugin dastupnaj klavijatury"
+
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "Padčas pakazu dapamohi adbyłasia pamyłka: %s"
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "Ci chočaš uklučyć pavolnyja klavišy?"
+
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "Ci chočaš vyklučyć pavolnyja klavišy?"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Ty pratrymaŭ klavišu Shift 8 sekundaŭ. Heta klavijaturny skarot dla "
+#~ "funkcyi pavolnych klavišaŭ, jakaja ŭpłyvaje na režym pracy klavijatury."
+
+#~ msgid "Do_n't activate"
+#~ msgstr "_Nie ŭklučaj"
+
+#~ msgid "Do_n't deactivate"
+#~ msgstr "_Nie vyklučaj"
+
+#~ msgid "_Activate"
+#~ msgstr "_Uklučy"
+
+#~ msgid "_Deactivate"
+#~ msgstr "_Vyklučy"
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "Aściaroha pavolnych klavišaŭ"
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "Ci chočaš uklučyć funkcyju tryvałych klavišaŭ?"
+
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "Ci chočaš vyklučyć funkcyju tryvałych klavišaŭ?"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Ty nacisnuŭ klavišu Shift 5 razoŭ zapar. Heta klavijaturny skarot funkcyi "
+#~ "tryvałych klavišaŭ, jakaja ŭpłyvaje na režym pracy klavijatury."
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "Ty nacisnuŭ adnačasova dźvie klavišy albo klavišu Shift 5 razoŭ zapar. "
+#~ "Heta klavijaturny skarot funkcyi tryvałych klavišaŭ, jakaja ŭpłyvaje na "
+#~ "režym pracy klavijatury."
+
+#~ msgid "Sticky Keys Alert"
+#~ msgstr "Aściaroha tryvałych klavišaŭ"
+
+#~ msgid "Background"
+#~ msgstr "Fon"
+
+#~ msgid "Background plugin"
+#~ msgstr "Plugin fonu"
+
+#~ msgid "Clipboard"
+#~ msgstr "Abmienny bufer"
+
+#~ msgid "Clipboard plugin"
+#~ msgstr "Plugin abmiennaha bufera"
+
+#~ msgid "Dummy"
+#~ msgstr "Biessensoŭny"
+
+#~ msgid "Dummy plugin"
+#~ msgstr "Biessensoŭny plugin"
+
+#~ msgid "Font"
+#~ msgstr "Šryft"
+
+#~ msgid "Font plugin"
+#~ msgstr "Plugin šryftoŭ"
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing the mouse pointer theme."
+#~ msgstr ""
+#~ "Niemahčyma stvaryć kataloh \"%s\".\n"
+#~ "Jon patrebny dziela źmieny matyvu kursora."
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "Niemahčyma stvaryć kataloh \"%s\".\n"
+#~ "Jon patrebny, kab mahčy źmianiać kursory."
+
+#~ msgid "Key Binding (%s) has its action defined multiple times\n"
+#~ msgstr ""
+#~ "Dziejańnie dla klavijaturnaha skarotu (%s) akreślenaje niekalki razoŭ\n"
+
+#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
+#~ msgstr "Poviaź dla klavijaturnaha skarotu (%s) akreślenaje niekalki razoŭ\n"
+
+#~ msgid "Key Binding (%s) is incomplete\n"
+#~ msgstr "Klavijaturny skarot (%s) niapoŭny\n"
+
+#~ msgid "Key Binding (%s) is invalid\n"
+#~ msgstr "Klavijaturny skarot (%s) niapravilny\n"
+
+#~ msgid "It seems that another application already has access to key '%u'."
+#~ msgstr "Vierahodna, inšaja aplikacyja maje dostup da klavišy \"%u\"."
+
+#~ msgid "Key Binding (%s) is already in use\n"
+#~ msgstr "Klavijaturny skarot (%s) užo ŭžyvajecca\n"
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "Adbyłasia pamyłka pry sprobie ŭruchomić (%s),\n"
+#~ "źviazanuju z klavišaj (%s)"
+
+#~ msgid "Keybindings plugin"
+#~ msgstr "Plugin klavijaturnych skarotaŭ"
+
+#~ msgid "Keyboard"
+#~ msgstr "Klavijatura"
+
+#~ msgid "Keyboard plugin"
+#~ msgstr "Plugin klavijatury"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "Das_tupnyja fajły:"
+
+#~ msgid "Do _not show this warning again."
+#~ msgstr "_Nie pakazvaj bolej hetaj aściarohi."
+
+#~ msgid "Load modmap files"
+#~ msgstr "Zahruzu fajły modmap"
+
+#~ msgid "Would you like to load the modmap file(s)?"
+#~ msgstr "Ci chočaš zahruzić fajł(y) modmap?"
+
+#~ msgid "_Load"
+#~ msgstr "_Zahruzi"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "Zahr_užanyja fajły:"
+
+#~ msgid "Volume"
+#~ msgstr "Hučnaść"
+
+#~ msgid ""
+#~ "Could not get default terminal. Verify that your default terminal command "
+#~ "is set and points to a valid application."
+#~ msgstr ""
+#~ "Niemahčyma atrymać zmoŭčany terminał. Pravier, ci akreśleny zahad dla "
+#~ "tvajho zmoŭčanaha terminału i ci jon źviartajecca da pravilnaj aplikacyi."
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "Niemahčyma vykanać zahad: %s\n"
+#~ "Pravier, ci heta pravilny zahad."
+
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "Niemahčyma ŭsypić kamputar.\n"
+#~ "Pravier, ci pravilna skanfihuravany kamputar."
+
+#~ msgid "Media keys"
+#~ msgstr "Medyja-klavišy"
+
+#~ msgid "Media keys plugin"
+#~ msgstr "Plugin medyja-klavišaŭ"
+
+#~ msgid "Could not enable mouse accessibility features"
+#~ msgstr "Niemahčyma ŭklučyć dastupnaść myšy"
+
+#~ msgid ""
+#~ "Mouse accessibility requires the mousetweaks daemon to be installed on "
+#~ "your system."
+#~ msgstr ""
+#~ "Dastupnaja myš vymahaje zainstalavanaha ŭ systemie demana mousetweaks."
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Nałady myšy"
+
+#~ msgid "Mouse"
+#~ msgstr "Myš"
+
+#~ msgid "Mouse plugin"
+#~ msgstr "Plugin myšy"
+
+#~ msgid ""
+#~ "There was an error starting up the screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Screensaver functionality will not work in this session."
+#~ msgstr ""
+#~ "Adbyłasia pamyłka pry ŭklučeńni źbierahalnika ekranu:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Padčas hetaj sesii funkcyi źbierahalnika ekranu buduć niedastupnyja."
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "_Nie pakazvaj bolej hetaha paviedamleńnia"
+
+#~ msgid "Screensaver plugin"
+#~ msgstr "Plugin źbierahalnika ekranu"
+
+#~ msgid "Couldn't load sound file %s as sample %s"
+#~ msgstr "Niemahčyma zahruzić hukavy fajł %s u jakaści sempła %s"
+
+#~ msgid "Login"
+#~ msgstr "Aŭtaryzuj"
+
+#~ msgid "Logout"
+#~ msgstr "Vyjdzi"
+
+#~ msgid "Boing"
+#~ msgstr "Boing"
+
+#~ msgid "Siren"
+#~ msgstr "Syrena"
+
+#~ msgid "Clink"
+#~ msgstr "Klik"
+
+#~ msgid "Beep"
+#~ msgstr "Zvanočak"
+
+#~ msgid "No sound"
+#~ msgstr "Biaz huku"
+
+#~ msgid "Sound not set for this event."
+#~ msgstr "Nie akreśleny huk dla hetaj padziei."
+
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package for a set of default "
+#~ "sounds."
+#~ msgstr ""
+#~ "Hukavoha fajłu dla hetaj padziei nie isnuje.\n"
+#~ "Zainstaluj nabor zmoŭčanych hukaŭ z pakunku \"gnome-audio\"."
+
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr "Hukavoha fajłu dla hetaj padziei nie isnuje."
+
+#~ msgid "Select Sound File"
+#~ msgstr "Abiary hukavy fajł"
+
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr "Fajł %s nie źjaŭlajecca pravilnym wav-fajłam"
+
+#~ msgid "Select sound file..."
+#~ msgstr "Abiary hukavy fajł..."
+
+#~ msgid "System Sounds"
+#~ msgstr "Systemnyja huki"
+
+#~ msgid "Sound"
+#~ msgstr "Huk"
+
+#~ msgid "Sound plugin"
+#~ msgstr "Plugin huku"
+
+#~ msgid "Typing Break"
+#~ msgstr "Pierapynak u pisańni"
+
+#~ msgid "Typing break plugin"
+#~ msgstr "Plugin pierapynkaŭ u pisańni"
+
+#~ msgid "Set up screen size and rotation settings"
+#~ msgstr "Akreśl pamiery ekranu i nałady pavarotu"
+
+#~ msgid "XRandR"
+#~ msgstr "XRandR"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "Niemahčyma vyznačyć chatni kataloh karystalnika"
+
+#~ msgid "Manage the X resource database"
+#~ msgstr "Kiruj bazaju źviestak resursaŭ X"
+
+#~ msgid "X Resource Database"
+#~ msgstr "Baza źviestak resursaŭ X"
+
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr ""
+#~ "Kluč GConfa %s byŭ vyznačany jak typ %s, ale jaho čakany typ byŭ %s\n"
 
 #~ msgid "Eject's shortcut."
 #~ msgstr "Klavijaturny skarot vysoŭvańnia nośbita."
@@ -827,14 +2886,8 @@ msgstr "Nałady X"
 #~ msgid "Launch web browser's shortcut."
 #~ msgstr "Klaviša ŭruchamleńnia web-hartača."
 
-#~ msgid "Lock screen's shortcut."
-#~ msgstr "Klavijaturny skarot blakavańnia ekranu."
-
 #~ msgid "Log out's shortcut."
 #~ msgstr "Klavijaturny skarot vychadu."
-
-#~ msgid "Media player key's shortcut."
-#~ msgstr "Klavišny skarot medyja-playera."
 
 #~ msgid "Next track key's shortcut."
 #~ msgstr "Klavijaturny skarot nastupnaj ściežki."

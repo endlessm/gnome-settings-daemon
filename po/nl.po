@@ -19,9 +19,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-settings-daemon/"
-"issues\n"
-"POT-Creation-Date: 2020-01-18 13:37+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-16 23:15+0100\n"
 "PO-Revision-Date: 2020-02-24 18:43+0100\n"
 "Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
@@ -1640,28 +1639,47 @@ msgstr "Instellingen"
 msgid "Date & Time Settings"
 msgstr "Datum- en tijdsinstellingen"
 
-#: plugins/housekeeping/gsd-disk-space.c:575
+#: plugins/housekeeping/gsd-disk-space.c:632
 msgid "Disk Space"
 msgstr "Schijfruimte"
 
-#: plugins/housekeeping/gsd-disk-space.c:588
+#: plugins/housekeeping/gsd-disk-space.c:645
 msgid "Examine"
 msgstr "Onderzoeken"
 
-#: plugins/housekeeping/gsd-disk-space.c:599
+#: plugins/housekeeping/gsd-disk-space.c:656
 msgid "Empty Trash"
 msgstr "Prullenbak legen"
 
-#: plugins/housekeeping/gsd-disk-space.c:607
+#: plugins/housekeeping/gsd-disk-space.c:664
 msgid "Ignore"
 msgstr "Negeren"
 
-#: plugins/housekeeping/gsd-disk-space.c:638
+#: plugins/housekeeping/gsd-disk-space.c:698
+#: plugins/housekeeping/gsd-disk-space.c:738
+msgid "Low Disk Space"
+msgstr "Weinig schijfruimte"
+
+#: plugins/housekeeping/gsd-disk-space.c:700
+#, fuzzy
+msgid ""
+"Your computer is out of space.  You may free up some space by emptying the "
+"trash."
+msgstr ""
+"Deze computer heeft nog maar %s schijfruimte over. U zou wat schijfruimte "
+"kunnen vrijmaken door de prullenbak te legen."
+
+#: plugins/housekeeping/gsd-disk-space.c:702
+#, fuzzy
+msgid "Your computer is out of space."
+msgstr "De printer ‘%s’ heeft geen papier meer."
+
+#: plugins/housekeeping/gsd-disk-space.c:727
 #, c-format
 msgid "Low Disk Space on “%s”"
 msgstr "Weinig schijfruimte op “%s”"
 
-#: plugins/housekeeping/gsd-disk-space.c:640
+#: plugins/housekeeping/gsd-disk-space.c:729
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
@@ -1670,16 +1688,12 @@ msgstr ""
 "Het volume “%s” heeft nog maar %s schijfruimte over. U zou wat schijfruimte "
 "kunnen vrijmaken door de prullenbak te legen."
 
-#: plugins/housekeeping/gsd-disk-space.c:644
+#: plugins/housekeeping/gsd-disk-space.c:733
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
 msgstr "Het volume “%s” heeft nog maar %s schijfruimte over."
 
-#: plugins/housekeeping/gsd-disk-space.c:649
-msgid "Low Disk Space"
-msgstr "Weinig schijfruimte"
-
-#: plugins/housekeeping/gsd-disk-space.c:651
+#: plugins/housekeeping/gsd-disk-space.c:740
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
@@ -1688,35 +1702,35 @@ msgstr ""
 "Deze computer heeft nog maar %s schijfruimte over. U zou wat schijfruimte "
 "kunnen vrijmaken door de prullenbak te legen."
 
-#: plugins/housekeeping/gsd-disk-space.c:654
+#: plugins/housekeeping/gsd-disk-space.c:743
 #, c-format
 msgid "This computer has only %s disk space remaining."
 msgstr "Deze computer heeft nog maar %s schijfruimte over."
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2466
+#: plugins/media-keys/gsd-media-keys-manager.c:2477
 msgid "Bluetooth disabled"
 msgstr "Bluetooth uitgeschakeld"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2469
+#: plugins/media-keys/gsd-media-keys-manager.c:2480
 msgid "Bluetooth enabled"
 msgstr "Bluetooth ingeschakeld"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2473
+#: plugins/media-keys/gsd-media-keys-manager.c:2484
 msgid "Airplane mode enabled"
 msgstr "Vliegtuigstand ingeschakeld"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2476
+#: plugins/media-keys/gsd-media-keys-manager.c:2487
 msgid "Airplane mode disabled"
 msgstr "Vliegtuigstand uitgeschakeld"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2505
+#: plugins/media-keys/gsd-media-keys-manager.c:2516
 msgid "Hardware Airplane Mode"
 msgstr "Hardware-vliegtuigstand"
 
 #. Translators: this is a filename used for screencast
 #. * recording, where "%d" and "%t" date and time, e.g.
 #. * "Screencast from 07-17-2013 10:00:46 PM.webm"
-#: plugins/media-keys/gsd-media-keys-manager.c:2568
+#: plugins/media-keys/gsd-media-keys-manager.c:2579
 #, no-c-format
 msgid "Screencast from %d %t.webm"
 msgstr "Schermfilm van %d %t.webm"
@@ -2061,43 +2075,43 @@ msgstr ""
 "uitschakelen."
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1260
+#: plugins/power/gsd-power-manager.c:1266
 msgid "Lid has been opened"
 msgstr "Laptop is geopend"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1294
+#: plugins/power/gsd-power-manager.c:1300
 msgid "Lid has been closed"
 msgstr "Laptop is gesloten"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1857
+#: plugins/power/gsd-power-manager.c:1887
 msgid "On battery power"
 msgstr "Op batterij"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1862
+#: plugins/power/gsd-power-manager.c:1892
 msgid "On AC power"
 msgstr "Op netstroom"
 
-#: plugins/power/gsd-power-manager.c:2050
+#: plugins/power/gsd-power-manager.c:2080
 msgid "Automatic logout"
 msgstr "Automatisch afmelden"
 
-#: plugins/power/gsd-power-manager.c:2050
+#: plugins/power/gsd-power-manager.c:2080
 msgid "You will soon log out because of inactivity."
 msgstr "U wordt binnenkort afgemeld wegens inactiviteit."
 
-#: plugins/power/gsd-power-manager.c:2055
+#: plugins/power/gsd-power-manager.c:2085
 msgid "Automatic suspend"
 msgstr "Automatische pauzestand"
 
-#: plugins/power/gsd-power-manager.c:2055
-#: plugins/power/gsd-power-manager.c:2060
+#: plugins/power/gsd-power-manager.c:2085
+#: plugins/power/gsd-power-manager.c:2090
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "De computer zal binnenkort in pauzestand gaan wegens inactiviteit."
 
-#: plugins/power/gsd-power-manager.c:2060
+#: plugins/power/gsd-power-manager.c:2090
 msgid "Automatic hibernation"
 msgstr "Automatische slaapstand"
 
