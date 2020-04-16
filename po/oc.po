@@ -1,42 +1,34 @@
-# Translation of oc.po to Occitan
-# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2006-2008.
-# Translation of oc.po to Occitan
-# Occitan translation of gnome-control-center
-# This file is distributed under the same license as the PACKAGE package.#
-# Cédric Valmary (Tot en òc) <cvalmary@yahoo.fr>, 2015.
-# Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>, 2016.
-# Cédric VALMARY <cvalmary@yahoo.fr>, 2016.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-settings-daemon package.
+# 
+# Translators:
+# Cédric Valmary <cvalmary@yahoo.fr>, 2016
+# Cédric Valmary <cvalmary@yahoo.fr>, 2015
+# Cédric Valmary <cvalmary@yahoo.fr>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: oc\n"
+"Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-16 23:25+0100\n"
-"PO-Revision-Date: 2016-10-10 14:29+0200\n"
-"Last-Translator: Cédric VALMARY <cvalmary@yahoo.fr>\n"
-"Language-Team: Tot en òc (totenoc.eu)\n"
-"Language: oc\n"
+"PO-Revision-Date: 2020-04-16 22:26+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Occitan (post 1500) (http://www.transifex.com/endless-os/gnome-settings-daemon/language/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: oc\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
-"X-Launchpad-Export-Date: 2015-05-20 16:48+0000\n"
-"X-Project-Style: gnome\n"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:12
 msgid "Smartcard removal action"
 msgstr "Accion quand la carta de piuse es levada"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:13
-#, fuzzy
 msgid ""
-"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will "
-"get performed when the smartcard used for log in is removed."
+"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will"
+" get performed when the smartcard used for log in is removed."
 msgstr ""
-"Definissètz aquesta clau segon una de las valors seguentas : « none » (pas "
-"cap), « lock-screen » (verrolhar l'ecran) o « force-logout » (forçar la "
-"desconnexion). Aquesta accion es efectuada quand la carta de piuse utilizada "
-"per se connectar es levada."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:25
 msgid "Possible values are “on”, “off”, and “custom”."
@@ -67,16 +59,12 @@ msgid "Distance before a drag is started."
 msgstr "Distància abans qu'un lisar siá iniciat."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:54
-#, fuzzy
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
 msgstr ""
-"Indica se l'orientacion de la tauleta es verrolhada o se la rotacion es "
-"automatica."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:62
-#, fuzzy
 msgid "Mouse button orientation"
-msgstr "Emulacion del boton central de la mirga"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:63
 msgid "Swap left and right mouse buttons for left-handed mice."
@@ -96,9 +84,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:72
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:139
-#, fuzzy
 msgid "Motion Threshold"
-msgstr "Sulhet de lisament"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:73
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:140
@@ -115,9 +102,7 @@ msgstr "Emulacion del boton central de la mirga"
 msgid ""
 "Enables middle mouse button emulation through simultaneous left and right "
 "button click."
-msgstr ""
-"Activa la simulacion del boton central de la mirga amb un clic simultanèu "
-"suls botons de dreita e esquèrra."
+msgstr "Activa la simulacion del boton central de la mirga amb un clic simultanèu suls botons de dreita e esquèrra."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:87
 msgid "Key Repeat Interval"
@@ -132,9 +117,8 @@ msgid "Initial Key Repeat Delay"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:93
-#, fuzzy
 msgid "Initial key repeat delay in milliseconds."
-msgstr "Durada d'un clic doble en millisegondas."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:97
 msgid "Remember NumLock state"
@@ -152,11 +136,9 @@ msgstr "Desactivar lo pavat tactil al moment de la picada al clavièr"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:105
 msgid ""
-"Set this to TRUE if you have problems with accidentally hitting the touchpad "
-"while typing."
-msgstr ""
-"Activatz aquesta clau se vos arriba de tocar accidentalament lo pavat tactil "
-"quand escrivètz al clavièr."
+"Set this to TRUE if you have problems with accidentally hitting the touchpad"
+" while typing."
+msgstr "Activatz aquesta clau se vos arriba de tocar accidentalament lo pavat tactil quand escrivètz al clavièr."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:109
 msgid "Enable horizontal scrolling"
@@ -166,23 +148,17 @@ msgstr "Activar lo desfilament orizontal"
 msgid ""
 "Set this to TRUE to allow horizontal scrolling by the same method selected "
 "with the scroll_method key."
-msgstr ""
-"Activatz aquesta clau per permetre lo desfilament orizontal segon lo metòde "
-"seleccionat dins la clau « scroll_method »."
+msgstr "Activatz aquesta clau per permetre lo desfilament orizontal segon lo metòde seleccionat dins la clau « scroll_method »."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:114
 msgid "Select the touchpad scroll method"
 msgstr "Metòde de desfilament del pavat tactil"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:115
-#, fuzzy
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
 msgstr ""
-"Selecciona lo metòde de desfilament amb lo pavat tactil. Las valors admesas "
-"son : « disabled » (desactivat), « edge-scrolling » (desfilament suls "
-"bòrds), « two-finger-scrolling » (desfilament amb dos dets)."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:119
 msgid "Enable mouse clicks with touchpad"
@@ -191,9 +167,7 @@ msgstr "Activar los clics de mirga amb lo pavat tactil"
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:120
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
-msgstr ""
-"Activatz aquesta clau per poder efectuar de clics de mirgas en picant sul "
-"pavat tactil."
+msgstr "Activatz aquesta clau per poder efectuar de clics de mirgas en picant sul pavat tactil."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:124
 msgid "Enable touchpad"
@@ -204,9 +178,8 @@ msgid "Set this to TRUE to enable all touchpads."
 msgstr "Activatz aquesta clau per activar totes los pavats tactils."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:129
-#, fuzzy
 msgid "Touchpad button orientation"
-msgstr "Emulacion del boton central de la mirga"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:130
 msgid ""
@@ -215,14 +188,12 @@ msgid ""
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:144
-#, fuzzy
 msgid "Natural scrolling"
-msgstr "Activar lo desfilament orizontal"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:145
-#, fuzzy
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
-msgstr "Activatz aquesta clau per activar totes los pavats tactils."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:152
 msgid "Mouse wheel emulation button. 0 to disable the feature."
@@ -242,9 +213,7 @@ msgstr "Zòna de la tauleta Wacom"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:16
 msgid "Set this to x1, y1 and x2, y2 of the area usable by the tools."
-msgstr ""
-"Definís las coordenadas x1, y1 e x2, y2 de la susfàcia utilizabla per las "
-"aisinas."
+msgstr "Definís las coordenadas x1, y1 e x2, y2 de la susfàcia utilizabla per las aisinas."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:20
 msgid "Wacom tablet aspect ratio"
@@ -254,22 +223,17 @@ msgstr "Proporcions de la tauleta Wacom"
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
-msgstr ""
-"Activatz aquesta opcion per tal de limitar la susfàcia de la tauleta Wacom "
-"per correspondre a las proporcions de l'afichatge."
+msgstr "Activatz aquesta opcion per tal de limitar la susfàcia de la tauleta Wacom per correspondre a las proporcions de l'afichatge."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:25
 msgid "Wacom tablet rotation"
 msgstr "Rotacion de la tauleta Wacom"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:26
-#, fuzzy
 msgid ""
-"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and "
-"“ccw” for 90 degree counterclockwise."
+"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and"
+" “ccw” for 90 degree counterclockwise."
 msgstr ""
-"Reglatz aquò a « pas cap », « cw » per 90 grases dins lo sens orari, « half "
-"» per 180 grases e « ccw » per 90 grases dins lo sens antiorari."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:30
 msgid "Wacom touch feature"
@@ -277,9 +241,7 @@ msgstr "Foncionalitats tactilas Wacom"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:31
 msgid "Enable this to move the cursor when the user touches the tablet."
-msgstr ""
-"Activar aquesta opcion per desplaçar lo cursor quand l'utilizaire tòca la "
-"tauleta."
+msgstr "Activar aquesta opcion per desplaçar lo cursor quand l'utilizaire tòca la tauleta."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:37
 msgid "Wacom stylus pressure curve"
@@ -288,9 +250,7 @@ msgstr "Corba de pression de l'estilet Wacom"
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:38
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
-msgstr ""
-"Definissètz aicí las coordenadas x1, y1 e x2, y2 segon la corba de pression "
-"aplicada a l'estilet."
+msgstr "Definissètz aicí las coordenadas x1, y1 e x2, y2 segon la corba de pression aplicada a l'estilet."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:42
 msgid "Wacom stylus button mapping"
@@ -308,9 +268,7 @@ msgstr "Sulhet de pression per l'estilet Wacom"
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:48
 msgid ""
 "Set this to the pressure value at which a stylus click event is generated."
-msgstr ""
-"Definissètz aicí la valor de pression per la quala un eveniment clic de "
-"l'estilet es generat."
+msgstr "Definissètz aicí la valor de pression per la quala un eveniment clic de l'estilet es generat."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:54
 msgid "Wacom eraser pressure curve"
@@ -319,9 +277,7 @@ msgstr "Corba de pression de la goma Wacom"
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:55
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
-msgstr ""
-"Definissètz aicí las coordenadas x1, y1 e x2, y2 segon la corba de pression "
-"aplicada a la goma."
+msgstr "Definissètz aicí las coordenadas x1, y1 e x2, y2 segon la corba de pression aplicada a la goma."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:59
 msgid "Wacom eraser button mapping"
@@ -334,9 +290,7 @@ msgstr "Sulhet de pression de la goma Wacom"
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:65
 msgid ""
 "Set this to the pressure value at which an eraser click event is generated."
-msgstr ""
-"Definissètz aicí la valor de pression per la quala un eveniment clic de la "
-"goma es generat."
+msgstr "Definissètz aicí la valor de pression per la quala un eveniment clic de la goma es generat."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:71
 msgid "Wacom button action type"
@@ -354,23 +308,17 @@ msgstr "Combinason de tòcas per l'accion personalizada"
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
-msgstr ""
-"L'acorchi de clavièr generat quand lo boton es quichat per d'accions "
-"personalizadas."
+msgstr "L'acorchi de clavièr generat quand lo boton es quichat per d'accions personalizadas."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:81
 msgid "Key combinations for a touchring or touchstrip custom action"
-msgstr ""
-"Combinasons de tòcas per una accion personalizada del tipe touchring o "
-"touchstrip"
+msgstr "Combinasons de tòcas per una accion personalizada del tipe touchring o touchstrip"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:82
 msgid ""
 "The keyboard shortcuts generated when a touchring or touchstrip is used for "
 "custom actions (up followed by down)."
-msgstr ""
-"Los acorchis de clavièr generats quand lo touchring o lo touchstrip es "
-"utilizat per d'accions personalizadas (movement cap amont puèi cap aval)."
+msgstr "Los acorchis de clavièr generats quand lo touchring o lo touchstrip es utilizat per d'accions personalizadas (movement cap amont puèi cap aval)."
 
 #. Translators: This is the OLED display on an Intuos4 tablet:
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
@@ -390,9 +338,7 @@ msgstr "La durada de validitat d'un perfil d'ecran"
 msgid ""
 "This is the number of days after which the display color profile is "
 "considered invalid."
-msgstr ""
-"Nombre de jorns aprèp qué lo perfil colorimetric de l'afichatge es "
-"considerat coma perimit."
+msgstr "Nombre de jorns aprèp qué lo perfil colorimetric de l'afichatge es considerat coma perimit."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:11
 msgid "The duration a printer profile is valid"
@@ -402,9 +348,7 @@ msgstr "La durada de validitat d'un perfil d'impression"
 msgid ""
 "This is the number of days after which the printer color profile is "
 "considered invalid."
-msgstr ""
-"Nombre de jorns aprèp qué lo perfil colorimetric de l'impression es "
-"considerat coma perimit."
+msgstr "Nombre de jorns aprèp qué lo perfil colorimetric de l'impression es considerat coma perimit."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:16
 msgid "If the night light mode is enabled"
@@ -472,15 +416,10 @@ msgid "List of plugins that are allowed to be loaded"
 msgstr "Lista dels empeutons autorizats al cargament"
 
 #: data/org.gnome.settings-daemon.plugins.gschema.xml.in:7
-#, fuzzy
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: “all”). This is only evaluated on startup."
 msgstr ""
-"Una lista de cadenas que descrivon los empeutons que son autorizats al "
-"cargament (la valor per defaut es « all », totes). Los empeutons devon "
-"encara èsser marcats coma actius per èsser cargats. Aquò es pas evaluat qu'a "
-"l'aviada."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:6
 msgid "Mount paths to ignore"
@@ -488,9 +427,7 @@ msgstr "Camins de montatge d'ignorar"
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:7
 msgid "Specify a list of mount paths to ignore when they run low on space."
-msgstr ""
-"Indica una lista de camins de montatge d'ignorar quand lor espaci de disc es "
-"feble."
+msgstr "Indica una lista de camins de montatge d'ignorar quand lor espaci de disc es feble."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:12
 msgid "Free percentage notify threshold"
@@ -500,10 +437,7 @@ msgstr "Sulhet d'avertiment en percentatge d'espaci liure"
 msgid ""
 "Percentage free space threshold for initial warning of low disk space. If "
 "the percentage free space drops below this, a warning will be shown."
-msgstr ""
-"Sulhet d'espaci liure, en percentatge, per l'alèrta iniciala d'espaci de "
-"disc feble. Se lo percentatge d'espaci liure tomba en dejós d'aqueste "
-"sulhet, una alèrta es afichada."
+msgstr "Sulhet d'espaci liure, en percentatge, per l'alèrta iniciala d'espaci de disc feble. Se lo percentatge d'espaci liure tomba en dejós d'aqueste sulhet, una alèrta es afichada."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:18
 msgid "Subsequent free space percentage notify threshold"
@@ -513,9 +447,7 @@ msgstr "Sulhet seguent d'avertiment d'espaci liure, en percentatge"
 msgid ""
 "Specify the percentage that the free disk space should reduce by before "
 "issuing a subsequent warning."
-msgstr ""
-"Indica lo percentatge de reduccion d'espaci de disc abans d'emetre un novèl "
-"avertiment."
+msgstr "Indica lo percentatge de reduccion d'espaci de disc abans d'emetre un novèl avertiment."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:23
 msgid "Free space notify threshold"
@@ -525,9 +457,7 @@ msgstr "Sulhet d'avertiment d'espaci liure"
 msgid ""
 "Specify an amount in GB. If the amount of free space is more than this, no "
 "warning will be shown."
-msgstr ""
-"Indica una talha en Go. Se la quantitat d'espaci de disc disponibla es "
-"superiora a aqueste paramètre, cap d'alèrta serà pas afichada."
+msgstr "Indica una talha en Go. Se la quantitat d'espaci de disc disponibla es superiora a aqueste paramètre, cap d'alèrta serà pas afichada."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:28
 msgid "Minimum notify period for repeated warnings"
@@ -537,9 +467,7 @@ msgstr "Interval minimum de repeticion dels avertiments"
 msgid ""
 "Specify a time in minutes. Subsequent warnings for a volume will not appear "
 "more often than this period."
-msgstr ""
-"Indica un interval en minutas. Aqueste paramètre constituís l'interval de "
-"temps minimum entre mantuna alèrtas per un meteis volum."
+msgstr "Indica un interval en minutas. Aqueste paramètre constituís l'interval de temps minimum entre mantuna alèrtas per un meteis volum."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:6
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:189
@@ -560,9 +488,8 @@ msgstr "Paramètres d'aviada"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:12
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:195
-#, fuzzy
 msgid "Binding to launch GNOME Settings."
-msgstr "Acorchi per aviar los paramètres GNOME."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:16
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:199
@@ -713,22 +640,19 @@ msgstr "Reduire lo volum"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:82
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:267
-#, fuzzy
 msgid "Binding to lower the volume."
-msgstr "Acorchi per baissar lo volum general del son."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:86
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:271
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:588
-#, fuzzy
 msgid "Volume mute/unmute"
-msgstr "Sordina"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:272
-#, fuzzy
 msgid "Binding to mute/unmute the volume."
-msgstr "Acorchi per metre lo son general en sordina."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:276
@@ -738,22 +662,19 @@ msgstr "Aumentar lo volum"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:277
-#, fuzzy
 msgid "Binding to raise the volume."
-msgstr "Acorchi per aumentar lo volum general del son."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:317
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:628
-#, fuzzy
 msgid "Microphone mute/unmute"
-msgstr "Micro atudat"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:318
-#, fuzzy
 msgid "Binding to mute/unmute the microphone."
-msgstr "Acorchi per metre lo son general en sordina."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:322
@@ -803,8 +724,7 @@ msgstr "Copiar una captura d'ecran d'una fenèstra dins lo quichapapièrs"
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:122
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:343
 msgid "Binding to copy a screenshot of a window to clipboard."
-msgstr ""
-"Acorchi per copiar una captura d'ecran d'una fenèstra cap al quichapapièrs."
+msgstr "Acorchi per copiar una captura d'ecran d'una fenèstra cap al quichapapièrs."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:126
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:347
@@ -814,8 +734,7 @@ msgstr "Copiar una captura d'una partida de l'ecran dins lo quichapapièrs"
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:127
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:348
 msgid "Binding to copy a screenshot of an area to clipboard."
-msgstr ""
-"Acorchi per copiar una captura d'una partida de l'ecran cap al quichapapièr."
+msgstr "Acorchi per copiar una captura d'una partida de l'ecran cap al quichapapièr."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:131
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:352
@@ -824,9 +743,8 @@ msgstr "Enregistrar una corta captura vidèo de l'ecran"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:132
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:353
-#, fuzzy
 msgid "Binding to record a short video of the screen"
-msgstr "Enregistrar una corta captura vidèo de l'ecran"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:136
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:357
@@ -929,9 +847,8 @@ msgid "List of custom keybindings"
 msgstr "Lista dels acorchis de clavièr personalizats"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:282
-#, fuzzy
 msgid "Size of volume step"
-msgstr "Metre en sordina sens emetre de bruit"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:283
 msgid "Size of the volume step for each volume change"
@@ -939,20 +856,17 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:289
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:600
-#, fuzzy
 msgid "Quiet volume down"
-msgstr "Baissar lo volum sens emetre de bruit"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:290
-#, fuzzy
 msgid "Binding to lower the volume without emitting a sound effect."
-msgstr "Acorchi per baissar lo volum general del son."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:294
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:605
-#, fuzzy
 msgid "Quiet volume mute/unmute"
-msgstr "Metre en sordina sens emetre de bruit"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:295
 msgid "Binding to mute/unmute the volume without emitting a sound effect."
@@ -960,68 +874,56 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:299
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:610
-#, fuzzy
 msgid "Quiet volume up"
-msgstr "Aumentar lo volum sens emetre de bruit"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:300
-#, fuzzy
 msgid "Binding to raise the volume without emitting a sound effect."
-msgstr "Acorchi per aumentar lo volum general del son."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:306
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:617
-#, fuzzy
 msgid "Precise volume down"
-msgstr "Reduire lo volum"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:307
-#, fuzzy
 msgid "Binding to lower the volume with higher precision."
-msgstr "Acorchi per baissar lo volum general del son."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:311
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:622
-#, fuzzy
 msgid "Precise volume up"
-msgstr "Aumentar lo volum sens emetre de bruit"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:312
-#, fuzzy
 msgid "Binding to raise the volume with higher precision."
-msgstr "Acorchi per aumentar lo volum general del son."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:402
-#, fuzzy
 msgid "Toggle touchpad on/off"
-msgstr "Pavat tactil inactiu"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:403
-#, fuzzy
 msgid "Binding to toggle the touchpad on/off."
-msgstr "Acorchi per modificar lo contraste de l'interfàcia."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:407
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:644
-#, fuzzy
 msgid "Switch touchpad on"
-msgstr "Pavat tactil actiu"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:408
-#, fuzzy
 msgid "Binding to switch the touchpad on."
-msgstr "Acorchi per aviar l'aisina de recèrca."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:412
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:649
-#, fuzzy
 msgid "Switch touchpad off"
-msgstr "Pavat tactil inactiu"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:413
-#, fuzzy
 msgid "Binding to switch the touchpad off."
-msgstr "Acorchi per aviar l'aisina de recèrca."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:418
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:655
@@ -1029,9 +931,8 @@ msgid "Skip backward in current track"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:419
-#, fuzzy
 msgid "Binding to skip backward in current track."
-msgstr "Acorchi per passar a la pista seguenta."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:423
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:660
@@ -1039,97 +940,80 @@ msgid "Skip forward in current track"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:424
-#, fuzzy
 msgid "Binding to skip forward in current track."
-msgstr "Acorchi per passar a la pista seguenta."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:428
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:665
-#, fuzzy
 msgid "Toggle repeat playback mode"
-msgstr "Inversion del mòde avion"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:429
-#, fuzzy
 msgid "Binding to toggle repeat mode in media player."
-msgstr "Acorchi per aviar lo lector multimèdia."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:433
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:670
-#, fuzzy
 msgid "Toggle random playback mode"
-msgstr "Inversion del mòde avion"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:434
-#, fuzzy
 msgid "Binding to toggle random playback mode in media player."
-msgstr "Acorchi per aviar lo lector multimèdia."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:439
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:676
-#, fuzzy
 msgid "Toggle automatic screen orientation"
-msgstr "Activar o pas lo lector d'ecran"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:440
-#, fuzzy
 msgid "Binding to toggle automatic screen orientation."
-msgstr "Acorchi per prene una captura d'ecran."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:444
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:681
-#, fuzzy
 msgid "Power button"
-msgstr "Empeuton d'energia"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:445
-#, fuzzy
 msgid "Binding for power button."
-msgstr "Acorchi per se desconnectar."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:449
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:686
-#, fuzzy
 msgid "Hibernate button"
-msgstr "Ivernar"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:450
-#, fuzzy
 msgid "Binding to hibernate the machine."
-msgstr "Acorchi per aviar lo logicial de messatjariá."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:454
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:691
-#, fuzzy
 msgid "Suspend button"
-msgstr "Suspendre"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:455
-#, fuzzy
 msgid "Binding to suspend the machine."
-msgstr "Acorchi per aviar lo logicial de messatjariá."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:460
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:697
-#, fuzzy
 msgid "Screen brightness up"
-msgstr "Aumentar la luminositat"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:461
-#, fuzzy
 msgid "Binding to increase the screen brightness."
-msgstr "Acorchi per aumentar la talha del tèxte."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:465
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:702
-#, fuzzy
 msgid "Screen brightness down"
-msgstr "Demesir la luminositat"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:466
-#, fuzzy
 msgid "Binding to decrease the screen brightness."
-msgstr "Acorchi per demesir la talha del tèxte."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:470
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:707
@@ -1137,156 +1021,127 @@ msgid "Screen brightness cycle"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:471
-#, fuzzy
 msgid "Binding to cycle the screen brightness."
-msgstr "Acorchi per verrolhar l'ecran."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:476
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:713
-#, fuzzy
 msgid "Keyboard brightness up"
-msgstr "Aumentar la luminositat del clavièr"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:477
-#, fuzzy
 msgid "Binding to increase the keyboard brightness."
-msgstr "Acorchi per aumentar la talha del tèxte."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:481
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:718
-#, fuzzy
 msgid "Keyboard brightness down"
-msgstr "Demesir la luminositat del clavièr"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:482
-#, fuzzy
 msgid "Binding to decrease the keyboard brightness."
-msgstr "Acorchi per demesir la talha del tèxte."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:486
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:723
-#, fuzzy
 msgid "Keyboard brightness toggle"
-msgstr "Alucar/atudar l'esclairatge del clavièr"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:487
-#, fuzzy
 msgid "Binding to toggle the keyboard brightness."
-msgstr "Acorchi per modificar lo contraste de l'interfàcia."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:492
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:729
-#, fuzzy
 msgid "Show battery status"
-msgstr "Estat de la batariá"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:493
-#, fuzzy
 msgid "Binding to show current battery status."
-msgstr "Acorchi per afichar la lópia."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:498
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:735
-#, fuzzy
 msgid "RF kill"
-msgstr "Rfkill"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:499
-#, fuzzy
 msgid "Binding to toggle airplane mode."
-msgstr "Acorchi per modificar lo contraste de l'interfàcia."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:503
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:740
-#, fuzzy
 msgid "Bluetooth RF kill"
-msgstr "Bluetooth desactivat"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:504
-#, fuzzy
 msgid "Binding to toggle bluetooth airplane mode."
-msgstr "Acorchi per modificar lo contraste de l'interfàcia."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:517
-#, fuzzy
 msgid "Static binding to launch the calculator."
-msgstr "Acorchi per aviar la calculadoira."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:522
-#, fuzzy
 msgid "Static binding to launch GNOME Settings."
-msgstr "Acorchi per aviar los paramètres GNOME."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:527
-#, fuzzy
 msgid "Static binding to launch the email client."
-msgstr "Acorchi per aviar lo logicial de messatjariá."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:532
-#, fuzzy
 msgid "Static binding to eject an optical disc."
-msgstr "Acorchi per ejectar un disc optic."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:537
-#, fuzzy
 msgid "Static binding to open the Home folder."
-msgstr "Acorchi per dobrir lo dorsièr personal."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:542
-#, fuzzy
 msgid "Static binding to launch the media player."
-msgstr "Acorchi per aviar lo lector multimèdia."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:547
-#, fuzzy
 msgid "Static binding to skip to next track."
-msgstr "Acorchi per passar a la pista seguenta."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:552
-#, fuzzy
 msgid "Static binding to pause playback."
-msgstr "Acorchi per metre en pausa la lectura."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:557
-#, fuzzy
 msgid "Static binding to start playback (or toggle play/pause)."
-msgstr "Acorchi per aviar (o suspendre) la lectura."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:562
-#, fuzzy
 msgid "Static binding to skip to previous track."
-msgstr "Acorchi per tornar a la pista precedenta."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:567
-#, fuzzy
 msgid "Static binding to lock the screen."
-msgstr "Acorchi per verrolhar l'ecran."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:572
-#, fuzzy
 msgid "Static binding to launch the search tool."
-msgstr "Acorchi per aviar l'aisina de recèrca."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:577
-#, fuzzy
 msgid "Static binding to stop playback."
-msgstr "Acorchi per interrompre la lectura."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:584
-#, fuzzy
 msgid "Static binding to lower the volume."
-msgstr "Acorchi per baissar lo volum general del son."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:589
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:606
-#, fuzzy
 msgid "Static binding to mute/unmute the volume."
-msgstr "Acorchi per metre lo son general en sordina."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:594
-#, fuzzy
 msgid "Static binding to raise the volume."
-msgstr "Acorchi per aumentar lo volum general del son."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:601
 msgid "Static binding to lower the volume without emitting a sound effect."
@@ -1309,14 +1164,12 @@ msgid "Static binding to mute/unmute the microphone."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:634
-#, fuzzy
 msgid "Static binding to launch the web browser."
-msgstr "Acorchi per aviar lo navigador Web."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:640
-#, fuzzy
 msgid "Static binding to toggle the touchpad on/off."
-msgstr "Acorchi per modificar lo contraste de l'interfàcia."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:645
 msgid "Static binding to switch the touchpad on."
@@ -1327,24 +1180,20 @@ msgid "Static binding to switch the touchpad off."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:656
-#, fuzzy
 msgid "Static binding to skip backward in current track."
-msgstr "Acorchi per passar a la pista seguenta."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:661
-#, fuzzy
 msgid "Static binding to skip forward in current track."
-msgstr "Acorchi per passar a la pista seguenta."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:666
-#, fuzzy
 msgid "Static binding to toggle repeat mode in media player."
-msgstr "Acorchi per aviar lo lector multimèdia."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:671
-#, fuzzy
 msgid "Static binding to toggle random playback mode in media player."
-msgstr "Acorchi per aviar lo lector multimèdia."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:677
 msgid "Static binding to toggle automatic screen orientation."
@@ -1359,34 +1208,28 @@ msgid "Static binding to hibernate the machine."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:692
-#, fuzzy
 msgid "Static binding to suspend the machine."
-msgstr "Acorchi per aviar lo logicial de messatjariá."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:698
-#, fuzzy
 msgid "Static binding to increase the screen brightness."
-msgstr "Acorchi per aumentar la talha del tèxte."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:703
-#, fuzzy
 msgid "Static binding to decrease the screen brightness."
-msgstr "Acorchi per demesir la talha del tèxte."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:708
-#, fuzzy
 msgid "Static binding to cycle the screen brightness."
-msgstr "Acorchi per verrolhar l'ecran."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:714
-#, fuzzy
 msgid "Static binding to increase the keyboard brightness."
-msgstr "Acorchi per aumentar la talha del tèxte."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:719
-#, fuzzy
 msgid "Static binding to decrease the keyboard brightness."
-msgstr "Acorchi per demesir la talha del tèxte."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:724
 msgid "Static binding to toggle the keyboard brightness."
@@ -1452,7 +1295,8 @@ msgid "Dim the screen after a period of inactivity"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:12
-msgid "If the screen should be dimmed to save power when the computer is idle."
+msgid ""
+"If the screen should be dimmed to save power when the computer is idle."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:16
@@ -1495,9 +1339,8 @@ msgid "If the ambient light sensor functionality is enabled."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:41
-#, fuzzy
 msgid "Power button action"
-msgstr "Tipe d'accion del boton Wacom"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:42
 msgid ""
@@ -1514,71 +1357,47 @@ msgstr "Sus quinas connexions lo servici es activat"
 msgid ""
 "The list of NetworkManager connections (each one represented with its UUID) "
 "on which this service is enabled and started."
-msgstr ""
-"La lista de las connexions NetworkManager (caduna representada per son UUID) "
-"sus las qualas aqueste servici es activat e aviat."
+msgstr "La lista de las connexions NetworkManager (caduna representada per son UUID) sus las qualas aqueste servici es activat e aviat."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:6
 msgid "Antialiasing"
 msgstr "Anticrenelatge"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:7
-#, fuzzy
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
-"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
-"and “rgba” for subpixel antialiasing (LCD screens only)."
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing,"
+" and “rgba” for subpixel antialiasing (LCD screens only)."
 msgstr ""
-"Lo tipe d'anticrenelatge utilizat pel rendut de las poliças. Las valors "
-"possiblas son : « none » per cap d'anticrenelatge, « grayscale » per "
-"l'anticrenelatge classic per nivèls de gris e « rgba » per l'anticrenelatge "
-"per sospixèls (ecrans LCD unicament)."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:11
 msgid "Hinting"
 msgstr "Optimizacion"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:12
-#, fuzzy
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: “none” "
-"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
-"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"The type of hinting to use when rendering fonts. Possible values are: “none”"
+" for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s"
+" ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
 "Ignores native hinting within the font, generates hints algorithmically. "
 "Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
-"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
-"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version"
+" of FreeType. They usually try to fit glyphs to both the X and the Y axis "
 "(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
 msgstr ""
-"Tipe d'optimizacion utilizat pel rendut de las poliças. Las valors possiblas "
-"son : « none » per cap d'optimizacion, « slight » per adaptar unicament "
-"segon l'axe Y coma o fan los motors proprietaris de rendut de poliças "
-"ClearTipe de Microsoft, DirectWrite e los d'Adobe. Ignòra l'optimizacion "
-"nativa dins la poliça, genèra l'optimizacion de faiçon algoritmica. Utilizat "
-"per defaut en çò d'Ubuntu. Recomandat. La significacion de las valors « "
-"medium » e « full » depend del format de poliça (.ttf, .otf, .pfa/.pfb) e de "
-"la version de FreeType. Ensajan generalament d'adaptar los caractèrs en "
-"foncion dels axes X e Y (levat per .otf : axe Y solament). Aquò pòt causar "
-"de distorsions o un rendut incoerent en foncion de la qualitat de la poliça, "
-"de son format e de l'estat dels motors de police FreeType."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:16
 msgid "RGBA order"
 msgstr "Òrdre RVBA"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:17
-#, fuzzy
 msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
-"“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
+"The order of subpixel elements on an LCD screen; only used when antialiasing"
+" is set to “rgba”. Possible values are: “rgb” for red on left (most common),"
+" “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
 msgstr ""
-"L'òrdre dels elements sospixèls sus un ecran LCD ; unicament utilizat se "
-"l'anticrenelatge es definit a « rgba ». Las valors possiblas son « rgb » pel "
-"roge a esquèrra (lo mai corrent), « bgr » pel blau a esquèrra, « vrgb » pel "
-"roge amont, « vbgr » pel roge aval."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:21
 msgid "List of explicitly disabled GTK+ modules"
@@ -1588,9 +1407,7 @@ msgstr "Lista de moduls GTK+ desactivats d'un biais explicit"
 msgid ""
 "A list of strings representing the GTK+ modules that will not be loaded, "
 "even if enabled by default in their configuration."
-msgstr ""
-"Lista de cadenas que representat los moduls GTK+ a pas cargar, quitament se "
-"son activats per defaut dins lor configuracion."
+msgstr "Lista de cadenas que representat los moduls GTK+ a pas cargar, quitament se son activats per defaut dins lor configuracion."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:26
 msgid "List of explicitly enabled GTK+ modules"
@@ -1598,11 +1415,9 @@ msgstr "Lista de moduls GTK+ activats d'un biais explicit"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:27
 msgid ""
-"A list of strings representing the GTK+ modules that will be loaded, usually "
-"in addition to conditional and forcibly disabled ones."
-msgstr ""
-"Lista de cadenas que representan los moduls GTK+ de cargar, en general en "
-"mai de los desactivats condicionalament o de fòrça."
+"A list of strings representing the GTK+ modules that will be loaded, usually"
+" in addition to conditional and forcibly disabled ones."
+msgstr "Lista de cadenas que representan los moduls GTK+ de cargar, en general en mai de los desactivats condicionalament o de fòrça."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:31
 msgid "A dictionary of XSETTINGS to override"
@@ -1610,9 +1425,9 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:32
 msgid ""
-"This dictionary maps XSETTINGS names to overrides values. The values must be "
-"either strings, signed int32s or (in the case of colors), 4-tuples of uint16 "
-"(red, green, blue, alpha; 65535 is fully opaque)."
+"This dictionary maps XSETTINGS names to overrides values. The values must be"
+" either strings, signed int32s or (in the case of colors), 4-tuples of "
+"uint16 (red, green, blue, alpha; 65535 is fully opaque)."
 msgstr ""
 
 #: plugins/color/gsd-color-calibrate.c:138
@@ -1631,15 +1446,15 @@ msgstr "Una recalibracion es necessària"
 
 #. TRANSLATORS: this is when the display has not been recalibrated in a while
 #: plugins/color/gsd-color-calibrate.c:198
-#, fuzzy, c-format
+#, c-format
 msgid "The display “%s” should be recalibrated soon."
-msgstr "L'ecran « %s » deuriá èsser recalibrat dins pas longtemps."
+msgstr ""
 
 #. TRANSLATORS: this is when the printer has not been recalibrated in a while
 #: plugins/color/gsd-color-calibrate.c:207
-#, fuzzy, c-format
+#, c-format
 msgid "The printer “%s” should be recalibrated soon."
-msgstr "L'imprimenta « %s » deuriá èsser recalibrada dins pas longtemps."
+msgstr ""
 
 #. TRANSLATORS: this is the application name
 #: plugins/color/gsd-color-calibrate.c:345
@@ -1677,9 +1492,8 @@ msgid "Date & Time Settings"
 msgstr "Paramètres de data e ora"
 
 #: plugins/housekeeping/gsd-disk-space.c:632
-#, fuzzy
 msgid "Disk Space"
-msgstr "Espaci de disc"
+msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:645
 msgid "Examine"
@@ -1699,18 +1513,14 @@ msgid "Low Disk Space"
 msgstr "Espaci de disc feble"
 
 #: plugins/housekeeping/gsd-disk-space.c:700
-#, fuzzy
 msgid ""
 "Your computer is out of space.  You may free up some space by emptying the "
 "trash."
 msgstr ""
-"Aqueste ordenador a pas mai que %s d'espaci de disc disponible. Podètz "
-"liberar d'espaci en voidant l'escobilhièr."
 
 #: plugins/housekeeping/gsd-disk-space.c:702
-#, fuzzy
 msgid "Your computer is out of space."
-msgstr "L'imprimenta « %s » a pas pus de papièr."
+msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:727
 #, c-format
@@ -1722,9 +1532,7 @@ msgstr "Espaci de disc feble sus « %s »"
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
-"Lo volum « %s » a pas mai que %s d'espaci de disc disponible. Podètz liberar "
-"d'espaci en voidant l'escobilhièr."
+msgstr "Lo volum « %s » a pas mai que %s d'espaci de disc disponible. Podètz liberar d'espaci en voidant l'escobilhièr."
 
 #: plugins/housekeeping/gsd-disk-space.c:733
 #, c-format
@@ -1736,9 +1544,7 @@ msgstr "Lo volum « %s » a pas mai que %s d'espaci de disc disponible."
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
-msgstr ""
-"Aqueste ordenador a pas mai que %s d'espaci de disc disponible. Podètz "
-"liberar d'espaci en voidant l'escobilhièr."
+msgstr "Aqueste ordenador a pas mai que %s d'espaci de disc disponible. Podètz liberar d'espaci en voidant l'escobilhièr."
 
 #: plugins/housekeeping/gsd-disk-space.c:743
 #, c-format
@@ -1967,12 +1773,14 @@ msgstr "La poténcia de l'ordenador es febla (%.0f %%)"
 msgid "Battery is low"
 msgstr "Lo nivèl de la batariá es feble"
 
-#. TRANSLATORS: laptop battery critically low, and only have one kind of battery
+#. TRANSLATORS: laptop battery critically low, and only have one kind of
+#. battery
 #: plugins/power/gsd-power-manager.c:597
 msgid "Battery critically low"
 msgstr "Nivèl de batariá fòrça bas"
 
-#. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
+#. TRANSLATORS: laptop battery critically low, and we have more than one type
+#. of battery
 #. TRANSLATORS: laptop battery is really, really, low
 #: plugins/power/gsd-power-manager.c:600 plugins/power/gsd-power-manager.c:747
 msgid "Laptop battery critically low"
@@ -1982,8 +1790,7 @@ msgstr "Lo nivèl de la batariá del portable es fòrça feble"
 #: plugins/power/gsd-power-manager.c:609
 #, c-format
 msgid "Computer will hibernate very soon unless it is plugged in."
-msgstr ""
-"L'ordenador se va metre en ivernacion dins pauc de temps s'es pas brancat."
+msgstr "L'ordenador se va metre en ivernacion dins pauc de temps s'es pas brancat."
 
 #. TRANSLATORS: give the user a ultimatum
 #: plugins/power/gsd-power-manager.c:613
@@ -2003,9 +1810,7 @@ msgstr "Lo nivèl de l'ondulator es critic"
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
 "computer to avoid losing data."
-msgstr ""
-"Demòra environ %s d'autonomia a l'ondulator (%.0f %%). Brancatz vòstre "
-"ordenador al sector per evitar de pèrdre de donadas."
+msgstr "Demòra environ %s d'autonomia a l'ondulator (%.0f %%). Brancatz vòstre ordenador al sector per evitar de pèrdre de donadas."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:636
@@ -2013,9 +1818,7 @@ msgstr ""
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Demòra fòrça pauc d'autonomia a la mirga sens fial (%.0f %%). S'arrestarà "
-"lèu de foncionar se es pas recargada."
+msgstr "Demòra fòrça pauc d'autonomia a la mirga sens fial (%.0f %%). S'arrestarà lèu de foncionar se es pas recargada."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:644
@@ -2023,19 +1826,15 @@ msgstr ""
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Demòra fòrça pauc d'autonomia al clavièr sens fial (%.0f %%). S'arrestarà "
-"lèu de foncionar se es pas recargat."
+msgstr "Demòra fòrça pauc d'autonomia al clavièr sens fial (%.0f %%). S'arrestarà lèu de foncionar se es pas recargat."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:653
 #, c-format
 msgid ""
-"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
-"not charged."
-msgstr ""
-"Demòra fòrça pauc d'autonomia a l'assistent personal (%.0f %%). S'arrestarà "
-"lèu de foncionar se es pas recargat."
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if"
+" not charged."
+msgstr "Demòra fòrça pauc d'autonomia a l'assistent personal (%.0f %%). S'arrestarà lèu de foncionar se es pas recargat."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:663
@@ -2043,9 +1842,7 @@ msgstr ""
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Demòra fòrça pauc d'autonomia al telefòn portable (%.0f %%). S'arrestarà lèu "
-"de foncionar se es pas recargat."
+msgstr "Demòra fòrça pauc d'autonomia al telefòn portable (%.0f %%). S'arrestarà lèu de foncionar se es pas recargat."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:672
@@ -2053,19 +1850,15 @@ msgstr ""
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Demòra fòrça pauc d'autonomia al lector multimèdia (%.0f %%). S'arrestarà "
-"lèu de foncionar se es pas recargat."
+msgstr "Demòra fòrça pauc d'autonomia al lector multimèdia (%.0f %%). S'arrestarà lèu de foncionar se es pas recargat."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:681
 #, c-format
 msgid ""
-"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
-"if not charged."
-msgstr ""
-"Demòra fòrça pauc d'autonomia a la tauleta (%.0f %%). S'arrestarà lèu de "
-"foncionar se es pas recargada."
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning"
+" if not charged."
+msgstr "Demòra fòrça pauc d'autonomia a la tauleta (%.0f %%). S'arrestarà lèu de foncionar se es pas recargada."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:690
@@ -2073,39 +1866,33 @@ msgstr ""
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
 "shutdown if not charged."
-msgstr ""
-"Demòra fòrça pauc d'autonomia a l'ordenador connectat (%.0f %%). S'arrestarà "
-"lèu de foncionar s'es pas recargat."
+msgstr "Demòra fòrça pauc d'autonomia a l'ordenador connectat (%.0f %%). S'arrestarà lèu de foncionar s'es pas recargat."
 
 #. TRANSLATORS: computer will hibernate
 #: plugins/power/gsd-power-manager.c:755
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
-msgstr ""
-"La batariá es en dejós de son nivèl critic ; l'ordenador va <b>ivernar</b>."
+msgstr "La batariá es en dejós de son nivèl critic ; l'ordenador va <b>ivernar</b>."
 
 #. TRANSLATORS: computer will just shutdown
 #: plugins/power/gsd-power-manager.c:760
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "shutdown."
-msgstr ""
-"La batariá es en dejós de son nivèl critic ; l'ordenador se va <b>atudar</b>."
+msgstr "La batariá es en dejós de son nivèl critic ; l'ordenador se va <b>atudar</b>."
 
 #. TRANSLATORS: computer will hibernate
 #: plugins/power/gsd-power-manager.c:780
 msgid ""
 "UPS is below the critical level and this computer is about to hibernate."
-msgstr ""
-"L'ondulator es en dejós de son nivèl critic ; l'ordenador se va metre en "
-"ivernacion."
+msgstr "L'ondulator es en dejós de son nivèl critic ; l'ordenador se va metre en ivernacion."
 
 #. TRANSLATORS: computer will just shutdown
 #: plugins/power/gsd-power-manager.c:785
-msgid "UPS is below the critical level and this computer is about to shutdown."
-msgstr ""
-"L'ondulator es en dejós de son nivèl critic ; l'ordenador se va atudar."
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
+msgstr "L'ondulator es en dejós de son nivèl critic ; l'ordenador se va atudar."
 
 #. TRANSLATORS: this is the sound description
 #: plugins/power/gsd-power-manager.c:1266
@@ -2157,9 +1944,7 @@ msgstr "Modificar la luminositat de l'ordenador portable"
 
 #: plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in:22
 msgid "Authentication is required to modify the laptop brightness"
-msgstr ""
-"Autentificacion necessària per modificar la luminositat de l'ordenador "
-"portable"
+msgstr "Autentificacion necessària per modificar la luminositat de l'ordenador portable"
 
 #. Translators: We are configuring new printer
 #: plugins/print-notifications/gsd-printer.c:890
@@ -2168,9 +1953,8 @@ msgstr "Configuracion de l'imprimenta novèla"
 
 #. Translators: Just wait
 #: plugins/print-notifications/gsd-printer.c:892
-#, fuzzy
 msgid "Please wait…"
-msgstr "Esperatz..."
+msgstr ""
 
 #. Translators: We have no driver installed for this printer
 #: plugins/print-notifications/gsd-printer.c:919
@@ -2199,77 +1983,86 @@ msgstr "Imprimentas"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:374
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is low on toner."
-msgstr "Lo toner de l'imprimenta « %s » es gaireben void."
+msgstr ""
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:378
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” has no toner left."
-msgstr "Lo toner de l'imprimenta « %s » es void."
+msgstr ""
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:382
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” may not be connected."
-msgstr "Benlèu que l'imprimenta « %s » es pas connectada."
+msgstr ""
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:386
-#, fuzzy, c-format
+#, c-format
 msgid "The cover is open on printer “%s”."
-msgstr "Lo capòt de l'imprimenta « %s » es dobèrt."
+msgstr ""
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:390
-#, fuzzy, c-format
+#, c-format
 msgid "There is a missing print filter for printer “%s”."
-msgstr "Manca un filtre d'impression per l'imprimenta « %s »."
+msgstr ""
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:395
-#, fuzzy, c-format
+#, c-format
 msgid "The door is open on printer “%s”."
-msgstr "La pòrta de l'imprimenta « %s » es dobèrta."
+msgstr ""
 
 #. Translators: "marker" is one color bin of the printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:399
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is low on a marker supply."
-msgstr "Nivèl de tinta bas dins una cartocha de l'imprimenta « %s »."
+msgstr ""
 
 #. Translators: "marker" is one color bin of the printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:403
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is out of a marker supply."
-msgstr "Tinta agotada dins una cartocha de l'imprimenta « %s »."
+msgstr ""
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:407
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is low on paper."
-msgstr "I a gaireben pas pus de papièr dins l'imprimenta « %s »."
+msgstr ""
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:411
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is out of paper."
-msgstr "L'imprimenta « %s » a pas pus de papièr."
+msgstr ""
 
 #. Translators: The printer is offline (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:415
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is currently off-line."
-msgstr "L'imprimenta « %s » es desconnectada."
+msgstr ""
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:419
-#, fuzzy, c-format
+#, c-format
 msgid "There is a problem on printer “%s”."
-msgstr "I a un problèma amb l'imprimenta « %s »."
+msgstr ""
 
-#. Translators: The printer has a job to print but the printer needs authentication to continue with the print
+#. Translators: The printer has a job to print but the printer needs
+#. authentication to continue with the print
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
@@ -2286,27 +2079,32 @@ msgstr ""
 msgid "Toner low"
 msgstr "Nivèl de toner feble"
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:602
 msgid "Toner empty"
 msgstr "Toner void"
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:604
 msgid "Not connected?"
 msgstr "Pas connectada ?"
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:606
 msgid "Cover open"
 msgstr "Capòt dobèrt"
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:608
 msgid "Printer configuration error"
 msgstr "Error de configuracion de l'imprimenta"
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:610
 msgid "Door open"
 msgstr "Pòrta dobèrta"
@@ -2321,12 +2119,14 @@ msgstr "Nivèl de tinta bas dins una cartocha"
 msgid "Out of a marker supply"
 msgstr "Tinta agotada dins una cartocha"
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:616
 msgid "Paper low"
 msgstr "Pas gaire de papièr"
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:618
 msgid "Out of paper"
 msgstr "Pas pus de papièr"
@@ -2336,7 +2136,8 @@ msgstr "Pas pus de papièr"
 msgid "Printer off-line"
 msgstr "Imprimenta desconnectada"
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #. Translators: This is a title of an error notification for a printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:622
 #: plugins/print-notifications/gsd-print-notifications-manager.c:997
@@ -2366,10 +2167,10 @@ msgstr "L'impression es estada arrestada"
 #: plugins/print-notifications/gsd-print-notifications-manager.c:743
 #: plugins/print-notifications/gsd-print-notifications-manager.c:751
 #: plugins/print-notifications/gsd-print-notifications-manager.c:775
-#, fuzzy, c-format
+#, c-format
 msgctxt "print job"
 msgid "“%s” on %s"
-msgstr "« %s » sus %s"
+msgstr ""
 
 #. Translators: A print job has been canceled
 #: plugins/print-notifications/gsd-print-notifications-manager.c:693
@@ -2409,11 +2210,12 @@ msgstr "Rapòrt de l'imprimenta"
 msgid "Printer warning"
 msgstr "Alèrta de l'imprimenta"
 
-#. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
+#. Translators: "Printer 'MyPrinterName': 'Description of the
+#. report/warning/error from a PPD file'."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1004
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s”: “%s”."
-msgstr "Imprimenta '%s': '%s'."
+msgstr ""
 
 #: plugins/smartcard/gsd-smartcard-service.c:282
 msgid "User was not logged in with smartcard."
@@ -2479,9 +2281,7 @@ msgstr "Modifica los lums alucat d'una tauleta Wacom"
 
 #: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:21
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
-msgstr ""
-"Una autentificacion es necessària per modificar los vesents alucats d'una "
-"tauleta Wacom"
+msgstr "Una autentificacion es necessària per modificar los vesents alucats d'una tauleta Wacom"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
@@ -2492,9 +2292,7 @@ msgstr "Modifica los imatges dels vesents d'una tauleta Wacom"
 
 #: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:36
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
-msgstr ""
-"Una autentificacion es necessària per modificar los imatges dels vesents "
-"d'una tauleta Wacom"
+msgstr "Una autentificacion es necessària per modificar los imatges dels vesents d'una tauleta Wacom"
 
 #. Set up the dialog
 #: plugins/wwan/gsd-wwan-pinentry.c:89
@@ -2550,870 +2348,3 @@ msgstr ""
 #: plugins/wwan/gsd-wwan-pinentry.c:200
 msgid "Wrong PIN code"
 msgstr ""
-
-#~ msgid "GNOME Settings Daemon"
-#~ msgstr "Servici dels paramètres GNOME"
-
-#~ msgid ""
-#~ "Highlights the current location of the pointer when the Control key is "
-#~ "pressed and released."
-#~ msgstr ""
-#~ "Met en evidéncia l'emplaçament actual del puntador quand la tòca Ctrl es "
-#~ "quichada e relachada."
-
-#~ msgid "Activation of this plugin"
-#~ msgstr "Activacion d'aqueste empeuton"
-
-#~ msgid ""
-#~ "Whether this plugin would be activated by gnome-settings-daemon or not"
-#~ msgstr ""
-#~ "Indica s'aqueste empeuton es activat per gnome-settings-daemon o pas"
-
-#~ msgid "Priority to use for this plugin"
-#~ msgstr "Prioritat d'utilizacion d'aqueste empeuton"
-
-#~ msgid ""
-#~ "Priority to use for this plugin in gnome-settings-daemon startup queue"
-#~ msgstr ""
-#~ "Prioritat d'utilizacion d'aqueste empeuton dins la lista d'aviada de "
-#~ "gnome-settings-daemon"
-
-#~ msgid "File for default configuration for RandR"
-#~ msgstr "Fichièr de configuracion per defaut de RandR"
-
-#~ msgid ""
-#~ "The XRandR plugin will look for a default configuration in the file "
-#~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
-#~ "normally gets stored in users' home directories. If a user does not have "
-#~ "such a file, or has one that does not match the user's setup of monitors, "
-#~ "then the file specified by this key will be used instead."
-#~ msgstr ""
-#~ "L'empeuton XRandR cèrca una configuracion per defaut dins lo fichièr "
-#~ "indicat per aquesta clau. Es lo meteis tipe de fichièr que ~/.config/"
-#~ "monitors.xml qu'es en general emmagazinat dins lo dorsièr personal de "
-#~ "l'utilizaire. Se l'utilizaire possedís pas aqueste fichièr o se n'a un "
-#~ "que correspond pas a la configuracion dels ecrans, es lo fichièr indicat "
-#~ "per aquesta clau qu'es utilizat."
-
-#~ msgid "Whether to turn off specific monitors after boot"
-#~ msgstr "Indica se conven d'espandir de monitors donats aprèp l'aviada"
-
-#~ msgid ""
-#~ "'clone' will display the same thing on all monitors, 'dock' will switch "
-#~ "off the internal monitor, 'do-nothing' will use the default Xorg "
-#~ "behaviour (extend the desktop in recent versions). The default, 'follow-"
-#~ "lid', will choose between 'do-nothing' and 'dock' depending on whether "
-#~ "the lid is (respectively) open or closed."
-#~ msgstr ""
-#~ "« clone » aficha la meteissa causa sus totes los ecrans, « dock » atuda "
-#~ "l'ecran intèrne, « do-nothing » utiliza lo compòrtament Xorg per defaut "
-#~ "(espandir lo burèu dins las versions recentas). La valor per defaut « "
-#~ "follow-lid » causís entre « do-nothing » e « dock » segon que l'ecran es "
-#~ "(respectivament) dobèrt o rabatut."
-
-#~ msgid "Enable debugging code"
-#~ msgstr "Activa lo còdi de desbugatge"
-
-#~ msgid "Replace existing daemon"
-#~ msgstr "Remplaçar lo demòni existent"
-
-#~ msgid "Exit after a time (for debugging)"
-#~ msgstr "Quitar aprèp un certan relambi (per desbugatge)"
-
-#~ msgid "Accessibility Keyboard"
-#~ msgstr "Accessibilitat del clavièr"
-
-#~ msgid "Accessibility keyboard plugin"
-#~ msgstr "Empeuton d'accessibilitat del clavièr"
-
-#~ msgid "Slow Keys Turned On"
-#~ msgstr "Tòcas lentas activadas"
-
-#~ msgid "Slow Keys Turned Off"
-#~ msgstr "Tòcas lentas desactivadas"
-
-#~ msgid ""
-#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
-#~ "the Slow Keys feature, which affects the way your keyboard works."
-#~ msgstr ""
-#~ "Venètz de quichar la tòca Majuscula pendent 8 segondas. S'agís de "
-#~ "l'acorchi de clavièr per activar la foncionalitat tòcas lentas que "
-#~ "modifica lo mòde de foncionament de vòstre clavièr."
-
-#~ msgid "Universal Access"
-#~ msgstr "Accès universal"
-
-#~ msgid "Turn Off"
-#~ msgstr "Atudar"
-
-#~ msgid "Turn On"
-#~ msgstr "Alucar"
-
-#~ msgid "Leave On"
-#~ msgstr "Interrompre"
-
-#~ msgid "Leave Off"
-#~ msgstr "Quitar"
-
-#~ msgid "Sticky Keys Turned On"
-#~ msgstr "Tòcas remanentas activadas"
-
-#~ msgid "Sticky Keys Turned Off"
-#~ msgstr "Tòcas remanentas desactivadas"
-
-#~ msgid ""
-#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
-#~ "for the Sticky Keys feature, which affects the way your keyboard works."
-#~ msgstr ""
-#~ "Venètz de quichar la tòca Majuscula 5 còps de seguida. S'agís de "
-#~ "l'acorchi de clavièr per activar la foncionalitat de las tòcas remanentas "
-#~ "que modifica lo mòde de foncionament de vòstre clavièr."
-
-#~ msgid ""
-#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
-#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
-#~ "keyboard works."
-#~ msgstr ""
-#~ "Venètz de quichar 2 tòcas a l'encòp o de quichar la tòca Majuscula 5 còps "
-#~ "de seguida. S'agís de l'acorchi de clavièr per desactivar la "
-#~ "foncionalitat de las tòcas remanentas que modifica lo mòde de "
-#~ "foncionament de vòstre clavièr."
-
-#~ msgid "Accessibility settings"
-#~ msgstr "Paramètres d'accessibilitat"
-
-#~ msgid "Accessibility settings plugin"
-#~ msgstr "Empeuton dels paramètres d'accessibilitat"
-
-#~ msgid "Clipboard"
-#~ msgstr "Quichapapièrs"
-
-#~ msgid "Clipboard plugin"
-#~ msgstr "Modul extèrne de quichapapièrs"
-
-#~ msgid "Color plugin"
-#~ msgstr "Empeuton de color"
-
-#~ msgid "Date and Time"
-#~ msgstr "Data e ora"
-
-#~ msgid "Automatically update timezone"
-#~ msgstr "Cambiar automaticament de fus orari"
-
-#~ msgid "Dummy"
-#~ msgstr "Factici"
-
-#~ msgid "Dummy plugin"
-#~ msgstr "Empeuton factici"
-
-#~ msgid "Housekeeping"
-#~ msgstr "Netejatge"
-
-#~ msgid ""
-#~ "Automatically prunes thumbnail caches and other transient files, and "
-#~ "warns about low disk space"
-#~ msgstr ""
-#~ "Purga automaticament los caches de las vinhetas e autres fichièrs "
-#~ "temporaris e avertís en cas d'espaci de disc bas"
-
-#~ msgid "Keyboard"
-#~ msgstr "Clavièr"
-
-#~ msgid "Keyboard plugin"
-#~ msgstr "Empeuton del clavièr"
-
-#~ msgid "Disabled"
-#~ msgstr "Desactivat"
-
-#~ msgid "%u Output"
-#~ msgid_plural "%u Outputs"
-#~ msgstr[0] "%u sortida"
-#~ msgstr[1] "%u sortidas"
-
-#~ msgid "%u Input"
-#~ msgid_plural "%u Inputs"
-#~ msgstr[0] "%u entrada"
-#~ msgstr[1] "%u entradas"
-
-#~ msgid "System Sounds"
-#~ msgstr "Sons sistèma"
-
-#~ msgid "Media keys"
-#~ msgstr "Tòcas multimèdias"
-
-#~ msgid "Media keys plugin"
-#~ msgstr "Empeuton de las tòcas multimèdia"
-
-#~ msgid "Touchpad toggle"
-#~ msgstr "Interruptor del pavat tactil"
-
-#~ msgid "Lock Screen"
-#~ msgstr "Verrolhar l'ecran"
-
-#~ msgid "Help"
-#~ msgstr "Ajuda"
-
-#~ msgid "Rewind"
-#~ msgstr "Retorn rapid"
-
-#~ msgid "Forward"
-#~ msgstr "Avança rapida"
-
-#~ msgid "Repeat"
-#~ msgstr "Repeticion"
-
-#~ msgid "Random Play"
-#~ msgstr "Lectura aleatòria"
-
-#~ msgid "Video Out"
-#~ msgstr "Sortida vidèo"
-
-#~ msgid "Rotate Screen"
-#~ msgstr "Rotacion de l'ecran"
-
-#~ msgid "Orientation Lock"
-#~ msgstr "Verrolhar l'orientacion"
-
-#~ msgid "Power Off"
-#~ msgstr "Atudar"
-
-#~ msgid "Sleep"
-#~ msgstr "Metre en velha"
-
-#~ msgid "Toggle Bluetooth"
-#~ msgstr "Inversion de l'estat Bluetooth"
-
-#~ msgid "Mouse"
-#~ msgstr "Mirga"
-
-#~ msgid "Mouse plugin"
-#~ msgstr "Empeuton de la mirga"
-
-#~ msgid "Orientation"
-#~ msgstr "Orientacion"
-
-#~ msgid "Orientation plugin"
-#~ msgstr "Empeuton d'orientacion"
-
-#~ msgid "Print-notifications"
-#~ msgstr "Notificacions d'impression"
-
-#~ msgid "Print-notifications plugin"
-#~ msgstr "Empeuton notificacions d'impression"
-
-#~ msgid "Rfkill plugin"
-#~ msgstr "Empeuton Rfkill"
-
-#~ msgid "Screensaver Proxy"
-#~ msgstr "Propagacion de l'estalviador d'ecran"
-
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
-#~ msgstr ""
-#~ "Propagar l'inibicion FreeDesktop de l'estalviador d'ecran a gnome-session"
-
-#~ msgid "Smartcard"
-#~ msgstr "Carta de piuse"
-
-#~ msgid "Smartcard plugin"
-#~ msgstr "Empeuton per la carta de piuse"
-
-#~ msgid "Sound"
-#~ msgstr "Son"
-
-#~ msgid "Sound Sample Cache plugin"
-#~ msgstr "Empeuton del cache de l'escapolon de son"
-
-#~ msgctxt "Wacom action-type"
-#~ msgid "None"
-#~ msgstr "Pas cap"
-
-#~ msgctxt "Wacom action-type"
-#~ msgid "Send Keystroke"
-#~ msgstr "Simula la quichada sus la tòca"
-
-#~ msgctxt "Wacom action-type"
-#~ msgid "Switch Monitor"
-#~ msgstr "Càmbia d'ecran"
-
-#~ msgctxt "Wacom action-type"
-#~ msgid "Show On-Screen Help"
-#~ msgstr "Aficha l'ajuda a l'ecran"
-
-#~ msgctxt "Action type"
-#~ msgid "Show On-Screen Help"
-#~ msgstr "Aficha l'ajuda a l'ecran"
-
-#~ msgctxt "Action type"
-#~ msgid "Switch Monitor"
-#~ msgstr "Càmbia d'ecran"
-
-#~ msgctxt "keyboard shortcut"
-#~ msgid "None"
-#~ msgstr "Pas cap"
-
-#~ msgid "Done"
-#~ msgstr "Fait"
-
-#~ msgid "Left Ring"
-#~ msgstr "Ring esquèrra"
-
-#~ msgid "Left Ring Mode #%d"
-#~ msgstr "Mòde Ring esquèrra numèro %d"
-
-#~ msgid "Right Ring"
-#~ msgstr "Ring dreit"
-
-#~ msgid "Right Ring Mode #%d"
-#~ msgstr "Mòde Ring dreit numèro %d"
-
-#~ msgid "Left Touchstrip"
-#~ msgstr "Touchstrip esquèrre"
-
-#~ msgid "Left Touchstrip Mode #%d"
-#~ msgstr "Mòde Touchstrip esquèrre numèro %d"
-
-#~ msgid "Right Touchstrip"
-#~ msgstr "Touchstrip dreit"
-
-#~ msgid "Right Touchstrip Mode #%d"
-#~ msgstr "Mòde Touchstrip dreit numèro %d"
-
-#~ msgid "Left Touchring Mode Switch"
-#~ msgstr "Comutator del mòde Touchring esquèrre"
-
-#~ msgid "Right Touchring Mode Switch"
-#~ msgstr "Comutator del mòde Touchring dreit"
-
-#~ msgid "Left Touchstrip Mode Switch"
-#~ msgstr "Comutator del mòde Touchstrip esquèrre"
-
-#~ msgid "Right Touchstrip Mode Switch"
-#~ msgstr "Comutator del mòde Touchstrip dreit"
-
-#~ msgid "Mode Switch #%d"
-#~ msgstr "Comutator de mòde numèro %d"
-
-#~ msgid "Left Button #%d"
-#~ msgstr "Boton d'esquèrra numèro %d"
-
-#~ msgid "Right Button #%d"
-#~ msgstr "Boton de dreita numèro %d"
-
-#~ msgid "Top Button #%d"
-#~ msgstr "Boton superior numèro %d"
-
-#~ msgid "Bottom Button #%d"
-#~ msgstr "Boton inferior numèro %d"
-
-#~ msgid "New shortcut…"
-#~ msgstr "Acorchi novèl..."
-
-#~ msgid "The \"%s\" tablet may not work as expected."
-#~ msgstr "Es possible que la tauleta « %s » fonciona pas coma volgut."
-
-#~ msgid "Unknown Tablet Connected"
-#~ msgstr "Tauleta desconeguda connectada"
-
-#~ msgid "Wacom Settings"
-#~ msgstr "Paramètres Wacom"
-
-#~ msgctxt "Action type"
-#~ msgid "None"
-#~ msgstr "Pas cap"
-
-#~ msgctxt "Action type"
-#~ msgid "Send Keystroke %s"
-#~ msgstr "Simula la quichada sus la tòca %s"
-
-#~ msgid "Mode %d: %s"
-#~ msgstr "Mòde %d : %s"
-
-#~ msgid "(press any key to exit)"
-#~ msgstr "(quichatz sus quina tòca que siá per quitar)"
-
-#~ msgid "Push a button to configure"
-#~ msgstr "Quichatz sus un boton per configurar"
-
-#~ msgid "(Esc to cancel)"
-#~ msgstr "(Esc per anullar)"
-
-#~ msgid "Edit"
-#~ msgstr "Editar"
-
-#~ msgid "Wacom"
-#~ msgstr "Wacom"
-
-#~ msgid "Wacom plugin"
-#~ msgstr "Empeuton Wacom"
-
-#~ msgid "Could not refresh the screen information: %s"
-#~ msgstr "Impossible d'actualizar las informacions de l'ecran : %s"
-
-#~ msgid "XRandR"
-#~ msgstr "XRandR"
-
-#~ msgid "Set up screen size and rotation settings"
-#~ msgstr "Definís la talha de l'ecran e los paramètres de rotacion"
-
-#~ msgid "X Settings"
-#~ msgstr "Paramètres X"
-
-#~ msgid "Manage X Settings"
-#~ msgstr "Gestion dels paramètres X"
-
-#~ msgid "Device hotplug custom command"
-#~ msgstr "Comanda personalizada per las connexions a caud de periferics"
-
-#~ msgid ""
-#~ "Command to be run when a device is added or removed. An exit value of 1 "
-#~ "means that the device will not be handled further by gnome-settings-"
-#~ "daemon."
-#~ msgstr ""
-#~ "Comanda d'activar al moment de l'apondon o del levament d'un periferic. "
-#~ "Una valor de sortida de 1 significa que lo periferic serà pas mai pres en "
-#~ "carga per gnome-settings-daemon."
-
-#~ msgid "Wacom tablet PC feature"
-#~ msgstr "Foncionalitat de la tauleta PC Wacom"
-
-#~ msgid "Enable this to only report stylus events when the tip is pressed."
-#~ msgstr ""
-#~ "Activar aquesta opcion per tenir pas compte de las accions de l'estilet "
-#~ "que quand la punta es quichada."
-
-#~ msgid "Wacom display mapping"
-#~ msgstr "Correspondéncia de l'afichatge Wacom"
-
-#~ msgid ""
-#~ "EDID information of monitor to map tablet to. Must be in the format "
-#~ "[vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
-#~ msgstr ""
-#~ "Informacion EDID de l'ecran de far correspondre a la tauleta grafica. Deu "
-#~ "èsser al format [constructor, produit, seria]. [\"\",\"\",\"\"] desactiva "
-#~ "la correspondéncia."
-
-#~ msgid "Launch terminal"
-#~ msgstr "Aviar un terminal"
-
-#~ msgid "Binding to launch the terminal."
-#~ msgstr "Acorchi per aviar un terminal"
-
-#~ msgid "Percentage considered low"
-#~ msgstr "Percentatge considerat coma feble"
-
-#~ msgid ""
-#~ "The percentage of the battery when it is considered low. Only valid when "
-#~ "use-time-for-policy is false."
-#~ msgstr ""
-#~ "Lo percentatge de la batariá quand es considerat coma feble. Valable "
-#~ "unicament quand use-time-for-policy es fals."
-
-#~ msgid "Percentage considered critical"
-#~ msgstr "Percentatge considerat coma critic"
-
-#~ msgid ""
-#~ "The percentage of the battery when it is considered critical. Only valid "
-#~ "when use-time-for-policy is false."
-#~ msgstr ""
-#~ "Lo percentatge de la batariá quand es considerat coma critic. Valable "
-#~ "unicament quand use-time-for-policy es fals."
-
-#~ msgid "Percentage action is taken"
-#~ msgstr "Percentatge ont l'accion es efectuada"
-
-#~ msgid ""
-#~ "The percentage of the battery when the critical action is performed. Only "
-#~ "valid when use-time-for-policy is false."
-#~ msgstr ""
-#~ "Lo percentatge de la batariá quand l'accion critica es efectuada. Valable "
-#~ "unicament quand use-time-for-policy es fals."
-
-#~ msgid "The time remaining when low"
-#~ msgstr "Lo temps que demòra quand feble"
-
-#~ msgid "The time remaining when critical"
-#~ msgstr "Lo temps que demòra quand critic"
-
-#~ msgid "The time remaining when action is taken"
-#~ msgstr "Lo temps que demòra quand l'accion es efectuada"
-
-#~ msgid "Whether to use time-based notifications"
-#~ msgstr ""
-#~ "Indica se las notificacions basadas sul temps devon èsser utilizadas"
-
-#~ msgid ""
-#~ "If time based notifications should be used. If set to false, then the "
-#~ "percentage change is used instead, which may fix a broken ACPI BIOS."
-#~ msgstr ""
-#~ "Indica se cal utilizar de notificacions basadas sul temps. A defaut, la "
-#~ "variacion en percentatge serà utilizada. Aquò pòt permetre de corregir lo "
-#~ "foncionament d'unas BIOS ACPI defectuoses."
-
-#~ msgid "If we should show the recalled battery warning for a broken battery"
-#~ msgstr ""
-#~ "Indica se cal afichar l'avertiment de rapèl de batariá en preséncia d'una "
-#~ "batariá defectuosa"
-
-#~ msgid ""
-#~ "If we should show the recalled battery warning for a broken battery. Set "
-#~ "this to false only if you know your battery is okay."
-#~ msgstr ""
-#~ "Indica se cal afichar l'avertiment de rapèl de batariá en preséncia d'una "
-#~ "batariá defectuosa. Definissètz aquesta opcion a FALS unicament se sètz "
-#~ "segur que vòstra batariá es en bon estat."
-
-#~ msgid "Use mobile broadband connections"
-#~ msgstr "Utilizacion de connexions per telefonet"
-
-#~ msgid "How often to check for updates"
-#~ msgstr "Frequéncia de verificacion de las mesas a jorn"
-
-#~ msgid "How often to refresh the package cache"
-#~ msgstr "Frequéncia de refrescament de lo cache dels paquets"
-
-#~ msgid "Check for updates when running on battery power"
-#~ msgstr "Recercar las mesas a jorn quand l'ordenador fonciona sus batariá"
-
-#~ msgid "Check for updates when running on battery power."
-#~ msgstr "Recercar las mesas a jorn quand l'ordenador fonciona sus batariá."
-
-#~ msgid "Notify the user when distribution upgrades are available"
-#~ msgstr ""
-#~ "Avertir l'utilizaire que de mesas a nivèl de sa distribucion son "
-#~ "disponiblas"
-
-#~ msgid "Notify the user when distribution upgrades are available."
-#~ msgstr ""
-#~ "Avertir l'utilizaire que de mesas a nivèl de sa distribucion son "
-#~ "disponiblas."
-
-#~ msgid "Ask the user if additional firmware should be installed"
-#~ msgstr ""
-#~ "Demandar a l'utilizaire se un microprograma suplementari deu èsser "
-#~ "installat"
-
-#~ msgid ""
-#~ "Ask the user if additional firmware should be installed if it is "
-#~ "available."
-#~ msgstr ""
-#~ "Demandar a l'utilizaire se un microprograma suplementari deu èsser "
-#~ "installat se es disponible."
-
-#~ msgid "Firmware files that should not be searched for"
-#~ msgstr "Fichièrs de microprogramas que la recèrca n'es interdita"
-
-#~ msgid ""
-#~ "Firmware files that should not be searched for, separated by commas. "
-#~ "These can include '*' and '?' characters."
-#~ msgstr ""
-#~ "Fichièrs de microprogramas que la recèrca n'es interdita, separats per de "
-#~ "virgulas. Los caractèrs « * » e « ? » son autorizats tanben."
-
-#~ msgid "Devices that should be ignored"
-#~ msgstr "Periferics que devon èsser ignorats"
-
-#~ msgid ""
-#~ "Devices that should be ignored, separated by commas. These can include "
-#~ "'*' and '?' characters."
-#~ msgstr ""
-#~ "Periferics que devon èsser ignorats, separats per de virgulas. Los "
-#~ "caractèrs « * » e « ? » son autorizats tanben."
-
-#~ msgid ""
-#~ "The filenames on removable media that designate it a software source."
-#~ msgstr ""
-#~ "Noms de fichièrs sus un periferic amovible que lo designan coma font de "
-#~ "logicials."
-
-#~ msgid ""
-#~ "The type of hinting to use when rendering fonts. Possible values are: "
-#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
-#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
-#~ msgstr ""
-#~ "Lo tipe d'optimizacion utilizat pel rendut de las poliças. Las valors "
-#~ "possiblas son : « none » per cap d'optimizacion, « slight » pel minimum, "
-#~ "« medium » per una optimizacion mejana e « full » pel maximum possible "
-#~ "(pòt ocasionar de distorsions sus la forma de las letras)."
-
-#~ msgid "Cursor"
-#~ msgstr "Cursor"
-
-#~ msgid "Show/hide cursor on tablet devices"
-#~ msgstr "Aficha/amaga lo cursor dels periferics de la tauleta"
-
-#~ msgid "Examine…"
-#~ msgstr "Examinar…"
-
-#~ msgid "Additional software was installed"
-#~ msgstr "Un logicial suplementari es estat installat"
-
-#~ msgid "Software Updates"
-#~ msgstr "Mesa a jorn dels logicials"
-
-#~ msgid "Additional firmware required"
-#~ msgstr "Un microprograma suplementari es necessari"
-
-#~ msgid "Install firmware"
-#~ msgstr "Installar lo microprograma"
-
-#~ msgid "Ignore devices"
-#~ msgstr "Ignorar los periferics"
-
-#~ msgid "Distribution upgrades available"
-#~ msgstr "Mesas a nivèl disponiblas per aquesta distribucion"
-
-#~ msgid "More information"
-#~ msgstr "Mai d'entresenhas"
-
-#~ msgid "Update"
-#~ msgid_plural "Updates"
-#~ msgstr[0] "Mesa a jorn"
-#~ msgstr[1] "Mesas a jorn"
-
-#~ msgid "Install updates"
-#~ msgstr "Installar las mesas a jorn"
-
-#~ msgid "A software update is available."
-#~ msgid_plural "Software updates are available."
-#~ msgstr[0] "Una mesa a jorn logiciala es disponibla."
-#~ msgstr[1] "De mesas a jorn logicialas son disponiblas."
-
-#~ msgid "Updates"
-#~ msgstr "Mesas a jorn"
-
-#~ msgid "Unable to access software updates"
-#~ msgstr "Impossible d'accedir a las mesas a jorn logicialas"
-
-#~ msgid "Try again"
-#~ msgstr "Tornar ensajar"
-
-#~ msgid "Computer will suspend very soon unless it is plugged in."
-#~ msgstr ""
-#~ "L'ordenador se va metre en velha dins pauc de temps s'es pas brancat."
-
-#~ msgid "Plug in your AC adapter to avoid losing data."
-#~ msgstr ""
-#~ "Brancatz vòstre adaptador de sector per evitar de pèrdre de donadas."
-
-#~ msgid ""
-#~ "The battery is below the critical level and this computer will <b>power-"
-#~ "off</b> when the battery becomes completely empty."
-#~ msgstr ""
-#~ "La batariá es en dejós de son nivèl critic ; l'ordenador se va <b>atudar</"
-#~ "b> quand la batariá serà completament descargada."
-
-#~ msgid "Battery may be recalled"
-#~ msgstr "Un rapèl de la batariá es possible"
-
-#~ msgid "Visit recall website"
-#~ msgstr "Visitar lo site de rapèl"
-
-#~ msgid "Do not show me this again"
-#~ msgstr "Afichar pas pus"
-
-#~ msgid "Waiting to discharge"
-#~ msgstr "En espèra de descarga"
-
-#~ msgid "Nickel metal hydride"
-#~ msgstr "Niquèl metal idrur"
-
-#~ msgid "Unknown technology"
-#~ msgstr "Tecnologia desconeguda"
-
-#~ msgid "Empty"
-#~ msgstr "Void"
-
-#~ msgid "Waiting to charge"
-#~ msgstr "En espèra de carga"
-
-#~ msgid "Lithium Polymer"
-#~ msgstr "Liti polimèr"
-
-#~ msgid "Lithium Iron Phosphate"
-#~ msgstr "Liti fosfat de fèrre"
-
-#~ msgid "Lead acid"
-#~ msgstr "Batariá al plomb"
-
-#~ msgid "Nickel Cadmium"
-#~ msgstr "Niquèl Cadmi"
-
-#~ msgid "Tablet"
-#~ msgid_plural "Tablets"
-#~ msgstr[0] "Tauleta"
-#~ msgstr[1] "Tauletas"
-
-#~ msgid "Media player"
-#~ msgid_plural "Media players"
-#~ msgstr[0] "Lector multimèdia"
-#~ msgstr[1] "Lectors multimèdia"
-
-#~ msgid "Lithium Ion"
-#~ msgstr "Liti-ion"
-
-#~ msgid "Computer"
-#~ msgid_plural "Computers"
-#~ msgstr[0] "Ordenador"
-#~ msgstr[1] "Ordenadors"
-
-#~ msgid "Monitor"
-#~ msgid_plural "Monitors"
-#~ msgstr[0] "Ecran"
-#~ msgstr[1] "Ecrans"
-
-#~ msgid "Cell phone"
-#~ msgid_plural "Cell phones"
-#~ msgstr[0] "Telefonet"
-#~ msgstr[1] "Telefonets"
-
-#~ msgid "PDA"
-#~ msgid_plural "PDAs"
-#~ msgstr[0] "Assistent personal"
-#~ msgstr[1] "Assistents personals"
-
-#~ msgid "Design charge:"
-#~ msgstr "Carga teorica :"
-
-#~ msgid "Carga rate:"
-#~ msgstr "Taus de carga :"
-
-#~ msgid "Current charge:"
-#~ msgstr "Carga actuala :"
-
-#~ msgid "Last full charge:"
-#~ msgstr "Darrièra carga completa :"
-
-#~ msgid "Capacity:"
-#~ msgstr "Capacitat :"
-
-#~ msgid "AC adapter"
-#~ msgid_plural "AC adapters"
-#~ msgstr[0] "Adaptador sector"
-#~ msgstr[1] "Adaptadors sector"
-
-#~ msgid "Laptop battery"
-#~ msgid_plural "Laptop batariás"
-#~ msgstr[0] "Batariá de l'ordenador"
-#~ msgstr[1] "Batariás de l'ordenador"
-
-#~ msgid "UPS"
-#~ msgid_plural "UPSs"
-#~ msgstr[0] "Ondulator"
-#~ msgstr[1] "Onduladors"
-
-#~ msgid "Poor"
-#~ msgstr "Marrit estat"
-
-#~ msgid "Good"
-#~ msgstr "Bon"
-
-#~ msgid "Fair"
-#~ msgstr "Corrècte"
-
-#~ msgid "Carga time:"
-#~ msgstr "Durada de carga :"
-
-#~ msgid "Model:"
-#~ msgstr "Modèl :"
-
-#~ msgid "Serial number:"
-#~ msgstr "Numèro de seria :"
-
-#~ msgid "Technology:"
-#~ msgstr "Tecnologia :"
-
-#~ msgid "Excellent"
-#~ msgstr "Excellent"
-
-#~ msgid "Discarga time:"
-#~ msgstr "Durada de descarga :"
-
-#~ msgid "Product:"
-#~ msgstr "Produit :"
-
-#~ msgid "Status:"
-#~ msgstr "Estat :"
-
-#~ msgid "Charged"
-#~ msgstr "Cargat"
-
-#~ msgid "Vendor:"
-#~ msgstr "Vendeire :"
-
-#~ msgid "Percentage charge:"
-#~ msgstr "Percentatge de carga :"
-
-#~ msgid "Discharging"
-#~ msgstr "En descarga"
-
-#~ msgid "Charging"
-#~ msgstr "En carga"
-
-#~ msgid "%s %s until charged"
-#~ msgstr "%s : %s abans l'estat cargat"
-
-#~ msgid "Missing"
-#~ msgstr "Mancant"
-
-#~ msgid "%s %s remaining"
-#~ msgstr "%s : demòra %s"
-
-#~ msgid ""
-#~ "Holds the last calibrated resolution to help check if calibration is "
-#~ "needed."
-#~ msgstr ""
-#~ "Retient la dernière résolution étalonnée pour aider à vérifier s'il y a "
-#~ "besoin d'un étalonnage."
-
-#~ msgid "Don't show any warnings again for this file system"
-#~ msgstr "Ne plus afficher d'avertissements pour ce système de fichiers"
-
-#~ msgid "Don't show any warnings again"
-#~ msgstr "Ne plus jamais afficher d'avertissements"
-
-#~ msgid "The volume \"%s\" has only %s disk space remaining."
-#~ msgstr "Le volume « %s » n'a plus que %s d'espace disque disponible."
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to another disk or partition."
-#~ msgstr ""
-#~ "Vous pouvez libérer de l'espace disque en vidant la corbeille, en "
-#~ "supprimant des logiciels ou fichiers inutilisés ou en déplaçant des "
-#~ "fichiers vers un autre disque ou une autre partition."
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to another disk or partition."
-#~ msgstr ""
-#~ "Vous pouvez libérer de l'espace disque en supprimant des logiciels ou des "
-#~ "fichiers inutilisés ou bien en déplaçant des fichiers vers un autre "
-#~ "disque ou une autre partition."
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to an external disk."
-#~ msgstr ""
-#~ "Vous pouvez libérer de l'espace disque en vidant la corbeille, en "
-#~ "supprimant des logiciels ou des fichiers inutilisés ou bien en déplaçant "
-#~ "des fichiers vers un disque externe."
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to an external disk."
-#~ msgstr ""
-#~ "Vous pouvez libérer de l'espace disque en supprimant des logiciels ou des "
-#~ "fichiers inutilisés ou bien en déplaçant des fichiers vers un disque "
-#~ "externe."
-
-#~ msgid "Printer removed"
-#~ msgstr "Imprimante enlevée"
-
-#~ msgid "Tablet %s needs to be calibrated."
-#~ msgstr "La tablette %s a besoin d'être étalonnée."
-
-#~ msgid "Calibration needed"
-#~ msgstr "Étalonnage nécessaire"
-
-#~ msgid "Calibrate"
-#~ msgstr "Étalonner"

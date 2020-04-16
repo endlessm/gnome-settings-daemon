@@ -1,37 +1,33 @@
-# Ukrainian translation of control-center.
-# Copyright (C) 1999 Free Software Foundation, Inc.
-# Yuri Syrota <rasta@renome.rovno.ua>, 1999.
-# Maxim Dzumanenko <dziumanenko@gmail.com>, 2002-2009
-# Daniel Korostil <ted.korostiled@gmail.com>, 2012, 2014, 2015.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-settings-daemon package.
+# 
+# Translators:
+# Данило Коростіль <ted.korostiled@gmail.com>, 2012,2014-2015
+# Yuri Syrota <rasta@renome.rovno.ua>, 1999
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
+"Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-16 23:25+0100\n"
-"PO-Revision-Date: 2015-03-08 14:19+0300\n"
-"Last-Translator: Daniel Korostil <ted.korostiled@gmail.com>\n"
-"Language-Team: linux.org.ua\n"
-"Language: uk\n"
+"PO-Revision-Date: 2020-04-16 22:26+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Ukrainian (http://www.transifex.com/endless-os/gnome-settings-daemon/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Virtaal 0.7.1\n"
-"X-Project-Style: gnome\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:12
 msgid "Smartcard removal action"
 msgstr "Вилучення смарткартки"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:13
-#, fuzzy
 msgid ""
-"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will "
-"get performed when the smartcard used for log in is removed."
+"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will"
+" get performed when the smartcard used for log in is removed."
 msgstr ""
-"Вкажіть щось з «none», «lock-screen» або «force-logout». Дія виконається, "
-"коли вилучено смарткартку для входу в систему."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:25
 msgid "Possible values are “on”, “off”, and “custom”."
@@ -62,14 +58,12 @@ msgid "Distance before a drag is started."
 msgstr "Відстань перед початком перетягування."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:54
-#, fuzzy
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
-msgstr "Чи орієнтацію планшетів заблоковано, чи автоматично повернуте."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:62
-#, fuzzy
 msgid "Mouse button orientation"
-msgstr "Емулятор середньої кнопки"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:63
 msgid "Swap left and right mouse buttons for left-handed mice."
@@ -89,9 +83,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:72
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:139
-#, fuzzy
 msgid "Motion Threshold"
-msgstr "Поріг перетягування"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:73
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:140
@@ -108,9 +101,7 @@ msgstr "Емулятор середньої кнопки"
 msgid ""
 "Enables middle mouse button emulation through simultaneous left and right "
 "button click."
-msgstr ""
-"Вмикає емулятор середньої кнопки миші через одночасне натиснення правої і "
-"лівої кнопки."
+msgstr "Вмикає емулятор середньої кнопки миші через одночасне натиснення правої і лівої кнопки."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:87
 msgid "Key Repeat Interval"
@@ -125,9 +116,8 @@ msgid "Initial Key Repeat Delay"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:93
-#, fuzzy
 msgid "Initial key repeat delay in milliseconds."
-msgstr "Довжина подвійного клацання у мілісекундах."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:97
 msgid "Remember NumLock state"
@@ -145,11 +135,9 @@ msgstr "Вимикати сенсорний пристрій при наборі
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:105
 msgid ""
-"Set this to TRUE if you have problems with accidentally hitting the touchpad "
-"while typing."
-msgstr ""
-"Відмітьте цей параметр, якщо у вас виникають проблеми з випадковим "
-"натисканням на топад при наборі тексту на клавіатурі."
+"Set this to TRUE if you have problems with accidentally hitting the touchpad"
+" while typing."
+msgstr "Відмітьте цей параметр, якщо у вас виникають проблеми з випадковим натисканням на топад при наборі тексту на клавіатурі."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:109
 msgid "Enable horizontal scrolling"
@@ -159,22 +147,17 @@ msgstr "Увімкнути горизонтальну прокрутку"
 msgid ""
 "Set this to TRUE to allow horizontal scrolling by the same method selected "
 "with the scroll_method key."
-msgstr ""
-"Відмітьте цей параметр, щоб дозволити горизонтальну прокрутку обраним у "
-"ключі scroll_method методом."
+msgstr "Відмітьте цей параметр, щоб дозволити горизонтальну прокрутку обраним у ключі scroll_method методом."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:114
 msgid "Select the touchpad scroll method"
 msgstr "Виберіть для сенсорного пристрою спосіб прокручування"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:115
-#, fuzzy
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
 msgstr ""
-"Виберіть спосіб прокручування сенсорного пристрою. Підтримувані значення: "
-"«disabled», «edge-scrolling», «two-finger-scrolling»."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:119
 msgid "Enable mouse clicks with touchpad"
@@ -183,9 +166,7 @@ msgstr "Увімкнути клацання миші на сенсорному �
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:120
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
-msgstr ""
-"Відмітьте цей параметр, щоб мати змогу виконувати клацання мишею на "
-"сенсорному пристрої."
+msgstr "Відмітьте цей параметр, щоб мати змогу виконувати клацання мишею на сенсорному пристрої."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:124
 msgid "Enable touchpad"
@@ -196,9 +177,8 @@ msgid "Set this to TRUE to enable all touchpads."
 msgstr "Вкажіть цей параметр, щоб увімкнути усі сенсорні пристрої."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:129
-#, fuzzy
 msgid "Touchpad button orientation"
-msgstr "Емулятор середньої кнопки"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:130
 msgid ""
@@ -207,14 +187,12 @@ msgid ""
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:144
-#, fuzzy
 msgid "Natural scrolling"
-msgstr "Увімкнути горизонтальну прокрутку"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:145
-#, fuzzy
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
-msgstr "Вкажіть цей параметр, щоб увімкнути усі сенсорні пристрої."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:152
 msgid "Mouse wheel emulation button. 0 to disable the feature."
@@ -244,21 +222,17 @@ msgstr "Відношення планшета Wacom"
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
-msgstr ""
-"Увімкнути це, щоб обмежити ділянку планшета Wacom для збігання відношення."
+msgstr "Увімкнути це, щоб обмежити ділянку планшета Wacom для збігання відношення."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:25
 msgid "Wacom tablet rotation"
 msgstr "Обертання планшета Wacom"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:26
-#, fuzzy
 msgid ""
-"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and "
-"“ccw” for 90 degree counterclockwise."
+"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and"
+" “ccw” for 90 degree counterclockwise."
 msgstr ""
-"Вкажіть «none», «cw» для 90 градусів за годинниковою стрілкою, «half» для "
-"180 градусів, і «ccw» для 90 градусів проти годинникової. "
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:30
 msgid "Wacom touch feature"
@@ -266,9 +240,7 @@ msgstr "Дотичні можливості Wacom"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:31
 msgid "Enable this to move the cursor when the user touches the tablet."
-msgstr ""
-"Увімкнути це, щоб переміщати курсор, коли користувач доторкається до "
-"планшета."
+msgstr "Увімкнути це, щоб переміщати курсор, коли користувач доторкається до планшета."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:37
 msgid "Wacom stylus pressure curve"
@@ -335,22 +307,17 @@ msgstr "Комбінація клавіш для власних дій"
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
-msgstr ""
-"Клавіатурне скорочення було породжено, коли клавішу натиснуто для власної "
-"дії.   "
+msgstr "Клавіатурне скорочення було породжено, коли клавішу натиснуто для власної дії.   "
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:81
 msgid "Key combinations for a touchring or touchstrip custom action"
-msgstr ""
-"Комбінації клавіш для власних дій сенсорного кружка та сенсорної смужки"
+msgstr "Комбінації клавіш для власних дій сенсорного кружка та сенсорної смужки"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:82
 msgid ""
 "The keyboard shortcuts generated when a touchring or touchstrip is used for "
 "custom actions (up followed by down)."
-msgstr ""
-"Скорочення клавіш було породжено, коли touchring або touchstrip "
-"використовувалось власні дії (вверх іде до низу)"
+msgstr "Скорочення клавіш було породжено, коли touchring або touchstrip використовувалось власні дії (вверх іде до низу)"
 
 #. Translators: This is the OLED display on an Intuos4 tablet:
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
@@ -370,8 +337,7 @@ msgstr "Тривалість дійсності профілю екрана"
 msgid ""
 "This is the number of days after which the display color profile is "
 "considered invalid."
-msgstr ""
-"Це кількість днів, опісля яких профіль кольору екрана вважається недійсним."
+msgstr "Це кількість днів, опісля яких профіль кольору екрана вважається недійсним."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:11
 msgid "The duration a printer profile is valid"
@@ -381,8 +347,7 @@ msgstr "Тривалість дійсності профілю принтера"
 msgid ""
 "This is the number of days after which the printer color profile is "
 "considered invalid."
-msgstr ""
-"Це кількість днів, опісля яких профіль кольору принтера вважається недійсним."
+msgstr "Це кількість днів, опісля яких профіль кольору принтера вважається недійсним."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:16
 msgid "If the night light mode is enabled"
@@ -415,9 +380,8 @@ msgid ""
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:31
-#, fuzzy
 msgid "The start time"
-msgstr "Тривалість зарядження:"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:32
 msgid ""
@@ -451,14 +415,10 @@ msgid "List of plugins that are allowed to be loaded"
 msgstr "Список додатків, які дозволено завантажувати"
 
 #: data/org.gnome.settings-daemon.plugins.gschema.xml.in:7
-#, fuzzy
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: “all”). This is only evaluated on startup."
 msgstr ""
-"Список рядків, які представляють додатки, що дозволено завантажувати "
-"(типово: «all»). Додаток все ще потрібно ззазначити як увімкнений, щоб його "
-"завантажити. Це визначається під часу запуску."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:6
 msgid "Mount paths to ignore"
@@ -466,9 +426,7 @@ msgstr "Точки монтування, що ігноруються"
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:7
 msgid "Specify a list of mount paths to ignore when they run low on space."
-msgstr ""
-"Вкажіть список точок монтування, що ігноруються у попередженні про брак "
-"вільного місця."
+msgstr "Вкажіть список точок монтування, що ігноруються у попередженні про брак вільного місця."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:12
 msgid "Free percentage notify threshold"
@@ -478,10 +436,7 @@ msgstr "Поріг у відсотках сповіщення про брак в
 msgid ""
 "Percentage free space threshold for initial warning of low disk space. If "
 "the percentage free space drops below this, a warning will be shown."
-msgstr ""
-"Поріг у відсотках попередження для першого повідомлення про брак вільного "
-"місця. Якщо відсоток вільного місця стає нижче за це значення, показується "
-"попередження."
+msgstr "Поріг у відсотках попередження для першого повідомлення про брак вільного місця. Якщо відсоток вільного місця стає нижче за це значення, показується попередження."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:18
 msgid "Subsequent free space percentage notify threshold"
@@ -491,9 +446,7 @@ msgstr "Подальший поріг у відсотках для сповіщ�
 msgid ""
 "Specify the percentage that the free disk space should reduce by before "
 "issuing a subsequent warning."
-msgstr ""
-"Вкажіть на скільки відсотків має зменшитися вільне місце, перед виведенням "
-"наступного попередження."
+msgstr "Вкажіть на скільки відсотків має зменшитися вільне місце, перед виведенням наступного попередження."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:23
 msgid "Free space notify threshold"
@@ -503,9 +456,7 @@ msgstr "Поріг сповіщення про брак вільного міс�
 msgid ""
 "Specify an amount in GB. If the amount of free space is more than this, no "
 "warning will be shown."
-msgstr ""
-"Вкажіть величину у гігабайтах. Якщо вільного простору більше ніж це "
-"значення, попередження про брак вільного місця не показуватиметься."
+msgstr "Вкажіть величину у гігабайтах. Якщо вільного простору більше ніж це значення, попередження про брак вільного місця не показуватиметься."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:28
 msgid "Minimum notify period for repeated warnings"
@@ -515,9 +466,7 @@ msgstr "Мінімальний період попереджень про бра
 msgid ""
 "Specify a time in minutes. Subsequent warnings for a volume will not appear "
 "more often than this period."
-msgstr ""
-"Вкажіть час у хвилинах. Подальші попередження про заповнення тому не "
-"виводитимуться частіше ніж цей період."
+msgstr "Вкажіть час у хвилинах. Подальші попередження про заповнення тому не виводитимуться частіше ніж цей період."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:6
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:189
@@ -538,9 +487,8 @@ msgstr "Параметри запуску"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:12
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:195
-#, fuzzy
 msgid "Binding to launch GNOME Settings."
-msgstr "Прив'язка для запуску параметрів GNOME."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:16
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:199
@@ -691,22 +639,19 @@ msgstr "Зменшення гучності."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:82
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:267
-#, fuzzy
 msgid "Binding to lower the volume."
-msgstr "Прив'язка для зменшення системної гучності."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:86
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:271
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:588
-#, fuzzy
 msgid "Volume mute/unmute"
-msgstr "Вимкнення звуку"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:272
-#, fuzzy
 msgid "Binding to mute/unmute the volume."
-msgstr "Прив'язка для приглушення системної гучності."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:276
@@ -716,22 +661,19 @@ msgstr "Збільшення гучності"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:277
-#, fuzzy
 msgid "Binding to raise the volume."
-msgstr "Прив'язка для збільшення системної гучності."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:317
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:628
-#, fuzzy
 msgid "Microphone mute/unmute"
-msgstr "Приглушити мікрофон"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:318
-#, fuzzy
 msgid "Binding to mute/unmute the microphone."
-msgstr "Прив'язка для переведення комп'ютера у режим очікування."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:322
@@ -800,9 +742,8 @@ msgstr "Записати короткий відеозапис екрана"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:132
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:353
-#, fuzzy
 msgid "Binding to record a short video of the screen"
-msgstr "Записати короткий відеозапис екрана"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:136
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:357
@@ -905,9 +846,8 @@ msgid "List of custom keybindings"
 msgstr "Перелік власник комбінацій клавіш"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:282
-#, fuzzy
 msgid "Size of volume step"
-msgstr "Крок гучності"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:283
 msgid "Size of the volume step for each volume change"
@@ -915,20 +855,17 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:289
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:600
-#, fuzzy
 msgid "Quiet volume down"
-msgstr "Стишити"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:290
-#, fuzzy
 msgid "Binding to lower the volume without emitting a sound effect."
-msgstr "Прив'язка для зменшення системної гучності."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:294
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:605
-#, fuzzy
 msgid "Quiet volume mute/unmute"
-msgstr "Приглушити гучність"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:295
 msgid "Binding to mute/unmute the volume without emitting a sound effect."
@@ -936,68 +873,56 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:299
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:610
-#, fuzzy
 msgid "Quiet volume up"
-msgstr "Сголоснити"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:300
-#, fuzzy
 msgid "Binding to raise the volume without emitting a sound effect."
-msgstr "Прив'язка для збільшення системної гучності."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:306
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:617
-#, fuzzy
 msgid "Precise volume down"
-msgstr "Зменшення гучності."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:307
-#, fuzzy
 msgid "Binding to lower the volume with higher precision."
-msgstr "Прив'язка для зменшення системної гучності."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:311
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:622
-#, fuzzy
 msgid "Precise volume up"
-msgstr "Сголоснити"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:312
-#, fuzzy
 msgid "Binding to raise the volume with higher precision."
-msgstr "Прив'язка для збільшення системної гучності."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:402
-#, fuzzy
 msgid "Toggle touchpad on/off"
-msgstr "Вимкнути сенсорне керування"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:403
-#, fuzzy
 msgid "Binding to toggle the touchpad on/off."
-msgstr "Комбінація клавіш для вмикання та вимикання сенсорної панелі."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:407
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:644
-#, fuzzy
 msgid "Switch touchpad on"
-msgstr "Увімкнути сенсорне керування"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:408
-#, fuzzy
 msgid "Binding to switch the touchpad on."
-msgstr "Комбінація клавіш для вмикання та вимикання сенсорної панелі."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:412
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:649
-#, fuzzy
 msgid "Switch touchpad off"
-msgstr "Вимкнути сенсорне керування"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:413
-#, fuzzy
 msgid "Binding to switch the touchpad off."
-msgstr "Комбінація клавіш для вмикання та вимикання сенсорної панелі."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:418
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:655
@@ -1005,9 +930,8 @@ msgid "Skip backward in current track"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:419
-#, fuzzy
 msgid "Binding to skip backward in current track."
-msgstr "Прив'язка для переходу до наступної доріжки."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:423
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:660
@@ -1015,9 +939,8 @@ msgid "Skip forward in current track"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:424
-#, fuzzy
 msgid "Binding to skip forward in current track."
-msgstr "Прив'язка для переходу до наступної доріжки."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:428
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:665
@@ -1025,9 +948,8 @@ msgid "Toggle repeat playback mode"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:429
-#, fuzzy
 msgid "Binding to toggle repeat mode in media player."
-msgstr "Прив'язка для запуску мультимедійного програвача."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:433
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:670
@@ -1035,75 +957,62 @@ msgid "Toggle random playback mode"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:434
-#, fuzzy
 msgid "Binding to toggle random playback mode in media player."
-msgstr "Прив'язка для запуску мультимедійного програвача."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:439
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:676
-#, fuzzy
 msgid "Toggle automatic screen orientation"
-msgstr "Увімкнути читання екрану"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:440
-#, fuzzy
 msgid "Binding to toggle automatic screen orientation."
-msgstr "Прив'язування для знімку екрана."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:444
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:681
-#, fuzzy
 msgid "Power button"
-msgstr "Додаток живлення"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:445
-#, fuzzy
 msgid "Binding for power button."
-msgstr "Прив'язка для виходу з системи."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:449
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:686
-#, fuzzy
 msgid "Hibernate button"
-msgstr "Приспати"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:450
-#, fuzzy
 msgid "Binding to hibernate the machine."
-msgstr "Прив'язка для запуску поштового клієнта."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:454
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:691
-#, fuzzy
 msgid "Suspend button"
-msgstr "Призупинити"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:455
-#, fuzzy
 msgid "Binding to suspend the machine."
-msgstr "Прив'язка для переведення комп'ютера у режим очікування."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:460
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:697
-#, fuzzy
 msgid "Screen brightness up"
-msgstr "Збільшити яскравість"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:461
-#, fuzzy
 msgid "Binding to increase the screen brightness."
-msgstr "Прив'язка для збільшення розміру тексту"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:465
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:702
-#, fuzzy
 msgid "Screen brightness down"
-msgstr "Зменшити яскравість"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:466
-#, fuzzy
 msgid "Binding to decrease the screen brightness."
-msgstr "Прив'язка для зменшення розміру тексту"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:470
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:707
@@ -1111,64 +1020,53 @@ msgid "Screen brightness cycle"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:471
-#, fuzzy
 msgid "Binding to cycle the screen brightness."
-msgstr "Прив'язка для блокування екрану."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:476
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:713
-#, fuzzy
 msgid "Keyboard brightness up"
-msgstr "Збільшити яскравість клавіатури"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:477
-#, fuzzy
 msgid "Binding to increase the keyboard brightness."
-msgstr "Прив'язка для збільшення розміру тексту"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:481
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:718
-#, fuzzy
 msgid "Keyboard brightness down"
-msgstr "Зменшити яскравість клавіатури"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:482
-#, fuzzy
 msgid "Binding to decrease the keyboard brightness."
-msgstr "Прив'язка для зменшення розміру тексту"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:486
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:723
-#, fuzzy
 msgid "Keyboard brightness toggle"
-msgstr "Перемкнути яскравість клавіатури"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:487
-#, fuzzy
 msgid "Binding to toggle the keyboard brightness."
-msgstr "Прив'язка для перемикання контрасту інтерфейсу "
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:492
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:729
-#, fuzzy
 msgid "Show battery status"
-msgstr "Стан батареї"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:493
-#, fuzzy
 msgid "Binding to show current battery status."
-msgstr "Прив'язка для показу екранної лупи"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:498
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:735
-#, fuzzy
 msgid "RF kill"
-msgstr "Rfkill"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:499
-#, fuzzy
 msgid "Binding to toggle airplane mode."
-msgstr "Прив'язка для перемикання контрасту інтерфейсу "
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:503
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:740
@@ -1176,90 +1074,73 @@ msgid "Bluetooth RF kill"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:504
-#, fuzzy
 msgid "Binding to toggle bluetooth airplane mode."
-msgstr "Прив'язка для перемикання контрасту інтерфейсу "
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:517
-#, fuzzy
 msgid "Static binding to launch the calculator."
-msgstr "Прив'язка для запуску калькулятора."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:522
-#, fuzzy
 msgid "Static binding to launch GNOME Settings."
-msgstr "Прив'язка для запуску параметрів GNOME."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:527
-#, fuzzy
 msgid "Static binding to launch the email client."
-msgstr "Прив'язка для запуску поштового клієнта."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:532
-#, fuzzy
 msgid "Static binding to eject an optical disc."
-msgstr "Прив'язка для витягування оптичного диска."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:537
-#, fuzzy
 msgid "Static binding to open the Home folder."
-msgstr "Прив'язка для відкриття домашньої теки."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:542
-#, fuzzy
 msgid "Static binding to launch the media player."
-msgstr "Прив'язка для запуску мультимедійного програвача."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:547
-#, fuzzy
 msgid "Static binding to skip to next track."
-msgstr "Прив'язка для переходу до наступної доріжки."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:552
-#, fuzzy
 msgid "Static binding to pause playback."
-msgstr "Прив'язка для призупинення відтворення."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:557
-#, fuzzy
 msgid "Static binding to start playback (or toggle play/pause)."
-msgstr "Прив'язка для запуску відтворення (чи перемикання відтворення/пауза)"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:562
-#, fuzzy
 msgid "Static binding to skip to previous track."
-msgstr "Прив'язка для переходу до попередньої доріжки."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:567
-#, fuzzy
 msgid "Static binding to lock the screen."
-msgstr "Прив'язка для блокування екрану."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:572
-#, fuzzy
 msgid "Static binding to launch the search tool."
-msgstr "Прив'язка для запуску утиліти пошуку."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:577
-#, fuzzy
 msgid "Static binding to stop playback."
-msgstr "Прив'язка для зупинки відтворення"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:584
-#, fuzzy
 msgid "Static binding to lower the volume."
-msgstr "Прив'язка для зменшення системної гучності."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:589
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:606
-#, fuzzy
 msgid "Static binding to mute/unmute the volume."
-msgstr "Прив'язка для приглушення системної гучності."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:594
-#, fuzzy
 msgid "Static binding to raise the volume."
-msgstr "Прив'язка для збільшення системної гучності."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:601
 msgid "Static binding to lower the volume without emitting a sound effect."
@@ -1282,43 +1163,36 @@ msgid "Static binding to mute/unmute the microphone."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:634
-#, fuzzy
 msgid "Static binding to launch the web browser."
-msgstr "Прив'язка для запуску веб-переглядача."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:640
-#, fuzzy
 msgid "Static binding to toggle the touchpad on/off."
-msgstr "Комбінація клавіш для вмикання та вимикання сенсорної панелі."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:645
-#, fuzzy
 msgid "Static binding to switch the touchpad on."
-msgstr "Комбінація клавіш для вмикання та вимикання сенсорної панелі."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:650
 msgid "Static binding to switch the touchpad off."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:656
-#, fuzzy
 msgid "Static binding to skip backward in current track."
-msgstr "Прив'язка для переходу до наступної доріжки."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:661
-#, fuzzy
 msgid "Static binding to skip forward in current track."
-msgstr "Прив'язка для переходу до наступної доріжки."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:666
-#, fuzzy
 msgid "Static binding to toggle repeat mode in media player."
-msgstr "Прив'язка для запуску мультимедійного програвача."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:671
-#, fuzzy
 msgid "Static binding to toggle random playback mode in media player."
-msgstr "Прив'язка для запуску мультимедійного програвача."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:677
 msgid "Static binding to toggle automatic screen orientation."
@@ -1333,34 +1207,28 @@ msgid "Static binding to hibernate the machine."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:692
-#, fuzzy
 msgid "Static binding to suspend the machine."
-msgstr "Прив'язка для переведення комп'ютера у режим очікування."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:698
-#, fuzzy
 msgid "Static binding to increase the screen brightness."
-msgstr "Прив'язка для збільшення розміру тексту"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:703
-#, fuzzy
 msgid "Static binding to decrease the screen brightness."
-msgstr "Прив'язка для зменшення розміру тексту"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:708
-#, fuzzy
 msgid "Static binding to cycle the screen brightness."
-msgstr "Прив'язка для блокування екрану."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:714
-#, fuzzy
 msgid "Static binding to increase the keyboard brightness."
-msgstr "Прив'язка для збільшення розміру тексту"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:719
-#, fuzzy
 msgid "Static binding to decrease the keyboard brightness."
-msgstr "Прив'язка для зменшення розміру тексту"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:724
 msgid "Static binding to toggle the keyboard brightness."
@@ -1426,7 +1294,8 @@ msgid "Dim the screen after a period of inactivity"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:12
-msgid "If the screen should be dimmed to save power when the computer is idle."
+msgid ""
+"If the screen should be dimmed to save power when the computer is idle."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:16
@@ -1469,9 +1338,8 @@ msgid "If the ambient light sensor functionality is enabled."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:41
-#, fuzzy
 msgid "Power button action"
-msgstr "Ти дій кнопок Wacom"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:42
 msgid ""
@@ -1488,24 +1356,18 @@ msgstr "На яке з'єднання запущено службу"
 msgid ""
 "The list of NetworkManager connections (each one represented with its UUID) "
 "on which this service is enabled and started."
-msgstr ""
-"Перелік з'єднань NetworkManager (кожне має своє UUID), на яку цю службу "
-"зав'язано та запущено."
+msgstr "Перелік з'єднань NetworkManager (кожне має своє UUID), на яку цю службу зав'язано та запущено."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:6
 msgid "Antialiasing"
 msgstr "Згладжування"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:7
-#, fuzzy
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
-"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
-"and “rgba” for subpixel antialiasing (LCD screens only)."
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing,"
+" and “rgba” for subpixel antialiasing (LCD screens only)."
 msgstr ""
-"Тип згладжування, що використовується при растеризації шрифтів. Можливі "
-"значення: \"none\" - без згладжування, \"grayscale\" - стандартне чорно-біле "
-"згладжування, \"rgba\" - субпіксельне згладжування (лише екрани LCD)."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:11
 msgid "Hinting"
@@ -1513,13 +1375,13 @@ msgstr "Хінтінг"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:12
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: “none” "
-"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
-"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"The type of hinting to use when rendering fonts. Possible values are: “none”"
+" for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s"
+" ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
 "Ignores native hinting within the font, generates hints algorithmically. "
 "Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
-"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
-"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version"
+" of FreeType. They usually try to fit glyphs to both the X and the Y axis "
 "(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
@@ -1530,16 +1392,11 @@ msgid "RGBA order"
 msgstr "Порядок RGBA"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:17
-#, fuzzy
 msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
-"“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
+"The order of subpixel elements on an LCD screen; only used when antialiasing"
+" is set to “rgba”. Possible values are: “rgb” for red on left (most common),"
+" “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
 msgstr ""
-"Порядок субпіксельних елементів на екрані LCD; лише якщо встановлено тип "
-"згладжування \"rgba\". Можливі значення: \"rgb\" (червоний ліворуч, "
-"найчастіше), \"bgr\" (синій ліворуч), \"vrgb\" (красний згори), \"vbgr"
-"\" (красний знизу)."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:21
 msgid "List of explicitly disabled GTK+ modules"
@@ -1549,9 +1406,7 @@ msgstr "Перелік явно вимкнених модулів GTK+ "
 msgid ""
 "A list of strings representing the GTK+ modules that will not be loaded, "
 "even if enabled by default in their configuration."
-msgstr ""
-"Перелік рядків модулів GTK+, які не буде завантажено, навіть якщо ввімкнено "
-"типово в налаштуваннях."
+msgstr "Перелік рядків модулів GTK+, які не буде завантажено, навіть якщо ввімкнено типово в налаштуваннях."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:26
 msgid "List of explicitly enabled GTK+ modules"
@@ -1559,11 +1414,9 @@ msgstr "Перелік явно ввімкнутих модулів GTK+"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:27
 msgid ""
-"A list of strings representing the GTK+ modules that will be loaded, usually "
-"in addition to conditional and forcibly disabled ones."
-msgstr ""
-"Перелік рядків модулів GTK+, що буде завантажено, а також умовні та "
-"примусово вимкнені. "
+"A list of strings representing the GTK+ modules that will be loaded, usually"
+" in addition to conditional and forcibly disabled ones."
+msgstr "Перелік рядків модулів GTK+, що буде завантажено, а також умовні та примусово вимкнені. "
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:31
 msgid "A dictionary of XSETTINGS to override"
@@ -1571,9 +1424,9 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:32
 msgid ""
-"This dictionary maps XSETTINGS names to overrides values. The values must be "
-"either strings, signed int32s or (in the case of colors), 4-tuples of uint16 "
-"(red, green, blue, alpha; 65535 is fully opaque)."
+"This dictionary maps XSETTINGS names to overrides values. The values must be"
+" either strings, signed int32s or (in the case of colors), 4-tuples of "
+"uint16 (red, green, blue, alpha; 65535 is fully opaque)."
 msgstr ""
 
 #: plugins/color/gsd-color-calibrate.c:138
@@ -1592,15 +1445,15 @@ msgstr "Потрібно відкалібрувати ще раз"
 
 #. TRANSLATORS: this is when the display has not been recalibrated in a while
 #: plugins/color/gsd-color-calibrate.c:198
-#, fuzzy, c-format
+#, c-format
 msgid "The display “%s” should be recalibrated soon."
-msgstr "Екран «%s» невдовзі повинен бути відкаліброваним."
+msgstr ""
 
 #. TRANSLATORS: this is when the printer has not been recalibrated in a while
 #: plugins/color/gsd-color-calibrate.c:207
-#, fuzzy, c-format
+#, c-format
 msgid "The printer “%s” should be recalibrated soon."
-msgstr "Принтер «%s» невдовзі повинен бути відкаліброваним."
+msgstr ""
 
 #. TRANSLATORS: this is the application name
 #: plugins/color/gsd-color-calibrate.c:345
@@ -1638,9 +1491,8 @@ msgid "Date & Time Settings"
 msgstr "Параметри дати та часу"
 
 #: plugins/housekeeping/gsd-disk-space.c:632
-#, fuzzy
 msgid "Disk Space"
-msgstr "Простір на диску"
+msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:645
 msgid "Examine"
@@ -1660,18 +1512,14 @@ msgid "Low Disk Space"
 msgstr "Мало місця на файловій системі"
 
 #: plugins/housekeeping/gsd-disk-space.c:700
-#, fuzzy
 msgid ""
 "Your computer is out of space.  You may free up some space by emptying the "
 "trash."
 msgstr ""
-"На цьому комп'ютері залишилось тільки %s вільного місця. Можете трохи "
-"вивільнити місце, спорожнивши смітник."
 
 #: plugins/housekeeping/gsd-disk-space.c:702
-#, fuzzy
 msgid "Your computer is out of space."
-msgstr "У принтері «%s» закінчився папір."
+msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:727
 #, c-format
@@ -1683,9 +1531,7 @@ msgstr "Мало місця на диску «%s»"
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
-"У томі «%s» залишилось тільки %s вільного місця. Можете трохи вивільнити "
-"місце, спорожнивши смітник."
+msgstr "У томі «%s» залишилось тільки %s вільного місця. Можете трохи вивільнити місце, спорожнивши смітник."
 
 #: plugins/housekeeping/gsd-disk-space.c:733
 #, c-format
@@ -1697,9 +1543,7 @@ msgstr "На томі «%s» залишилось лише %s дискового
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
-msgstr ""
-"На цьому комп'ютері залишилось тільки %s вільного місця. Можете трохи "
-"вивільнити місце, спорожнивши смітник."
+msgstr "На цьому комп'ютері залишилось тільки %s вільного місця. Можете трохи вивільнити місце, спорожнивши смітник."
 
 #: plugins/housekeeping/gsd-disk-space.c:743
 #, c-format
@@ -1936,12 +1780,14 @@ msgstr "Приєднаний комп'ютер має обмаль заряду 
 msgid "Battery is low"
 msgstr "Заряд батареї низький"
 
-#. TRANSLATORS: laptop battery critically low, and only have one kind of battery
+#. TRANSLATORS: laptop battery critically low, and only have one kind of
+#. battery
 #: plugins/power/gsd-power-manager.c:597
 msgid "Battery critically low"
 msgstr "Заряд батареї критично низький"
 
-#. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
+#. TRANSLATORS: laptop battery critically low, and we have more than one type
+#. of battery
 #. TRANSLATORS: laptop battery is really, really, low
 #: plugins/power/gsd-power-manager.c:600 plugins/power/gsd-power-manager.c:747
 msgid "Laptop battery critically low"
@@ -1951,16 +1797,13 @@ msgstr "Заряд батареї ноутбука критично низьки
 #: plugins/power/gsd-power-manager.c:609
 #, c-format
 msgid "Computer will hibernate very soon unless it is plugged in."
-msgstr ""
-"Комп'ютер незабаром перейде у режим сну, якщо його не приєднати до "
-"електромережі."
+msgstr "Комп'ютер незабаром перейде у режим сну, якщо його не приєднати до електромережі."
 
 #. TRANSLATORS: give the user a ultimatum
 #: plugins/power/gsd-power-manager.c:613
 #, c-format
 msgid "Computer will shutdown very soon unless it is plugged in."
-msgstr ""
-"Комп'ютер незабаром буде вимкнено, якщо його не приєднати до електромережі."
+msgstr "Комп'ютер незабаром буде вимкнено, якщо його не приєднати до електромережі."
 
 #. TRANSLATORS: the UPS is very low
 #. TRANSLATORS: UPS is really, really, low
@@ -1974,9 +1817,7 @@ msgstr "Заряд UPS критично низький"
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
 "computer to avoid losing data."
-msgstr ""
-"Приблизно залишилось %s від живлення з UPS (%.0f%%). Відновіть зовнішнє "
-"живлення, щоб уникнути втраті даних."
+msgstr "Приблизно залишилось %s від живлення з UPS (%.0f%%). Відновіть зовнішнє живлення, щоб уникнути втраті даних."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:636
@@ -1984,9 +1825,7 @@ msgstr ""
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Заряд радіомишки надто низький (%.0f%%). Цей пристрій скоро перестане "
-"працювати, якщо його не зарядити."
+msgstr "Заряд радіомишки надто низький (%.0f%%). Цей пристрій скоро перестане працювати, якщо його не зарядити."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:644
@@ -1994,19 +1833,15 @@ msgstr ""
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Заряд радіоклавіатури надто низький (%.0f%%). Цей пристрій скоро перестане "
-"працювати, якщо його не зарядити."
+msgstr "Заряд радіоклавіатури надто низький (%.0f%%). Цей пристрій скоро перестане працювати, якщо його не зарядити."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:653
 #, c-format
 msgid ""
-"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
-"not charged."
-msgstr ""
-"Заряд КПК надто низький (%.0f%%). Цей пристрій скоро перестане працювати, "
-"якщо його не зарядити."
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if"
+" not charged."
+msgstr "Заряд КПК надто низький (%.0f%%). Цей пристрій скоро перестане працювати, якщо його не зарядити."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:663
@@ -2014,9 +1849,7 @@ msgstr ""
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Заряд телефону надто низький (%.0f%%). Цей пристрій скоро перестане "
-"працювати, якщо його не зарядити."
+msgstr "Заряд телефону надто низький (%.0f%%). Цей пристрій скоро перестане працювати, якщо його не зарядити."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:672
@@ -2024,19 +1857,15 @@ msgstr ""
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Заряд програвача надто низький (%.0f%%). Цей пристрій скоро перестане "
-"працювати, якщо його не зарядити."
+msgstr "Заряд програвача надто низький (%.0f%%). Цей пристрій скоро перестане працювати, якщо його не зарядити."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:681
 #, c-format
 msgid ""
-"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
-"if not charged."
-msgstr ""
-"Заряд планшета надто низький (%.0f%%). Цей пристрій скоро перестане "
-"працювати, якщо його не зарядити."
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning"
+" if not charged."
+msgstr "Заряд планшета надто низький (%.0f%%). Цей пристрій скоро перестане працювати, якщо його не зарядити."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:690
@@ -2044,18 +1873,14 @@ msgstr ""
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
 "shutdown if not charged."
-msgstr ""
-"Заряд приєднаного комп'ютера надто низький (%.0f%%). Пристрій скоро "
-"перестане працювати, якщо його не зарядити."
+msgstr "Заряд приєднаного комп'ютера надто низький (%.0f%%). Пристрій скоро перестане працювати, якщо його не зарядити."
 
 #. TRANSLATORS: computer will hibernate
 #: plugins/power/gsd-power-manager.c:755
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
-msgstr ""
-"Рівень заряду батареї нижче за критичний і комп'ютер буде переведено у стан "
-"сну."
+msgstr "Рівень заряду батареї нижче за критичний і комп'ютер буде переведено у стан сну."
 
 #. TRANSLATORS: computer will just shutdown
 #: plugins/power/gsd-power-manager.c:760
@@ -2068,12 +1893,12 @@ msgstr "Рівень заряду батареї нижче за критичн�
 #: plugins/power/gsd-power-manager.c:780
 msgid ""
 "UPS is below the critical level and this computer is about to hibernate."
-msgstr ""
-"Заряд UPS нижче за критичний рівень і комп'ютер буде переведено у стан сну."
+msgstr "Заряд UPS нижче за критичний рівень і комп'ютер буде переведено у стан сну."
 
 #. TRANSLATORS: computer will just shutdown
 #: plugins/power/gsd-power-manager.c:785
-msgid "UPS is below the critical level and this computer is about to shutdown."
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
 msgstr "Заряд UPS нижче за критичний рівень і комп'ютер буде вимкнено."
 
 #. TRANSLATORS: this is the sound description
@@ -2135,9 +1960,8 @@ msgstr "Налаштування нового принтера"
 
 #. Translators: Just wait
 #: plugins/print-notifications/gsd-printer.c:892
-#, fuzzy
 msgid "Please wait…"
-msgstr "Будь ласка, зачекайте…"
+msgstr ""
 
 #. Translators: We have no driver installed for this printer
 #: plugins/print-notifications/gsd-printer.c:919
@@ -2166,77 +1990,86 @@ msgstr "Принтери"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:374
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is low on toner."
-msgstr "У принтері «%s» закінчується тонер."
+msgstr ""
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:378
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” has no toner left."
-msgstr "У принтері «%s» закінчився тонер."
+msgstr ""
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:382
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” may not be connected."
-msgstr "Можливо, принтер «%s» не з'єднано з комп'ютером."
+msgstr ""
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:386
-#, fuzzy, c-format
+#, c-format
 msgid "The cover is open on printer “%s”."
-msgstr "У принтері «%s» відкрито кришку."
+msgstr ""
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:390
-#, fuzzy, c-format
+#, c-format
 msgid "There is a missing print filter for printer “%s”."
-msgstr "Бракує друкувального фільтра для принтера «%s»."
+msgstr ""
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:395
-#, fuzzy, c-format
+#, c-format
 msgid "The door is open on printer “%s”."
-msgstr "У принтері «%s» відкрито дверці."
+msgstr ""
 
 #. Translators: "marker" is one color bin of the printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:399
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is low on a marker supply."
-msgstr "У принтері «%s» закінчується фарба."
+msgstr ""
 
 #. Translators: "marker" is one color bin of the printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:403
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is out of a marker supply."
-msgstr "У принтері «%s» закінчилась фарба."
+msgstr ""
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:407
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is low on paper."
-msgstr "У принтері «%s» закінчується папір."
+msgstr ""
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:411
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is out of paper."
-msgstr "У принтері «%s» закінчився папір."
+msgstr ""
 
 #. Translators: The printer is offline (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:415
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s” is currently off-line."
-msgstr "Принтер «%s» наразі вимкнено."
+msgstr ""
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:419
-#, fuzzy, c-format
+#, c-format
 msgid "There is a problem on printer “%s”."
-msgstr "Проблема з принтером «%s»."
+msgstr ""
 
-#. Translators: The printer has a job to print but the printer needs authentication to continue with the print
+#. Translators: The printer has a job to print but the printer needs
+#. authentication to continue with the print
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
@@ -2253,27 +2086,32 @@ msgstr ""
 msgid "Toner low"
 msgstr "Мало тонера"
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:602
 msgid "Toner empty"
 msgstr "Тонера немає"
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:604
 msgid "Not connected?"
 msgstr "Не з’єднано?"
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:606
 msgid "Cover open"
 msgstr "Кришку відчинено"
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:608
 msgid "Printer configuration error"
 msgstr "Помилка налаштування принтера"
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:610
 msgid "Door open"
 msgstr "Дверці відкрито"
@@ -2288,12 +2126,14 @@ msgstr "Мало фарби"
 msgid "Out of a marker supply"
 msgstr "Вичерпано фарбу"
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:616
 msgid "Paper low"
 msgstr "Мало паперу"
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:618
 msgid "Out of paper"
 msgstr "Немає паперу"
@@ -2303,7 +2143,8 @@ msgstr "Немає паперу"
 msgid "Printer off-line"
 msgstr "Принтер недоступний"
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #. Translators: This is a title of an error notification for a printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:622
 #: plugins/print-notifications/gsd-print-notifications-manager.c:997
@@ -2333,10 +2174,10 @@ msgstr "Принтер зупинено"
 #: plugins/print-notifications/gsd-print-notifications-manager.c:743
 #: plugins/print-notifications/gsd-print-notifications-manager.c:751
 #: plugins/print-notifications/gsd-print-notifications-manager.c:775
-#, fuzzy, c-format
+#, c-format
 msgctxt "print job"
 msgid "“%s” on %s"
-msgstr "«%s» на %s"
+msgstr ""
 
 #. Translators: A print job has been canceled
 #: plugins/print-notifications/gsd-print-notifications-manager.c:693
@@ -2376,11 +2217,12 @@ msgstr "Звіт принтера"
 msgid "Printer warning"
 msgstr "Попередження принтера"
 
-#. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
+#. Translators: "Printer 'MyPrinterName': 'Description of the
+#. report/warning/error from a PPD file'."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1004
-#, fuzzy, c-format
+#, c-format
 msgid "Printer “%s”: “%s”."
-msgstr "Принтер «%s»: «%s»."
+msgstr ""
 
 #: plugins/smartcard/gsd-smartcard-service.c:282
 msgid "User was not logged in with smartcard."
@@ -2446,8 +2288,7 @@ msgstr "Змінити освітлений світлодіод для план
 
 #: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:21
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
-msgstr ""
-"Потрібна авторизація, щоб змінити підсвічування LED для планшетів Wacom"
+msgstr "Потрібна авторизація, щоб змінити підсвічування LED для планшетів Wacom"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
@@ -2490,6 +2331,7 @@ msgid_plural "%2$s You have %1$u tries left"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+msgstr[3] ""
 
 #: plugins/wwan/gsd-wwan-pinentry.c:127
 #, c-format
@@ -2498,6 +2340,7 @@ msgid_plural "You have %u tries left"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+msgstr[3] ""
 
 #. Set up the dialog
 #: plugins/wwan/gsd-wwan-pinentry.c:173 plugins/wwan/gsd-wwan-pinentry.c:175
@@ -2516,2096 +2359,3 @@ msgstr ""
 #: plugins/wwan/gsd-wwan-pinentry.c:200
 msgid "Wrong PIN code"
 msgstr ""
-
-#~ msgid "GNOME Settings Daemon"
-#~ msgstr "Служба параметрів GNOME"
-
-#~ msgid ""
-#~ "Highlights the current location of the pointer when the Control key is "
-#~ "pressed and released."
-#~ msgstr ""
-#~ "Підсвічує поточну адресу вказівника, коли клавішу Ctrl натиснуто чи "
-#~ "відпущено."
-
-#~ msgid "Device hotplug custom command"
-#~ msgstr "Власна команда пристрою hotplug"
-
-#~ msgid ""
-#~ "Command to be run when a device is added or removed. An exit value of 1 "
-#~ "means that the device will not be handled further by gnome-settings-"
-#~ "daemon."
-#~ msgstr ""
-#~ "Команда, яку буде запущено, коли пристрій додано або вилучено. Вихідне "
-#~ "значення 1 означає, що пристрій не буде працювати через gnome-settings-"
-#~ "daemon."
-
-#~ msgid "Activation of this plugin"
-#~ msgstr "Увімкнення цього додатка"
-
-#~ msgid ""
-#~ "Whether this plugin would be activated by gnome-settings-daemon or not"
-#~ msgstr "Чи цей додаток буде увімкнено через gnome-settings-daemon, чи ні"
-
-#~ msgid "Priority to use for this plugin"
-#~ msgstr "Пріоритет цього додатка"
-
-#~ msgid ""
-#~ "Priority to use for this plugin in gnome-settings-daemon startup queue"
-#~ msgstr "Пріоритет цього додатка у черзі запуску gnome-settings-daemon"
-
-#~ msgid "Wacom last calibrated resolution"
-#~ msgstr "Остання відкалібрована роздільність Wacom"
-
-#~ msgid ""
-#~ "Holds the last calibrated resolution to help check if calibration is "
-#~ "needed."
-#~ msgstr ""
-#~ "Утримує останню відкалібровану роздільність, щоб допомогти перевірити, чи "
-#~ "калібрування потрібне."
-
-#~ msgid "File for default configuration for RandR"
-#~ msgstr "Файл для типових налаштувань для RandR"
-
-#~ msgid ""
-#~ "The XRandR plugin will look for a default configuration in the file "
-#~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
-#~ "normally gets stored in users' home directories. If a user does not have "
-#~ "such a file, or has one that does not match the user's setup of monitors, "
-#~ "then the file specified by this key will be used instead."
-#~ msgstr ""
-#~ "Додаток XRandR шукатиме типові налаштування в файлі, який вказано цим "
-#~ "ключем. Це щось схоже на ~/.config/monitors.xml у домашній теці, "
-#~ "зазвичай. Якщо користувач не має такого файла або він не відповідає "
-#~ "параметрам монітору, натомість буде використано файл вказаний ключем. "
-
-#~ msgid "Whether to turn off specific monitors after boot"
-#~ msgstr "Чи вимкнути вказаний монітор опісля завантаження"
-
-#~ msgid ""
-#~ "'clone' will display the same thing on all monitors, 'dock' will switch "
-#~ "off the internal monitor, 'do-nothing' will use the default Xorg "
-#~ "behaviour (extend the desktop in recent versions). The default, 'follow-"
-#~ "lid', will choose between 'do-nothing' and 'dock' depending on whether "
-#~ "the lid is (respectively) open or closed."
-#~ msgstr ""
-#~ "«clone» покаже однакове на всіх моніторах, «dock» вимкне внутрішній "
-#~ "монітор, «do-nothing» використає типову поведінку Xorg (розширить "
-#~ "стільницю у нещодавній версії). Типовий «follow-lid» вибере між «do-"
-#~ "nothing» та «dock», залежно від того, чи кришку відкрито, чи закрито."
-
-#~ msgid ""
-#~ "The type of hinting to use when rendering fonts. Possible values are: "
-#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
-#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
-#~ msgstr ""
-#~ "Тип хінтінгу, що використовується растеризації шрифтів. Можливі значення: "
-#~ "\"none\" - без хінтінгу, \"slight\" - базовий, \"medium\" - помірний, "
-#~ "\"full\" - максимальний хінтінг (може призводити до викривлення форми "
-#~ "символів)."
-
-#~ msgid "Enable debugging code"
-#~ msgstr "Увімкнути налагоджувальний код"
-
-#~ msgid "Replace existing daemon"
-#~ msgstr "Замінити наявну службу"
-
-#~ msgid "Exit after a time (for debugging)"
-#~ msgstr "Вийти після певного часу (для зневадження)"
-
-#~ msgid "Accessibility Keyboard"
-#~ msgstr "Технології доступності"
-
-#~ msgid "Accessibility keyboard plugin"
-#~ msgstr "Модуль технологій доступності клавіатури"
-
-#~ msgid "Slow Keys Turned On"
-#~ msgstr "Увімкнено сповільнені клавіші"
-
-#~ msgid "Slow Keys Turned Off"
-#~ msgstr "Вимкнено сповільнені клавіші"
-
-#~ msgid ""
-#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
-#~ "the Slow Keys feature, which affects the way your keyboard works."
-#~ msgstr ""
-#~ "Ви щойно утримували натиснутою клавішу Shift протягом 8 секунд. Це сигнал "
-#~ "для ввімкнення режиму \"Повільні клавіші\", який впливає на роботу "
-#~ "клавіатури."
-
-#~ msgid "Universal Access"
-#~ msgstr "Універсальний доступ"
-
-#~ msgid "Turn Off"
-#~ msgstr "Вимкнути"
-
-#~ msgid "Turn On"
-#~ msgstr "Увімкнути"
-
-#~ msgid "Leave On"
-#~ msgstr "Не вмикати"
-
-#~ msgid "Leave Off"
-#~ msgstr "Не вимикати"
-
-#~ msgid "Sticky Keys Turned On"
-#~ msgstr "Липкі клавіші ввімкнено"
-
-#~ msgid "Sticky Keys Turned Off"
-#~ msgstr "Липкі клавіші вимкнено"
-
-#~ msgid ""
-#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
-#~ "for the Sticky Keys feature, which affects the way your keyboard works."
-#~ msgstr ""
-#~ "Ви щойно утримували натиснутою клавішу Shift протягом 5 секунд. Це сигнал "
-#~ "для ввімкнення режиму \"Липкі клавіші\", який впливає на роботу "
-#~ "клавіатури."
-
-#~ msgid ""
-#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
-#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
-#~ "keyboard works."
-#~ msgstr ""
-#~ "Ви щойно натиснули дві клавіші одночасно, або утримували натиснутою "
-#~ "клавішу Shift протягом 5 секунд. Це сигнал для вимкнення режиму \"Липкі "
-#~ "клавіші\", який впливає на роботу клавіатури."
-
-#~ msgid "Accessibility settings"
-#~ msgstr "Налаштування доступності"
-
-#~ msgid "Accessibility settings plugin"
-#~ msgstr "Додаток налаштувань доступності"
-
-#~ msgid "Clipboard"
-#~ msgstr "Буфер обміну"
-
-#~ msgid "Clipboard plugin"
-#~ msgstr "Модуль буферу обміну"
-
-#~ msgid "Color plugin"
-#~ msgstr "Додаток коліру"
-
-#~ msgid "Cursor"
-#~ msgstr "Вказівник"
-
-#~ msgid "Show/hide cursor on tablet devices"
-#~ msgstr "Показати/сховати вказівник на планшеті"
-
-#~ msgid "Date and Time"
-#~ msgstr "Дата та час"
-
-#~ msgid "Automatically update timezone and display notifications"
-#~ msgstr "Автоматично оновлювати часовий пояс і сповіщати про це"
-
-#~ msgid "Dummy"
-#~ msgstr "Заглушка"
-
-#~ msgid "Dummy plugin"
-#~ msgstr "Модуль-заглушка"
-
-#~ msgid "Don't show any warnings again for this file system"
-#~ msgstr "Не показувати будь-які попередження для цієї файлової системи"
-
-#~ msgid "Don't show any warnings again"
-#~ msgstr "Не показувати більше це повідомлення"
-
-#~ msgid "The volume \"%s\" has only %s disk space remaining."
-#~ msgstr "На томі \"%s\" залишилось лише %s дискового простору."
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to another disk or partition."
-#~ msgstr ""
-#~ "Ви можете звільнити дисковий простір очищаючи Смітник, вилучаючи зайві "
-#~ "програми чи файли, або переміщенням файлів на інший диск чи розділ."
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to another disk or partition."
-#~ msgstr ""
-#~ "Ви можете звільнити дисковий простір видаленням зайвих програми чи "
-#~ "файлів, або переміщенням файлів на інший диск чи розділ."
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to an external disk."
-#~ msgstr ""
-#~ "Ви можете звільнити дисковий простір очищаючи Смітник, вилучаючи зайві "
-#~ "програми чи файли, або переміщенням файлів на зовнішній диск."
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to an external disk."
-#~ msgstr ""
-#~ "Ви можете звільнити дисковий простір видаленням зайвих програми чи "
-#~ "файлів, або переміщенням файлів на зовнішній диск."
-
-#~ msgid "Examine…"
-#~ msgstr "Оглянути…"
-
-#~ msgid "Housekeeping"
-#~ msgstr "Прибирання"
-
-#~ msgid ""
-#~ "Automatically prunes thumbnail caches and other transient files, and "
-#~ "warns about low disk space"
-#~ msgstr ""
-#~ "Автоматично підчищає кеш мініатюр та інших тимчасових файлів, а також "
-#~ "повідомляє про малу кількість місця на диску"
-
-#~ msgid "Keyboard"
-#~ msgstr "Клавіатура"
-
-#~ msgid "Keyboard plugin"
-#~ msgstr "Модуль клавіатури"
-
-#~ msgid "Disabled"
-#~ msgstr "Вимкнено"
-
-#~ msgid "%u Output"
-#~ msgid_plural "%u Outputs"
-#~ msgstr[0] "%u вихід"
-#~ msgstr[1] "%u виходи"
-#~ msgstr[2] "%u виходів"
-
-#~ msgid "%u Input"
-#~ msgid_plural "%u Inputs"
-#~ msgstr[0] "%u вхід"
-#~ msgstr[1] "%u входи"
-#~ msgstr[2] "%u входів"
-
-#~ msgid "System Sounds"
-#~ msgstr "Системні звуки"
-
-#~ msgid "Media keys"
-#~ msgstr "Мультимедійний клавіші"
-
-#~ msgid "Media keys plugin"
-#~ msgstr "Модуль мультимедійних клавіш"
-
-#~ msgid "Touchpad toggle"
-#~ msgstr "Перемкнути сенсорне керування"
-
-#~ msgid "Lock Screen"
-#~ msgstr "Заблокувати екран"
-
-#~ msgid "Rewind"
-#~ msgstr "Сам початок"
-
-#~ msgid "Forward"
-#~ msgstr "Далі"
-
-#~ msgid "Repeat"
-#~ msgstr "Повторити"
-
-#~ msgid "Random Play"
-#~ msgstr "Випадкова гра"
-
-#~ msgid "Video Out"
-#~ msgstr "Відеовихід"
-
-#~ msgid "Rotate Screen"
-#~ msgstr "Перевернути екран"
-
-#~ msgid "Orientation Lock"
-#~ msgstr "Напрямлене блокування"
-
-#~ msgid "Power Off"
-#~ msgstr "Вимкнути"
-
-#~ msgid "Sleep"
-#~ msgstr "Приспати"
-
-#~ msgid "Mouse"
-#~ msgstr "Миша"
-
-#~ msgid "Mouse plugin"
-#~ msgstr "Модуль миші"
-
-#~ msgid "Orientation"
-#~ msgstr "Орієнтація"
-
-#~ msgid "Orientation plugin"
-#~ msgstr "Додаток орієнтації"
-
-#~ msgid "Printer removed"
-#~ msgstr "Принтер вилучено"
-
-#~ msgid "Print-notifications"
-#~ msgstr "Сповіщення принтера"
-
-#~ msgid "Print-notifications plugin"
-#~ msgstr "Додаток сповіщення принтера"
-
-#~ msgid "Rfkill plugin"
-#~ msgstr "Додаток Rfkill"
-
-#~ msgid "Screensaver Proxy"
-#~ msgstr "Проксі зберігача екрана"
-
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
-#~ msgstr "Перешкоджання проксі зберігача екрана FreeDesktop для gnome-session"
-
-#~ msgid "Smartcard"
-#~ msgstr "Смарт-карта"
-
-#~ msgid "Smartcard plugin"
-#~ msgstr "Додаток смарт-карти"
-
-#~ msgid "Sound"
-#~ msgstr "Звук"
-
-#~ msgid "Sound Sample Cache plugin"
-#~ msgstr "Додаток звукового кешу"
-
-#~ msgctxt "Wacom action-type"
-#~ msgid "None"
-#~ msgstr "Немає"
-
-#~ msgctxt "Wacom action-type"
-#~ msgid "Send Keystroke"
-#~ msgstr "Надіслати натискання клавіші"
-
-#~ msgctxt "Wacom action-type"
-#~ msgid "Switch Monitor"
-#~ msgstr "Перемкнути монітор"
-
-#~ msgctxt "Wacom action-type"
-#~ msgid "Show On-Screen Help"
-#~ msgstr "Показати екранну довідку"
-
-#~ msgctxt "Action type"
-#~ msgid "Show On-Screen Help"
-#~ msgstr "Показати екранну довідку"
-
-#~ msgctxt "Action type"
-#~ msgid "Switch Monitor"
-#~ msgstr "Перемкнути монітор"
-
-#~ msgctxt "keyboard shortcut"
-#~ msgid "None"
-#~ msgstr "Немає"
-
-#~ msgid "Done"
-#~ msgstr "Зроблено"
-
-#~ msgid "Left Ring"
-#~ msgstr "Ліве кільце"
-
-#~ msgid "Left Ring Mode #%d"
-#~ msgstr "Режим лівого кільця #%d"
-
-#~ msgid "Right Ring"
-#~ msgstr "Праве кільце"
-
-#~ msgid "Right Ring Mode #%d"
-#~ msgstr "Режим правого кільця #%d"
-
-#~ msgid "Left Touchstrip"
-#~ msgstr "Ліва сенсорна смужка"
-
-#~ msgid "Left Touchstrip Mode #%d"
-#~ msgstr "Режим лівого Touchstrip #%d"
-
-#~ msgid "Right Touchstrip"
-#~ msgstr "Права сенсорна смужка"
-
-#~ msgid "Right Touchstrip Mode #%d"
-#~ msgstr "Режим правого Touchstrip #%d"
-
-#~ msgid "Left Touchring Mode Switch"
-#~ msgstr "Перемикач режиму лівого Touchring"
-
-#~ msgid "Right Touchring Mode Switch"
-#~ msgstr "Перемикач режиму правого Touchring"
-
-#~ msgid "Left Touchstrip Mode Switch"
-#~ msgstr "Перемикач режиму лівого Touchstrip"
-
-#~ msgid "Right Touchstrip Mode Switch"
-#~ msgstr "Перемикач режиму правого Touchstrip"
-
-#~ msgid "Mode Switch #%d"
-#~ msgstr "Перемикач режиму #%d"
-
-#~ msgid "Left Button #%d"
-#~ msgstr "Ліва кнопка #%d"
-
-#~ msgid "Right Button #%d"
-#~ msgstr "Права кнопка #%d"
-
-#~ msgid "Top Button #%d"
-#~ msgstr "Верхня кнопка #%d"
-
-#~ msgid "Bottom Button #%d"
-#~ msgstr "Нижня кнопка #%d"
-
-#~ msgid "New shortcut…"
-#~ msgstr "Створити скорочення…"
-
-#~ msgid "The \"%s\" tablet may not work as expected."
-#~ msgstr "Планшет «%s» може не працювати як слід."
-
-#~ msgid "Unknown Tablet Connected"
-#~ msgstr "Невідомий планшет під'єднано."
-
-#~ msgid "Wacom Settings"
-#~ msgstr "Параметри Wacom"
-
-#~ msgid "Tablet %s needs to be calibrated."
-#~ msgstr "Планшет %s потрібно відкалібрувати. "
-
-#~ msgid "Calibration needed"
-#~ msgstr "Потрібне калібрування"
-
-#~ msgid "Calibrate"
-#~ msgstr "Відкалібрувати"
-
-#~ msgctxt "Action type"
-#~ msgid "None"
-#~ msgstr "Немає"
-
-#~ msgctxt "Action type"
-#~ msgid "Send Keystroke %s"
-#~ msgstr "Надіслати натискання клавіші %s"
-
-#~ msgid "Mode %d: %s"
-#~ msgstr "Режим %d: %s"
-
-#~ msgid "(press any key to exit)"
-#~ msgstr "(натисніть будь-яку клавішу, щоб вийти)"
-
-#~ msgid "Push a button to configure"
-#~ msgstr "Натисніть кнопку, щоб її налаштувати"
-
-#~ msgid "(Esc to cancel)"
-#~ msgstr "(Натиність Esc, щоб скасувати)"
-
-#~ msgid "Edit"
-#~ msgstr "Редагувати"
-
-#~ msgid "Wacom"
-#~ msgstr "Wacom"
-
-#~ msgid "Wacom plugin"
-#~ msgstr "Додаток Wacom"
-
-#~ msgid "Could not refresh the screen information: %s"
-#~ msgstr "Не вдається оновити інформацію про екран: %s"
-
-#~ msgid "XRandR"
-#~ msgstr "XRandR"
-
-#~ msgid "Set up screen size and rotation settings"
-#~ msgstr "Встановити розмір екрану та параметри повороту"
-
-#~ msgid "X Settings"
-#~ msgstr "Параметри X Window"
-
-#~ msgid "Manage X Settings"
-#~ msgstr "Керування параметрами X Window"
-
-#~ msgid "Wacom display mapping"
-#~ msgstr "Відбиття екрана Wacom"
-
-#~ msgid ""
-#~ "EDID information of monitor to map tablet to. Must be in the format "
-#~ "[vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
-#~ msgstr ""
-#~ "Інформація про EDID монітора для відбиття на ньому планшета. Потрібно, "
-#~ "щоб було у форматі  [виробник, товар, серія]. [\"\",\"\",\"\"] вимикає "
-#~ "відбиття."
-
-#~ msgid "Use mobile broadband connections"
-#~ msgstr "Скористатись широкосмуговим мобільним з'єднанням"
-
-#~ msgid ""
-#~ "Use mobile broadband connections such as GSM and CDMA to check for "
-#~ "updates."
-#~ msgstr ""
-#~ "Скористатись таким широкосмуговим мобільним з'єднанням, як GSM і CDMA, "
-#~ "щоб перевірити оновлення."
-
-#~ msgid ""
-#~ "Automatically download updates in the background without confirmation"
-#~ msgstr ""
-#~ "Автоматично звантажувати оновлення у фоновому режимі без усілякого відома"
-
-#~ msgid ""
-#~ "Automatically download updates in the background without confirmation. "
-#~ "Updates will be auto-downloaded when using wired network connnections, "
-#~ "and mobile broadband if 'connection-use-mobile' is enabled."
-#~ msgstr ""
-#~ "Автоматично звантажувати оновлення у фоновому режимі без усілякого "
-#~ "відома. Оновлення буде автоматично звантажено, коли використовується "
-#~ "дротове з'єднання до мережі й мобільної радіомережі, якщо ввімкнено "
-#~ "«connection-use-mobile»."
-
-#~ msgid "How often to check for updates"
-#~ msgstr "Як часто перевіряти на оновлення"
-
-#~ msgid ""
-#~ "How often to check for updates. Value is in seconds. This is a maximum "
-#~ "amount of time that can pass between a security update being published, "
-#~ "and the update being automatically installed or the user notified."
-#~ msgstr ""
-#~ "Як часто перевіряти на оновлення. В секундах. Це максимальне обсяг часу, "
-#~ "який допустиме між оприлюдненням оновлень безпеки, й автоматичним "
-#~ "установленням оновлення або сповіщенням користувача."
-
-#~ msgid "How often to notify the user that non-critical updates are available"
-#~ msgstr "Як часто сповіщати користувача про доступність некритичних оновлень"
-
-#~ msgid ""
-#~ "How often to tell the user there are non-critical updates. Value is in "
-#~ "seconds. Security update notifications are always shown after the check "
-#~ "for updates, but non-critical notifications should be shown a lot less "
-#~ "frequently."
-#~ msgstr ""
-#~ "Як часто повідомляти користувача про некритичні оновлення. В секундах. "
-#~ "Сповіщення оновлень безпеки — завжди показується після перевіряння на "
-#~ "оновлення, але некритичні сповіщення слід показувати не так часто."
-
-#~ msgid "The last time we told the user about non-critical notifications"
-#~ msgstr "Востаннє користувачу донесли про некритичні сповіщення"
-
-#~ msgid ""
-#~ "The last time we notified the user about non-critical updates. Value is "
-#~ "in seconds since the epoch, or zero for never."
-#~ msgstr ""
-#~ "Востаннє користувача сповіщали про некритичні оновлення. Значення — в "
-#~ "секундах з початку епохи або нуль, якщо ніколи."
-
-#~ msgid "How often to check for distribution upgrades"
-#~ msgstr "Як часто перевіряти оновлення дистрибутива"
-
-#~ msgid "How often to check for distribution upgrades. Value is in seconds."
-#~ msgstr "Як часто перевіряти оновлення дистрибутива. У секундах."
-
-#~ msgid "How often to refresh the package cache"
-#~ msgstr "Як часто очищувати кеш пакунків"
-
-#~ msgid "How often to refresh the package cache. Value is in seconds."
-#~ msgstr "Як часто очищувати кеш пакунків. У секундах."
-
-#~ msgid "Check for updates when running on battery power"
-#~ msgstr "Перевірити на оновлення, коли працює живлення з батареї"
-
-#~ msgid "Check for updates when running on battery power."
-#~ msgstr "Перевірити на оновлення, коли працює живлення з батареї."
-
-#~ msgid "Notify the user when distribution upgrades are available"
-#~ msgstr "Сповіщати користувача, коли доступні оновлення дистрибутива"
-
-#~ msgid "Notify the user when distribution upgrades are available."
-#~ msgstr "Сповіщати користувача, коли доступні оновлення дистрибутива."
-
-#~ msgid "Ask the user if additional firmware should be installed"
-#~ msgstr ""
-#~ "Питати користувача, чи потрібно встановлювати додаткові мікропрограми"
-
-#~ msgid ""
-#~ "Ask the user if additional firmware should be installed if it is "
-#~ "available."
-#~ msgstr ""
-#~ "Питати користувача, чи встановлювати додаткові мікропрограми, якщо ті "
-#~ "доступні."
-
-#~ msgid "Firmware files that should not be searched for"
-#~ msgstr "Файли мікропрограм, які не варто шукати"
-
-#~ msgid ""
-#~ "Firmware files that should not be searched for, separated by commas. "
-#~ "These can include '*' and '?' characters."
-#~ msgstr ""
-#~ "Файли мікропрограм, які не варто шукати, розділені комами. Може містити "
-#~ "символи «*» і «?»."
-
-#~ msgid "Devices that should be ignored"
-#~ msgstr "Пристрої, які слід ігнорувати"
-
-#~ msgid ""
-#~ "Devices that should be ignored, separated by commas. These can include "
-#~ "'*' and '?' characters."
-#~ msgstr ""
-#~ "Пристрої, які слід ігнорувати, розділені комами. Може містити символи «*» "
-#~ "і «?»."
-
-#~ msgid ""
-#~ "The filenames on removable media that designate it a software source."
-#~ msgstr "Назва файлів на змінних носіях, які визначають джерело програм."
-
-#~ msgid ""
-#~ "When removable media is inserted, it is checked to see if it contains any "
-#~ "important filenames in the root directory. If the filename matches, then "
-#~ "an updates check is performed. This allows post-install disks to be used "
-#~ "to update running systems."
-#~ msgstr ""
-#~ "Коли змінний носій вставлено, перевіряється, чи містить корінь якісь "
-#~ "важливі файли. Якщо є збіг, здійснюється перевіряння оновлень. Це "
-#~ "дозволяє установчим дискам оновити робочу систему."
-
-#~ msgid ""
-#~ "You will need to restart this computer before the hardware will work "
-#~ "correctly."
-#~ msgstr ""
-#~ "Треба перезавантажити комп'ютер перш ніж обладнання працюватиме коректно."
-
-#~ msgid "Additional software was installed"
-#~ msgstr "Потрібні додаткові мікропрограми"
-
-#~ msgid "Software Updates"
-#~ msgstr "Оновлення програм"
-
-#~ msgid ""
-#~ "You will need to remove and then reinsert the hardware before it will "
-#~ "work correctly."
-#~ msgstr ""
-#~ "Щоб обладнання працювало коректно, його треба від'єднати та знову "
-#~ "приєднати."
-
-#~ msgid "Your hardware has been set up and is now ready to use."
-#~ msgstr "Обладнання було встановлено та налаштовано для використання"
-
-#~ msgid ""
-#~ "Additional firmware is required to make hardware in this computer "
-#~ "function correctly."
-#~ msgstr ""
-#~ "Для нормального функціонування обладнання цього комп'ютера потрібно "
-#~ "додаткові мікропрограми."
-
-#~ msgid "Additional firmware required"
-#~ msgstr "Потрібні додаткові мікропрограми"
-
-#~ msgid "Install firmware"
-#~ msgstr "Встановити мікропрограму"
-
-#~ msgid "Ignore devices"
-#~ msgstr "Ігнорувати пристрій"
-
-#~ msgid "Failed To Update"
-#~ msgstr "Не вдалось оновити"
-
-#~ msgid "A previous update was unfinished."
-#~ msgstr "Попереднє оновлення незавершено."
-
-#~ msgid "Network access was required but not available."
-#~ msgstr "До мережі доступились, однак її немає."
-
-#~ msgid "An update was not signed in the correct way."
-#~ msgstr "Оновлення не підписано правильним способом."
-
-#~ msgid "The update could not be completed."
-#~ msgstr "Оновлення неможливо завершити."
-
-#~ msgid "The update was cancelled."
-#~ msgstr "Оновлення скасовано."
-
-#~ msgid "An offline update was requested but no packages required updating."
-#~ msgstr "Оновлення без мережі наявне, проте немає оновлення пакунків."
-
-#~ msgid "No space was left on the drive."
-#~ msgstr "На диску не залишилося місця."
-
-#~ msgid "An update failed to install correctly."
-#~ msgstr "Не вдалося встановити оновлення правильно."
-
-#~ msgid "The offline update failed in an unexpected way."
-#~ msgstr "Не вдалось оновити через неочікуваний спосіб. "
-
-#~ msgid "Detailed errors from the package manager follow:"
-#~ msgstr "Докладні помилки з керування пакунками:"
-
-#~ msgid "Distribution upgrades available"
-#~ msgstr "Наявне оновлення дистрибутива"
-
-#~ msgid "Not Now"
-#~ msgstr "Не зараз"
-
-#~ msgid "More information"
-#~ msgstr "Докладніше"
-
-#~ msgid "Update"
-#~ msgid_plural "Updates"
-#~ msgstr[0] "Оновлення"
-#~ msgstr[1] "Оновлення"
-#~ msgstr[2] "Оновлення"
-
-#~ msgid "An important software update is available"
-#~ msgid_plural "Important software updates are available"
-#~ msgstr[0] "Доступне важливе оновлення програми"
-#~ msgstr[1] "Доступні важливі оновлення програм"
-#~ msgstr[2] "Доступні важливі оновлення програм"
-
-#~ msgid "View"
-#~ msgstr "Переглянути"
-
-#~ msgid "Restart & Install"
-#~ msgstr "Перезапустити та встановити"
-
-#~ msgid "Install updates"
-#~ msgstr "Встановити оновлення"
-
-#~ msgid "A software update is available."
-#~ msgid_plural "Software updates are available."
-#~ msgstr[0] "Доступне оновлення програми."
-#~ msgstr[1] "Доступні оновлення програм."
-#~ msgstr[2] "Доступні оновлення програм."
-
-#~ msgid "Updates"
-#~ msgstr "Оновлення"
-
-#~ msgid "Unable to access software updates"
-#~ msgstr "Не має доступу до оновлень програм"
-
-#~ msgid "Try again"
-#~ msgstr "Спробуйте знову"
-
-#~ msgid "A transaction that cannot be interrupted is running"
-#~ msgstr "Виконується операція, яку неможливо перервати"
-
-#~ msgid "Software Update Installed"
-#~ msgid_plural "Software Updates Installed"
-#~ msgstr[0] "Оновлення програми встановлено"
-#~ msgstr[1] "Оновлення програм встановлено"
-#~ msgstr[2] "Оновлення програм встановлено"
-
-#~ msgid "An important OS update has been installed."
-#~ msgid_plural "Important OS updates have been installed."
-#~ msgstr[0] "Важливе оновлення системи встановлено."
-#~ msgstr[1] "Важливі оновлення системи встановлено."
-#~ msgstr[2] "Важливі оновлення системи встановлено."
-
-#~ msgid "Software Updates Failed"
-#~ msgstr "Не вдалось оновити програми"
-
-#~ msgid "An important OS update failed to be installed."
-#~ msgstr "Не вдалось установити важливі оновлення системи."
-
-#~ msgid "Review"
-#~ msgstr "Переглянути"
-
-#~ msgid "Show details"
-#~ msgstr "Показати подробиці"
-
-#~ msgid "Updates plugin"
-#~ msgstr "Оновлює додаток"
-
-#~ msgid "Command to be run when a device is added or removed."
-#~ msgstr "Команда, яка запускається при додаванні чи вилученні пристрою."
-
-#~ msgid "Wacom tablet PC feature"
-#~ msgstr "Комп'ютерні можливості планшета Wacom"
-
-#~ msgid "Enable this to only report stylus events when the tip is pressed."
-#~ msgstr ""
-#~ "Увімкнути це, аби повідомити про дії стилуса, коли натиснуто на підказку."
-
-#~ msgid "Binding to select the next input source"
-#~ msgstr "Прив'язка для вибору наступного джерела введення"
-
-#~ msgid "Switch input source backward"
-#~ msgstr "Повернути джерело вводження"
-
-#~ msgid "Binding to select the previous input source"
-#~ msgstr "Прив'язка для вибору попереднього джерела введення"
-
-#~ msgid "Percentage considered low"
-#~ msgstr "Відсоток уважається низьким"
-
-#~ msgid ""
-#~ "The percentage of the battery when it is considered low. Only valid when "
-#~ "use-time-for-policy is false."
-#~ msgstr ""
-#~ "Відсоток батареї, коли він уважається низьким. Дійсно лише без ключа use-"
-#~ "time-for-policy."
-
-#~ msgid "Percentage considered critical"
-#~ msgstr "Відсоток уважається критичним"
-
-#~ msgid ""
-#~ "The percentage of the battery when it is considered critical. Only valid "
-#~ "when use-time-for-policy is false."
-#~ msgstr ""
-#~ "Відсоток батареї, коли він уважається критичним. Дійсно лише без ключа "
-#~ "use-time-for-policy."
-
-#~ msgid "Percentage action is taken"
-#~ msgstr "Відсоток дій ужито"
-
-#~ msgid ""
-#~ "The percentage of the battery when the critical action is performed. Only "
-#~ "valid when use-time-for-policy is false."
-#~ msgstr ""
-#~ "Відсоток батареї, коли здійснюється критична дія . Дійсно лише якщо use-"
-#~ "time-for-policy має значення false."
-
-#~ msgid "The time remaining when low"
-#~ msgstr "Залишковий час, коли низький заряд"
-
-#~ msgid ""
-#~ "The time remaining in seconds of the battery when it is considered low. "
-#~ "Only valid when use-time-for-policy is true."
-#~ msgstr ""
-#~ "Час роботи батареї в секундах, коли її заряд уважається низьким. Дійсно "
-#~ "лише коли use-time-for-policy має значення true."
-
-#~ msgid "The time remaining when critical"
-#~ msgstr "Залишковий час, коли критичний заряд"
-
-#~ msgid ""
-#~ "The time remaining in seconds of the battery when it is considered "
-#~ "critical. Only valid when use-time-for-policy is true."
-#~ msgstr ""
-#~ "Час роботи батареї в секундах, коли її заряд уважається критичним. Дійсно "
-#~ "лише коли use-time-for-policy має значення true."
-
-#~ msgid "The time remaining when action is taken"
-#~ msgstr "Залишковий час, коли дію вжито"
-
-#~ msgid ""
-#~ "The time remaining in seconds of the battery when critical action is "
-#~ "taken. Only valid when use-time-for-policy is true."
-#~ msgstr ""
-#~ "Час роботи батареї в секундах під час настання критичної дії. Дійсно лише "
-#~ "коли use-time-for-policy має значення true."
-
-#~ msgid "Whether to use time-based notifications"
-#~ msgstr "Чи сповіщати про час"
-
-#~ msgid ""
-#~ "If time based notifications should be used. If set to false, then the "
-#~ "percentage change is used instead, which may fix a broken ACPI BIOS."
-#~ msgstr ""
-#~ "Чи використовувати сповіщення про час. За значення false, "
-#~ "використовуються відсотки заряду батареї, що може виправити проблему із "
-#~ "зіпсованими ACPI BIOS."
-
-#~ msgid "If we should show the recalled battery warning for a broken battery"
-#~ msgstr "Чи показувати попередження під час несправностей у батареї"
-
-#~ msgid ""
-#~ "If we should show the recalled battery warning for a broken battery. Set "
-#~ "this to false only if you know your battery is okay."
-#~ msgstr ""
-#~ "Чи показувати попередження під час несправності з батареєю. Якщо ви "
-#~ "знаєте, що батарея справна, вкажіть значення false."
-
-#~ msgid "There was an error displaying help: %s"
-#~ msgstr "Помилка показу довідки: %s"
-
-#~ msgid "_Turn Off"
-#~ msgstr "_Вимкнути"
-
-#~ msgid "_Turn On"
-#~ msgstr "_Увімкнути"
-
-#~ msgid "_Leave On"
-#~ msgstr "_Не вимикати"
-
-#~ msgid "_Leave Off"
-#~ msgstr "_Не вимикати"
-
-#~ msgid "Universal Access Preferences"
-#~ msgstr "Параметри універсального доступу"
-
-#~ msgid "Use on-screen _keyboard"
-#~ msgstr "Використовувати _екранну клавіатуру"
-
-#~ msgid "Use screen _reader"
-#~ msgstr "Використовувати _читання екрану"
-
-#~ msgid "Use screen _magnifier"
-#~ msgstr "Використовувати _збільшувач екрану"
-
-#~ msgid "Enhance _contrast in colors"
-#~ msgstr "Покращений _контраст у кольорах"
-
-#~ msgid "Make _text larger and easier to read"
-#~ msgstr "Зробити _текст більшим та простішим для читання"
-
-#~ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
-#~ msgstr ""
-#~ "Вводити комбінації клавіш _почерговим натисканням клавіш (Липкі клавіші)"
-
-#~ msgid "_Ignore duplicate keypresses (Bounce Keys)"
-#~ msgstr "_Ігнорувати швидкі повторні натискання клавіш (Пружні клавіші)"
-
-#~ msgid "Press and _hold keys to accept them (Slow Keys)"
-#~ msgstr ""
-#~ "Приймати клавіші лише після т_ривалого натискання (Повільні клавіші)"
-
-#~ msgid "Mount Helper"
-#~ msgstr "Помічник монтування"
-
-#~ msgid "Automount and autorun plugged devices"
-#~ msgstr "Автоматичне монтування і автоматичний запуск приєднаних пристроїв"
-
-#~ msgid "Unable to mount %s"
-#~ msgstr "Неможливо змонтувати %s"
-
-#~ msgid "Unable to open a folder for %s"
-#~ msgstr "Неможливо змонтувати теку для %s"
-
-#~ msgid "Ask what to do"
-#~ msgstr "Запитати про подальші дії"
-
-#~ msgid "Do Nothing"
-#~ msgstr "Нічого не робити"
-
-#~ msgid "Open Folder"
-#~ msgstr "Відкрити теку"
-
-#~ msgid "Unable to eject %p"
-#~ msgstr "Неможливо витягнути %p"
-
-#~ msgid "Unable to unmount %p"
-#~ msgstr "Неможливо демонтувати %p"
-
-#~ msgid "You have just inserted an Audio CD."
-#~ msgstr "Просто вставлено аудіодиск CD."
-
-#~ msgid "You have just inserted an Audio DVD."
-#~ msgstr "Просто вставлено аудіодиск DVD."
-
-#~ msgid "You have just inserted a Video DVD."
-#~ msgstr "Просто вставлено відеодиск DVD. "
-
-#~ msgid "You have just inserted a Video CD."
-#~ msgstr "Просто вставлено відеодиск CD. "
-
-#~ msgid "You have just inserted a Super Video CD."
-#~ msgstr "Просто вставлено суперовий відеодиск CD. "
-
-#~ msgid "You have just inserted a blank CD."
-#~ msgstr "Просто вставлено порожній CD. "
-
-#~ msgid "You have just inserted a blank DVD."
-#~ msgstr "Просто вставлено порожній DVD. "
-
-#~ msgid "You have just inserted a blank Blu-Ray disc."
-#~ msgstr "Просто вставлено порожній диск Blu-Ray. "
-
-#~ msgid "You have just inserted a blank HD DVD."
-#~ msgstr "Просто вставлено порожній HD DVD. "
-
-#~ msgid "You have just inserted a Photo CD."
-#~ msgstr "Просто вставлено фотодиск CD. "
-
-#~ msgid "You have just inserted a Picture CD."
-#~ msgstr "Просто вставлено CD з малюнками. "
-
-#~ msgid "You have just inserted a medium with digital photos."
-#~ msgstr "Просто вставлено носій з цифровими світлинами. "
-
-#~ msgid "You have just inserted a digital audio player."
-#~ msgstr "Просто вставлено цифровий аудіопрогравач. "
-
-#~ msgid ""
-#~ "You have just inserted a medium with software intended to be "
-#~ "automatically started."
-#~ msgstr ""
-#~ "Просто вставлено носій з програмою, призначеною для автоматичного "
-#~ "запуску. "
-
-#~ msgid "You have just inserted a medium."
-#~ msgstr "Просто вставлено носій."
-
-#~ msgid "Choose what application to launch."
-#~ msgstr "Виберіть програму для запуску."
-
-#~ msgid ""
-#~ "Select how to open \"%s\" and whether to perform this action in the "
-#~ "future for other media of type \"%s\"."
-#~ msgstr ""
-#~ "Виберіть спосіб відкриття «%s» або виконання цієї дії в подальшому для "
-#~ "інших носіїв типу «%s»."
-
-#~ msgid "_Always perform this action"
-#~ msgstr "_Завжди виконувати цю дію"
-
-#~ msgid "_Eject"
-#~ msgstr "_Витягнути"
-
-#~ msgid "_Unmount"
-#~ msgstr "_Демонтувати"
-
-#~ msgid "Background"
-#~ msgstr "Тло"
-
-#~ msgid "Could not enable mouse accessibility features"
-#~ msgstr "Не вдається увімкнути спеціальні можливості миші"
-
-#~ msgid ""
-#~ "Mouse accessibility requires Mousetweaks to be installed on your system."
-#~ msgstr ""
-#~ "Щоб увімкнути доступність миші, треба встановити у систему службу "
-#~ "Mousetweaks."
-
-#~ msgid "provides %s laptop runtime"
-#~ msgstr "Ноутбук працюватиме ще %s"
-
-#~ msgid "%s %s remaining"
-#~ msgstr "Залишилось %s %s"
-
-#~ msgid "%s %s until charged"
-#~ msgstr "Буде заряджено через %s %s"
-
-#~ msgid "provides %s battery runtime"
-#~ msgstr "Батарея триматиме ще %s"
-
-#~ msgid "Product:"
-#~ msgstr "Продукт:"
-
-#~ msgid "Status:"
-#~ msgstr "Стан:"
-
-#~ msgid "Missing"
-#~ msgstr "Немає"
-
-#~ msgid "Charged"
-#~ msgstr "Заряджено"
-
-#~ msgid "Charging"
-#~ msgstr "Заряджається"
-
-#~ msgid "Discharging"
-#~ msgstr "Розряджається"
-
-#~ msgid "Percentage charge:"
-#~ msgstr "Відсоток заряду:"
-
-#~ msgid "Vendor:"
-#~ msgstr "Виробник:"
-
-#~ msgid "Technology:"
-#~ msgstr "Технологія:"
-
-#~ msgid "Serial number:"
-#~ msgstr "Серійний номер:"
-
-#~ msgid "Model:"
-#~ msgstr "Модель:"
-
-#~ msgid "Discharge time:"
-#~ msgstr "Тривалість розрядження:"
-
-#~ msgid "Excellent"
-#~ msgstr "Відмінна"
-
-#~ msgid "Good"
-#~ msgstr "Хороша"
-
-#~ msgid "Fair"
-#~ msgstr "Задовільна"
-
-#~ msgid "Poor"
-#~ msgstr "Незадовільна"
-
-#~ msgid "Capacity:"
-#~ msgstr "Потужність:"
-
-#~ msgid "Current charge:"
-#~ msgstr "Поточний заряд:"
-
-#~ msgid "Last full charge:"
-#~ msgstr "Останній повний заряд:"
-
-#~ msgid "Design charge:"
-#~ msgstr "Плановий заряд:"
-
-#~ msgid "Charge rate:"
-#~ msgstr "Ступінь заряду:"
-
-#~ msgid "AC adapter"
-#~ msgid_plural "AC adapters"
-#~ msgstr[0] "Блок живлення"
-#~ msgstr[1] "Блоки живлення"
-#~ msgstr[2] "Блоки живлення"
-
-#~ msgid "Laptop battery"
-#~ msgid_plural "Laptop batteries"
-#~ msgstr[0] "Батарея ноутбука"
-#~ msgstr[1] "Батареї ноутбука"
-#~ msgstr[2] "Батареї ноутбука"
-
-#~ msgid "UPS"
-#~ msgid_plural "UPSs"
-#~ msgstr[0] "Блок безперебійного живлення"
-#~ msgstr[1] "Блоки безперебійного живлення"
-#~ msgstr[2] "Блоки безперебійного живлення"
-
-#~ msgid "Monitor"
-#~ msgid_plural "Monitors"
-#~ msgstr[0] "Монітор"
-#~ msgstr[1] "Монітори"
-#~ msgstr[2] "Монітори"
-
-#~ msgid "PDA"
-#~ msgid_plural "PDAs"
-#~ msgstr[0] "КПК"
-#~ msgstr[1] "КПК"
-#~ msgstr[2] "КПК"
-
-#~ msgid "Cell phone"
-#~ msgid_plural "Cell phones"
-#~ msgstr[0] "Мобільний телефон"
-#~ msgstr[1] "Мобільні телефон"
-#~ msgstr[2] "Мобільні телефон"
-
-#~ msgid "Media player"
-#~ msgid_plural "Media players"
-#~ msgstr[0] "Програвач"
-#~ msgstr[1] "Програвачі"
-#~ msgstr[2] "Програвачі"
-
-#~ msgid "Tablet"
-#~ msgid_plural "Tablets"
-#~ msgstr[0] "Планшет"
-#~ msgstr[1] "Планшети"
-#~ msgstr[2] "Планшети"
-
-#~ msgid "Computer"
-#~ msgid_plural "Computers"
-#~ msgstr[0] "Комп'ютер"
-#~ msgstr[1] "Комп'ютери"
-#~ msgstr[2] "Комп'ютери"
-
-#~ msgid "Lithium Ion"
-#~ msgstr "Літій-іонний"
-
-#~ msgid "Lithium Polymer"
-#~ msgstr "Літій-полімерний"
-
-#~ msgid "Lithium Iron Phosphate"
-#~ msgstr "Літій-залізний фосфатний"
-
-#~ msgid "Lead acid"
-#~ msgstr "Свинцево-кислотний"
-
-#~ msgid "Nickel Cadmium"
-#~ msgstr "Нікель-кадмієвий"
-
-#~ msgid "Nickel metal hydride"
-#~ msgstr "Нікель-метал-гідридний"
-
-#~ msgid "Unknown technology"
-#~ msgstr "Невідома технологія"
-
-#~ msgid "Empty"
-#~ msgstr "Порожня"
-
-#~ msgid "Waiting to charge"
-#~ msgstr "Очікування на заряджання"
-
-#~ msgid "Waiting to discharge"
-#~ msgstr "Очікування на розряджання"
-
-#~ msgid "Laptop battery not present"
-#~ msgstr "Немає батареї ноутбука"
-
-#~ msgid "Laptop battery is charging"
-#~ msgstr "Батарея ноутбука заряджається"
-
-#~ msgid "Laptop battery is discharging"
-#~ msgstr "Батарея ноутбука розряджається"
-
-#~ msgid "Laptop battery is empty"
-#~ msgstr "Батарея ноутбука порожня"
-
-#~ msgid "Laptop battery is charged"
-#~ msgstr "Батарею ноутбука заряджено"
-
-#~ msgid "Laptop battery is waiting to charge"
-#~ msgstr "Батарея ноутбука очікує на зарядження"
-
-#~ msgid "Laptop battery is waiting to discharge"
-#~ msgstr "Батарея ноутбука очікує на розрядження"
-
-#~ msgid "UPS is charging"
-#~ msgstr "UPS заряджається"
-
-#~ msgid "UPS is discharging"
-#~ msgstr "UPS розряджається"
-
-#~ msgid "UPS is empty"
-#~ msgstr "UPS порожній"
-
-#~ msgid "UPS is charged"
-#~ msgstr "UPS заряджено"
-
-#~ msgid "Mouse is charging"
-#~ msgstr "Мишка заряджається"
-
-#~ msgid "Mouse is discharging"
-#~ msgstr "Мишка розряджається"
-
-#~ msgid "Mouse is empty"
-#~ msgstr "Мишку виснажено"
-
-#~ msgid "Mouse is charged"
-#~ msgstr "Мишку заряджено"
-
-#~ msgid "Keyboard is charging"
-#~ msgstr "Клавіатура заряджається"
-
-#~ msgid "Keyboard is discharging"
-#~ msgstr "Клавіатура розряджається"
-
-#~ msgid "PDA is charging"
-#~ msgstr "КПК заряджається"
-
-#~ msgid "PDA is discharging"
-#~ msgstr "КПК розряджається"
-
-#~ msgid "PDA is empty"
-#~ msgstr "КПК виснажено"
-
-#~ msgid "PDA is charged"
-#~ msgstr "КПК заряджено"
-
-#~ msgid "Cell phone is charging"
-#~ msgstr "Мобільний телефон заряджається"
-
-#~ msgid "Cell phone is discharging"
-#~ msgstr "Мобільний телефон розряджається"
-
-#~ msgid "Cell phone is empty"
-#~ msgstr "Мобільний телефон виснажено"
-
-#~ msgid "Cell phone is charged"
-#~ msgstr "Мобільний телефон заряджено"
-
-#~ msgid "Media player is charging"
-#~ msgstr "Програвач заряджається"
-
-#~ msgid "Media player is discharging"
-#~ msgstr "Програвач розряджено"
-
-#~ msgid "Media player is empty"
-#~ msgstr "Програвач виснажено"
-
-#~ msgid "Media player is charged"
-#~ msgstr "Програвач заряджено"
-
-#~ msgid "Tablet is charging"
-#~ msgstr "Планшет заряджається"
-
-#~ msgid "Tablet is discharging"
-#~ msgstr "Планшет розряджається"
-
-#~ msgid "Tablet is empty"
-#~ msgstr "Планшет виснажено"
-
-#~ msgid "Tablet is charged"
-#~ msgstr "Планшет заряджено"
-
-#~ msgid "Computer is charging"
-#~ msgstr "Комп'ютер заряджається"
-
-#~ msgid "Computer is discharging"
-#~ msgstr "Комп'ютер розряджається"
-
-#~ msgid "Computer is empty"
-#~ msgstr "Комп'ютер виснажено"
-
-#~ msgid "Computer is charged"
-#~ msgstr "Комп'ютер заряджено"
-
-#~ msgid "Battery may be recalled"
-#~ msgstr "Батарея підлягає поверненню"
-
-#~ msgid ""
-#~ "A battery in your computer may have been recalled by %s and you may be at "
-#~ "risk."
-#~ msgstr ""
-#~ "%s відкликав батарею на вашому комп'ютері й тому її використання може "
-#~ "бути небезпечним"
-
-#~ msgid "For more information visit the battery recall website."
-#~ msgstr "Докладніше можете прочитати на сайті про відкликання батарей."
-
-#~ msgid "Visit recall website"
-#~ msgstr "Відвідати сайт відкликань"
-
-#~ msgid "Do not show me this again"
-#~ msgstr "Більше не показувати цього "
-
-#~ msgid "Plug in your AC adapter to avoid losing data."
-#~ msgstr "Під'єднайте джерело живлення, щоб запобігти втраті даних."
-
-#~ msgid ""
-#~ "The battery is below the critical level and this computer will <b>power-"
-#~ "off</b> when the battery becomes completely empty."
-#~ msgstr ""
-#~ "Рівень заряду батареї нижче за критичний і комп'ютер буде <b>вимкнено</"
-#~ "b>, коли батарея повністю розрядиться."
-
-#~ msgid ""
-#~ "The battery is below the critical level and this computer is about to "
-#~ "suspend.\n"
-#~ "<b>NOTE:</b> A small amount of power is required to keep your computer in "
-#~ "a suspended state."
-#~ msgstr ""
-#~ "Рівень заряду батареї нижче за  критичний і комп'ютер буде призупинено."
-#~ "<b>Зауважте:</b> для підтримання комп'ютера у стані призупинення потрібна "
-#~ "невелика потужність."
-
-#~ msgid ""
-#~ "UPS is below the critical level and this computer will <b>power-off</b> "
-#~ "when the UPS becomes completely empty."
-#~ msgstr ""
-#~ "Заряд UPS нижче за критичний рівень і комп'ютер буде <b>вимкнено</b>, "
-#~ "коли UPS повністю розрядиться."
-
-#~ msgid "Power Manager"
-#~ msgstr "Керування живленням"
-
-#~ msgid "received error or hang up from event source"
-#~ msgstr "одержано помилку або зависло у джерелі події"
-
-#~ msgid "NSS security system could not be initialized"
-#~ msgstr "Неможливо запустити систему безпеки NSS"
-
-#~ msgid "no suitable smartcard driver could be found"
-#~ msgstr "не знайдено придатного драйвера смарт-картки "
-
-#~ msgid "smartcard driver '%s' could not be loaded"
-#~ msgstr "неможливо завантажити драйвер смарт-картки «%s»"
-
-#~ msgid "could not watch for incoming card events - %s"
-#~ msgstr "неможливо спостерігати за вхідними подіями картки — %s"
-
-#~ msgid "encountered unexpected error while waiting for smartcard events"
-#~ msgstr ""
-#~ "Трапилась несподівана помилка протягом очікування подій смарт-картки"
-
-#~ msgid "Could not switch the monitor configuration"
-#~ msgstr "Не вдається застосувати конфігурацію моніторів"
-
-#~ msgid "Could not restore the display's configuration"
-#~ msgstr "Не вдається відновити конфігурацію моніторів"
-
-#~ msgid "Could not restore the display's configuration from a backup"
-#~ msgstr "Не вдається відновити конфігурацію моніторів з резервної копії"
-
-#~ msgid "The display will be reset to its previous configuration in %d second"
-#~ msgid_plural ""
-#~ "The display will be reset to its previous configuration in %d seconds"
-#~ msgstr[0] "Попередню конфігурацію дисплею буде повернуто через %d секунду"
-#~ msgstr[1] "Попередню конфігурацію дисплею буде повернуто через %d секунди"
-#~ msgstr[2] "Попередню конфігурацію дисплею буде повернуто через %d секунд"
-
-#~ msgid "Does the display look OK?"
-#~ msgstr "Конфігурація влаштовує?"
-
-#~ msgid "_Restore Previous Configuration"
-#~ msgstr "_Відновити попередню конфігурацію"
-
-#~ msgid "_Keep This Configuration"
-#~ msgstr "_Застосувати поточну конфігурацію"
-
-#~ msgid "The selected configuration for displays could not be applied"
-#~ msgstr "Не вдається застосувати обрану конфігурацію моніторів"
-
-#~ msgid "Trying to switch the monitor configuration anyway."
-#~ msgstr "Конфігурація моніторів застосовується примусово."
-
-#~ msgid "Could not apply the stored configuration for monitors"
-#~ msgstr "Не вдається застосувати збережену конфігурацію моніторів"
-
-#~ msgid "The install root to use when adding and removing packages"
-#~ msgstr "Встановити корінь для додавання і вилучення пакунків"
-
-#~ msgid ""
-#~ "The install root to use when processing packages, which is changed when "
-#~ "using LTSP or when testing."
-#~ msgstr ""
-#~ "Встановити корінь для опрацювання пакунків, які змінено при використанні "
-#~ "LTSP або при випробуванні."
-
-#~ msgid "Use WiFi connections"
-#~ msgstr "Скористатись з'єднання через WiFi"
-
-#~ msgid ""
-#~ "Use WiFi (wireless LAN) connections to check for updates. It may be "
-#~ "faster to download packages when on a wired connection, and the VPN or "
-#~ "proxy required may also only be available on wired connections."
-#~ msgstr ""
-#~ "Скористайтесь з'єднанням через WiFi (радіомережею), щоб перевірити "
-#~ "оновлення. Звантаження пакунків через дротову мережу може бути швидшим, і "
-#~ "потреба в VPN або проксі також може бути доступною тільки у дротовому "
-#~ "з'єднанні."
-
-#~ msgid "Automatically install these types of updates"
-#~ msgstr "Автоматично встановлювати оновлення такого типу"
-
-#~ msgid "Automatically install these types of updates."
-#~ msgstr "Автоматично встановлювати оновлення такого типу."
-
-#~ msgid "Get the update list when the session starts"
-#~ msgstr "Одержати перелік оновлень при запуску сеансу"
-
-#~ msgid ""
-#~ "Get the update list when the session starts, even if not scheduled to."
-#~ msgstr ""
-#~ "Одержати перелік оновлень при запуску сеансу, навіть якщо цього не "
-#~ "заплановано."
-
-#~ msgid ""
-#~ "The number of seconds at session startup to wait before checking for "
-#~ "updates"
-#~ msgstr ""
-#~ "Кількість секунд для очікування на перевіряння оновлень у сеансі після "
-#~ "запуску"
-
-#~ msgid ""
-#~ "The number of seconds at session startup to wait before checking for "
-#~ "updates. Value is in seconds."
-#~ msgstr ""
-#~ "Кількість секунд для очікування на перевіряння оновлень у сеансі після "
-#~ "запуску. Значення в секундах."
-
-#~ msgid "Notify the user for completed updates"
-#~ msgstr "Сповіщати користувача про завершення оновлень"
-
-#~ msgid ""
-#~ "Notify the user for completed updates. This may be a useful notification "
-#~ "for some users as installing updates prevents shutdown."
-#~ msgstr ""
-#~ "Сповіщати користувача про завершення оновлень. Це сповіщення може бути "
-#~ "корисне для деяких користувачі, які запобігають вимкненню комп'ютера."
-
-#~ msgid ""
-#~ "Notify the user for completed updates where the user needs to restart"
-#~ msgstr ""
-#~ "Сповіщати користувача про завершення оновлень, коли користувачу потрібно "
-#~ "перезавантажитись"
-
-#~ msgid ""
-#~ "Notify the user for completed updates where the user needs to restart."
-#~ msgstr ""
-#~ "Сповіщати користувача про завершення оновлень, коли користувачу потрібно "
-#~ "перезавантажитись."
-
-#~ msgid ""
-#~ "Notify the user when the automatic update was not started on battery power"
-#~ msgstr ""
-#~ "Сповіщати користувача, коли автоматичне оновлення не почато при живленні "
-#~ "з батареї"
-
-#~ msgid ""
-#~ "Notify the user when the update was not automatically started because the "
-#~ "machine is running on battery power."
-#~ msgstr ""
-#~ "Сповіщати користувача, коли автоматичне оновлення не почато через те, що "
-#~ "комп'ютер працює на живленні з батареї."
-
-#~ msgid "Notify the user when the update was started"
-#~ msgstr "Сповіщати користувача, коли оновлення почалось"
-
-#~ msgid "Notify the user when the update was started."
-#~ msgstr "Сповіщати користувача, коли оновлення почалось."
-
-#~ msgid ""
-#~ "Error activating XKB configuration.\n"
-#~ "There can be various reasons for that.\n"
-#~ "\n"
-#~ "If you report this situation as a bug, include the results of\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>"
-#~ msgstr ""
-#~ "Помилка ввімкнення налаштувань XKB.\n"
-#~ "На це може бути кілька причини.\n"
-#~ "\n"
-#~ "Якщо ви відзвітуєте цю ситуацію у вигляді вади, зокрема результати "
-#~ "цього:\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>\n"
-#~ " • <b>%s</b>"
-
-#~ msgid "_Layouts"
-#~ msgstr "Роз_кладки"
-
-#~ msgid "Show _Keyboard Layout..."
-#~ msgstr "Показувати розкладку к_лавіатури…"
-
-#~ msgid "Region and Language Settings"
-#~ msgstr "Параметри регіону та мови"
-
-#~ msgid ""
-#~ "Automatic updates are not being installed as the computer is running on "
-#~ "battery power"
-#~ msgstr ""
-#~ "Автоматичні оновлення не буде встановлено, бо комп'ютер працює від батареї"
-
-#~ msgid "Updates not installed"
-#~ msgstr "Оновлення не встановлено"
-
-#~ msgid "Install the updates anyway"
-#~ msgstr "Однаково встановити оновлення"
-
-#~ msgid "No restart is required."
-#~ msgstr "Перезапуск не потрібен."
-
-#~ msgid "A restart is required."
-#~ msgstr "Потрібен перезапуск."
-
-#~ msgid "You need to log out and log back in."
-#~ msgstr "Потрібно буде завершити і запустити сеанс."
-
-#~ msgid "You need to restart the application."
-#~ msgstr "Потрібно буде перезапустити цю програму."
-
-#~ msgid "You need to log out and log back in to remain secure."
-#~ msgstr "Потрібно буде завершити і запустити сеанс задля безпеки."
-
-#~ msgid "A restart is required to remain secure."
-#~ msgstr "Потрібен перезапуск задля безпеки."
-
-#~ msgid "One package was skipped:"
-#~ msgid_plural "Some packages were skipped:"
-#~ msgstr[0] "Пакунок пропущено:"
-#~ msgstr[1] "Кілька пакунків пропущено:"
-#~ msgstr[2] "Деякі пакунки пропущено:"
-
-#~ msgid "Restart computer now"
-#~ msgstr "Перезавантажити комп'ютер зараз"
-
-#~ msgid "Allowed keys"
-#~ msgstr "Дозволені клавіші"
-
-#~ msgid ""
-#~ "If non-empty, keybindings will be ignored unless their settings directory "
-#~ "is in the list. This is useful for lockdown."
-#~ msgstr ""
-#~ "Якщо список не порожній, прив'язки клавіш будуть ігноруватися, поки їхній "
-#~ "каталог налаштувань не буде в цьому списку. Це зручно для блокування."
-
-#~ msgid "Enable this to set the cursor to absolute mode."
-#~ msgstr "Увімкнути це, щоб установити курсор на абсолютний режим."
-
-#~ msgid "Enable this to set the stylus to absolute mode."
-#~ msgstr "Увімкнути це, щоб установити стилус на абсолютний режим."
-
-#~ msgid "Set this to x1, y1 and x2, y2 of the area usable by the cursor."
-#~ msgstr "Вкажіть це до 1, y1 і x2, y2 ділянки придатної для курсора."
-
-#~ msgid "Set this to x1, y1 and x2, y2 of the area usable by the eraser."
-#~ msgstr "Вкажіть це до 1, y1 і x2, y2 ділянки придатної для гумки."
-
-#~ msgid "Set this to x1, y1 and x2, y2 of the area usable by the pad."
-#~ msgstr "Вкажіть це до 1, y1 і x2, y2 ділянки придатної для планшета."
-
-#~ msgid "Wacom cursor absolute mode"
-#~ msgstr "Абсолютний режим курсора Wacom"
-
-#~ msgid "Wacom cursor button mapping"
-#~ msgstr "Відбиття кнопок курсора Wacom"
-
-#~ msgid "Wacom cursor tablet area"
-#~ msgstr "Ділянка планшетного курсора Wacom"
-
-#~ msgid "Wacom eraser absolute mode"
-#~ msgstr "Абсолютний режим гумки Wacom"
-
-#~ msgid "Wacom eraser tablet area"
-#~ msgstr "Ділянка планшетної гумки Wacom"
-
-#~ msgid "Wacom stylus tablet area"
-#~ msgstr "Ділянка планшетного стилуса Wacom"
-
-#~ msgid "Default"
-#~ msgstr "Типово"
-
-#, fuzzy
-#~ msgid "Key binding (%s) is invalid (%d)"
-#~ msgstr "Комбінація клавіш (%s) неправильна"
-
-#~ msgid "Key binding (%s) is incomplete"
-#~ msgstr "Комбінації клавіш (%s) не завершена"
-
-#~ msgid ""
-#~ "Error while trying to run (%s)\n"
-#~ "which is linked to the key (%s)"
-#~ msgstr ""
-#~ "Помилка при спробі запуску (%s)\n"
-#~ "що пов'язаний з клавішею (%s)"
-
-#~ msgid "Keybindings plugin"
-#~ msgstr "Модуль комбінацій клавіш"
-
-#~ msgid ""
-#~ "Could not get default terminal. Verify that your default terminal command "
-#~ "is set and points to a valid application."
-#~ msgstr ""
-#~ "Не вдається отримати типовий термінал. Перевірте, що обрана вами типова "
-#~ "термінальна програма справді вказує типову програму."
-
-#~ msgid ""
-#~ "Couldn't execute command: %s\n"
-#~ "Verify that this is a valid command."
-#~ msgstr ""
-#~ "Не вдається виконати команду: %s\n"
-#~ "Перевірте чи команда існує."
-
-#~ msgid "Module Path"
-#~ msgstr "Шлях до модуля"
-
-#, fuzzy
-#~ msgid "Change system time and date settings"
-#~ msgstr "Встановити розмір екрану та параметри повороту"
-
-#~ msgid ""
-#~ "Priority to use for this plugin in gnome-settings-daemon startup queue."
-#~ msgstr "Пріоритет цього додатка в черзі при запуску gnome-settings-daemon."
-
-#~ msgid ""
-#~ "Whether this plugin would be activated by gnome-settings-daemon or not."
-#~ msgstr "Чи цей додаток увімкнути за допомогою gnome-settings-daemon, чи ні."
-
-#~ msgid "Do you want to activate Slow Keys?"
-#~ msgstr "Бажаєте ввімкнути режим \"Повільні клавіші\"?"
-
-#~ msgid "Do you want to deactivate Slow Keys?"
-#~ msgstr "Бажаєте вимкнути режим \"Повільні клавіші\"?"
-
-#~ msgid "Don't activate"
-#~ msgstr "Не активувати"
-
-#~ msgid "Don't deactivate"
-#~ msgstr "Не вимикати"
-
-#~ msgid "Activate"
-#~ msgstr "Увімкнути"
-
-#~ msgid "Deactivate"
-#~ msgstr "Вимкнути"
-
-#~ msgid "Do_n't activate"
-#~ msgstr "Н_е запускати"
-
-#~ msgid "Do_n't deactivate"
-#~ msgstr "_Не вимикати"
-
-#~ msgid "_Activate"
-#~ msgstr "_Увімкнути"
-
-#~ msgid "_Deactivate"
-#~ msgstr "_Вимкнути"
-
-#~ msgid "Do you want to activate Sticky Keys?"
-#~ msgstr "Бажаєте ввімкнути режим \"Липкі клавіші\"?"
-
-#~ msgid "Do you want to deactivate Sticky Keys?"
-#~ msgstr "Бажаєте вимкнути режим \"Повільні клавіші\"?"
-
-#, fuzzy
-#~ msgid "Automounter plugin"
-#~ msgstr "Модуль шрифту"
-
-#~ msgid "Keyboard _Preferences"
-#~ msgstr "Параметри _клавіатури"
-
-#, fuzzy
-#~ msgid "Show _Current Layout"
-#~ msgstr "Показати поточну _розкладу"
-
-#~ msgid "Volume step as percentage of volume."
-#~ msgstr "Крок зміни гучності у відсотках."
-
-#~ msgid ""
-#~ "If a notification icon with display related things should be shown in the "
-#~ "panel."
-#~ msgstr ""
-#~ "Чи показувати у панелі значок сповіщення з параметрами, що відносяться до "
-#~ "дисплею."
-
-#~ msgid "Show Displays in Notification Area"
-#~ msgstr "Показувати дисплеї у області сповіщення"
-
-#~ msgid "DPI"
-#~ msgstr "DPI"
-
-#~ msgid ""
-#~ "The resolution used for converting font sizes to pixel sizes, in dots per "
-#~ "inch."
-#~ msgstr ""
-#~ "Роздільна здатність, що використовується для перетворення розмірів "
-#~ "шрифтів на кількість пікселів, у точках на дюйм."
-
-#~ msgid "Bounce keys"
-#~ msgstr "Пружні клавіші"
-
-#~ msgid "Command used to turn the magnifier on or off."
-#~ msgstr "Команда для вимикання та вмикання збільшення екрану."
-
-#~ msgid "Command used to turn the on-screen keyboard on or off."
-#~ msgstr "Команда для вимикання та вмикання екранної клавіатури."
-
-#~ msgid "Command used to turn the screen reader on or off."
-#~ msgstr "Команда для вимикання та вмикання читання з екрану."
-
-#~ msgid "Enable accessibility keyboard plugin"
-#~ msgstr "Увімкнути модуль спеціальних можливостей клавіатури"
-
-#~ msgid "Enable background plugin"
-#~ msgstr "Увімкнути тло робочого столу"
-
-#~ msgid "Enable clipboard plugin"
-#~ msgstr "Увімкнути модуль буферу обміну"
-
-#~ msgid "Enable font plugin"
-#~ msgstr "Увімкнути модуль шрифту"
-
-#~ msgid "Enable housekeeping plugin"
-#~ msgstr "Увімкнути модуль housekeeping"
-
-#~ msgid "Enable keybindings plugin"
-#~ msgstr "Увімкнути модуль прив'язки клавіш"
-
-#~ msgid "Enable keyboard plugin"
-#~ msgstr "Увімкнути модуль клавіатури"
-
-#~ msgid "Enable media keys plugin"
-#~ msgstr "Увімкнути модуль мультимедійних клавіш"
-
-#~ msgid "Enable mouse plugin"
-#~ msgstr "Увімкнути модуль мишки"
-
-#~ msgid "Enable sound plugin"
-#~ msgstr "Увімкнути модуль звуку"
-
-#~ msgid "Enable typing breaks plugin"
-#~ msgstr "Увімкнути модуль перерви у роботі"
-
-#~ msgid "Enable xrandr plugin"
-#~ msgstr "Увімкнути модуль xrandr"
-
-#~ msgid "Enable xrdb plugin"
-#~ msgstr "Увімкнути модуль xrdb"
-
-#~ msgid "Enable xsettings plugin"
-#~ msgstr "Увімкнути модуль xsettings"
-
-#~ msgid "On-screen keyboard"
-#~ msgstr "Екранна клавіатура"
-
-#~ msgid "Screen magnifier"
-#~ msgstr "Збільшувач екрану"
-
-#~ msgid "Screen reader"
-#~ msgstr "Читання екрану"
-
-#~ msgid ""
-#~ "Set to True to enable the housekeeping plugin, to prune transient file "
-#~ "caches."
-#~ msgstr ""
-#~ "Встановіть у True, щоб увімкнути модуль housekeeping, для скорочення "
-#~ "тимчасового файлу."
-
-#~ msgid "Set to True to enable the plugin to manage clipboard settings."
-#~ msgstr ""
-#~ "Встановіть, щоб дозволити модулю керувати параметрами буферу обміну."
-
-#~ msgid ""
-#~ "Set to True to enable the plugin to manage desktop background settings."
-#~ msgstr ""
-#~ "Встановіть, щоб дозволити модулю керувати параметрами тла робочого столу."
-
-#~ msgid "Set to True to enable the plugin to manage font settings."
-#~ msgstr "Встановіть, щоб дозволити модулю керувати параметрами шрифту."
-
-#~ msgid "Set to True to enable the plugin to manage keyboard settings."
-#~ msgstr "Встановіть, щоб дозволити модулю керувати параметрами клавіатури."
-
-#~ msgid "Set to True to enable the plugin to manage mouse settings."
-#~ msgstr "Встановіть, щоб дозволити модулю керувати параметрами миші."
-
-#~ msgid "Set to True to enable the plugin to manage multimedia keys settings."
-#~ msgstr ""
-#~ "Встановіть, щоб дозволити модулю керувати параметрами мультимедійних "
-#~ "клавіш."
-
-#~ msgid "Set to True to enable the plugin to manage sound sample caches."
-#~ msgstr "Встановіть, щоб увімкнути модуль керування кешуванням звуків."
-
-#~ msgid ""
-#~ "Set to True to enable the plugin to manage the accessibility keyboard "
-#~ "settings."
-#~ msgstr ""
-#~ "Встановіть, щоб увімкнути модуль керування спеціальними можливостями "
-#~ "клавіатури."
-
-#~ msgid "Set to True to enable the plugin to manage the keybindings."
-#~ msgstr "Встановіть, щоб дозволити модулю керувати прив'язками клавіатури."
-
-#~ msgid "Set to True to enable the plugin to manage typing breaks."
-#~ msgstr "Встановіть, щоб дозволити модулю керувати перервами у роботі"
-
-#~ msgid "Set to True to enable the plugin to manage xrandr settings."
-#~ msgstr "Встановіть, щоб дозволити модулю керувати параметрами xrandr."
-
-#~ msgid "Set to True to enable the plugin to manage xrdb settings."
-#~ msgstr "Встановіть, щоб дозволити модулю керувати параметрами xrdb."
-
-#~ msgid "Set to True to enable the plugin to manage xsettings."
-#~ msgstr "Встановіть, щоб дозволити модулю керувати параметрами xsettings."
-
-#~ msgid "Slow keys"
-#~ msgstr "Повільні клавіші"
-
-#~ msgid "Sticky keys"
-#~ msgstr "Липкі клавіші"
-
-#~ msgid "The name of the keyboard shortcut to toggle the magnifier"
-#~ msgstr "Комбінація клавіш для вмикання екранного збільшувача"
-
-#~ msgid "The name of the keyboard shortcut to toggle the on-screen keyboard"
-#~ msgstr "Комбінація клавіш для вмикання екранної клавіатури"
-
-#~ msgid "The name of the keyboard shortcut to toggle the screen reader"
-#~ msgstr "Комбінація клавіш для вмикання екранного читання екрану"
-
-#~ msgid ""
-#~ "This is the name of the keyboard shortcut to toggle the magnifier. This "
-#~ "name will be shown in the keyboard shortcut preferences dialog."
-#~ msgstr ""
-#~ "Комбінація клавіш для вмикання збільшувача екрану. Цей параметр можна "
-#~ "змінити у діалозі налаштовування комбінацій клавіш."
-
-#~ msgid ""
-#~ "This is the name of the keyboard shortcut to toggle the on-screen "
-#~ "keyboard. This name will be shown in the keyboard shortcut preferences "
-#~ "dialog."
-#~ msgstr ""
-#~ "Комбінація клавіш для вмикання екранної клавіатури екрану. Цей параметр "
-#~ "можна змінити у діалозі налаштовування комбінацій клавіш."
-
-#~ msgid ""
-#~ "This is the name of the keyboard shortcut to toggle the screen reader. "
-#~ "This name will be shown in the keyboard shortcut preferences dialog."
-#~ msgstr ""
-#~ "Комбінація клавіш для вмикання читання екрану. Цей параметр можна змінити "
-#~ "у діалозі налаштовування комбінацій клавіш."
-
-#~ msgid "Whether the bounce keys keyboard accessibility feature is turned on."
-#~ msgstr ""
-#~ "Чи увімкнено підтримку пружних клавіш системи технологій доступності."
-
-#~ msgid "Whether the mouse keys keyboard accessibility feature is turned on."
-#~ msgstr ""
-#~ "Чи увімкнено підтримку роботи з мишею системи технологій доступності."
-
-#~ msgid "Whether the on-screen keyboard is turned on."
-#~ msgstr "Чи увімкнено екранну клавіатуру."
-
-#~ msgid "Whether the screen magnifier is turned on."
-#~ msgstr "Чи увімкнено збільшувач екрану."
-
-#~ msgid "Whether the screen reader is turned on."
-#~ msgstr "Чи увімкнено систему читання з екрану."
-
-#~ msgid "Whether the slow keys keyboard accessibility feature is turned on."
-#~ msgstr ""
-#~ "Чи увімкнено підтримку повільних клавіш системи технологій доступності."
-
-#~ msgid "Whether the sticky keys keyboard accessibility feature is turned on."
-#~ msgstr ""
-#~ "Чи увімкнено підтримку липких клавіш системи технологій доступності."
-
-#~ msgid "Don't become a daemon"
-#~ msgstr "Не переходити у режим служби"
-
-#~ msgid "GConf prefix from which to load plugin settings"
-#~ msgstr "Префікс GConf для завантаження параметрів модуля"
-
-#~ msgid "Font"
-#~ msgstr "Шрифт"
-
-#~ msgid "Removing item %lu of %lu"
-#~ msgstr "Видалення елементу %lu з %lu"
-
-#~ msgid "<i>Removing: %s</i>"
-#~ msgstr "<i>Видалення: %s</i>"
-
-#~ msgid "Emptying the trash"
-#~ msgstr "Очищується смітник"
-
-#~ msgid "Preparing to empty trash..."
-#~ msgstr "Підготовка до очищення смітника..."
-
-#~ msgid "From: "
-#~ msgstr "З:"
-
-#~ msgid "Empty all of the items from the trash?"
-#~ msgstr "Видалити весь вміст смітника?"
-
-#~ msgid ""
-#~ "If you choose to empty the trash, all items in it will be permanently "
-#~ "lost. Please note that you can also delete them separately."
-#~ msgstr ""
-#~ "Якщо ви очистите смітник, весь його вміст буде остаточно втрачено. "
-#~ "Зверніть увагу, ви також можете видалити їх окремо."
-
-#~ msgid "_Empty Trash"
-#~ msgstr "О_чистити смітник"
-
-#~ msgid ""
-#~ "Error activating XKB configuration.\n"
-#~ "It can happen under various circumstances:\n"
-#~ "- a bug in libxklavier library\n"
-#~ "- a bug in X server (xkbcomp, xmodmap utilities)\n"
-#~ "- X server with incompatible libxkbfile implementation\n"
-#~ "\n"
-#~ "X server version data:\n"
-#~ "%s\n"
-#~ "%d\n"
-#~ "%s\n"
-#~ "If you report this situation as a bug, please include:\n"
-#~ "- The result of <b>%s</b>\n"
-#~ "- The result of <b>%s</b>"
-#~ msgstr ""
-#~ "Помилка при активації розширення XKB.\n"
-#~ "Це буває за таких обставин:\n"
-#~ "- помилка у бібліотеці libxklavier\n"
-#~ "- помилка у X-сервері (утиліти xkbcomp, xmodmap)\n"
-#~ "- X-сервер з несумісною реалізацією libxkbfile\n"
-#~ "\n"
-#~ "Дані про версію X-сервера:\n"
-#~ "%s\n"
-#~ "%d\n"
-#~ "%s\n"
-#~ "Якщо ви повідомляєте про цю ситуацію, будь ласка, увімкніть:\n"
-#~ "- Результат <b>%s</b>\n"
-#~ "- Результат <b>%s</b>"
-
-#~ msgid ""
-#~ "You are using XFree 4.3.0.\n"
-#~ "There are known problems with complex XKB configurations.\n"
-#~ "Try using a simpler configuration or taking a fresher version of XFree "
-#~ "software."
-#~ msgstr ""
-#~ "Ви користуєтесь XFree 4.3.0.\n"
-#~ "Є відомі проблеми з конфігурацією XKB.\n"
-#~ "Попробуйте використати більше просту конфігурацію або встановити свіжішу "
-#~ "версію XFree."
-
-#~ msgid "Keyboard Layout \"%s\""
-#~ msgstr "Розкладка клавіатури \"%s\""
-
-#~ msgid "_Groups"
-#~ msgstr "_Групи"
-
-#~ msgid "A_vailable files:"
-#~ msgstr "_Наявні файли:"
-
-#~ msgid "Load modmap files"
-#~ msgstr "Завантаження файлів modmap"
-
-#~ msgid "Would you like to load the modmap file(s)?"
-#~ msgstr "Бажаєте завантажити файл(и) modmap?"
-
-#~ msgid "_Load"
-#~ msgstr "_Завантажити"
-
-#~ msgid "_Loaded files:"
-#~ msgstr "_Завантажено файлів:"
-
-#~ msgid "Mouse Preferences"
-#~ msgstr "Параметри миші"
-
-#~ msgid "Typing Break"
-#~ msgstr "Перерва у роботі"
-
-#~ msgid "Typing break plugin"
-#~ msgstr "Модуль перерви у роботі"
-
-#~ msgid "<i>Rotation not supported</i>"
-#~ msgstr "<i>Обертання не підтримується</i>"
-
-#~ msgid "Could not save monitor configuration"
-#~ msgstr "Не вдається зберегти конфігурацію мониторів"
-
-#~ msgid "Normal"
-#~ msgstr "Звичайне"
-
-#~ msgid "Left"
-#~ msgstr "Ліворуч"
-
-#~ msgid "Right"
-#~ msgstr "Праворуч"
-
-#~ msgid "Upside Down"
-#~ msgstr "Догори ногами"
-
-#~ msgid "_Configure Display Settings ..."
-#~ msgstr "_Налаштувати параметри екрану ..."
-
-#~ msgid "Configure display settings"
-#~ msgstr "Налаштувати параметри екрану"
-
-#~ msgid "Cannot determine user's home directory"
-#~ msgstr "Не вдається визначити домашній каталог користувача"
-
-#~ msgid "Manage the X resource database"
-#~ msgstr "Керування базою даних ресурсів X"
-
-#~ msgid "X Resource Database"
-#~ msgstr "База даних ресурсів X"
-
-#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
-#~ msgstr "Ключ GConf %s встановлено в тип %s, а очікувався тип %s\n"
-
-#~ msgid ""
-#~ "Couldn't put the machine to sleep.\n"
-#~ "Verify that the machine is correctly configured."
-#~ msgstr ""
-#~ "Не вдається перевести комп'ютер у стан призупинення.\n"
-#~ "Перевірте чи правильно налаштований комп'ютер."
-
-#~ msgid ""
-#~ "Set to True to display a dialog when there are errors running the "
-#~ "screensaver."
-#~ msgstr "Відображати діалог, що відображає помилки запуску зберігача екрана."
-
-#~ msgid "Set to True to run the screensaver at login."
-#~ msgstr "Запускати зберігач екрана при вході у сеанс."
-
-#~ msgid "Show startup errors"
-#~ msgstr "Показувати помилки запуску системи"
-
-#~ msgid "Enable screensaver plugin"
-#~ msgstr "Увімкнути модуль зберігача екрану"
-
-#~ msgid "Set to True to enable the plugin to manage screensaver settings."
-#~ msgstr ""
-#~ "Встановіть, щоб дозволити модулю керувати параметрами зберігача екрану."
-
-#~ msgid "%d%% of the disk space on `%s' is in use"
-#~ msgstr "Використовується %d%% дискового простору на «%s»"
-
-#~ msgid "Analyze"
-#~ msgstr "Аналізувати"
-
-#~ msgid "GNOME Volume Control"
-#~ msgstr "Гучність звуку в GNOME"
-
-#~ msgid ""
-#~ "There was an error starting up the screensaver:\n"
-#~ "\n"
-#~ "%s\n"
-#~ "\n"
-#~ "Screensaver functionality will not work in this session."
-#~ msgstr ""
-#~ "Помилка запуску зберігача екрана:\n"
-#~ "\n"
-#~ "%s\n"
-#~ "\n"
-#~ "Функціональність зберігання екрана не працюватиме в цьому сеансі."
-
-#~ msgid "Screensaver plugin"
-#~ msgstr "Модуль зберігача екрану"

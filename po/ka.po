@@ -1,28 +1,25 @@
-# translation of ka.po to Georgian
-# translation of gnome-control-center.gnome-2-14.ka.po to
-# Georgian translation for Gnome Control Centre.
-# Copyright © 2005 Canonical Ltd, and Rosetta Contributors 2005.
-# This file is distributed under the same license as the evolution package.
-#
-# Alexander Didebulidze <didebuli@in.tum.de>, 2005, 2006.
-# Vladimer Sichinava <alinux@siena.linux.it>, 2006.
-# Zviad Sulaberidze <zviad@osgf.ge>, 2006.
-# Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>, 2007.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-settings-daemon package.
+# 
+# Translators:
+# Alexander Didebulidze <didebuli@in.tum.de>, 2005-2006
+# Vladimer Sichinava <alinux@siena.linux.it>, 2006
+# Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>, 2007
+# Zviad Sulaberidze <zviad@osgf.ge>, 2006
 msgid ""
 msgstr ""
-"Project-Id-Version: ka\n"
+"Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-16 23:25+0100\n"
-"PO-Revision-Date: 2007-09-10 19:23+0200\n"
-"Last-Translator: Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>\n"
-"Language-Team: Georgian <http://mail.gnome.org/mailman/listinfo/gnome-ge-"
-"list>\n"
-"Language: ka\n"
+"PO-Revision-Date: 2020-04-16 22:26+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Georgian (http://www.transifex.com/endless-os/gnome-settings-daemon/language/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: ka\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:12
 msgid "Smartcard removal action"
@@ -30,8 +27,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:13
 msgid ""
-"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will "
-"get performed when the smartcard used for log in is removed."
+"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will"
+" get performed when the smartcard used for log in is removed."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:25
@@ -47,18 +44,16 @@ msgid "File name of the bell sound to be played."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:42
-#, fuzzy
 msgid "Double click time"
-msgstr "<b>ორმაგი დაწკაპვის ლოდინის ვადა</b>"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:43
 msgid "Length of a double click in milliseconds."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:47
-#, fuzzy
 msgid "Drag threshold"
-msgstr "_ბიჯი"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:48
 msgid "Distance before a drag is started."
@@ -69,9 +64,8 @@ msgid "Whether the tablet’s orientation is locked, or rotated automatically."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:62
-#, fuzzy
 msgid "Mouse button orientation"
-msgstr "<b>თაგუნას ორიენტაცია</b>"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:63
 msgid "Swap left and right mouse buttons for left-handed mice."
@@ -91,9 +85,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:72
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:139
-#, fuzzy
 msgid "Motion Threshold"
-msgstr "_ბიჯი"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:73
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:140
@@ -117,9 +110,8 @@ msgid "Key Repeat Interval"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:88
-#, fuzzy
 msgid "Delay between repeats in milliseconds."
-msgstr "დაყოვნება ღილაკზე დაჭერასა და კურსორის მ_ოძრაობას შორის:"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:92
 msgid "Initial Key Repeat Delay"
@@ -145,8 +137,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:105
 msgid ""
-"Set this to TRUE if you have problems with accidentally hitting the touchpad "
-"while typing."
+"Set this to TRUE if you have problems with accidentally hitting the touchpad"
+" while typing."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:109
@@ -179,9 +171,8 @@ msgid ""
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:124
-#, fuzzy
 msgid "Enable touchpad"
-msgstr "შეუძლებელია შიდა პროგრამის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:125
 msgid "Set this to TRUE to enable all touchpads."
@@ -241,8 +232,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:26
 msgid ""
-"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and "
-"“ccw” for 90 degree counterclockwise."
+"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and"
+" “ccw” for 90 degree counterclockwise."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:30
@@ -493,15 +484,13 @@ msgstr ""
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:11
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:194
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:521
-#, fuzzy
 msgid "Launch settings"
-msgstr "ნაგულისხმები პარამეტრები"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:12
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:195
-#, fuzzy
 msgid "Binding to launch GNOME Settings."
-msgstr "ვებ ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:16
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:199
@@ -522,9 +511,8 @@ msgstr "მოხსნა"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:22
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:205
-#, fuzzy
 msgid "Binding to eject an optical disc."
-msgstr "შემდეგ აუდიოკვალზე გადასვლა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:26
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:209
@@ -533,9 +521,8 @@ msgstr "დახმარების ბროუზერის გაშვ�
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:27
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:210
-#, fuzzy
 msgid "Binding to launch the help browser."
-msgstr "დახმარების ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:31
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:214
@@ -551,9 +538,8 @@ msgstr ""
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:36
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:219
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:541
-#, fuzzy
 msgid "Launch media player"
-msgstr "მედია დამკვრელი"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:37
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:220
@@ -563,22 +549,19 @@ msgstr ""
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:41
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:224
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:546
-#, fuzzy
 msgid "Next track"
-msgstr "შემდეგ აუდიოკვალზე გადასვლა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:42
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:225
-#, fuzzy
 msgid "Binding to skip to next track."
-msgstr "შემდეგ აუდიოკვალზე გადასვლა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:46
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:229
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:551
-#, fuzzy
 msgid "Pause playback"
-msgstr "ხ_მის დამკვრელი:"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:47
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:230
@@ -609,15 +592,13 @@ msgstr ""
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:61
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:244
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:561
-#, fuzzy
 msgid "Previous track"
-msgstr "წინა აუდიოკვალზე გადასვლა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:62
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:245
-#, fuzzy
 msgid "Binding to skip to previous track."
-msgstr "წინა აუდიოკვალზე გადასვლა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:66
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:249
@@ -644,9 +625,8 @@ msgstr ""
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:76
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:259
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:576
-#, fuzzy
 msgid "Stop playback"
-msgstr "შეჩერების ღილაკი"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:77
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:260
@@ -661,22 +641,19 @@ msgstr "ხმის ჩაწევა"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:82
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:267
-#, fuzzy
 msgid "Binding to lower the volume."
-msgstr "ვებ ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:86
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:271
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:588
-#, fuzzy
 msgid "Volume mute/unmute"
-msgstr "ხმის გათიშვა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:272
-#, fuzzy
 msgid "Binding to mute/unmute the volume."
-msgstr "დახმარების ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:276
@@ -686,9 +663,8 @@ msgstr "ხმის აწევა"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:277
-#, fuzzy
 msgid "Binding to raise the volume."
-msgstr "ვებ ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:317
@@ -698,21 +674,18 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:318
-#, fuzzy
 msgid "Binding to mute/unmute the microphone."
-msgstr "დახმარების ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:322
-#, fuzzy
 msgid "Take a screenshot"
-msgstr "ეკრანის ბლოკირების მალსახმობი."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:323
-#, fuzzy
 msgid "Binding to take a screenshot."
-msgstr "წინა აუდიოკვალზე გადასვლა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:327
@@ -731,9 +704,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:112
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:333
-#, fuzzy
 msgid "Binding to take a screenshot of an area."
-msgstr "შემდეგ აუდიოკვალზე გადასვლა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:116
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:337
@@ -783,9 +755,8 @@ msgstr "ვებ ბროუზერის გაშვება"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:137
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:358
-#, fuzzy
 msgid "Binding to launch the web browser."
-msgstr "ვებ ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:141
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:387
@@ -794,33 +765,28 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:142
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:388
-#, fuzzy
 msgid "Binding to show the screen magnifier"
-msgstr "ვებ ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:146
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:362
-#, fuzzy
 msgid "Toggle screen reader"
-msgstr "ლინუქსის ეკრან კლავიატურა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:147
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:363
-#, fuzzy
 msgid "Binding to start the screen reader"
-msgstr "ვებ ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:151
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:367
-#, fuzzy
 msgid "Toggle on-screen keyboard"
-msgstr "ჩვეულებრივი ეკრან კლავიატურა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:152
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:368
-#, fuzzy
 msgid "Binding to show the on-screen keyboard"
-msgstr "ვებ ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:156
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:372
@@ -829,9 +795,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:157
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:373
-#, fuzzy
 msgid "Binding to increase the text size"
-msgstr "ვებ ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:161
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:377
@@ -840,15 +805,13 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:162
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:378
-#, fuzzy
 msgid "Binding to decrease the text size"
-msgstr "ვებ ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:166
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:382
-#, fuzzy
 msgid "Toggle contrast"
-msgstr "საუკეთესო _კონტრასტი"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:167
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:383
@@ -885,9 +848,8 @@ msgid "List of custom keybindings"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:282
-#, fuzzy
 msgid "Size of volume step"
-msgstr "ხმის რეგულაციის ბიჯი"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:283
 msgid "Size of the volume step for each volume change"
@@ -895,9 +857,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:289
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:600
-#, fuzzy
 msgid "Quiet volume down"
-msgstr "ხმის ჩაწევა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:290
 msgid "Binding to lower the volume without emitting a sound effect."
@@ -914,9 +875,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:299
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:610
-#, fuzzy
 msgid "Quiet volume up"
-msgstr "ხმის აწევა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:300
 msgid "Binding to raise the volume without emitting a sound effect."
@@ -924,9 +884,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:306
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:617
-#, fuzzy
 msgid "Precise volume down"
-msgstr "ხმის ჩაწევა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:307
 msgid "Binding to lower the volume with higher precision."
@@ -934,9 +893,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:311
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:622
-#, fuzzy
 msgid "Precise volume up"
-msgstr "ხმის აწევა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:312
 msgid "Binding to raise the volume with higher precision."
@@ -947,9 +905,8 @@ msgid "Toggle touchpad on/off"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:403
-#, fuzzy
 msgid "Binding to toggle the touchpad on/off."
-msgstr "დახმარების ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:407
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:644
@@ -957,9 +914,8 @@ msgid "Switch touchpad on"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:408
-#, fuzzy
 msgid "Binding to switch the touchpad on."
-msgstr "დახმარების ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:412
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:649
@@ -967,9 +923,8 @@ msgid "Switch touchpad off"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:413
-#, fuzzy
 msgid "Binding to switch the touchpad off."
-msgstr "დახმარების ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:418
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:655
@@ -977,9 +932,8 @@ msgid "Skip backward in current track"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:419
-#, fuzzy
 msgid "Binding to skip backward in current track."
-msgstr "შემდეგ აუდიოკვალზე გადასვლა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:423
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:660
@@ -987,9 +941,8 @@ msgid "Skip forward in current track"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:424
-#, fuzzy
 msgid "Binding to skip forward in current track."
-msgstr "შემდეგ აუდიოკვალზე გადასვლა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:428
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:665
@@ -1020,9 +973,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:444
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:681
-#, fuzzy
 msgid "Power button"
-msgstr "გაფრთხილების ღილაკები"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:445
 msgid "Binding for power button."
@@ -1030,25 +982,21 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:449
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:686
-#, fuzzy
 msgid "Hibernate button"
-msgstr "გაფრთხილების ღილაკები"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:450
-#, fuzzy
 msgid "Binding to hibernate the machine."
-msgstr "შემდეგ აუდიოკვალზე გადასვლა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:454
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:691
-#, fuzzy
 msgid "Suspend button"
-msgstr "ხმა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:455
-#, fuzzy
 msgid "Binding to suspend the machine."
-msgstr "შემდეგ აუდიოკვალზე გადასვლა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:460
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:697
@@ -1056,9 +1004,8 @@ msgid "Screen brightness up"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:461
-#, fuzzy
 msgid "Binding to increase the screen brightness."
-msgstr "ვებ ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:465
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:702
@@ -1066,9 +1013,8 @@ msgid "Screen brightness down"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:466
-#, fuzzy
 msgid "Binding to decrease the screen brightness."
-msgstr "ვებ ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:470
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:707
@@ -1076,20 +1022,17 @@ msgid "Screen brightness cycle"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:471
-#, fuzzy
 msgid "Binding to cycle the screen brightness."
-msgstr "ვებ ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:476
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:713
-#, fuzzy
 msgid "Keyboard brightness up"
-msgstr "კლავიატურის პარამეტრები"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:477
-#, fuzzy
 msgid "Binding to increase the keyboard brightness."
-msgstr "ვებ ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:481
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:718
@@ -1097,9 +1040,8 @@ msgid "Keyboard brightness down"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:482
-#, fuzzy
 msgid "Binding to decrease the keyboard brightness."
-msgstr "ვებ ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:486
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:723
@@ -1107,9 +1049,8 @@ msgid "Keyboard brightness toggle"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:487
-#, fuzzy
 msgid "Binding to toggle the keyboard brightness."
-msgstr "ვებ ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:492
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:729
@@ -1117,9 +1058,8 @@ msgid "Show battery status"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:493
-#, fuzzy
 msgid "Binding to show current battery status."
-msgstr "შემდეგ აუდიოკვალზე გადასვლა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:498
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:735
@@ -1140,37 +1080,32 @@ msgid "Binding to toggle bluetooth airplane mode."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:517
-#, fuzzy
 msgid "Static binding to launch the calculator."
-msgstr "დახმარების ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:522
 msgid "Static binding to launch GNOME Settings."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:527
-#, fuzzy
 msgid "Static binding to launch the email client."
-msgstr "დახმარების ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:532
 msgid "Static binding to eject an optical disc."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:537
-#, fuzzy
 msgid "Static binding to open the Home folder."
-msgstr "ვებ ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:542
-#, fuzzy
 msgid "Static binding to launch the media player."
-msgstr "ვებ ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:547
-#, fuzzy
 msgid "Static binding to skip to next track."
-msgstr "შემდეგ აუდიოკვალზე გადასვლა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:552
 msgid "Static binding to pause playback."
@@ -1181,18 +1116,16 @@ msgid "Static binding to start playback (or toggle play/pause)."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:562
-#, fuzzy
 msgid "Static binding to skip to previous track."
-msgstr "წინა აუდიოკვალზე გადასვლა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:567
 msgid "Static binding to lock the screen."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:572
-#, fuzzy
 msgid "Static binding to launch the search tool."
-msgstr "ვებ ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:577
 msgid "Static binding to stop playback."
@@ -1232,9 +1165,8 @@ msgid "Static binding to mute/unmute the microphone."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:634
-#, fuzzy
 msgid "Static binding to launch the web browser."
-msgstr "ვებ ბროუზერის გაშვება"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:640
 msgid "Static binding to toggle the touchpad on/off."
@@ -1249,14 +1181,12 @@ msgid "Static binding to switch the touchpad off."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:656
-#, fuzzy
 msgid "Static binding to skip backward in current track."
-msgstr "შემდეგ აუდიოკვალზე გადასვლა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:661
-#, fuzzy
 msgid "Static binding to skip forward in current track."
-msgstr "შემდეგ აუდიოკვალზე გადასვლა"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:666
 msgid "Static binding to toggle repeat mode in media player."
@@ -1329,9 +1259,8 @@ msgid ""
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:754
-#, fuzzy
 msgid "Name"
-msgstr "სახელი:"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:755
 msgid "Name of the custom binding"
@@ -1346,9 +1275,8 @@ msgid "Binding for the custom binding"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:764
-#, fuzzy
 msgid "Command"
-msgstr "ბრძა_ნება:"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:765
 msgid "Command to run when the binding is invoked"
@@ -1368,7 +1296,8 @@ msgid "Dim the screen after a period of inactivity"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:12
-msgid "If the screen should be dimmed to save power when the computer is idle."
+msgid ""
+"If the screen should be dimmed to save power when the computer is idle."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:16
@@ -1438,24 +1367,23 @@ msgstr ""
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:7
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
-"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
-"and “rgba” for subpixel antialiasing (LCD screens only)."
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing,"
+" and “rgba” for subpixel antialiasing (LCD screens only)."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:11
-#, fuzzy
 msgid "Hinting"
-msgstr "<b>ჰინტირება</b>"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:12
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: “none” "
-"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
-"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"The type of hinting to use when rendering fonts. Possible values are: “none”"
+" for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s"
+" ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
 "Ignores native hinting within the font, generates hints algorithmically. "
 "Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
-"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
-"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version"
+" of FreeType. They usually try to fit glyphs to both the X and the Y axis "
 "(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
@@ -1467,9 +1395,9 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:17
 msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
-"“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
+"The order of subpixel elements on an LCD screen; only used when antialiasing"
+" is set to “rgba”. Possible values are: “rgb” for red on left (most common),"
+" “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:21
@@ -1488,8 +1416,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:27
 msgid ""
-"A list of strings representing the GTK+ modules that will be loaded, usually "
-"in addition to conditional and forcibly disabled ones."
+"A list of strings representing the GTK+ modules that will be loaded, usually"
+" in addition to conditional and forcibly disabled ones."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:31
@@ -1498,15 +1426,14 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:32
 msgid ""
-"This dictionary maps XSETTINGS names to overrides values. The values must be "
-"either strings, signed int32s or (in the case of colors), 4-tuples of uint16 "
-"(red, green, blue, alpha; 65535 is fully opaque)."
+"This dictionary maps XSETTINGS names to overrides values. The values must be"
+" either strings, signed int32s or (in the case of colors), 4-tuples of "
+"uint16 (red, green, blue, alpha; 65535 is fully opaque)."
 msgstr ""
 
 #: plugins/color/gsd-color-calibrate.c:138
-#, fuzzy
 msgid "Color"
-msgstr "ფერი"
+msgstr ""
 
 #. TRANSLATORS: button: this is to open GCM
 #: plugins/color/gsd-color-calibrate.c:144
@@ -1558,14 +1485,12 @@ msgid "Time Zone Updated to %s (%s)"
 msgstr ""
 
 #: plugins/datetime/gsd-datetime-manager.c:108
-#, fuzzy
 msgid "Settings"
-msgstr "X-ის პარამეტრების გამოყენება"
+msgstr ""
 
 #: plugins/datetime/gsd-datetime-manager.c:118
-#, fuzzy
 msgid "Date & Time Settings"
-msgstr "ნაგულისხმები პარამეტრები"
+msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:632
 msgid "Disk Space"
@@ -1656,14 +1581,12 @@ msgid "Screencast from %d %t.webm"
 msgstr ""
 
 #: plugins/media-keys/gsd-screenshot-utils.c:82
-#, fuzzy
 msgid "Unable to capture a screenshot"
-msgstr "შეუძლებელია წიგნაკის გახსნა"
+msgstr ""
 
 #: plugins/media-keys/gsd-screenshot-utils.c:125
-#, fuzzy
 msgid "Screenshot taken"
-msgstr "ეკრანმზოგის გაშვება"
+msgstr ""
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot
@@ -1673,21 +1596,22 @@ msgid "Screenshot from %s"
 msgstr ""
 
 #: plugins/power/gpm-common.c:91
-#, fuzzy
 msgid "Unknown time"
-msgstr "უცნობი"
+msgstr ""
 
 #: plugins/power/gpm-common.c:96
-#, fuzzy, c-format
+#, c-format
 msgid "%i minute"
 msgid_plural "%i minutes"
-msgstr[0] "წუთი"
+msgstr[0] ""
+msgstr[1] ""
 
 #: plugins/power/gpm-common.c:106
 #, c-format
 msgid "%i hour"
 msgid_plural "%i hours"
 msgstr[0] ""
+msgstr[1] ""
 
 #. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
 #. * Swap order with "%2$s %2$i %1$s %1$i if needed
@@ -1700,12 +1624,13 @@ msgstr ""
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] ""
+msgstr[1] ""
 
 #: plugins/power/gpm-common.c:114
-#, fuzzy
 msgid "minute"
 msgid_plural "minutes"
-msgstr[0] "წუთი"
+msgstr[0] ""
+msgstr[1] ""
 
 #. TRANSLATORS: this is the sound description
 #: plugins/power/gpm-common.c:424 plugins/power/gsd-power-manager.c:720
@@ -1775,9 +1700,8 @@ msgstr ""
 #. TRANSLATORS: keyboard is getting a little low
 #. TRANSLATORS: the keyboard battery is very low
 #: plugins/power/gsd-power-manager.c:506 plugins/power/gsd-power-manager.c:641
-#, fuzzy
 msgid "Keyboard battery low"
-msgstr "კლავიატურის _მოდელი:"
+msgstr ""
 
 #. TRANSLATORS: tell user more details
 #: plugins/power/gsd-power-manager.c:509
@@ -1812,9 +1736,8 @@ msgstr ""
 
 #. TRANSLATORS: media player, e.g. mp3 is getting a little low
 #: plugins/power/gsd-power-manager.c:527
-#, fuzzy
 msgid "Media player battery low"
-msgstr "მედია დამკვრელის მალსახმობი"
+msgstr ""
 
 #. TRANSLATORS: tell user more details
 #: plugins/power/gsd-power-manager.c:530
@@ -1851,12 +1774,14 @@ msgstr ""
 msgid "Battery is low"
 msgstr ""
 
-#. TRANSLATORS: laptop battery critically low, and only have one kind of battery
+#. TRANSLATORS: laptop battery critically low, and only have one kind of
+#. battery
 #: plugins/power/gsd-power-manager.c:597
 msgid "Battery critically low"
 msgstr ""
 
-#. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
+#. TRANSLATORS: laptop battery critically low, and we have more than one type
+#. of battery
 #. TRANSLATORS: laptop battery is really, really, low
 #: plugins/power/gsd-power-manager.c:600 plugins/power/gsd-power-manager.c:747
 msgid "Laptop battery critically low"
@@ -1908,8 +1833,8 @@ msgstr ""
 #: plugins/power/gsd-power-manager.c:653
 #, c-format
 msgid ""
-"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
-"not charged."
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if"
+" not charged."
 msgstr ""
 
 #. TRANSLATORS: the device is just going to stop working
@@ -1932,8 +1857,8 @@ msgstr ""
 #: plugins/power/gsd-power-manager.c:681
 #, c-format
 msgid ""
-"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
-"if not charged."
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning"
+" if not charged."
 msgstr ""
 
 #. TRANSLATORS: the device is just going to stop working
@@ -1966,7 +1891,8 @@ msgstr ""
 
 #. TRANSLATORS: computer will just shutdown
 #: plugins/power/gsd-power-manager.c:785
-msgid "UPS is below the critical level and this computer is about to shutdown."
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
 msgstr ""
 
 #. TRANSLATORS: this is the sound description
@@ -2053,9 +1979,8 @@ msgstr ""
 #: plugins/print-notifications/gsd-print-notifications-manager.c:920
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1011
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1055
-#, fuzzy
 msgid "Printers"
-msgstr "კურსორი"
+msgstr ""
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:374
@@ -2063,31 +1988,36 @@ msgstr "კურსორი"
 msgid "Printer “%s” is low on toner."
 msgstr ""
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:378
 #, c-format
 msgid "Printer “%s” has no toner left."
 msgstr ""
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:382
 #, c-format
 msgid "Printer “%s” may not be connected."
 msgstr ""
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:386
 #, c-format
 msgid "The cover is open on printer “%s”."
 msgstr ""
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:390
 #, c-format
 msgid "There is a missing print filter for printer “%s”."
 msgstr ""
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "The door is open on printer “%s”."
@@ -2105,13 +2035,15 @@ msgstr ""
 msgid "Printer “%s” is out of a marker supply."
 msgstr ""
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:407
 #, c-format
 msgid "Printer “%s” is low on paper."
 msgstr ""
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:411
 #, c-format
 msgid "Printer “%s” is out of paper."
@@ -2123,17 +2055,19 @@ msgstr ""
 msgid "Printer “%s” is currently off-line."
 msgstr ""
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:419
 #, c-format
 msgid "There is a problem on printer “%s”."
 msgstr ""
 
-#. Translators: The printer has a job to print but the printer needs authentication to continue with the print
+#. Translators: The printer has a job to print but the printer needs
+#. authentication to continue with the print
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
-#, fuzzy, c-format
+#, c-format
 msgid "%s Requires Authentication"
-msgstr "<b>აუთენტიფიკაცის _გამოყენება</b>"
+msgstr ""
 
 #. Translators: A printer needs credentials to continue printing a job
 #: plugins/print-notifications/gsd-print-notifications-manager.c:533
@@ -2146,29 +2080,32 @@ msgstr ""
 msgid "Toner low"
 msgstr ""
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:602
 msgid "Toner empty"
 msgstr ""
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:604
-#, fuzzy
 msgid "Not connected?"
-msgstr "არავითარი კავშირი"
+msgstr ""
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:606
 msgid "Cover open"
 msgstr ""
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:608
-#, fuzzy
 msgid "Printer configuration error"
-msgstr "პროქსის კონფიგურაცია"
+msgstr ""
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:610
 msgid "Door open"
 msgstr ""
@@ -2183,12 +2120,14 @@ msgstr ""
 msgid "Out of a marker supply"
 msgstr ""
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:616
 msgid "Paper low"
 msgstr ""
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:618
 msgid "Out of paper"
 msgstr ""
@@ -2198,19 +2137,18 @@ msgstr ""
 msgid "Printer off-line"
 msgstr ""
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #. Translators: This is a title of an error notification for a printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:622
 #: plugins/print-notifications/gsd-print-notifications-manager.c:997
-#, fuzzy
 msgid "Printer error"
-msgstr "კურსორი"
+msgstr ""
 
 #. Translators: New printer has been added
 #: plugins/print-notifications/gsd-print-notifications-manager.c:670
-#, fuzzy
 msgid "Printer added"
-msgstr "კურსორი"
+msgstr ""
 
 #. Translators: A print job has been stopped
 #: plugins/print-notifications/gsd-print-notifications-manager.c:687
@@ -2252,18 +2190,16 @@ msgstr ""
 #. Translators: A print job has been completed
 #: plugins/print-notifications/gsd-print-notifications-manager.c:705
 #: plugins/print-notifications/gsd-print-notifications-manager.c:749
-#, fuzzy
 msgctxt "print job state"
 msgid "Printing completed"
-msgstr "ნაწილი დასრულებულია"
+msgstr ""
 
 #. Translators: A job is printing
 #: plugins/print-notifications/gsd-print-notifications-manager.c:717
 #: plugins/print-notifications/gsd-print-notifications-manager.c:773
-#, fuzzy
 msgctxt "print job state"
 msgid "Printing"
-msgstr "<b>ჰინტირება</b>"
+msgstr ""
 
 #. Translators: This is a title of a report notification for a printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:991
@@ -2275,7 +2211,8 @@ msgstr ""
 msgid "Printer warning"
 msgstr ""
 
-#. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
+#. Translators: "Printer 'MyPrinterName': 'Description of the
+#. report/warning/error from a PPD file'."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1004
 #, c-format
 msgid "Printer “%s”: “%s”."
@@ -2300,9 +2237,8 @@ msgid ""
 msgstr ""
 
 #: plugins/usb-protection/gsd-usb-protection-manager.c:593
-#, fuzzy
 msgid "New keyboard detected"
-msgstr "კლავიატურის პარამეტრების დაყენება"
+msgstr ""
 
 #: plugins/usb-protection/gsd-usb-protection-manager.c:594
 msgid ""
@@ -2387,12 +2323,14 @@ msgstr ""
 msgid "%2$s You have %1$u try left"
 msgid_plural "%2$s You have %1$u tries left"
 msgstr[0] ""
+msgstr[1] ""
 
 #: plugins/wwan/gsd-wwan-pinentry.c:127
 #, c-format
 msgid "You have %u try left"
 msgid_plural "You have %u tries left"
 msgstr[0] ""
+msgstr[1] ""
 
 #. Set up the dialog
 #: plugins/wwan/gsd-wwan-pinentry.c:173 plugins/wwan/gsd-wwan-pinentry.c:175
@@ -2411,2649 +2349,3 @@ msgstr ""
 #: plugins/wwan/gsd-wwan-pinentry.c:200
 msgid "Wrong PIN code"
 msgstr ""
-
-#~ msgid "Volume step as percentage of volume."
-#~ msgstr "ხმის ცვლის პროცენტების სახით."
-
-#, fuzzy
-#~ msgid ""
-#~ "Set to True to display a dialog when there are errors running the "
-#~ "screensaver."
-#~ msgstr ""
-#~ "დიალოგ სარკმლის გამოსახვა, ეკრანმზოგის გაშვების დროს წარმოჩენილი "
-#~ "შეცდომების შემთხვევაში"
-
-#, fuzzy
-#~ msgid "Set to True to run the screensaver at login."
-#~ msgstr "სეანსის დაწყებისთანავე ეკრანმზოგის გაშვება"
-
-#, fuzzy
-#~ msgid "Show startup errors"
-#~ msgstr "სისტემის გაშვებისას შეცდომების ჩვენება"
-
-#~ msgid "Start screensaver"
-#~ msgstr "ეკრანმზოგის გაშვება"
-
-#, fuzzy
-#~ msgid "Enable accessibility keyboard plugin"
-#~ msgstr "კლავიატურით წვდომის შესაძლებლობების დაშ_ვება"
-
-#, fuzzy
-#~ msgid "Enable background plugin"
-#~ msgstr "ფონის _სურათის დამახსოვრება"
-
-#, fuzzy
-#~ msgid "Enable keyboard plugin"
-#~ msgstr "გამართვის გამონატანი კოდის ჩართვა"
-
-#, fuzzy
-#~ msgid "Enable mouse plugin"
-#~ msgstr "გამართვის გამონატანი კოდის ჩართვა"
-
-#, fuzzy
-#~ msgid "Enable screensaver plugin"
-#~ msgstr "სეანსის დაწყებისთანავე ეკრანმზოგის გაშვება"
-
-#, fuzzy
-#~ msgid "Enable sound plugin"
-#~ msgstr "გამართვის გამონატანი კოდის ჩართვა"
-
-#, fuzzy
-#~ msgid "Enable xrdb plugin"
-#~ msgstr "გამართვის გამონატანი კოდის ჩართვა"
-
-#, fuzzy
-#~ msgid "Accessibility Keyboard"
-#~ msgstr "_დამხმარე საშუალებები"
-
-#, fuzzy
-#~ msgid "Accessibility keyboard plugin"
-#~ msgstr "_დამხმარე საშუალებები"
-
-#~ msgid "There was an error displaying help: %s"
-#~ msgstr "დახმარების გამოძახებისას მოხდა შეცდომა: %s"
-
-#~ msgid "Do you want to activate Slow Keys?"
-#~ msgstr "გნებავთ ნელი კლავიშების ჩართვა?"
-
-#~ msgid "Do you want to deactivate Slow Keys?"
-#~ msgstr "გნებავთ ნელი კლავიშების გამორთვა?"
-
-#~ msgid ""
-#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
-#~ "the Slow Keys feature, which affects the way your keyboard works."
-#~ msgstr ""
-#~ "თქვენ გეწირათ Shift კლავიშზე 8 წამი, ეს გამოიყენება ნელი კლავიშების "
-#~ "შესაძლებლობებისთვის, რაც თქვენი კლავიატურის მუშაობის სტილზე ახდენს "
-#~ "გავლენას."
-
-#~ msgid "Do_n't activate"
-#~ msgstr "ა_რ ჩართო"
-
-#~ msgid "Do_n't deactivate"
-#~ msgstr "ა_რ გამორთო"
-
-#~ msgid "_Activate"
-#~ msgstr "ჩ_ართვა"
-
-#~ msgid "_Deactivate"
-#~ msgstr "_გამორთვა"
-
-#~ msgid "Slow Keys Alert"
-#~ msgstr "ნელი კლავიშების შეტყობინება"
-
-#~ msgid "Do you want to activate Sticky Keys?"
-#~ msgstr "გნებავთ \"წებოვანი\" კლავიშების გააქტიურება?"
-
-#~ msgid "Do you want to deactivate Sticky Keys?"
-#~ msgstr "გნებავთ \"წებოვანი\" კლავიშების გამორთვა?"
-
-#~ msgid ""
-#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
-#~ "for the Sticky Keys feature, which affects the way your keyboard works."
-#~ msgstr ""
-#~ "თქვენ 5-ჯერ მიყოლებით დააჭირეთ Shift კლავიშს, ეს გამოიყენება დარჭობილი "
-#~ "კლავიშების შესაძლებლობებისათვის, რაც თქვენი კლავიტურის მუშაობის სტილზე "
-#~ "ახდენს გავლენას."
-
-#~ msgid ""
-#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
-#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
-#~ "keyboard works."
-#~ msgstr ""
-#~ "თქვენ დააჭირეთ ორ კლავიშს ერდროულად ან 5-ჯერ მიყოლებით დააჭირეთ Shift "
-#~ "კლავიშს. ეს თიშავს დარჭობილი კლავიშების შესაძლებლობებს, რაც თქვენი "
-#~ "კლავიატურის მუშაობის სტილზე ახდენს გავლენას."
-
-#~ msgid "Sticky Keys Alert"
-#~ msgstr "დარჭობილი კლავიშების შეტყობინება"
-
-#~ msgid "Background"
-#~ msgstr "ფონი"
-
-#, fuzzy
-#~ msgid "Background plugin"
-#~ msgstr "ფონი"
-
-#, fuzzy
-#~ msgid "Font"
-#~ msgstr "შრიფტები"
-
-#~ msgid ""
-#~ "Cannot create the directory \"%s\".\n"
-#~ "This is needed to allow changing the mouse pointer theme."
-#~ msgstr ""
-#~ "შეუძლებელია \"%s\" დასტის შექმნა.\n"
-#~ "საჭიროა კურსორის გაფორმების თემის შესაცვლელად."
-
-#~ msgid ""
-#~ "Cannot create the directory \"%s\".\n"
-#~ "This is needed to allow changing cursors."
-#~ msgstr ""
-#~ "შეუძლებელია დასტის შექმნა \"%s\".\n"
-#~ "საჭიროა კურსორის შეცვლისათვის."
-
-#~ msgid "Key Binding (%s) has its action defined multiple times\n"
-#~ msgstr "ღილაკების კომბინაცია (%s) განსაზღვრულია ზოგიერთი ქმედებისთვის.\n"
-
-#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
-#~ msgstr "ღილაკების კომბინაცია (%s) განსაზღვრულია რამოდენჯერმე\n"
-
-#~ msgid "Key Binding (%s) is incomplete\n"
-#~ msgstr "ღილაკების კომბინაცია (%s) არ არის განსაზღვრული\n"
-
-#~ msgid "Key Binding (%s) is invalid\n"
-#~ msgstr "ღილაკების კომბინაცია (%s) დაუშვებელია\n"
-
-#~ msgid "It seems that another application already has access to key '%u'."
-#~ msgstr "შესაძლებელია რომ სხვა პროგრამა უკვე იყენებს '%u' ღილაკს."
-
-#~ msgid "Key Binding (%s) is already in use\n"
-#~ msgstr "ღილაკების კომბინაცია (%s) უკვე გამოყენებაშია\n"
-
-#~ msgid ""
-#~ "Error while trying to run (%s)\n"
-#~ "which is linked to the key (%s)"
-#~ msgstr ""
-#~ "შეცდომა (%s)-ის გაშვების მცდელობისას\n"
-#~ "რომელიც შეესაბამება ღილაკს (%s)"
-
-#~ msgid "Keyboard"
-#~ msgstr "კლავიატურა"
-
-#, fuzzy
-#~ msgid "Keyboard plugin"
-#~ msgstr "კლავიატურა"
-
-#~ msgid "A_vailable files:"
-#~ msgstr "ხელმისაწ_ვდომი ფაილები:"
-
-#~ msgid "Do _not show this warning again."
-#~ msgstr "არ ა_ნახო ხელახლა მოცემული გაფრთხილების შეტყობინება."
-
-#~ msgid "Load modmap files"
-#~ msgstr "modmap ფაილების ჩატვირთვა"
-
-#~ msgid "Would you like to load the modmap file(s)?"
-#~ msgstr "გნებავთ modmap ფაილების ჩატვირთვა?"
-
-#~ msgid "_Load"
-#~ msgstr "_ჩატვირთვა"
-
-#~ msgid "_Loaded files:"
-#~ msgstr "ჩატვირთული ფაი_ლები:"
-
-#~ msgid "Volume"
-#~ msgstr "ხმის სიმაღლე"
-
-#~ msgid ""
-#~ "Could not get default terminal. Verify that your default terminal command "
-#~ "is set and points to a valid application."
-#~ msgstr ""
-#~ "ვერ ვრთავ ნაგულისხმევ ტერმინალს. დარწმუნდით რომ თქვენი ნაგულისხმევი "
-#~ "ტერმინალის პროგრამა მონიშნულია."
-
-#~ msgid ""
-#~ "Couldn't execute command: %s\n"
-#~ "Verify that this is a valid command."
-#~ msgstr ""
-#~ "შეუძლებელია ბრძანების გაშვება: %s\n"
-#~ "შეამოწმეთ შეყვანილი ბრძანების მართებულობაში."
-
-#~ msgid ""
-#~ "Couldn't put the machine to sleep.\n"
-#~ "Verify that the machine is correctly configured."
-#~ msgstr ""
-#~ "შეუძლებელია მძინარე რეჟიმში გადასვლა.\n"
-#~ "დარწმუნდით რომ კომპიუტერი სწორედაა კონფიგურირებული."
-
-#, fuzzy
-#~ msgid "Media keys"
-#~ msgstr "მედია დამკვრელი"
-
-#, fuzzy
-#~ msgid "Could not enable mouse accessibility features"
-#~ msgstr "კლავიატურით წვდომის შესაძლებლობების დაშ_ვება"
-
-#~ msgid "Mouse Preferences"
-#~ msgstr "თაგვის პარამეტრები"
-
-#~ msgid "Mouse"
-#~ msgstr "თაგვი"
-
-#~ msgid ""
-#~ "There was an error starting up the screensaver:\n"
-#~ "\n"
-#~ "%s\n"
-#~ "\n"
-#~ "Screensaver functionality will not work in this session."
-#~ msgstr ""
-#~ "დაიშვა შეცდომა ეკრანმზოგის გაშვებისას:\n"
-#~ "\n"
-#~ "%s\n"
-#~ "\n"
-#~ "მიმდინარე სესიაში ეკრანმზოგი ვერ იმუშავებს."
-
-#~ msgid "_Do not show this message again"
-#~ msgstr "_არ ანახო ხელახლა მოცემული შეტყობინება"
-
-#, fuzzy
-#~ msgid "Screensaver plugin"
-#~ msgstr "სეანსის დაწყებისთანავე ეკრანმზოგის გაშვება"
-
-#~ msgid "Couldn't load sound file %s as sample %s"
-#~ msgstr "შეუძლებელია ხმოვანი ფაილის %s გაშვება, მაგალითად:%s"
-
-#~ msgid "Login"
-#~ msgstr "შესვლა"
-
-#~ msgid "Logout"
-#~ msgstr "გამოსვლა"
-
-#~ msgid "Boing"
-#~ msgstr "ბოინგი"
-
-#~ msgid "Siren"
-#~ msgstr "სირენა"
-
-#~ msgid "Clink"
-#~ msgstr "წკაპუნი"
-
-#~ msgid "Beep"
-#~ msgstr "პიპინი"
-
-#~ msgid "No sound"
-#~ msgstr "არავითარი ხმა"
-
-#~ msgid "Sound not set for this event."
-#~ msgstr "არავითარი ხმა მოცემული მოვლენისთვის."
-
-#~ msgid ""
-#~ "The sound file for this event does not exist.\n"
-#~ "You may want to install the gnome-audio package for a set of default "
-#~ "sounds."
-#~ msgstr ""
-#~ "არ არსებობს ხმოვანი ფაილი მოცემული მოვლენისთვის.\n"
-#~ "საჭიროა gnome-audio პაკეტის დაყენება, სტანდარტული ხმებისთვის."
-
-#~ msgid "The sound file for this event does not exist."
-#~ msgstr "არ არსებობს ხმოვანი ფაილი მოცემული მოვლენისთვის."
-
-#~ msgid "Select Sound File"
-#~ msgstr "ხმოვანი ფაილის არჩევა"
-
-#~ msgid "The file %s is not a valid wav file"
-#~ msgstr "ფაილი %s არამართებული wav ფაილია"
-
-#~ msgid "Select sound file..."
-#~ msgstr "ხმოვანი ფაილის არჩევა..."
-
-#~ msgid "System Sounds"
-#~ msgstr "სისტემური ხმები"
-
-#~ msgid "Sound"
-#~ msgstr "ხმა"
-
-#~ msgid "Typing Break"
-#~ msgstr "ბეჭდვის წყვეტა"
-
-#, fuzzy
-#~ msgid "Typing break plugin"
-#~ msgstr "ბეჭდვის წყვეტა"
-
-#~ msgid "Cannot determine user's home directory"
-#~ msgstr "შეუძლებელია მომხმარებლის სახლის დასტის დადგენა"
-
-#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
-#~ msgstr ""
-#~ "GConf გასაღები %s-ის მნიშვნელობა %s-ია, მაგრამ მოსალოდნელი მნიშვნელობა %s-"
-#~ "ია\n"
-
-#, fuzzy
-#~ msgid "Manage X Settings"
-#~ msgstr "X-ის პარამეტრების გამოყენება"
-
-#~ msgid "Image/label border"
-#~ msgstr "ნახატის/წარწერის ჩარჩო"
-
-#~ msgid "Width of border around the label and image in the alert dialog"
-#~ msgstr "გაფრთხილების სარკმელში წარწერისა და ნახატის ირგვლივ ჩარჩოს სიგანე"
-
-#~ msgid "Alert Type"
-#~ msgstr "გაფრთხილების ტიპი"
-
-#~ msgid "The type of alert"
-#~ msgstr "გაფრთხილების ტიპი"
-
-#~ msgid "The buttons shown in the alert dialog"
-#~ msgstr "გაფრთხილების სარკმელზე გამოსახული ღილაკები"
-
-#~ msgid "Show more _details"
-#~ msgstr "_დამატებითი ცნობები"
-
-#~ msgid "Select Image"
-#~ msgstr "სურათის ამორჩევა"
-
-#~ msgid "No Image"
-#~ msgstr "არავითარი სურათი"
-
-#~ msgid "Images"
-#~ msgstr "სურათები"
-
-#~ msgid "All Files"
-#~ msgstr "ყველა ფაილი"
-
-#~ msgid ""
-#~ "There was an error while trying to get the addressbook information\n"
-#~ "Evolution Data Server can't handle the protocol"
-#~ msgstr ""
-#~ "შეცდომა მისამართების წიგნაკიდან ინფორმაციის მიღებისას\n"
-#~ "Evolution-ის მონაცემთა სერვერი ვერ უმკლავდება პროტოკოლს"
-
-#~ msgid "Unknown login ID, the user database might be corrupted"
-#~ msgstr "უცნობი ID სახელი, შესაძლოა მომხმარებლების ბაზა დაზიანებულია"
-
-#~ msgid "About %s"
-#~ msgstr "%s-ის შესახებ"
-
-#~ msgid "About Me"
-#~ msgstr "ჩემს შესახებ"
-
-#~ msgid "Set your personal information"
-#~ msgstr "თქვენი პირადი ინფორმაცია"
-
-#~ msgid " "
-#~ msgstr "."
-
-#~ msgid "    "
-#~ msgstr "    "
-
-#~ msgid "<b>Email</b>"
-#~ msgstr "<b>ელფოსტა</b>"
-
-#~ msgid "<b>Home</b>"
-#~ msgstr "<b>ბინა</b>"
-
-#~ msgid "<b>Instant Messaging</b>"
-#~ msgstr "<b>მყისიერი მიმოწერა</b>"
-
-#~ msgid "<b>Job</b>"
-#~ msgstr "<b>თანამდებობა</b>"
-
-#~ msgid "<b>Telephone</b>"
-#~ msgstr "<b>ტელეფონი</b>"
-
-#~ msgid "<b>Web</b>"
-#~ msgstr "<b>WWW</b>"
-
-#~ msgid "<b>Work</b>"
-#~ msgstr "<b>სამსახური</b>"
-
-#~ msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
-#~ msgstr "<span size=\"larger\" weight=\"bold\">პაროლის შეცვლა</span>"
-
-#~ msgid "A_IM/iChat:"
-#~ msgstr "A_IM/iChat:"
-
-#~ msgid "A_ddress:"
-#~ msgstr "მის_ამართი:"
-
-#~ msgid "A_ssistant:"
-#~ msgstr "ა_სისტენტი:"
-
-#~ msgid "Address"
-#~ msgstr "მისამართი"
-
-#~ msgid "C_ity:"
-#~ msgstr "ქალაქ_ი:"
-
-#~ msgid "C_ompany:"
-#~ msgstr "კ_ომპანია:"
-
-#~ msgid "Cale_ndar:"
-#~ msgstr "კალე_ნდარი:"
-
-#~ msgid "Change Passwo_rd..."
-#~ msgstr "_პაროლის შეცვლა..."
-
-#~ msgid "Change pa_ssword"
-#~ msgstr "პაროლის შ_ეცვლა"
-
-#~ msgid "Change password"
-#~ msgstr "პაროლის შეცვლა"
-
-#~ msgid "Ci_ty:"
-#~ msgstr "ქა_ლაქი:"
-
-#~ msgid "Co_untry:"
-#~ msgstr "ქვ_ეყანა:"
-
-#~ msgid "Contact"
-#~ msgstr "კონტაქტი"
-
-#~ msgid "Cou_ntry:"
-#~ msgstr "ქვეყა_ნა:"
-
-#~ msgid "Current _password:"
-#~ msgstr "მიმდინარე _პაროლი:"
-
-#~ msgid "Full Name"
-#~ msgstr "სრული სახელი"
-
-#~ msgid "Hom_e:"
-#~ msgstr "_სახლი:"
-
-#~ msgid "IC_Q:"
-#~ msgstr "IC_Q:"
-
-#~ msgid "M_SN:"
-#~ msgstr "M_SN:"
-
-#~ msgid "P.O. _box:"
-#~ msgstr "სა_ფოსთო ყუთი:"
-
-#~ msgid "P._O. box:"
-#~ msgstr "_საფოსტო ყუთი:"
-
-#~ msgid "Personal Info"
-#~ msgstr "პირადი ინფორმაცია"
-
-#~ msgid ""
-#~ "Please type your password again in the <b>Retype new password</b> field."
-#~ msgstr "გთხოვთ ხელახლა აკრიფოთ პაროლი ველში <b>ხელახალი აკრეფა</b>."
-
-#~ msgid "Select your photo"
-#~ msgstr "ფოტოს ამორჩევა"
-
-#~ msgid "State/Pro_vince:"
-#~ msgstr "მხარე/პროვინცია:"
-
-#~ msgid ""
-#~ "To change your password, enter your current password in the field below "
-#~ "and click <b>Authenticate</b>.\n"
-#~ "After you have authenticated, enter your new password, retype it for "
-#~ "verification and click <b>Change password</b>."
-#~ msgstr ""
-#~ "პაროლის შესაცვლელად გთხოვთ შეიყვანოთ ქვემოთ მოცემულ ველში მიმდინარე "
-#~ "პაროლი და დააჭირეთ <b>ავტორიზაცია</b>-ს.\n"
-#~ "აუტენტიფიკაციის შემდგომ, თქვენი ახალი პაროლი დამოწმების მიზნით ორჯერ "
-#~ "აკრიფეთ და დააწკაპეთ <b>პაროლის შეცვლა</b>-ს."
-
-#~ msgid "User name:"
-#~ msgstr "მომხმარებელი:"
-
-#~ msgid "Web _log:"
-#~ msgstr "ვებ ჟურნა_ლი:"
-
-#~ msgid "Wor_k:"
-#~ msgstr "_სამსახური:"
-
-#~ msgid "Work _fax:"
-#~ msgstr "სამსახურის _ფაქსი:"
-
-#~ msgid "Zip/_Postal code:"
-#~ msgstr "საფოსტო ინ_დექსი:"
-
-#~ msgid "_Address:"
-#~ msgstr "მის_ამართი:"
-
-#~ msgid "_Authenticate"
-#~ msgstr "_ავტორიზაცია"
-
-#~ msgid "_Department:"
-#~ msgstr "_განყოფილება:"
-
-#~ msgid "_Groupwise:"
-#~ msgstr "_დაჯგუფება:"
-
-#~ msgid "_Home page:"
-#~ msgstr "პირადი ვე_ბგვერდი:"
-
-#~ msgid "_Home:"
-#~ msgstr "სახ_ლი:"
-
-#~ msgid "_Jabber:"
-#~ msgstr "_Jabber:"
-
-#~ msgid "_Manager:"
-#~ msgstr "მ_მართველი:"
-
-#~ msgid "_Mobile:"
-#~ msgstr "_მობილური:"
-
-#~ msgid "_New password:"
-#~ msgstr "_ახალი პაროლი:"
-
-#~ msgid "_Profession:"
-#~ msgstr "_პროფესია:"
-
-#~ msgid "_Retype new password:"
-#~ msgstr "ხ_ელახალი შეყვანა:"
-
-#~ msgid "_State/Province:"
-#~ msgstr "მხარე/პრ_ოვინცია:"
-
-#~ msgid "_Title:"
-#~ msgstr "_სათაური:"
-
-#~ msgid "_Work:"
-#~ msgstr "_სამსახური:"
-
-#~ msgid "_Yahoo:"
-#~ msgstr "_Yahoo:"
-
-#~ msgid "_Zip/Postal code:"
-#~ msgstr "საფოსტო _ინდექსი:"
-
-#~ msgid "Child exited unexpectedly"
-#~ msgstr "შვილი პროცესი უცაბედად გაითიშა"
-
-#~ msgid "Could not shutdown backend_stdin IO channel: %s"
-#~ msgstr "შეუძლებელია შვილი პროცესის შეყვანის არხის დახურვა: %s"
-
-#~ msgid "Could not shutdown backend_stdout IO channel: %s"
-#~ msgstr "შეუძლებელია შვილი პროცესის გამოყვანის არხის დახურვა: %s"
-
-#~ msgid "Authenticated!"
-#~ msgstr "ავტორიზიზირებულია!"
-
-#~ msgid ""
-#~ "Your password has been changed since you initially authenticated! Please "
-#~ "re-authenticate."
-#~ msgstr ""
-#~ "უკანასკნელი ავტორიზაციის დროს თქვენი პაროლი შეიცვალა! გთხოვთ ხელახლა "
-#~ "სცადოთ."
-
-#~ msgid "That password was incorrect."
-#~ msgstr "არასწორი პაროლი."
-
-#~ msgid "Your password has been changed."
-#~ msgstr "თქვენი პაროლი შეცვლილია."
-
-#~ msgid "System error: %s."
-#~ msgstr "სისტემური შეცდომა: %s."
-
-#~ msgid "The password is too short."
-#~ msgstr "ძალიან მოკლე პაროლი."
-
-#~ msgid "The password is too simple."
-#~ msgstr "ძალიან მარტივი პაროლი."
-
-#~ msgid "The old and new passwords are too similar."
-#~ msgstr "ახალი და ძველი პაროლი ერთმანეთს ჰგვანან."
-
-#~ msgid "The new password must contain numeric or special character(s)."
-#~ msgstr "ახალი პაროლი ციფრებს ან სიმბოლოებს უნდა შეიცავდეს."
-
-#~ msgid "The old and new passwords are the same."
-#~ msgstr "ძველი და ახალი პაროლი ერთი და იგივიეა."
-
-#~ msgid "Unable to launch %s: %s"
-#~ msgstr "შეუძლებელია გაშვება %s: %s"
-
-#~ msgid "A system error has occurred"
-#~ msgstr "დაიშვა სისტემური შეცდომა"
-
-#~ msgid "Checking password..."
-#~ msgstr "პაროლის შემოწმება..."
-
-#~ msgid "Click <b>Change password</b> to change your password."
-#~ msgstr "პაროლის შესაცვლელად დააწკაპუნეთ <b>პაროლის შეცვლა</b>-ს."
-
-#~ msgid "Please type your password in the <b>New password</b> field."
-#~ msgstr "გთხოვთ შეიყვანოთ პაროლი ახალ ველში <b>ახალი პაროლი</b>."
-
-#~ msgid "The two passwords are not equal."
-#~ msgstr "პაროლები ერთმანეთს არ ემთხვევიან."
-
-#~ msgid "<b>Assistive Technologies</b>"
-#~ msgstr "<b>დამხმარე ტექნოლოგია</b>"
-
-#~ msgid "<b>Preferences</b>"
-#~ msgstr "<b>პარამეტრები</b>"
-
-#~ msgid "Accessible Lo_gin"
-#~ msgstr "ძირითადი სარკმლიდან რეგისტრაცია"
-
-#~ msgid "Assistive Technology Preferences"
-#~ msgstr "დამხმარე ტექნოლოგიის პარამეტრები"
-
-#~ msgid ""
-#~ "Changes to enable assistive technologies will not take effect until your "
-#~ "next log in."
-#~ msgstr "დამხმარე ტექნოლოგია არ ჩაირთვება თქვენს მომავალ შემოსვლამდე."
-
-#~ msgid "Close and _Log Out"
-#~ msgstr "დახურვა და გასვლა"
-
-#~ msgid "Jump to Preferred Applications dialog"
-#~ msgstr "სასურველი პროგრამების დიალოგ სარკმელზე გადასვლა"
-
-#~ msgid "Jump to the Accessible Login dialog"
-#~ msgstr "მომხმარებლის შემოსასვლელ დიალოგ სარკმელზე გადასვლა"
-
-#~ msgid "Jump to the Keyboard Accessibility dialog"
-#~ msgstr "კლავიატურის წვდომის საშუალებების დიალოგ სარკმელზე გადასვლა"
-
-#~ msgid "_Enable assistive technologies"
-#~ msgstr "დამხმარე ტ_ექნოლოგიების ჩართვა"
-
-#~ msgid "_Keyboard Accessibility"
-#~ msgstr "_კლავიატურის წვდომა"
-
-#~ msgid "_Preferred Applications"
-#~ msgstr "სასურველი _პროგრამები"
-
-#~ msgid "Enable support for GNOME assistive technologies at login"
-#~ msgstr ""
-#~ "სისტემაში შემოსვლისთანავე, გნომის დამხმარე ტექნოლოგიების მხარდაჭერის "
-#~ "ჩართვა"
-
-#~ msgid "There was an error launching the mouse preferences dialog: %s"
-#~ msgstr "დაიშვა შეცდომა თაგუნას პარამეტრების გაშვებისას: %s"
-
-#~ msgid "Unable to import AccessX settings from file '%s'"
-#~ msgstr "შეუძლებელია AccessX-ის პარამეტრების '%s' ფაილიდან იმპორტირება"
-
-#~ msgid "Import Feature Settings File"
-#~ msgstr "პარამეტრების ფაილის იმპორტირება"
-
-#~ msgid "_Import"
-#~ msgstr "_იმპორტი"
-
-#~ msgid "Keyboard Accessibility"
-#~ msgstr "კლავიატურის სპეც შესაძლებლობანი"
-
-#~ msgid "Set your keyboard accessibility preferences"
-#~ msgstr "კლავიატურით წვდომის პარამეტრების დაყენება"
-
-#~ msgid ""
-#~ "This system does not seem to have the XKB extension.  The keyboard "
-#~ "accessibility features will not operate without it."
-#~ msgstr ""
-#~ "სისტემას არ გააჩნია XKB-ის გაფართოება. მის გარეშე შეუძლებელია კლავიატურის "
-#~ "სპეც შესაძლებლობების ამუშავება."
-
-#~ msgid "<b>Enable Bo_unce Keys</b>"
-#~ msgstr "<b>მხ_ტუნავი კლავიშების ჩართვა</b>"
-
-#~ msgid "<b>Enable Slo_w Keys</b>"
-#~ msgstr "<b>ნელი კლავიშების ჩართვა</b>"
-
-#~ msgid "<b>Enable _Mouse Keys</b>"
-#~ msgstr "<b>თაგ_უნას კლავიშების ჩართვა</b>"
-
-#~ msgid "<b>Enable _Repeat Keys</b>"
-#~ msgstr "<b>კლავიშების გ_ამეორების ჩართვა</b>"
-
-#~ msgid "<b>Enable _Sticky Keys</b>"
-#~ msgstr "<b>წ_ებოვანი კლავიშების ჩართვა</b>"
-
-#~ msgid "<b>Features</b>"
-#~ msgstr "<b>ფუნქციები</b>"
-
-#~ msgid "<b>Toggle Keys</b>"
-#~ msgstr "<b>გადამრთველი კლავიშები</b>"
-
-#~ msgid "Basic"
-#~ msgstr "ძირითადი"
-
-#~ msgid "Beep if key is re_jected"
-#~ msgstr "პიპინი, კლავიშის _უარყოფის შემთხვევაში"
-
-#~ msgid "Beep when _features turned on or off from keyboard"
-#~ msgstr "პიპინი, როდესაც ფ_უნქცია ირთვება ან ითიშება"
-
-#~ msgid "Beep when _modifier is pressed"
-#~ msgstr "პიპინი, თუ მართვის კლავიში დაჭერილია"
-
-#~ msgid "Beep when an LED is turned on and two beeps when one is turned off."
-#~ msgstr "პიპინი, როდესაც ნათურის LED-ი ირთვება, 2ჯერ პიპინი როდესაც ითიშება."
-
-#~ msgid "Beep when key is:"
-#~ msgstr "პიპინი,როდესაც:"
-
-#~ msgid "Del_ay:"
-#~ msgstr "დ_აყოვნება:"
-
-#~ msgid "Disa_ble if two keys pressed together"
-#~ msgstr "_გათიშვა, ორი კლავიშის ერთდროული დაჭერის შემთხვევაში"
-
-#~ msgid "E_nable Toggle Keys"
-#~ msgstr "გადამრთველი კლავიშების გა_აქტიურება"
-
-#~ msgid "Filters"
-#~ msgstr "ფილტრები"
-
-#~ msgid "I_gnore duplicate keypresses within:"
-#~ msgstr "ორმაგი დაჭერის _იგრორირება როდესაც:"
-
-#~ msgid ""
-#~ "Ignore all subsequent presses of the SAME key if they happen within a "
-#~ "user selectable period of time."
-#~ msgstr ""
-#~ "ერთი და იგივე კლავიშის თანმიმდევრული დაჭერის იგნორირება, მომხმარებლის "
-#~ "მიერ მითითებული დროის პერიოდში."
-
-#~ msgid "Keyboard Accessibility Preferences (AccessX)"
-#~ msgstr "კლავიატურის სპეც საშუალებების პარამეტრების გამართვა (AccessX)"
-
-#~ msgid "Ma_ximum pointer speed:"
-#~ msgstr "კ_ურსორის მაქსიმალური სიჩქარე:"
-
-#~ msgid "Mouse Keys"
-#~ msgstr "თაგვის ღილაკები"
-
-#~ msgid "Mouse _Preferences..."
-#~ msgstr "თაგვის _პარამეტრები..."
-
-#~ msgid ""
-#~ "Only accept keys after they have been pressed and held for a user "
-#~ "adjustable amount of time."
-#~ msgstr ""
-#~ "მხოლოდ იმ კლავიშების დაშვება, რომლებსაც დაეჭირათ მომხმარებლის მიერ "
-#~ "განსაზღვრული დროის მერე."
-
-#~ msgid ""
-#~ "Perform multiple simultaneous key press operations by pressing modifier "
-#~ "keys in sequence."
-#~ msgstr ""
-#~ "მრავალი ერთდროული კლავიშების დაჭერა, მოდიფიკატორის კლავიშების "
-#~ "მიმდევრობითი დაჭერისას"
-
-#~ msgid "S_peed:"
-#~ msgstr "_სიჩქარე:"
-
-#~ msgid "Time to acce_lerate to maximum speed:"
-#~ msgstr "აჩქარების დრო მაქსიმა_ლურ სიჩქარემდე:"
-
-#~ msgid "Turn the numeric keypad into a mouse control pad."
-#~ msgstr "ციფრული ველის კლავიშების თაგვის მმართველად ჩართვა."
-
-#~ msgid "_Disable if unused for:"
-#~ msgstr "_გათიშვა, თუ არ გამოიყენება:"
-
-#~ msgid "_Import Feature Settings..."
-#~ msgstr "შესაძლებლობების პარამეტრების _იმპორტი..."
-
-#~ msgid "_Only accept keys held for:"
-#~ msgstr "დაჭერის მიღება მხ_ოლოდ როცა:"
-
-#~ msgid "_Type to test settings:"
-#~ msgstr "პარამე_ტრების შესამოწმებელი ველი:"
-
-#~ msgid "_accepted"
-#~ msgstr "მ_იღებული"
-
-#~ msgid "_pressed"
-#~ msgstr "_დაჭერილი"
-
-#~ msgid "_rejected"
-#~ msgstr "_უარყოფილი"
-
-#~ msgid "characters/second"
-#~ msgstr "ასო-ნიშანი წამში"
-
-#~ msgid "milliseconds"
-#~ msgstr "მილიწამები"
-
-#~ msgid "pixels/second"
-#~ msgstr "პიქსელი/წამში"
-
-#~ msgid "seconds"
-#~ msgstr "წამი"
-
-#~ msgid "Add Wallpaper"
-#~ msgstr "ფონური სურათის დამატება"
-
-#~ msgid "All files"
-#~ msgstr "ყველა ფაილი"
-
-#~ msgid "Font may be too large"
-#~ msgstr "შესაძლოა შრიფტი საკმარისზე დიდი იყოს"
-
-#~ msgid ""
-#~ "The font selected is %d point large, and may make it difficult to "
-#~ "effectively use the computer.  It is recommended that you select a size "
-#~ "smaller than %d."
-#~ msgid_plural ""
-#~ "The font selected is %d points large, and may make it difficult to "
-#~ "effectively use the computer. It is recommended that you select a size "
-#~ "smaller than %d."
-#~ msgstr[0] ""
-#~ "არჩეული შრიფტი არის %d წერტილიანი და შესაძლოა კომპიუტერის ეფექტური "
-#~ "მოხმარება გააძნელოს. რეკომენდებულია, რომ აირჩეს %d-ზე მცირე ზომა."
-
-#~ msgid ""
-#~ "The font selected is %d point large, and may make it difficult to "
-#~ "effectively use the computer.  It is recommended that you select a "
-#~ "smaller sized font."
-#~ msgid_plural ""
-#~ "The font selected is %d points large, and may make it difficult to "
-#~ "effectively use the computer. It is recommended that you select a smaller "
-#~ "sized font."
-#~ msgstr[0] ""
-#~ "არჩეული შრიფტი არის %d წერტილით დიდი და შესაძლოა კომპიუტერის ეფექტური "
-#~ "მოხმარება გააძნელოს. რეკომენდებულია, რომ აირჩეს უფრო მცირე ზომის შრიფტი."
-
-#~ msgid "Use previous font"
-#~ msgstr "წინა შრიფტის გამოყენება"
-
-#~ msgid "Use selected font"
-#~ msgstr "ამორჩეული შრიფტის გამოყენება"
-
-#~ msgid "Specify the filename of a theme to install"
-#~ msgstr "გაფორმების თემის ფაილის სახელის მითითება დასაყენებლად"
-
-#~ msgid "filename"
-#~ msgstr "filename"
-
-#~ msgid ""
-#~ "Specify the name of the page to show (theme|background|fonts|interface)"
-#~ msgstr ""
-#~ "საჩვენებელი გვერდის სახელის მითითება (theme|background|fonts|interface)"
-
-#~ msgid "page"
-#~ msgstr "page"
-
-#~ msgid "[WALLPAPER...]"
-#~ msgstr "[WALLPAPER...]"
-
-#~ msgid "Default Pointer"
-#~ msgstr "ნაგულისხმევი კურსორი"
-
-#~ msgid "Apply Background"
-#~ msgstr "ფონის გამოყენება"
-
-#~ msgid "Apply Font"
-#~ msgstr "შრიფტის გამოყენება"
-
-#~ msgid "The current theme suggests a background and a font."
-#~ msgstr "მიმდინარე გაფორმებისთვის სასურველი ფონი და შრიფტი"
-
-#~ msgid "The current theme suggests a background."
-#~ msgstr "მიმდინარე გაფორმებისთვის სასურველი ფონი."
-
-#~ msgid "The current theme suggests a font."
-#~ msgstr "მიმდინარე გაფორმებისთვის სასურველი შრიფტი."
-
-#~ msgid "Custom"
-#~ msgstr "სხვა"
-
-#~ msgid "<b>C_olors</b>"
-#~ msgstr "<b>ფერ_ი</b>"
-
-#~ msgid "<b>Menus and Toolbars</b>"
-#~ msgstr "<b>პულტები და მენიუები</b>"
-
-#~ msgid "<b>Preview</b>"
-#~ msgstr "<b>ნიმუში</b>"
-
-#~ msgid "<b>Rendering</b>"
-#~ msgstr "<b>რენდერინგი</b>"
-
-#~ msgid "<b>Smoothing</b>"
-#~ msgstr "<b>დაგლუვება</b>"
-
-#~ msgid "<b>Subpixel Order</b>"
-#~ msgstr "<b>ქვეპიქსელების მიმდევრობა</b>"
-
-#~ msgid "<b>_Wallpaper</b>"
-#~ msgstr "<b>ფონური _სურათი</b>"
-
-#~ msgid "Appearance Preferences"
-#~ msgstr "იერსახის პარამეტრები"
-
-#~ msgid "Best _shapes"
-#~ msgstr "საუკეთესო _მოყვანილობა"
-
-#~ msgid "C_ustomize..."
-#~ msgstr "გა_მართვა..."
-
-#~ msgid "C_ut"
-#~ msgstr "ამ_ოჭრა"
-
-#~ msgid ""
-#~ "Centered\n"
-#~ "Fill screen\n"
-#~ "Scaled\n"
-#~ "Zoom\n"
-#~ "Tiled"
-#~ msgstr ""
-#~ "ცენტრში\n"
-#~ "ეკრანის შევსება\n"
-#~ "მაშტაბირებული\n"
-#~ "გადიდებული\n"
-#~ "მოზაიკისებრი"
-
-#~ msgid "Changing your cursor theme takes effect the next time you log in."
-#~ msgstr ""
-#~ "კურსორის გაფორმების ცვლილების დამტკიცება სეანსში ხელახალი შემოსვლით "
-#~ "მტკიცდება."
-
-#~ msgid "Controls"
-#~ msgstr "მმართველები"
-
-#~ msgid "Customize Theme"
-#~ msgstr "გაფორმების დამუშავება"
-
-#~ msgid "D_etails..."
-#~ msgstr "_დეტალები..."
-
-#~ msgid "Des_ktop font:"
-#~ msgstr "სამუშაო მაგ_იდის შროფტი:"
-
-#~ msgid "Edit"
-#~ msgstr "რედაქტირება"
-
-#~ msgid "Font Rendering Details"
-#~ msgstr "შრიფტის გამოსახვის დეტალები"
-
-#~ msgid "Go _to Fonts Folder"
-#~ msgstr "შრიფტების დას_ტაში გადასვლა"
-
-#~ msgid "Gra_yscale"
-#~ msgstr "სე_რის ტონები"
-
-#~ msgid "Icons"
-#~ msgstr "ხატულები"
-
-#~ msgid "Interface"
-#~ msgstr "ინტერფეისი"
-
-#~ msgid "Large"
-#~ msgstr "დიდი"
-
-#~ msgid "N_one"
-#~ msgstr "არა_ფერი"
-
-#~ msgid "New File"
-#~ msgstr "ახალი ფაილი"
-
-#~ msgid "Open File"
-#~ msgstr "ფაილის გახსნა"
-
-#~ msgid "Open a dialog to specify the color"
-#~ msgstr "გახსენი ფერის მისათითებლად დიალოგური ფანჯარა"
-
-#~ msgid "R_esolution:"
-#~ msgstr "გარჩ_ევადობა:"
-
-#~ msgid "Save File"
-#~ msgstr "ფაილის შენახვა"
-
-#~ msgid "Save Theme As..."
-#~ msgstr "გაფორმების დამახსოვრება როგორც..."
-
-#~ msgid "Save _As..."
-#~ msgstr "დ_ამახსოვრება როგორც..."
-
-#~ msgid "Show _icons in menus"
-#~ msgstr "მენუში _ხატულების ჩვენება"
-
-#~ msgid "Small"
-#~ msgstr "პატარა"
-
-#~ msgid ""
-#~ "Solid color\n"
-#~ "Horizontal gradient\n"
-#~ "Vertical gradient"
-#~ msgstr ""
-#~ "მყარი ფერი\n"
-#~ "ჰორიზონტალური გრადაცია\n"
-#~ "ვერტიკალური გრადაცია"
-
-#~ msgid "Sub_pixel (LCDs)"
-#~ msgstr "ქვე_პიქსელი (LCDთვის)"
-
-#~ msgid "Sub_pixel smoothing (LCDs)"
-#~ msgstr "ქვე_პიქსელების დაგლუვება (LCD-ები)"
-
-#~ msgid "Text"
-#~ msgstr "ტექსტი"
-
-#~ msgid ""
-#~ "Text below items\n"
-#~ "Text beside items\n"
-#~ "Icons only\n"
-#~ "Text only"
-#~ msgstr ""
-#~ "ტექსტი ელემენტებს ქვეშ\n"
-#~ "ტექსტი ელემენტების გვერდზე\n"
-#~ "მხოლოდ ხატულები\n"
-#~ "მხოლოდ ტექსტი"
-
-#~ msgid "The current controls theme does not support color schemes."
-#~ msgstr "მიმდინარე თემას არ გააჩნია ფერების სქემის მხარდაჭერა."
-
-#~ msgid "Theme"
-#~ msgstr "გაფორმების თემა"
-
-#~ msgid "Toolbar _button labels:"
-#~ msgstr "პანელის ღ_ილაკის წარწერა:"
-
-#~ msgid "VB_GR"
-#~ msgstr "VB_GR"
-
-#~ msgid "Window Border"
-#~ msgstr "ფანჯარის ჩარჩო"
-
-#~ msgid "_Add..."
-#~ msgstr "_დამატება..."
-
-#~ msgid "_Application font:"
-#~ msgstr "პრ_ოგრამის შრიფტი:"
-
-#~ msgid "_BGR"
-#~ msgstr "_BGR"
-
-#~ msgid "_Copy"
-#~ msgstr "_ასლი"
-
-#~ msgid "_Description:"
-#~ msgstr "_აღწერილობა:"
-
-#~ msgid "_Document font:"
-#~ msgstr "_დოკუმენტის შრიფტი:"
-
-#~ msgid "_Editable menu shortcut keys"
-#~ msgstr "_რედაქტირებადი მენიუს დამაჩქარებლები"
-
-#~ msgid "_File"
-#~ msgstr "_ფაილი"
-
-#~ msgid "_Fixed width font:"
-#~ msgstr "_ფიქსირებული სიგანის შრიფტი:"
-
-#~ msgid "_Full"
-#~ msgstr "_სრული"
-
-#~ msgid "_Input boxes:"
-#~ msgstr "შეყვან_ის ველი:"
-
-#~ msgid "_Install..."
-#~ msgstr "_დაყენება..."
-
-#~ msgid "_Medium"
-#~ msgstr "ს_აშუალო"
-
-#~ msgid "_Monochrome"
-#~ msgstr "_მონოქრომატული"
-
-#~ msgid "_Name:"
-#~ msgstr "_სახწოდება:"
-
-#~ msgid "_New"
-#~ msgstr "_ახალი"
-
-#~ msgid "_None"
-#~ msgstr "_არაფერი"
-
-#~ msgid "_Open"
-#~ msgstr "_გახსნა"
-
-#~ msgid "_Paste"
-#~ msgstr "_ჩასმა"
-
-#~ msgid "_Print"
-#~ msgstr "_ბეჭდვა"
-
-#~ msgid "_Quit"
-#~ msgstr "_გასვლა"
-
-#~ msgid "_RGB"
-#~ msgstr "_RGB"
-
-#~ msgid "_Reset to Defaults"
-#~ msgstr "ნა_გულისხმევზე გადართვა"
-
-#~ msgid "_Save"
-#~ msgstr "შ_ენახვა"
-
-#~ msgid "_Selected items:"
-#~ msgstr "_მონიშნული ელემენტი:"
-
-#~ msgid "_Size:"
-#~ msgstr "_ზომა:"
-
-#~ msgid "_Slight"
-#~ msgstr "მსუ_ბუქი"
-
-#~ msgid "_Style:"
-#~ msgstr "_სტილი:"
-
-#~ msgid "_Tooltips:"
-#~ msgstr "_კარნახები:"
-
-#~ msgid "_VRGB"
-#~ msgstr "_VRGB"
-
-#~ msgid "_Window title font:"
-#~ msgstr "_ფანჯრის სათაურის შრიფტი:"
-
-#~ msgid "_Windows:"
-#~ msgstr "ფა_ნჯრები:"
-
-#~ msgid "dots per inch"
-#~ msgstr "წერტილი დუიმში"
-
-#~ msgid "Appearance"
-#~ msgstr "გარემოს იერსახე"
-
-#~ msgid "Customize the look of the desktop"
-#~ msgstr "სამუშაო მაგიდის ხედის გალამაზება"
-
-#~ msgid "Installs themes packages for various parts of the desktop"
-#~ msgstr "აყენებს სამუშაო მაგიდის სხვადასხვა ნაწილების თემებს"
-
-#~ msgid "Theme Installer"
-#~ msgstr "გაფორმების დამყენებელი"
-
-#~ msgid "Gnome Theme Package"
-#~ msgstr "გნომის გაფორმებების პაკეტი"
-
-#~ msgid "No Wallpaper"
-#~ msgstr "ფონური სურათის გარეშე"
-
-#~ msgid ""
-#~ "<b>%s</b>\n"
-#~ "%s, %d %s by %d %s\n"
-#~ "Folder: %s"
-#~ msgstr ""
-#~ "<b>%s</b>\n"
-#~ "%s, %d %s მიერ %d %s\n"
-#~ "დასტა: %s"
-
-#~ msgid "pixel"
-#~ msgid_plural "pixels"
-#~ msgstr[0] "პიქსელი"
-
-#~ msgid ""
-#~ "Cannot install theme.\n"
-#~ "The %s utility is not installed."
-#~ msgstr ""
-#~ "შეუძლებელია გაფორმების დაყენება.\n"
-#~ "%s უტილიტა არ არის დაყენებული."
-
-#~ msgid ""
-#~ "Cannot install theme.\n"
-#~ "There was a problem while extracting the theme."
-#~ msgstr ""
-#~ "შეუძლებელია გაფორმების დაყენება.\n"
-#~ "დაიშვა შეცდომა მისი ამოარქივების დროს."
-
-#~ msgid "GNOME Theme %s correctly installed"
-#~ msgstr "გნომის გაფორმების თემა %s მართებულად დაყენდა."
-
-#~ msgid "The theme is an engine. You need to compile it."
-#~ msgstr "გაფორმება კოდის წყაროს წარმოადგენს. საჭიროა მისი კომპილირება."
-
-#~ msgid "The file format is invalid"
-#~ msgstr "ფაილის ფორმატი მცდარია"
-
-#~ msgid "Installation Failed"
-#~ msgstr "ინსტალაცია ვერ შესრულდა"
-
-#~ msgid "The theme \"%s\" has been installed."
-#~ msgstr "გაფორმების თემა \"%s\" მართებულად დაყენდა."
-
-#~ msgid "Would you like to apply it now, or keep your current theme?"
-#~ msgstr "გნებავთ მოცემული გაფორმების დამტკიცება, თუ წინას დაბრუნება ?"
-
-#~ msgid "Keep Current Theme"
-#~ msgstr "მიმდინარე გაფორმების დამახსოვრება"
-
-#~ msgid "Apply New Theme"
-#~ msgstr "ახალი გაფორმების გამოყენება"
-
-#~ msgid "This theme is not in a supported format."
-#~ msgstr "ეს თემა არ არის მხარდაჭერილი ფორმატის."
-
-#~ msgid "Failed to create temporary directory"
-#~ msgstr "ვერ მოხდა დროებითი დირექტორის შექმნა"
-
-#~ msgid "No theme file location specified to install"
-#~ msgstr "არ არის მითითებული დასაყებელი თემის ფაილის მდებარეობა"
-
-#~ msgid ""
-#~ "Insufficient permissions to install the theme in:\n"
-#~ "%s"
-#~ msgstr ""
-#~ "არასაკმარისი ნებართვებია, რომ დაყენდეს თემა აქ:\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "%s is the path where the theme files will be installed. This can not be "
-#~ "selected as the source location"
-#~ msgstr ""
-#~ "%s ეს არის მდებარეობა, სადაც თემის ფაილები დაყენდება. ეს არ შეიძლება "
-#~ "ამორჩეულ იქნას, როგორც წყაროს მდებარეობა"
-
-#~ msgid "The file format is invalid."
-#~ msgstr "ფაილის არამართებული ფორმატი."
-
-#~ msgid "Select Theme"
-#~ msgstr "გაფორმების ამორჩევა"
-
-#~ msgid "Theme Packages"
-#~ msgstr "გაფორმების პაკეტები"
-
-#~ msgid "Theme name must be present"
-#~ msgstr "თემა უნდა არსებობდეს"
-
-#~ msgid "The theme already exists. Would you like to replace it?"
-#~ msgstr "თემა უკვე არსებობს. გნებავთ შეცვალოთ იგი?"
-
-#~ msgid "_Overwrite"
-#~ msgstr "_ზედგადაწერა"
-
-#~ msgid "Would you like to delete this theme?"
-#~ msgstr "გნებავთ მოცემული გაფორმების ამოშლა?"
-
-#~ msgid "Theme cannot be deleted"
-#~ msgstr "შეუძლებელია გაფორმების წაშლა"
-
-#~ msgid ""
-#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#~ "Without the GNOME settings manager running, some preferences may not take "
-#~ "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. "
-#~ "KDE) settings manager may already be active and conflicting with the "
-#~ "GNOME settings manager."
-#~ msgstr ""
-#~ "ვერ ვუშვებ პარამეტრების მმართველს 'gnome-settings-daemon'.\n"
-#~ "გნომის პარამეტრების მმართველის გაშვების გარეშე ზოგმა პარამეტრმა შეიძლება "
-#~ "ეფექტი არ იქონიოს. ეს შეიძლება ნიშნავდეს პრობლემებს ბონობოსთან (Bonobo), "
-#~ "ან უკვე გაშვებულია არა გნომის (მაგალითად KDE) პარამეტრების მმართველი და "
-#~ "ის კონფლიქტობს გნომის პარამეტრების მმართველთან."
-
-#~ msgid "Unable to load stock icon '%s'\n"
-#~ msgstr "შეუძლებელია მიბმული ხატულას ჩატვირთვა '%s'\n"
-
-#~ msgid "Just apply settings and quit"
-#~ msgstr "მხოლოდ დაყენებულის გამოყენება და გასვლა"
-
-#~ msgid "Retrieve and store legacy settings"
-#~ msgstr "არსებული პარამეტრების მოძიება და შენახვა"
-
-#~ msgid "Copying file: %u of %u"
-#~ msgstr "ფაილის ასლი: %u - %u"
-
-#~ msgid "Copying '%s'"
-#~ msgstr "ვაკოპირებ '%s'"
-
-#~ msgid "Copying files"
-#~ msgstr "ფაილების ასლი"
-
-#~ msgid "Parent Window"
-#~ msgstr "დედობილი ფანჯარა"
-
-#~ msgid "Parent window of the dialog"
-#~ msgstr "დიალოგის დედობილი ფანჯარა"
-
-#~ msgid "From URI"
-#~ msgstr "URI-დან"
-
-#~ msgid "URI currently transferring from"
-#~ msgstr "URI, საიდანაც მიმდონარეობს გადაწერა"
-
-#~ msgid "To URI"
-#~ msgstr "URI-ზე"
-
-#~ msgid "URI currently transferring to"
-#~ msgstr "URI, ჩაწერის დანიშნულება"
-
-#~ msgid "Fraction of transfer currently completed"
-#~ msgstr "ნაწილის გადატანა ჩატარებულია"
-
-#~ msgid "Current URI index"
-#~ msgstr "მიმდინარე URI-ის ინდექსი"
-
-#~ msgid "Current URI index - starts from 1"
-#~ msgstr "მიმდინარე URI-ინდექსი - 1-დან იწყება"
-
-#~ msgid "Total URIs"
-#~ msgstr "ჯამში URI"
-
-#~ msgid "Total number of URIs"
-#~ msgstr "URI-ების ჯამური რაოდენობა"
-
-#~ msgid "Connecting..."
-#~ msgstr "დაკავშირება...."
-
-#~ msgid "Key"
-#~ msgstr "გასაღები"
-
-#~ msgid "GConf key to which this property editor is attached"
-#~ msgstr "GConf გასაღები, რომელთანაც ეს თვისებების რედაქტორია მიბმული"
-
-#~ msgid "Callback"
-#~ msgstr "უკუგამოძახება"
-
-#~ msgid "Issue this callback when the value associated with key gets changed"
-#~ msgstr ""
-#~ "გაეცი ეს უკუგამოძახილი, როდესაც გასაღებთან ასოცირებული მნიშვნელობა "
-#~ "შეიცვლება"
-
-#~ msgid "Change set"
-#~ msgstr "კრებულის შეცვლა"
-
-#~ msgid "Conversion to widget callback"
-#~ msgstr "ელემენტში გარდაქმნის უკუგამოძახება"
-
-#~ msgid ""
-#~ "Callback to be issued when data are to be converted from GConf to the "
-#~ "widget"
-#~ msgstr ""
-#~ "უკუგამოძახება უნდა გაიცეს, როდესაც მონაცემები უნდა გარდაიქმნას GConf-დან "
-#~ "ელემენტში"
-
-#~ msgid "Conversion from widget callback"
-#~ msgstr "ელემენტიდან გარდაქმნის უკუგამოძახილი"
-
-#~ msgid ""
-#~ "Callback to be issued when data are to be converted to GConf from the "
-#~ "widget"
-#~ msgstr ""
-#~ "უკუგამოძახება უნდა გაიცეს, როდესაც მონაცემები უნდა გარდაიქმნას ელემნტიდან "
-#~ "GConf-ში"
-
-#~ msgid "UI Control"
-#~ msgstr "UI-ის მართვა"
-
-#~ msgid "Property editor object data"
-#~ msgstr "თვისებების რედაქტორის ობიექტების მონაცემები"
-
-#~ msgid "Custom data required by the specific property editor"
-#~ msgstr ""
-#~ "საჭიროა ინდივიდუალური მონაცემები სპეციფიური თვისებების რედაქტორისთვის"
-
-#~ msgid "Property editor data freeing callback"
-#~ msgstr "თვისებების რედაქტორის მონაცემთა გამონთავისუფლების უკუგამოძახება"
-
-#~ msgid ""
-#~ "Callback to be issued when property editor object data is to be freed"
-#~ msgstr ""
-#~ "უკუგამოძახება უნდა გაიცეს, მაშინ, როდესაც თვისებების რედაქტორის "
-#~ "ობიექტების მონაცემები უნდა გამონთავისუფლდეს"
-
-#~ msgid ""
-#~ "Couldn't find the file '%s'.\n"
-#~ "\n"
-#~ "Please make sure it exists and try again, or choose a different "
-#~ "background picture."
-#~ msgstr ""
-#~ "'%s' ფაილი ვერ მოიძებნა.\n"
-#~ "\n"
-#~ "დარწმუნდით, რომ იგი არსებობს და სცადეთ თავიდან, ან აირჩიეთ სხვა ფონური "
-#~ "სურათი"
-
-#~ msgid ""
-#~ "I don't know how to open the file '%s'.\n"
-#~ "Perhaps it's a kind of picture that is not yet supported.\n"
-#~ "\n"
-#~ "Please select a different picture instead."
-#~ msgstr ""
-#~ "არ ვიცი '%s' ფაილი როგორ გავხსნა.\n"
-#~ "შესაძლოა, სურათის ასეთი ტიპი ჯერ არაა მხარდაჭერილი.\n"
-#~ "\n"
-#~ "გთხოვთ ამის მაგივრად აირჩიოთ სხვა სურათი."
-
-#~ msgid "Please select an image."
-#~ msgstr "გთხოვთ აირჩიოთ ნახატი."
-
-#~ msgid "_Select"
-#~ msgstr "_არჩევა"
-
-#~ msgid "Default Pointer - Current"
-#~ msgstr "ნაგულისხმევი მიმთითებელი - მიმდინარე"
-
-#~ msgid "White Pointer"
-#~ msgstr "თეთრი კურსორი"
-
-#~ msgid "White Pointer - Current"
-#~ msgstr "თეთრი კურსორი - მიმდინარე"
-
-#~ msgid "Large Pointer"
-#~ msgstr "დიდი კურსორი"
-
-#~ msgid "Large Pointer - Current"
-#~ msgstr "დიდი კურსორი - მიმდინარე"
-
-#~ msgid "Large White Pointer - Current"
-#~ msgstr "დიდი თეთრი კურსორი - მიმდინარე"
-
-#~ msgid "Large White Pointer"
-#~ msgstr "დიდი თეთრი კურსორი"
-
-#~ msgid "Preferred Applications"
-#~ msgstr "სასურველი პროგრამები"
-
-#~ msgid "Select your default applications"
-#~ msgstr "ნაგულისხმები პროგრამების ამორჩევა"
-
-#~ msgid "Autostart the preferred AT"
-#~ msgstr "არჩეული AT-ს ავტოგაშვება"
-
-#~ msgid "Visual"
-#~ msgstr "ვიზუალური"
-
-#~ msgid "Error saving configuration: %s"
-#~ msgstr "შეცდომა კონფიგურაციის შენახვისას: %s"
-
-#~ msgid "Could not load the main interface"
-#~ msgstr "შეუძლებელია ძირითადი ინტერფეისის გამოყენება"
-
-#~ msgid "Please make sure that the applet is properly installed"
-#~ msgstr "გთხოვთ დარწმუნდეთ, რომ ალპეტი სწორადაა დაყენებული"
-
-#~ msgid "<b>Image Viewer</b>"
-#~ msgstr "<b>სურათების მნახველი</b>"
-
-#~ msgid "<b>Instant Messenger</b>"
-#~ msgstr "<b>მყისიერი შეტყობინება</b>"
-
-#~ msgid "<b>Mail Reader</b>"
-#~ msgstr "<b> ფოსტის წამკითხავი</b>"
-
-#~ msgid "<b>Mobility</b>"
-#~ msgstr "<b>მობილითი</b>"
-
-#~ msgid "<b>Multimedia Player</b>"
-#~ msgstr "<b>მულტიმედიის დამკვრელი</b>"
-
-#~ msgid "<b>Terminal Emulator</b>"
-#~ msgstr "<b>ტერმინალის ემულატორი</b>"
-
-#~ msgid "<b>Text Editor</b>"
-#~ msgstr "<b>ტექსტური რედაქტორი</b>"
-
-#~ msgid "<b>Video Player</b>"
-#~ msgstr "<b>ვიდეო დამკვრელი</b>"
-
-#~ msgid "<b>Visual</b>"
-#~ msgstr "<b>ვიზუალი</b>"
-
-#~ msgid "<b>Web Browser</b>"
-#~ msgstr "<b>ვებ ბროუზერი</b>"
-
-#~ msgid "All %s occurrences will be replaced with actual link"
-#~ msgstr "ყველა %s დამთხვევა შეიცვლება შესაბამისი ბმულით"
-
-#~ msgid "E_xecute flag:"
-#~ msgstr "ალმის _გაშვება"
-
-#~ msgid "Internet"
-#~ msgstr "ინტერნეტი"
-
-#~ msgid "Multimedia"
-#~ msgstr "მულტიმედია"
-
-#~ msgid "Open link in new _tab"
-#~ msgstr "ბმულის ახალ _სარკმელში გახსნა"
-
-#~ msgid "Open link in new _window"
-#~ msgstr "ბმულის ახალ _ფანჯარაში გახსნა"
-
-#~ msgid "Open link with web browser _default"
-#~ msgstr "ბმულის _ნაგულისხმევ ვებ ბრაუზერში გახსნა"
-
-#~ msgid "Run at st_art"
-#~ msgstr "დაწყებისას გ_აშვება"
-
-#~ msgid "Run in t_erminal"
-#~ msgstr "ტ_ერმინალში გაშვება"
-
-#~ msgid "System"
-#~ msgstr "სისტემა"
-
-#~ msgid "Balsa"
-#~ msgstr "Balsa"
-
-#~ msgid "Banshee Music Player"
-#~ msgstr "Banshee Music Player"
-
-#~ msgid "Claws Mail"
-#~ msgstr "Claws Mail"
-
-#~ msgid "Dasher"
-#~ msgstr "Dasher"
-
-#~ msgid "Debian Sensible Browser"
-#~ msgstr "Debian Sensible Browser"
-
-#~ msgid "Debian Terminal Emulator"
-#~ msgstr "დებიანის ტერმინალის ემულატორი"
-
-#~ msgid "ETerm"
-#~ msgstr "ETerm"
-
-#~ msgid "Encompass"
-#~ msgstr "Encompass"
-
-#~ msgid "Epiphany Web Browser"
-#~ msgstr "ეპიფანია ვებ ბროუზერი"
-
-#~ msgid "Evolution Mail Reader"
-#~ msgstr "ევოლუშენ ფოსტის მკითხველი"
-
-#~ msgid "Evolution Mail Reader 1.4"
-#~ msgstr "Evolution საფოსტო კლიენტი 1.4"
-
-#~ msgid "Evolution Mail Reader 1.5"
-#~ msgstr "Evolution საფოსტო კლიენტი 1.5"
-
-#~ msgid "Evolution Mail Reader 1.6"
-#~ msgstr "Evolution საფოსტო კლიენტი 1.6"
-
-#~ msgid "Evolution Mail Reader 2.0"
-#~ msgstr "Evolution საფოსტო კლიენტი 2.0"
-
-#~ msgid "Evolution Mail Reader 2.2"
-#~ msgstr "Evolution საფოსტო კლიენტი 2.2"
-
-#~ msgid "Evolution Mail Reader 2.4"
-#~ msgstr "Evolution საფოსტო კლიენტი 2.4"
-
-#~ msgid "Firebird"
-#~ msgstr "Firebird"
-
-#~ msgid "Firefox"
-#~ msgstr "Firefox"
-
-#~ msgid "GNOME Magnifier without Screen Reader"
-#~ msgstr "გნომის ლუპა ეკრანის მკითხველის გარეშე"
-
-#~ msgid "GNOME OnScreen Keyboard"
-#~ msgstr "გნომის ეკრან კლავიატურა"
-
-#~ msgid "GNOME Terminal"
-#~ msgstr "გნომის ტერმინალი"
-
-#~ msgid "Galeon"
-#~ msgstr "Galeon"
-
-#~ msgid "Gnopernicus"
-#~ msgstr "Gnopernicus"
-
-#~ msgid "Gnopernicus with Magnifier"
-#~ msgstr "Gnopernicus ლუპითურთ"
-
-#~ msgid "Iceape"
-#~ msgstr "Iceape"
-
-#~ msgid "Iceape Mail"
-#~ msgstr "Iceape Mail"
-
-#~ msgid "Icedove"
-#~ msgstr "Icedove"
-
-#~ msgid "Iceweasel"
-#~ msgstr "Iceweasel"
-
-#~ msgid "KDE Magnifier without Screen Reader"
-#~ msgstr "კდე-ს ლუპა ეკრანის მკითხველის გარეშე"
-
-#~ msgid "KMail"
-#~ msgstr "KMail"
-
-#~ msgid "Konqueror"
-#~ msgstr "Konqueror"
-
-#~ msgid "Links Text Browser"
-#~ msgstr "Links ტექსტ ბროუზერი"
-
-#~ msgid "Linux Screen Reader with Magnifier"
-#~ msgstr "ლინუქსის ეკრან მკითხველი ლუპით"
-
-#~ msgid "Lynx Text Browser"
-#~ msgstr "Lynx ტექსტ ბროუზერი"
-
-#~ msgid "Mozilla"
-#~ msgstr "Mozilla"
-
-#~ msgid "Mozilla 1.6"
-#~ msgstr "Mozilla 1.6"
-
-#~ msgid "Mozilla Mail"
-#~ msgstr "Mozilla Mail"
-
-#~ msgid "Mozilla Thunderbird"
-#~ msgstr "Mozilla Thunderbird"
-
-#~ msgid "Muine Music Player"
-#~ msgstr "Muine Music Player"
-
-#~ msgid "Mutt"
-#~ msgstr "Mutt"
-
-#~ msgid "NXterm"
-#~ msgstr "NXterm"
-
-#~ msgid "Netscape Communicator"
-#~ msgstr "Netscape Communicator"
-
-#~ msgid "Opera"
-#~ msgstr "Opera"
-
-#~ msgid "Orca"
-#~ msgstr "Orca"
-
-#~ msgid "Orca with Magnifier"
-#~ msgstr "Orca გამადიდებელი შუშით"
-
-#~ msgid "RXVT"
-#~ msgstr "RXVT"
-
-#~ msgid "Rhythmbox Music Player"
-#~ msgstr "რითმბოქს მუსიკის დამკვრელი"
-
-#~ msgid "SeaMonkey"
-#~ msgstr "SeaMonkey"
-
-#~ msgid "SeaMonkey Mail"
-#~ msgstr "SeaMonkey Mail"
-
-#~ msgid "Standard XTerminal"
-#~ msgstr "სტანდარტული X ტერმინალი"
-
-#~ msgid "Sylpheed"
-#~ msgstr "Sylpheed"
-
-#~ msgid "Sylpheed-Claws"
-#~ msgstr "Sylpheed-Claws"
-
-#~ msgid "Thunderbird"
-#~ msgstr "Thunderbird"
-
-#~ msgid "Totem Movie Player"
-#~ msgstr "ტოტემ ფილმის გამშვები"
-
-#~ msgid "W3M Text Browser"
-#~ msgstr "ტექსტური ბროუზერი W3M"
-
-#~ msgid "aterm"
-#~ msgstr "aterm"
-
-#~ msgid "Change screen resolution"
-#~ msgstr "ეკრანის გარჩევადობის შეცვლა"
-
-#~ msgid "Screen Resolution"
-#~ msgstr "ეკრანის გარჩევადობა"
-
-#~ msgid "Normal"
-#~ msgstr "ჩვეულებრივი"
-
-#~ msgid "Left"
-#~ msgstr "მარცხნივ"
-
-#~ msgid "Inverted"
-#~ msgstr "ინვერტირებული"
-
-#~ msgid "Right"
-#~ msgstr "მარჯვნივ"
-
-#~ msgid "%d Hz"
-#~ msgstr "%d ჰერცი"
-
-#~ msgid "_Resolution:"
-#~ msgstr "გარ_ჩევადობა:"
-
-#~ msgid "Re_fresh rate:"
-#~ msgstr "განახლების ს_იხშირე:"
-
-#~ msgid "R_otation:"
-#~ msgstr "ო_რიენტაცია:"
-
-#~ msgid "Screen %d Settings\n"
-#~ msgstr "ეკრანის პარამეტრები %d\n"
-
-#~ msgid "Screen Resolution Preferences"
-#~ msgstr "ეკრანის გარჩევადობის პარამეტრები"
-
-#~ msgid "_Make default for this computer (%s) only"
-#~ msgstr "ა_ქციე ნაგულისხმევად მხოლოდ ამ (%s) კომპიუტერისთვის"
-
-#~ msgid "Options"
-#~ msgstr "პარამეტრები"
-
-#~ msgid ""
-#~ "Testing the new settings. If you don't respond in %d second the previous "
-#~ "settings will be restored."
-#~ msgid_plural ""
-#~ "Testing the new settings. If you don't respond in %d seconds the previous "
-#~ "settings will be restored."
-#~ msgstr[0] ""
-#~ "მიმდინარეობს ახალი პარამეტრების ტესტირება. თუ არ უპასუხებთ %d წამში, "
-#~ "აღდგება თავდაპირველი პარამეტრები."
-
-#~ msgid "Keep Resolution"
-#~ msgstr "გარჩევადობის დატოვება"
-
-#~ msgid "Do you want to keep this resolution?"
-#~ msgstr "გნებავთ მოცემული გარჩევადობის დატოვება?"
-
-#~ msgid "Use _previous resolution"
-#~ msgstr "წინა გარჩევადობის გამოყ_ენება"
-
-#~ msgid "_Keep resolution"
-#~ msgstr "_გარჩევადობის დატოვება"
-
-#~ msgid ""
-#~ "The X Server does not support the XRandR extension.  Runtime resolution "
-#~ "changes to the display size are not available."
-#~ msgstr ""
-#~ "X სერვერს არ გააჩნია XRandR გაფართოვების მხარდაჭერა. X-ის აქტიურ "
-#~ "მდგომარეობაში ყოფნის დროს შეუძლებელია გარჩევადობის გასწორება."
-
-#~ msgid ""
-#~ "The version of the XRandR extension is incompatible with this program. "
-#~ "Runtime changes to the display size are not available."
-#~ msgstr ""
-#~ "XRandR გაფართოვების ვერსია ამ პროგრამასთან შეუთავსებელია. X-ის აქტიურ "
-#~ "მდგომარეობაში ყოფნის დროს შეუძლებელია გარჩევადობის გასწორება."
-
-#~ msgid "Desktop"
-#~ msgstr "სამუშაო მაგიდა"
-
-#~ msgid "New accelerator..."
-#~ msgstr "ახალი ამაჩქარებელი..."
-
-#~ msgid "Accelerator key"
-#~ msgstr "ამაჩარებლის ღილაკი"
-
-#~ msgid "Accelerator modifiers"
-#~ msgstr "ამაჩქარებლის მმართველები"
-
-#~ msgid "Accelerator keycode"
-#~ msgstr "ამაჩქარებლის keycode"
-
-#~ msgid "Accel Mode"
-#~ msgstr "ამაჩქარებლის რეჟიმი"
-
-#~ msgid "The type of accelerator."
-#~ msgstr "ამაჩქარებლის ტიპი."
-
-#~ msgid "Disabled"
-#~ msgstr "გამორთული"
-
-#~ msgid "<Unknown Action>"
-#~ msgstr "<უცნობი მოქმედებაა>"
-
-#~ msgid ""
-#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
-#~ "type using this key.\n"
-#~ "Please try with a key such as Control, Alt or Shift at the same time.\n"
-#~ msgstr ""
-#~ "შეუძლებელია \"%s\" კლავიშის გამოყენება, რადგანაც მისი გამოყენების "
-#~ "შემთხვევაში შეუძლებელი გახდება ჩვეულებრივი ტექსტის აკრეფვა.\n"
-#~ "გთხოვთ სცადოთ Control, Alt , ან Shift კლავიშების ერთდროული კომბინაციები.\n"
-
-#~ msgid ""
-#~ "The shortcut \"%s\" is already used for:\n"
-#~ " \"%s\"\n"
-#~ msgstr ""
-#~ "სხარტი კლავიშები \"%s\" უკვე გამოყენებულია აქ:\n"
-#~ " \"%s\"\n"
-
-#~ msgid "Error setting new accelerator in configuration database: %s\n"
-#~ msgstr "შეცდომა ახალი ამაჩქარებლის დაყენებისას კონფიგურაციის ბაზაში: %s\n"
-
-#~ msgid "Error unsetting accelerator in configuration database: %s\n"
-#~ msgstr "შეცდომა ამაჩქარებლის მოხსნისას კონფიგურაციის ბაზაში: %s\n"
-
-#~ msgid "Action"
-#~ msgstr "მოქმედება"
-
-#~ msgid "Shortcut"
-#~ msgstr "მალსახმობი"
-
-#~ msgid "Keyboard Shortcuts"
-#~ msgstr "სხარტი კლავიშები"
-
-#~ msgid ""
-#~ "To edit a shortcut key, click on the corresponding row and type a new "
-#~ "accelerator, or press backspace to clear."
-#~ msgstr ""
-#~ "ახალი სხარტი კლავიშების დასაყენებლად დააწკაპუნეთ შესაბამის სტრიქონს და "
-#~ "აკრიფეთ ახალი კომპბინაცია, ან გასაწმენდად დააჭირეთ უკუშლას"
-
-#~ msgid "Assign shortcut keys to commands"
-#~ msgstr "ბრძანებისთვის სხარტი კლავიშის მინიჭება"
-
-#~ msgid "There was an error launching the keyboard tool: %s"
-#~ msgstr "კლავიატურის ინსტრუმენტის გაშვებისას შეცდომა მოხდა: %s"
-
-#~ msgid "_Accessibility"
-#~ msgstr "_დამხმარე საშუალებები"
-
-#~ msgid ""
-#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
-#~ msgstr "გამოყენება და გასვლა"
-
-#~ msgid "- GNOME Keyboard Preferences"
-#~ msgstr "- გნომის კლავიატურის პარამეტრები"
-
-#~ msgid "<b>Cursor Blinking</b>"
-#~ msgstr "<b>კურსორის ციმციმი</b>"
-
-#~ msgid "<b>Repeat Keys</b>"
-#~ msgstr "<b>ავტოგამეორება</b>"
-
-#~ msgid "<b>_Lock screen to enforce typing break</b>"
-#~ msgstr "<b>ეკრანის ჩა_კეტვა</b>"
-
-#~ msgid "<small><i>Fast</i></small>"
-#~ msgstr "<small><i>სწრაფი</i></small>"
-
-#~ msgid "<small><i>Long</i></small>"
-#~ msgstr "<small><i>გრძლად</i></small>"
-
-#~ msgid "<small><i>Short</i></small>"
-#~ msgstr "<small><i>მოკლედ</i></small>"
-
-#~ msgid "<small><i>Slow</i></small>"
-#~ msgstr "<small><i>ნელა</i></small>"
-
-#~ msgid "All_ow postponing of breaks"
-#~ msgstr "წყვეტების გადადების დაშ_ვება"
-
-#~ msgid "Check if breaks are allowed to be postponed"
-#~ msgstr "შემოწმება, დაშვებულია თუ არა წყვეტების გადადება"
-
-#~ msgid "Choose a Keyboard Model"
-#~ msgstr "კლავიატურის მოდელის არჩევა"
-
-#~ msgid "Choose a Layout"
-#~ msgstr "განლაგების არჩევა"
-
-#~ msgid "Choose..."
-#~ msgstr "ამორჩევა..."
-
-#~ msgid "Cursor _blinks in text boxes and fields"
-#~ msgstr "ტექტურ სარკმელის ველებში კურსორის _ციმციმი"
-
-#~ msgid "Cursor blinks speed"
-#~ msgstr "კურსორის ციმციმის სიჩქარე"
-
-#~ msgid "Duration of the break when typing is disallowed"
-#~ msgstr "წყვეტის ხანგრძლივობა, როდესაც აკრეფვა აკრძალულია"
-
-#~ msgid "Duration of work before forcing a break"
-#~ msgstr "მუშაობის ხანგრძლივობა წყვეტის გააქტიურებამდე"
-
-#~ msgid "Key presses _repeat when key is held down"
-#~ msgstr ""
-#~ "კლავიშის დაჭერების _გამეორება, როცა კლავიში დაჭერილ მდგომარეობაშია "
-#~ "გაჩერებული"
-
-#~ msgid "Layout Options"
-#~ msgstr "განლაგების ვარიანტები"
-
-#~ msgid "Layouts"
-#~ msgstr "განლაგებები"
-
-#~ msgid ""
-#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
-#~ "use injuries"
-#~ msgstr ""
-#~ "ეკრანის ბლოკირება გარკვეული დროის შემდეგ, კლავიშების განმეორებითი დაჭერის "
-#~ "მიერ გამოწვეული ზიანის თავიდან აცილების მიზნით"
-
-#~ msgid "Microsoft Natural Keyboard"
-#~ msgstr "მაიკროსოფტის კლავიატურა"
-
-#~ msgid "Preview:"
-#~ msgstr "წინასწარი ნახვა:"
-
-#~ msgid "Repeat keys speed"
-#~ msgstr "კლავიშების გამეორების სიჩქარე"
-
-#~ msgid "Reset to De_faults"
-#~ msgstr "ნა_გულისხმევზე დაყენება"
-
-#~ msgid "Separate _layout for each window"
-#~ msgstr "ცალკეული ფანჯრისთვის _განლაგების შეცვლა"
-
-#~ msgid "_Accessibility..."
-#~ msgstr "_დამხმარე საშუალებები."
-
-#~ msgid "_Break interval lasts:"
-#~ msgstr "_წყვეტის ინტერვალი გრძელდება:"
-
-#~ msgid "_Delay:"
-#~ msgstr "_დაყოვნება:"
-
-#~ msgid "_Layouts:"
-#~ msgstr "_განლაგებები:"
-
-#~ msgid "_Models:"
-#~ msgstr "_მოდელები:"
-
-#~ msgid "_Selected layouts:"
-#~ msgstr "_არჩეული განლაგებები:"
-
-#~ msgid "_Speed:"
-#~ msgstr "_სიჩქარე:"
-
-#~ msgid "_Variants:"
-#~ msgstr "_ვარიანტი:"
-
-#~ msgid "_Vendors:"
-#~ msgstr "_მწარმოებლები:"
-
-#~ msgid "_Work interval lasts:"
-#~ msgstr "_სამუშაო ინტერვალი გრძელდება:"
-
-#~ msgid "Default"
-#~ msgstr "ნაგულისხმევი"
-
-#~ msgid "Layout"
-#~ msgstr "განლაგება"
-
-#~ msgid "Vendors"
-#~ msgstr "მწარმოებელი"
-
-#~ msgid "Models"
-#~ msgstr "მოდელები"
-
-#~ msgid "%d millisecond"
-#~ msgid_plural "%d milliseconds"
-#~ msgstr[0] "%d მილიწამი"
-
-#~ msgid "<b>Drag and Drop</b>"
-#~ msgstr "<b>გადათრევა და გაშვება</b>"
-
-#~ msgid "<b>Speed</b>"
-#~ msgstr "<b>სიჩქარე</b>"
-
-#~ msgid "<i>Fast</i>"
-#~ msgstr "<i>სწრაფი</i>"
-
-#~ msgid "<i>High</i>"
-#~ msgstr "<i>მაღალი</i>"
-
-#~ msgid "<i>Large</i>"
-#~ msgstr "<i>დიდი</i>"
-
-#~ msgid "<i>Low</i>"
-#~ msgstr "<i>დაბალი</i>"
-
-#~ msgid "<i>Slow</i>"
-#~ msgstr "<i>ნელა</i>"
-
-#~ msgid "<i>Small</i>"
-#~ msgstr "<i>პატარა</i>"
-
-#~ msgid "Buttons"
-#~ msgstr "ღილაკები"
-
-#~ msgid "Motion"
-#~ msgstr "მოძრაობა"
-
-#~ msgid "_Acceleration:"
-#~ msgstr "_აჩქარება:"
-
-#~ msgid "_Left-handed mouse"
-#~ msgstr "_ცაცია თაგვი"
-
-#~ msgid "_Sensitivity:"
-#~ msgstr "_მგრძნობელობა:"
-
-#~ msgid "_Timeout:"
-#~ msgstr "_ლოდინის ვადა:"
-
-#~ msgid "Set your mouse preferences"
-#~ msgstr "თაგვის პარამეტრების დაყენება"
-
-#~ msgid "Network Proxy"
-#~ msgstr "ქსელის პროქსი"
-
-#~ msgid "Set your network proxy preferences"
-#~ msgstr "თვენი ქსელის პროქსის პარამეტრების დაყენება"
-
-#~ msgid "      "
-#~ msgstr "......"
-
-#~ msgid "<b>Di_rect internet connection</b>"
-#~ msgstr "<b>ინტერნეტში პირდაპირი შ_ეერთება</b>"
-
-#~ msgid "<b>Ignore Host List</b>"
-#~ msgstr "<b>ჰოსტების ნუსხის იგნორირება</b>"
-
-#~ msgid "<b>_Automatic proxy configuration</b>"
-#~ msgstr "<b>პროქრის _ავტომატური კონფიგურირება</b>"
-
-#~ msgid "<b>_Manual proxy configuration</b>"
-#~ msgstr "<b>პროქსის _ხელით კონფიგურირება</b>"
-
-#~ msgid "Advanced Configuration"
-#~ msgstr "დამატებითი პარამეტრები"
-
-#~ msgid "Autoconfiguration _URL:"
-#~ msgstr "ავტოკონფიგურაციის _მისამართი:"
-
-#~ msgid "HTTP Proxy Details"
-#~ msgstr "HTTP პროქსის დეტალები"
-
-#~ msgid "H_TTP proxy:"
-#~ msgstr "H_TTP პროქსი:"
-
-#~ msgid "Network Proxy Preferences"
-#~ msgstr "ქსელის პროქსის პარამეტრები"
-
-#~ msgid "Port:"
-#~ msgstr "პორტი:"
-
-#~ msgid "S_ocks host:"
-#~ msgstr "Socks _ჰოსტი:"
-
-#~ msgid "U_sername:"
-#~ msgstr "_სახელი:"
-
-#~ msgid "_Details"
-#~ msgstr "_ცნობები"
-
-#~ msgid "_FTP proxy:"
-#~ msgstr "_FTP პროქსი:"
-
-#~ msgid "_Password:"
-#~ msgstr "_პაროლი:"
-
-#~ msgid "_Secure HTTP proxy:"
-#~ msgstr "უსაფრთხო _HTTP პროქსი:"
-
-#~ msgid "_Use the same proxy for all protocols"
-#~ msgstr "ყველა პროტოკოლისთვის იგივე პროქსის _გამოყენება"
-
-#~ msgid "Enable sound and associate sounds with events"
-#~ msgstr "ხმის ჩართვა და მის სისტემის მოვლენებთან ასოციაცია"
-
-#~ msgid "Unknown Volume Control %d"
-#~ msgstr "უცნობი ხმის სიმძლავრის რეგულატორი %d"
-
-#~ msgid "Failed to construct test pipeline for '%s'"
-#~ msgstr "შეცდომა ტესტური ნაკადი შექმნისას '%s'"
-
-#~ msgid "Autodetect"
-#~ msgstr "ავტოამოცნობა"
-
-#~ msgid "ALSA - Advanced Linux Sound Architecture"
-#~ msgstr "ALSA - Advanced Linux Sound Architecture"
-
-#~ msgid "Artsd - ART Sound Daemon"
-#~ msgstr "Artsd - ART Sound Daemon"
-
-#~ msgid "ESD - Enlightened Sound Daemon"
-#~ msgstr "ESD - Enlightened Sound Daemon"
-
-#~ msgid "OSS - Open Sound System"
-#~ msgstr "OSS - Open Sound System"
-
-#~ msgid "PulseAudio Sound Server"
-#~ msgstr "PulseAudio Sound Server"
-
-#~ msgid "Test Sound"
-#~ msgstr "ტესტ ხმა"
-
-#~ msgid "Silence"
-#~ msgstr "სიჩუმე"
-
-#~ msgid "- GNOME Sound Preferences"
-#~ msgstr "- გნომის ხმის პარამეტრები"
-
-#~ msgid "<b>Audio Conferencing</b>"
-#~ msgstr "<b>აუდიო კონფერენცია</b>"
-
-#~ msgid "<b>Default Mixer Tracks</b>"
-#~ msgstr "<b>მიქშერის ნაგულისხმევი არხები</b>"
-
-#~ msgid "<b>Music and Movies</b>"
-#~ msgstr "<b>მუსიკა და ფილმი</b>"
-
-#~ msgid "<b>Sound Events</b>"
-#~ msgstr "<b>ხმოვანი მოვლენები</b>"
-
-#~ msgid "<span weight=\"bold\" size=\"x-large\">Testing...</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">შემოწმება...</span>"
-
-#~ msgid "Click OK to finish."
-#~ msgstr "\"დიახ\" ტესტის დასრულებისთვის."
-
-#~ msgid "Devices"
-#~ msgstr "მოწყობილობა"
-
-#~ msgid "E_nable software sound mixing (ESD)"
-#~ msgstr "ხმის პროგრამული მიქშირების _დაშვება (ESD)"
-
-#~ msgid "Flash _entire screen"
-#~ msgstr "_მთელი ეკრანის გაწმენდა"
-
-#~ msgid "Flash _window titlebar"
-#~ msgstr "_ფანჯრის დასახელების გაწმენდა"
-
-#~ msgid ""
-#~ "Select the device and tracks to control with the keyboard. Use the Shift "
-#~ "and Control keys to select multiple tracks if required."
-#~ msgstr ""
-#~ "მოწყობილობების და არხების ამორჩევა კლავიატურის დახმარებით ხდება. "
-#~ "გამოიყენეთ Shift ან Control ღილაკები, ერთი ან მეტი არხის ამოსარჩევად."
-
-#~ msgid "So_und playback:"
-#~ msgstr "ხ_მის დაკვრა:"
-
-#~ msgid "Sou_nd capture:"
-#~ msgstr "ხმის ჩაწე_რა:"
-
-#~ msgid "Sound Preferences"
-#~ msgstr "ხმის პარამეტრები"
-
-#~ msgid "Sounds"
-#~ msgstr "ხმები"
-
-#~ msgid "System Beep"
-#~ msgstr "სისტემური პიპინი"
-
-#~ msgid "Test"
-#~ msgstr "შემოწმება"
-
-#~ msgid "Testing Pipeline"
-#~ msgstr "პარამეტრების შემოწმება"
-
-#~ msgid "_Device:"
-#~ msgstr "_მოწყობილობა:"
-
-#~ msgid "_Enable system beep"
-#~ msgstr "_სისტემური პიპინის დაშვება"
-
-#~ msgid "_Play system sounds"
-#~ msgstr "სისტემური ხმების _დაკვრა"
-
-#~ msgid "_Sound playback:"
-#~ msgstr "ხმი_ს დაკვრა:"
-
-#~ msgid "_Visual system beep"
-#~ msgstr "_ვიზუალური სისტემური შეტყობინება"
-
-#~ msgid "Cannot start the preferences application for your window manager"
-#~ msgstr "შეუძლებელია ფანჯრების მმართველისთვის პარამეტრების გაშვება"
-
-#~ msgid "C_ontrol"
-#~ msgstr "_Ctrl"
-
-#~ msgid "_Alt"
-#~ msgstr "_Alt"
-
-#~ msgid "H_yper"
-#~ msgstr "_ტირე"
-
-#~ msgid "S_uper (or \"Windows logo\")"
-#~ msgstr "_ზედა (ან \"ფანჯრის ლოგო\")"
-
-#~ msgid "_Meta"
-#~ msgstr "_მეტა"
-
-#~ msgid "<b>Movement Key</b>"
-#~ msgstr "<b>მოძრაობის ღილაკი</b>"
-
-#~ msgid "<b>Titlebar Action</b>"
-#~ msgstr "<b>თავსართს მოქმედება</b>"
-
-#~ msgid "<b>Window Selection</b>"
-#~ msgstr "<b>მონიშვნა ფანჯარაში</b>"
-
-#~ msgid "To move a window, press-and-hold this key then grab the window:"
-#~ msgstr ""
-#~ "ფანჯარის გადასაადგილებლად, დააჭირეთ და დაჭერილზე გადაიტანეთ ფანჯარა:"
-
-#~ msgid "Window Preferences"
-#~ msgstr "ფანჯარის პარამეტრები"
-
-#~ msgid "_Double-click titlebar to perform this action:"
-#~ msgstr "ო_რჯერ დააწკაპეთ ფანჯრის თავსართს, რომ შეასრულოთ ეს მოქმედება:"
-
-#~ msgid "_Interval before raising:"
-#~ msgstr "_ინტერვალი ამოწევამდე"
-
-#~ msgid "_Raise selected windows after an interval"
-#~ msgstr "მონიშნული ფანჯრის _ამოტანა ინტერვალის მერე"
-
-#~ msgid "_Select windows when the mouse moves over them"
-#~ msgstr "ფანჯრის მონიშვნა ზედ თაგვის გადატარებისას"
-
-#~ msgid "Set your window properties"
-#~ msgstr "თქვენი ფანჯრის პარამეტრების მითითება"
-
-#~ msgid "Windows"
-#~ msgstr "ფანჯრები"
-
-#~ msgid ""
-#~ "You are using XFree 4.3.0.\n"
-#~ "There are known problems with complex XKB configurations.\n"
-#~ "Try using a simpler configuration or taking a fresher version of XFree "
-#~ "software."
-#~ msgstr ""
-#~ "You are using XFree 4.3.0.\n"
-#~ "There are known problems with complex XKB configurations.\n"
-#~ "Try using a simpler configuration or taking a fresher version of XFree "
-#~ "software."
-
-#~ msgid "Do _not show this warning again"
-#~ msgstr "აღ_არ მაჩვენო მოცემული გაფრთხილების შეტყობინება"
-
-#~ msgid ""
-#~ "<b>The X system keyboard settings differ from your current GNOME keyboard "
-#~ "settings.</b>\n"
-#~ "\n"
-#~ "Expected was %s, but the the following settings were found: %s.\n"
-#~ "\n"
-#~ "Which set would you like to use?"
-#~ msgstr ""
-#~ "<b>X სისტემის კლავიატური განლაგება განსხვავდება თქვენს GNOME კლავიატურის "
-#~ "განლაგებასთან.</b>\n"
-#~ "\n"
-#~ "მოსალოდნელი იყო %s, მაგრამ ნაპოვნია: %s.\n"
-#~ "\n"
-#~ "რომლის გამოყენება გსურთ?"
-
-#~ msgid "Keep GNOME settings"
-#~ msgstr "გნომის პარამეტრების დატოვება"
-
-#~ msgid "Error creating signal pipe."
-#~ msgstr "შეცდომა სიგნალური არხის შექმნისას."
-
-#~ msgid "Type"
-#~ msgstr "ტიპი"
-
-#~ msgid "Preview Width"
-#~ msgstr "ესკიზის სიგანე"
-
-#~ msgid "Preview Height"
-#~ msgstr "ესკიზის სიმაღლე"
-
-#~ msgid "Screen"
-#~ msgstr "ეკრანი"
-
-#~ msgid "<b>Start %s</b>"
-#~ msgstr "<b>გაშვება %s</b>"
-
-#~ msgid "Help"
-#~ msgstr "დახმარება"
-
-#~ msgid "Upgrade"
-#~ msgstr "განახლება"
-
-#~ msgid "Uninstall"
-#~ msgstr "ამოშლა"
-
-#~ msgid "Remove from Favorites"
-#~ msgstr "რჩეულებიდან ამოშლა"
-
-#~ msgid "Add to Favorites"
-#~ msgstr "რჩეულებში დამატება"
-
-#~ msgid "Remove from Startup Programs"
-#~ msgstr "ავტოგაშვებიდან ამოშლა"
-
-#~ msgid "Add to Startup Programs"
-#~ msgstr "<ავტოგაშვებაში დამატება"
-
-#~ msgid ""
-#~ "<span size=\"large\"><b>No matches found.</b> </span><span>\n"
-#~ "\n"
-#~ " Your filter \"<b>%s</b>\" does not match any items.</span>"
-#~ msgstr ""
-#~ "<span size=\"large\"><b>არავითარი ნაპოვნი დამთხვევა.</b> </span><span>\n"
-#~ "\n"
-#~ " არც ერთი ელემენტი არ შეესაბამება თქვენს ფილტრს. \"<b>%s</b>\"</span>"
-
-#~ msgid "Other"
-#~ msgstr "სხვა"
-
-#~ msgid "New Spreadsheet"
-#~ msgstr "ახალი ელცხრილი"
-
-#~ msgid "New Document"
-#~ msgstr "ახალი დოკუმენტი"
-
-#~ msgid "Home"
-#~ msgstr "სახლი"
-
-#~ msgid "File System"
-#~ msgstr "ფაილური სისტემა"
-
-#~ msgid "Network Servers"
-#~ msgstr "ქსელის სერვერები"
-
-#~ msgid "<b>Open</b>"
-#~ msgstr "<b>გახსნა</b>"
-
-#~ msgid "Rename..."
-#~ msgstr "გადარქმევა..."
-
-#~ msgid "Send To..."
-#~ msgstr "გაგზავნა..."
-
-#~ msgid "Move to Trash"
-#~ msgstr "სანაგვე ყუთში გადატანა"
-
-#~ msgid "Delete"
-#~ msgstr "წაშლა"
-
-#~ msgid "Edited %m/%d/%Y"
-#~ msgstr "შეცვლილი %m/%d/%Y"
-
-#~ msgid "<b>Open with \"%s\"</b>"
-#~ msgstr "<b>გახსნა მეშვეობით \"%s\"</b>"
-
-#~ msgid "Open with Default Application"
-#~ msgstr "ნაგულისხმევი პროგრამით გახსნა"
-
-#~ msgid "Open in File Manager"
-#~ msgstr "ფაილთა მმართველში გახსნა"
-
-#~ msgid "Unexpected attribute '%s' for element '%s'"
-#~ msgstr "მოულოდნელი ატრიბუტი '%s' ელემენტ '%s'-თვის"
-
-#~ msgid "Attribute '%s' of element '%s' not found"
-#~ msgstr "ატრიბუტი'%s' ელემენტისთვის '%s' ვერ მოიძებნა"
-
-#~ msgid "Unexpected tag '%s', tag '%s' expected"
-#~ msgstr "უცნობი ჭდე '%s', მოსალოდნელი იყო '%s'"
-
-#~ msgid "Unexpected tag '%s' inside '%s'"
-#~ msgstr "უცნობი ჭდე '%s' - '%s'"
-
-#~ msgid "No valid bookmark file found in data dirs"
-#~ msgstr "მონაცემთა დასტებში მართებული საკვანძო ფაილი ვერ მოიძებნა"
-
-#~ msgid "A bookmark for URI '%s' already exists"
-#~ msgstr "URI '%s' სანიშნე უკვე არსებობს"
-
-#~ msgid "No bookmark found for URI '%s'"
-#~ msgstr "URI '%s' სანიშნე ვერ მოიძებნა"
-
-#~ msgid "No MIME type defined in the bookmark for URI '%s'"
-#~ msgstr "URI '%s' სანიშნეში MIME ტიპი არ მითითებულა"
-
-#~ msgid "No private flag has been defined in bookmark for URI '%s'"
-#~ msgstr "URI '%s' სანიშნეში პირადი ალამი არ მითითებულა"
-
-#~ msgid "No groups set in bookmark for URI '%s'"
-#~ msgstr "URI '%s' სანიშნეში ჯგუფები არ მითითებულა"
-
-#~ msgid "No application with name '%s' registered a bookmark for '%s'"
-#~ msgstr "პროგრამისთვის სახელწოდებით '%s' არ მითითებულა სანიშნე '%s'"
-
-#~ msgid "Find Now"
-#~ msgstr "მყისვე პოვნა"
-
-#~ msgid "<b>Open %s</b>"
-#~ msgstr "<b>გახსნა %s</b>"
-
-#~ msgid "Remove from System Items"
-#~ msgstr "სისტემური ელემენტებიდან ამოღება"
-
-#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
-#~ msgstr ""
-#~ "ფანჯრების მმართველმა \"%s\" არ დაარეგისტრირა კონფიგურირების ხელსაწყო\n"
-
-#~ msgid "Maximize"
-#~ msgstr "გაშლა"
-
-#~ msgid "Minimize"
-#~ msgstr "ჩაკეცვა"
-
-#~ msgid "Roll up"
-#~ msgstr "ზემოთ აკეცვა"
-
-#~ msgid "None"
-#~ msgstr "არა"
-
-#~ msgid "E-mail"
-#~ msgstr "ელფოსტა"
-
-#~ msgid "E-mail's shortcut."
-#~ msgstr "ელფოსტის პროგრამის მალსახმობი."
-
-#~ msgid "Eject's shortcut."
-#~ msgstr "მალსახმობის მოხსნა."
-
-#~ msgid "Home folder's shortcut."
-#~ msgstr "სახლის დასტის მალსახმობი."
-
-#~ msgid "Launch help browser's shortcut."
-#~ msgstr "დახმარების ბროუზერის მალსახმობი."
-
-#~ msgid "Launch web browser's shortcut."
-#~ msgstr "ვებ ბრაუზერის მალსახმობის გაშვება."
-
-#~ msgid "Log out's shortcut."
-#~ msgstr "სეანსის დასრულების მალსახმობი."
-
-#~ msgid "Next track key's shortcut."
-#~ msgstr "შემდგომ აუდიოკვალზე გადასვლის მალსახმობი."
-
-#~ msgid "Pause"
-#~ msgstr "პაუზა"
-
-#~ msgid "Pause key's shortcut."
-#~ msgstr "პაუზის მალსახმობი."
-
-#~ msgid "Play (or play/pause) key's shortcut."
-#~ msgstr "დაკვრა (ან დაკვრა/პაუზა) მალსახმობი."
-
-#~ msgid "Previous track key's shortcut."
-#~ msgstr "წინა აუდიოკვალზე გადასვლის მალსახმობი."
-
-#~ msgid "Search's shortcut."
-#~ msgstr "ძიების მალსახმობი."
-
-#~ msgid "Sleep"
-#~ msgstr "მძინარე რეჟიმი"
-
-#~ msgid "Sleep's shortcut."
-#~ msgstr "მძინარე რეჟიმში გადასვლის მალსახმობი"
-
-#~ msgid "Stop playback key's shortcut."
-#~ msgstr "შეჩერების მალსახმობი."
-
-#~ msgid "Volume down's shortcut."
-#~ msgstr "ხმის ჩაწევის მალმხმობი."
-
-#~ msgid "Volume mute's shortcut."
-#~ msgstr "ხმის გათიშვის მალსახმობი."
-
-#~ msgid "Volume up's shortcut."
-#~ msgstr "ხმის აწევის მალსახმობი."
-
-#~ msgid "key not found [%s]\n"
-#~ msgstr "ვერ მოიძებნა გასაღები [%s]\n"
-
-#~ msgid "Filter"
-#~ msgstr "ფილტრი"
-
-#~ msgid "Groups"
-#~ msgstr "ჯგუფები"
-
-#~ msgid "Common Tasks"
-#~ msgstr "საერთო ამოცანები"
-
-#~ msgid "Control Center"
-#~ msgstr "მართვის ცენტრი"
-
-#~ msgid "Close the control-center when a task is activated"
-#~ msgstr "მართვის ცენტრის დახურვა, ამოცანის აქტივირებისას"
-
-#~ msgid ""
-#~ "[Change Desktop Background;background.desktop,Change Theme;gtk-theme-"
-#~ "selector.desktop,Set Preferred Applications;default-applications.desktop,"
-#~ "Add Printer;gnome-cups-manager.desktop]"
-#~ msgstr ""
-#~ "[მაგიდის ფონის შეცვლა;background.desktop,გაფორმების შეცვლა;gtk-theme-"
-#~ "selector.desktop,სასურველი პროგრამების განსაზღვრა;default-applications."
-#~ "desktop,პრინტერის დამატება;gnome-cups-manager.desktop]"
-
-#~ msgid "The GNOME configuration tool"
-#~ msgstr "გნომის კონფიგურაციის ხელსაწყო"
-
-#~ msgid "_Postpone Break"
-#~ msgstr "/_დასვენების გადადება"
-
-#~ msgid "Take a break!"
-#~ msgstr "ცოტა დაისვენეთ!"
-
-#~ msgid "/_Preferences"
-#~ msgstr "/პარამე_ტრები"
-
-#~ msgid "/_About"
-#~ msgstr "/პროგრამის _შესახებ"
-
-#~ msgid "/_Take a Break"
-#~ msgstr "/და_სვენება"
-
-#~ msgid "%d minute until the next break"
-#~ msgid_plural "%d minutes until the next break"
-#~ msgstr[0] "%d წუთი მომავალ პაუზამდე"
-
-#~ msgid "Less than one minute until the next break"
-#~ msgstr "რჩება წუთზე ნაკლები მომავალ პაუზამდე"
-
-#~ msgid "Written by Richard Hult <richard@imendio.com>"
-#~ msgstr "ავტორი Richard Hult <richard@imendio.com>"
-
-#~ msgid "Eye candy added by Anders Carlsson"
-#~ msgstr "დიზაინი Anders Carlsson"
-
-#~ msgid "A computer break reminder."
-#~ msgstr "დასვენების შეტყობინების პროგრამა"
-
-#~ msgid "translator-credits"
-#~ msgstr "Vladimer Sichinava ვლადიმერ სიჭინავა <vlsichinava@gmail.com>"
-
-#~ msgid "Typing Monitor"
-#~ msgstr "ბეჭდვის მონიტორი"
-
-#~ msgid "Set as Application Font"
-#~ msgstr "დამატებითი შრიფტის სახით მითითება"
-
-#~ msgid "Sets the default application font"
-#~ msgstr "პროგრამების ნაგულისხმევი შრიფტის სახით მითითება"
-
-#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
-#~ msgstr "იყო არაბეთს როსტევან, მეფე ღმრთისაგან სვიან! 0123456789"
-
-#~ msgid "Style:"
-#~ msgstr "სტილი:"
-
-#~ msgid "Type:"
-#~ msgstr "ტიპი:"
-
-#~ msgid "Size:"
-#~ msgstr "ზომა:"
-
-#~ msgid "Version:"
-#~ msgstr "ვერსია:"
-
-#~ msgid "Copyright:"
-#~ msgstr "საავტორო უფლება:"
-
-#~ msgid "Description:"
-#~ msgstr "აღწერა:"
-
-#~ msgid "usage: %s fontfile\n"
-#~ msgstr "გამოყენება: %s _შრიფტის ფაილი\n"
-
-#~ msgid "GNOME Font Viewer"
-#~ msgstr "გნომის შრიფტის მნახველი"
-
-#~ msgid "Text to thumbnail (default: Aa)"
-#~ msgstr "ესკიზის ტექსტი (default: Aa)"
-
-#~ msgid "TEXT"
-#~ msgstr "ტექსტი"
-
-#~ msgid "Font size (default: 64)"
-#~ msgstr "შრიფტის ზომა (ნაგულისხმევი: 64)"
-
-#~ msgid "SIZE"
-#~ msgstr "SIZE"
-
-#~ msgid "FONT-FILE OUTPUT-FILE"
-#~ msgstr "FONT-FILE OUTPUT-FILE"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">გნებავთ ახალი შრიფტის გამოყენება?</"
-#~ "span>"
-
-#~ msgid "Do _not apply font"
-#~ msgstr "შრიფტის უარყოფა"
-
-#~ msgid ""
-#~ "The theme you have selected suggests a new font. A preview of the font is "
-#~ "shown below."
-#~ msgstr ""
-#~ "თქვენს მიერ ამორჩეული გაფორმებას სჭირდება ახალი შრიფტი. შრიფტის ესკიზი "
-#~ "იხილეთ ქვემოთ."
-
-#~ msgid "_Apply font"
-#~ msgstr "შრიფტის _გამოყენება"
-
-#~ msgid "Themes"
-#~ msgstr "გაფორმება"
-
-#~ msgid "Description"
-#~ msgstr "აღწერილობა"
-
-#~ msgid "Control theme"
-#~ msgstr "კონტროლის გაფორმება"
-
-#~ msgid "Window border theme"
-#~ msgstr "ფანჯრის ჩარჩოს გაფორმება"
-
-#~ msgid "Icon theme"
-#~ msgstr "ხატულას გაფორმება"
-
-#~ msgid "Thumbnail command for installed themes"
-#~ msgstr "გაფორმების ესკიზების შემქმნელი პროგრამა დაყენებული გაფორმებისთვის"
-
-#~ msgid "Thumbnail command for themes"
-#~ msgstr "გაფორმების ესკიზების შემქმნელი პროგრამა"
-
-#~ msgid "Whether to thumbnail installed themes"
-#~ msgstr "გაფორმების ესკიზების ჩვენება/არ ჩვენება"
-
-#~ msgid "Whether to thumbnail themes"
-#~ msgstr "გაფორმების ესკიზების შექმნა/არ შექმნა"
-
-#~ msgid "ABCDEFG"
-#~ msgstr "ႠႡႢႣႤႥႦႧႨႩႪ"
-
-#~ msgid "[FILE]"
-#~ msgstr "[FILE]"
-
-#~ msgid "Apply theme"
-#~ msgstr "გაფორმების გამოყენება"
-
-#~ msgid "Sets the default theme"
-#~ msgstr "აყენებს ნაგულისხმევ გაფორმებას"

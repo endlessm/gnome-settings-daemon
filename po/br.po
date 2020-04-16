@@ -1,24 +1,22 @@
-# Breton translation of gnome-control-center.
-# Copyright (C) 2004-2005 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-menu package.
-#
-# Jérémy Ar Floc'h <jeremy.lefloch@gmail.com>, 2006.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-settings-daemon package.
+# 
+# Translators:
+# Jérémy Ar Floc'h <jeremy.lefloch@gmail.com>, 2006
 msgid ""
 msgstr ""
-"Project-Id-Version: Gnome-control-center 2.14\n"
+"Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-16 23:25+0100\n"
-"PO-Revision-Date: 2009-08-01 00:10+0100\n"
-"Last-Translator: Denis\n"
-"Language-Team: GNOME Breton team <jeremy.lefloch@gmail.com>\n"
-"Language: br\n"
+"PO-Revision-Date: 2020-04-16 22:26+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Breton (http://www.transifex.com/endless-os/gnome-settings-daemon/language/br/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2009-07-28 14:40+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"Language: br\n"
+"Plural-Forms: nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);\n"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:12
 msgid "Smartcard removal action"
@@ -26,8 +24,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:13
 msgid ""
-"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will "
-"get performed when the smartcard used for log in is removed."
+"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will"
+" get performed when the smartcard used for log in is removed."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:25
@@ -136,8 +134,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:105
 msgid ""
-"Set this to TRUE if you have problems with accidentally hitting the touchpad "
-"while typing."
+"Set this to TRUE if you have problems with accidentally hitting the touchpad"
+" while typing."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:109
@@ -231,8 +229,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:26
 msgid ""
-"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and "
-"“ccw” for 90 degree counterclockwise."
+"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and"
+" “ccw” for 90 degree counterclockwise."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:30
@@ -483,9 +481,8 @@ msgstr ""
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:11
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:194
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:521
-#, fuzzy
 msgid "Launch settings"
-msgstr "Arventennoù X"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:12
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:195
@@ -1296,7 +1293,8 @@ msgid "Dim the screen after a period of inactivity"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:12
-msgid "If the screen should be dimmed to save power when the computer is idle."
+msgid ""
+"If the screen should be dimmed to save power when the computer is idle."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:16
@@ -1366,8 +1364,8 @@ msgstr ""
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:7
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
-"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
-"and “rgba” for subpixel antialiasing (LCD screens only)."
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing,"
+" and “rgba” for subpixel antialiasing (LCD screens only)."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:11
@@ -1376,13 +1374,13 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:12
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: “none” "
-"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
-"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"The type of hinting to use when rendering fonts. Possible values are: “none”"
+" for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s"
+" ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
 "Ignores native hinting within the font, generates hints algorithmically. "
 "Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
-"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
-"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version"
+" of FreeType. They usually try to fit glyphs to both the X and the Y axis "
 "(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
@@ -1394,9 +1392,9 @@ msgstr "Urzh RGBA"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:17
 msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
-"“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
+"The order of subpixel elements on an LCD screen; only used when antialiasing"
+" is set to “rgba”. Possible values are: “rgb” for red on left (most common),"
+" “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:21
@@ -1415,8 +1413,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:27
 msgid ""
-"A list of strings representing the GTK+ modules that will be loaded, usually "
-"in addition to conditional and forcibly disabled ones."
+"A list of strings representing the GTK+ modules that will be loaded, usually"
+" in addition to conditional and forcibly disabled ones."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:31
@@ -1425,9 +1423,9 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:32
 msgid ""
-"This dictionary maps XSETTINGS names to overrides values. The values must be "
-"either strings, signed int32s or (in the case of colors), 4-tuples of uint16 "
-"(red, green, blue, alpha; 65535 is fully opaque)."
+"This dictionary maps XSETTINGS names to overrides values. The values must be"
+" either strings, signed int32s or (in the case of colors), 4-tuples of "
+"uint16 (red, green, blue, alpha; 65535 is fully opaque)."
 msgstr ""
 
 #: plugins/color/gsd-color-calibrate.c:138
@@ -1484,23 +1482,20 @@ msgid "Time Zone Updated to %s (%s)"
 msgstr ""
 
 #: plugins/datetime/gsd-datetime-manager.c:108
-#, fuzzy
 msgid "Settings"
-msgstr "Arventennoù X"
+msgstr ""
 
 #: plugins/datetime/gsd-datetime-manager.c:118
-#, fuzzy
 msgid "Date & Time Settings"
-msgstr "Ardeiñ an arventennoù X"
+msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:632
 msgid "Disk Space"
 msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:645
-#, fuzzy
 msgid "Examine"
-msgstr "Ensellout..."
+msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:656
 msgid "Empty Trash"
@@ -1587,9 +1582,8 @@ msgid "Unable to capture a screenshot"
 msgstr ""
 
 #: plugins/media-keys/gsd-screenshot-utils.c:125
-#, fuzzy
 msgid "Screenshot taken"
-msgstr "Lenner skramm"
+msgstr ""
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot
@@ -1608,6 +1602,9 @@ msgid "%i minute"
 msgid_plural "%i minutes"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: plugins/power/gpm-common.c:106
 #, c-format
@@ -1615,6 +1612,9 @@ msgid "%i hour"
 msgid_plural "%i hours"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
 #. * Swap order with "%2$s %2$i %1$s %1$i if needed
@@ -1628,12 +1628,18 @@ msgid "hour"
 msgid_plural "hours"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: plugins/power/gpm-common.c:114
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #. TRANSLATORS: this is the sound description
 #: plugins/power/gpm-common.c:424 plugins/power/gsd-power-manager.c:720
@@ -1777,12 +1783,14 @@ msgstr ""
 msgid "Battery is low"
 msgstr ""
 
-#. TRANSLATORS: laptop battery critically low, and only have one kind of battery
+#. TRANSLATORS: laptop battery critically low, and only have one kind of
+#. battery
 #: plugins/power/gsd-power-manager.c:597
 msgid "Battery critically low"
 msgstr ""
 
-#. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
+#. TRANSLATORS: laptop battery critically low, and we have more than one type
+#. of battery
 #. TRANSLATORS: laptop battery is really, really, low
 #: plugins/power/gsd-power-manager.c:600 plugins/power/gsd-power-manager.c:747
 msgid "Laptop battery critically low"
@@ -1834,8 +1842,8 @@ msgstr ""
 #: plugins/power/gsd-power-manager.c:653
 #, c-format
 msgid ""
-"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
-"not charged."
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if"
+" not charged."
 msgstr ""
 
 #. TRANSLATORS: the device is just going to stop working
@@ -1858,8 +1866,8 @@ msgstr ""
 #: plugins/power/gsd-power-manager.c:681
 #, c-format
 msgid ""
-"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
-"if not charged."
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning"
+" if not charged."
 msgstr ""
 
 #. TRANSLATORS: the device is just going to stop working
@@ -1892,7 +1900,8 @@ msgstr ""
 
 #. TRANSLATORS: computer will just shutdown
 #: plugins/power/gsd-power-manager.c:785
-msgid "UPS is below the critical level and this computer is about to shutdown."
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
 msgstr ""
 
 #. TRANSLATORS: this is the sound description
@@ -1988,31 +1997,36 @@ msgstr ""
 msgid "Printer “%s” is low on toner."
 msgstr ""
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:378
 #, c-format
 msgid "Printer “%s” has no toner left."
 msgstr ""
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:382
 #, c-format
 msgid "Printer “%s” may not be connected."
 msgstr ""
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:386
 #, c-format
 msgid "The cover is open on printer “%s”."
 msgstr ""
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:390
 #, c-format
 msgid "There is a missing print filter for printer “%s”."
 msgstr ""
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "The door is open on printer “%s”."
@@ -2030,13 +2044,15 @@ msgstr ""
 msgid "Printer “%s” is out of a marker supply."
 msgstr ""
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:407
 #, c-format
 msgid "Printer “%s” is low on paper."
 msgstr ""
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:411
 #, c-format
 msgid "Printer “%s” is out of paper."
@@ -2048,13 +2064,15 @@ msgstr ""
 msgid "Printer “%s” is currently off-line."
 msgstr ""
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:419
 #, c-format
 msgid "There is a problem on printer “%s”."
 msgstr ""
 
-#. Translators: The printer has a job to print but the printer needs authentication to continue with the print
+#. Translators: The printer has a job to print but the printer needs
+#. authentication to continue with the print
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
@@ -2071,27 +2089,32 @@ msgstr ""
 msgid "Toner low"
 msgstr ""
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:602
 msgid "Toner empty"
 msgstr ""
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:604
 msgid "Not connected?"
 msgstr ""
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:606
 msgid "Cover open"
 msgstr ""
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:608
 msgid "Printer configuration error"
 msgstr ""
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:610
 msgid "Door open"
 msgstr ""
@@ -2106,12 +2129,14 @@ msgstr ""
 msgid "Out of a marker supply"
 msgstr ""
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:616
 msgid "Paper low"
 msgstr ""
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:618
 msgid "Out of paper"
 msgstr ""
@@ -2121,7 +2146,8 @@ msgstr ""
 msgid "Printer off-line"
 msgstr ""
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #. Translators: This is a title of an error notification for a printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:622
 #: plugins/print-notifications/gsd-print-notifications-manager.c:997
@@ -2194,7 +2220,8 @@ msgstr ""
 msgid "Printer warning"
 msgstr ""
 
-#. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
+#. Translators: "Printer 'MyPrinterName': 'Description of the
+#. report/warning/error from a PPD file'."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1004
 #, c-format
 msgid "Printer “%s”: “%s”."
@@ -2306,6 +2333,9 @@ msgid "%2$s You have %1$u try left"
 msgid_plural "%2$s You have %1$u tries left"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: plugins/wwan/gsd-wwan-pinentry.c:127
 #, c-format
@@ -2313,6 +2343,9 @@ msgid "You have %u try left"
 msgid_plural "You have %u tries left"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #. Set up the dialog
 #: plugins/wwan/gsd-wwan-pinentry.c:173 plugins/wwan/gsd-wwan-pinentry.c:175
@@ -2331,177 +2364,3 @@ msgstr ""
 #: plugins/wwan/gsd-wwan-pinentry.c:200
 msgid "Wrong PIN code"
 msgstr ""
-
-#~ msgid "Accessibility"
-#~ msgstr "Haezadusted"
-
-#~ msgid "Allowed keys"
-#~ msgstr "Alc'hwezioù aotret"
-
-#, fuzzy
-#~ msgid "Enable accessibility keyboard plugin"
-#~ msgstr "Gweredekaat enlugellad "
-
-#~ msgid "Enable background plugin"
-#~ msgstr "Gweredekaat enlugellad an drekleur"
-
-#~ msgid "Enable clipboard plugin"
-#~ msgstr "Gweredekaat enlugellad ar golver"
-
-#~ msgid "Enable font plugin"
-#~ msgstr "Gweredekaat enlugellad an nodrezhoù"
-
-#, fuzzy
-#~ msgid "Enable housekeeping plugin"
-#~ msgstr "Gweredekaat enlugellad "
-
-#, fuzzy
-#~ msgid "Enable keybindings plugin"
-#~ msgstr "Gweredekaat enlugellad "
-
-#~ msgid "Enable keyboard plugin"
-#~ msgstr "Gweredekaat enlugellad ar c'hlavier"
-
-#, fuzzy
-#~ msgid "Enable media keys plugin"
-#~ msgstr "Gweredekaat enlugellad "
-
-#~ msgid "Enable mouse plugin"
-#~ msgstr "Gweredekaat enlugellad al logodenn"
-
-#~ msgid "Enable sound plugin"
-#~ msgstr "Gweredekaat enlugellad ar son"
-
-#, fuzzy
-#~ msgid "Enable typing breaks plugin"
-#~ msgstr "Gweredekaat enlugellad "
-
-#~ msgid "Enable xrandr plugin"
-#~ msgstr "Gweredekaat enlugellad xrandr"
-
-#~ msgid "Enable xrdb plugin"
-#~ msgstr "Gweredekaat enlugellad xrdb"
-
-#~ msgid "Enable xsettings plugin"
-#~ msgstr "Gweredekaat enlugellad "
-
-#~ msgid "Mouse keys"
-#~ msgstr "Alc'hwezioù al logodenn"
-
-#~ msgid "Screen magnifier"
-#~ msgstr "Loupenn ar skramm"
-
-#~ msgid "Don't activate"
-#~ msgstr "Na gweredekaat ket "
-
-#~ msgid "Don't deactivate"
-#~ msgstr "Na diweredekaat ket "
-
-#~ msgid "Activate"
-#~ msgstr "Gweredekaat"
-
-#~ msgid "Deactivate"
-#~ msgstr "Diweredekaat"
-
-#~ msgid "Do_n't activate"
-#~ msgstr "Na gweredekaat _ket"
-
-#~ msgid "Do_n't deactivate"
-#~ msgstr "Na diweredekaat _ket "
-
-#~ msgid "_Activate"
-#~ msgstr "Gweredek_aat"
-
-#~ msgid "_Deactivate"
-#~ msgstr "_Diweredekaat"
-
-#~ msgid "Background"
-#~ msgstr "Drekleur"
-
-#~ msgid "Background plugin"
-#~ msgstr "Enlugellad an drekleur"
-
-#~ msgid "Clipboard"
-#~ msgstr "Golver"
-
-#~ msgid "Clipboard plugin"
-#~ msgstr "Enlugellad ar golver"
-
-#, fuzzy
-#~ msgid "Dummy plugin"
-#~ msgstr "Enlugellad"
-
-#~ msgid "Font"
-#~ msgstr "Nodrezh"
-
-#~ msgid "Font plugin"
-#~ msgstr "Enlugellad an nodrezh"
-
-#~ msgid "Emptying the trash"
-#~ msgstr "O goulonderiñ al lastez"
-
-#~ msgid "Preparing to empty trash..."
-#~ msgstr "Prientiñ ar goullonderiñ al lastez..."
-
-#~ msgid "From: "
-#~ msgstr "Adalek :"
-
-#~ msgid "_Empty Trash"
-#~ msgstr "Goullond_eriñ al lastez"
-
-#~ msgid "Keyboard"
-#~ msgstr "Klavier"
-
-#~ msgid "Keyboard plugin"
-#~ msgstr "Enlugellad ar c'hlavier"
-
-#~ msgid "A_vailable files:"
-#~ msgstr "Restroù _hegerz :"
-
-#~ msgid "_Load"
-#~ msgstr "Kargañ"
-
-#~ msgid "_Loaded files:"
-#~ msgstr "Restroù karget :"
-
-#~ msgid "System Sounds"
-#~ msgstr "Reizhiad sonioù"
-
-#~ msgid "GNOME Volume Control"
-#~ msgstr "Reoler an ampled GNOME"
-
-#~ msgid "Media keys"
-#~ msgstr "Alc'hwezioù ar media"
-
-#~ msgid "Media keys plugin"
-#~ msgstr "Enlugellad alc'hwezioù ar media"
-
-#~ msgid "Mouse Preferences"
-#~ msgstr "Gwellvezioù al logodenn"
-
-#~ msgid "Mouse"
-#~ msgstr "Logodenn"
-
-#~ msgid "Mouse plugin"
-#~ msgstr "Enlugellad al logodenn"
-
-#~ msgid "XRandR"
-#~ msgstr "XRandR"
-
-#~ msgid "_Keep This Configuration"
-#~ msgstr "_Mirout ar c'hefluniad-mañ"
-
-#~ msgid "Normal"
-#~ msgstr "Reizh"
-
-#~ msgid "Left"
-#~ msgstr "Kleiz"
-
-#~ msgid "Right"
-#~ msgstr "Dehou"
-
-#~ msgid "_Configure Display Settings ..."
-#~ msgstr "_Kefluniañ arventennoù ar skrammañ..."
-
-#~ msgid "Configure display settings"
-#~ msgstr "Kefluniañ arventennoù ar skrammañ"

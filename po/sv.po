@@ -1,27 +1,26 @@
-# Swedish messages for gnome-settings-daemon
-# Copyright © 1998-2020 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-settings-daemon package.
-#
-# Martin Wahlen <mva@sbbs.se>, 1998, 1999.
-# Christian Rose <menthos@menthos.com>, 2000, 2001, 2002, 2003, 2004, 2005.
-# Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
-# Josef Andersson <josef.andersson@fripost.org>, 2014.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2017, 2018, 2019, 2020.
-#
+# 
+# Translators:
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015-2020
+# Christian Rose <menthos@menthos.com>, 2000-2005
+# Daniel Nylander <po@danielnylander.se>, 2006-2012
+# Josef Andersson <josef.andersson@fripost.org>, 2014
+# Martin Wahlen <mva@sbbs.se>, 1998-1999
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-16 23:25+0100\n"
-"PO-Revision-Date: 2020-01-26 12:57+0100\n"
-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
-"Language: sv\n"
+"PO-Revision-Date: 2020-04-16 22:32+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
+"Language-Team: Swedish (http://www.transifex.com/endless-os/gnome-settings-daemon/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.4\n"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:12
 msgid "Smartcard removal action"
@@ -29,12 +28,9 @@ msgstr "Borttagningsåtgärd för smartkort"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:13
 msgid ""
-"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will "
-"get performed when the smartcard used for log in is removed."
-msgstr ""
-"Ställ in denna till en av ”none”, ”lock-screen” eller ”force-logout”. "
-"Åtgärden kommer att genomföras när det smartkort som används för inloggning "
-"tas bort."
+"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will"
+" get performed when the smartcard used for log in is removed."
+msgstr "Ställ in denna till en av ”none”, ”lock-screen” eller ”force-logout”. Åtgärden kommer att genomföras när det smartkort som används för inloggning tas bort."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:25
 msgid "Possible values are “on”, “off”, and “custom”."
@@ -86,9 +82,7 @@ msgstr "Enkelklick"
 msgid ""
 "Acceleration multiplier for mouse motion. A value of -1 is the system "
 "default."
-msgstr ""
-"Accelerationsmultiplikator för musrörelse. Ett värde på -1 är systemets "
-"standard."
+msgstr "Accelerationsmultiplikator för musrörelse. Ett värde på -1 är systemets standard."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:72
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:139
@@ -100,9 +94,7 @@ msgstr "Tröskelvärde för rörelse"
 msgid ""
 "Distance in pixels the pointer must move before accelerated mouse motion is "
 "activated. A value of -1 is the system default."
-msgstr ""
-"Avstånd i bildpunkter som markören måste röra sig innan accelererad "
-"musrörelse aktiveras. Ett värde på -1 är systemets standard."
+msgstr "Avstånd i bildpunkter som markören måste röra sig innan accelererad musrörelse aktiveras. Ett värde på -1 är systemets standard."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:77
 msgid "Middle button emulation"
@@ -112,9 +104,7 @@ msgstr "Emulering av mittenknapp"
 msgid ""
 "Enables middle mouse button emulation through simultaneous left and right "
 "button click."
-msgstr ""
-"Aktiverar emulering av musens mittenknapp genom samtidigt klick på vänster- "
-"och högerknapp."
+msgstr "Aktiverar emulering av musens mittenknapp genom samtidigt klick på vänster- och högerknapp."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:87
 msgid "Key Repeat Interval"
@@ -140,9 +130,7 @@ msgstr "Kom ihåg NumLock-tillstånd"
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
-msgstr ""
-"När inställd till true (sant) kommer GNOME att komma ihåg tillståndet för "
-"NumLock-lampan mellan sessioner."
+msgstr "När inställd till true (sant) kommer GNOME att komma ihåg tillståndet för NumLock-lampan mellan sessioner."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:104
 msgid "Disable touchpad while typing"
@@ -150,11 +138,9 @@ msgstr "Inaktivera styrplatta under skrivning"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:105
 msgid ""
-"Set this to TRUE if you have problems with accidentally hitting the touchpad "
-"while typing."
-msgstr ""
-"Ställ in denna till TRUE (sant) om du har problem med oavsiktliga tryck på "
-"styrplattan när du skriver."
+"Set this to TRUE if you have problems with accidentally hitting the touchpad"
+" while typing."
+msgstr "Ställ in denna till TRUE (sant) om du har problem med oavsiktliga tryck på styrplattan när du skriver."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:109
 msgid "Enable horizontal scrolling"
@@ -164,9 +150,7 @@ msgstr "Aktivera horisontell rullning"
 msgid ""
 "Set this to TRUE to allow horizontal scrolling by the same method selected "
 "with the scroll_method key."
-msgstr ""
-"Ställ in denna till TRUE (sant) för att tillåta horisontell rullning med "
-"samma metod som valts med nyckeln scroll_method."
+msgstr "Ställ in denna till TRUE (sant) för att tillåta horisontell rullning med samma metod som valts med nyckeln scroll_method."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:114
 msgid "Select the touchpad scroll method"
@@ -176,9 +160,7 @@ msgstr "Välj rullningsmetod för styrplattan"
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
-msgstr ""
-"Välj rullningsmetod för styrplattan. Värden som stöds är: ”disabled”, ”edge-"
-"scrolling”, ”two-finger-scrolling”."
+msgstr "Välj rullningsmetod för styrplattan. Värden som stöds är: ”disabled”, ”edge-scrolling”, ”two-finger-scrolling”."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:119
 msgid "Enable mouse clicks with touchpad"
@@ -187,9 +169,7 @@ msgstr "Aktivera musklick med styrplatta"
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:120
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
-msgstr ""
-"Ställ in denna till TRUE (sant) för att kunna skicka musklick genom att "
-"trycka på styrplattan."
+msgstr "Ställ in denna till TRUE (sant) för att kunna skicka musklick genom att trycka på styrplattan."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:124
 msgid "Enable touchpad"
@@ -203,14 +183,11 @@ msgstr "Ställ in denna till TRUE (sant) för att aktivera alla styrplattor."
 msgid "Touchpad button orientation"
 msgstr "Knapplacering för styrplatta"
 
-# TODO: mouse buttons -> touchpad buttons ?
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:130
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
-msgstr ""
-"Byt plats på vänster och höger musknapp för vänsterhänta möss med ”left”, "
-"”right” för högerhänta, ”mouse” för att följa musinställningen."
+msgstr "Byt plats på vänster och höger musknapp för vänsterhänta möss med ”left”, ”right” för högerhänta, ”mouse” för att följa musinställningen."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:144
 msgid "Natural scrolling"
@@ -218,9 +195,7 @@ msgstr "Naturlig rullning"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:145
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
-msgstr ""
-"Ställ in denna till TRUE (sant) för att aktivera naturlig (omvänd) rullning "
-"för styrplattor."
+msgstr "Ställ in denna till TRUE (sant) för att aktivera naturlig (omvänd) rullning för styrplattor."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:152
 msgid "Mouse wheel emulation button. 0 to disable the feature."
@@ -240,9 +215,7 @@ msgstr "Område för Wacom-platta"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:16
 msgid "Set this to x1, y1 and x2, y2 of the area usable by the tools."
-msgstr ""
-"Ställ in denna till x1, y1 och x2, y2 för området som ska användas av "
-"verktygen."
+msgstr "Ställ in denna till x1, y1 och x2, y2 för området som ska användas av verktygen."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:20
 msgid "Wacom tablet aspect ratio"
@@ -252,9 +225,7 @@ msgstr "Bildförhållande för Wacom-platta"
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
-msgstr ""
-"Aktivera denna för att begränsa Wacom-plattans area till att matcha "
-"utmatningens bildförhållande."
+msgstr "Aktivera denna för att begränsa Wacom-plattans area till att matcha utmatningens bildförhållande."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:25
 msgid "Wacom tablet rotation"
@@ -262,11 +233,9 @@ msgstr "Rotation för Wacom-ritplatta"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:26
 msgid ""
-"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and "
-"“ccw” for 90 degree counterclockwise."
-msgstr ""
-"Ställ in denna till ”none”, ”cw” för 90 grader medsols, ”half” för 180 "
-"grader, samt ”ccw” för 90 grader motsols."
+"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and"
+" “ccw” for 90 degree counterclockwise."
+msgstr "Ställ in denna till ”none”, ”cw” för 90 grader medsols, ”half” för 180 grader, samt ”ccw” för 90 grader motsols."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:30
 msgid "Wacom touch feature"
@@ -283,9 +252,7 @@ msgstr "Tryckkurva för Wacom-penna"
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:38
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
-msgstr ""
-"Ställ in denna till x1, y1 och x2, y2 för tryckkurvan som tillämpas för "
-"pennan."
+msgstr "Ställ in denna till x1, y1 och x2, y2 för tryckkurvan som tillämpas för pennan."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:42
 msgid "Wacom stylus button mapping"
@@ -303,8 +270,7 @@ msgstr "Tryckvärde för Wacom-penna"
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:48
 msgid ""
 "Set this to the pressure value at which a stylus click event is generated."
-msgstr ""
-"Ställ in denna till tryckvärdet vid vilket en pennklickshändelse genereras."
+msgstr "Ställ in denna till tryckvärdet vid vilket en pennklickshändelse genereras."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:54
 msgid "Wacom eraser pressure curve"
@@ -313,9 +279,7 @@ msgstr "Tryckkurva för Wacom-raderare"
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:55
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
-msgstr ""
-"Ställ in denna till x1, y1 och x2, y2 för tryckkurvan som tillämpas för "
-"raderaren."
+msgstr "Ställ in denna till x1, y1 och x2, y2 för tryckkurvan som tillämpas för raderaren."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:59
 msgid "Wacom eraser button mapping"
@@ -328,9 +292,7 @@ msgstr "Tryckvärde för Wacom-raderare"
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:65
 msgid ""
 "Set this to the pressure value at which an eraser click event is generated."
-msgstr ""
-"Ställ in denna till tryckvärdet vid vilket en raderarklickshändelse "
-"genereras."
+msgstr "Ställ in denna till tryckvärdet vid vilket en raderarklickshändelse genereras."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:71
 msgid "Wacom button action type"
@@ -348,22 +310,17 @@ msgstr "Tangentkombination för anpassad åtgärd"
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
-msgstr ""
-"Tangentbordsgenvägen som genereras när knappen trycks ner för anpassade "
-"åtgärder."
+msgstr "Tangentbordsgenvägen som genereras när knappen trycks ner för anpassade åtgärder."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:81
 msgid "Key combinations for a touchring or touchstrip custom action"
-msgstr ""
-"Tangentkombinationer för en anpassad touchring- eller touchstrip-åtgärd"
+msgstr "Tangentkombinationer för en anpassad touchring- eller touchstrip-åtgärd"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:82
 msgid ""
 "The keyboard shortcuts generated when a touchring or touchstrip is used for "
 "custom actions (up followed by down)."
-msgstr ""
-"Tangentbordsgenvägen som genereras när en touchring eller touchstrip används "
-"för anpassade åtgärder (upp följt av ner)."
+msgstr "Tangentbordsgenvägen som genereras när en touchring eller touchstrip används för anpassade åtgärder (upp följt av ner)."
 
 #. Translators: This is the OLED display on an Intuos4 tablet:
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
@@ -383,8 +340,7 @@ msgstr "Tidslängden som en skärmprofil är giltig"
 msgid ""
 "This is the number of days after which the display color profile is "
 "considered invalid."
-msgstr ""
-"Detta är antalet dagar efter vilken skärmens färgprofil anses vara ogiltig."
+msgstr "Detta är antalet dagar efter vilken skärmens färgprofil anses vara ogiltig."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:11
 msgid "The duration a printer profile is valid"
@@ -394,8 +350,7 @@ msgstr "Tidslängden som en skrivarprofil är giltig"
 msgid ""
 "This is the number of days after which the printer color profile is "
 "considered invalid."
-msgstr ""
-"Detta är antalet dagar efter vilken skrivarens färgprofil anses vara ogiltig."
+msgstr "Detta är antalet dagar efter vilken skrivarens färgprofil anses vara ogiltig."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:16
 msgid "If the night light mode is enabled"
@@ -405,9 +360,7 @@ msgstr "Om nattljusläge är aktiverat"
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
-msgstr ""
-"Nattljusläge ändrar färgtemperaturen för din skärm då solen har gått ner "
-"eller vid förinställda tider."
+msgstr "Nattljusläge ändrar färgtemperaturen för din skärm då solen har gått ner eller vid förinställda tider."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
@@ -417,9 +370,7 @@ msgstr "Temperatur för skärmen då aktiverat"
 msgid ""
 "This temperature in Kelvin is used to modify the screen tones when night "
 "light mode is enabled. Higher values are bluer, lower redder."
-msgstr ""
-"Denna temperatur i Kelvin används för att ändra skärmtonerna då nattljusläge "
-"är aktiverat. Högre värden är mer blå, lägre värden mer röda."
+msgstr "Denna temperatur i Kelvin används för att ändra skärmtonerna då nattljusläge är aktiverat. Högre värden är mer blå, lägre värden mer röda."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:26
 msgid "Use the sunrise and sunset"
@@ -429,8 +380,7 @@ msgstr "Använd soluppgång och solnedgång"
 msgid ""
 "Calculate the sunrise and sunset times automatically, from the current "
 "location."
-msgstr ""
-"Beräkna tider för soluppgång och solnedgång automatiskt från aktuell plats."
+msgstr "Beräkna tider för soluppgång och solnedgång automatiskt från aktuell plats."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:31
 msgid "The start time"
@@ -440,9 +390,7 @@ msgstr "Starttiden"
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this start time in "
 "hours from midnight."
-msgstr ""
-"Då ”night-light-schedule-automatic” är inaktiverat, använd denna starttid i "
-"timmar från midnatt."
+msgstr "Då ”night-light-schedule-automatic” är inaktiverat, använd denna starttid i timmar från midnatt."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:36
 msgid "The end time"
@@ -452,9 +400,7 @@ msgstr "Sluttiden"
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this end time in "
 "hours from midnight."
-msgstr ""
-"Då ”night-light-schedule-automatic” är inaktiverat, använd denna sluttid i "
-"timmar från midnatt."
+msgstr "Då ”night-light-schedule-automatic” är inaktiverat, använd denna sluttid i timmar från midnatt."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:41
 msgid "The last detected position"
@@ -465,10 +411,7 @@ msgid ""
 "When location services are available this represents the last detected "
 "location. The default value is an invalid value to ensure it is always "
 "updated at startup."
-msgstr ""
-"Då platstjänster är tillgängliga representerar detta den senaste upptäckta "
-"platsen. Standardvärdet är ett ogiltigt värde för att säkerställa att det "
-"alltid uppdateras vid uppstart."
+msgstr "Då platstjänster är tillgängliga representerar detta den senaste upptäckta platsen. Standardvärdet är ett ogiltigt värde för att säkerställa att det alltid uppdateras vid uppstart."
 
 #: data/org.gnome.settings-daemon.plugins.gschema.xml.in:6
 msgid "List of plugins that are allowed to be loaded"
@@ -478,9 +421,7 @@ msgstr "Lista över tillåtna laddningsbara insticksmoduler"
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: “all”). This is only evaluated on startup."
-msgstr ""
-"En lista av strängar vilka representerar vilka insticksmoduler som tillåts "
-"läsas in (standard: ”all”). Detta utvärderas bara vid uppstart."
+msgstr "En lista av strängar vilka representerar vilka insticksmoduler som tillåts läsas in (standard: ”all”). Detta utvärderas bara vid uppstart."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:6
 msgid "Mount paths to ignore"
@@ -488,9 +429,7 @@ msgstr "Monteringssökvägar att ignorera"
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:7
 msgid "Specify a list of mount paths to ignore when they run low on space."
-msgstr ""
-"Ange en lista över monteringssökvägar att ignorera när de får lågt "
-"diskutrymme."
+msgstr "Ange en lista över monteringssökvägar att ignorera när de får lågt diskutrymme."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:12
 msgid "Free percentage notify threshold"
@@ -500,10 +439,7 @@ msgstr "Tröskelvärde för avisering om ledigt utrymme (procent)"
 msgid ""
 "Percentage free space threshold for initial warning of low disk space. If "
 "the percentage free space drops below this, a warning will be shown."
-msgstr ""
-"Tröskelvärde för ledigt utrymme (procent) för initial varning om lågt "
-"diskutrymme. Om procentandelen ledigt utrymme sjunker under detta värde så "
-"kommer en varning att visas."
+msgstr "Tröskelvärde för ledigt utrymme (procent) för initial varning om lågt diskutrymme. Om procentandelen ledigt utrymme sjunker under detta värde så kommer en varning att visas."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:18
 msgid "Subsequent free space percentage notify threshold"
@@ -513,9 +449,7 @@ msgstr "Tröskelvärde för efterföljande varning om lågt diskutrymme (procent
 msgid ""
 "Specify the percentage that the free disk space should reduce by before "
 "issuing a subsequent warning."
-msgstr ""
-"Ange procentandelen som det lediga diskutrymme ska minskas med innan en "
-"efterföljande varning ska visas."
+msgstr "Ange procentandelen som det lediga diskutrymme ska minskas med innan en efterföljande varning ska visas."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:23
 msgid "Free space notify threshold"
@@ -525,9 +459,7 @@ msgstr "Tröskelvärde för avisering om ledigt utrymme"
 msgid ""
 "Specify an amount in GB. If the amount of free space is more than this, no "
 "warning will be shown."
-msgstr ""
-"Ange en mängd i GB. Om mängden ledigt utrymme är mer än detta så kommer "
-"ingen varning att visas."
+msgstr "Ange en mängd i GB. Om mängden ledigt utrymme är mer än detta så kommer ingen varning att visas."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:28
 msgid "Minimum notify period for repeated warnings"
@@ -537,9 +469,7 @@ msgstr "Minsta aviseringsperioden för upprepade varningar"
 msgid ""
 "Specify a time in minutes. Subsequent warnings for a volume will not appear "
 "more often than this period."
-msgstr ""
-"Ange en tid i minuter. Efterföljande varningar för en volym kommer inte att "
-"visas oftare än denna tidsperiod."
+msgstr "Ange en tid i minuter. Efterföljande varningar för en volym kommer inte att visas oftare än denna tidsperiod."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:6
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:189
@@ -918,7 +848,6 @@ msgstr "Anpassade tangentbindningar"
 msgid "List of custom keybindings"
 msgstr "Lista över anpassade tangentbindningar"
 
-# Utan 'event'-ljud för ändringen
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:282
 msgid "Size of volume step"
 msgstr "Storlek på volymsteg"
@@ -927,7 +856,6 @@ msgstr "Storlek på volymsteg"
 msgid "Size of the volume step for each volume change"
 msgstr "Storleken på volymsteget för varje volymändring"
 
-# Utan 'event'-ljud för ändringen
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:289
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:600
 msgid "Quiet volume down"
@@ -946,7 +874,6 @@ msgstr "Tyst tystning/aktivering av volym"
 msgid "Binding to mute/unmute the volume without emitting a sound effect."
 msgstr "Bindning för att tysta/aktivera ljudet utan att utstöta en ljudeffekt."
 
-# Utan 'event'-ljud för ändringen
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:299
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:610
 msgid "Quiet volume up"
@@ -956,7 +883,6 @@ msgstr "Tyst volymhöjning"
 msgid "Binding to raise the volume without emitting a sound effect."
 msgstr "Bindning för att höja volymen utan att utstöta en ljudeffekt."
 
-# 1/3 av vanlig sänkning
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:306
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:617
 msgid "Precise volume down"
@@ -1136,7 +1062,6 @@ msgstr "Visa batteristatus"
 msgid "Binding to show current battery status."
 msgstr "Bindning för att visa aktuell batteristatus."
 
-# rfkill(1) - tool for enabling and disabling wireless devices
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:498
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:735
 msgid "RF kill"
@@ -1189,8 +1114,7 @@ msgstr "Statisk bindning för att göra paus i uppspelningen."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:557
 msgid "Static binding to start playback (or toggle play/pause)."
-msgstr ""
-"Statisk bindning för att starta uppspelningen (eller växla spela/pausa)."
+msgstr "Statisk bindning för att starta uppspelningen (eller växla spela/pausa)."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:562
 msgid "Static binding to skip to previous track."
@@ -1267,14 +1191,11 @@ msgstr "Statisk bindning för att hoppa framåt i aktuellt spår."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:666
 msgid "Static binding to toggle repeat mode in media player."
-msgstr ""
-"Statisk bindning för att växla upprepningsläge för uppspelning i "
-"mediaspelare."
+msgstr "Statisk bindning för att växla upprepningsläge för uppspelning i mediaspelare."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:671
 msgid "Static binding to toggle random playback mode in media player."
-msgstr ""
-"Statisk bindning för att växla slumpmässigt uppspelningsläge i mediaspelare."
+msgstr "Statisk bindning för att växla slumpmässigt uppspelningsläge i mediaspelare."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:677
 msgid "Static binding to toggle automatic screen orientation."
@@ -1336,9 +1257,7 @@ msgstr "Maximal längd på skärminspelningar"
 msgid ""
 "The maximum length of single screen cast recordings in seconds or 0 for "
 "unlimited"
-msgstr ""
-"Den maximala längden för enskilda skärminspelningar i sekunder eller 0 för "
-"obegränsad"
+msgstr "Den maximala längden för enskilda skärminspelningar i sekunder eller 0 för obegränsad"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:754
 msgid "Name"
@@ -1371,16 +1290,15 @@ msgstr "Skärmens ljusstyrka vid overksamhet"
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:7
 msgid ""
 "This is the laptop panel screen brightness used when the session is idle."
-msgstr ""
-"Detta är den skärmljusstyrka som används för bärbar dator när sessionen är "
-"overksam."
+msgstr "Detta är den skärmljusstyrka som används för bärbar dator när sessionen är overksam."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:11
 msgid "Dim the screen after a period of inactivity"
 msgstr "Dämpa skärmen efter en period av inaktivitet"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:12
-msgid "If the screen should be dimmed to save power when the computer is idle."
+msgid ""
+"If the screen should be dimmed to save power when the computer is idle."
 msgstr "Om skärmen ska dämpas när datorn är overksam för att spara ström."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:16
@@ -1391,16 +1309,12 @@ msgstr "Tidsgräns innan vila för dator på nätspänning"
 msgid ""
 "The amount of time in seconds the computer on AC power needs to be inactive "
 "before it goes to sleep. A value of 0 means never."
-msgstr ""
-"Tiden i sekunder som datorn behöver vara inaktiv vid anslutning till "
-"nätspänning innan den vilar. Värdet 0 betyder aldrig."
+msgstr "Tiden i sekunder som datorn behöver vara inaktiv vid anslutning till nätspänning innan den vilar. Värdet 0 betyder aldrig."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:21
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:31
 msgid "Whether to hibernate, suspend or do nothing when inactive"
-msgstr ""
-"Huruvida datorn ska gå i viloläge, gå i vänteläge eller inte göra någonting "
-"vid inaktivitet"
+msgstr "Huruvida datorn ska gå i viloläge, gå i vänteläge eller inte göra någonting vid inaktivitet"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:22
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:32
@@ -1416,9 +1330,7 @@ msgstr "Tidsgräns innan vila för dator på batteri"
 msgid ""
 "The amount of time in seconds the computer on battery power needs to be "
 "inactive before it goes to sleep. A value of 0 means never."
-msgstr ""
-"Tiden i sekunder som datorn behöver vara inaktiv vid batteridrift innan den "
-"vilar. Värdet 0 betyder aldrig."
+msgstr "Tiden i sekunder som datorn behöver vara inaktiv vid batteridrift innan den vilar. Värdet 0 betyder aldrig."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:36
 msgid "Enable the ALS sensor"
@@ -1437,10 +1349,7 @@ msgid ""
 "The action to take when the system power button is pressed. This action is "
 "hard-coded (and the setting ignored) on virtual machines (power off) and "
 "tablets (suspend)."
-msgstr ""
-"Åtgärden som ska tas när systemets strömknapp trycks ned. Denna åtgärd är "
-"hårdkodad (och inställningen ignoreras) på virtuella maskiner (avstängning) "
-"och plattor (vänteläge)."
+msgstr "Åtgärden som ska tas när systemets strömknapp trycks ned. Denna åtgärd är hårdkodad (och inställningen ignoreras) på virtuella maskiner (avstängning) och plattor (vänteläge)."
 
 #: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:6
 msgid "On which connections the service is enabled"
@@ -1450,9 +1359,7 @@ msgstr "På vilka anslutningar tjänsten är aktiverad"
 msgid ""
 "The list of NetworkManager connections (each one represented with its UUID) "
 "on which this service is enabled and started."
-msgstr ""
-"Listan över NetworkManager-anslutningar (var och en representerad med dess "
-"UUID) på vilka denna tjänst är aktiverad och startad."
+msgstr "Listan över NetworkManager-anslutningar (var och en representerad med dess UUID) på vilka denna tjänst är aktiverad och startad."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:6
 msgid "Antialiasing"
@@ -1461,12 +1368,9 @@ msgstr "Kantutjämning"
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:7
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
-"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
-"and “rgba” for subpixel antialiasing (LCD screens only)."
-msgstr ""
-"Typen av kantutjämning att använda när typsnitt ritas ut. Möjliga värden är: "
-"”none” för ingen kantutjämning, ”grayscale” för standardkantutjämning med "
-"gråskala samt ”rgba” för underbildpunktsutjämning (endast LCD-skärmar)."
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing,"
+" and “rgba” for subpixel antialiasing (LCD screens only)."
+msgstr "Typen av kantutjämning att använda när typsnitt ritas ut. Möjliga värden är: ”none” för ingen kantutjämning, ”grayscale” för standardkantutjämning med gråskala samt ”rgba” för underbildpunktsutjämning (endast LCD-skärmar)."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:11
 msgid "Hinting"
@@ -1474,27 +1378,17 @@ msgstr "Hintning"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:12
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: “none” "
-"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
-"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"The type of hinting to use when rendering fonts. Possible values are: “none”"
+" for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s"
+" ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
 "Ignores native hinting within the font, generates hints algorithmically. "
 "Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
-"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
-"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version"
+" of FreeType. They usually try to fit glyphs to both the X and the Y axis "
 "(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
-msgstr ""
-"Typen av hintning att använda då typsnitt renderas. Möjliga värden är: "
-"”none” för ingen hintning och ”slight” för att anpassa endast till Y-axeln "
-"som Microsofts ClearType, DirectWrite och Adobes proprietära renderingsmotor "
-"för typsnitt. Ignorerar inbyggd hintning i typsnittet, genererar hintning "
-"enligt en algoritm. Används i Ubuntu som standard. Rekommenderas. Betydelsen "
-"av ”medium” och ”full” beror på typsnittsformatet (.ttf, .otf, .pfa/.pfb) "
-"och den installerade versionen av FreeType. De försöker vanligen anpassa "
-"glyfer till både X- och Y-axeln (förutom för .otf: endast Y). Detta kan leda "
-"till förvrängning och/eller inkonsekvent rendering beroende på kvaliteten på "
-"typsnittet, typsnittsformatet och tillståndet för FreeTypes typsnittsmotorer."
+msgstr "Typen av hintning att använda då typsnitt renderas. Möjliga värden är: ”none” för ingen hintning och ”slight” för att anpassa endast till Y-axeln som Microsofts ClearType, DirectWrite och Adobes proprietära renderingsmotor för typsnitt. Ignorerar inbyggd hintning i typsnittet, genererar hintning enligt en algoritm. Används i Ubuntu som standard. Rekommenderas. Betydelsen av ”medium” och ”full” beror på typsnittsformatet (.ttf, .otf, .pfa/.pfb) och den installerade versionen av FreeType. De försöker vanligen anpassa glyfer till både X- och Y-axeln (förutom för .otf: endast Y). Detta kan leda till förvrängning och/eller inkonsekvent rendering beroende på kvaliteten på typsnittet, typsnittsformatet och tillståndet för FreeTypes typsnittsmotorer."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:16
 msgid "RGBA order"
@@ -1502,14 +1396,10 @@ msgstr "RGBA-ordning"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:17
 msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
-"“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
-msgstr ""
-"Ordningen för underbildpunktselementen på en LCD-skärm; används endast när "
-"kantutjämning är inställd till ”rgba”. Möjliga värden är: ”rgb” - röd till "
-"vänster (vanligast), ”bgr” - blå till vänster. ”vrgb” - röd överst. ”vbgr” - "
-"röd nederst."
+"The order of subpixel elements on an LCD screen; only used when antialiasing"
+" is set to “rgba”. Possible values are: “rgb” for red on left (most common),"
+" “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
+msgstr "Ordningen för underbildpunktselementen på en LCD-skärm; används endast när kantutjämning är inställd till ”rgba”. Möjliga värden är: ”rgb” - röd till vänster (vanligast), ”bgr” - blå till vänster. ”vrgb” - röd överst. ”vbgr” - röd nederst."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:21
 msgid "List of explicitly disabled GTK+ modules"
@@ -1519,9 +1409,7 @@ msgstr "Lista över uttryckligen inaktiverade GTK+-moduler"
 msgid ""
 "A list of strings representing the GTK+ modules that will not be loaded, "
 "even if enabled by default in their configuration."
-msgstr ""
-"En lista över strängar som representerar GTK+-moduler som inte ska läsas in, "
-"även om aktiverade som standard i deras konfiguration."
+msgstr "En lista över strängar som representerar GTK+-moduler som inte ska läsas in, även om aktiverade som standard i deras konfiguration."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:26
 msgid "List of explicitly enabled GTK+ modules"
@@ -1529,11 +1417,9 @@ msgstr "Lista över uttryckligen aktiverade GTK+-moduler"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:27
 msgid ""
-"A list of strings representing the GTK+ modules that will be loaded, usually "
-"in addition to conditional and forcibly disabled ones."
-msgstr ""
-"En lista över strängar som representerar GTK+-moduler som kommer att läsas "
-"in, oftast i tillägg till villkor och de som tvingats som inaktiverade."
+"A list of strings representing the GTK+ modules that will be loaded, usually"
+" in addition to conditional and forcibly disabled ones."
+msgstr "En lista över strängar som representerar GTK+-moduler som kommer att läsas in, oftast i tillägg till villkor och de som tvingats som inaktiverade."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:31
 msgid "A dictionary of XSETTINGS to override"
@@ -1541,13 +1427,10 @@ msgstr "En ordbok över XSETTINGS att åsidosätta"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:32
 msgid ""
-"This dictionary maps XSETTINGS names to overrides values. The values must be "
-"either strings, signed int32s or (in the case of colors), 4-tuples of uint16 "
-"(red, green, blue, alpha; 65535 is fully opaque)."
-msgstr ""
-"Denna ordbok mappar XSETTINGS-namn till åsidosättningsvärden. Värdena måste "
-"vara antingen strängar, int32 med tecken eller (i fall med färger), 4-tupler "
-"av uint16 (röd, grön, blå, alfa; 65535 är helt ogenomskinlig)."
+"This dictionary maps XSETTINGS names to overrides values. The values must be"
+" either strings, signed int32s or (in the case of colors), 4-tuples of "
+"uint16 (red, green, blue, alpha; 65535 is fully opaque)."
+msgstr "Denna ordbok mappar XSETTINGS-namn till åsidosättningsvärden. Värdena måste vara antingen strängar, int32 med tecken eller (i fall med färger), 4-tupler av uint16 (röd, grön, blå, alfa; 65535 är helt ogenomskinlig)."
 
 #: plugins/color/gsd-color-calibrate.c:138
 msgid "Color"
@@ -1632,18 +1515,14 @@ msgid "Low Disk Space"
 msgstr "Lågt diskutrymme"
 
 #: plugins/housekeeping/gsd-disk-space.c:700
-#, fuzzy
 msgid ""
 "Your computer is out of space.  You may free up some space by emptying the "
 "trash."
 msgstr ""
-"Denna dator har endast %s diskutrymme ledigt. Du kan frigöra utrymme genom "
-"att tömma papperskorgen."
 
 #: plugins/housekeeping/gsd-disk-space.c:702
-#, fuzzy
 msgid "Your computer is out of space."
-msgstr "Skrivaren ”%s” har slut på papper."
+msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:727
 #, c-format
@@ -1655,9 +1534,7 @@ msgstr "Lågt diskutrymme på ”%s”"
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
-"Volymen ”%s” har endast %s diskutrymme ledigt. Du kan frigöra utrymme genom "
-"att tömma papperskorgen."
+msgstr "Volymen ”%s” har endast %s diskutrymme ledigt. Du kan frigöra utrymme genom att tömma papperskorgen."
 
 #: plugins/housekeeping/gsd-disk-space.c:733
 #, c-format
@@ -1669,9 +1546,7 @@ msgstr "Volymen ”%s” har endast %s diskutrymme kvar."
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
-msgstr ""
-"Denna dator har endast %s diskutrymme ledigt. Du kan frigöra utrymme genom "
-"att tömma papperskorgen."
+msgstr "Denna dator har endast %s diskutrymme ledigt. Du kan frigöra utrymme genom att tömma papperskorgen."
 
 #: plugins/housekeeping/gsd-disk-space.c:743
 #, c-format
@@ -1809,8 +1684,7 @@ msgstr "Avbrottsfri kraftförsörjning (UPS) är låg"
 #: plugins/power/gsd-power-manager.c:494
 #, c-format
 msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
-msgstr ""
-"Ungefär %s av återstående avbrottsfri kraftförsörjning (UPS)-kraft (%.0f%%)"
+msgstr "Ungefär %s av återstående avbrottsfri kraftförsörjning (UPS)-kraft (%.0f%%)"
 
 #. TRANSLATORS: mouse is getting a little low
 #. TRANSLATORS: the mouse battery is very low
@@ -1901,12 +1775,14 @@ msgstr "Ansluten dator har låg batterispänning (%.0f%%)"
 msgid "Battery is low"
 msgstr "Batterikapaciteten är låg"
 
-#. TRANSLATORS: laptop battery critically low, and only have one kind of battery
+#. TRANSLATORS: laptop battery critically low, and only have one kind of
+#. battery
 #: plugins/power/gsd-power-manager.c:597
 msgid "Battery critically low"
 msgstr "Batterispänningen är kritiskt lågt"
 
-#. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
+#. TRANSLATORS: laptop battery critically low, and we have more than one type
+#. of battery
 #. TRANSLATORS: laptop battery is really, really, low
 #: plugins/power/gsd-power-manager.c:600 plugins/power/gsd-power-manager.c:747
 msgid "Laptop battery critically low"
@@ -1916,17 +1792,13 @@ msgstr "Batterispänning i bärbar dator är kritiskt låg"
 #: plugins/power/gsd-power-manager.c:609
 #, c-format
 msgid "Computer will hibernate very soon unless it is plugged in."
-msgstr ""
-"Datorn kommer mycket snart att försättas i viloläge om den inte ansluts till "
-"extern ström."
+msgstr "Datorn kommer mycket snart att försättas i viloläge om den inte ansluts till extern ström."
 
 #. TRANSLATORS: give the user a ultimatum
 #: plugins/power/gsd-power-manager.c:613
 #, c-format
 msgid "Computer will shutdown very soon unless it is plugged in."
-msgstr ""
-"Datorn kommer mycket snart att stängas av om den inte ansluts till extern "
-"ström."
+msgstr "Datorn kommer mycket snart att stängas av om den inte ansluts till extern ström."
 
 #. TRANSLATORS: the UPS is very low
 #. TRANSLATORS: UPS is really, really, low
@@ -1940,9 +1812,7 @@ msgstr "Avbrottsfri kraftförsörjning (UPS) är kritiskt låg"
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
 "computer to avoid losing data."
-msgstr ""
-"Ungefär %s av återstående avbrottsfri kraftförsörjning (UPS)-kraft (%.0f%%). "
-"Anslut din dator till en strömkälla för att undvika att förlora data."
+msgstr "Ungefär %s av återstående avbrottsfri kraftförsörjning (UPS)-kraft (%.0f%%). Anslut din dator till en strömkälla för att undvika att förlora data."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:636
@@ -1950,9 +1820,7 @@ msgstr ""
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Trådlösa musens kraft är mycket låg (%.0f%%). Enheten kommer inom kort att "
-"sluta fungera om den inte laddas upp."
+msgstr "Trådlösa musens kraft är mycket låg (%.0f%%). Enheten kommer inom kort att sluta fungera om den inte laddas upp."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:644
@@ -1960,19 +1828,15 @@ msgstr ""
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Trådlösa tangentbordets kraft är mycket låg (%.0f%%). Enheten kommer inom "
-"kort att sluta fungera om den inte laddas upp."
+msgstr "Trådlösa tangentbordets kraft är mycket låg (%.0f%%). Enheten kommer inom kort att sluta fungera om den inte laddas upp."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:653
 #, c-format
 msgid ""
-"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
-"not charged."
-msgstr ""
-"Handdatorns kraft är mycket låg (%.0f%%). Enheten kommer inom kort att sluta "
-"fungera om den inte laddas upp."
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if"
+" not charged."
+msgstr "Handdatorns kraft är mycket låg (%.0f%%). Enheten kommer inom kort att sluta fungera om den inte laddas upp."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:663
@@ -1980,9 +1844,7 @@ msgstr ""
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Mobiltelefonens kraft är mycket låg (%.0f%%). Enheten kommer inom kort att "
-"sluta fungera om den inte laddas upp."
+msgstr "Mobiltelefonens kraft är mycket låg (%.0f%%). Enheten kommer inom kort att sluta fungera om den inte laddas upp."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:672
@@ -1990,19 +1852,15 @@ msgstr ""
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Mediaspelarens kraft är mycket låg (%.0f%%). Enheten kommer inom kort att "
-"sluta fungera om den inte laddas upp."
+msgstr "Mediaspelarens kraft är mycket låg (%.0f%%). Enheten kommer inom kort att sluta fungera om den inte laddas upp."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:681
 #, c-format
 msgid ""
-"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
-"if not charged."
-msgstr ""
-"Pekdatorns kraft är mycket låg (%.0f%%). Enheten kommer inom kort att sluta "
-"fungera om den inte laddas upp."
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning"
+" if not charged."
+msgstr "Pekdatorns kraft är mycket låg (%.0f%%). Enheten kommer inom kort att sluta fungera om den inte laddas upp."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:690
@@ -2010,42 +1868,33 @@ msgstr ""
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
 "shutdown if not charged."
-msgstr ""
-"Ansluten datorns kraft är mycket låg (%.0f%%). Enheten kommer inom kort att "
-"stängas av om den inte laddas upp."
+msgstr "Ansluten datorns kraft är mycket låg (%.0f%%). Enheten kommer inom kort att stängas av om den inte laddas upp."
 
 #. TRANSLATORS: computer will hibernate
 #: plugins/power/gsd-power-manager.c:755
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
-msgstr ""
-"Batteriet är under den kritiska nivån och den här datorn kommer att "
-"försättas i viloläge."
+msgstr "Batteriet är under den kritiska nivån och den här datorn kommer att försättas i viloläge."
 
 #. TRANSLATORS: computer will just shutdown
 #: plugins/power/gsd-power-manager.c:760
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "shutdown."
-msgstr ""
-"Batteriet är under den kritiska nivån och den här datorn kommer att stängas "
-"av."
+msgstr "Batteriet är under den kritiska nivån och den här datorn kommer att stängas av."
 
 #. TRANSLATORS: computer will hibernate
 #: plugins/power/gsd-power-manager.c:780
 msgid ""
 "UPS is below the critical level and this computer is about to hibernate."
-msgstr ""
-"Avbrottsfri kraftförsörjning (UPS) är under den kritiska nivån och den här "
-"datorn kommer att försättas i viloläge."
+msgstr "Avbrottsfri kraftförsörjning (UPS) är under den kritiska nivån och den här datorn kommer att försättas i viloläge."
 
 #. TRANSLATORS: computer will just shutdown
 #: plugins/power/gsd-power-manager.c:785
-msgid "UPS is below the critical level and this computer is about to shutdown."
-msgstr ""
-"Avbrottsfri kraftförsörjning (UPS) är under den kritiska nivån och den här "
-"datorn kommer inom kort att stängas av."
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
+msgstr "Avbrottsfri kraftförsörjning (UPS) är under den kritiska nivån och den här datorn kommer inom kort att stängas av."
 
 #. TRANSLATORS: this is the sound description
 #: plugins/power/gsd-power-manager.c:1266
@@ -2140,31 +1989,36 @@ msgstr "Skrivare"
 msgid "Printer “%s” is low on toner."
 msgstr "Skrivaren ”%s” har nästan slut på toner."
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:378
 #, c-format
 msgid "Printer “%s” has no toner left."
 msgstr "Skrivaren ”%s” har slut på toner."
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:382
 #, c-format
 msgid "Printer “%s” may not be connected."
 msgstr "Skrivaren ”%s” kanske inte är ansluten."
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:386
 #, c-format
 msgid "The cover is open on printer “%s”."
 msgstr "Luckan är öppnad på skrivaren ”%s”."
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:390
 #, c-format
 msgid "There is a missing print filter for printer “%s”."
 msgstr "Det saknas ett utskriftsfilter för skrivaren ”%s”."
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "The door is open on printer “%s”."
@@ -2182,13 +2036,15 @@ msgstr "Skrivaren ”%s” har nästan slut på en färg."
 msgid "Printer “%s” is out of a marker supply."
 msgstr "Skrivaren ”%s” har slut på en färg."
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:407
 #, c-format
 msgid "Printer “%s” is low on paper."
 msgstr "Skrivaren ”%s” har nästan slut på papper."
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:411
 #, c-format
 msgid "Printer “%s” is out of paper."
@@ -2200,13 +2056,15 @@ msgstr "Skrivaren ”%s” har slut på papper."
 msgid "Printer “%s” is currently off-line."
 msgstr "Skrivaren ”%s” är för närvarande frånkopplad."
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:419
 #, c-format
 msgid "There is a problem on printer “%s”."
 msgstr "Det har uppstått ett problem på skrivaren ”%s”."
 
-#. Translators: The printer has a job to print but the printer needs authentication to continue with the print
+#. Translators: The printer has a job to print but the printer needs
+#. authentication to continue with the print
 #: plugins/print-notifications/gsd-print-notifications-manager.c:531
 #, c-format
 msgid "%s Requires Authentication"
@@ -2223,27 +2081,32 @@ msgstr "Autentiseringsuppgifter krävs för att skriva ut"
 msgid "Toner low"
 msgstr "Nästan slut på toner"
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:602
 msgid "Toner empty"
 msgstr "Tonerkassetten är tom"
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:604
 msgid "Not connected?"
 msgstr "Inte ansluten?"
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:606
 msgid "Cover open"
 msgstr "Luckan är öppen"
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:608
 msgid "Printer configuration error"
 msgstr "Fel i skrivarkonfiguration"
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:610
 msgid "Door open"
 msgstr "Dörren är öppen"
@@ -2258,12 +2121,14 @@ msgstr "Nästan slut på en färg"
 msgid "Out of a marker supply"
 msgstr "Slut på en färg"
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:616
 msgid "Paper low"
 msgstr "Nästan slut på papper"
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:618
 msgid "Out of paper"
 msgstr "Slut på papper"
@@ -2273,7 +2138,8 @@ msgstr "Slut på papper"
 msgid "Printer off-line"
 msgstr "Skrivaren är frånkopplad"
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #. Translators: This is a title of an error notification for a printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:622
 #: plugins/print-notifications/gsd-print-notifications-manager.c:997
@@ -2346,7 +2212,8 @@ msgstr "Skrivarrapport"
 msgid "Printer warning"
 msgstr "Skrivarvarning"
 
-#. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
+#. Translators: "Printer 'MyPrinterName': 'Description of the
+#. report/warning/error from a PPD file'."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1004
 #, c-format
 msgid "Printer “%s”: “%s”."
@@ -2368,9 +2235,7 @@ msgstr "Ny USB-enhet"
 msgid ""
 "New device has been detected while the session was not locked. If you did "
 "not plug anything, check your system for any suspicious device."
-msgstr ""
-"En ny enhet upptäcktes medan sessionen inte var låst. Undersök ditt system "
-"efter misstänkta enheter om du inte pluggade in något."
+msgstr "En ny enhet upptäcktes medan sessionen inte var låst. Undersök ditt system efter misstänkta enheter om du inte pluggade in något."
 
 #: plugins/usb-protection/gsd-usb-protection-manager.c:593
 msgid "New keyboard detected"
@@ -2380,10 +2245,7 @@ msgstr "Nytt tangentbord upptäcktes"
 msgid ""
 "Either your keyboard has been reconnected or a new one has been plugged in. "
 "If you did not do it, check your system for any suspicious device."
-msgstr ""
-"Antingen har ditt tangentbord anslutits på nytt, eller så har ett nytt "
-"pluggats in. Undersök ditt system efter misstänkta enheter om det inte var "
-"du som gjorde det."
+msgstr "Antingen har ditt tangentbord anslutits på nytt, eller så har ett nytt pluggats in. Undersök ditt system efter misstänkta enheter om det inte var du som gjorde det."
 
 #: plugins/usb-protection/gsd-usb-protection-manager.c:600
 msgid "Reconnect USB device"
@@ -2393,9 +2255,7 @@ msgstr "Anslut USB-enhet igen"
 msgid ""
 "New device has been detected while you were away. Please disconnect and "
 "reconnect the device to start using it."
-msgstr ""
-"En ny enhet har upptäckts medan du var borta. Koppla från och anslut enheten "
-"igen för att börja använda den."
+msgstr "En ny enhet har upptäckts medan du var borta. Koppla från och anslut enheten igen för att börja använda den."
 
 #: plugins/usb-protection/gsd-usb-protection-manager.c:607
 #: plugins/usb-protection/gsd-usb-protection-manager.c:631
@@ -2406,16 +2266,13 @@ msgstr "USB-enhet blockerad"
 msgid ""
 "New device has been detected while you were away. It has been blocked "
 "because the USB protection is active."
-msgstr ""
-"En ny enhet har upptäckts medan du var borta. Den har blockerats eftersom "
-"USB-skyddet är aktivt."
+msgstr "En ny enhet har upptäckts medan du var borta. Den har blockerats eftersom USB-skyddet är aktivt."
 
 #: plugins/usb-protection/gsd-usb-protection-manager.c:632
 msgid ""
 "The new inserted device has been blocked because the USB protection is "
 "active."
-msgstr ""
-"Den nyligen inmatade enheten har blockerats eftersom USB-skyddet är aktivt."
+msgstr "Den nyligen inmatade enheten har blockerats eftersom USB-skyddet är aktivt."
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
@@ -2493,526 +2350,3 @@ msgstr "För många felaktiga PIN-koder."
 #: plugins/wwan/gsd-wwan-pinentry.c:200
 msgid "Wrong PIN code"
 msgstr "Felaktig PIN-kod"
-
-#~ msgid "NumLock state"
-#~ msgstr "NumLock-tillstånd"
-
-#~ msgid "The remembered state of the NumLock LED."
-#~ msgstr "Det ihågkomna tillståndet för NumLock-lampan."
-
-#~ msgid ""
-#~ "Highlights the current location of the pointer when the Control key is "
-#~ "pressed and released."
-#~ msgstr ""
-#~ "Markerar den aktuella platsen för muspekaren när Control-tangenten trycks "
-#~ "ner och släpps."
-
-#~ msgid "Touchpad toggle"
-#~ msgstr "Slå på/av styrplatta"
-
-# Utan 'event'-ljud för ändringen
-#~ msgid "Quiet Volume Mute"
-#~ msgstr "Tyst volymdämpning"
-
-#~ msgid "Lock Screen"
-#~ msgstr "Lås skärm"
-
-#~ msgid "Help"
-#~ msgstr "Hjälp"
-
-#~ msgid "Rewind"
-#~ msgstr "Spola tillbaka"
-
-#~ msgid "Forward"
-#~ msgstr "Spola framåt"
-
-#~ msgid "Repeat"
-#~ msgstr "Upprepa"
-
-#~ msgid "Random Play"
-#~ msgstr "Spela i slumpmässig ordning"
-
-#~ msgid "Orientation Lock"
-#~ msgstr "Orienteringslås"
-
-#~ msgid "Power Off"
-#~ msgstr "Stäng av"
-
-#~ msgid "Sleep"
-#~ msgstr "Sov"
-
-#~ msgid "Toggle Bluetooth"
-#~ msgstr "Växla Bluetooth"
-
-#~ msgid "Slow Keys Turned On"
-#~ msgstr "Tröga tangenter aktiverade"
-
-#~ msgid "Slow Keys Turned Off"
-#~ msgstr "Tröga tangenter inaktiverade"
-
-#~ msgid ""
-#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
-#~ "the Slow Keys feature, which affects the way your keyboard works."
-#~ msgstr ""
-#~ "Du höll precis ned skifttangenten under 8 sekunder. Detta är genvägen för "
-#~ "funktionen tröga tangenter vilket påverkar hur ditt tangentbord fungerar."
-
-#~ msgid "Universal Access"
-#~ msgstr "Hjälpmedel"
-
-#~ msgid "Turn Off"
-#~ msgstr "Stäng av"
-
-#~ msgid "Turn On"
-#~ msgstr "Slå på"
-
-#~ msgid "Leave On"
-#~ msgstr "Lämna påslagen"
-
-#~ msgid "Leave Off"
-#~ msgstr "Lämna avstängd"
-
-#~ msgid "Sticky Keys Turned On"
-#~ msgstr "Klistriga tangenter aktiverade"
-
-#~ msgid "Sticky Keys Turned Off"
-#~ msgstr "Klistriga tangenter inaktiverade"
-
-#~ msgid ""
-#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
-#~ "for the Sticky Keys feature, which affects the way your keyboard works."
-#~ msgstr ""
-#~ "Du tryckte precis ned skifttangenten 5 gånger i följd. Detta är genvägen "
-#~ "för funktionen klistriga tangenter, som påverkar hur ditt tangentbord "
-#~ "fungerar."
-
-#~ msgid ""
-#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
-#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
-#~ "keyboard works."
-#~ msgstr ""
-#~ "Du tryckte precis ned två tangenter samtidigt, eller tryckte ned "
-#~ "skifttangenten 5 gånger i följd. Detta stänger av funktionen klistriga "
-#~ "tangenter vilket påverkar hur ditt tangentbord fungerar."
-
-#~ msgid "Disabled"
-#~ msgstr "Inaktiverad"
-
-#~ msgid "%u Output"
-#~ msgid_plural "%u Outputs"
-#~ msgstr[0] "%u utgång"
-#~ msgstr[1] "%u utgångar"
-
-#~ msgid "%u Input"
-#~ msgid_plural "%u Inputs"
-#~ msgstr[0] "%u ingång"
-#~ msgstr[1] "%u ingångar"
-
-#~ msgid "System Sounds"
-#~ msgstr "Systemljud"
-
-#~ msgid "File for default configuration for RandR"
-#~ msgstr "Fil för standardkonfiguration för RandR"
-
-#~ msgid ""
-#~ "The XRandR plugin will look for a default configuration in the file "
-#~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
-#~ "normally gets stored in users’ home directories. If a user does not have "
-#~ "such a file, or has one that does not match the user’s setup of monitors, "
-#~ "then the file specified by this key will be used instead."
-#~ msgstr ""
-#~ "Insticksmodulen XRandR kommer att leta efter en standardkonfiguration i "
-#~ "filen som anges av denna nyckel. Detta liknar ~/.config/monitors.xml som "
-#~ "vanligtvis lagras i användarnas hemkataloger. Om en användare inte har en "
-#~ "sådan fil, eller har en som inte matchar användarens skärmkonfiguration, "
-#~ "så kommer filen som anges av denna nyckel att användas istället."
-
-#~ msgid "Whether to turn off specific monitors after boot"
-#~ msgstr "Huruvida specifika skärmar ska stängas av efter uppstart"
-
-#~ msgid ""
-#~ "“clone” will display the same thing on all monitors, “dock” will switch "
-#~ "off the internal monitor, “do-nothing” will use the default Xorg "
-#~ "behaviour (extend the desktop in recent versions). The default, “follow-"
-#~ "lid”, will choose between “do-nothing” and “dock” depending on whether "
-#~ "the lid is (respectively) open or closed."
-#~ msgstr ""
-#~ "”clone” kommer att visa samma sak på alla skärmar, ”dock” kommer att "
-#~ "stänga av den interna skärmen, ”do-nothing” kommer att använda "
-#~ "standardbeteendet för Xorg (utöka skrivbordet i senare versioner). "
-#~ "Standard, ”follow-lid”, kommer att välja mellan ”do-nothing” och ”dock” "
-#~ "beroende på om locket är öppet eller stängt."
-
-#~ msgid "Video Out"
-#~ msgstr "Video ut"
-
-#~ msgid "Rotate Screen"
-#~ msgstr "Rotera skärm"
-
-#~ msgid "Could not refresh the screen information: %s"
-#~ msgstr "Kunde inte uppdatera skärminformationen: %s"
-
-#~ msgctxt "Wacom action-type"
-#~ msgid "None"
-#~ msgstr "Ingen"
-
-#~ msgctxt "Wacom action-type"
-#~ msgid "Send Keystroke"
-#~ msgstr "Skicka tangenttryckning"
-
-#~ msgctxt "Wacom action-type"
-#~ msgid "Switch Monitor"
-#~ msgstr "Växla skärm"
-
-#~ msgctxt "Wacom action-type"
-#~ msgid "Show On-Screen Help"
-#~ msgstr "Visa hjälp på skärmen"
-
-#~ msgctxt "Action type"
-#~ msgid "Show On-Screen Help"
-#~ msgstr "Visa hjälp på skärmen"
-
-#~ msgctxt "Action type"
-#~ msgid "Switch Monitor"
-#~ msgstr "Växla skärm"
-
-#~ msgctxt "keyboard shortcut"
-#~ msgid "None"
-#~ msgstr "Ingen"
-
-#~ msgid "Done"
-#~ msgstr "Klar"
-
-#~ msgid "Left Ring"
-#~ msgstr "Vänster ring"
-
-#~ msgid "Left Ring Mode #%d"
-#~ msgstr "Vänster ringläge #%d"
-
-#~ msgid "Right Ring"
-#~ msgstr "Höger ring"
-
-#~ msgid "Right Ring Mode #%d"
-#~ msgstr "Höger ringläge #%d"
-
-#~ msgid "Left Touchstrip"
-#~ msgstr "Vänster Touchstrip"
-
-#~ msgid "Left Touchstrip Mode #%d"
-#~ msgstr "Vänster Touchstrip-läge #%d"
-
-#~ msgid "Right Touchstrip"
-#~ msgstr "Höger Touchstrip"
-
-#~ msgid "Right Touchstrip Mode #%d"
-#~ msgstr "Höger Touchstrip-läge #%d"
-
-#~ msgid "Left Touchring Mode Switch"
-#~ msgstr "Lägesväxel för vänster Touchring"
-
-#~ msgid "Right Touchring Mode Switch"
-#~ msgstr "Lägesväxel för höger Touchring"
-
-#~ msgid "Left Touchstrip Mode Switch"
-#~ msgstr "Lägesväxel för vänster Touchstrip"
-
-#~ msgid "Right Touchstrip Mode Switch"
-#~ msgstr "Lägesväxel för höger Touchstrip"
-
-#~ msgid "Mode Switch #%d"
-#~ msgstr "Lägesväxel nr. %d"
-
-#~ msgid "Left Button #%d"
-#~ msgstr "Vänsterknapp nr. %d"
-
-#~ msgid "Right Button #%d"
-#~ msgstr "Högerknapp nr. %d"
-
-#~ msgid "Top Button #%d"
-#~ msgstr "Övre knapp nr. %d"
-
-#~ msgid "Bottom Button #%d"
-#~ msgstr "Nedre knapp nr. %d"
-
-#~ msgid "New shortcut…"
-#~ msgstr "Ny genväg…"
-
-#~ msgid "The \"%s\" tablet may not work as expected."
-#~ msgstr "”%s”-plattan kanske inte fungerar såsom förväntat."
-
-#~ msgid "Unknown Tablet Connected"
-#~ msgstr "Okänd platta ansluten"
-
-#~ msgid "Wacom Settings"
-#~ msgstr "Wacom-inställningar"
-
-#~ msgctxt "Action type"
-#~ msgid "None"
-#~ msgstr "Inga"
-
-#~ msgctxt "Action type"
-#~ msgid "Send Keystroke %s"
-#~ msgstr "Sänd tangenttryckning %s"
-
-#~ msgid "Mode %d: %s"
-#~ msgstr "Läge %d: %s"
-
-#~ msgid "(press any key to exit)"
-#~ msgstr "(tryck på valfri tangent för att avsluta)"
-
-#~ msgid "Push a button to configure"
-#~ msgstr "Tryck på en knapp för att konfigurera"
-
-#~ msgid "(Esc to cancel)"
-#~ msgstr "(Esc för att avbryta)"
-
-#~ msgid "Edit"
-#~ msgstr "Redigera"
-
-#~ msgid "GNOME Settings Daemon"
-#~ msgstr "GNOME-inställningsdemon"
-
-#~ msgid "Activation of this plugin"
-#~ msgstr "Aktivering av denna insticksmodul"
-
-#~ msgid ""
-#~ "Whether this plugin would be activated by gnome-settings-daemon or not"
-#~ msgstr ""
-#~ "Huruvida denna insticksmodul ska aktiveras genom gnome-inställningsdemon "
-#~ "eller inte"
-
-#~ msgid "Priority to use for this plugin"
-#~ msgstr "Prioritet att använda för denna insticksmodul"
-
-#~ msgid ""
-#~ "Priority to use for this plugin in gnome-settings-daemon startup queue"
-#~ msgstr ""
-#~ "Prioritet att använda för denna insticksmodul i uppstartskön för gnome-"
-#~ "inställningsdemon"
-
-#~ msgid "Enable debugging code"
-#~ msgstr "Aktivera felsökningskod"
-
-#~ msgid "Replace existing daemon"
-#~ msgstr "Ersätt befintlig demon"
-
-#~ msgid "Exit after a time (for debugging)"
-#~ msgstr "Avsluta efter en stund (för felsökning)"
-
-#~ msgid "Accessibility Keyboard"
-#~ msgstr "Hjälpmedelstangentbord"
-
-#~ msgid "Accessibility keyboard plugin"
-#~ msgstr "Insticksmodul för hjälpmedelstangentbord"
-
-#~ msgid "Accessibility settings"
-#~ msgstr "Hjälpmedelsinställningar"
-
-#~ msgid "Accessibility settings plugin"
-#~ msgstr "Insticksmodul för hjälpmedelsinställningar"
-
-#~ msgid "Clipboard"
-#~ msgstr "Urklipp"
-
-#~ msgid "Clipboard plugin"
-#~ msgstr "Insticksmodul för urklipp"
-
-#~ msgid "Color plugin"
-#~ msgstr "Insticksmodul för färg"
-
-#~ msgid "Date and Time"
-#~ msgstr "Datum och tid"
-
-#~ msgid "Automatically update timezone"
-#~ msgstr "Uppdatera automatiskt tidszon"
-
-#~ msgid "Dummy"
-#~ msgstr "Attrapp"
-
-#~ msgid "Dummy plugin"
-#~ msgstr "Attrapp insticksmodul"
-
-#~ msgid "Housekeeping"
-#~ msgstr "Underhåll"
-
-#~ msgid ""
-#~ "Automatically prunes thumbnail caches and other transient files, and "
-#~ "warns about low disk space"
-#~ msgstr ""
-#~ "Tar automatiskt bort miniatyrbilds-cache och andra tillfälliga filer, "
-#~ "samt varnar om lågt diskutrymme"
-
-#~ msgid "Keyboard"
-#~ msgstr "Tangentbord"
-
-#~ msgid "Keyboard plugin"
-#~ msgstr "Insticksmodul för tangentbord"
-
-#~ msgid "Media keys"
-#~ msgstr "Mediatangenter"
-
-#~ msgid "Media keys plugin"
-#~ msgstr "Insticksmodul för mediatangenter"
-
-#~ msgid "Mouse"
-#~ msgstr "Mus"
-
-#~ msgid "Mouse plugin"
-#~ msgstr "Mus insticksmodul"
-
-#~ msgid "Orientation"
-#~ msgstr "Orientering"
-
-#~ msgid "Orientation plugin"
-#~ msgstr "Orientering insticksmodul"
-
-#~ msgid "Power plugin"
-#~ msgstr "Insticksmodul för ström"
-
-#~ msgid "Print-notifications"
-#~ msgstr "Utskriftsaviseringar"
-
-#~ msgid "Print-notifications plugin"
-#~ msgstr "Insticksmodulen för utskriftsaviseringar"
-
-#~ msgid "Rfkill plugin"
-#~ msgstr "Rfkill Insticksmodul"
-
-#~ msgid "Screensaver Proxy"
-#~ msgstr "Skärmsläckarproxy"
-
-# TRANSLATORS: Jag har inget bra förslag på denna..
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
-#~ msgstr "Hämma skärmsläckaren för FreeDesktop genom proxy till gnome-session"
-
-#~ msgid "Smartcard"
-#~ msgstr "Smartkort"
-
-#~ msgid "Smartcard plugin"
-#~ msgstr "Smartkort insticksmodul"
-
-#~ msgid "Sound"
-#~ msgstr "Ljud"
-
-#~ msgid "Sound Sample Cache plugin"
-#~ msgstr "Insticksmodul för ljudsamplingscache"
-
-#~ msgid "Wacom"
-#~ msgstr "Wacom"
-
-#~ msgid "Wacom plugin"
-#~ msgstr "Wacom insticksmodul"
-
-#~ msgid "XRandR"
-#~ msgstr "XRandR"
-
-#~ msgid "Set up screen size and rotation settings"
-#~ msgstr "Konfigurera skärmstorlek och roteringsinställningar"
-
-#~ msgid "X Settings"
-#~ msgstr "X-inställningar"
-
-#~ msgid "Manage X Settings"
-#~ msgstr "Hantera X-inställningar"
-
-#~ msgid "Device hotplug custom command"
-#~ msgstr "Anpassat kommando för hotplug-enhet"
-
-#~ msgid ""
-#~ "Command to be run when a device is added or removed. An exit value of 1 "
-#~ "means that the device will not be handled further by gnome-settings-"
-#~ "daemon."
-#~ msgstr ""
-#~ "Kommando att köra när en enhet läggs till eller tas bort. Ett avslutande "
-#~ "returvärde på 1 betyder att enheten inte längre kommer att hanteras av "
-#~ "gnome-inställningsdemon."
-
-#~ msgid ""
-#~ "The type of hinting to use when rendering fonts. Possible values are: "
-#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
-#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
-#~ msgstr ""
-#~ "Typen av hintning att använda när typsnitt ritas ut. Möjliga värden är: "
-#~ "\"none\" för ingen hintning, \"slight\" för grundläggande, \"medium\" för "
-#~ "medel samt \"full\" för maximal hintning (kan orsaka distorsion av "
-#~ "bokstavsformer)."
-
-#~ msgid "Wacom last calibrated resolution"
-#~ msgstr "Senast kalibrerad Wacom-upplösning"
-
-#~ msgid ""
-#~ "Holds the last calibrated resolution to help check if calibration is "
-#~ "needed."
-#~ msgstr ""
-#~ "Bevarar den senast kalibrerade upplösningen för att hjälpa till med att "
-#~ "kontrollera om kalibreringen behövs."
-
-#~ msgid "Don't show any warnings again for this file system"
-#~ msgstr "Visa inte några varningar igen för detta filsystem"
-
-#~ msgid "Don't show any warnings again"
-#~ msgstr "Visa inte några varningar igen"
-
-#~ msgid "The volume \"%s\" has only %s disk space remaining."
-#~ msgstr "Volymen ”%s” har endast %s diskutrymme kvar."
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to another disk or partition."
-#~ msgstr ""
-#~ "Du kan frigöra diskutrymme genom att tömma papperskorgen, ta bort "
-#~ "oanvända program eller filer, eller flytta filer till en annan disk eller "
-#~ "partition."
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to another disk or partition."
-#~ msgstr ""
-#~ "Du kan frigöra diskutrymme genom att ta bort oanvända program eller "
-#~ "filer, eller flytta filer till en annan disk eller partition."
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to an external disk."
-#~ msgstr ""
-#~ "Du kan frigöra diskutrymme genom att tömma papperskorgen, ta bort "
-#~ "oanvända program eller filer, eller flytta filer till en extern disk."
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to an external disk."
-#~ msgstr ""
-#~ "Du kan frigöra diskutrymme genom att ta bort oanvända program eller "
-#~ "filer, eller flytta filer till en extern disk."
-
-#~ msgid "Examine…"
-#~ msgstr "Undersök…"
-
-#~ msgid "Printer removed"
-#~ msgstr "Skrivare togs bort"
-
-#~ msgid "Tablet %s needs to be calibrated."
-#~ msgstr "Plattan ”%s” behöver kalibreras."
-
-#~ msgid "Calibration needed"
-#~ msgstr "Kalibrering behövs"
-
-#~ msgid "Calibrate"
-#~ msgstr "Kalibrera"
-
-#~ msgid "Cursor"
-#~ msgstr "Markör"
-
-#~ msgid "Show/hide cursor on tablet devices"
-#~ msgstr "Visa/dölj markör på pekplattor"
-
-#~ msgid "Wacom display mapping"
-#~ msgstr "Skärmmappning för Wacom-platta"
-
-#~ msgid ""
-#~ "EDID information of monitor to map tablet to. Must be in the format "
-#~ "[vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
-#~ msgstr ""
-#~ "EDID-information för skärmen att mappa ritplattan till. Måste vara i "
-#~ "formatet [tillverkare, produkt, serienummer]. [\"\",\"\",\"\"] "
-#~ "inaktiverar mappningen."
