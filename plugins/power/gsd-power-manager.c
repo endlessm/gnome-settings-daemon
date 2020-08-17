@@ -1659,26 +1659,6 @@ clear_idle_watch (GnomeIdleMonitor *monitor,
         *id = 0;
 }
 
-/**
- * Endless patch: If we're going to auto-logout
- * and this is a demo session, then don't show the
- * warning
- */
-static gboolean
-should_show_warning (GsdPowerActionType action_type)
-{
-        if (action_type == GSD_POWER_ACTION_LOGOUT) {
-                char *demo_mode_file = g_build_filename (g_get_user_config_dir (), "eos-demo-mode", NULL);
-                gboolean exists = g_file_test (demo_mode_file, G_FILE_TEST_EXISTS);
-
-                g_free (demo_mode_file);
-
-                return !exists;
-        }
-
-        return TRUE;
-}
-
 static void
 idle_configure (GsdPowerManager *manager)
 {
@@ -1777,13 +1757,11 @@ idle_configure (GsdPowerManager *manager)
                                 timeout_sleep_warning_msec = 1;
                         }
 
-                        if (should_show_warning (action_type)) {
-                                g_debug ("setting up sleep warning callback %i msec", timeout_sleep_warning_msec);
+                        g_debug ("setting up sleep warning callback %i msec", timeout_sleep_warning_msec);
 
-                                manager->idle_sleep_warning_id = gnome_idle_monitor_add_idle_watch (manager->idle_monitor,
-                                                                                                    timeout_sleep_warning_msec,
-                                                                                                    idle_triggered_idle_cb, manager, NULL);
-                        }
+                        manager->idle_sleep_warning_id = gnome_idle_monitor_add_idle_watch (manager->idle_monitor,
+                                                                                                  timeout_sleep_warning_msec,
+                                                                                                  idle_triggered_idle_cb, manager, NULL);
                 }
         }
 
