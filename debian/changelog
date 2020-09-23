@@ -1,10 +1,14 @@
-gnome-settings-daemon (3.37.92-1endless1) master; urgency=medium
+gnome-settings-daemon (3.38.0-1) experimental; urgency=medium
 
-  * New upstream release
-  * Change packaging branch to be based on git branch from Debian Salsa
-  * debian/patches/debian/01_debianize_xrdb.patch: Move to code branch
+  * Team upload
+  * New upstream stable release
+    - Translation updates
+  * Revert "watch: Find unstable versions"
+  * Continue to upload to experimental for now, so we can batch together
+    this and other core GNOME packages as part of #969321 when mozjs78
+    has passed through NEW
 
- -- Matthew Leeds <matthew.leeds@endlessm.com>  Thu, 3 Sep 2020 17:36:00 -0700
+ -- Simon McVittie <smcv@debian.org>  Mon, 14 Sep 2020 11:40:48 +0100
 
 gnome-settings-daemon (3.37.92-1) experimental; urgency=medium
 
