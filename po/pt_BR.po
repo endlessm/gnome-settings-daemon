@@ -1,45 +1,47 @@
-# Brazilian Portuguese translation of gnome-settings-daemon.
-# Copyright (C) 2020 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-settings-daemon package.
-# Ivan Passos <ivan@cyclades.com>, 1999.
-# Sandro Nunes Henrique <sandro@conectiva.com.br>, 1999.
-# Gustavo Maciel Dias Vieira <gustavo@sagui.org>, 2000-2001.
-# Tiago Cardoso Menezes <zion@via-rs.net>, 2003.
-# Evandro Fernandes Giovanini <evandrofg@ig.com.br>, 2004, 2006.
-# Alex Camacho Castilho <gnomebr@uol.com.br>, 2004.
-# Guilherme de S. Pastore <gpastore@colband.com.br>, 2004, 2005.
-# Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2006, 2008.
-# Luiz Fernando S. Armesto <luiz.armesto@gmail.com>, 2007.
-# Og Maciel <ogmaciel@gnome.org>, 2007, 2011.
-# Washington Lins <washington-lins@uol.com.br>, 2007.
-# Raul Pereira <contato@raulpereira.com>, 2007.
-# Djavan Fagundes <djavan@comum.org>, 2008, 2011.
-# Krix Apolinário <krixapolinario@gmail.com>, 2009.
-# Vladimir Melo <vmelo@gnome.org>, 2009.
-# Henrique P. Machado <hpmachado@gnome.org>, 2009, 2010.
-# Antonio Fernandes C. Neto <fernandes@pelivre.org>, 2010.
-# Jonh Wendell <jwendell@gnome.org>, 2009, 2012.
-# Enrico Nicoletto <liverig@gmail.com>, 2011-2014.
-# Artur de Aquino Morais <artur.morais93@outlook.com>, 2016.
-# Bruno Lopes da Silva <brunolopesbldsb@gmail.com>, 2018.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2012-2020.
-#
+# 
+# Translators:
+# Alex Camacho Castilho <gnomebr@uol.com.br>, 2004
+# Antonio Fernandes C. Neto <fernandes@pelivre.org>, 2010
+# Artur de Aquino Morais <artur.morais93@outlook.com>, 2016
+# Bruno Lopes da Silva <brunolopesbldsb@gmail.com>, 2018
+# Djavan Fagundes <djavan@comum.org>, 2008,2011
+# Enrico Nicoletto <liverig@gmail.com>, 2011-2014
+# Evandro Fernandes Giovanini <evandrofg@ig.com.br>, 2004,2006
+# Guilherme de S. Pastore <gpastore@colband.com.br>, 2004-2005
+# Henrique P. Machado <hpmachado@gnome.org>, 2009-2010
+# Ivan Passos <ivan@cyclades.com>, 1999
+# Jonh Wendell <jwendell@gnome.org>, 2009,2012
+# Krix Apolinário <krixapolinario@gmail.com>, 2009
+# Leandro Stanger <leandrostanger@hotmail.com>, 2019
+# leonardof <leonardof@gnome.org>, 2006,2008
+# Luiz Armesto <luiz.armesto@gmail.com>, 2007
+# Mariana Barbosa <mari@endlessm.com>, 2016
+# Og Maciel <ogmaciel@gnome.org>, 2007,2011
+# Rafael Ferreira <rafael.f.f1@gmail.com>, 2012-2013
+# Rafael Fontenelle <rafaelff@gnome.org>, 2012-2013,2015-2017
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2012-2013,2015-2016
+# Raul Pereira <contato@raulpereira.com>, 2007
+# Roddy Shuler <roddy@stanfordalumni.org>, 2016
+# Sandro Nunes Henrique <sandro@conectiva.com.br>, 1999
+# Tiago Cardoso Menezes <zion@via-rs.net>, 2003
+# Vladimir Melo <vmelo@gnome.org>, 2009
+# Washington Lins <washington-lins@uol.com.br>, 2007
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-settings-daemon/"
-"issues\n"
-"POT-Creation-Date: 2020-09-03 18:28+0000\n"
-"PO-Revision-Date: 2020-09-03 16:16-0300\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
-"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
-"Language: pt_BR\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-10 04:12+0000\n"
+"PO-Revision-Date: 2020-10-10 04:12+0000\n"
+"Last-Translator: endlessmobile_build <admin@endlessos.org>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/endless-os/gnome-settings-daemon/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
-"X-Generator: Gtranslator 3.36.0\n"
-"X-Project-Style: gnome\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:12
 msgid "Smartcard removal action"
@@ -47,11 +49,9 @@ msgstr "Ação de remoção de cartão inteligente"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:13
 msgid ""
-"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will "
-"get performed when the smartcard used for log in is removed."
-msgstr ""
-"Defina isto como “none”, “lock-screen”, ou “force-logout”. A ação irá se "
-"realizar quando o cartão inteligente usado para iniciar sessão for removido."
+"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will"
+" get performed when the smartcard used for log in is removed."
+msgstr "Defina isto como “none”, “lock-screen”, ou “force-logout”. A ação irá se realizar quando o cartão inteligente usado para iniciar sessão for removido."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:25
 msgid "Possible values are “on”, “off”, and “custom”."
@@ -103,9 +103,7 @@ msgstr "Clique único"
 msgid ""
 "Acceleration multiplier for mouse motion. A value of -1 is the system "
 "default."
-msgstr ""
-"Multiplicador de aceleração para movimentos do mouse. Um valor de -1 é o "
-"padrão do sistema."
+msgstr "Multiplicador de aceleração para movimentos do mouse. Um valor de -1 é o padrão do sistema."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:72
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:139
@@ -117,9 +115,7 @@ msgstr "Limiar de movimento"
 msgid ""
 "Distance in pixels the pointer must move before accelerated mouse motion is "
 "activated. A value of -1 is the system default."
-msgstr ""
-"A distância em pixels que o ponteiro deve mover antes do movimento acelerado "
-"do mouse ser ativado. Um valor de -1 é o padrão do sistema."
+msgstr "A distância em pixels que o ponteiro deve mover antes do movimento acelerado do mouse ser ativado. Um valor de -1 é o padrão do sistema."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:77
 msgid "Middle button emulation"
@@ -129,9 +125,7 @@ msgstr "Emulação do botão do meio"
 msgid ""
 "Enables middle mouse button emulation through simultaneous left and right "
 "button click."
-msgstr ""
-"Habilita a emulação de botão do meio do mouse através de cliques simultâneos "
-"do botão esquerdo e direto."
+msgstr "Habilita a emulação de botão do meio do mouse através de cliques simultâneos do botão esquerdo e direto."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:87
 msgid "Key Repeat Interval"
@@ -157,9 +151,7 @@ msgstr "Lembrar do estado do NumLock"
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
-msgstr ""
-"Quando definido para verdadeiro, o GNOME se lembrará do estado do LED do "
-"NumLock entre sessões."
+msgstr "Quando definido para verdadeiro, o GNOME se lembrará do estado do LED do NumLock entre sessões."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:104
 msgid "Disable touchpad while typing"
@@ -167,11 +159,9 @@ msgstr "Desabilitar o touchpad enquanto digita"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:105
 msgid ""
-"Set this to TRUE if you have problems with accidentally hitting the touchpad "
-"while typing."
-msgstr ""
-"Defina como VERDADEIRO, se você tiver problemas ao tocar acidentalmente o "
-"touchpad enquanto digita."
+"Set this to TRUE if you have problems with accidentally hitting the touchpad"
+" while typing."
+msgstr "Defina como VERDADEIRO, se você tiver problemas ao tocar acidentalmente o touchpad enquanto digita."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:109
 msgid "Enable horizontal scrolling"
@@ -181,9 +171,7 @@ msgstr "Habilitar a rolagem horizontal"
 msgid ""
 "Set this to TRUE to allow horizontal scrolling by the same method selected "
 "with the scroll_method key."
-msgstr ""
-"Defina como VERDADEIRO para permitir rolagem horizontal pelo mesmo método "
-"selecionado com a chave scroll_method."
+msgstr "Defina como VERDADEIRO para permitir rolagem horizontal pelo mesmo método selecionado com a chave scroll_method."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:114
 msgid "Select the touchpad scroll method"
@@ -193,9 +181,7 @@ msgstr "Selecionar o método de rolagem do touchpad"
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
-msgstr ""
-"Selecione o método de rolagem do touchpad. Há suporte aos valores: "
-"“disabled”, “edge-scrolling”, “two-finger-scrolling”."
+msgstr "Selecione o método de rolagem do touchpad. Há suporte aos valores: “disabled”, “edge-scrolling”, “two-finger-scrolling”."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:119
 msgid "Enable mouse clicks with touchpad"
@@ -204,9 +190,7 @@ msgstr "Habilitar os cliques do mouse com touchpad"
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:120
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
-msgstr ""
-"Defina como VERDADEIRO para poder enviar cliques do mouse tocando no "
-"touchpad."
+msgstr "Defina como VERDADEIRO para poder enviar cliques do mouse tocando no touchpad."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:124
 msgid "Enable touchpad"
@@ -224,9 +208,7 @@ msgstr "Orientação do botão do touchpad"
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
-msgstr ""
-"Permuta os botões esquerdo e direito do mouse para mouses de canhotos com "
-"“left”, “right” para destro, “mouse” para seguir a configuração do mouse."
+msgstr "Permuta os botões esquerdo e direito do mouse para mouses de canhotos com “left”, “right” para destro, “mouse” para seguir a configuração do mouse."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:144
 msgid "Natural scrolling"
@@ -234,9 +216,7 @@ msgstr "Rolagem natural"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:145
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
-msgstr ""
-"Defina como VERDADEIRO para habilitar rolagem natural (inversa) para "
-"touchpads."
+msgstr "Defina como VERDADEIRO para habilitar rolagem natural (inversa) para touchpads."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:152
 msgid "Mouse wheel emulation button. 0 to disable the feature."
@@ -266,9 +246,7 @@ msgstr "Taxa de proporção do tablet Wacom"
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
-msgstr ""
-"Habilite isso para restringir a área do tablet Wacom para ajustar à "
-"proporção da saída."
+msgstr "Habilite isso para restringir a área do tablet Wacom para ajustar à proporção da saída."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:25
 msgid "Wacom tablet rotation"
@@ -276,11 +254,9 @@ msgstr "Rotação de tablet Wacom"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:26
 msgid ""
-"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and "
-"“ccw” for 90 degree counterclockwise."
-msgstr ""
-"Defina isso para “none”, “cw” para rotação em sentido horário de 90 graus, "
-"“half” para 180 graus e “ccw” para 90 graus em sentido anti-horário."
+"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and"
+" “ccw” for 90 degree counterclockwise."
+msgstr "Defina isso para “none”, “cw” para rotação em sentido horário de 90 graus, “half” para 180 graus e “ccw” para 90 graus em sentido anti-horário."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:30
 msgid "Wacom touch feature"
@@ -288,8 +264,7 @@ msgstr "Recurso de toque Wacom"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:31
 msgid "Enable this to move the cursor when the user touches the tablet."
-msgstr ""
-"Habilite isso somente para mover o cursor quando o usuário tocar o tablet."
+msgstr "Habilite isso somente para mover o cursor quando o usuário tocar o tablet."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:37
 msgid "Wacom stylus pressure curve"
@@ -298,8 +273,7 @@ msgstr "Curva de pressão da agulha Wacom"
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:38
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
-msgstr ""
-"Defina isso para x1, y1, e x2, y2 de curva de pressão aplicada para a agulha."
+msgstr "Defina isso para x1, y1, e x2, y2 de curva de pressão aplicada para a agulha."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:42
 msgid "Wacom stylus button mapping"
@@ -317,9 +291,7 @@ msgstr "Limiar de pressão da agulha Wacom"
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:48
 msgid ""
 "Set this to the pressure value at which a stylus click event is generated."
-msgstr ""
-"Defina isso para pressionar o valor na qual um evento de clique de agulha é "
-"gerado."
+msgstr "Defina isso para pressionar o valor na qual um evento de clique de agulha é gerado."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:54
 msgid "Wacom eraser pressure curve"
@@ -328,9 +300,7 @@ msgstr "Curva de pressão do apagador Wacom"
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:55
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
-msgstr ""
-"Defina isso para x1, y1, e x2, y2 de curva de pressão aplicada para o "
-"apagador."
+msgstr "Defina isso para x1, y1, e x2, y2 de curva de pressão aplicada para o apagador."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:59
 msgid "Wacom eraser button mapping"
@@ -343,9 +313,7 @@ msgstr "Limiar de pressão do apagador Wacom"
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:65
 msgid ""
 "Set this to the pressure value at which an eraser click event is generated."
-msgstr ""
-"Defina isso para pressionar o valor na qual um evento de clique do apagador "
-"é gerado."
+msgstr "Defina isso para pressionar o valor na qual um evento de clique do apagador é gerado."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:71
 msgid "Wacom button action type"
@@ -363,22 +331,17 @@ msgstr "Combinação de teclas para a ação personalizada"
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
-msgstr ""
-"O atalho de teclado gerado quando o botão for pressionado para ações "
-"personalizadas."
+msgstr "O atalho de teclado gerado quando o botão for pressionado para ações personalizadas."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:81
 msgid "Key combinations for a touchring or touchstrip custom action"
-msgstr ""
-"Combinação de teclas para uma ação personalizada de touchstrip ou touchring"
+msgstr "Combinação de teclas para uma ação personalizada de touchstrip ou touchring"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:82
 msgid ""
 "The keyboard shortcuts generated when a touchring or touchstrip is used for "
 "custom actions (up followed by down)."
-msgstr ""
-"O atalho de teclado gerado quando um “touchring” ou “touchstrip” é usado "
-"para as ações personalizadas (acima seguida de abaixo)."
+msgstr "O atalho de teclado gerado quando um “touchring” ou “touchstrip” é usado para as ações personalizadas (acima seguida de abaixo)."
 
 #. Translators: This is the OLED display on an Intuos4 tablet:
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
@@ -398,9 +361,7 @@ msgstr "A duração de um perfil de exibição é válido"
 msgid ""
 "This is the number of days after which the display color profile is "
 "considered invalid."
-msgstr ""
-"Este é o número de dias após o qual o perfil de cor de exibição é "
-"considerado inválido."
+msgstr "Este é o número de dias após o qual o perfil de cor de exibição é considerado inválido."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:11
 msgid "The duration a printer profile is valid"
@@ -410,9 +371,7 @@ msgstr "A duração que um perfil de impressora é válido"
 msgid ""
 "This is the number of days after which the printer color profile is "
 "considered invalid."
-msgstr ""
-"Este é o número de dias após o qual o perfil da cor de impressora é "
-"considerado inválido."
+msgstr "Este é o número de dias após o qual o perfil da cor de impressora é considerado inválido."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:16
 msgid "If the night light mode is enabled"
@@ -422,9 +381,7 @@ msgstr "Se o modo luz noturna está habilitado"
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
-msgstr ""
-"O modo luz noturna altera a temperatura da cor de sua tela quando o sol se "
-"põe ou de acordo com os tempos predefinidos."
+msgstr "O modo luz noturna altera a temperatura da cor de sua tela quando o sol se põe ou de acordo com os tempos predefinidos."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
@@ -434,10 +391,7 @@ msgstr "Temperatura da tela quando habilitada"
 msgid ""
 "This temperature in Kelvin is used to modify the screen tones when night "
 "light mode is enabled. Higher values are bluer, lower redder."
-msgstr ""
-"Essa temperatura em Kelvin é usada para modificar os tons da tela quando o "
-"modo luz noturna está habilitado. Valores altos são mais azuis, enquanto "
-"mais baixos são mais vermelhados."
+msgstr "Essa temperatura em Kelvin é usada para modificar os tons da tela quando o modo luz noturna está habilitado. Valores altos são mais azuis, enquanto mais baixos são mais vermelhados."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:26
 msgid "Use the sunrise and sunset"
@@ -447,9 +401,7 @@ msgstr "Usar o nascer do sol e pôr do sol"
 msgid ""
 "Calculate the sunrise and sunset times automatically, from the current "
 "location."
-msgstr ""
-"Calcula os horários de nascer do sol e pôr do sol automaticamente, a partir "
-"da localização atual."
+msgstr "Calcula os horários de nascer do sol e pôr do sol automaticamente, a partir da localização atual."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:31
 msgid "The start time"
@@ -459,9 +411,7 @@ msgstr "O horário de início"
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this start time in "
 "hours from midnight."
-msgstr ""
-"Quando “night-light-schedule-automatic” está desabilitado, usa esse horário "
-"de início em horas a partir da meia-noite."
+msgstr "Quando “night-light-schedule-automatic” está desabilitado, usa esse horário de início em horas a partir da meia-noite."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:36
 msgid "The end time"
@@ -471,9 +421,7 @@ msgstr "O horário de término"
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this end time in "
 "hours from midnight."
-msgstr ""
-"Quando “night-light-schedule-automatic” está desabilitado, usa esse horário "
-"de término em horas a partir da meia-noite."
+msgstr "Quando “night-light-schedule-automatic” está desabilitado, usa esse horário de término em horas a partir da meia-noite."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:41
 msgid "The last detected position"
@@ -484,10 +432,7 @@ msgid ""
 "When location services are available this represents the last detected "
 "location. The default value is an invalid value to ensure it is always "
 "updated at startup."
-msgstr ""
-"Quando serviços de localização estiverem disponíveis, isso representa a "
-"última localização detectada. O valor padrão é um valor inválido para "
-"garantir que ele sempre seja atualizado na inicialização."
+msgstr "Quando serviços de localização estiverem disponíveis, isso representa a última localização detectada. O valor padrão é um valor inválido para garantir que ele sempre seja atualizado na inicialização."
 
 #: data/org.gnome.settings-daemon.plugins.gschema.xml.in:6
 msgid "List of plugins that are allowed to be loaded"
@@ -497,9 +442,7 @@ msgstr "Lista de plug-ins que estão permitidos de serem carregados"
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: “all”). This is only evaluated on startup."
-msgstr ""
-"Uma lista de strings representando os plug-ins que estão permitidos de serem "
-"carregados (padrão: “all”). Isso é avaliado apenas na inicialização."
+msgstr "Uma lista de strings representando os plug-ins que estão permitidos de serem carregados (padrão: “all”). Isso é avaliado apenas na inicialização."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:6
 msgid "Mount paths to ignore"
@@ -507,9 +450,7 @@ msgstr "Caminhos montados para ignorar"
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:7
 msgid "Specify a list of mount paths to ignore when they run low on space."
-msgstr ""
-"Especifique uma lista de caminhos montados para ignorar quando ficarem com "
-"espaço reduzido."
+msgstr "Especifique uma lista de caminhos montados para ignorar quando ficarem com espaço reduzido."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:12
 msgid "Free percentage notify threshold"
@@ -519,10 +460,7 @@ msgstr "Limiar de notificação de porcentagem livre"
 msgid ""
 "Percentage free space threshold for initial warning of low disk space. If "
 "the percentage free space drops below this, a warning will be shown."
-msgstr ""
-"Limiar da percentagem de espaço livre para aviso inicial de pouco espaço em "
-"disco. Se a percentagem de espaço livre descer abaixo disto, um aviso será "
-"mostrado."
+msgstr "Limiar da percentagem de espaço livre para aviso inicial de pouco espaço em disco. Se a percentagem de espaço livre descer abaixo disto, um aviso será mostrado."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:18
 msgid "Subsequent free space percentage notify threshold"
@@ -532,9 +470,7 @@ msgstr "Limiar subsequente do notificador de espaço livre"
 msgid ""
 "Specify the percentage that the free disk space should reduce by before "
 "issuing a subsequent warning."
-msgstr ""
-"Especifique a percentagem que o espaço livre em disco deve reduzir antes de "
-"emitir um aviso subsequente."
+msgstr "Especifique a percentagem que o espaço livre em disco deve reduzir antes de emitir um aviso subsequente."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:23
 msgid "Free space notify threshold"
@@ -544,9 +480,7 @@ msgstr "Limiar de notificação de espaço livre"
 msgid ""
 "Specify an amount in GB. If the amount of free space is more than this, no "
 "warning will be shown."
-msgstr ""
-"Especifique uma quantia em GB. Se a quantidade de espaço livre é mais do que "
-"isso, nenhum aviso será mostrado."
+msgstr "Especifique uma quantia em GB. Se a quantidade de espaço livre é mais do que isso, nenhum aviso será mostrado."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:28
 msgid "Minimum notify period for repeated warnings"
@@ -556,9 +490,7 @@ msgstr "Período mínimo de notificação para avisos repetidos"
 msgid ""
 "Specify a time in minutes. Subsequent warnings for a volume will not appear "
 "more often than this period."
-msgstr ""
-"Especifique um tempo em minutos. Avisos subsequentes para um volume não "
-"aparecerão com mais frequência que este período."
+msgstr "Especifique um tempo em minutos. Avisos subsequentes para um volume não aparecerão com mais frequência que este período."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:6
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:189
@@ -571,7 +503,6 @@ msgstr "Iniciar calculadora"
 msgid "Binding to launch the calculator."
 msgstr "Atalho para iniciar a calculadora."
 
-# Para tornar a frase menos ambígua, deixei Configurações de execução ao invés de Configurações de lançamento. --Enrico
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:11
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:194
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:521
@@ -816,9 +747,7 @@ msgstr "Copiar a captura de tela de uma janela para a área de transferência"
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:122
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:343
 msgid "Binding to copy a screenshot of a window to clipboard."
-msgstr ""
-"Atalho para copiar a captura de uma tela inteira para a área de "
-"transferência."
+msgstr "Atalho para copiar a captura de uma tela inteira para a área de transferência."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:126
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:347
@@ -828,9 +757,7 @@ msgstr "Copiar a captura de tela de uma área para a área de transferência"
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:127
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:348
 msgid "Binding to copy a screenshot of an area to clipboard."
-msgstr ""
-"Atalho para copiar a captura de uma área da tela para a área de "
-"transferência."
+msgstr "Atalho para copiar a captura de uma área da tela para a área de transferência."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:131
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:352
@@ -1055,8 +982,7 @@ msgstr "Alternar modo de reprodução aleatória"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:434
 msgid "Binding to toggle random playback mode in media player."
-msgstr ""
-"Atalho para alternar o modo de reprodução aleatória no reprodutor de mídia."
+msgstr "Atalho para alternar o modo de reprodução aleatória no reprodutor de mídia."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:439
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:676
@@ -1139,7 +1065,6 @@ msgstr "Diminuir brilho do teclado"
 msgid "Binding to decrease the keyboard brightness."
 msgstr "Atalho para diminuir o brilho do teclado."
 
-# Toggle = "Alternador de" ou "Alternar"
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:486
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:723
 msgid "Keyboard brightness toggle"
@@ -1210,8 +1135,7 @@ msgstr "Atalho estático para pausar a reprodução."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:557
 msgid "Static binding to start playback (or toggle play/pause)."
-msgstr ""
-"Atalho estático para iniciar a reprodução (ou alternar reproduzir/pausar)."
+msgstr "Atalho estático para iniciar a reprodução (ou alternar reproduzir/pausar)."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:562
 msgid "Static binding to skip to previous track."
@@ -1288,14 +1212,11 @@ msgstr "Atalho estático para avançar na faixa atual."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:666
 msgid "Static binding to toggle repeat mode in media player."
-msgstr ""
-"Atalho estático para alternar o modo de repetição no reprodutor de mídia."
+msgstr "Atalho estático para alternar o modo de repetição no reprodutor de mídia."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:671
 msgid "Static binding to toggle random playback mode in media player."
-msgstr ""
-"Atalho estático para alternar o modo de reprodução aleatória no reprodutor "
-"de mídia."
+msgstr "Atalho estático para alternar o modo de reprodução aleatória no reprodutor de mídia."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:677
 msgid "Static binding to toggle automatic screen orientation."
@@ -1390,19 +1311,16 @@ msgstr "O brilho da tela quando ociosa"
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:7
 msgid ""
 "This is the laptop panel screen brightness used when the session is idle."
-msgstr ""
-"Esse é o brilho de tela do painel do laptop usado quando a sessão está "
-"ociosa."
+msgstr "Esse é o brilho de tela do painel do laptop usado quando a sessão está ociosa."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:11
 msgid "Dim the screen after a period of inactivity"
 msgstr "Escurecer a tela após um período de inatividade"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:12
-msgid "If the screen should be dimmed to save power when the computer is idle."
-msgstr ""
-"Se a tela deve ser escurecida para economizar energia quando o computador "
-"está ocioso."
+msgid ""
+"If the screen should be dimmed to save power when the computer is idle."
+msgstr "Se a tela deve ser escurecida para economizar energia quando o computador está ocioso."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:16
 msgid "Sleep timeout computer when on AC"
@@ -1412,9 +1330,7 @@ msgstr "Tempo até o computador ir dormir quando ligado na tomada"
 msgid ""
 "The amount of time in seconds the computer on AC power needs to be inactive "
 "before it goes to sleep. A value of 0 means never."
-msgstr ""
-"A quantidade de tempo em segundos que o computador conectado na tomada "
-"precisa estar inativo até ir dormir. Um valor de 0 significa nunca."
+msgstr "A quantidade de tempo em segundos que o computador conectado na tomada precisa estar inativo até ir dormir. Um valor de 0 significa nunca."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:21
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:31
@@ -1425,8 +1341,7 @@ msgstr "Se deve hibernar, suspender ou fazer nada quando inativo"
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:32
 msgid ""
 "The type of sleeping that should be performed when the computer is inactive."
-msgstr ""
-"O tipo de dormida que deve ser realizada quando o computador está inativo."
+msgstr "O tipo de dormida que deve ser realizada quando o computador está inativo."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:26
 msgid "Sleep timeout computer when on battery"
@@ -1436,9 +1351,7 @@ msgstr "Tempo até o computador ir dormir quando na bateria"
 msgid ""
 "The amount of time in seconds the computer on battery power needs to be "
 "inactive before it goes to sleep. A value of 0 means never."
-msgstr ""
-"A quantidade de tempo em segundos que o computador na bateria precisa estar "
-"inativo até ir dormir. Um valor de 0 significa nunca."
+msgstr "A quantidade de tempo em segundos que o computador na bateria precisa estar inativo até ir dormir. Um valor de 0 significa nunca."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:36
 msgid "Enable the ALS sensor"
@@ -1457,10 +1370,7 @@ msgid ""
 "The action to take when the system power button is pressed. This action is "
 "hard-coded (and the setting ignored) on virtual machines (power off) and "
 "tablets (suspend)."
-msgstr ""
-"A ação a ser tomada quando o botão de liga/desliga do sistema é pressionado. "
-"Essa ação é codificada (e a configuração ignorada) em máquinas virtuais "
-"(desligar) e tablets (suspender)."
+msgstr "A ação a ser tomada quando o botão de liga/desliga do sistema é pressionado. Essa ação é codificada (e a configuração ignorada) em máquinas virtuais (desligar) e tablets (suspender)."
 
 #: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:6
 msgid "On which connections the service is enabled"
@@ -1470,9 +1380,7 @@ msgstr "Em quais conexões o serviço está habilitado"
 msgid ""
 "The list of NetworkManager connections (each one represented with its UUID) "
 "on which this service is enabled and started."
-msgstr ""
-"A lista de conexões do NetworkManager (cada uma representada com seu "
-"respectivo UUID) na qual o serviço está habilitado e inicializado."
+msgstr "A lista de conexões do NetworkManager (cada uma representada com seu respectivo UUID) na qual o serviço está habilitado e inicializado."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:6
 msgid "Antialiasing"
@@ -1481,12 +1389,9 @@ msgstr "Suavização"
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:7
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
-"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
-"and “rgba” for subpixel antialiasing (LCD screens only)."
-msgstr ""
-"O tipo de suavização a utilizar quando renderizar fontes. Valores possíveis "
-"são: “none” nenhuma suavização, “grayscale” para suavização padrão cinza e "
-"“rgba” para suavização de subpixel (apenas telas LCD)."
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing,"
+" and “rgba” for subpixel antialiasing (LCD screens only)."
+msgstr "O tipo de suavização a utilizar quando renderizar fontes. Valores possíveis são: “none” nenhuma suavização, “grayscale” para suavização padrão cinza e “rgba” para suavização de subpixel (apenas telas LCD)."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:11
 msgid "Hinting"
@@ -1494,27 +1399,17 @@ msgstr "Hinting"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:12
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: “none” "
-"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
-"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"The type of hinting to use when rendering fonts. Possible values are: “none”"
+" for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s"
+" ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
 "Ignores native hinting within the font, generates hints algorithmically. "
 "Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
-"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
-"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version"
+" of FreeType. They usually try to fit glyphs to both the X and the Y axis "
 "(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
-msgstr ""
-"O tipo de hinting a ser usado quando renderizar fontes. Valores possível "
-"são: “none” para nenhum e “slight” para apenas ajustar ao eixo Y, como os "
-"motores de renderização de ClearType da Microsoft, DirectWrite e fontes "
-"proprietárias da Adobe. Ignora hinting nativo da fonte e o gera por meio de "
-"algoritmo. Usado no Ubuntu por padrão. Recomendado. O significado de "
-"“medium” e “full” depende do formato da fonte (.ttf, .otf, .pfa/.pfb) e da "
-"versão instalada de FreeType. Elas geralmente tentam ajustar os glifos a "
-"tanto o eixo X quanto o Y (exceto por .otf: Y apenas). Isso pode levar a "
-"distorções e/ou renderização inconsistente dependendo da qualidade da fonte, "
-"do formato da fonte e do estado dos motores de fonte do FreeType."
+msgstr "O tipo de hinting a ser usado quando renderizar fontes. Valores possível são: “none” para nenhum e “slight” para apenas ajustar ao eixo Y, como os motores de renderização de ClearType da Microsoft, DirectWrite e fontes proprietárias da Adobe. Ignora hinting nativo da fonte e o gera por meio de algoritmo. Usado no Ubuntu por padrão. Recomendado. O significado de “medium” e “full” depende do formato da fonte (.ttf, .otf, .pfa/.pfb) e da versão instalada de FreeType. Elas geralmente tentam ajustar os glifos a tanto o eixo X quanto o Y (exceto por .otf: Y apenas). Isso pode levar a distorções e/ou renderização inconsistente dependendo da qualidade da fonte, do formato da fonte e do estado dos motores de fonte do FreeType."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:16
 msgid "RGBA order"
@@ -1522,14 +1417,10 @@ msgstr "Ordem RGBA"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:17
 msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
-"“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
-msgstr ""
-"A ordem dos elementos de subpixel em uma tela LCD; utilizado apenas quando a "
-"suavização está definida como “rgba”. Valores possíveis são: “rgb” para "
-"vermelho à esquerda (mais comum), “bgr” para azul à esquerda, “vrgb” para "
-"vermelho no topo, “vbgr” para vermelho no fundo."
+"The order of subpixel elements on an LCD screen; only used when antialiasing"
+" is set to “rgba”. Possible values are: “rgb” for red on left (most common),"
+" “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
+msgstr "A ordem dos elementos de subpixel em uma tela LCD; utilizado apenas quando a suavização está definida como “rgba”. Valores possíveis são: “rgb” para vermelho à esquerda (mais comum), “bgr” para azul à esquerda, “vrgb” para vermelho no topo, “vbgr” para vermelho no fundo."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:21
 msgid "List of explicitly disabled GTK+ modules"
@@ -1539,9 +1430,7 @@ msgstr "Lista de módulos GTK+ explicitamente desabilitados"
 msgid ""
 "A list of strings representing the GTK+ modules that will not be loaded, "
 "even if enabled by default in their configuration."
-msgstr ""
-"Uma lista de strings representando os módulos GTK+ que não serão carregados, "
-"se habilitados por padrão em suas configurações."
+msgstr "Uma lista de strings representando os módulos GTK+ que não serão carregados, se habilitados por padrão em suas configurações."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:26
 msgid "List of explicitly enabled GTK+ modules"
@@ -1549,11 +1438,9 @@ msgstr "Lista de módulos GTK+ explicitamente habilitados"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:27
 msgid ""
-"A list of strings representing the GTK+ modules that will be loaded, usually "
-"in addition to conditional and forcibly disabled ones."
-msgstr ""
-"Uma lista de strings representando os módulos GTK+ que serão carregados, "
-"usualmente em adição para condicional e forçosamente desabilitada."
+"A list of strings representing the GTK+ modules that will be loaded, usually"
+" in addition to conditional and forcibly disabled ones."
+msgstr "Uma lista de strings representando os módulos GTK+ que serão carregados, usualmente em adição para condicional e forçosamente desabilitada."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:31
 msgid "A dictionary of XSETTINGS to override"
@@ -1561,13 +1448,10 @@ msgstr "Um dicionário de XSETTINGS a ser substituída"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:32
 msgid ""
-"This dictionary maps XSETTINGS names to overrides values. The values must be "
-"either strings, signed int32s or (in the case of colors), 4-tuples of uint16 "
-"(red, green, blue, alpha; 65535 is fully opaque)."
-msgstr ""
-"Esse dicionário mapeia nomes XSETTINGS para substituir valores. Os valores "
-"devem ser strings, int32s assinados ou (no caso de cores), 4 tuplas de "
-"unit16 (red, green, blue, alpha; 65535 é totalmente opaco)."
+"This dictionary maps XSETTINGS names to overrides values. The values must be"
+" either strings, signed int32s or (in the case of colors), 4-tuples of "
+"uint16 (red, green, blue, alpha; 65535 is fully opaque)."
+msgstr "Esse dicionário mapeia nomes XSETTINGS para substituir valores. Os valores devem ser strings, int32s assinados ou (no caso de cores), 4 tuplas de unit16 (red, green, blue, alpha; 65535 é totalmente opaco)."
 
 #: plugins/color/gsd-color-calibrate.c:138
 msgid "Color"
@@ -1630,83 +1514,90 @@ msgstr "Configurações"
 msgid "Date & Time Settings"
 msgstr "Configurações de data & hora"
 
-#: plugins/housekeeping/gsd-disk-space.c:629
+#: plugins/housekeeping/gsd-disk-space.c:632
 msgid "Disk Space"
 msgstr "Espaço no disco"
 
-#: plugins/housekeeping/gsd-disk-space.c:642
+#: plugins/housekeeping/gsd-disk-space.c:645
 msgid "Examine"
 msgstr "Examinar"
 
-#: plugins/housekeeping/gsd-disk-space.c:653
+#: plugins/housekeeping/gsd-disk-space.c:656
 msgid "Empty Trash"
 msgstr "Esvaziar lixeira"
 
-#: plugins/housekeeping/gsd-disk-space.c:661
+#: plugins/housekeeping/gsd-disk-space.c:664
 msgid "Ignore"
 msgstr "Ignorar"
 
-#: plugins/housekeeping/gsd-disk-space.c:692
+#: plugins/housekeeping/gsd-disk-space.c:698
+#: plugins/housekeeping/gsd-disk-space.c:738
+msgid "Low Disk Space"
+msgstr "Pouco espaço em disco"
+
+#: plugins/housekeeping/gsd-disk-space.c:700
+msgid ""
+"Your computer is out of space.  You may free up some space by emptying the "
+"trash."
+msgstr "Seu computador está sem espaço. Você pode liberar algum espaço esvaziando a lixeira."
+
+#: plugins/housekeeping/gsd-disk-space.c:702
+msgid "Your computer is out of space."
+msgstr "Seu computador está sem espaço."
+
+#: plugins/housekeeping/gsd-disk-space.c:727
 #, c-format
 msgid "Low Disk Space on “%s”"
 msgstr "Pouco espaço em disco em “%s”"
 
-#: plugins/housekeeping/gsd-disk-space.c:694
+#: plugins/housekeeping/gsd-disk-space.c:729
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
-"O volume “%s” tem apenas %s de espaço em disco restante. Você poderá liberar "
-"algum espaço esvaziando a lixeira."
+msgstr "O volume “%s” tem apenas %s de espaço em disco restante. Você poderá liberar algum espaço esvaziando a lixeira."
 
-#: plugins/housekeeping/gsd-disk-space.c:698
+#: plugins/housekeeping/gsd-disk-space.c:733
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
 msgstr "O volume “%s” tem apenas %s de espaço em disco restante."
 
-#: plugins/housekeeping/gsd-disk-space.c:703
-msgid "Low Disk Space"
-msgstr "Pouco espaço em disco"
-
-#: plugins/housekeeping/gsd-disk-space.c:705
+#: plugins/housekeeping/gsd-disk-space.c:740
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
-msgstr ""
-"O computador tem apenas %s de espaço em disco restante. Você poderá liberar "
-"algum espaço esvaziando a lixeira."
+msgstr "O computador tem apenas %s de espaço em disco restante. Você poderá liberar algum espaço esvaziando a lixeira."
 
-#: plugins/housekeeping/gsd-disk-space.c:708
+#: plugins/housekeeping/gsd-disk-space.c:743
 #, c-format
 msgid "This computer has only %s disk space remaining."
 msgstr "Este computador tem apenas %s de espaço em disco restante."
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2468
+#: plugins/media-keys/gsd-media-keys-manager.c:2479
 msgid "Bluetooth disabled"
 msgstr "Bluetooth desabilitado"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2471
+#: plugins/media-keys/gsd-media-keys-manager.c:2482
 msgid "Bluetooth enabled"
 msgstr "Bluetooth habilitado"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2475
+#: plugins/media-keys/gsd-media-keys-manager.c:2486
 msgid "Airplane mode enabled"
 msgstr "Modo avião habilitado"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2478
+#: plugins/media-keys/gsd-media-keys-manager.c:2489
 msgid "Airplane mode disabled"
 msgstr "Modo avião desabilitado"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2507
+#: plugins/media-keys/gsd-media-keys-manager.c:2518
 msgid "Hardware Airplane Mode"
 msgstr "Modo avião de hardware"
 
 #. Translators: this is a filename used for screencast
 #. * recording, where "%d" and "%t" date and time, e.g.
 #. * "Screencast from 07-17-2013 10:00:46 PM.webm"
-#: plugins/media-keys/gsd-media-keys-manager.c:2570
+#: plugins/media-keys/gsd-media-keys-manager.c:2581
 #, no-c-format
 msgid "Screencast from %d %t.webm"
 msgstr "Gravação de tela de %d %t.webm"
@@ -1830,7 +1721,7 @@ msgstr "A bateria do mouse sem fio está baixa (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:516
 #, c-format
 msgid "Wireless mouse is low in power"
-msgstr "A bateria do mouse sem fio está baixa"
+msgstr ""
 
 #. TRANSLATORS: keyboard is getting a little low
 #. TRANSLATORS: the keyboard battery is very low
@@ -1846,7 +1737,7 @@ msgstr "A bateria do teclado sem fio está baixa (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:526
 #, c-format
 msgid "Wireless keyboard is low in power"
-msgstr "A bateria do teclado sem fio está baixa"
+msgstr ""
 
 #. TRANSLATORS: PDA is getting a little low
 #. TRANSLATORS: the PDA battery is very low
@@ -1862,7 +1753,7 @@ msgstr "A bateria do PDA está baixa (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:536
 #, c-format
 msgid "PDA is low in power"
-msgstr "A bateria do PDA está baixa"
+msgstr ""
 
 #. TRANSLATORS: cell phone (mobile) is getting a little low
 #. TRANSLATORS: the cell battery is very low
@@ -1879,7 +1770,7 @@ msgstr "A bateria do telefone celular está baixa (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:546
 #, c-format
 msgid "Cell phone is low in power"
-msgstr "A bateria do telefone celular está baixa"
+msgstr ""
 
 #. TRANSLATORS: media player, e.g. mp3 is getting a little low
 #: plugins/power/gsd-power-manager.c:550
@@ -1894,7 +1785,7 @@ msgstr "A bateria do reprodutor de mídia está baixa (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:556
 #, c-format
 msgid "Media player is low in power"
-msgstr "A bateria do reprodutor de mídia está baixa"
+msgstr ""
 
 #. TRANSLATORS: graphics tablet, e.g. wacom is getting a little low
 #. TRANSLATORS: the cell battery is very low
@@ -1910,9 +1801,8 @@ msgstr "A bateria do tablet está baixa (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:566
 #, c-format
 msgid "Tablet is low in power"
-msgstr "A bateria do tablet está baixa"
+msgstr ""
 
-# Dizer 'Computador conectado' remete a idéia de computador com acesso a internet, podendo confundir o usuário. A idéia aqui é dizer que é um dispositivo anexo ao computador--Enrico
 #. TRANSLATORS: computer, e.g. ipad is getting a little low
 #. TRANSLATORS: the cell battery is very low
 #: plugins/power/gsd-power-manager.c:570 plugins/power/gsd-power-manager.c:753
@@ -1927,19 +1817,21 @@ msgstr "A bateria do dispositivo conectado à máquina está baixa (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:576
 #, c-format
 msgid "Attached computer is low in power"
-msgstr "A bateria do dispositivo conectado à máquina está baixa"
+msgstr ""
 
 #. TRANSLATORS: this is the sound description
 #: plugins/power/gsd-power-manager.c:597
 msgid "Battery is low"
 msgstr "Bateria baixa"
 
-#. TRANSLATORS: laptop battery critically low, and only have one kind of battery
+#. TRANSLATORS: laptop battery critically low, and only have one kind of
+#. battery
 #: plugins/power/gsd-power-manager.c:634
 msgid "Battery critically low"
 msgstr "Bateria criticamente baixa"
 
-#. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
+#. TRANSLATORS: laptop battery critically low, and we have more than one type
+#. of battery
 #. TRANSLATORS: laptop battery is really, really, low
 #: plugins/power/gsd-power-manager.c:637 plugins/power/gsd-power-manager.c:818
 msgid "Laptop battery critically low"
@@ -1969,18 +1861,14 @@ msgstr "Bateria do no-break criticamente baixa"
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
 "computer to avoid losing data."
-msgstr ""
-"Aproximadamente %s de energia restante no no-break (%.0f%%). Ligue o "
-"computador na tomada para evitar perda de dados."
+msgstr "Aproximadamente %s de energia restante no no-break (%.0f%%). Ligue o computador na tomada para evitar perda de dados."
 
 #: plugins/power/gsd-power-manager.c:674
 #, c-format
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"A carga do mouse sem fio está muito baixa (%.0f%%). Este dispositivo vai "
-"parar de funcionar em breve se não for carregado."
+msgstr "A carga do mouse sem fio está muito baixa (%.0f%%). Este dispositivo vai parar de funcionar em breve se não for carregado."
 
 #: plugins/power/gsd-power-manager.c:678
 #, c-format
@@ -1988,17 +1876,13 @@ msgid ""
 "Wireless mouse is very low in power. This device will soon stop functioning "
 "if not charged."
 msgstr ""
-"A carga do mouse sem fio está muito baixa. Este dispositivo vai parar de "
-"funcionar em breve se não for carregado."
 
 #: plugins/power/gsd-power-manager.c:687
 #, c-format
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"A carga do teclado sem fio está muito baixa (%.0f%%). Este dispositivo vai "
-"parar de funcionar em breve se não for carregado."
+msgstr "A carga do teclado sem fio está muito baixa (%.0f%%). Este dispositivo vai parar de funcionar em breve se não for carregado."
 
 #: plugins/power/gsd-power-manager.c:691
 #, c-format
@@ -2006,17 +1890,13 @@ msgid ""
 "Wireless keyboard is very low in power. This device will soon stop "
 "functioning if not charged."
 msgstr ""
-"A carga do teclado sem fio está muito baixa. Este dispositivo vai parar de "
-"funcionar em breve se não for carregado."
 
 #: plugins/power/gsd-power-manager.c:701
 #, c-format
 msgid ""
-"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
-"not charged."
-msgstr ""
-"A carga do PDA está muito baixa (%.0f%%). Este dispositivo vai parar de "
-"funcionar em breve se não for carregado."
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if"
+" not charged."
+msgstr "A carga do PDA está muito baixa (%.0f%%). Este dispositivo vai parar de funcionar em breve se não for carregado."
 
 #: plugins/power/gsd-power-manager.c:705
 #, c-format
@@ -2024,17 +1904,13 @@ msgid ""
 "PDA is very low in power. This device will soon stop functioning if not "
 "charged."
 msgstr ""
-"A carga do PDA está muito baixa. Este dispositivo vai parar de funcionar em "
-"breve se não for carregado."
 
 #: plugins/power/gsd-power-manager.c:715
 #, c-format
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"A carga do telefone celular está muito baixa (%.0f%%). Este dispositivo vai "
-"parar de funcionar em breve se não for carregado."
+msgstr "A carga do telefone celular está muito baixa (%.0f%%). Este dispositivo vai parar de funcionar em breve se não for carregado."
 
 #: plugins/power/gsd-power-manager.c:719
 #, c-format
@@ -2042,35 +1918,27 @@ msgid ""
 "Cell phone is very low in power. This device will soon stop functioning if "
 "not charged."
 msgstr ""
-"A carga do telefone celular está muito baixa. Este dispositivo vai parar de "
-"funcionar em breve se não for carregado."
 
 #: plugins/power/gsd-power-manager.c:729
 #, c-format
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"A carga do reprodutor de mídia está muito baixa (%.0f%%). Este dispositivo "
-"vai parar de funcionar em breve se não for carregado."
+msgstr "A carga do reprodutor de mídia está muito baixa (%.0f%%). Este dispositivo vai parar de funcionar em breve se não for carregado."
 
 #: plugins/power/gsd-power-manager.c:733
 #, c-format
 msgid ""
-"Media player is very low in power. This device will soon stop functioning if "
-"not charged."
+"Media player is very low in power. This device will soon stop functioning if"
+" not charged."
 msgstr ""
-"A carga do reprodutor de mídia está muito baixa. Este dispositivo vai parar "
-"de funcionar em breve se não for carregado."
 
 #: plugins/power/gsd-power-manager.c:743
 #, c-format
 msgid ""
-"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
-"if not charged."
-msgstr ""
-"A carga do tablet está muito baixa (%.0f%%). Este dispositivo vai parar de "
-"funcionar em breve se não for carregado."
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning"
+" if not charged."
+msgstr "A carga do tablet está muito baixa (%.0f%%). Este dispositivo vai parar de funcionar em breve se não for carregado."
 
 #: plugins/power/gsd-power-manager.c:747
 #, c-format
@@ -2078,98 +1946,85 @@ msgid ""
 "Tablet is very low in power. This device will soon stop functioning if not "
 "charged."
 msgstr ""
-"A carga do tablet está muito baixa. Este dispositivo vai parar de funcionar "
-"em breve se não for carregado."
 
 #: plugins/power/gsd-power-manager.c:757
 #, c-format
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
 "shutdown if not charged."
-msgstr ""
-"A carga do dispositivo conectado à máquina está muito baixa (%.0f%%). O "
-"dispositivo vai parar de funcionar em breve se não for carregado."
+msgstr "A carga do dispositivo conectado à máquina está muito baixa (%.0f%%). O dispositivo vai parar de funcionar em breve se não for carregado."
 
 #: plugins/power/gsd-power-manager.c:761
 #, c-format
 msgid ""
-"Attached computer is very low in power. The device will soon shutdown if not "
-"charged."
+"Attached computer is very low in power. The device will soon shutdown if not"
+" charged."
 msgstr ""
-"A carga do dispositivo conectado à máquina está muito baixa. O dispositivo "
-"vai parar de funcionar em breve se não for carregado."
 
 #. TRANSLATORS: computer will hibernate
 #: plugins/power/gsd-power-manager.c:826
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
-msgstr ""
-"A bateria está abaixo do nível crítico e este computador está prestes a "
-"hibernar."
+msgstr "A bateria está abaixo do nível crítico e este computador está prestes a hibernar."
 
 #. TRANSLATORS: computer will just shutdown
 #: plugins/power/gsd-power-manager.c:831
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "shutdown."
-msgstr ""
-"A bateria está abaixo do nível crítico e este computador está prestes a "
-"desligar."
+msgstr "A bateria está abaixo do nível crítico e este computador está prestes a desligar."
 
 #. TRANSLATORS: computer will hibernate
 #: plugins/power/gsd-power-manager.c:851
 msgid ""
 "UPS is below the critical level and this computer is about to hibernate."
-msgstr ""
-"O no-break está abaixo do nível crítico e este computador está prestes a "
-"hibernar."
+msgstr "O no-break está abaixo do nível crítico e este computador está prestes a hibernar."
 
 #. TRANSLATORS: computer will just shutdown
 #: plugins/power/gsd-power-manager.c:856
-msgid "UPS is below the critical level and this computer is about to shutdown."
-msgstr ""
-"O no-break está abaixo do nível crítico e este computador está prestes a "
-"desligar."
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
+msgstr "O no-break está abaixo do nível crítico e este computador está prestes a desligar."
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1333
+#: plugins/power/gsd-power-manager.c:1339
 msgid "Lid has been opened"
 msgstr "A tampa foi aberta"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1367
+#: plugins/power/gsd-power-manager.c:1373
 msgid "Lid has been closed"
 msgstr "A tampa foi fechada"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1934
+#: plugins/power/gsd-power-manager.c:1942
 msgid "On battery power"
 msgstr "Computador ligado à energia da bateria"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1939
+#: plugins/power/gsd-power-manager.c:1947
 msgid "On AC power"
 msgstr "Ligado na tomada"
 
-#: plugins/power/gsd-power-manager.c:2127
+#: plugins/power/gsd-power-manager.c:2135
 msgid "Automatic logout"
 msgstr "Encerramento de sessão automático"
 
-#: plugins/power/gsd-power-manager.c:2127
+#: plugins/power/gsd-power-manager.c:2135
 msgid "You will soon log out because of inactivity."
 msgstr "Em breve sua sessão será encerrada devido inatividade."
 
-#: plugins/power/gsd-power-manager.c:2132
+#: plugins/power/gsd-power-manager.c:2140
 msgid "Automatic suspend"
 msgstr "Suspensão automática"
 
-#: plugins/power/gsd-power-manager.c:2132
-#: plugins/power/gsd-power-manager.c:2137
+#: plugins/power/gsd-power-manager.c:2140
+#: plugins/power/gsd-power-manager.c:2145
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "Computador iá suspender em breve por causa de inatividade."
 
-#: plugins/power/gsd-power-manager.c:2137
+#: plugins/power/gsd-power-manager.c:2145
 msgid "Automatic hibernation"
 msgstr "Hibernação automática"
 
@@ -2225,31 +2080,36 @@ msgstr "Impressoras"
 msgid "Printer “%s” is low on toner."
 msgstr "A impressora “%s” está com toner baixo."
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:406
 #, c-format
 msgid "Printer “%s” has no toner left."
 msgstr "A impressora “%s” está sem toner."
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:410
 #, c-format
 msgid "Printer “%s” may not be connected."
 msgstr "A impressora “%s” pode não estar conectada."
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:414
 #, c-format
 msgid "The cover is open on printer “%s”."
 msgstr "A tampa da impressora “%s” está aberta."
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:418
 #, c-format
 msgid "There is a missing print filter for printer “%s”."
 msgstr "Há um filtro de impressão faltando para a impressora “%s”."
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:423
 #, c-format
 msgid "The door is open on printer “%s”."
@@ -2267,13 +2127,15 @@ msgstr "A impressora “%s” está com um marcador de suprimento de tinta baixo
 msgid "Printer “%s” is out of a marker supply."
 msgstr "A impressora “%s” está sem um marcador de suprimento de tinta."
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:435
 #, c-format
 msgid "Printer “%s” is low on paper."
 msgstr "A impressora “%s” está com pouco papel."
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:439
 #, c-format
 msgid "Printer “%s” is out of paper."
@@ -2285,13 +2147,15 @@ msgstr "A impressora “%s” está sem papel."
 msgid "Printer “%s” is currently off-line."
 msgstr "A impressora “%s” está atualmente desconectada."
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:447
 #, c-format
 msgid "There is a problem on printer “%s”."
 msgstr "Há um problema com a impressora “%s”."
 
-#. Translators: The printer has a job to print but the printer needs authentication to continue with the print
+#. Translators: The printer has a job to print but the printer needs
+#. authentication to continue with the print
 #: plugins/print-notifications/gsd-print-notifications-manager.c:559
 #, c-format
 msgid "%s Requires Authentication"
@@ -2308,27 +2172,32 @@ msgstr "Credenciais são necessárias para imprimir"
 msgid "Toner low"
 msgstr "Toner baixo"
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:630
 msgid "Toner empty"
 msgstr "Toner vazio"
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:632
 msgid "Not connected?"
 msgstr "Não conectado?"
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:634
 msgid "Cover open"
 msgstr "Tampa aberta"
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:636
 msgid "Printer configuration error"
 msgstr "Erro de configuração de impressora"
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:638
 msgid "Door open"
 msgstr "Porta aberta"
@@ -2343,12 +2212,14 @@ msgstr "Marcador de suprimento de tinta baixo"
 msgid "Out of a marker supply"
 msgstr "Sem marcador de suprimento de tinta"
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:644
 msgid "Paper low"
 msgstr "Pouco papel"
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:646
 msgid "Out of paper"
 msgstr "Sem papel"
@@ -2358,7 +2229,8 @@ msgstr "Sem papel"
 msgid "Printer off-line"
 msgstr "Impressora desconectada"
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #. Translators: This is a title of an error notification for a printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:650
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1026
@@ -2431,13 +2303,13 @@ msgstr "Relatório da impressora"
 msgid "Printer warning"
 msgstr "Advertência da impressora"
 
-#. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
+#. Translators: "Printer 'MyPrinterName': 'Description of the
+#. report/warning/error from a PPD file'."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1033
 #, c-format
 msgid "Printer “%s”: “%s”."
 msgstr "Impressora “%s”: “%s”."
 
-# Não deve ser usado 'conectado' pois o fato de conectar o cartão inteligente não implica diretamente em inicio de sessão (ex: pode estar conectado, mas não ser reconhecido)--Enrico
 #: plugins/smartcard/gsd-smartcard-service.c:282
 msgid "User was not logged in with smartcard."
 msgstr "O usuário não havia iniciado sessão com cartão inteligente."
@@ -2454,28 +2326,18 @@ msgstr "Novo dispositivo USB"
 msgid ""
 "New device has been detected while the session was not locked. If you did "
 "not plug anything, check your system for any suspicious device."
-msgstr ""
-"Um novo dispositivo foi detectado enquanto a sessão não estava bloqueada. Se "
-"você não conectou nada, verifique se há algum dispositivo suspeito no seu "
-"sistema."
+msgstr "Um novo dispositivo foi detectado enquanto a sessão não estava bloqueada. Se você não conectou nada, verifique se há algum dispositivo suspeito no seu sistema."
 
 #: plugins/usb-protection/gsd-usb-protection-manager.c:589
-#| msgid "New keyboard detected"
 msgid "New device detected"
-msgstr "Novo dispositivo detectado"
+msgstr ""
 
 #: plugins/usb-protection/gsd-usb-protection-manager.c:590
-#| msgid ""
-#| "Either your keyboard has been reconnected or a new one has been plugged "
-#| "in. If you did not do it, check your system for any suspicious device."
 msgid ""
 "Either one of your existing devices has been reconnected or a new one has "
 "been plugged in. If you did not do it, check your system for any suspicious "
 "device."
 msgstr ""
-"Um dos seus dispositivos existentes foi reconectado ou um novo foi "
-"conectado. Se você não fez isso, verifique se há algum dispositivo suspeito "
-"no sistema."
 
 #: plugins/usb-protection/gsd-usb-protection-manager.c:596
 msgid "Reconnect USB device"
@@ -2485,9 +2347,7 @@ msgstr "Reconectar dispositivo USB"
 msgid ""
 "New device has been detected while you were away. Please disconnect and "
 "reconnect the device to start using it."
-msgstr ""
-"Um novo dispositivo foi detectado enquanto você estava ausente. Desconecte e "
-"reconecte o dispositivo para começar a usá-lo."
+msgstr "Um novo dispositivo foi detectado enquanto você estava ausente. Desconecte e reconecte o dispositivo para começar a usá-lo."
 
 #: plugins/usb-protection/gsd-usb-protection-manager.c:603
 #: plugins/usb-protection/gsd-usb-protection-manager.c:628
@@ -2498,16 +2358,13 @@ msgstr "Dispositivo USB bloqueado"
 msgid ""
 "New device has been detected while you were away. It has been blocked "
 "because the USB protection is active."
-msgstr ""
-"Um novo dispositivo foi detectado enquanto você estava ausente. Foi "
-"bloqueado porque a proteção USB está ativa."
+msgstr "Um novo dispositivo foi detectado enquanto você estava ausente. Foi bloqueado porque a proteção USB está ativa."
 
 #: plugins/usb-protection/gsd-usb-protection-manager.c:629
 msgid ""
 "The new inserted device has been blocked because the USB protection is "
 "active."
-msgstr ""
-"O novo dispositivo inserido foi bloqueado porque a proteção USB está ativa."
+msgstr "O novo dispositivo inserido foi bloqueado porque a proteção USB está ativa."
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
@@ -2518,8 +2375,7 @@ msgstr "Modificar a iluminação LED de um tablet Wacom"
 
 #: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:21
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
-msgstr ""
-"É necessário autenticar-se para modificar a iluminação LED de um tablet Wacom"
+msgstr "É necessário autenticar-se para modificar a iluminação LED de um tablet Wacom"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
@@ -2530,209 +2386,83 @@ msgstr "Modificar a imagem OLED de um tablet Wacom"
 
 #: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:36
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
-msgstr ""
-"Autenticação é necessária para modificar a imagem OLED de um tablet Wacom"
+msgstr "Autenticação é necessária para modificar a imagem OLED de um tablet Wacom"
 
 #: plugins/wwan/cc-wwan-errors-private.h:40
 msgid "Phone failure"
-msgstr "Falha no telefone"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:41
 msgid "No connection to phone"
-msgstr "Sem conexão com o telefone"
-
-#: plugins/wwan/cc-wwan-errors-private.h:42
-msgid "Phone-adaptor link reserved"
-msgstr "Vínculo com adaptador do telefone reservado"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:43
 msgid "Operation not allowed"
-msgstr "Operação não permitida"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:44
 msgid "Operation not supported"
-msgstr "Operação sem suporte"
-
-#: plugins/wwan/cc-wwan-errors-private.h:45
-msgid "PH-SIM PIN required"
-msgstr "PIN de PH-SIM necessário"
-
-#: plugins/wwan/cc-wwan-errors-private.h:46
-msgid "PH-FSIM PIN required"
-msgstr "PIN de PH-FSIM necessário"
-
-#: plugins/wwan/cc-wwan-errors-private.h:47
-msgid "PH-FSIM PUK required"
-msgstr "PUK de PH-FSIM necessário"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:48
 msgid "SIM not inserted"
-msgstr "SIM não inserido"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:49
 msgid "SIM PIN required"
-msgstr "PIN de SIM necessário"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:50
 msgid "SIM PUK required"
-msgstr "PUK de SIM necessário"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:51
 msgid "SIM failure"
-msgstr "Falha no SIM"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:52
 msgid "SIM busy"
-msgstr "SIM ocupado"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:53
 msgid "SIM wrong"
-msgstr "SIM errado"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:54
 msgid "Incorrect password"
-msgstr "Senha incorreta"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:55
 msgid "SIM PIN2 required"
-msgstr "PIN2 de SIM necessário"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:56
 msgid "SIM PUK2 required"
-msgstr "PUK2 de SIM necessário"
-
-#: plugins/wwan/cc-wwan-errors-private.h:57
-msgid "Memory full"
-msgstr "Memória cheia"
-
-#: plugins/wwan/cc-wwan-errors-private.h:58
-msgid "Invalid index"
-msgstr "Índice inválido"
-
-#: plugins/wwan/cc-wwan-errors-private.h:59
-msgid "Not found"
-msgstr "Não encontrado"
-
-#: plugins/wwan/cc-wwan-errors-private.h:60
-msgid "Memory failure"
-msgstr "Falha na memória"
-
-#: plugins/wwan/cc-wwan-errors-private.h:61
-msgid "No network service"
-msgstr "Sem serviço de rede"
-
-#: plugins/wwan/cc-wwan-errors-private.h:62
-msgid "Network timeout"
-msgstr "Esgotado tempo limite de rede"
-
-#: plugins/wwan/cc-wwan-errors-private.h:63
-msgid "Network not allowed - emergency calls only"
-msgstr "Rede não permitida - chamadas de emergência apenas"
-
-#: plugins/wwan/cc-wwan-errors-private.h:64
-msgid "Network personalization PIN required"
-msgstr "PIN de personalização de rede necessário"
-
-#: plugins/wwan/cc-wwan-errors-private.h:65
-msgid "Network personalization PUK required"
-msgstr "PUK de personalização de rede necessário"
-
-#: plugins/wwan/cc-wwan-errors-private.h:66
-msgid "Network subset personalization PIN required"
-msgstr "PIN de personalização de subconjunto de rede necessário"
-
-#: plugins/wwan/cc-wwan-errors-private.h:67
-msgid "Network subset personalization PUK required"
-msgstr "PUK de personalização de subconjunto de rede necessário"
-
-#: plugins/wwan/cc-wwan-errors-private.h:68
-msgid "Service provider personalization PIN required"
-msgstr "PIN de personalização de provedor de serviço necessário"
-
-#: plugins/wwan/cc-wwan-errors-private.h:69
-msgid "Service provider personalization PUK required"
-msgstr "PUK de personalização de provedor de serviço necessário"
-
-#: plugins/wwan/cc-wwan-errors-private.h:70
-msgid "Corporate personalization PIN required"
-msgstr "PIN de personalização empresarial necessário"
-
-#: plugins/wwan/cc-wwan-errors-private.h:71
-msgid "Corporate personalization PUK required"
-msgstr "PUK de personalização empresarial necessário"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:72
 msgid "Unknown error"
-msgstr "Erro desconhecido"
-
-#: plugins/wwan/cc-wwan-errors-private.h:73
-msgid "Illegal MS"
-msgstr "MS ilegal"
-
-#: plugins/wwan/cc-wwan-errors-private.h:74
-msgid "Illegal ME"
-msgstr "ME ilegal"
-
-#: plugins/wwan/cc-wwan-errors-private.h:75
-msgid "GPRS services not allowed"
-msgstr "Serviços GPRS não permitidos"
-
-# PLMN = Rede Móvel por Terra Pública
-#: plugins/wwan/cc-wwan-errors-private.h:76
-msgid "PLMN not allowed"
-msgstr "PLMN não permitida"
-
-#: plugins/wwan/cc-wwan-errors-private.h:77
-msgid "Location area not allowed"
-msgstr "Área de localização não permitida"
-
-#: plugins/wwan/cc-wwan-errors-private.h:78
-msgid "Roaming not allowed in this location area"
-msgstr "Roaming não permitido nesta área de localização"
-
-#: plugins/wwan/cc-wwan-errors-private.h:79
-msgid "Service option not supported"
-msgstr "Opção de serviço não suportada"
-
-#: plugins/wwan/cc-wwan-errors-private.h:80
-msgid "Requested service option not subscribed"
-msgstr "Opção de serviço solicitada não assinada"
-
-#: plugins/wwan/cc-wwan-errors-private.h:81
-msgid "Service option temporarily out of order"
-msgstr "Opção de serviço temporariamente fora de serviço"
-
-#: plugins/wwan/cc-wwan-errors-private.h:82
-msgid "Unspecified GPRS error"
-msgstr "Erro GPRS não especificado"
-
-#: plugins/wwan/cc-wwan-errors-private.h:83
-msgid "PDP authentication failure"
-msgstr "Falha de autenticação PDP"
-
-#: plugins/wwan/cc-wwan-errors-private.h:84
-msgid "Invalid mobile class"
-msgstr "Classe móvel inválida"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:91
 msgid "Action Cancelled"
-msgstr "Ação cancelada"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:94
 msgid "Access denied"
-msgstr "Acesso negado"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:103
 msgid "Unknown Error"
-msgstr "Erro desconhecido"
+msgstr ""
 
 #: plugins/wwan/gsd-wwan-manager.c:117
 msgid "New PIN for SIM"
-msgstr "Novo PIN para o SIM"
+msgstr ""
 
 #: plugins/wwan/gsd-wwan-manager.c:118
 msgid "Set"
-msgstr "Definir"
+msgstr ""
 
 #: plugins/wwan/gsd-wwan-manager.c:120
 msgid "Unlock SIM card"
@@ -2749,11 +2479,11 @@ msgstr "Cancelar"
 #: plugins/wwan/gsd-wwan-manager.c:129
 #, c-format
 msgid "Please provide a new PIN for SIM card %s"
-msgstr "Por favor, forneça um novo PIN para o cartão SIM %s"
+msgstr ""
 
 #: plugins/wwan/gsd-wwan-manager.c:131
 msgid "Enter a New PIN to unlock your SIM card"
-msgstr "Inserir um novo PIN para desbloquear seu cartão SIM"
+msgstr ""
 
 #: plugins/wwan/gsd-wwan-manager.c:133
 #, c-format
@@ -2767,19 +2497,19 @@ msgstr "Inserir PIN para desbloquear seu cartão SIM"
 #: plugins/wwan/gsd-wwan-manager.c:138
 #, c-format
 msgid "Please provide the PUK for SIM card %s"
-msgstr "Por favor, forneça o PUK para o cartão SIM %s"
+msgstr ""
 
 #: plugins/wwan/gsd-wwan-manager.c:140
 msgid "Enter PUK to unlock your SIM card"
-msgstr "Inserir PUK para desbloquear seu cartão SIM"
+msgstr ""
 
 #. msg is already localised
 #: plugins/wwan/gsd-wwan-manager.c:156
 #, c-format
 msgid "%2$s. You have %1$u try left"
 msgid_plural "%2$s. You have %1$u tries left"
-msgstr[0] "%2$s Você tem %1$u tentativa restante"
-msgstr[1] "%2$s Você tem %1$u tentativas restantes"
+msgstr[0] ""
+msgstr[1] ""
 
 #: plugins/wwan/gsd-wwan-manager.c:160
 #, c-format
@@ -2787,1273 +2517,3 @@ msgid "You have %u try left"
 msgid_plural "You have %u tries left"
 msgstr[0] "Você tem %1$u tentativa restante"
 msgstr[1] "Você tem %1$u tentativas restantes"
-
-#~ msgid "SIM card unlock error"
-#~ msgstr "Erro ao desbloquear o cartão SIM"
-
-#~ msgid "OK"
-#~ msgstr "OK"
-
-#~ msgid "Too many incorrect PINs."
-#~ msgstr "Número excessivo de PINs incorretos."
-
-#~ msgid "Wrong PIN code"
-#~ msgstr "Código PIN incorreto."
-
-#~ msgid "NumLock state"
-#~ msgstr "Estado do NumLock"
-
-#~ msgid "The remembered state of the NumLock LED."
-#~ msgstr "O estado lembrado do LED do NumLock."
-
-#~ msgid ""
-#~ "Highlights the current location of the pointer when the Control key is "
-#~ "pressed and released."
-#~ msgstr ""
-#~ "Realça a localização atual do ponteiro quando a tecla de controle é "
-#~ "pressiona e solta."
-
-# toggle = "Alternador de" ou "Alternar"
-#~ msgid "Touchpad toggle"
-#~ msgstr "Alternador de touchpad"
-
-#~ msgid "Quiet Volume Mute"
-#~ msgstr "Mudo"
-
-#~ msgid "Lock Screen"
-#~ msgstr "Bloquear tela"
-
-#~ msgid "Help"
-#~ msgstr "Ajuda"
-
-#~ msgid "Rewind"
-#~ msgstr "Retroceder"
-
-#~ msgid "Forward"
-#~ msgstr "Avançar"
-
-#~ msgid "Repeat"
-#~ msgstr "Repetir"
-
-#~ msgid "Random Play"
-#~ msgstr "Reprodução aleatória"
-
-#~ msgid "Orientation Lock"
-#~ msgstr "Bloqueio de orientação"
-
-#~ msgid "Power Off"
-#~ msgstr "Desligar"
-
-#~ msgid "Sleep"
-#~ msgstr "Dormir"
-
-#~ msgid "Toggle Bluetooth"
-#~ msgstr "Alternar Bluetooth"
-
-#~ msgid "Slow Keys Turned On"
-#~ msgstr "As teclas lentas foram ligadas"
-
-#~ msgid "Slow Keys Turned Off"
-#~ msgstr "As teclas lentas foram desligadas"
-
-#~ msgid ""
-#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
-#~ "the Slow Keys feature, which affects the way your keyboard works."
-#~ msgstr ""
-#~ "Você segurou a tecla Shift por 8 segundos. Esse é o atalho para teclas "
-#~ "lentas, que afetam o modo de funcionamento do seu teclado."
-
-#~ msgid "Universal Access"
-#~ msgstr "Acessibilidade"
-
-#~ msgid "Turn Off"
-#~ msgstr "Desligar"
-
-#~ msgid "Turn On"
-#~ msgstr "Ligar"
-
-#~ msgid "Leave On"
-#~ msgstr "Deixar ligado"
-
-#~ msgid "Leave Off"
-#~ msgstr "Deixar desligado"
-
-#~ msgid "Sticky Keys Turned On"
-#~ msgstr "Teclas de aderência foram ligadas"
-
-#~ msgid "Sticky Keys Turned Off"
-#~ msgstr "Teclas de aderência foram desligadas"
-
-#~ msgid ""
-#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
-#~ "for the Sticky Keys feature, which affects the way your keyboard works."
-#~ msgstr ""
-#~ "Você acaba de pressionar a tecla Shift 5 vezes consecutivas. Esse é um "
-#~ "atalho de teclado para a função de Teclas de aderência, que afeta a forma "
-#~ "como seu teclado funciona."
-
-#~ msgid ""
-#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
-#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
-#~ "keyboard works."
-#~ msgstr ""
-#~ "Você acaba de pressionar duas teclas de uma vez ou a tecla Shift 5 vezes "
-#~ "consecutivas. Isso desliga a função de Teclas de aderência, que afeta a "
-#~ "forma como seu teclado funciona."
-
-#~ msgid "Disabled"
-#~ msgstr "Desabilitado"
-
-#~ msgid "%u Output"
-#~ msgid_plural "%u Outputs"
-#~ msgstr[0] "%u saída"
-#~ msgstr[1] "%u saídas"
-
-#~ msgid "%u Input"
-#~ msgid_plural "%u Inputs"
-#~ msgstr[0] "%u entrada"
-#~ msgstr[1] "%u entradas"
-
-#~ msgid "System Sounds"
-#~ msgstr "Sons do sistema"
-
-#~ msgid "File for default configuration for RandR"
-#~ msgstr "Arquivo de configuração padrão para RandR"
-
-#~| msgid ""
-#~| "The XRandR plugin will look for a default configuration in the file "
-#~| "specified by this key. This is similar to the ~/.config/monitors.xml "
-#~| "that normally gets stored in users' home directories. If a user does not "
-#~| "have such a file, or has one that does not match the user's setup of "
-#~| "monitors, then the file specified by this key will be used instead."
-#~ msgid ""
-#~ "The XRandR plugin will look for a default configuration in the file "
-#~ "specified by this key. This is similar to the ~/.config/monitors.xml that "
-#~ "normally gets stored in users’ home directories. If a user does not have "
-#~ "such a file, or has one that does not match the user’s setup of monitors, "
-#~ "then the file specified by this key will be used instead."
-#~ msgstr ""
-#~ "O plug-in XRandR irá procurar por uma configuração padrão no arquivo "
-#~ "especificado por esta chave. Isto é similar a ~/.config/monitors.xml que "
-#~ "normalmente é armazenado no diretório home do usuário. Se um usuário não "
-#~ "tem um arquivo desse tipo ou tem um que não corresponda à configuração de "
-#~ "usuário para monitores, então o arquivo especificado por esta chave será "
-#~ "usado."
-
-#~ msgid "Whether to turn off specific monitors after boot"
-#~ msgstr "Apagar monitores específicos depois do boot"
-
-#~| msgid ""
-#~| "'clone' will display the same thing on all monitors, 'dock' will switch "
-#~| "off the internal monitor, 'do-nothing' will use the default Xorg "
-#~| "behaviour (extend the desktop in recent versions). The default, 'follow-"
-#~| "lid', will choose between 'do-nothing' and 'dock' depending on whether "
-#~| "the lid is (respectively) open or closed."
-#~ msgid ""
-#~ "“clone” will display the same thing on all monitors, “dock” will switch "
-#~ "off the internal monitor, “do-nothing” will use the default Xorg "
-#~ "behaviour (extend the desktop in recent versions). The default, “follow-"
-#~ "lid”, will choose between “do-nothing” and “dock” depending on whether "
-#~ "the lid is (respectively) open or closed."
-#~ msgstr ""
-#~ "“clone” irá exibir a mesma coisa em todos os monitores “dock” irá "
-#~ "alternar o monitor interno, “do-nothing” irá usar o comportamento padrão "
-#~ "do Xorg (estende o ambiente de trabalho em versões recentes). O padrão, "
-#~ "“follow-lid”, vai escolher entre “do-nothing” e “dock”, dependendo de se "
-#~ "a tampa está (respectivamente) aberta ou fechada."
-
-#~ msgid "Video Out"
-#~ msgstr "Saída de vídeo"
-
-#~ msgid "Rotate Screen"
-#~ msgstr "Girar a tela"
-
-#~ msgid "Could not refresh the screen information: %s"
-#~ msgstr "Não foi possível atualizar a informação da tela: %s"
-
-#~ msgid "GNOME Settings Daemon"
-#~ msgstr "Daemon de configurações do GNOME"
-
-#~ msgid "Activation of this plugin"
-#~ msgstr "Ativação deste plug-in"
-
-#~ msgid ""
-#~ "Whether this plugin would be activated by gnome-settings-daemon or not"
-#~ msgstr "Habilitar este plug-in pelo gnome-settings-daemon ou não"
-
-#~ msgid "Priority to use for this plugin"
-#~ msgstr "Prioridade para usar este plug-in"
-
-#~ msgid ""
-#~ "Priority to use for this plugin in gnome-settings-daemon startup queue"
-#~ msgstr ""
-#~ "Prioridade para usar este plug-in na fila de inicialização do gnome-"
-#~ "settings-daemon"
-
-#~ msgid "Enable debugging code"
-#~ msgstr "Habilitar código de depuração"
-
-#~ msgid "Replace existing daemon"
-#~ msgstr "Substituir daemon existente"
-
-#~ msgid "Exit after a time (for debugging)"
-#~ msgstr "Sair depois de um tempo (para depuração)"
-
-#~ msgid "Accessibility Keyboard"
-#~ msgstr "Acessibilidade do teclado"
-
-#~ msgid "Accessibility keyboard plugin"
-#~ msgstr "Plug-in de acessibilidade do teclado"
-
-#~ msgid "Accessibility settings"
-#~ msgstr "Configurações de acessibilidade"
-
-#~ msgid "Accessibility settings plugin"
-#~ msgstr "Plug-in de configurações acessibilidade"
-
-#~ msgid "Clipboard"
-#~ msgstr "Área de transferência"
-
-#~ msgid "Clipboard plugin"
-#~ msgstr "Plug-in da área de transferência"
-
-#~ msgid "Color plugin"
-#~ msgstr "Plug-in de cor"
-
-#~ msgid "Date and Time"
-#~ msgstr "Data e Hora"
-
-#~ msgid "Automatically update timezone"
-#~ msgstr "Atualizar automaticamente o fuso horário"
-
-#~ msgid "Dummy"
-#~ msgstr "Teste"
-
-#~ msgid "Dummy plugin"
-#~ msgstr "Plug-in de teste"
-
-#~ msgid "Housekeeping"
-#~ msgstr "Limpeza"
-
-#~ msgid ""
-#~ "Automatically prunes thumbnail caches and other transient files, and "
-#~ "warns about low disk space"
-#~ msgstr ""
-#~ "Apaga automaticamente caches de miniaturas e outros arquivos transientes, "
-#~ "e avisa sobre pouco espaço em disco"
-
-#~ msgid "Keyboard"
-#~ msgstr "Teclado"
-
-#~ msgid "Keyboard plugin"
-#~ msgstr "Plug-in do teclado"
-
-#~ msgid "Media keys"
-#~ msgstr "Teclas de mídia"
-
-#~ msgid "Media keys plugin"
-#~ msgstr "Plug-in de teclas de mídia"
-
-#~ msgid "Mouse"
-#~ msgstr "Mouse"
-
-#~ msgid "Mouse plugin"
-#~ msgstr "Plug-in de mouse"
-
-#~ msgid "Orientation"
-#~ msgstr "Orientação"
-
-#~ msgid "Orientation plugin"
-#~ msgstr "Plug-in de orientação"
-
-#~ msgid "Power plugin"
-#~ msgstr "Plug-in de energia"
-
-#~ msgid "Print-notifications"
-#~ msgstr "Exibir-notificações"
-
-#~ msgid "Print-notifications plugin"
-#~ msgstr "Plug-in de exibir-notificações"
-
-#~ msgid "Rfkill plugin"
-#~ msgstr "Plug-in de rfkill"
-
-#~ msgid "Screensaver Proxy"
-#~ msgstr "Proxy de proteção de tela"
-
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
-#~ msgstr ""
-#~ "Proxy para inibição de proteção de tela FreeDesktop para gnome-session"
-
-#~ msgid "Smartcard"
-#~ msgstr "Cartão inteligente"
-
-#~ msgid "Smartcard plugin"
-#~ msgstr "Plug-in do cartão inteligente"
-
-#~ msgid "Sound"
-#~ msgstr "Áudio"
-
-#~ msgid "Sound Sample Cache plugin"
-#~ msgstr "Plug-in de cache de amostras de áudio"
-
-#~ msgctxt "Wacom action-type"
-#~ msgid "None"
-#~ msgstr "Nenhum"
-
-#~ msgctxt "Wacom action-type"
-#~ msgid "Send Keystroke"
-#~ msgstr "Envia combinação de teclas"
-
-#~ msgctxt "Wacom action-type"
-#~ msgid "Switch Monitor"
-#~ msgstr "Alternar monitor"
-
-#~ msgctxt "Wacom action-type"
-#~ msgid "Show On-Screen Help"
-#~ msgstr "Mostra ajuda na tela"
-
-#~ msgctxt "Action type"
-#~ msgid "Show On-Screen Help"
-#~ msgstr "Mostra ajuda na tela"
-
-#~ msgctxt "Action type"
-#~ msgid "Switch Monitor"
-#~ msgstr "Alternar monitor"
-
-#~ msgctxt "keyboard shortcut"
-#~ msgid "None"
-#~ msgstr "Nenhum"
-
-#~ msgid "Done"
-#~ msgstr "Pronto"
-
-#~ msgid "Left Ring"
-#~ msgstr "Ring da esquerda"
-
-#~ msgid "Left Ring Mode #%d"
-#~ msgstr "Modo Ring esquerdo #%d"
-
-#~ msgid "Right Ring"
-#~ msgstr "Ring da direita"
-
-#~ msgid "Right Ring Mode #%d"
-#~ msgstr "Modo Ring direito #%d"
-
-#~ msgid "Left Touchstrip"
-#~ msgstr "Touchstrip da esquerda"
-
-#~ msgid "Left Touchstrip Mode #%d"
-#~ msgstr "Modo Touchstrip esquerdo #%d"
-
-#~ msgid "Right Touchstrip"
-#~ msgstr "Touchstrip da direita"
-
-#~ msgid "Right Touchstrip Mode #%d"
-#~ msgstr "Modo Touchstrip direito #%d"
-
-#~ msgid "Left Touchring Mode Switch"
-#~ msgstr "Alternador de modo Touchring esquerdo"
-
-#~ msgid "Right Touchring Mode Switch"
-#~ msgstr "Alternador de modo Touchring direito"
-
-#~ msgid "Left Touchstrip Mode Switch"
-#~ msgstr "Alternador de modo Touchstrip esquerdo"
-
-#~ msgid "Right Touchstrip Mode Switch"
-#~ msgstr "Alternador de modo Touchstrip direito"
-
-#~ msgid "Mode Switch #%d"
-#~ msgstr "Alternador de modo #%d"
-
-#~ msgid "Left Button #%d"
-#~ msgstr "Botão esquerdo #%d"
-
-#~ msgid "Right Button #%d"
-#~ msgstr "Botão direito #%d"
-
-#~ msgid "Top Button #%d"
-#~ msgstr "Botão superior #%d"
-
-#~ msgid "Bottom Button #%d"
-#~ msgstr "Botão inferior #%d"
-
-#~ msgid "New shortcut…"
-#~ msgstr "Novo atalho…"
-
-#~ msgid "The \"%s\" tablet may not work as expected."
-#~ msgstr "O tablet \"%s\" pode não funcionar como esperado."
-
-#~ msgid "Unknown Tablet Connected"
-#~ msgstr "Tablet desconhecido conectado"
-
-#~ msgid "Wacom Settings"
-#~ msgstr "Configurações do Wacom"
-
-#~ msgctxt "Action type"
-#~ msgid "None"
-#~ msgstr "Nenhum"
-
-#~ msgctxt "Action type"
-#~ msgid "Send Keystroke %s"
-#~ msgstr "Envia combinação de teclas %s"
-
-#~ msgid "Mode %d: %s"
-#~ msgstr "Modo %d: %s"
-
-#~ msgid "(press any key to exit)"
-#~ msgstr "(pressione qualquer tecla para sair)"
-
-#~ msgid "Push a button to configure"
-#~ msgstr "Pressione um botão para configurar"
-
-#~ msgid "(Esc to cancel)"
-#~ msgstr "(Esc para cancelar)"
-
-#~ msgid "Edit"
-#~ msgstr "Editar"
-
-#~ msgid "Wacom"
-#~ msgstr "Wacom"
-
-#~ msgid "Wacom plugin"
-#~ msgstr "Plug-in de Wacom"
-
-#~ msgid "XRandR"
-#~ msgstr "XRandR"
-
-#~ msgid "Set up screen size and rotation settings"
-#~ msgstr "Definir um tamanho de tela e definições de rotação"
-
-#~ msgid "X Settings"
-#~ msgstr "Configurações do X"
-
-#~ msgid "Manage X Settings"
-#~ msgstr "Gerenciar configurações do X"
-
-#~ msgid "Device hotplug custom command"
-#~ msgstr "Comando customizado de hotplug de dispositivo"
-
-#~ msgid ""
-#~ "Command to be run when a device is added or removed. An exit value of 1 "
-#~ "means that the device will not be handled further by gnome-settings-"
-#~ "daemon."
-#~ msgstr ""
-#~ "Comando para ser executado quando um dispositivo é adicionado ou "
-#~ "removido. Um valor de saída de 1 significa que o dispositivo não via ser "
-#~ "manipulado posteriormente pelo gnome-settings-daemon."
-
-#~ msgid ""
-#~ "The type of hinting to use when rendering fonts. Possible values are: "
-#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
-#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
-#~ msgstr ""
-#~ "O tipo de hinting a utilizar ao renderizar fontes. Valores possíveis são: "
-#~ "\"none\" (nenhum), \"slight\" (discreto), \"medium\" (médio) , e \"full"
-#~ "\" (completo) (poderá causar distorção na forma das letras)."
-
-#~ msgid "Wacom last calibrated resolution"
-#~ msgstr "Última resolução calibrada no Wacom"
-
-#~ msgid ""
-#~ "Holds the last calibrated resolution to help check if calibration is "
-#~ "needed."
-#~ msgstr ""
-#~ "Manter a última resolução calibrada para ajudar a verificar se a "
-#~ "calibração é necessária."
-
-#~ msgid "Cursor"
-#~ msgstr "Cursor"
-
-#~ msgid "Show/hide cursor on tablet devices"
-#~ msgstr "Mostra/oculta cursor em dispositivos de tablet"
-
-#~ msgid "Don't show any warnings again for this file system"
-#~ msgstr "Não mostrar quaisquer avisos novamente para este sistema de arquivo"
-
-#~ msgid "Don't show any warnings again"
-#~ msgstr "Não mostrar quaisquer avisos novamente"
-
-#~ msgid "The volume \"%s\" has only %s disk space remaining."
-#~ msgstr "O volume \"%s\" tem apenas %s de espaço em disco restante."
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to another disk or partition."
-#~ msgstr ""
-#~ "Você pode liberar espaço em disco esvaziando a lixeira, removendo "
-#~ "programas ou arquivos inutilizados, ou movendo arquivos para outro disco "
-#~ "ou partição."
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to another disk or partition."
-#~ msgstr ""
-#~ "Você pode liberar espaço em disco removendo programas ou arquivos "
-#~ "inutilizados, ou movendo arquivos para outro disco ou partição."
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to an external disk."
-#~ msgstr ""
-#~ "Você pode liberar espaço em disco esvaziando a lixeira, removendo "
-#~ "programas ou arquivos inutilizados, ou movendo arquivos para um disco "
-#~ "externo."
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to an external disk."
-#~ msgstr ""
-#~ "Você pode liberar espaço em disco removendo programas ou arquivos "
-#~ "inutilizados, ou movendo arquivos para um disco externo."
-
-#~ msgid "Examine…"
-#~ msgstr "Examinar…"
-
-#~ msgid "Printer removed"
-#~ msgstr "Impressora removida"
-
-#~ msgid "Tablet %s needs to be calibrated."
-#~ msgstr "O tablet \"%s\" precisa ser calibrado."
-
-#~ msgid "Calibration needed"
-#~ msgstr "Calibração necessária"
-
-#~ msgid "Calibrate"
-#~ msgstr "Calibrar"
-
-#~ msgid "Wacom display mapping"
-#~ msgstr "Mapeamento do Wacom para o monitor"
-
-#~ msgid ""
-#~ "EDID information of monitor to map tablet to. Must be in the format "
-#~ "[vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
-#~ msgstr ""
-#~ "Informação EDID do monitor no qual o tablet deve ser mapeado. Deve estar "
-#~ "no formato [fabricante, produto, serial]. [\"\", \"\", \"\"] desabilita o "
-#~ "mapeamento."
-
-#~ msgid "Use mobile broadband connections"
-#~ msgstr "Usar conexões de internet móvel"
-
-#~ msgid ""
-#~ "Use mobile broadband connections such as GSM and CDMA to check for "
-#~ "updates."
-#~ msgstr ""
-#~ "Usa conexões de internet móvel GSM e CDMA para verificar atualizações."
-
-#~ msgid ""
-#~ "Automatically download updates in the background without confirmation"
-#~ msgstr ""
-#~ "Baixar atualizações automaticamente em segundo plano sem confirmação"
-
-#~ msgid ""
-#~ "Automatically download updates in the background without confirmation. "
-#~ "Updates will be auto-downloaded when using wired network connnections, "
-#~ "and mobile broadband if 'connection-use-mobile' is enabled."
-#~ msgstr ""
-#~ "Baixa atualizações em segundo plano automaticamente sem confirmação. As "
-#~ "atualizações serão baixadas automaticamente ao usar uma conexão cabeada e "
-#~ "também internet móvel se \"connection-use-mobile\" estiver habilitado."
-
-#~ msgid "How often to check for updates"
-#~ msgstr "Com que frequência verificar por atualizações"
-
-#~ msgid ""
-#~ "How often to check for updates. Value is in seconds. This is a maximum "
-#~ "amount of time that can pass between a security update being published, "
-#~ "and the update being automatically installed or the user notified."
-#~ msgstr ""
-#~ "Com que frequência verificar por atualizações. O valor está em segundos. "
-#~ "O tempo máximo que pode passar entre uma atualização de segurança ser "
-#~ "publicada e a atualização ser instalada automaticamente ou o usuário ser "
-#~ "notificado."
-
-#~ msgid "How often to notify the user that non-critical updates are available"
-#~ msgstr ""
-#~ "Com que frequência notificar o usuário que há atualizações não-críticas "
-#~ "disponíveis"
-
-#~ msgid ""
-#~ "How often to tell the user there are non-critical updates. Value is in "
-#~ "seconds. Security update notifications are always shown after the check "
-#~ "for updates, but non-critical notifications should be shown a lot less "
-#~ "frequently."
-#~ msgstr ""
-#~ "Com que frequência notificar o usuário que há atualizações não-críticas "
-#~ "disponíveis. O valor está em segundos. Atualizações de segurança são "
-#~ "sempre exibidas depois de verificar por atualizações, mas notificações "
-#~ "não-críticas devem ser exibidas com menos frequência."
-
-#~ msgid "The last time we told the user about non-critical notifications"
-#~ msgstr ""
-#~ "Na última vez nós notificamos o usuário sobre atualizações não-críticas"
-
-#~ msgid ""
-#~ "The last time we notified the user about non-critical updates. Value is "
-#~ "in seconds since the epoch, or zero for never."
-#~ msgstr ""
-#~ "Na última vez nós notificamos o usuário sobre atualizações não-críticas. "
-#~ "O valor está em segundos desde a época, ou zero ou nunca."
-
-#~ msgid "How often to check for distribution upgrades"
-#~ msgstr "Com que frequência verificar por atualizações da distribuição"
-
-#~ msgid "How often to check for distribution upgrades. Value is in seconds."
-#~ msgstr ""
-#~ "Com que frequência verificar por atualizações da distribuição. O valor "
-#~ "está em segundos."
-
-#~ msgid "How often to refresh the package cache"
-#~ msgstr "Com que frequência atualizar o cache de pacotes"
-
-#~ msgid "How often to refresh the package cache. Value is in seconds."
-#~ msgstr ""
-#~ "Com que frequência atualizar o cache de pacotes. O valor está em segundos."
-
-#~ msgid "Check for updates when running on battery power"
-#~ msgstr ""
-#~ "Verificar por atualizações quando estiver utilizando energia da bateria"
-
-#~ msgid "Check for updates when running on battery power."
-#~ msgstr "Verifica atualizações automaticamente quando rodando na bateria."
-
-#~ msgid "Notify the user when distribution upgrades are available"
-#~ msgstr ""
-#~ "Notificar o usuário quando uma atualização de distribuição está disponível"
-
-#~ msgid "Notify the user when distribution upgrades are available."
-#~ msgstr ""
-#~ "Notifica o usuário quando uma atualização de distribuição está disponível."
-
-#~ msgid "Ask the user if additional firmware should be installed"
-#~ msgstr "Perguntar ao usuário se firmwares adicionais devem ser instalados"
-
-#~ msgid ""
-#~ "Ask the user if additional firmware should be installed if it is "
-#~ "available."
-#~ msgstr ""
-#~ "Perguntar ao usuário se firmwares adicionais devem ser instalados se "
-#~ "disponíveis."
-
-#~ msgid "Firmware files that should not be searched for"
-#~ msgstr "Arquivos de firmware que devem ou não ser pesquisados"
-
-#~ msgid ""
-#~ "Firmware files that should not be searched for, separated by commas. "
-#~ "These can include '*' and '?' characters."
-#~ msgstr ""
-#~ "Arquivos de firmware que não devem ser pesquisados, separados por "
-#~ "vírgula. Isto pode incluir os caracteres \"*\" e \"?\"."
-
-#~ msgid "Devices that should be ignored"
-#~ msgstr "Dispositivos que devem ser ignorados"
-
-#~ msgid ""
-#~ "Devices that should be ignored, separated by commas. These can include "
-#~ "'*' and '?' characters."
-#~ msgstr ""
-#~ "Dispositivos que devem ser ignorados, separados por vírgula. Isto pode "
-#~ "incluir os caracteres \"*\" e \"?\"."
-
-#~ msgid ""
-#~ "The filenames on removable media that designate it a software source."
-#~ msgstr ""
-#~ "Os nomes dos arquivos na mídia removível designaram-a como uma fonte de "
-#~ "software."
-
-#~ msgid ""
-#~ "When removable media is inserted, it is checked to see if it contains any "
-#~ "important filenames in the root directory. If the filename matches, then "
-#~ "an updates check is performed. This allows post-install disks to be used "
-#~ "to update running systems."
-#~ msgstr ""
-#~ "Quando uma mídia removível é inserida, ela verifica se ela contém alguns "
-#~ "nomes de arquivos importantes no diretório raiz. Se o nome de arquivo "
-#~ "corresponde, então uma verificação de atualização é realizada. Isto "
-#~ "permite que discos post-install sejam usados para atualizar sistemas em "
-#~ "execução."
-
-#~ msgid ""
-#~ "You will need to restart this computer before the hardware will work "
-#~ "correctly."
-#~ msgstr ""
-#~ "Você precisa reiniciar este computador antes que o hardware funcione "
-#~ "corretamente."
-
-#~ msgid "Additional software was installed"
-#~ msgstr "Software adicional foi instalado"
-
-#~ msgid "Software Updates"
-#~ msgstr "Atualizações de software"
-
-#~ msgid ""
-#~ "You will need to remove and then reinsert the hardware before it will "
-#~ "work correctly."
-#~ msgstr ""
-#~ "Você precisa remover e reinserir o hardware antes que ele funcione "
-#~ "corretamente."
-
-#~ msgid "Your hardware has been set up and is now ready to use."
-#~ msgstr "O seu hardware foi inserido e está pronto para uso."
-
-#~ msgid ""
-#~ "Additional firmware is required to make hardware in this computer "
-#~ "function correctly."
-#~ msgstr ""
-#~ "Firmware adicional é necessário para que o hardware no seu computador "
-#~ "funcione corretamente."
-
-#~ msgid "Additional firmware required"
-#~ msgstr "Firmware adicional necessário"
-
-#~ msgid "Install firmware"
-#~ msgstr "Instalar firmware"
-
-#~ msgid "Ignore devices"
-#~ msgstr "Ignorar dispositivos"
-
-#~ msgid "Failed To Update"
-#~ msgstr "Houve falha ao atualizar"
-
-#~ msgid "A previous update was unfinished."
-#~ msgstr "Uma atualização anterior não foi finalizada."
-
-#~ msgid "Network access was required but not available."
-#~ msgstr "Acesso de rede foi requisitado, mas não está disponível."
-
-#~ msgid "An update was not signed in the correct way."
-#~ msgstr "Uma atualização não foi assinada de forma correta."
-
-#~ msgid "The update could not be completed."
-#~ msgstr "A atualização não pôde ser completada."
-
-#~ msgid "The update was cancelled."
-#~ msgstr "A atualização foi cancelada."
-
-#~ msgid "An offline update was requested but no packages required updating."
-#~ msgstr ""
-#~ "Uma atualização offline foi requisitada, mas nenhum pacote requeria "
-#~ "atualização."
-
-#~ msgid "No space was left on the drive."
-#~ msgstr "Não há espaço disponível em disco."
-
-#~ msgid "An update failed to install correctly."
-#~ msgstr "Houve falha ao instalar corretamente uma atualização."
-
-#~ msgid "The offline update failed in an unexpected way."
-#~ msgstr "A atualização offline falhou de uma forma inesperada."
-
-#~ msgid "Detailed errors from the package manager follow:"
-#~ msgstr "Seguem-se os erros detalhados pelo gerenciador de pacotes:"
-
-#~ msgid "Distribution upgrades available"
-#~ msgstr "Atualizações da distribuição disponível"
-
-#~ msgid "More information"
-#~ msgstr "Mais informações"
-
-#~ msgid "Update"
-#~ msgid_plural "Updates"
-#~ msgstr[0] "Atualização"
-#~ msgstr[1] "Atualizações"
-
-#~ msgid "An important software update is available"
-#~ msgid_plural "Important software updates are available"
-#~ msgstr[0] "Uma atualização importante de software está disponível"
-#~ msgstr[1] "Atualizações importantes de software estão disponíveis"
-
-#~ msgid "View"
-#~ msgstr "Ver"
-
-#~ msgid "Restart & Install"
-#~ msgstr "Reiniciar & Instalar"
-
-#~ msgid "Install updates"
-#~ msgstr "Instalar atualizações"
-
-#~ msgid "A software update is available."
-#~ msgid_plural "Software updates are available."
-#~ msgstr[0] "Uma atualização de software está disponível."
-#~ msgstr[1] "Atualizações de software estão disponíveis."
-
-#~ msgid "Updates"
-#~ msgstr "Atualizações"
-
-#~ msgid "Unable to access software updates"
-#~ msgstr "Não é possível acessar as atualizações de software"
-
-#~ msgid "Try again"
-#~ msgstr "Tentar novamente"
-
-#~ msgid "A transaction that cannot be interrupted is running"
-#~ msgstr "Uma transação que não pode ser interrompida está em execução"
-
-#~ msgid "Software Update Installed"
-#~ msgid_plural "Software Updates Installed"
-#~ msgstr[0] "Atualização de software instalada"
-#~ msgstr[1] "Atualizações de softwares instaladas"
-
-#~ msgid "An important OS update has been installed."
-#~ msgid_plural "Important OS updates have been installed."
-#~ msgstr[0] "Uma atualização importante do sistema operacional foi instalada."
-#~ msgstr[1] ""
-#~ "Atualizações importantes do sistema operacional foram instaladas."
-
-#~ msgid "Software Updates Failed"
-#~ msgstr "Houve falha ao atualizar o software"
-
-#~ msgid "An important OS update failed to be installed."
-#~ msgstr ""
-#~ "Houve falha ao instalar uma atualização importante do sistema operacional."
-
-#~ msgid "Review"
-#~ msgstr "Revisar"
-
-#~ msgid "Show details"
-#~ msgstr "Mostrar detalhes"
-
-#~ msgid "Updates plugin"
-#~ msgstr "Plug-in de atualizações"
-
-#~ msgid "Wacom tablet PC feature"
-#~ msgstr "Recurso de PC tablet Wacom"
-
-#~ msgid "Enable this to only report stylus events when the tip is pressed."
-#~ msgstr ""
-#~ "Habilite isso somente para relatar os eventos da agulha quando a dica for "
-#~ "pressionada."
-
-#~ msgid "Percentage considered low"
-#~ msgstr "Percentual considerado baixo"
-
-#~ msgid ""
-#~ "The percentage of the battery when it is considered low. Only valid when "
-#~ "use-time-for-policy is false."
-#~ msgstr ""
-#~ "A percentagem da bateria quando ela é considerada baixa. Válido apenas "
-#~ "quando o uso do tempo-para-política é falsa."
-
-#~ msgid "Percentage considered critical"
-#~ msgstr "Percentual considerado crítico"
-
-#~ msgid ""
-#~ "The percentage of the battery when it is considered critical. Only valid "
-#~ "when use-time-for-policy is false."
-#~ msgstr ""
-#~ "A percentagem da bateria quando ela é considerada crítica. Válido apenas "
-#~ "quando o uso do tempo-para-política é falsa."
-
-#~ msgid "Percentage action is taken"
-#~ msgstr "Percentual para tomar ação"
-
-#~ msgid ""
-#~ "The percentage of the battery when the critical action is performed. Only "
-#~ "valid when use-time-for-policy is false."
-#~ msgstr ""
-#~ "A percentagem da bateria quando a ação crítica é executada. Válido apenas "
-#~ "quando o uso do tempo-para-política é falsa."
-
-#~ msgid "The time remaining when low"
-#~ msgstr "O tempo restante quando baixa"
-
-#~ msgid ""
-#~ "The time remaining in seconds of the battery when it is considered low. "
-#~ "Only valid when use-time-for-policy is true."
-#~ msgstr ""
-#~ "O tempo restante em segundos da bateria quando é considerado baixo. "
-#~ "Válido apenas quando o uso do tempo-para-política é verdade."
-
-#~ msgid "The time remaining when critical"
-#~ msgstr "O tempo restante quando crítico"
-
-#~ msgid ""
-#~ "The time remaining in seconds of the battery when it is considered "
-#~ "critical. Only valid when use-time-for-policy is true."
-#~ msgstr ""
-#~ "O tempo restante em segundos da bateria quando ela é considerada crítica. "
-#~ "Válido apenas quando o uso do tempo-para-política é verdade."
-
-#~ msgid "The time remaining when action is taken"
-#~ msgstr "O tempo restante quando a ação é tomada"
-
-#~ msgid ""
-#~ "The time remaining in seconds of the battery when critical action is "
-#~ "taken. Only valid when use-time-for-policy is true."
-#~ msgstr ""
-#~ "O tempo restante em segundos da bateria quando a ação crítica é tomada. "
-#~ "Válido apenas quando o uso do tempo-para-política é verdade."
-
-#~ msgid "Whether to use time-based notifications"
-#~ msgstr "Usar notificações com base no tempo"
-
-#~ msgid ""
-#~ "If time based notifications should be used. If set to false, then the "
-#~ "percentage change is used instead, which may fix a broken ACPI BIOS."
-#~ msgstr ""
-#~ "Usar notificações com base de tempo. Se for definido como falso, então a "
-#~ "variação percentual é usado, o que pode consertar um BIOS ACPI quebrado."
-
-#~ msgid "If we should show the recalled battery warning for a broken battery"
-#~ msgstr "Mostrar o aviso de bateria recolhida para uma bateria quebrada"
-
-#~ msgid ""
-#~ "If we should show the recalled battery warning for a broken battery. Set "
-#~ "this to false only if you know your battery is okay."
-#~ msgstr ""
-#~ "Mostrar o aviso de bateria recolhida para uma bateria quebrada. Defina "
-#~ "esta opção para falsa somente se você souber que a sua bateria está bem."
-
-#~ msgid "provides %s laptop runtime"
-#~ msgstr "fornece %s de uso do laptop"
-
-#~ msgid "%s %s remaining"
-#~ msgstr "%s com %s restantes"
-
-#~ msgid "%s %s until charged"
-#~ msgstr "%s e %s até carregada"
-
-#~ msgid "provides %s battery runtime"
-#~ msgstr "fornece %s de uso da bateria"
-
-#~ msgid "Product:"
-#~ msgstr "Produto:"
-
-#~ msgid "Status:"
-#~ msgstr "Status:"
-
-#~ msgid "Missing"
-#~ msgstr "Faltando"
-
-#~ msgid "Charged"
-#~ msgstr "Carregado"
-
-#~ msgid "Charging"
-#~ msgstr "Carregando"
-
-#~ msgid "Discharging"
-#~ msgstr "Descarregando"
-
-#~ msgid "Percentage charge:"
-#~ msgstr "Percentual de carga:"
-
-#~ msgid "Vendor:"
-#~ msgstr "Vendedor:"
-
-#~ msgid "Technology:"
-#~ msgstr "Tecnologia:"
-
-#~ msgid "Serial number:"
-#~ msgstr "Número de série:"
-
-#~ msgid "Model:"
-#~ msgstr "Modelo:"
-
-#~ msgid "Discharge time:"
-#~ msgstr "Tempo para descarregar:"
-
-#~ msgid "Excellent"
-#~ msgstr "Excelente"
-
-#~ msgid "Good"
-#~ msgstr "Bom"
-
-#~ msgid "Fair"
-#~ msgstr "Razoável"
-
-#~ msgid "Poor"
-#~ msgstr "Ruim"
-
-#~ msgid "Capacity:"
-#~ msgstr "Capacidade:"
-
-#~ msgid "Current charge:"
-#~ msgstr "Corrente de carga:"
-
-#~ msgid "Last full charge:"
-#~ msgstr "Última carga completa:"
-
-#~ msgid "Design charge:"
-#~ msgstr "Carga prevista:"
-
-#~ msgid "Charge rate:"
-#~ msgstr "Taxa de carga:"
-
-#~ msgid "AC adapter"
-#~ msgid_plural "AC adapters"
-#~ msgstr[0] "Adaptador de corrente"
-#~ msgstr[1] "Adaptadores de corrente"
-
-#~ msgid "Laptop battery"
-#~ msgid_plural "Laptop batteries"
-#~ msgstr[0] "Bateria de laptop"
-#~ msgstr[1] "Baterias de laptop"
-
-#~ msgid "UPS"
-#~ msgid_plural "UPSs"
-#~ msgstr[0] "No-break"
-#~ msgstr[1] "No-breaks"
-
-#~ msgid "Monitor"
-#~ msgid_plural "Monitors"
-#~ msgstr[0] "Monitor"
-#~ msgstr[1] "Monitores"
-
-#~ msgid "PDA"
-#~ msgid_plural "PDAs"
-#~ msgstr[0] "PDA"
-#~ msgstr[1] "PDAs"
-
-#~ msgid "Cell phone"
-#~ msgid_plural "Cell phones"
-#~ msgstr[0] "Telefone celular"
-#~ msgstr[1] "Telefones celulares"
-
-#~ msgid "Media player"
-#~ msgid_plural "Media players"
-#~ msgstr[0] "Reprodutor de mídia"
-#~ msgstr[1] "Reprodutores de mídia"
-
-#~ msgid "Tablet"
-#~ msgid_plural "Tablets"
-#~ msgstr[0] "Tablet"
-#~ msgstr[1] "Tablets"
-
-#~ msgid "Computer"
-#~ msgid_plural "Computers"
-#~ msgstr[0] "Computador"
-#~ msgstr[1] "Computadores"
-
-#~ msgid "Lithium Ion"
-#~ msgstr "Íon de lítio"
-
-#~ msgid "Lithium Polymer"
-#~ msgstr "Polímero de lítio"
-
-#~ msgid "Lithium Iron Phosphate"
-#~ msgstr "Fosfato de lítio e ferro"
-
-#~ msgid "Lead acid"
-#~ msgstr "Chumbo e ácido"
-
-#~ msgid "Nickel Cadmium"
-#~ msgstr "Níquel-cádmio"
-
-#~ msgid "Nickel metal hydride"
-#~ msgstr "Níquel-hidreto metálico"
-
-#~ msgid "Unknown technology"
-#~ msgstr "Tecnologia desconhecida"
-
-#~ msgid "Empty"
-#~ msgstr "Vazia"
-
-#~ msgid "Waiting to charge"
-#~ msgstr "Esperando carregar"
-
-#~ msgid "Waiting to discharge"
-#~ msgstr "Esperando descarregar"
-
-#~ msgid "Laptop battery not present"
-#~ msgstr "A bateria do laptop não está presente"
-
-#~ msgid "Laptop battery is charging"
-#~ msgstr "A bateria do laptop está carregando"
-
-#~ msgid "Laptop battery is discharging"
-#~ msgstr "A bateria do laptop está descarregando"
-
-#~ msgid "Laptop battery is empty"
-#~ msgstr "A bateria do laptop está vazia"
-
-#~ msgid "Laptop battery is charged"
-#~ msgstr "A bateria do laptop está carregando"
-
-#~ msgid "Laptop battery is waiting to charge"
-#~ msgstr "A bateria do laptop está esperando para carregar"
-
-#~ msgid "Laptop battery is waiting to discharge"
-#~ msgstr "A bateria do laptop está esperando para descarregar"
-
-#~ msgid "UPS is charging"
-#~ msgstr "A bateria do no-break está carregando"
-
-#~ msgid "UPS is discharging"
-#~ msgstr "A bateria do no-break está descarregando"
-
-#~ msgid "UPS is empty"
-#~ msgstr "A bateria do no-break está vazia"
-
-#~ msgid "UPS is charged"
-#~ msgstr "A bateria do no-break está carregando"
-
-#~ msgid "Mouse is charging"
-#~ msgstr "A bateria do mouse está carregando"
-
-#~ msgid "Mouse is discharging"
-#~ msgstr "A bateria do mouse está descarregando"
-
-#~ msgid "Mouse is empty"
-#~ msgstr "A bateria do mouse está vazia"
-
-#~ msgid "Mouse is charged"
-#~ msgstr "A bateria do mouse está carregado"
-
-#~ msgid "Keyboard is charging"
-#~ msgstr "A bateria do teclado está carregando"
-
-#~ msgid "Keyboard is discharging"
-#~ msgstr "A bateria do teclado está descarregando"
-
-#~ msgid "Keyboard is empty"
-#~ msgstr "A bateria do teclado está vazia"
-
-#~ msgid "Keyboard is charged"
-#~ msgstr "A bateria do teclado está carregando"
-
-#~ msgid "PDA is charging"
-#~ msgstr "A bateria do PDA está carregando"
-
-#~ msgid "PDA is discharging"
-#~ msgstr "A bateria do PDA está descarregando"
-
-#~ msgid "PDA is empty"
-#~ msgstr "A bateria do PDA está vazia"
-
-#~ msgid "PDA is charged"
-#~ msgstr "A bateria do PDA está carregada"
-
-#~ msgid "Cell phone is charging"
-#~ msgstr "A bateria do telefone celular está carregando"
-
-#~ msgid "Cell phone is discharging"
-#~ msgstr "A bateria do telefone celular está descarregando"
-
-#~ msgid "Cell phone is empty"
-#~ msgstr "A bateria do telefone celular está vazia"
-
-#~ msgid "Cell phone is charged"
-#~ msgstr "A bateria do telefone celular está carregada"
-
-#~ msgid "Media player is charging"
-#~ msgstr "A bateria do reprodutor de mídia está carregando"
-
-#~ msgid "Media player is discharging"
-#~ msgstr "A bateria do reprodutor de mídia está descarregando"
-
-#~ msgid "Media player is empty"
-#~ msgstr "A bateria do reprodutor de mídia está vazia"
-
-#~ msgid "Media player is charged"
-#~ msgstr "A bateria do reprodutor de mídia está carregada"
-
-#~ msgid "Tablet is charging"
-#~ msgstr "A bateria do tablet está carregando"
-
-#~ msgid "Tablet is discharging"
-#~ msgstr "A bateria do tablet está descarregando"
-
-#~ msgid "Tablet is empty"
-#~ msgstr "A bateria do tablet está vazia"
-
-#~ msgid "Tablet is charged"
-#~ msgstr "A bateria do tablet está carregada"
-
-#~ msgid "Computer is charging"
-#~ msgstr "A bateria do computador está carregando"
-
-#~ msgid "Computer is discharging"
-#~ msgstr "A bateria do computador está descarregando"
-
-#~ msgid "Computer is empty"
-#~ msgstr "A bateria do computador está vazia"
-
-#~ msgid "Computer is charged"
-#~ msgstr "A bateria do computador está carregada"
-
-#~ msgid "Battery may be recalled"
-#~ msgstr "Bateria pode estar sendo recolhida"
-
-#~ msgid ""
-#~ "A battery in your computer may have been recalled by %s and you may be at "
-#~ "risk."
-#~ msgstr ""
-#~ "Uma bateria do seu computador pode ter sido recolhida por %s, e você pode "
-#~ "estar em risco."
-
-#~ msgid "For more information visit the battery recall website."
-#~ msgstr "Para mais informações visite o site de recolha da bateria."
-
-#~ msgid "Visit recall website"
-#~ msgstr "Visite o site de recolha"
-
-#~ msgid "Do not show me this again"
-#~ msgstr "Não mostrar novamente"
-
-#~ msgid "Plug in your AC adapter to avoid losing data."
-#~ msgstr "Ligue na tomada para evitar perda de dados."
-
-#~ msgid "Computer will suspend very soon unless it is plugged in."
-#~ msgstr "O computador irá suspender em breve a menos que seja conectado."
-
-#~ msgid ""
-#~ "The battery is below the critical level and this computer will <b>power-"
-#~ "off</b> when the battery becomes completely empty."
-#~ msgstr ""
-#~ "A bateria está abaixo do nível crítico e este computador <b>desligará</b> "
-#~ "quando a bateria ficar completamente vazia."
-
-#~ msgid ""
-#~ "The battery is below the critical level and this computer is about to "
-#~ "suspend.\n"
-#~ "<b>NOTE:</b> A small amount of power is required to keep your computer in "
-#~ "a suspended state."
-#~ msgstr ""
-#~ "A bateria está abaixo do nível crítico e este computador está prestes a "
-#~ "suspender.\n"
-#~ "<b>NOTA:</b> Uma pequena quantidade de energia é necessária para manter "
-#~ "seu computador em um estado suspenso."
-
-#~ msgid ""
-#~ "UPS is below the critical level and this computer will <b>power-off</b> "
-#~ "when the UPS becomes completely empty."
-#~ msgstr ""
-#~ "O no-break está abaixo do nível crítico e este computador <b>desligará</"
-#~ "b> quando o no-break ficar completamente vazio."
-
-#~ msgid "Remote Display"
-#~ msgstr "Telas remotas"
-
-#~ msgid "Disable animations on remote displays"
-#~ msgstr "Desabilita animações em telas remotas"
-
-#~ msgid "Software Updates available"
-#~ msgstr "Há atualizações de softwares disponíveis"
-
-#~ msgid "Important OS and application updates are ready to be installed"
-#~ msgstr ""
-#~ "Atualizações importantes do sistema operacional e de aplicativos estão "
-#~ "prontas para serem instaladas"
-
-#~ msgid "GNOME Software"
-#~ msgstr "Softwares do GNOME"
-
-#~ msgid "Could not restore the display's configuration"
-#~ msgstr "Não foi possível restaurar a configuração do monitor"
-
-#~ msgid "Could not restore the display's configuration from a backup"
-#~ msgstr ""
-#~ "Não foi possível restaurar a configuração do monitor a partir de um backup"
-
-#~ msgid "The display will be reset to its previous configuration in %d second"
-#~ msgid_plural ""
-#~ "The display will be reset to its previous configuration in %d seconds"
-#~ msgstr[0] ""
-#~ "O monitor será restaurado para sua configuração anterior em %d segundo"
-#~ msgstr[1] ""
-#~ "O monitor será restaurado para sua configuração anterior em %d segundos"
-
-#~ msgid "Does the display look OK?"
-#~ msgstr "O vídeo está bom?"

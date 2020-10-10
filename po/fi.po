@@ -1,56 +1,36 @@
-# gnome-control-center Finnish translation
-# Copyright (C) 2004-2009 Free Software Foundation, Inc.
-# Mikko Rauhala <mjr@iki.fi>, x-2000
-#
-# sticky key = pohjaan jäävä näppäin
-# bounce key = kimmonäppäin
-# mouse key = hiirinäppäin
-# toggle key = piippaava näppäin
-#
-# Gnome 2012-03 Finnish translation sprint participants:
-# Timo Jyrinki
-#
-# Pauli Virtanen <pauli.virtanen@hut.fi>, 2000-2004.
-# Ilkka Tuohela <hile@iki.fi>, 2005-2009.
-# Tommi Vainikainen <thv@iki.fi>, 2009.
-# Timo Jyrinki <timo.jyrinki@iki.fi>, 2010.
-# sampo555 https://launchpad.net/~sampo555 , 2012.
-# Lasse Liehu <lasse.liehu@gmail.com>, 2014.
-# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2012, 2013, 2014, 2015, 2016, 2017.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-settings-daemon package.
+# 
+# Translators:
+# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2012-2017
+# Lasse Liehu <lasse.liehu@gmail.com>, 2014
+# sampo555 https://launchpad.net/~sampo555 , 2012
+# Timo Jyrinki <timo.jyrinki@iki.fi>, 2010
+# Tommi Vainikainen <thv@iki.fi>, 2009
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-settings-daemon/"
-"issues\n"
-"POT-Creation-Date: 2020-09-03 20:47+0000\n"
-"PO-Revision-Date: 2020-09-04 09:14+0300\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
-"Language-Team: suomi <lokalisointi-lista@googlegroups.com>\n"
-"Language: fi\n"
+"Project-Id-Version: gnome-settings-daemon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-10 04:12+0000\n"
+"PO-Revision-Date: 2020-10-10 04:12+0000\n"
+"Last-Translator: endlessmobile_build <admin@endlessos.org>\n"
+"Language-Team: Finnish (http://www.transifex.com/endless-os/gnome-settings-daemon/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-POT-Import-Date: 2012-03-05 15:06:08+0000\n"
-"X-Generator: Poedit 2.4.1\n"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:12
 msgid "Smartcard removal action"
 msgstr "Sirukortin irrottamistoiminto"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:13
-#, fuzzy
-#| msgid ""
-#| "Set this to one of \"none\", \"lock-screen\", or \"force-logout\". The "
-#| "action will get performed when the smartcard used for log in is removed."
 msgid ""
-"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will "
-"get performed when the smartcard used for log in is removed."
+"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will"
+" get performed when the smartcard used for log in is removed."
 msgstr ""
-"Aseta tämä arvoon \"none\" (ei mitään), \"lock-screen\" (lukitse näyttö) tai "
-"\"force-logout\" (kirjaudu ulos). Toiminto suoritetaan, jos kirjautumiseen "
-"käytetty sirukortti irrotetaan koneesta."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:25
 msgid "Possible values are “on”, “off”, and “custom”."
@@ -85,16 +65,12 @@ msgid "Whether the tablet’s orientation is locked, or rotated automatically."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:62
-#, fuzzy
-#| msgid "Middle button emulation"
 msgid "Mouse button orientation"
-msgstr "Rullan painalluksen simulointi"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:63
 msgid "Swap left and right mouse buttons for left-handed mice."
-msgstr ""
-"Vaihda hiiren vasemman ja oikean painikkeen sijaintia vasenkätisten hiirtä "
-"varten."
+msgstr "Vaihda hiiren vasemman ja oikean painikkeen sijaintia vasenkätisten hiirtä varten."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:67
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:134
@@ -128,9 +104,7 @@ msgstr "Rullan painalluksen simulointi"
 msgid ""
 "Enables middle mouse button emulation through simultaneous left and right "
 "button click."
-msgstr ""
-"Jos käytössä, hiiren vasemman ja oikean painikkeen samanaikainen painallus "
-"simuloi hiiren rullan painamista."
+msgstr "Jos käytössä, hiiren vasemman ja oikean painikkeen samanaikainen painallus simuloi hiiren rullan painamista."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:87
 msgid "Key Repeat Interval"
@@ -145,10 +119,8 @@ msgid "Initial Key Repeat Delay"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:93
-#, fuzzy
-#| msgid "Length of a double click in milliseconds."
 msgid "Initial key repeat delay in milliseconds."
-msgstr "Kaksoisnapsautuksen pituus millisekunteina."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:97
 msgid "Remember NumLock state"
@@ -166,11 +138,9 @@ msgstr "Poista kosketuslevy käytöstä kirjoitettaessa"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:105
 msgid ""
-"Set this to TRUE if you have problems with accidentally hitting the touchpad "
-"while typing."
-msgstr ""
-"Aseta tämä todeksi jos sinulla on ongelmia osuessasi vahingossa "
-"kosketuslevyyn kirjoitettaessa."
+"Set this to TRUE if you have problems with accidentally hitting the touchpad"
+" while typing."
+msgstr "Aseta tämä todeksi jos sinulla on ongelmia osuessasi vahingossa kosketuslevyyn kirjoitettaessa."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:109
 msgid "Enable horizontal scrolling"
@@ -180,26 +150,17 @@ msgstr "Käytä vaakasuuntaista vieritystä"
 msgid ""
 "Set this to TRUE to allow horizontal scrolling by the same method selected "
 "with the scroll_method key."
-msgstr ""
-"Aseta tämä todeksi salliaksesi vaakasuuntaisen vierityksen samalla tavoin "
-"kuin on valittu avaimella scroll_method."
+msgstr "Aseta tämä todeksi salliaksesi vaakasuuntaisen vierityksen samalla tavoin kuin on valittu avaimella scroll_method."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:114
 msgid "Select the touchpad scroll method"
 msgstr "Valitse kosketuslevyn vieritystapa"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:115
-#, fuzzy
-#| msgid ""
-#| "Select the touchpad scroll method. Supported values are: \"disabled\", "
-#| "\"edge-scrolling\", \"two-finger-scrolling\"."
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
 msgstr ""
-"Valitse kosketusalustan vieritystila. Tuetut arvot ovat: \"disabled"
-"\" (poissa käytöstä), \"edge-scrolling\" (reunavieritys), \"two-finger-"
-"scrolling\" (kahden sormen vieritys)."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:119
 msgid "Enable mouse clicks with touchpad"
@@ -208,9 +169,7 @@ msgstr "Ota käyttöön hiiren napsautukset kosketuslevyllä"
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:120
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
-msgstr ""
-"Aseta tämä todeksi jos haluat lähettää hiiren napsautuksia kosketuslevyä "
-"napauttamalla."
+msgstr "Aseta tämä todeksi jos haluat lähettää hiiren napsautuksia kosketuslevyä napauttamalla."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:124
 msgid "Enable touchpad"
@@ -221,10 +180,8 @@ msgid "Set this to TRUE to enable all touchpads."
 msgstr "Aseta tämä todeksi jos haluat ottaa kaikki kosketuslevyt käyttöön."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:129
-#, fuzzy
-#| msgid "Middle button emulation"
 msgid "Touchpad button orientation"
-msgstr "Rullan painalluksen simulointi"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:130
 msgid ""
@@ -237,10 +194,8 @@ msgid "Natural scrolling"
 msgstr "Luonnollinen vieritys"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:145
-#, fuzzy
-#| msgid "Set this to TRUE to enable all touchpads."
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
-msgstr "Aseta tämä todeksi jos haluat ottaa kaikki kosketuslevyt käyttöön."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:152
 msgid "Mouse wheel emulation button. 0 to disable the feature."
@@ -278,8 +233,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:26
 msgid ""
-"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and "
-"“ccw” for 90 degree counterclockwise."
+"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and"
+" “ccw” for 90 degree counterclockwise."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:30
@@ -406,8 +361,6 @@ msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
 msgstr ""
-"Yövalotila muuttaa näytön värilämpötilaa kun aurinko laskee, tai "
-"esiasetettujen aikojen mukaisesti."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
@@ -427,9 +380,7 @@ msgstr "Käytä auringonnousua ja -laskua"
 msgid ""
 "Calculate the sunrise and sunset times automatically, from the current "
 "location."
-msgstr ""
-"Laske auringonnousun ja -laskun ajankohdat automaattisesti nykyisestä "
-"sijainnista."
+msgstr "Laske auringonnousun ja -laskun ajankohdat automaattisesti nykyisestä sijainnista."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:31
 msgid "The start time"
@@ -478,9 +429,7 @@ msgstr "Ohitettavat liitospolut"
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:7
 msgid "Specify a list of mount paths to ignore when they run low on space."
-msgstr ""
-"Määritä luettelo liitospoluista, jotka ohitetaan vaikka niissä olisi vähän "
-"tilaa jäljellä."
+msgstr "Määritä luettelo liitospoluista, jotka ohitetaan vaikka niissä olisi vähän tilaa jäljellä."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:12
 msgid "Free percentage notify threshold"
@@ -510,9 +459,7 @@ msgstr "Vapaan tilan ilmoituksen raja-arvo"
 msgid ""
 "Specify an amount in GB. If the amount of free space is more than this, no "
 "warning will be shown."
-msgstr ""
-"Anna määrä gigatavuina. Jos vapaata tilaa on enemmän kuin kyseinen määrä, "
-"varoitusta ei näytetä."
+msgstr "Anna määrä gigatavuina. Jos vapaata tilaa on enemmän kuin kyseinen määrä, varoitusta ei näytetä."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:28
 msgid "Minimum notify period for repeated warnings"
@@ -522,9 +469,7 @@ msgstr "Lyhin huomautusväli toistuville varoituksille"
 msgid ""
 "Specify a time in minutes. Subsequent warnings for a volume will not appear "
 "more often than this period."
-msgstr ""
-"Määritä aika minuutteina. Seuraavat varoitukset taltiolle eivät näy useammin "
-"kuin tämän aikavälin kuluttua."
+msgstr "Määritä aika minuutteina. Seuraavat varoitukset taltiolle eivät näy useammin kuin tämän aikavälin kuluttua."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:6
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:189
@@ -545,10 +490,8 @@ msgstr "Käynnistä asetukset"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:12
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:195
-#, fuzzy
-#| msgid "Binding to launch GNOME settings."
 msgid "Binding to launch GNOME Settings."
-msgstr "Sidos Gnomen asetusten käynnistämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:16
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:199
@@ -699,23 +642,19 @@ msgstr "Vähennä äänenvoimakkuutta"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:82
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:267
-#, fuzzy
-#| msgid "Binding to lower the system volume."
 msgid "Binding to lower the volume."
-msgstr "Sidos äänenvoimakkuuden vähentämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:86
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:271
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:588
 msgid "Volume mute/unmute"
-msgstr "Ääni päällä/pois"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:272
-#, fuzzy
-#| msgid "Binding to mute the system volume."
 msgid "Binding to mute/unmute the volume."
-msgstr "Sidos äänen vaimentamiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:276
@@ -725,23 +664,19 @@ msgstr "Kasvata äänenvoimakkuutta"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:277
-#, fuzzy
-#| msgid "Binding to raise the system volume."
 msgid "Binding to raise the volume."
-msgstr "Sidos äänenvoimakkuuden kasvattamiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:317
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:628
 msgid "Microphone mute/unmute"
-msgstr "Mikrofonin mykistys päällä/pois"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:318
-#, fuzzy
-#| msgid "Binding to mute the system volume."
 msgid "Binding to mute/unmute the microphone."
-msgstr "Sidos äänen vaimentamiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:322
@@ -791,8 +726,7 @@ msgstr "Kopioi ikkunasta otettu kuvankaappaus leikepöydälle"
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:122
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:343
 msgid "Binding to copy a screenshot of a window to clipboard."
-msgstr ""
-"Pikanäppäin ikkunasta otetun kuvankaappauksen kopioimiseen leikepöydälle."
+msgstr "Pikanäppäin ikkunasta otetun kuvankaappauksen kopioimiseen leikepöydälle."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:126
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:347
@@ -802,8 +736,7 @@ msgstr "Kopioi alueesta otettu kuvankaappaus leikepöydälle"
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:127
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:348
 msgid "Binding to copy a screenshot of an area to clipboard."
-msgstr ""
-"Pikanäppäin alueesta otetun kuvankaappauksen kopioimiseen leikepöydälle."
+msgstr "Pikanäppäin alueesta otetun kuvankaappauksen kopioimiseen leikepöydälle."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:131
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:352
@@ -812,10 +745,8 @@ msgstr "Nauhoita lyhyt video näytön tapahtumista"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:132
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:353
-#, fuzzy
-#| msgid "Record a short video of the screen"
 msgid "Binding to record a short video of the screen"
-msgstr "Nauhoita lyhyt video näytön tapahtumista"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:136
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:357
@@ -918,10 +849,8 @@ msgid "List of custom keybindings"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:282
-#, fuzzy
-#| msgid "Volume up"
 msgid "Size of volume step"
-msgstr "Kasvata äänenvoimakkuutta"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:283
 msgid "Size of the volume step for each volume change"
@@ -929,106 +858,74 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:289
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:600
-#, fuzzy
-#| msgid "Volume down"
 msgid "Quiet volume down"
-msgstr "Vähennä äänenvoimakkuutta"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:290
-#, fuzzy
-#| msgid "Binding to lower the system volume."
 msgid "Binding to lower the volume without emitting a sound effect."
-msgstr "Sidos äänenvoimakkuuden vähentämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:294
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:605
-#, fuzzy
-#| msgid "Volume mute"
 msgid "Quiet volume mute/unmute"
-msgstr "Hiljennä ääni"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:295
-#, fuzzy
-#| msgid "Binding to mute the system volume."
 msgid "Binding to mute/unmute the volume without emitting a sound effect."
-msgstr "Sidos äänen vaimentamiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:299
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:610
-#, fuzzy
-#| msgid "Volume up"
 msgid "Quiet volume up"
-msgstr "Kasvata äänenvoimakkuutta"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:300
-#, fuzzy
-#| msgid "Binding to raise the system volume."
 msgid "Binding to raise the volume without emitting a sound effect."
-msgstr "Sidos äänenvoimakkuuden kasvattamiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:306
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:617
-#, fuzzy
-#| msgid "Volume down"
 msgid "Precise volume down"
-msgstr "Vähennä äänenvoimakkuutta"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:307
-#, fuzzy
-#| msgid "Binding to lower the system volume."
 msgid "Binding to lower the volume with higher precision."
-msgstr "Sidos äänenvoimakkuuden vähentämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:311
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:622
-#, fuzzy
-#| msgid "Volume up"
 msgid "Precise volume up"
-msgstr "Kasvata äänenvoimakkuutta"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:312
-#, fuzzy
-#| msgid "Binding to raise the system volume."
 msgid "Binding to raise the volume with higher precision."
-msgstr "Sidos äänenvoimakkuuden kasvattamiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:402
-#, fuzzy
-#| msgid "Touchpad Off"
 msgid "Toggle touchpad on/off"
-msgstr "Kosketuslevy pois"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:403
-#, fuzzy
-#| msgid "Binding to toggle the interface contrast"
 msgid "Binding to toggle the touchpad on/off."
-msgstr "Pikanäppäin käyttöliittymän kontrastin muuttamiseen"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:407
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:644
-#, fuzzy
-#| msgid "Touchpad On"
 msgid "Switch touchpad on"
-msgstr "Kosketuslevy päälle"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:408
-#, fuzzy
-#| msgid "Binding to launch the search tool."
 msgid "Binding to switch the touchpad on."
-msgstr "Sidos hakutyökalun käynnistämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:412
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:649
-#, fuzzy
-#| msgid "Touchpad Off"
 msgid "Switch touchpad off"
-msgstr "Kosketuslevy pois"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:413
-#, fuzzy
-#| msgid "Binding to launch the search tool."
 msgid "Binding to switch the touchpad off."
-msgstr "Sidos hakutyökalun käynnistämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:418
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:655
@@ -1036,10 +933,8 @@ msgid "Skip backward in current track"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:419
-#, fuzzy
-#| msgid "Binding to skip to next track."
 msgid "Binding to skip backward in current track."
-msgstr "Sidos seuraavaan kappaleeseen siirtymiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:423
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:660
@@ -1047,49 +942,35 @@ msgid "Skip forward in current track"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:424
-#, fuzzy
-#| msgid "Binding to skip to next track."
 msgid "Binding to skip forward in current track."
-msgstr "Sidos seuraavaan kappaleeseen siirtymiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:428
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:665
-#, fuzzy
-#| msgid "Toggle Airplane Mode"
 msgid "Toggle repeat playback mode"
-msgstr "Lentokonetila päälle/pois päältä"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:429
-#, fuzzy
-#| msgid "Binding to launch the media player."
 msgid "Binding to toggle repeat mode in media player."
-msgstr "Sidos mediasoittimen käynnistämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:433
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:670
-#, fuzzy
-#| msgid "Toggle Airplane Mode"
 msgid "Toggle random playback mode"
-msgstr "Lentokonetila päälle/pois päältä"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:434
-#, fuzzy
-#| msgid "Binding to launch the media player."
 msgid "Binding to toggle random playback mode in media player."
-msgstr "Sidos mediasoittimen käynnistämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:439
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:676
-#, fuzzy
-#| msgid "Middle button emulation"
 msgid "Toggle automatic screen orientation"
-msgstr "Rullan painalluksen simulointi"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:440
-#, fuzzy
-#| msgid "Binding to take a screenshot."
 msgid "Binding to toggle automatic screen orientation."
-msgstr "Pikanäppäin kuvankaappauksen ottamiseen."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:444
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:681
@@ -1097,62 +978,44 @@ msgid "Power button"
 msgstr "Virtapainike"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:445
-#, fuzzy
-#| msgid "Binding to log out."
 msgid "Binding for power button."
-msgstr "Sidos uloskirjautumiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:449
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:686
-#, fuzzy
-#| msgid "Hibernate"
 msgid "Hibernate button"
-msgstr "Lepotila"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:450
-#, fuzzy
-#| msgid "Binding to mute the system volume."
 msgid "Binding to hibernate the machine."
-msgstr "Sidos äänen vaimentamiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:454
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:691
-#, fuzzy
-#| msgid "Suspend"
 msgid "Suspend button"
-msgstr "Valmiustila"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:455
-#, fuzzy
-#| msgid "Binding to launch the email client."
 msgid "Binding to suspend the machine."
-msgstr "Sidos sähköpostiohjelman käynnistämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:460
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:697
-#, fuzzy
-#| msgid "Brightness Up"
 msgid "Screen brightness up"
-msgstr "Lisää kirkkautta"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:461
-#, fuzzy
-#| msgid "Binding to increase the text size"
 msgid "Binding to increase the screen brightness."
-msgstr "Pikanäppäin tekstin koon suurentamiseen"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:465
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:702
-#, fuzzy
-#| msgid "Brightness Down"
 msgid "Screen brightness down"
-msgstr "Vähennä kirkkauta"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:466
-#, fuzzy
-#| msgid "Binding to decrease the text size"
 msgid "Binding to decrease the screen brightness."
-msgstr "Pikanäppäin tekstin koon pienentämiseen"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:470
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:707
@@ -1160,49 +1023,35 @@ msgid "Screen brightness cycle"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:471
-#, fuzzy
-#| msgid "Binding to lock the screen."
 msgid "Binding to cycle the screen brightness."
-msgstr "Sidos näytön lukitsemiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:476
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:713
-#, fuzzy
-#| msgid "Keyboard is empty"
 msgid "Keyboard brightness up"
-msgstr "Näppäimistön akku on tyhjä"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:477
-#, fuzzy
-#| msgid "Binding to increase the text size"
 msgid "Binding to increase the keyboard brightness."
-msgstr "Pikanäppäin tekstin koon suurentamiseen"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:481
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:718
-#, fuzzy
-#| msgid "Keyboard battery low"
 msgid "Keyboard brightness down"
-msgstr "Näppäimistön akku lähes tyhjä"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:482
-#, fuzzy
-#| msgid "Binding to decrease the text size"
 msgid "Binding to decrease the keyboard brightness."
-msgstr "Pikanäppäin tekstin koon pienentämiseen"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:486
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:723
-#, fuzzy
-#| msgid "Keyboard is charged"
 msgid "Keyboard brightness toggle"
-msgstr "Näppäimistö on ladattu"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:487
-#, fuzzy
-#| msgid "Binding to toggle the interface contrast"
 msgid "Binding to toggle the keyboard brightness."
-msgstr "Pikanäppäin käyttöliittymän kontrastin muuttamiseen"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:492
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:729
@@ -1210,10 +1059,8 @@ msgid "Show battery status"
 msgstr "Näytä akun tila"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:493
-#, fuzzy
-#| msgid "Binding to show the screen magnifier"
 msgid "Binding to show current battery status."
-msgstr "Pikanäppäin suurennuslasin näyttämiseen"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:498
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:735
@@ -1221,118 +1068,82 @@ msgid "RF kill"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:499
-#, fuzzy
-#| msgid "Binding to toggle the interface contrast"
 msgid "Binding to toggle airplane mode."
-msgstr "Pikanäppäin käyttöliittymän kontrastin muuttamiseen"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:503
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:740
-#, fuzzy
-#| msgid "Bluetooth disabled"
 msgid "Bluetooth RF kill"
-msgstr "Bluetooth pois käytöstä"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:504
-#, fuzzy
-#| msgid "Binding to toggle the interface contrast"
 msgid "Binding to toggle bluetooth airplane mode."
-msgstr "Pikanäppäin käyttöliittymän kontrastin muuttamiseen"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:517
-#, fuzzy
-#| msgid "Binding to launch the calculator."
 msgid "Static binding to launch the calculator."
-msgstr "Sidos laskimen käynnistämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:522
-#, fuzzy
-#| msgid "Binding to launch GNOME settings."
 msgid "Static binding to launch GNOME Settings."
-msgstr "Sidos Gnomen asetusten käynnistämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:527
-#, fuzzy
-#| msgid "Binding to launch the email client."
 msgid "Static binding to launch the email client."
-msgstr "Sidos sähköpostiohjelman käynnistämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:532
 msgid "Static binding to eject an optical disc."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:537
-#, fuzzy
-#| msgid "Binding to open the Home folder."
 msgid "Static binding to open the Home folder."
-msgstr "Sidos kotikansion avaamiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:542
-#, fuzzy
-#| msgid "Binding to launch the media player."
 msgid "Static binding to launch the media player."
-msgstr "Sidos mediasoittimen käynnistämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:547
-#, fuzzy
-#| msgid "Binding to skip to next track."
 msgid "Static binding to skip to next track."
-msgstr "Sidos seuraavaan kappaleeseen siirtymiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:552
-#, fuzzy
-#| msgid "Binding to pause playback."
 msgid "Static binding to pause playback."
-msgstr "Sidos toiston pysäyttämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:557
-#, fuzzy
-#| msgid "Binding to start playback (or toggle play/pause)."
 msgid "Static binding to start playback (or toggle play/pause)."
-msgstr "Sidos toiston aloittamiseksi (tai toisto/tauko)."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:562
-#, fuzzy
-#| msgid "Binding to skip to previous track."
 msgid "Static binding to skip to previous track."
-msgstr "Sidos edelliseen kappaleeseen siirtymiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:567
-#, fuzzy
-#| msgid "Binding to lock the screen."
 msgid "Static binding to lock the screen."
-msgstr "Sidos näytön lukitsemiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:572
-#, fuzzy
-#| msgid "Binding to launch the search tool."
 msgid "Static binding to launch the search tool."
-msgstr "Sidos hakutyökalun käynnistämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:577
-#, fuzzy
-#| msgid "Binding to stop playback."
 msgid "Static binding to stop playback."
-msgstr "Sidos toiston pysäyttämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:584
-#, fuzzy
-#| msgid "Binding to lower the system volume."
 msgid "Static binding to lower the volume."
-msgstr "Sidos äänenvoimakkuuden vähentämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:589
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:606
-#, fuzzy
-#| msgid "Binding to mute the system volume."
 msgid "Static binding to mute/unmute the volume."
-msgstr "Sidos äänen vaimentamiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:594
-#, fuzzy
-#| msgid "Binding to raise the system volume."
 msgid "Static binding to raise the volume."
-msgstr "Sidos äänenvoimakkuuden kasvattamiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:601
 msgid "Static binding to lower the volume without emitting a sound effect."
@@ -1343,34 +1154,24 @@ msgid "Static binding to raise the volume without emitting a sound effect."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:618
-#, fuzzy
-#| msgid "Binding to lower the system volume."
 msgid "Static binding to lower the volume with higher precision."
-msgstr "Sidos äänenvoimakkuuden vähentämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:623
-#, fuzzy
-#| msgid "Binding to raise the system volume."
 msgid "Static binding to raise the volume with higher precision."
-msgstr "Sidos äänenvoimakkuuden kasvattamiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:629
-#, fuzzy
-#| msgid "Binding to mute the system volume."
 msgid "Static binding to mute/unmute the microphone."
-msgstr "Sidos äänen vaimentamiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:634
-#, fuzzy
-#| msgid "Binding to launch the web browser."
 msgid "Static binding to launch the web browser."
-msgstr "Sidos WWW-selaimen käynnistämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:640
-#, fuzzy
-#| msgid "Binding to toggle the interface contrast"
 msgid "Static binding to toggle the touchpad on/off."
-msgstr "Pikanäppäin käyttöliittymän kontrastin muuttamiseen"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:645
 msgid "Static binding to switch the touchpad on."
@@ -1381,28 +1182,20 @@ msgid "Static binding to switch the touchpad off."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:656
-#, fuzzy
-#| msgid "Binding to skip to next track."
 msgid "Static binding to skip backward in current track."
-msgstr "Sidos seuraavaan kappaleeseen siirtymiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:661
-#, fuzzy
-#| msgid "Binding to skip to next track."
 msgid "Static binding to skip forward in current track."
-msgstr "Sidos seuraavaan kappaleeseen siirtymiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:666
-#, fuzzy
-#| msgid "Binding to launch the media player."
 msgid "Static binding to toggle repeat mode in media player."
-msgstr "Sidos mediasoittimen käynnistämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:671
-#, fuzzy
-#| msgid "Binding to launch the media player."
 msgid "Static binding to toggle random playback mode in media player."
-msgstr "Sidos mediasoittimen käynnistämiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:677
 msgid "Static binding to toggle automatic screen orientation."
@@ -1413,46 +1206,32 @@ msgid "Static binding for power button."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:687
-#, fuzzy
-#| msgid "Binding to mute the system volume."
 msgid "Static binding to hibernate the machine."
-msgstr "Sidos äänen vaimentamiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:692
-#, fuzzy
-#| msgid "Binding to mute the system volume."
 msgid "Static binding to suspend the machine."
-msgstr "Sidos äänen vaimentamiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:698
-#, fuzzy
-#| msgid "Binding to increase the text size"
 msgid "Static binding to increase the screen brightness."
-msgstr "Pikanäppäin tekstin koon suurentamiseen"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:703
-#, fuzzy
-#| msgid "Binding to decrease the text size"
 msgid "Static binding to decrease the screen brightness."
-msgstr "Pikanäppäin tekstin koon pienentämiseen"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:708
-#, fuzzy
-#| msgid "Binding to lock the screen."
 msgid "Static binding to cycle the screen brightness."
-msgstr "Sidos näytön lukitsemiseksi."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:714
-#, fuzzy
-#| msgid "Binding to increase the text size"
 msgid "Static binding to increase the keyboard brightness."
-msgstr "Pikanäppäin tekstin koon suurentamiseen"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:719
-#, fuzzy
-#| msgid "Binding to decrease the text size"
 msgid "Static binding to decrease the keyboard brightness."
-msgstr "Pikanäppäin tekstin koon pienentämiseen"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:724
 msgid "Static binding to toggle the keyboard brightness."
@@ -1493,9 +1272,8 @@ msgid "Binding"
 msgstr "Näppäinsidos"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:760
-#, fuzzy
 msgid "Binding for the custom binding"
-msgstr "Pikanäppäin suurennuslasin suurennustoiminnolle"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:764
 msgid "Command"
@@ -1519,7 +1297,8 @@ msgid "Dim the screen after a period of inactivity"
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:12
-msgid "If the screen should be dimmed to save power when the computer is idle."
+msgid ""
+"If the screen should be dimmed to save power when the computer is idle."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:16
@@ -1587,19 +1366,11 @@ msgid "Antialiasing"
 msgstr "Antialiasointi"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:7
-#, fuzzy
-#| msgid ""
-#| "The type of antialiasing to use when rendering fonts. Possible values "
-#| "are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale "
-#| "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
-"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
-"and “rgba” for subpixel antialiasing (LCD screens only)."
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing,"
+" and “rgba” for subpixel antialiasing (LCD screens only)."
 msgstr ""
-"Fonttien piirtoon käytetyn antialiasoinnin tyyppi. Mahdolliset arvot ovat: "
-"\"none\" (ei antialiasointia), \"grayscale (tavallinen harmaasävyihin "
-"perustuva) ja \"rgba\" (alipisteiden antialiasointi, vain LCD-näytöt)."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:11
 msgid "Hinting"
@@ -1607,13 +1378,13 @@ msgstr "Vihjeistys"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:12
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: “none” "
-"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
-"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"The type of hinting to use when rendering fonts. Possible values are: “none”"
+" for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s"
+" ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
 "Ignores native hinting within the font, generates hints algorithmically. "
 "Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
-"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
-"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version"
+" of FreeType. They usually try to fit glyphs to both the X and the Y axis "
 "(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
 "rendering depending on the quality of the font, the font format and the "
 "state of FreeType’s font engines."
@@ -1624,21 +1395,11 @@ msgid "RGBA order"
 msgstr "RGBA-järjestys"
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:17
-#, fuzzy
-#| msgid ""
-#| "The order of subpixel elements on an LCD screen; only used when "
-#| "antialiasing is set to \"rgba\". Possible values are: \"rgb\" for red on "
-#| "left (most common), \"bgr\" for blue on left, \"vrgb\" for red on top, "
-#| "\"vbgr\" for red on bottom."
 msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
-"“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
+"The order of subpixel elements on an LCD screen; only used when antialiasing"
+" is set to “rgba”. Possible values are: “rgb” for red on left (most common),"
+" “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
 msgstr ""
-"Pikselin osien järjestys LCD-näytöllä: käytetään vain, kun antialiasointi on "
-"arvossa \"rgba\". Mahdolliset arvot ovat: \"rgb\" - punainen vasemmalla "
-"(yleisin), \"bgr\" punainen vasemmalla, \"vrgb\" punainen ylhäällä, \"vbgr\" "
-"punainen alhaalla."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:21
 msgid "List of explicitly disabled GTK+ modules"
@@ -1656,8 +1417,8 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:27
 msgid ""
-"A list of strings representing the GTK+ modules that will be loaded, usually "
-"in addition to conditional and forcibly disabled ones."
+"A list of strings representing the GTK+ modules that will be loaded, usually"
+" in addition to conditional and forcibly disabled ones."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:31
@@ -1666,9 +1427,9 @@ msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:32
 msgid ""
-"This dictionary maps XSETTINGS names to overrides values. The values must be "
-"either strings, signed int32s or (in the case of colors), 4-tuples of uint16 "
-"(red, green, blue, alpha; 65535 is fully opaque)."
+"This dictionary maps XSETTINGS names to overrides values. The values must be"
+" either strings, signed int32s or (in the case of colors), 4-tuples of "
+"uint16 (red, green, blue, alpha; 65535 is fully opaque)."
 msgstr ""
 
 #: plugins/color/gsd-color-calibrate.c:138
@@ -1717,7 +1478,7 @@ msgstr "Värien kalibrointilaite poistettu"
 #. * %:::z will be replaced by the offset from UTC e.g. UTC+02
 #: plugins/datetime/gsd-datetime-manager.c:88
 msgid "UTC%:::z"
-msgstr "UTC%:::z"
+msgstr ""
 
 #: plugins/datetime/gsd-datetime-manager.c:92
 #, c-format
@@ -1732,83 +1493,90 @@ msgstr "Asetukset"
 msgid "Date & Time Settings"
 msgstr "Ajan ja päiväyksen asetukset"
 
-#: plugins/housekeeping/gsd-disk-space.c:629
+#: plugins/housekeeping/gsd-disk-space.c:632
 msgid "Disk Space"
 msgstr "Levytila"
 
-#: plugins/housekeeping/gsd-disk-space.c:642
+#: plugins/housekeeping/gsd-disk-space.c:645
 msgid "Examine"
 msgstr "Tutki"
 
-#: plugins/housekeeping/gsd-disk-space.c:653
+#: plugins/housekeeping/gsd-disk-space.c:656
 msgid "Empty Trash"
 msgstr "Tyhjennä roskakori"
 
-#: plugins/housekeeping/gsd-disk-space.c:661
+#: plugins/housekeeping/gsd-disk-space.c:664
 msgid "Ignore"
 msgstr "Älä huomioi"
 
-#: plugins/housekeeping/gsd-disk-space.c:692
+#: plugins/housekeeping/gsd-disk-space.c:698
+#: plugins/housekeeping/gsd-disk-space.c:738
+msgid "Low Disk Space"
+msgstr "Levytila vähissä"
+
+#: plugins/housekeeping/gsd-disk-space.c:700
+msgid ""
+"Your computer is out of space.  You may free up some space by emptying the "
+"trash."
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:702
+msgid "Your computer is out of space."
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:727
 #, c-format
 msgid "Low Disk Space on “%s”"
 msgstr "Levyllä “%s” on levytila vähissä"
 
-#: plugins/housekeeping/gsd-disk-space.c:694
+#: plugins/housekeeping/gsd-disk-space.c:729
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
 "space by emptying the trash."
-msgstr ""
-"Taltiolla \"%s\" on vapaata levytilaa vain %s. Voit vapauttaa levytilaa "
-"tyhjentämällä roskakorin."
+msgstr "Taltiolla \"%s\" on vapaata levytilaa vain %s. Voit vapauttaa levytilaa tyhjentämällä roskakorin."
 
-#: plugins/housekeeping/gsd-disk-space.c:698
+#: plugins/housekeeping/gsd-disk-space.c:733
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
 msgstr "Taltiolla ”%s” on vain %s levytilaa jäljellä."
 
-#: plugins/housekeeping/gsd-disk-space.c:703
-msgid "Low Disk Space"
-msgstr "Levytila vähissä"
-
-#: plugins/housekeeping/gsd-disk-space.c:705
+#: plugins/housekeeping/gsd-disk-space.c:740
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
 "by emptying the trash."
-msgstr ""
-"Tietokoneella on enää %s vapaata levytilaa. Voit vapauttaa levytilaa "
-"tyhjentämällä roskakorin."
+msgstr "Tietokoneella on enää %s vapaata levytilaa. Voit vapauttaa levytilaa tyhjentämällä roskakorin."
 
-#: plugins/housekeeping/gsd-disk-space.c:708
+#: plugins/housekeeping/gsd-disk-space.c:743
 #, c-format
 msgid "This computer has only %s disk space remaining."
 msgstr "Tällä tietokoneella on vain %s levytilaa jäljellä."
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2468
+#: plugins/media-keys/gsd-media-keys-manager.c:2479
 msgid "Bluetooth disabled"
 msgstr "Bluetooth pois käytöstä"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2471
+#: plugins/media-keys/gsd-media-keys-manager.c:2482
 msgid "Bluetooth enabled"
 msgstr "Bluetooth käytössä"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2475
+#: plugins/media-keys/gsd-media-keys-manager.c:2486
 msgid "Airplane mode enabled"
 msgstr "Lentokonetila käytössä"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2478
+#: plugins/media-keys/gsd-media-keys-manager.c:2489
 msgid "Airplane mode disabled"
 msgstr "Lentokonetila pois käytöstä"
 
-#: plugins/media-keys/gsd-media-keys-manager.c:2507
+#: plugins/media-keys/gsd-media-keys-manager.c:2518
 msgid "Hardware Airplane Mode"
 msgstr "Rautapohjainen lentokonetila"
 
 #. Translators: this is a filename used for screencast
 #. * recording, where "%d" and "%t" date and time, e.g.
 #. * "Screencast from 07-17-2013 10:00:46 PM.webm"
-#: plugins/media-keys/gsd-media-keys-manager.c:2570
+#: plugins/media-keys/gsd-media-keys-manager.c:2581
 #, no-c-format
 msgid "Screencast from %d %t.webm"
 msgstr "Ruutunauhoite - %d %t.webm"
@@ -1932,7 +1700,7 @@ msgstr "Langattoman hiiren virta on vähissä (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:516
 #, c-format
 msgid "Wireless mouse is low in power"
-msgstr "Langattoman hiiren virta on vähissä"
+msgstr ""
 
 #. TRANSLATORS: keyboard is getting a little low
 #. TRANSLATORS: the keyboard battery is very low
@@ -1948,7 +1716,7 @@ msgstr "Langattoman näppäimistön virta on vähissä (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:526
 #, c-format
 msgid "Wireless keyboard is low in power"
-msgstr "Langattoman näppäimistön virta on vähissä"
+msgstr ""
 
 #. TRANSLATORS: PDA is getting a little low
 #. TRANSLATORS: the PDA battery is very low
@@ -1964,7 +1732,7 @@ msgstr "PDA:lla on vain vähän energiaa jäljellä (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:536
 #, c-format
 msgid "PDA is low in power"
-msgstr "PDA:n virta on vähissä"
+msgstr ""
 
 #. TRANSLATORS: cell phone (mobile) is getting a little low
 #. TRANSLATORS: the cell battery is very low
@@ -1981,7 +1749,7 @@ msgstr "Matkapuhelimen virta on vähissä (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:546
 #, c-format
 msgid "Cell phone is low in power"
-msgstr "Matkapuhelimen virta on vähissä"
+msgstr ""
 
 #. TRANSLATORS: media player, e.g. mp3 is getting a little low
 #: plugins/power/gsd-power-manager.c:550
@@ -1996,7 +1764,7 @@ msgstr "Mediasoittimen virta on vähissä (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:556
 #, c-format
 msgid "Media player is low in power"
-msgstr "Mediasoittimen virta on vähissä"
+msgstr ""
 
 #. TRANSLATORS: graphics tablet, e.g. wacom is getting a little low
 #. TRANSLATORS: the cell battery is very low
@@ -2012,7 +1780,7 @@ msgstr "Taulutietokoneen virta on vähissä (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:566
 #, c-format
 msgid "Tablet is low in power"
-msgstr "Taulutietokoneen virta on vähissä"
+msgstr ""
 
 #. TRANSLATORS: computer, e.g. ipad is getting a little low
 #. TRANSLATORS: the cell battery is very low
@@ -2028,19 +1796,21 @@ msgstr "Liitetyn tietokoneen virta on vähissä (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:576
 #, c-format
 msgid "Attached computer is low in power"
-msgstr "Liitetyn tietokoneen virta on vähissä"
+msgstr ""
 
 #. TRANSLATORS: this is the sound description
 #: plugins/power/gsd-power-manager.c:597
 msgid "Battery is low"
 msgstr "Akku on lähes tyhjä"
 
-#. TRANSLATORS: laptop battery critically low, and only have one kind of battery
+#. TRANSLATORS: laptop battery critically low, and only have one kind of
+#. battery
 #: plugins/power/gsd-power-manager.c:634
 msgid "Battery critically low"
 msgstr "Akku kriittisen tyhjä"
 
-#. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
+#. TRANSLATORS: laptop battery critically low, and we have more than one type
+#. of battery
 #. TRANSLATORS: laptop battery is really, really, low
 #: plugins/power/gsd-power-manager.c:637 plugins/power/gsd-power-manager.c:818
 msgid "Laptop battery critically low"
@@ -2070,18 +1840,14 @@ msgstr "UPSin lataus on lähes loppu"
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
 "computer to avoid losing data."
-msgstr ""
-"Noin %s jäljellä UPS-virtaa (%.0f%%). Liitä tietokone virtalähteeseen "
-"välttääksesi tietojen menetyksen."
+msgstr "Noin %s jäljellä UPS-virtaa (%.0f%%). Liitä tietokone virtalähteeseen välttääksesi tietojen menetyksen."
 
 #: plugins/power/gsd-power-manager.c:674
 #, c-format
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Langattoman hiiren virta on melkein loppu (%.0f%%). Laite sammuu pian, ellei "
-"sitä aseteta lataukseen."
+msgstr "Langattoman hiiren virta on melkein loppu (%.0f%%). Laite sammuu pian, ellei sitä aseteta lataukseen."
 
 #: plugins/power/gsd-power-manager.c:678
 #, c-format
@@ -2089,17 +1855,13 @@ msgid ""
 "Wireless mouse is very low in power. This device will soon stop functioning "
 "if not charged."
 msgstr ""
-"Langattoman hiiren virta on melkein loppu. Laite sammuu pian, ellei sitä "
-"aseteta lataukseen."
 
 #: plugins/power/gsd-power-manager.c:687
 #, c-format
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Langattoman näppäimistön virta on melkein loppu (%.0f%%). Laite sammuu pian, "
-"ellei sitä aseteta lataukseen."
+msgstr "Langattoman näppäimistön virta on melkein loppu (%.0f%%). Laite sammuu pian, ellei sitä aseteta lataukseen."
 
 #: plugins/power/gsd-power-manager.c:691
 #, c-format
@@ -2107,17 +1869,13 @@ msgid ""
 "Wireless keyboard is very low in power. This device will soon stop "
 "functioning if not charged."
 msgstr ""
-"Langattoman näppäimistön virta on melkein loppu. Laite sammuu pian, ellei "
-"sitä aseteta lataukseen."
 
 #: plugins/power/gsd-power-manager.c:701
 #, c-format
 msgid ""
-"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
-"not charged."
-msgstr ""
-"Kämmentietokoneen virta on on lähes loppu (%.0f%%). Laite sammuu pian, ellei "
-"sitä aseteta lataukseen."
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if"
+" not charged."
+msgstr "Kämmentietokoneen virta on on lähes loppu (%.0f%%). Laite sammuu pian, ellei sitä aseteta lataukseen."
 
 #: plugins/power/gsd-power-manager.c:705
 #, c-format
@@ -2125,17 +1883,13 @@ msgid ""
 "PDA is very low in power. This device will soon stop functioning if not "
 "charged."
 msgstr ""
-"PDA-kämmentietokoneen virta on on lähes loppu. Laite sammuu pian, ellei sitä "
-"aseteta lataukseen."
 
 #: plugins/power/gsd-power-manager.c:715
 #, c-format
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Matkapuhelimen virta on melkein loppu (%.0f%%). Laite sammuu pian, ellei "
-"sitä aseteta lataukseen."
+msgstr "Matkapuhelimen virta on melkein loppu (%.0f%%). Laite sammuu pian, ellei sitä aseteta lataukseen."
 
 #: plugins/power/gsd-power-manager.c:719
 #, c-format
@@ -2143,35 +1897,27 @@ msgid ""
 "Cell phone is very low in power. This device will soon stop functioning if "
 "not charged."
 msgstr ""
-"Matkapuhelimen virta on melkein loppu. Laite sammuu pian, ellei sitä aseteta "
-"lataukseen."
 
 #: plugins/power/gsd-power-manager.c:729
 #, c-format
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
-msgstr ""
-"Mediasoittimen virta on melkein loppu (%.0f%%). Laite sammuu pian, ellei "
-"sitä aseteta lataukseen."
+msgstr "Mediasoittimen virta on melkein loppu (%.0f%%). Laite sammuu pian, ellei sitä aseteta lataukseen."
 
 #: plugins/power/gsd-power-manager.c:733
 #, c-format
 msgid ""
-"Media player is very low in power. This device will soon stop functioning if "
-"not charged."
+"Media player is very low in power. This device will soon stop functioning if"
+" not charged."
 msgstr ""
-"Mediasoittimen virta on melkein loppu. Laite sammuu pian, ellei sitä aseteta "
-"lataukseen."
 
 #: plugins/power/gsd-power-manager.c:743
 #, c-format
 msgid ""
-"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
-"if not charged."
-msgstr ""
-"Taulutietokoneen virta on on lähes loppu (%.0f%%). Laite sammuu pian, ellei "
-"sitä aseteta lataukseen."
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning"
+" if not charged."
+msgstr "Taulutietokoneen virta on on lähes loppu (%.0f%%). Laite sammuu pian, ellei sitä aseteta lataukseen."
 
 #: plugins/power/gsd-power-manager.c:747
 #, c-format
@@ -2179,34 +1925,27 @@ msgid ""
 "Tablet is very low in power. This device will soon stop functioning if not "
 "charged."
 msgstr ""
-"Taulutietokoneen virta on on lähes loppu. Laite sammuu pian, ellei sitä "
-"aseteta lataukseen."
 
 #: plugins/power/gsd-power-manager.c:757
 #, c-format
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
 "shutdown if not charged."
-msgstr ""
-"Liitetyn tietokoneen virta on melkein loppu (%.0f%%). Laite sammuu pian, "
-"ellei sitä aseteta lataukseen."
+msgstr "Liitetyn tietokoneen virta on melkein loppu (%.0f%%). Laite sammuu pian, ellei sitä aseteta lataukseen."
 
 #: plugins/power/gsd-power-manager.c:761
 #, c-format
 msgid ""
-"Attached computer is very low in power. The device will soon shutdown if not "
-"charged."
+"Attached computer is very low in power. The device will soon shutdown if not"
+" charged."
 msgstr ""
-"Liitetyn tietokoneen virta on melkein loppu. Laite sammuu pian, ellei sitä "
-"aseteta lataukseen."
 
 #. TRANSLATORS: computer will hibernate
 #: plugins/power/gsd-power-manager.c:826
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
-msgstr ""
-"Akun lataus on alle kriittisen arvon ja tietokone asetetaan lepotilaan."
+msgstr "Akun lataus on alle kriittisen arvon ja tietokone asetetaan lepotilaan."
 
 #. TRANSLATORS: computer will just shutdown
 #: plugins/power/gsd-power-manager.c:831
@@ -2219,52 +1958,52 @@ msgstr "Akun lataus on alle kriittisen arvon ja siksi tietokone sammutetaan."
 #: plugins/power/gsd-power-manager.c:851
 msgid ""
 "UPS is below the critical level and this computer is about to hibernate."
-msgstr ""
-"UPS on alle kriittisen arvon, ja tietokone on siirtymäisillään lepotilaan."
+msgstr "UPS on alle kriittisen arvon, ja tietokone on siirtymäisillään lepotilaan."
 
 #. TRANSLATORS: computer will just shutdown
 #: plugins/power/gsd-power-manager.c:856
-msgid "UPS is below the critical level and this computer is about to shutdown."
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
 msgstr "UPS on alle kriittisen arvon, ja tietokone on sammumaisillaan."
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1333
+#: plugins/power/gsd-power-manager.c:1339
 msgid "Lid has been opened"
 msgstr "Kansi on avattu"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1367
+#: plugins/power/gsd-power-manager.c:1373
 msgid "Lid has been closed"
 msgstr "Kansi on suljettu"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1934
+#: plugins/power/gsd-power-manager.c:1942
 msgid "On battery power"
 msgstr "Akkuvirralla"
 
 #. TRANSLATORS: this is the sound description
-#: plugins/power/gsd-power-manager.c:1939
+#: plugins/power/gsd-power-manager.c:1947
 msgid "On AC power"
 msgstr "Verkkovirralla"
 
-#: plugins/power/gsd-power-manager.c:2127
+#: plugins/power/gsd-power-manager.c:2135
 msgid "Automatic logout"
 msgstr "Automaattinen uloskirjautuminen"
 
-#: plugins/power/gsd-power-manager.c:2127
+#: plugins/power/gsd-power-manager.c:2135
 msgid "You will soon log out because of inactivity."
 msgstr "Kirjaudut pian ulos käyttämättönyyden vuoksi."
 
-#: plugins/power/gsd-power-manager.c:2132
+#: plugins/power/gsd-power-manager.c:2140
 msgid "Automatic suspend"
 msgstr "Automaattinen valmiustila"
 
-#: plugins/power/gsd-power-manager.c:2132
-#: plugins/power/gsd-power-manager.c:2137
+#: plugins/power/gsd-power-manager.c:2140
+#: plugins/power/gsd-power-manager.c:2145
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "Tietokone siirtyy pian valmiustilaan käyttämättömyyden vuoksi."
 
-#: plugins/power/gsd-power-manager.c:2137
+#: plugins/power/gsd-power-manager.c:2145
 msgid "Automatic hibernation"
 msgstr "Automaattinen lepotila"
 
@@ -2320,31 +2059,36 @@ msgstr "Tulostimet"
 msgid "Printer “%s” is low on toner."
 msgstr "Tulostimesta “%s” on väri vähissä."
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:406
 #, c-format
 msgid "Printer “%s” has no toner left."
 msgstr "Tulostimesta “%s” on väri loppu."
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:410
 #, c-format
 msgid "Printer “%s” may not be connected."
 msgstr "Tulostinta “%s” ei ole välttämättä yhdistetty."
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:414
 #, c-format
 msgid "The cover is open on printer “%s”."
 msgstr "Tulostimen “%s” kansi on auki."
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:418
 #, c-format
 msgid "There is a missing print filter for printer “%s”."
 msgstr "Tulostimelta “%s” puuttuu tulostussuodin."
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:423
 #, c-format
 msgid "The door is open on printer “%s”."
@@ -2362,13 +2106,15 @@ msgstr "Tulostimen “%s” värikasetti on vähissä."
 msgid "Printer “%s” is out of a marker supply."
 msgstr "Tulostimen “%s” värikasetti on loppu."
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:435
 #, c-format
 msgid "Printer “%s” is low on paper."
 msgstr "Tulostimesta “%s” on paperi vähissä."
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:439
 #, c-format
 msgid "Printer “%s” is out of paper."
@@ -2380,13 +2126,15 @@ msgstr "Tulostimesta “%s” on paperi loppu."
 msgid "Printer “%s” is currently off-line."
 msgstr "Tulostin “%s” on yhteydettömässä tilassa."
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:447
 #, c-format
 msgid "There is a problem on printer “%s”."
 msgstr "Tulostimessa “%s” on ongelma."
 
-#. Translators: The printer has a job to print but the printer needs authentication to continue with the print
+#. Translators: The printer has a job to print but the printer needs
+#. authentication to continue with the print
 #: plugins/print-notifications/gsd-print-notifications-manager.c:559
 #, c-format
 msgid "%s Requires Authentication"
@@ -2403,27 +2151,32 @@ msgstr "Kirjautumistiedot vaaditaan tulostamista varten"
 msgid "Toner low"
 msgstr "Väriaine vähissä"
 
-#. Translators: The printer has no toner left (same as in system-config-printer)
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:630
 msgid "Toner empty"
 msgstr "Väriaine lopussa"
 
-#. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:632
 msgid "Not connected?"
 msgstr "Ei yhteyttä?"
 
-#. Translators: One or more covers on the printer are open (same as in system-config-printer)
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:634
 msgid "Cover open"
 msgstr "Kansi auki"
 
-#. Translators: A filter or backend is not installed (same as in system-config-printer)
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:636
 msgid "Printer configuration error"
 msgstr "Tulostimen asetusvirhe"
 
-#. Translators: One or more doors on the printer are open (same as in system-config-printer)
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:638
 msgid "Door open"
 msgstr "Luukku auki"
@@ -2438,12 +2191,14 @@ msgstr "Värikasetti on vähissä"
 msgid "Out of a marker supply"
 msgstr "Värikasetti on loppu"
 
-#. Translators: At least one input tray is low on media (same as in system-config-printer)
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:644
 msgid "Paper low"
 msgstr "Paperi vähissä"
 
-#. Translators: At least one input tray is empty (same as in system-config-printer)
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:646
 msgid "Out of paper"
 msgstr "Paperi on loppu"
@@ -2453,7 +2208,8 @@ msgstr "Paperi on loppu"
 msgid "Printer off-line"
 msgstr "Tulostin yhteydettömässä tilassa"
 
-#. Translators: The printer has detected an error (same as in system-config-printer)
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
 #. Translators: This is a title of an error notification for a printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:650
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1026
@@ -2526,7 +2282,8 @@ msgstr "Tulostinraportti"
 msgid "Printer warning"
 msgstr "Tulostinvaroitus"
 
-#. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
+#. Translators: "Printer 'MyPrinterName': 'Description of the
+#. report/warning/error from a PPD file'."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1033
 #, c-format
 msgid "Printer “%s”: “%s”."
@@ -2548,13 +2305,11 @@ msgstr "Uusi USB-laite"
 msgid ""
 "New device has been detected while the session was not locked. If you did "
 "not plug anything, check your system for any suspicious device."
-msgstr ""
-"Uusi laite havaittiin, kun istunto ei ollut lukittuna. Jos et liittänyt "
-"mitään, tarkista järjestelmä epäilyttävien laitteiden varalta."
+msgstr "Uusi laite havaittiin, kun istunto ei ollut lukittuna. Jos et liittänyt mitään, tarkista järjestelmä epäilyttävien laitteiden varalta."
 
 #: plugins/usb-protection/gsd-usb-protection-manager.c:589
 msgid "New device detected"
-msgstr "Uusi laite havaittu"
+msgstr ""
 
 #: plugins/usb-protection/gsd-usb-protection-manager.c:590
 msgid ""
@@ -2562,9 +2317,6 @@ msgid ""
 "been plugged in. If you did not do it, check your system for any suspicious "
 "device."
 msgstr ""
-"Joko aiemmin yhdistetty laite on yhdistetty uudelleen tai uusi laite on "
-"liitetty. Jos et tehnyt mitään, tarkista järjestelmä epäilyttävien "
-"laitteiden varalta."
 
 #: plugins/usb-protection/gsd-usb-protection-manager.c:596
 msgid "Reconnect USB device"
@@ -2574,9 +2326,7 @@ msgstr "Yhdistä USB-laite uudelleen"
 msgid ""
 "New device has been detected while you were away. Please disconnect and "
 "reconnect the device to start using it."
-msgstr ""
-"Uusi laite havaittiin, kun olit pois. Katkaise laitteen yhteys ja yhdistä se "
-"uudelleen aloittaaksesi kyseisen laitteen käytön."
+msgstr "Uusi laite havaittiin, kun olit pois. Katkaise laitteen yhteys ja yhdistä se uudelleen aloittaaksesi kyseisen laitteen käytön."
 
 #: plugins/usb-protection/gsd-usb-protection-manager.c:603
 #: plugins/usb-protection/gsd-usb-protection-manager.c:628
@@ -2587,9 +2337,7 @@ msgstr "USB-laite estetty"
 msgid ""
 "New device has been detected while you were away. It has been blocked "
 "because the USB protection is active."
-msgstr ""
-"Uusi laite havaittiin, kun olit pois. Se estettiin, koska USB-suojaus on "
-"aktiivisena."
+msgstr "Uusi laite havaittiin, kun olit pois. Se estettiin, koska USB-suojaus on aktiivisena."
 
 #: plugins/usb-protection/gsd-usb-protection-manager.c:629
 msgid ""
@@ -2605,9 +2353,8 @@ msgid "Modify the lit LED for a Wacom tablet"
 msgstr ""
 
 #: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:21
-#, fuzzy
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
-msgstr "Kannettavan näytön kirkkauden muuttaminen vaatii tunnistautumisen"
+msgstr ""
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
@@ -2617,85 +2364,84 @@ msgid "Modify the OLED image for a Wacom tablet"
 msgstr ""
 
 #: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:36
-#, fuzzy
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
-msgstr "Kannettavan näytön kirkkauden muuttaminen vaatii tunnistautumisen"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:40
 msgid "Phone failure"
-msgstr "Puhelimen virhe"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:41
 msgid "No connection to phone"
-msgstr "Ei yhteyttä puhelimeen"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:43
 msgid "Operation not allowed"
-msgstr "Toimenpide ei ole sallittu"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:44
 msgid "Operation not supported"
-msgstr "Toimenpide ei ole tuettu"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:48
 msgid "SIM not inserted"
-msgstr "SIM-kortti ei ole sisällä"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:49
 msgid "SIM PIN required"
-msgstr "SIM-kortin PIN vaaditaan"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:50
 msgid "SIM PUK required"
-msgstr "SIM-kortin PUK vaaditaan"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:51
 msgid "SIM failure"
-msgstr "SIM-virhe"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:52
 msgid "SIM busy"
-msgstr "SIM varattu"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:53
 msgid "SIM wrong"
-msgstr "SIM väärin"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:54
 msgid "Incorrect password"
-msgstr "Väärä salasana"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:55
 msgid "SIM PIN2 required"
-msgstr "SIM-kortin PIN2 vaaditaan"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:56
 msgid "SIM PUK2 required"
-msgstr "SIM-kortin PUK2 vaaditaan"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:72
 msgid "Unknown error"
-msgstr "Tuntematon virhe"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:91
 msgid "Action Cancelled"
-msgstr "Toimenpide on peruttu"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:94
 msgid "Access denied"
-msgstr "Käyttö estetty"
+msgstr ""
 
 #: plugins/wwan/cc-wwan-errors-private.h:103
 msgid "Unknown Error"
-msgstr "Tuntematon virhe"
+msgstr ""
 
 #: plugins/wwan/gsd-wwan-manager.c:117
 msgid "New PIN for SIM"
-msgstr "Uusi PIN-koodi SIM-kortille"
+msgstr ""
 
 #: plugins/wwan/gsd-wwan-manager.c:118
 msgid "Set"
-msgstr "Aseta"
+msgstr ""
 
 #: plugins/wwan/gsd-wwan-manager.c:120
 msgid "Unlock SIM card"
@@ -2712,11 +2458,11 @@ msgstr "Peru"
 #: plugins/wwan/gsd-wwan-manager.c:129
 #, c-format
 msgid "Please provide a new PIN for SIM card %s"
-msgstr "Anna uusi PIN-koodi SIM-kortille %s"
+msgstr ""
 
 #: plugins/wwan/gsd-wwan-manager.c:131
 msgid "Enter a New PIN to unlock your SIM card"
-msgstr "Anna uusi PIN-koodi avataksesi SIM-kortin lukituksen"
+msgstr ""
 
 #: plugins/wwan/gsd-wwan-manager.c:133
 #, c-format
@@ -2730,19 +2476,19 @@ msgstr "Anna PIN-koodi avataksesi SIM-kortin lukituksen"
 #: plugins/wwan/gsd-wwan-manager.c:138
 #, c-format
 msgid "Please provide the PUK for SIM card %s"
-msgstr "Anna PUK-koodi SIM-kortille %s"
+msgstr ""
 
 #: plugins/wwan/gsd-wwan-manager.c:140
 msgid "Enter PUK to unlock your SIM card"
-msgstr "Anna PUK-koodi avataksesi SIM-kortin lukituksen"
+msgstr ""
 
 #. msg is already localised
 #: plugins/wwan/gsd-wwan-manager.c:156
 #, c-format
 msgid "%2$s. You have %1$u try left"
 msgid_plural "%2$s. You have %1$u tries left"
-msgstr[0] "%2$s. %1$u yritys jäljellä"
-msgstr[1] "%2$s. %1$u yritystä jäljellä"
+msgstr[0] ""
+msgstr[1] ""
 
 #: plugins/wwan/gsd-wwan-manager.c:160
 #, c-format
@@ -2750,450 +2496,3 @@ msgid "You have %u try left"
 msgid_plural "You have %u tries left"
 msgstr[0] "%u yritys jäljellä"
 msgstr[1] "%u yritystä jäljellä"
-
-#~ msgid "PH-SIM PIN required"
-#~ msgstr "PH-SIM-kortin PIN vaaditaan"
-
-#~ msgid "PH-FSIM PIN required"
-#~ msgstr "PH-FSIM-kortin PIN vaaditaan"
-
-#~ msgid "PH-FSIM PUK required"
-#~ msgstr "PH-FSIM-kortin PUK vaaditaan"
-
-#~ msgid "Memory full"
-#~ msgstr "Muisti täynnä"
-
-#~ msgid "Invalid index"
-#~ msgstr "Virheellinen indeksi"
-
-#~ msgid "Not found"
-#~ msgstr "Ei löytynyt"
-
-#~ msgid "Memory failure"
-#~ msgstr "Muistivirhe"
-
-#~ msgid "No network service"
-#~ msgstr "Ei verkkoa"
-
-#~ msgid "Network timeout"
-#~ msgstr "Verkon aikakatkaisu"
-
-#~ msgid "Network not allowed - emergency calls only"
-#~ msgstr "Verkko ei sallittu - vain hätäpuhelut"
-
-#, fuzzy
-#~| msgid "Recalibration required"
-#~ msgid "Network personalization PIN required"
-#~ msgstr "Uudelleenkalibrointi vaaditaan"
-
-#, fuzzy
-#~| msgid "Recalibration required"
-#~ msgid "Network personalization PUK required"
-#~ msgstr "Uudelleenkalibrointi vaaditaan"
-
-#, fuzzy
-#~| msgid "Recalibration required"
-#~ msgid "Corporate personalization PIN required"
-#~ msgstr "Uudelleenkalibrointi vaaditaan"
-
-#, fuzzy
-#~| msgid "Recalibration required"
-#~ msgid "Corporate personalization PUK required"
-#~ msgstr "Uudelleenkalibrointi vaaditaan"
-
-#~ msgid "GPRS services not allowed"
-#~ msgstr "GPRS-palvelut ei sallittu"
-
-#~ msgid "PLMN not allowed"
-#~ msgstr "PLMN ei sallittu"
-
-#~ msgid "Roaming not allowed in this location area"
-#~ msgstr "Roaming ei ole sallittu tällä alueella"
-
-#~ msgid "Unspecified GPRS error"
-#~ msgstr "Määrittelemätön GPRS-virhe"
-
-#~ msgid "PDP authentication failure"
-#~ msgstr "PDP-tunnistusvirhe"
-
-#~ msgid "Invalid mobile class"
-#~ msgstr "Virheellinen mobiililuokka"
-
-#~ msgid "SIM card unlock error"
-#~ msgstr "SIM-kortin avausvirhe"
-
-#~ msgid "OK"
-#~ msgstr "OK"
-
-#~ msgid "Too many incorrect PINs."
-#~ msgstr "Liian monta virheellistä PIN-yritystä."
-
-#~ msgid "Wrong PIN code"
-#~ msgstr "Väärä PIN-koodi"
-
-#~ msgid "NumLock state"
-#~ msgstr "NumLockin tila"
-
-#~ msgid ""
-#~ "Highlights the current location of the pointer when the Control key is "
-#~ "pressed and released."
-#~ msgstr ""
-#~ "Korostaa osoittimen nykyisen sijainnin, kun control-näppäintä painetaan "
-#~ "ja vapautetaan."
-
-#~ msgid "Touchpad toggle"
-#~ msgstr "Kosketuslevy päälle/pois"
-
-#, fuzzy
-#~| msgid "Volume mute"
-#~ msgid "Quiet Volume Mute"
-#~ msgstr "Hiljennä ääni"
-
-#~ msgid "Lock Screen"
-#~ msgstr "Lukitse näyttö"
-
-#~ msgid "Help"
-#~ msgstr "Ohje"
-
-#~ msgid "Rewind"
-#~ msgstr "Kelaa taakse"
-
-#~ msgid "Forward"
-#~ msgstr "Kelaa eteen"
-
-#~ msgid "Repeat"
-#~ msgstr "Kertaustila"
-
-#~ msgid "Random Play"
-#~ msgstr "Satunnaistoisto"
-
-#~ msgid "Orientation Lock"
-#~ msgstr "Suuntalukitus"
-
-#~ msgid "Power Off"
-#~ msgstr "Sammuta"
-
-#~ msgid "Sleep"
-#~ msgstr "Unitila"
-
-#~ msgid "Toggle Bluetooth"
-#~ msgstr "Bluetooth päälle/pois päältä"
-
-#~ msgid "File for default configuration for RandR"
-#~ msgstr "RandR:in oletusasetusten tiedosto"
-
-#~ msgid "Slow Keys Turned On"
-#~ msgstr "Hitaat näppäimet käytössä"
-
-#~ msgid "Slow Keys Turned Off"
-#~ msgstr "Hitaat näppäimet pois käytöstä"
-
-#~ msgid ""
-#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
-#~ "the Slow Keys feature, which affects the way your keyboard works."
-#~ msgstr ""
-#~ "Pidit juuri vaihtonäppäintä painettuna 8 sekuntia. Tämä on hitaat "
-#~ "näppäimet -ominaisuuden pikanäppäily, ja muuttaa tapaa, jolla näppäimistö "
-#~ "toimii."
-
-#~ msgid "Universal Access"
-#~ msgstr "Esteettömyys"
-
-#~ msgid "Turn Off"
-#~ msgstr "Kytke pois päältä"
-
-#~ msgid "Turn On"
-#~ msgstr "Kytke päälle"
-
-#~ msgid "Leave On"
-#~ msgstr "Jätä päälle"
-
-#~ msgid "Leave Off"
-#~ msgstr "Jätä pois päältä"
-
-#~ msgid "Sticky Keys Turned On"
-#~ msgstr "Pohjaan jäävät näppäimet käytössä"
-
-#~ msgid "Sticky Keys Turned Off"
-#~ msgstr "Pohjaan jäävät näppäimet pois käytöstä"
-
-#~ msgid ""
-#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
-#~ "for the Sticky Keys feature, which affects the way your keyboard works."
-#~ msgstr ""
-#~ "Painoit juuri vaihtonäppäintä 5 kertaa peräkkäin. Tämä on pohjaan jäävät "
-#~ "näppäimet -ominaisuuden pikanäppäily, ja muuttaa tapaa, jolla näppäimistö "
-#~ "toimii."
-
-#~ msgid ""
-#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
-#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
-#~ "keyboard works."
-#~ msgstr ""
-#~ "Painoit juuri kahta näppäintä samalla tai vaihtonäppäintä 5 kertaa "
-#~ "peräkkäin. Tämä on pohjaan jäävät näppäimet -ominaisuuden pikanäppäily, "
-#~ "ja muuttaa tapaa, jolla näppäimistö toimii."
-
-#~ msgid "Disabled"
-#~ msgstr "Ei käytössä"
-
-#~ msgid "%u Output"
-#~ msgid_plural "%u Outputs"
-#~ msgstr[0] "%u ulostulo"
-#~ msgstr[1] "%u ulostuloa"
-
-#~ msgid "%u Input"
-#~ msgid_plural "%u Inputs"
-#~ msgstr[0] "%u sisääntulo"
-#~ msgstr[1] "%u sisääntuloa"
-
-#~ msgid "System Sounds"
-#~ msgstr "Järjestelmän äänet"
-
-#~ msgid "Video Out"
-#~ msgstr "Video ulos"
-
-#~ msgid "Rotate Screen"
-#~ msgstr "Käännä näytttöä"
-
-#~ msgid "Could not refresh the screen information: %s"
-#~ msgstr "Näytön tietoja ei voitu virkistää: %s"
-
-#~ msgid "GNOME Settings Daemon"
-#~ msgstr "Gnomen asetuspalvelin"
-
-#~ msgid "Activation of this plugin"
-#~ msgstr "Tämän lisäosan aktivointi"
-
-#~ msgid ""
-#~ "Whether this plugin would be activated by gnome-settings-daemon or not"
-#~ msgstr "Aktivoiko gnome-settings-daemon tämän lisäosan vai ei"
-
-#~ msgid "Priority to use for this plugin"
-#~ msgstr "Tähän liitännäiseen käytettävä prioriteetti"
-
-#~ msgid "Enable debugging code"
-#~ msgstr "Käytä vianetsinätilaa"
-
-#~ msgid "Exit after a time (for debugging)"
-#~ msgstr "Lopeta tietyn ajan kuluttua (vianetsintää varten)"
-
-#~ msgid "Accessibility Keyboard"
-#~ msgstr "Näppäimistön esteettömyys"
-
-#~ msgid "Accessibility keyboard plugin"
-#~ msgstr "Näppäimistön esteettömyysliitännäinen"
-
-#~ msgid "Accessibility settings"
-#~ msgstr "Esteettömyysasetukset"
-
-#~ msgid "Accessibility settings plugin"
-#~ msgstr "Esteettömyysasetusten liitännäinen"
-
-#~ msgid "Clipboard"
-#~ msgstr "Leikepöytä"
-
-#~ msgid "Clipboard plugin"
-#~ msgstr "Leikepöytäliitännäinen"
-
-#~ msgid "Color plugin"
-#~ msgstr "Väriliitännäinen"
-
-#~ msgid "Date and Time"
-#~ msgstr "Aika ja päiväys"
-
-#~ msgid "Automatically update timezone"
-#~ msgstr "Päivitä aikavyöhyke automaattisesti"
-
-#~ msgid "Dummy"
-#~ msgstr "Tyhjä"
-
-#~ msgid "Dummy plugin"
-#~ msgstr "Tyhjä liitännäinen"
-
-#~ msgid "Keyboard"
-#~ msgstr "Näppäimistö"
-
-#~ msgid "Keyboard plugin"
-#~ msgstr "Näppäimistöliitännäinen"
-
-#~ msgid "Media keys"
-#~ msgstr "Medianäppäimet"
-
-#~ msgid "Media keys plugin"
-#~ msgstr "Medianäppäinten liitännäinen"
-
-#~ msgid "Mouse"
-#~ msgstr "Hiiri"
-
-#~ msgid "Mouse plugin"
-#~ msgstr "Hiiriliitännäinen"
-
-#~ msgid "Orientation"
-#~ msgstr "Suuntaus"
-
-#~ msgid "Orientation plugin"
-#~ msgstr "Suuntausliitännäinen"
-
-#~ msgid "Power plugin"
-#~ msgstr "Virtaliitännäinen"
-
-#~ msgid "Print-notifications"
-#~ msgstr "Tulostusilmoitukset"
-
-#~ msgid "Print-notifications plugin"
-#~ msgstr "Tulostusilmoitusten liitännäinen"
-
-#, fuzzy
-#~| msgid "Color plugin"
-#~ msgid "Rfkill plugin"
-#~ msgstr "Väriliitännäinen"
-
-#~ msgid "Smartcard"
-#~ msgstr "Sirukortti"
-
-#~ msgid "Smartcard plugin"
-#~ msgstr "Sirukorttiliitännäinen"
-
-#~ msgid "Sound"
-#~ msgstr "Ääni"
-
-#, fuzzy
-#~| msgid "Switch input source"
-#~ msgctxt "Wacom action-type"
-#~ msgid "Switch Monitor"
-#~ msgstr "Vaihda syötelähdettä"
-
-#, fuzzy
-#~| msgid "Switch input source"
-#~ msgctxt "Action type"
-#~ msgid "Switch Monitor"
-#~ msgstr "Vaihda syötelähdettä"
-
-#~ msgctxt "keyboard shortcut"
-#~ msgid "None"
-#~ msgstr "Ei mitään"
-
-#~ msgid "Done"
-#~ msgstr "Valmis"
-
-#~ msgid "Left Button #%d"
-#~ msgstr "Vasen painike #%d"
-
-#~ msgid "Right Button #%d"
-#~ msgstr "Oikea painike #%d"
-
-#~ msgid "Top Button #%d"
-#~ msgstr "Yläpainike #%d"
-
-#~ msgid "Bottom Button #%d"
-#~ msgstr "Alapainike #%d"
-
-#~ msgid "New shortcut…"
-#~ msgstr "Uusi pikanäppäin…"
-
-#~ msgid "The \"%s\" tablet may not work as expected."
-#~ msgstr "Piirtopöytä \"%s\" ei välttämättä toimi odotetulla tavalla."
-
-#~ msgid "Unknown Tablet Connected"
-#~ msgstr "Tuntematon piirtopöytä yhdistetty"
-
-#~ msgid "Wacom Settings"
-#~ msgstr "Wacom-asetukset"
-
-#~ msgid "(press any key to exit)"
-#~ msgstr "(paina mitä tahansa näppäintä poistuaksesi)"
-
-#~ msgid "(Esc to cancel)"
-#~ msgstr "(Esc peruu)"
-
-#~ msgid "Edit"
-#~ msgstr "Muokkaa"
-
-#~ msgid "Wacom"
-#~ msgstr "Wacom"
-
-#~ msgid "Wacom plugin"
-#~ msgstr "Wacom-liitännäinen"
-
-#~ msgid "XRandR"
-#~ msgstr "XRandR"
-
-#~ msgid "Set up screen size and rotation settings"
-#~ msgstr "Määritä näytön koko ja kiertoasetukset"
-
-#~ msgid "X Settings"
-#~ msgstr "X-asetukset"
-
-#~ msgid "Manage X Settings"
-#~ msgstr "Hallitse X-asetuksia"
-
-#~ msgid ""
-#~ "The type of hinting to use when rendering fonts. Possible values are: "
-#~ "\"none\" for no hinting, \"slight\" for basic, \"medium\" for moderate, "
-#~ "and \"full\" for maximum hinting (may cause distortion of letter forms)."
-#~ msgstr ""
-#~ "Fontteja piirrettäessä käytettävä vihjeistystapa. Mahdolliset arvot ovat: "
-#~ "\"none\" (ei vihjeistystä), \"slight\" (kevyt vihjeistys), \"medium"
-#~ "\" (tavallinen vihjeistys) \"full\" (suurin mahdollinen, saattaa "
-#~ "aiheuttaa kirjainmuotojen säröytymistä)"
-
-#~ msgid "Cursor"
-#~ msgstr "Kursori"
-
-#~ msgid "Show/hide cursor on tablet devices"
-#~ msgstr "Näytä/piilota kursori tablet-laitteilla"
-
-#~ msgid "Don't show any warnings again for this file system"
-#~ msgstr "Älä näytä tätä tiedostojärjestelmää koskevia varoituksia jatkossa"
-
-#~ msgid "Don't show any warnings again"
-#~ msgstr "Älä näytä tätä varoitusta uudestaan"
-
-#~ msgid "The volume \"%s\" has only %s disk space remaining."
-#~ msgstr "Taltiolla ”%s” on vain %s levytilaa jäljellä."
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to another disk or partition."
-#~ msgstr ""
-#~ "Voit vapauttaa levytilaa tyhjentämällä roskakorin, poistamalla "
-#~ "käyttämättömiä ohjelmia ja tiedostoja tai siirtämällä tiedostoja toisille "
-#~ "levyille tai osioille."
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to another disk or partition."
-#~ msgstr ""
-#~ "Voit vapauttaa levytilaa poistamalla käyttämättömiä ohjelmia ja "
-#~ "tiedostoja tai siirtämällä tiedostoja toisille levyille tai osioille."
-
-#~ msgid ""
-#~ "You can free up disk space by emptying the Trash, removing unused "
-#~ "programs or files, or moving files to an external disk."
-#~ msgstr ""
-#~ "Voit vapauttaa levytilaa tyhjentämällä roskakorin, poistamalla "
-#~ "käyttämättömiä ohjelmia ja tiedostoja tai siirtämällä tiedostoja "
-#~ "ulkoiselle levylle."
-
-#~ msgid ""
-#~ "You can free up disk space by removing unused programs or files, or by "
-#~ "moving files to an external disk."
-#~ msgstr ""
-#~ "Voit vapauttaa levytilaa poistamalla käyttämättömiä ohjelmia ja "
-#~ "tiedostoja tai siirtämällä tiedostoja ulkoiselle levylle."
-
-#~ msgid "Examine…"
-#~ msgstr "Tutki..."
-
-#~ msgid "Printer removed"
-#~ msgstr "Tulostin poistettu"
-
-#~ msgid "Tablet %s needs to be calibrated."
-#~ msgstr "Piirtopöytä %s pitää kalibroida."
-
-#~ msgid "Calibration needed"
-#~ msgstr "Kalibrointi vaaditaan"
-
-#~ msgid "Calibrate"
-#~ msgstr "Kalibroi"
