@@ -1,3258 +1,2495 @@
-# Malagasy translation of gnome-control-center.
-# Copyright (C) 2006 THE gnome-control-center'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-control-center package.
-# Fanomezana Rajaonarisoa <rajfanhar@yahoo.fr>, 2006.
-# Thierry Randrianiriana <randrianiriana@gmail.com>, 2006.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-settings-daemon package.
+# 
+# Translators:
+# Fanomezana Rajaonarisoa <rajfanhar@yahoo.fr>, 2006
+# Thierry Randrianiriana <randrianiriana@gmail.com>, 2006
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center HEAD\n"
+"Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-02-26 21:06-0500\n"
-"PO-Revision-Date: 2006-05-23 22:19+0300\n"
-"Last-Translator: Thierry Randrianiriana <randrianiriana@gmail.com>\n"
-"Language-Team: Malagasy <i18n-malagasy-gnome@gna.org>\n"
-"Language: mg\n"
+"POT-Creation-Date: 2020-10-21 13:52+0000\n"
+"PO-Revision-Date: 2020-10-13 15:13+0000\n"
+"Last-Translator: endlessmobile_build <admin@endlessos.org>\n"
+"Language-Team: Malagasy (http://www.transifex.com/endless-os/gnome-settings-daemon/language/mg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n>1;\n"
+"Language: mg\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../data/apps_gnome_settings_daemon_default_editor.schemas.in.h:1
-#, fuzzy
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:12
+msgid "Smartcard removal action"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:13
 msgid ""
-"Set to True to keep the handlers for text/plain and text/* MIME types "
-"synchronized."
-msgstr ""
-"Raha marina izay voalaza, dia ho tazonina ao anatin'ny sync ireo mpandray an-"
-"tànana mime ho an'ny text/plain and text/*"
-
-#: ../data/apps_gnome_settings_daemon_default_editor.schemas.in.h:2
-msgid "Sync text/plain and text/* handlers"
-msgstr "Ireo mpandray an-tànana ny text/plain and text/* an'ny sync"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:1
-msgid "Binding to eject an optical disk."
+"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will"
+" get performed when the smartcard used for log in is removed."
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:2
-msgid "Binding to launch the calculator."
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:25
+msgid "Possible values are “on”, “off”, and “custom”."
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:3
-msgid "Binding to launch the email client."
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:35
+msgid "Keyboard Bell Custom Filename"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:4
-#, fuzzy
-msgid "Binding to launch the help browser."
-msgstr "Alefaso ny mpizaha toro-làlana"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:5
-msgid "Binding to launch the media player."
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:36
+msgid "File name of the bell sound to be played."
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:6
-msgid "Binding to launch the search tool."
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:42
+msgid "Double click time"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:7
-#, fuzzy
-msgid "Binding to launch the web browser."
-msgstr "Alefaso ny mpitety tranonkala"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:8
-msgid "Binding to lock the screen."
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:43
+msgid "Length of a double click in milliseconds."
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:9
-msgid "Binding to log out."
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:47
+msgid "Drag threshold"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:10
-msgid "Binding to lower the system volume."
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:48
+msgid "Distance before a drag is started."
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:11
-msgid "Binding to mute the system volume."
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:54
+msgid "Whether the tablet’s orientation is locked, or rotated automatically."
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:12
-msgid "Binding to open the Home folder."
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:62
+msgid "Mouse button orientation"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:13
-msgid "Binding to pause playback."
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:63
+msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:14
-msgid "Binding to raise the system volume."
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:67
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:134
+msgid "Single Click"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:15
-#, fuzzy
-msgid "Binding to skip to next track."
-msgstr "Mamaky ny hira manaraka"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:16
-#, fuzzy
-msgid "Binding to skip to previous track."
-msgstr "Mamaky ny hira teo aloha"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:17
-msgid "Binding to start playback (or toggle play/pause)."
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:68
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:135
+msgid ""
+"Acceleration multiplier for mouse motion. A value of -1 is the system "
+"default."
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:18
-msgid "Binding to stop playback."
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:72
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:139
+msgid "Motion Threshold"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:19
-msgid "Binding to suspend the computer."
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:73
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:140
+msgid ""
+"Distance in pixels the pointer must move before accelerated mouse motion is "
+"activated. A value of -1 is the system default."
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:20
-msgid "Eject"
-msgstr "Tsoahy"
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:77
+msgid "Middle button emulation"
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:21
-msgid "Home folder"
-msgstr "Laha-tahirin'ny fandraisana"
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:78
+msgid ""
+"Enables middle mouse button emulation through simultaneous left and right "
+"button click."
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:22
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:87
+msgid "Key Repeat Interval"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:88
+msgid "Delay between repeats in milliseconds."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:92
+msgid "Initial Key Repeat Delay"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:93
+msgid "Initial key repeat delay in milliseconds."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:97
+msgid "Remember NumLock state"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:98
+msgid ""
+"When set to true, GNOME will remember the state of the NumLock LED between "
+"sessions."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:104
+msgid "Disable touchpad while typing"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:105
+msgid ""
+"Set this to TRUE if you have problems with accidentally hitting the touchpad"
+" while typing."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:109
+msgid "Enable horizontal scrolling"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:110
+msgid ""
+"Set this to TRUE to allow horizontal scrolling by the same method selected "
+"with the scroll_method key."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:114
+msgid "Select the touchpad scroll method"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:115
+msgid ""
+"Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
+"scrolling”, “two-finger-scrolling”."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:119
+msgid "Enable mouse clicks with touchpad"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:120
+msgid ""
+"Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:124
+msgid "Enable touchpad"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:125
+msgid "Set this to TRUE to enable all touchpads."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:129
+msgid "Touchpad button orientation"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:130
+msgid ""
+"Swap left and right mouse buttons for left-handed mice with “left”, “right” "
+"for right-handed, “mouse” to follow the mouse setting."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:144
+msgid "Natural scrolling"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:145
+msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:152
+msgid "Mouse wheel emulation button. 0 to disable the feature."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:10
+msgid "Wacom stylus absolute mode"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:11
+msgid "Enable this to set the tablet to absolute mode."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:15
+msgid "Wacom tablet area"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:16
+msgid "Set this to x1, y1 and x2, y2 of the area usable by the tools."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:20
+msgid "Wacom tablet aspect ratio"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:21
+msgid ""
+"Enable this to restrict the Wacom tablet area to match the aspect ratio of "
+"the output."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:25
+msgid "Wacom tablet rotation"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:26
+msgid ""
+"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and"
+" “ccw” for 90 degree counterclockwise."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:30
+msgid "Wacom touch feature"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:31
+msgid "Enable this to move the cursor when the user touches the tablet."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:37
+msgid "Wacom stylus pressure curve"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:38
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:42
+msgid "Wacom stylus button mapping"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:43
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:60
+msgid "Set this to the logical button mapping."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:47
+msgid "Wacom stylus pressure threshold"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:48
+msgid ""
+"Set this to the pressure value at which a stylus click event is generated."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:54
+msgid "Wacom eraser pressure curve"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:55
+msgid ""
+"Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:59
+msgid "Wacom eraser button mapping"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:64
+msgid "Wacom eraser pressure threshold"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:65
+msgid ""
+"Set this to the pressure value at which an eraser click event is generated."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:71
+msgid "Wacom button action type"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:72
+msgid "The type of action triggered by the button being pressed."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:76
+msgid "Key combination for the custom action"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:77
+msgid ""
+"The keyboard shortcut generated when the button is pressed for custom "
+"actions."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:81
+msgid "Key combinations for a touchring or touchstrip custom action"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:82
+msgid ""
+"The keyboard shortcuts generated when a touchring or touchstrip is used for "
+"custom actions (up followed by down)."
+msgstr ""
+
+#. Translators: This is the OLED display on an Intuos4 tablet:
+#. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:88
+msgid "Button label for OLED display."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:89
+msgid "Label will be rendered to OLED display belonging to the button"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:6
+msgid "The duration a display profile is valid"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:7
+msgid ""
+"This is the number of days after which the display color profile is "
+"considered invalid."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:11
+msgid "The duration a printer profile is valid"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:12
+msgid ""
+"This is the number of days after which the printer color profile is "
+"considered invalid."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:16
+msgid "If the night light mode is enabled"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:17
+msgid ""
+"Night light mode changes the color temperature of your display when the sun "
+"has gone down or at preset times."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
+msgid "Temperature of the display when enabled"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:22
+msgid ""
+"This temperature in Kelvin is used to modify the screen tones when night "
+"light mode is enabled. Higher values are bluer, lower redder."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:26
+msgid "Use the sunrise and sunset"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:27
+msgid ""
+"Calculate the sunrise and sunset times automatically, from the current "
+"location."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:31
+msgid "The start time"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:32
+msgid ""
+"When “night-light-schedule-automatic” is disabled, use this start time in "
+"hours from midnight."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:36
+msgid "The end time"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:37
+msgid ""
+"When “night-light-schedule-automatic” is disabled, use this end time in "
+"hours from midnight."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:41
+msgid "The last detected position"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:42
+msgid ""
+"When location services are available this represents the last detected "
+"location. The default value is an invalid value to ensure it is always "
+"updated at startup."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.gschema.xml.in:6
+msgid "List of plugins that are allowed to be loaded"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.gschema.xml.in:7
+msgid ""
+"A list of strings representing the plugins that are allowed to be loaded "
+"(default: “all”). This is only evaluated on startup."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:6
+msgid "Mount paths to ignore"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:7
+msgid "Specify a list of mount paths to ignore when they run low on space."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:12
+msgid "Free percentage notify threshold"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:13
+msgid ""
+"Percentage free space threshold for initial warning of low disk space. If "
+"the percentage free space drops below this, a warning will be shown."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:18
+msgid "Subsequent free space percentage notify threshold"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:19
+msgid ""
+"Specify the percentage that the free disk space should reduce by before "
+"issuing a subsequent warning."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:23
+msgid "Free space notify threshold"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:24
+msgid ""
+"Specify an amount in GB. If the amount of free space is more than this, no "
+"warning will be shown."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:28
+msgid "Minimum notify period for repeated warnings"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:29
+msgid ""
+"Specify a time in minutes. Subsequent warnings for a volume will not appear "
+"more often than this period."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:6
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:189
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:516
 msgid "Launch calculator"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:23
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:7
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:190
+msgid "Binding to launch the calculator."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:11
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:194
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:521
+msgid "Launch settings"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:12
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:195
+msgid "Binding to launch GNOME Settings."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:16
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:199
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:526
 msgid "Launch email client"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:24
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:17
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:200
+msgid "Binding to launch the email client."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:21
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:204
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:531
+msgid "Eject"
+msgstr "Tsoahy"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:22
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:205
+msgid "Binding to eject an optical disc."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:26
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:209
 msgid "Launch help browser"
 msgstr "Alefaso ny mpizaha toro-làlana"
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:25
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:27
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:210
+msgid "Binding to launch the help browser."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:31
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:214
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:536
+msgid "Home folder"
+msgstr "Laha-tahirin'ny fandraisana"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:32
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:215
+msgid "Binding to open the Home folder."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:36
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:219
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:541
 msgid "Launch media player"
 msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:26
-msgid "Launch web browser"
-msgstr "Alefaso ny mpitety tranonkala"
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:37
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:220
+msgid "Binding to launch the media player."
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:27
-msgid "Lock screen"
-msgstr "Gejao ny efijery"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:28
-msgid "Log out"
-msgstr "Hivoaka"
-
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:29
-#, fuzzy
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:41
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:224
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:546
 msgid "Next track"
-msgstr "Mamaky ny hira manaraka"
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:30
-#, fuzzy
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:42
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:225
+msgid "Binding to skip to next track."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:46
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:229
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:551
 msgid "Pause playback"
-msgstr "Famakiana feo:"
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:31
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:47
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:230
+msgid "Binding to pause playback."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:51
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:234
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:556
 msgid "Play (or play/pause)"
 msgstr "Mamaky (na mamaky/miato)"
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:32
-#, fuzzy
-msgid "Previous track"
-msgstr "Mamaky ny hira teo aloha"
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:52
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:235
+msgid "Binding to start playback (or toggle play/pause)."
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:33
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:56
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:239
+msgid "Log out"
+msgstr "Hivoaka"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:57
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:240
+msgid "Binding to log out."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:61
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:244
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:561
+msgid "Previous track"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:62
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:245
+msgid "Binding to skip to previous track."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:66
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:249
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:566
+msgid "Lock screen"
+msgstr "Gejao ny efijery"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:67
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:250
+msgid "Binding to lock the screen."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:71
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:254
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:571
 msgid "Search"
 msgstr "Karohy"
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:34
-#, fuzzy
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:72
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:255
+msgid "Binding to launch the search tool."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:76
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:259
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:576
 msgid "Stop playback"
-msgstr "Ajanony"
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:35
-#, fuzzy
-msgid "Suspend"
-msgstr "Feo"
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:77
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:260
+msgid "Binding to stop playback."
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:36
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:81
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:266
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:583
 msgid "Volume down"
 msgstr "Ambany"
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:37
-msgid "Volume mute"
-msgstr "Malefaka"
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:82
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:267
+msgid "Binding to lower the volume."
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:38
-msgid "Volume step"
-msgstr "Dingan'ny fanamafisam-peo"
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:86
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:271
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:588
+msgid "Volume mute/unmute"
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:39
-msgid "Volume step as percentage of volume."
-msgstr "Dingana mampiseho ny hamafin'ny feo."
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:272
+msgid "Binding to mute/unmute the volume."
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_keybindings.schemas.in.h:40
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:276
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:593
 msgid "Volume up"
 msgstr "Ambony"
 
-#: ../data/apps_gnome_settings_daemon_screensaver.schemas.in.h:1
-#, fuzzy
-msgid ""
-"Set to True to display a dialog when there are errors running the "
-"screensaver."
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:277
+msgid "Binding to raise the volume."
 msgstr ""
-"Mampiseho takelaka kely rehefa misy olana ny fandefasana ny sary mitsitsy"
 
-#: ../data/apps_gnome_settings_daemon_screensaver.schemas.in.h:2
-#, fuzzy
-msgid "Set to True to run the screensaver at login."
-msgstr "Alefaso eny am-pidirana ny sary mitsitsy"
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:317
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:628
+msgid "Microphone mute/unmute"
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_screensaver.schemas.in.h:3
-#, fuzzy
-msgid "Show startup errors"
-msgstr "Asehoy ireo tsy fetezana mitranga eny am-piandohana"
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:318
+msgid "Binding to mute/unmute the microphone."
+msgstr ""
 
-#: ../data/apps_gnome_settings_daemon_screensaver.schemas.in.h:4
-msgid "Start screensaver"
-msgstr "Alefaso ny sary mitsitsy"
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:322
+msgid "Take a screenshot"
+msgstr ""
 
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:1
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:323
+msgid "Binding to take a screenshot."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:327
+msgid "Take a screenshot of a window"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:107
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:328
+msgid "Binding to take a screenshot of a window."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:111
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:332
+msgid "Take a screenshot of an area"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:112
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:333
+msgid "Binding to take a screenshot of an area."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:116
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:337
+msgid "Copy a screenshot to clipboard"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:117
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:338
+msgid "Binding to copy a screenshot to clipboard."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:121
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:342
+msgid "Copy a screenshot of a window to clipboard"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:122
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:343
+msgid "Binding to copy a screenshot of a window to clipboard."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:126
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:347
+msgid "Copy a screenshot of an area to clipboard"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:127
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:348
+msgid "Binding to copy a screenshot of an area to clipboard."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:131
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:352
+msgid "Record a short video of the screen"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:132
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:353
+msgid "Binding to record a short video of the screen"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:136
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:357
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:633
+msgid "Launch web browser"
+msgstr "Alefaso ny mpitety tranonkala"
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:137
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:358
+msgid "Binding to launch the web browser."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:141
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:387
+msgid "Toggle magnifier"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:142
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:388
+msgid "Binding to show the screen magnifier"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:146
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:362
+msgid "Toggle screen reader"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:147
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:363
+msgid "Binding to start the screen reader"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:151
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:367
+msgid "Toggle on-screen keyboard"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:152
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:368
+msgid "Binding to show the on-screen keyboard"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:156
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:372
+msgid "Increase text size"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:157
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:373
+msgid "Binding to increase the text size"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:161
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:377
+msgid "Decrease text size"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:162
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:378
+msgid "Binding to decrease the text size"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:166
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:382
+msgid "Toggle contrast"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:167
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:383
+msgid "Binding to toggle the interface contrast"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:171
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:392
+msgid "Magnifier zoom in"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:172
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:393
+msgid "Binding for the magnifier to zoom in"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:176
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:397
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:639
+msgid "Magnifier zoom out"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:177
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:398
+msgid "Binding for the magnifier to zoom out"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:184
+msgid "Custom keybindings"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:185
+msgid "List of custom keybindings"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:282
+msgid "Size of volume step"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:283
+msgid "Size of the volume step for each volume change"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:289
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:600
+msgid "Quiet volume down"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:290
+msgid "Binding to lower the volume without emitting a sound effect."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:294
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:605
+msgid "Quiet volume mute/unmute"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:295
+msgid "Binding to mute/unmute the volume without emitting a sound effect."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:299
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:610
+msgid "Quiet volume up"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:300
+msgid "Binding to raise the volume without emitting a sound effect."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:306
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:617
+msgid "Precise volume down"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:307
+msgid "Binding to lower the volume with higher precision."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:311
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:622
+msgid "Precise volume up"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:312
+msgid "Binding to raise the volume with higher precision."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:402
+msgid "Toggle touchpad on/off"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:403
+msgid "Binding to toggle the touchpad on/off."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:407
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:644
+msgid "Switch touchpad on"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:408
+msgid "Binding to switch the touchpad on."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:412
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:649
+msgid "Switch touchpad off"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:413
+msgid "Binding to switch the touchpad off."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:418
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:655
+msgid "Skip backward in current track"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:419
+msgid "Binding to skip backward in current track."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:423
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:660
+msgid "Skip forward in current track"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:424
+msgid "Binding to skip forward in current track."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:428
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:665
+msgid "Toggle repeat playback mode"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:429
+msgid "Binding to toggle repeat mode in media player."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:433
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:670
+msgid "Toggle random playback mode"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:434
+msgid "Binding to toggle random playback mode in media player."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:439
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:676
+msgid "Toggle automatic screen orientation"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:440
+msgid "Binding to toggle automatic screen orientation."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:444
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:681
+msgid "Power button"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:445
+msgid "Binding for power button."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:449
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:686
+msgid "Hibernate button"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:450
+msgid "Binding to hibernate the machine."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:454
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:691
+msgid "Suspend button"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:455
+msgid "Binding to suspend the machine."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:460
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:697
+msgid "Screen brightness up"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:461
+msgid "Binding to increase the screen brightness."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:465
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:702
+msgid "Screen brightness down"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:466
+msgid "Binding to decrease the screen brightness."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:470
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:707
+msgid "Screen brightness cycle"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:471
+msgid "Binding to cycle the screen brightness."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:476
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:713
+msgid "Keyboard brightness up"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:477
+msgid "Binding to increase the keyboard brightness."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:481
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:718
+msgid "Keyboard brightness down"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:482
+msgid "Binding to decrease the keyboard brightness."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:486
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:723
+msgid "Keyboard brightness toggle"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:487
+msgid "Binding to toggle the keyboard brightness."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:492
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:729
+msgid "Show battery status"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:493
+msgid "Binding to show current battery status."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:498
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:735
+msgid "RF kill"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:499
+msgid "Binding to toggle airplane mode."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:503
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:740
+msgid "Bluetooth RF kill"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:504
+msgid "Binding to toggle bluetooth airplane mode."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:517
+msgid "Static binding to launch the calculator."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:522
+msgid "Static binding to launch GNOME Settings."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:527
+msgid "Static binding to launch the email client."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:532
+msgid "Static binding to eject an optical disc."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:537
+msgid "Static binding to open the Home folder."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:542
+msgid "Static binding to launch the media player."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:547
+msgid "Static binding to skip to next track."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:552
+msgid "Static binding to pause playback."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:557
+msgid "Static binding to start playback (or toggle play/pause)."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:562
+msgid "Static binding to skip to previous track."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:567
+msgid "Static binding to lock the screen."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:572
+msgid "Static binding to launch the search tool."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:577
+msgid "Static binding to stop playback."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:584
+msgid "Static binding to lower the volume."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:589
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:606
+msgid "Static binding to mute/unmute the volume."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:594
+msgid "Static binding to raise the volume."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:601
+msgid "Static binding to lower the volume without emitting a sound effect."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:611
+msgid "Static binding to raise the volume without emitting a sound effect."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:618
+msgid "Static binding to lower the volume with higher precision."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:623
+msgid "Static binding to raise the volume with higher precision."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:629
+msgid "Static binding to mute/unmute the microphone."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:634
+msgid "Static binding to launch the web browser."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:640
+msgid "Static binding to toggle the touchpad on/off."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:645
+msgid "Static binding to switch the touchpad on."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:650
+msgid "Static binding to switch the touchpad off."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:656
+msgid "Static binding to skip backward in current track."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:661
+msgid "Static binding to skip forward in current track."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:666
+msgid "Static binding to toggle repeat mode in media player."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:671
+msgid "Static binding to toggle random playback mode in media player."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:677
+msgid "Static binding to toggle automatic screen orientation."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:682
+msgid "Static binding for power button."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:687
+msgid "Static binding to hibernate the machine."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:692
+msgid "Static binding to suspend the machine."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:698
+msgid "Static binding to increase the screen brightness."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:703
+msgid "Static binding to decrease the screen brightness."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:708
+msgid "Static binding to cycle the screen brightness."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:714
+msgid "Static binding to increase the keyboard brightness."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:719
+msgid "Static binding to decrease the keyboard brightness."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:724
+msgid "Static binding to toggle the keyboard brightness."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:730
+msgid "Static binding to show current battery status."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:736
+msgid "Static binding to toggle airplane mode."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:741
+msgid "Static binding to toggle bluetooth airplane mode."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:746
+msgid "Maximum length of screen recordings"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:747
+msgid ""
+"The maximum length of single screen cast recordings in seconds or 0 for "
+"unlimited"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:754
+msgid "Name"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:755
+msgid "Name of the custom binding"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:759
+msgid "Binding"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:760
+msgid "Binding for the custom binding"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:764
+msgid "Command"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:765
+msgid "Command to run when the binding is invoked"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:6
+msgid "The brightness of the screen when idle"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:7
+msgid ""
+"This is the laptop panel screen brightness used when the session is idle."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:11
+msgid "Dim the screen after a period of inactivity"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:12
+msgid ""
+"If the screen should be dimmed to save power when the computer is idle."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:16
+msgid "Sleep timeout computer when on AC"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:17
+msgid ""
+"The amount of time in seconds the computer on AC power needs to be inactive "
+"before it goes to sleep. A value of 0 means never."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:21
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:31
+msgid "Whether to hibernate, suspend or do nothing when inactive"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:22
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:32
+msgid ""
+"The type of sleeping that should be performed when the computer is inactive."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:26
+msgid "Sleep timeout computer when on battery"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:27
+msgid ""
+"The amount of time in seconds the computer on battery power needs to be "
+"inactive before it goes to sleep. A value of 0 means never."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:36
+msgid "Enable the ALS sensor"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:37
+msgid "If the ambient light sensor functionality is enabled."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:41
+msgid "Power button action"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:42
+msgid ""
+"The action to take when the system power button is pressed. This action is "
+"hard-coded (and the setting ignored) on virtual machines (power off) and "
+"tablets (suspend)."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:6
+msgid "On which connections the service is enabled"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:7
+msgid ""
+"The list of NetworkManager connections (each one represented with its UUID) "
+"on which this service is enabled and started."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:6
 msgid "Antialiasing"
 msgstr ""
 
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:2
-msgid "DPI"
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:7
+msgid ""
+"The type of antialiasing to use when rendering fonts. Possible values are: "
+"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing,"
+" and “rgba” for subpixel antialiasing (LCD screens only)."
 msgstr ""
 
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:3
-#, fuzzy
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:11
 msgid "Hinting"
-msgstr "<b>Hinting</b>:"
+msgstr ""
 
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:4
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:12
+msgid ""
+"The type of hinting to use when rendering fonts. Possible values are: “none”"
+" for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s"
+" ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
+"Ignores native hinting within the font, generates hints algorithmically. "
+"Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
+"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version"
+" of FreeType. They usually try to fit glyphs to both the X and the Y axis "
+"(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
+"rendering depending on the quality of the font, the font format and the "
+"state of FreeType’s font engines."
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:16
 msgid "RGBA order"
 msgstr ""
 
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:5
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:17
 msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
-"common), \"bgr\" for blue on left, \"vrgb\" for red on top, \"vbgr\" for red "
-"on bottom."
+"The order of subpixel elements on an LCD screen; only used when antialiasing"
+" is set to “rgba”. Possible values are: “rgb” for red on left (most common),"
+" “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
 msgstr ""
 
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:6
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:21
+msgid "List of explicitly disabled GTK+ modules"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:22
 msgid ""
-"The resolution used for converting font sizes to pixel sizes, in dots per "
-"inch."
+"A list of strings representing the GTK+ modules that will not be loaded, "
+"even if enabled by default in their configuration."
 msgstr ""
 
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:7
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:26
+msgid "List of explicitly enabled GTK+ modules"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:27
 msgid ""
-"The type of antialiasing to use when rendering fonts. Possible values are: "
-"\"none\" for no antialiasing, \"grayscale\" for standard grayscale "
-"antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+"A list of strings representing the GTK+ modules that will be loaded, usually"
+" in addition to conditional and forcibly disabled ones."
 msgstr ""
 
-#: ../data/desktop_gnome_font_rendering.schemas.in.h:8
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:31
+msgid "A dictionary of XSETTINGS to override"
+msgstr ""
+
+#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:32
 msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: \"none"
-"\" for no hinting, \"slight\" for basic, \"medium\" for moderate, and \"full"
-"\" for maximum hinting (may cause distortion of letter forms)."
+"This dictionary maps XSETTINGS names to overrides values. The values must be"
+" either strings, signed int32s or (in the case of colors), 4-tuples of "
+"uint16 (red, green, blue, alpha; 65535 is fully opaque)."
 msgstr ""
 
-#: ../data/gnome-settings-daemon.schemas.in.h:1
-#, fuzzy
-msgid "Enable accessibility keyboard plugin"
-msgstr "_Alefaso ireo fahasahazan'ny fahafahana mampiasa ny fafan-teny"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:2
-#, fuzzy
-msgid "Enable background plugin"
-msgstr "Raiketo ilay sarin'ny _afara"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:3
-msgid "Enable clipboard plugin"
+#: plugins/color/gsd-color-calibrate.c:138
+msgid "Color"
 msgstr ""
 
-#: ../data/gnome-settings-daemon.schemas.in.h:4
-msgid "Enable default editor plugin"
+#. TRANSLATORS: button: this is to open GCM
+#: plugins/color/gsd-color-calibrate.c:144
+msgid "Recalibrate now"
 msgstr ""
 
-#: ../data/gnome-settings-daemon.schemas.in.h:5
-msgid "Enable font plugin"
+#. TRANSLATORS: this is when the device has not been recalibrated in a while
+#: plugins/color/gsd-color-calibrate.c:186
+msgid "Recalibration required"
 msgstr ""
 
-#: ../data/gnome-settings-daemon.schemas.in.h:6
-msgid "Enable keybindings plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:7
-msgid "Enable keyboard plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:8
-msgid "Enable media keys plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:9
-msgid "Enable mouse plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:10
-#, fuzzy
-msgid "Enable screensaver plugin"
-msgstr "Alefaso eny am-pidirana ny sary mitsitsy"
-
-#: ../data/gnome-settings-daemon.schemas.in.h:11
-msgid "Enable sound plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:12
-msgid "Enable typing breaks plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:13
-msgid "Enable xrandr plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:14
-msgid "Enable xrdb plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:15
-msgid "Enable xsettings plugin"
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:16
-msgid "Set to True to enable the plugin to manage clipboard settings."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:17
-msgid "Set to True to enable the plugin to manage desktop background settings."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:18
-msgid "Set to True to enable the plugin to manage font settings."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:19
-msgid "Set to True to enable the plugin to manage keyboard settings."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:20
-msgid "Set to True to enable the plugin to manage mouse settings."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:21
-msgid "Set to True to enable the plugin to manage multimedia keys settings."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:22
-msgid "Set to True to enable the plugin to manage screensaver settings."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:23
-msgid "Set to True to enable the plugin to manage sound settings."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:24
-msgid ""
-"Set to True to enable the plugin to manage the accessibility keyboard "
-"settings."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:25
-msgid ""
-"Set to True to enable the plugin to manage the default text editor setting."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:26
-msgid "Set to True to enable the plugin to manage the keybindings."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:27
-msgid "Set to True to enable the plugin to manage typing breaks."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:28
-msgid "Set to True to enable the plugin to manage xrandr settings."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:29
-msgid "Set to True to enable the plugin to manage xrdb settings."
-msgstr ""
-
-#: ../data/gnome-settings-daemon.schemas.in.h:30
-msgid "Set to True to enable the plugin to manage xsettings."
-msgstr ""
-
-#: ../gnome-settings-daemon/main.c:49
-msgid "Don't become a daemon"
-msgstr ""
-
-#: ../gnome-settings-daemon/main.c:50
-msgid "GConf prefix from which to load plugin settings"
-msgstr ""
-
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:1
-#, fuzzy
-msgid "Accessibility Keyboard"
-msgstr "_Fahafahana mampiasa"
-
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:2
-#, fuzzy
-msgid "Accessibility keyboard plugin"
-msgstr "_Fahafahana mampiasa"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:393
+#. TRANSLATORS: this is when the display has not been recalibrated in a while
+#: plugins/color/gsd-color-calibrate.c:198
 #, c-format
-msgid "There was an error displaying help: %s"
-msgstr "Nisy olana teo am-manehoana ireo toro-làlana: %s"
+msgid "The display “%s” should be recalibrated soon."
+msgstr ""
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:445
-msgid "Do you want to activate Slow Keys?"
-msgstr "Tianao alefa ve ny kitendry meda?"
+#. TRANSLATORS: this is when the printer has not been recalibrated in a while
+#: plugins/color/gsd-color-calibrate.c:207
+#, c-format
+msgid "The printer “%s” should be recalibrated soon."
+msgstr ""
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:446
-msgid "Do you want to deactivate Slow Keys?"
-msgstr "Tianao atsahatra ve ny kitendry meda?"
+#. TRANSLATORS: this is the application name
+#: plugins/color/gsd-color-calibrate.c:345
+#: plugins/color/gsd-color-calibrate.c:361
+msgid "GNOME Settings Daemon Color Plugin"
+msgstr ""
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:449
+#. TRANSLATORS: this is a sound description
+#: plugins/color/gsd-color-calibrate.c:347
+msgid "Color calibration device added"
+msgstr ""
+
+#. TRANSLATORS: this is a sound description
+#: plugins/color/gsd-color-calibrate.c:363
+msgid "Color calibration device removed"
+msgstr ""
+
+#. Translators: UTC here means the Coordinated Universal Time.
+#. * %:::z will be replaced by the offset from UTC e.g. UTC+02
+#: plugins/datetime/gsd-datetime-manager.c:88
+msgid "UTC%:::z"
+msgstr ""
+
+#: plugins/datetime/gsd-datetime-manager.c:92
+#, c-format
+msgid "Time Zone Updated to %s (%s)"
+msgstr ""
+
+#: plugins/datetime/gsd-datetime-manager.c:108
+msgid "Settings"
+msgstr ""
+
+#: plugins/datetime/gsd-datetime-manager.c:118
+msgid "Date & Time Settings"
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:632
+msgid "Disk Space"
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:645
+msgid "Examine"
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:656
+msgid "Empty Trash"
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:664
+msgid "Ignore"
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:698
+#: plugins/housekeeping/gsd-disk-space.c:738
+msgid "Low Disk Space"
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:700
 msgid ""
-"You just held down the Shift key for 8 seconds.  This is the shortcut for "
-"the Slow Keys feature, which affects the way your keyboard works."
-msgstr ""
-"Notsindrianao nandritra ny 8 segaondra ny kitendry Shift. Io no hitsin-"
-"dàlana mampadeha ny fahasahazan'ny kitendry meda izay mampiova ny fiasan'ny "
-"fafan-teninao. "
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:456
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:508
-msgid "Do_n't activate"
-msgstr "_Aza alefa"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:456
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:508
-msgid "Do_n't deactivate"
-msgstr "_Aza atsahatra"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:459
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:511
-msgid "_Activate"
-msgstr "_Alefaso"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:459
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:511
-msgid "_Deactivate"
-msgstr "_Atsaharo"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:463
-msgid "Slow Keys Alert"
-msgstr "Fampilazan'ny kitendry meda"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:495
-msgid "Do you want to activate Sticky Keys?"
-msgstr "Tianao alefa ve ny kitendry miraikidraikitra?"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:496
-msgid "Do you want to deactivate Sticky Keys?"
-msgstr "Tianao atsahatra ve ny kitendry miraikidraikitra?"
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:499
-msgid ""
-"You just pressed the Shift key 5 times in a row.  This is the shortcut for "
-"the Sticky Keys feature, which affects the way your keyboard works."
-msgstr ""
-"Notsindrianao in-5 misesisesy ny kitendry Shift. Io no hitsin-dàlana "
-"mampandeha ny fahasahazan'ny kitendry miraikidraikitra izay mampiova ny "
-"fiasan'ny fafan-teninao."
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:501
-msgid ""
-"You just pressed two keys at once, or pressed the Shift key 5 times in a "
-"row.  This turns off the Sticky Keys feature, which affects the way your "
-"keyboard works."
-msgstr ""
-"Nanindry kitendry roa miaraka ianao, na nanindry ny kitendry Shift in-5 "
-"misesisesy. Izany dia manatsahatra ny fahasahazan'ny kitendry "
-"miraikidraikitra izay mampiova ny fiasan'ny fafan-teninao."
-
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:515
-msgid "Sticky Keys Alert"
-msgstr "Fampilazan'ny kitendry miraikidraikitra"
-
-#: ../plugins/background/background.gnome-settings-plugin.in.h:1
-#, fuzzy
-msgid "Background"
-msgstr "Ampiharo ilay _afara"
-
-#: ../plugins/background/background.gnome-settings-plugin.in.h:2
-#, fuzzy
-msgid "Background plugin"
-msgstr "Raiketo ilay sarin'ny _afara"
-
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:1
-msgid "Clipboard"
+"Your computer is out of space.  You may free up some space by emptying the "
+"trash."
 msgstr ""
 
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:2
-msgid "Clipboard plugin"
+#: plugins/housekeeping/gsd-disk-space.c:702
+msgid "Your computer is out of space."
 msgstr ""
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:1
-msgid "Dummy"
+#: plugins/housekeeping/gsd-disk-space.c:727
+#, c-format
+msgid "Low Disk Space on “%s”"
 msgstr ""
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:2
-msgid "Dummy plugin"
-msgstr ""
-
-#: ../plugins/font/font.gnome-settings-plugin.in.h:1
-msgid "Font"
-msgstr "Endri-tsoratra"
-
-#: ../plugins/font/font.gnome-settings-plugin.in.h:2
-msgid "Font plugin"
-msgstr ""
-
-#: ../plugins/font/gsd-font-manager.c:208
+#: plugins/housekeeping/gsd-disk-space.c:729
 #, c-format
 msgid ""
-"Cannot create the directory \"%s\".\n"
-"This is needed to allow changing the mouse pointer theme."
+"The volume “%s” has only %s disk space remaining.  You may free up some "
+"space by emptying the trash."
 msgstr ""
-"Tsy afaka mamorona ny laha-tahiry\"%s\".\n"
-"Ilaina izy io mba ahafahana manova ny endriky ny kitondron'ny totozy."
 
-#: ../plugins/font/gsd-font-manager.c:231
+#: plugins/housekeeping/gsd-disk-space.c:733
+#, c-format
+msgid "The volume “%s” has only %s disk space remaining."
+msgstr ""
+
+#: plugins/housekeeping/gsd-disk-space.c:740
 #, c-format
 msgid ""
-"Cannot create the directory \"%s\".\n"
-"This is needed to allow changing cursors."
+"This computer has only %s disk space remaining.  You may free up some space "
+"by emptying the trash."
 msgstr ""
-"Tsa afaka mamorona ny laha-tahiry \"%s\".\n"
-"Ilaina izy io mba ahafahana manova ny kitondro."
 
-#: ../plugins/keybindings/gsd-keybindings-manager.c:195
+#: plugins/housekeeping/gsd-disk-space.c:743
 #, c-format
-msgid "Key Binding (%s) has its action defined multiple times\n"
-msgstr "Voasoritra imbetsaka ny asan'ny Key Binding (%s)\n"
+msgid "This computer has only %s disk space remaining."
+msgstr ""
 
-#: ../plugins/keybindings/gsd-keybindings-manager.c:202
+#: plugins/media-keys/gsd-media-keys-manager.c:2479
+msgid "Bluetooth disabled"
+msgstr ""
+
+#: plugins/media-keys/gsd-media-keys-manager.c:2482
+msgid "Bluetooth enabled"
+msgstr ""
+
+#: plugins/media-keys/gsd-media-keys-manager.c:2486
+msgid "Airplane mode enabled"
+msgstr ""
+
+#: plugins/media-keys/gsd-media-keys-manager.c:2489
+msgid "Airplane mode disabled"
+msgstr ""
+
+#: plugins/media-keys/gsd-media-keys-manager.c:2518
+msgid "Hardware Airplane Mode"
+msgstr ""
+
+#. Translators: this is a filename used for screencast
+#. * recording, where "%d" and "%t" date and time, e.g.
+#. * "Screencast from 07-17-2013 10:00:46 PM.webm"
+#: plugins/media-keys/gsd-media-keys-manager.c:2581
+#, no-c-format
+msgid "Screencast from %d %t.webm"
+msgstr ""
+
+#: plugins/media-keys/gsd-screenshot-utils.c:82
+msgid "Unable to capture a screenshot"
+msgstr ""
+
+#: plugins/media-keys/gsd-screenshot-utils.c:125
+msgid "Screenshot taken"
+msgstr ""
+
+#. translators: this is the name of the file that gets made up
+#. * with the screenshot
+#: plugins/media-keys/gsd-screenshot-utils.c:264
 #, c-format
-msgid "Key Binding (%s) has its binding defined multiple times\n"
-msgstr "Voasoritra imbetsaka ny binding'ny Key Binding (%s)\n"
+msgid "Screenshot from %s"
+msgstr ""
 
-#: ../plugins/keybindings/gsd-keybindings-manager.c:211
+#: plugins/power/gpm-common.c:91
+msgid "Unknown time"
+msgstr ""
+
+#: plugins/power/gpm-common.c:96
 #, c-format
-msgid "Key Binding (%s) is incomplete\n"
-msgstr "Tsy feno ny Key Binding (%s)\n"
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] ""
+msgstr[1] ""
 
-#: ../plugins/keybindings/gsd-keybindings-manager.c:239
+#: plugins/power/gpm-common.c:106
 #, c-format
-msgid "Key Binding (%s) is invalid\n"
-msgstr "Tsy ekena ny Key Binding (%s)\n"
+msgid "%i hour"
+msgid_plural "%i hours"
+msgstr[0] ""
+msgstr[1] ""
 
-#: ../plugins/keybindings/gsd-keybindings-manager.c:292
+#. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
+#. * Swap order with "%2$s %2$i %1$s %1$i if needed
+#: plugins/power/gpm-common.c:112
 #, c-format
-msgid "It seems that another application already has access to key '%u'."
-msgstr "Toa efa misy rindran'asa hafa mampiasa ny kitendry '%u'."
+msgid "%i %s %i %s"
+msgstr ""
 
-#: ../plugins/keybindings/gsd-keybindings-manager.c:365
+#: plugins/power/gpm-common.c:113
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/power/gpm-common.c:114
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: this is the sound description
+#: plugins/power/gpm-common.c:424 plugins/power/gsd-power-manager.c:791
+#: plugins/power/gsd-power-manager.c:888
+msgid "Battery is critically low"
+msgstr ""
+
+#. TRANSLATORS: this is the notification application name
+#: plugins/power/gsd-power-manager.c:356
+msgid "Power"
+msgstr ""
+
+#. TRANSLATORS: UPS is now discharging
+#: plugins/power/gsd-power-manager.c:396
+msgid "UPS Discharging"
+msgstr ""
+
+#. TRANSLATORS: tell the user how much time they have got
+#: plugins/power/gsd-power-manager.c:401
 #, c-format
-msgid "Key Binding (%s) is already in use\n"
-msgstr "Key miasa ny Key Binding (%s)\n"
+msgid "%s of UPS backup power remaining"
+msgstr ""
 
-#: ../plugins/keybindings/gsd-keybindings-manager.c:502
+#: plugins/power/gsd-power-manager.c:404
+msgid "Unknown amount of UPS backup power remaining"
+msgstr ""
+
+#. TRANSLATORS: laptop battery low, and we only have one battery
+#: plugins/power/gsd-power-manager.c:484
+msgid "Battery low"
+msgstr ""
+
+#. TRANSLATORS: laptop battery low, and we have more than one kind of battery
+#: plugins/power/gsd-power-manager.c:487
+msgid "Laptop battery low"
+msgstr ""
+
+#. TRANSLATORS: tell the user how much time they have got
+#: plugins/power/gsd-power-manager.c:494
+#, c-format
+msgid "Approximately %s remaining (%.0f%%)"
+msgstr ""
+
+#. TRANSLATORS: UPS is starting to get a little low
+#: plugins/power/gsd-power-manager.c:499
+msgid "UPS low"
+msgstr ""
+
+#. TRANSLATORS: tell the user how much time they have got
+#: plugins/power/gsd-power-manager.c:505
+#, c-format
+msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
+msgstr ""
+
+#. TRANSLATORS: mouse is getting a little low
+#. TRANSLATORS: the mouse battery is very low
+#: plugins/power/gsd-power-manager.c:510 plugins/power/gsd-power-manager.c:670
+msgid "Mouse battery low"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:514
+#, c-format
+msgid "Wireless mouse is low in power (%.0f%%)"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:516
+#, c-format
+msgid "Wireless mouse is low in power"
+msgstr ""
+
+#. TRANSLATORS: keyboard is getting a little low
+#. TRANSLATORS: the keyboard battery is very low
+#: plugins/power/gsd-power-manager.c:520 plugins/power/gsd-power-manager.c:683
+msgid "Keyboard battery low"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:524
+#, c-format
+msgid "Wireless keyboard is low in power (%.0f%%)"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:526
+#, c-format
+msgid "Wireless keyboard is low in power"
+msgstr ""
+
+#. TRANSLATORS: PDA is getting a little low
+#. TRANSLATORS: the PDA battery is very low
+#: plugins/power/gsd-power-manager.c:530 plugins/power/gsd-power-manager.c:697
+msgid "PDA battery low"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:534
+#, c-format
+msgid "PDA is low in power (%.0f%%)"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:536
+#, c-format
+msgid "PDA is low in power"
+msgstr ""
+
+#. TRANSLATORS: cell phone (mobile) is getting a little low
+#. TRANSLATORS: the cell battery is very low
+#: plugins/power/gsd-power-manager.c:540 plugins/power/gsd-power-manager.c:711
+#: plugins/power/gsd-power-manager.c:725
+msgid "Cell phone battery low"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:544
+#, c-format
+msgid "Cell phone is low in power (%.0f%%)"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:546
+#, c-format
+msgid "Cell phone is low in power"
+msgstr ""
+
+#. TRANSLATORS: media player, e.g. mp3 is getting a little low
+#: plugins/power/gsd-power-manager.c:550
+msgid "Media player battery low"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:554
+#, c-format
+msgid "Media player is low in power (%.0f%%)"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:556
+#, c-format
+msgid "Media player is low in power"
+msgstr ""
+
+#. TRANSLATORS: graphics tablet, e.g. wacom is getting a little low
+#. TRANSLATORS: the cell battery is very low
+#: plugins/power/gsd-power-manager.c:560 plugins/power/gsd-power-manager.c:739
+msgid "Tablet battery low"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:564
+#, c-format
+msgid "Tablet is low in power (%.0f%%)"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:566
+#, c-format
+msgid "Tablet is low in power"
+msgstr ""
+
+#. TRANSLATORS: computer, e.g. ipad is getting a little low
+#. TRANSLATORS: the cell battery is very low
+#: plugins/power/gsd-power-manager.c:570 plugins/power/gsd-power-manager.c:753
+msgid "Attached computer battery low"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:574
+#, c-format
+msgid "Attached computer is low in power (%.0f%%)"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:576
+#, c-format
+msgid "Attached computer is low in power"
+msgstr ""
+
+#. TRANSLATORS: this is the sound description
+#: plugins/power/gsd-power-manager.c:597
+msgid "Battery is low"
+msgstr ""
+
+#. TRANSLATORS: laptop battery critically low, and only have one kind of
+#. battery
+#: plugins/power/gsd-power-manager.c:634
+msgid "Battery critically low"
+msgstr ""
+
+#. TRANSLATORS: laptop battery critically low, and we have more than one type
+#. of battery
+#. TRANSLATORS: laptop battery is really, really, low
+#: plugins/power/gsd-power-manager.c:637 plugins/power/gsd-power-manager.c:818
+msgid "Laptop battery critically low"
+msgstr ""
+
+#. TRANSLATORS: give the user a ultimatum
+#: plugins/power/gsd-power-manager.c:646
+#, c-format
+msgid "Computer will hibernate very soon unless it is plugged in."
+msgstr ""
+
+#. TRANSLATORS: give the user a ultimatum
+#: plugins/power/gsd-power-manager.c:650
+#, c-format
+msgid "Computer will shutdown very soon unless it is plugged in."
+msgstr ""
+
+#. TRANSLATORS: the UPS is very low
+#. TRANSLATORS: UPS is really, really, low
+#: plugins/power/gsd-power-manager.c:658 plugins/power/gsd-power-manager.c:843
+msgid "UPS critically low"
+msgstr ""
+
+#. TRANSLATORS: give the user a ultimatum
+#: plugins/power/gsd-power-manager.c:664
 #, c-format
 msgid ""
-"Error while trying to run (%s)\n"
-"which is linked to the key (%s)"
-msgstr ""
-"Nisy olana teo am-panandramana mandefa ny (%s)\n"
-"izay mifanaraka amin'ny kitendry (%s)"
-
-#: ../plugins/keybindings/keybindings.gnome-settings-plugin.in.h:1
-msgid "Keybindings"
+"Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
+"computer to avoid losing data."
 msgstr ""
 
-#: ../plugins/keybindings/keybindings.gnome-settings-plugin.in.h:2
-msgid "Keybindings plugin"
-msgstr ""
-
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
-msgid "Keyboard"
-msgstr "Fafan-teny"
-
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:2
-#, fuzzy
-msgid "Keyboard plugin"
-msgstr "Safidin'ny fafan-teny"
-
-#: ../plugins/keyboard/modmap-dialog.glade.h:1
-msgid "A_vailable files:"
-msgstr "Ireo rakitra _misy:"
-
-#: ../plugins/keyboard/modmap-dialog.glade.h:2
-msgid "Do _not show this warning again."
-msgstr "Aza aseho _intsony ity fampilazana ity."
-
-#: ../plugins/keyboard/modmap-dialog.glade.h:3
-msgid "Load modmap files"
-msgstr "Alaivo ireo rakitra modmap"
-
-#: ../plugins/keyboard/modmap-dialog.glade.h:4
-msgid "Would you like to load the modmap file(s)?"
-msgstr "Tianao alaina ilay (ireo) rakitra modmap?"
-
-#: ../plugins/keyboard/modmap-dialog.glade.h:5
-msgid "_Load"
-msgstr "_Alaivo"
-
-#: ../plugins/keyboard/modmap-dialog.glade.h:6
-msgid "_Loaded files:"
-msgstr "_Ireo rakitra azo:"
-
-#: ../plugins/media-keys/actions/acme.glade.h:1
-msgid "Volume"
-msgstr "Fanamafisam-peo"
-
-#: ../plugins/media-keys/gsd-media-keys-manager.c:200
-msgid ""
-"Could not get default terminal. Verify that your default terminal command is "
-"set and points to a valid application."
-msgstr ""
-
-#: ../plugins/media-keys/gsd-media-keys-manager.c:240
-#, fuzzy, c-format
-msgid ""
-"Couldn't execute command: %s\n"
-"Verify that this is a valid command."
-msgstr ""
-"Tsy afaka nanatanteraka ny baiko: %s\n"
-"Amarino hoe misy io baiko io."
-
-#: ../plugins/media-keys/gsd-media-keys-manager.c:256
-msgid ""
-"Couldn't put the machine to sleep.\n"
-"Verify that the machine is correctly configured."
-msgstr ""
-"Tsy afaka nampiato ny solosaina.\n"
-"Amarino hoe voakirakira araka ny tokony ho izy ilay solosaina."
-
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:1
-#, fuzzy
-msgid "Media keys"
-msgstr "Kitendrin'ny totozy"
-
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:2
-msgid "Media keys plugin"
-msgstr ""
-
-#: ../plugins/mouse/gsd-mouse-manager.c:566
-#, fuzzy
-msgid "Could not enable mouse accessibility features"
-msgstr "_Alefaso ireo fahasahazan'ny fahafahana mampiasa ny fafan-teny"
-
-#: ../plugins/mouse/gsd-mouse-manager.c:568
-msgid ""
-"Mouse accessibility requires the mousetweaks daemon to be installed on your "
-"system."
-msgstr ""
-
-#: ../plugins/mouse/gsd-mouse-manager.c:571
-msgid "Mouse Preferences"
-msgstr "Safidy manokan'ny totozy"
-
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
-msgid "Mouse"
-msgstr "Totozy"
-
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:2
-msgid "Mouse plugin"
-msgstr ""
-
-#: ../plugins/screensaver/gsd-screensaver-manager.c:151
+#: plugins/power/gsd-power-manager.c:674
 #, c-format
 msgid ""
-"There was an error starting up the screensaver:\n"
-"\n"
-"%s\n"
-"\n"
-"Screensaver functionality will not work in this session."
+"Wireless mouse is very low in power (%.0f%%). This device will soon stop "
+"functioning if not charged."
 msgstr ""
-"Nisy olana teo am-pandefasana ny sary mitsitsy:\n"
-"\n"
-"%s\n"
-"Tsy handeha amin'ity session ity fahasahazan'ny sary mitsitsy."
 
-#: ../plugins/screensaver/gsd-screensaver-manager.c:160
-msgid "_Do not show this message again"
-msgstr "_Aza aseho intsony ity filazana ity"
-
-#: ../plugins/screensaver/screensaver.gnome-settings-plugin.in.h:1
-#, fuzzy
-msgid "Screensaver"
-msgstr "Alefaso ny sary mitsitsy"
-
-#: ../plugins/screensaver/screensaver.gnome-settings-plugin.in.h:2
-#, fuzzy
-msgid "Screensaver plugin"
-msgstr "Alefaso eny am-pidirana ny sary mitsitsy"
-
-#: ../plugins/sound/gsd-sound-manager.c:164
+#: plugins/power/gsd-power-manager.c:678
 #, c-format
-msgid "Couldn't load sound file %s as sample %s"
-msgstr "Tsy afaka naka ny raki-peo %s hatao sombiny %s"
-
-#: ../plugins/sound/libsounds/sound-view.c:44
-msgid "Login"
-msgstr "Fidirana"
-
-#: ../plugins/sound/libsounds/sound-view.c:45
-msgid "Logout"
-msgstr "Fivoahana"
-
-#: ../plugins/sound/libsounds/sound-view.c:46
-msgid "Boing"
-msgstr "Fanakorana"
-
-#: ../plugins/sound/libsounds/sound-view.c:47
-msgid "Siren"
-msgstr "Anjombona"
-
-#: ../plugins/sound/libsounds/sound-view.c:48
-msgid "Clink"
-msgstr "Feo mikarantsana"
-
-#: ../plugins/sound/libsounds/sound-view.c:49
-msgid "Beep"
-msgstr "Bip"
-
-#: ../plugins/sound/libsounds/sound-view.c:50
-msgid "No sound"
-msgstr "Tsy misy feo"
-
-#: ../plugins/sound/libsounds/sound-view.c:132
-msgid "Sound not set for this event."
-msgstr "Tsy voafaritra ny feo ho an'ity zava-miseho ity."
-
-#: ../plugins/sound/libsounds/sound-view.c:141
 msgid ""
-"The sound file for this event does not exist.\n"
-"You may want to install the gnome-audio package for a set of default sounds."
+"Wireless mouse is very low in power. This device will soon stop functioning "
+"if not charged."
 msgstr ""
-"Tsy misy ny raki-peo ho an'ity zava-miseho ity.\n"
-"Mety mila mametraka ny fehy gnome-audio izay misy feo tsotra maromaro "
-"angamba ianao."
 
-#: ../plugins/sound/libsounds/sound-view.c:152
-msgid "The sound file for this event does not exist."
-msgstr "Tsy misy ny raki-peo ho an'ity zava-miseho ity."
-
-#: ../plugins/sound/libsounds/sound-view.c:183
-msgid "Select Sound File"
-msgstr "Hisafidy raki-peo"
-
-#: ../plugins/sound/libsounds/sound-view.c:210
+#: plugins/power/gsd-power-manager.c:687
 #, c-format
-msgid "The file %s is not a valid wav file"
-msgstr "Rakitra .wav tsy ekena ny rakitra %s"
-
-#: ../plugins/sound/libsounds/sound-view.c:271
-#, fuzzy
-msgid "Select sound file..."
-msgstr "Hisafidy raki-peo"
-
-#: ../plugins/sound/libsounds/sound-view.c:373
-msgid "System Sounds"
-msgstr "Feon'ny rafitra"
-
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:1
-msgid "Sound"
-msgstr "Feo"
-
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:2
-#, fuzzy
-msgid "Sound plugin"
-msgstr "Ampaham-peo:"
-
-#: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:1
-msgid "Typing Break"
-msgstr "Fiatoan'ny fanoratana"
-
-#: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:2
-#, fuzzy
-msgid "Typing break plugin"
-msgstr "Fiatoan'ny fanoratana"
-
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:1
-msgid "Set up screen size and rotation settings"
+msgid ""
+"Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
+"functioning if not charged."
 msgstr ""
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:2
-msgid "XRandR"
-msgstr ""
-
-#: ../plugins/xrdb/gsd-xrdb-manager.c:258
-#: ../plugins/xrdb/gsd-xrdb-manager.c:327
-msgid "Cannot determine user's home directory"
-msgstr "Tsy afaka namaritra ny laha-tahiry fandraisan'ny mpampiasa"
-
-#: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:1
-msgid "Manage the X resource database"
-msgstr ""
-
-#: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:2
-msgid "X Resource Database"
-msgstr ""
-
-#: ../plugins/xsettings/gsd-xsettings-manager.c:551
+#: plugins/power/gsd-power-manager.c:691
 #, c-format
-msgid "GConf key %s set to type %s but its expected type was %s\n"
+msgid ""
+"Wireless keyboard is very low in power. This device will soon stop "
+"functioning if not charged."
 msgstr ""
-"Voafarirtra manaraka ny karazana %s ny famaha GConf %s, nefa ny karazany "
-"nampoizina dia %s\n"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:1
-#, fuzzy
-msgid "Manage X Settings"
-msgstr "Ampiasao ny fandrindran'ny X"
-
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
-#, fuzzy
-msgid "X Settings"
-msgstr "Ampiasao ny fandrindran'ny X"
-
-#~ msgid "Image/label border"
-#~ msgstr "Sisin'ny sary/mari-tsoratra"
-
-#~ msgid "Width of border around the label and image in the alert dialog"
-#~ msgstr ""
-#~ "Ny sakan'ny sisin'ny mari-tsoratra sy ny sary anatin'ny takelakakelin'ny "
-#~ "filazana"
-
-#~ msgid "Alert Type"
-#~ msgstr "karazam-pilazana"
-
-#~ msgid "The type of alert"
-#~ msgstr "Ny karazan'ny filazana"
-
-#~ msgid "Alert Buttons"
-#~ msgstr "Tsindrin'ny filazana"
-
-#~ msgid "The buttons shown in the alert dialog"
-#~ msgstr "Ireo tsindry miseho eo amin'ny takelakakelin'ny filazana"
-
-#~ msgid "Show more _details"
-#~ msgstr "Asehoy amin'ny _antsipiriany"
-
-#~ msgid "About Me"
-#~ msgstr "Momba izaho"
-
-#~ msgid "Set your personal information"
-#~ msgstr "Anoratana ny mombamomba anao"
-
-#~ msgid "Select Image"
-#~ msgstr "Misafidiana sary"
-
-#~ msgid "No Image"
-#~ msgstr "Tsy misy sary"
-
-#~ msgid ""
-#~ "There was an error while trying to get the addressbook information\n"
-#~ "Evolution Data Server can't handle the protocol"
-#~ msgstr ""
-#~ "Nnisy olana teo am-panandramana maka ny lazan'ny bokin'adiresy\n"
-#~ "Tsy raisin'ny Evolution Data Server an-tànana io firesaka io"
-
-#~ msgid "Unable to open address book"
-#~ msgstr "Tsy mety mahasokatra ny bokin'adiresy"
-
-#~ msgid "Unknown login ID, the user database might be corrupted"
-#~ msgstr ""
-#~ "ID'ny fidirana tsy fantatra. Mety simba angamba ny soratra fototry ny "
-#~ "mpampiasa."
-
-#~ msgid "About %s"
-#~ msgstr "Momba ny %s"
-
-#~ msgid "Old password is incorrect, please retype it"
-#~ msgstr "Tsy marina ny teny fanalahidy taloha voasoratra. Avereno soratana"
-
-#~ msgid "System error has occurred"
-#~ msgstr "Nisy olan'ny rafitra nitranga"
-
-#~ msgid "Could not run /usr/bin/passwd"
-#~ msgstr "Tsy nahalefa ny /usr/bin/passwd"
-
-#~ msgid "Unable to launch backend"
-#~ msgstr "Tsy mety mahalefa ny backend"
-
-#~ msgid "Unexpected error has occurred"
-#~ msgstr "Nisy olana tsy nampoizina nitranga"
-
-#~ msgid "Password is too short"
-#~ msgstr "Fohy loatra io teny fanalahidy io"
-
-#~ msgid "Password is too simple"
-#~ msgstr "Tsotra loatra io teny fanalahidy io"
-
-#~ msgid "Old and new passwords are too similar"
-#~ msgstr "Tsy dia mifankaiza loatra ireo teny fanalahidy taloha sy vaovao"
-
-#~ msgid "Must contain numeric or special character(s)"
-#~ msgstr "Tsy maintsy misy isa na marika manokana"
-
-#~ msgid "Old and new password are the same"
-#~ msgstr "Mitovy ireo teny fanalahidy taloha sy vaovao"
-
-#~ msgid "Please type the passwords."
-#~ msgstr "Soraty ireo teny fanalahidy."
-
-#~ msgid "Please type the password again, it is wrong."
-#~ msgstr ""
-#~ "Avereno soratana indray ilay teny fanalahidy. Diso io voasoratra io."
-
-#~ msgid "Click on Change Password to change the password."
-#~ msgstr "Tsindrio ny Hanova Teny Fanalahidy raha hanova ny teny fanalahidy."
-
-#~ msgid " "
-#~ msgstr " "
-
-#~ msgid "    "
-#~ msgstr "    "
-
-#~ msgid "<b>Email</b>"
-#~ msgstr "<b>Mailaka</b>"
-
-#~ msgid "<b>Home</b>"
-#~ msgstr "<b>Fandraisana</b>"
-
-#~ msgid "<b>Instant Messaging</b>"
-#~ msgstr "<b>Fifandraisana eo no eo</b>"
-
-#~ msgid "<b>Job</b>"
-#~ msgstr "<b>Asa</b>"
-
-#~ msgid "<b>Please type the passwords.</b>"
-#~ msgstr "<b>Soraty ilay teny fanalahidy.</b>"
-
-#~ msgid "<b>Telephone</b>"
-#~ msgstr "<b>Telefaonina</b>"
-
-#~ msgid "<b>Web</b>"
-#~ msgstr "<b>Tranonkala</b>"
-
-#~ msgid "<b>Work</b>"
-#~ msgstr "<b>Toeram-piasana</b>"
-
-#~ msgid "A_IM/iChat:"
-#~ msgstr "A_IM/iChat:"
-
-#~ msgid "A_ddress:"
-#~ msgstr "A_diresy:"
-
-#~ msgid "A_ssistant:"
-#~ msgstr "_Mpanampy:"
-
-#~ msgid "Address"
-#~ msgstr "Adiresy"
-
-#~ msgid "C_ity:"
-#~ msgstr "_Tanàna:"
-
-#~ msgid "C_ompany:"
-#~ msgstr "_Orinasa:"
-
-#~ msgid "Cale_ndar:"
-#~ msgstr "_Kalandrie:"
-
-#~ msgid "Change Passwo_rd..."
-#~ msgstr "Hanova _teny fanalahidy..."
-
-#~ msgid "Change Password"
-#~ msgstr "Manova ny teny fanalahidy"
-
-#~ msgid "Ci_ty:"
-#~ msgstr "_Tanàna:"
-
-#~ msgid "Co_untry:"
-#~ msgstr "_Firenena:"
-
-#~ msgid "Contact"
-#~ msgstr "Ny mety ahazoana anao"
-
-#~ msgid "Cou_ntry:"
-#~ msgstr "_Firenena:"
-
-#~ msgid "Full Name"
-#~ msgstr "Anarana feno"
-
-#~ msgid "Hom_e:"
-#~ msgstr "_Trano:"
-
-#~ msgid "IC_Q:"
-#~ msgstr "IC_Q:"
-
-#~ msgid "M_SN:"
-#~ msgstr "M_SN:"
-
-#~ msgid "Old pa_ssword:"
-#~ msgstr "_Teny fanalahidy taloha:"
-
-#~ msgid "P.O. _box:"
-#~ msgstr "Laharan'ny _Boatin-taratasy:"
-
-#~ msgid "P._O. box:"
-#~ msgstr "Laharan'ny _Boatin-taratasy:"
-
-#~ msgid "Personal Info"
-#~ msgstr "Momba ny tena manokana"
-
-#~ msgid "State/Pro_vince:"
-#~ msgstr "Fanjakana/Fa_ritany:"
-
-#~ msgid "User name:"
-#~ msgstr "Anaran'ny mpampiasa:"
-
-#~ msgid "Web _log:"
-#~ msgstr "_Raki-tatitry ny tranonkala:"
-
-#~ msgid "Wor_k:"
-#~ msgstr "_Toeram-piasana:"
-
-#~ msgid "Work _fax:"
-#~ msgstr "_Fax ao amin'ny toeram-piasana:"
-
-#~ msgid "Zip/_Postal code:"
-#~ msgstr "Mari-pamantaran'ny _paositra:"
-
-#~ msgid "_Address:"
-#~ msgstr "_Adiresy:"
-
-#~ msgid "_Department:"
-#~ msgstr "_Sampandraharaha:"
-
-#~ msgid "_Groupwise:"
-#~ msgstr "_Groupwise:"
-
-#~ msgid "_Home page:"
-#~ msgstr "Pejy _fandraisana:"
-
-#~ msgid "_Home:"
-#~ msgstr "_Fandraisana:"
-
-#~ msgid "_Jabber:"
-#~ msgstr "_Jabber:"
-
-#~ msgid "_Manager:"
-#~ msgstr "_Mpandrindra:"
-
-#~ msgid "_Mobile:"
-#~ msgstr "_Finday:"
-
-#~ msgid "_New password:"
-#~ msgstr "_Teny fanalahidy vaovao:"
-
-#~ msgid "_Profession:"
-#~ msgstr "_Asa:"
-
-#~ msgid "_Retype new password:"
-#~ msgstr "_Avereno soratana ilay teny fanalahidy:"
-
-#~ msgid "_State/Province:"
-#~ msgstr "_Faritany:"
-
-#~ msgid "_Title:"
-#~ msgstr "_Mpialoha anarana:"
-
-#~ msgid "_Work:"
-#~ msgstr "_Toeram-piasana:"
-
-#~ msgid "_Yahoo:"
-#~ msgstr "_Yahoo:"
-
-#~ msgid "_Zip/Postal code:"
-#~ msgstr "Mari-pamantaran'ny _paositra:"
-
-#~ msgid "<b>Applications</b>"
-#~ msgstr "<b>Rindran'asas</b>"
-
-#~ msgid "<b>Support</b>"
-#~ msgstr "<b>Fanampiana</b>"
-
-#~ msgid ""
-#~ "<small><i><b>Note:</b> Changes to this setting will not take effect until "
-#~ "you next log in.</i></small>"
-#~ msgstr ""
-#~ "<small><i><b>Note:</b> Tsy hihatra ireo fanovana natao tamin'ity "
-#~ "fandrindrana ity raha tsy rehefa miditra indray ianao.</i></small>"
-
-#~ msgid "Assistive Technology Preferences"
-#~ msgstr "Safidy manokan'ny haitao fanamorana"
-
-#~ msgid "Close and _Log Out"
-#~ msgstr "Hidio dia _mivoaha"
-
-#~ msgid "Start these assistive technologies every time you log in:"
-#~ msgstr "Mandefa ireo haitao fanamorana ireo isaky ny miditra ianao:"
-
-#~ msgid "_Enable assistive technologies"
-#~ msgstr "_Alefaso ireo haitao fanamorana"
-
-#~ msgid "_Magnifier"
-#~ msgstr "_Fitara-mamily"
-
-#~ msgid "_On-screen keyboard"
-#~ msgstr "Fafan-teny miseho _amin'ny efijery"
-
-#~ msgid "_Screenreader"
-#~ msgstr "_Mpamaky efijery"
-
-#~ msgid "Assistive Technology Support"
-#~ msgstr "Fanampiana mikasika ny haitao fanamorana"
-
-#~ msgid "Enable support for GNOME assistive technologies at login"
-#~ msgstr ""
-#~ "Alefaso ny fandraisana an-tànana ireo haitao fanamorana an'ny GNOME "
-#~ "rehefa miditra"
-
-#~ msgid ""
-#~ "No Assistive Technology is available on your system.  The 'gok' package "
-#~ "must be installed in order to get on-screen keyboard support, and the "
-#~ "'gnopernicus' package must be installed for screenreading and magnifying "
-#~ "capabilities."
-#~ msgstr ""
-#~ "Tsy misy haitao fanamorana ao amin'ny solosainao. Tsy maintsy apetraka ny "
-#~ "fehin-drindran'asa 'gok' izay vao afaka mampiasa ny fafan-teny miseho "
-#~ "amin'ny efijery. Tsy maintsy apetraka koa ny fehin-drindran'asa "
-#~ "'gnopernicus' izay vao afaka mampiasa mpamaky efijery sy fitara-mamily."
-
-#~ msgid ""
-#~ "Not all available assistive technologies are installed on your system.  "
-#~ "The 'gok' package must be installed in order to get on-screen keyboard "
-#~ "support."
-#~ msgstr ""
-#~ "Tsy voapetraka ao amin'ny solosainao avokoa ireo haitao fanamorana misy. "
-#~ "Tsy maintsy apetraka ny fehin-drindran'asa 'gok' vao afaka mandray an-"
-#~ "tànana fafan-teny miseho amin'ny efijery."
-
-#~ msgid ""
-#~ "Not all available assistive technologies are installed on your system.  "
-#~ "The 'gnopernicus' package must be installed for screenreading and "
-#~ "magnifying capabilities."
-#~ msgstr ""
-#~ "Tsy voapetraka ao amin'ny solosainao avokoa ireo haitao fanamorana misy. "
-#~ "Tsy maintsy apetraka ny fehin-drindran'asa 'gnopernicus' vao afaka "
-#~ "mampiasa mpamaky efijery sy fitara-mamily."
-
-#~ msgid "There was an error launching the mouse preferences dialog: %s"
-#~ msgstr ""
-#~ "Nisy olana teo am-pandefasana ny takelaka kelin'ny safidy manokan'ny "
-#~ "totozy: %s"
-
-#~ msgid "Unable to import AccessX settings from file '%s'"
-#~ msgstr "Tsy nahaaftra fandrindrana AccessX avy amin'ny rakitra '%s'"
-
-#~ msgid "Import Feature Settings File"
-#~ msgstr "Hanafatra rakitra misy fandrindrana fahasahaza"
-
-#~ msgid "_Import"
-#~ msgstr "_Afaro"
-
-#~ msgid "Set your keyboard accessibility preferences"
-#~ msgstr "Mamaritra ny safidy manokan'ny fahafahana mampiasa ny fafan-teny"
-
-#~ msgid ""
-#~ "This system does not seem to have the XKB extension.  The keyboard "
-#~ "accessibility features will not operate without it."
-#~ msgstr ""
-#~ "Toa tsy manana ny tovana XKB ity rafitra ity. Tsy mandeha ny "
-#~ "fahasahazan'ny fahafahana mampiasa ny fafan-teny  raha tsy misy io tovana "
-#~ "io."
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#~ msgid "<b>Enable Bo_unce Keys</b>"
-#~ msgstr "<b>Alefaso ireo kitendry _faingana</b>"
-
-#~ msgid "<b>Enable Slo_w Keys</b>"
-#~ msgstr "<b>Alefaso ireo kitendry _votsa</b>"
-
-#~ msgid "<b>Enable _Mouse Keys</b>"
-#~ msgstr "<b>Alefaso ireo kitendrin'ny _totozy</b>"
-
-#~ msgid "<b>Enable _Repeat Keys</b>"
-#~ msgstr "<b>Alefaso ireo kitendry _famerenana</b>"
-
-#~ msgid "<b>Enable _Sticky Keys</b>"
-#~ msgstr "<b>Alefaso ireo kitendry _miraikidraikitra</b>"
-
-#~ msgid "<b>Features</b>"
-#~ msgstr "<b>Fahasahaza</b>"
-
-#~ msgid "<b>Toggle Keys</b>"
-#~ msgstr "<b>Kitendrin'ny fiovana</b>"
-
-#~ msgid "Basic"
-#~ msgstr "Fototra"
-
-#~ msgid "Beep if key is re_jected"
-#~ msgstr "Maneno raha _tsy ekena ilay kitendry"
-
-#~ msgid "Beep when _features turned on or off from keyboard"
-#~ msgstr ""
-#~ "Maneno raha alefa na ajanona avy amin'ny fafan-teny ireo _fahasahaza"
-
-#~ msgid "Beep when _modifier is pressed"
-#~ msgstr "Maneno rehefa voatsindry ny kitendrin'ny -fanovana"
-
-#~ msgid "Beep when an LED is turned on and two beeps when one is turned off."
-#~ msgstr ""
-#~ "Maneno in-1 rehefa mirehitra ny jiro LED ary in-2 rehefa maty io jiro io."
-
-#~ msgid "Beep when key is:"
-#~ msgstr "Maneno rehefa ity ny kitendry:"
-
-#~ msgid "Del_ay:"
-#~ msgstr "_Elanelam-potoana:"
-
-#~ msgid "Delay between keypress and pointer mo_vement:"
-#~ msgstr ""
-#~ "Ny elanelana ara-potoana misy eo amin'ny fanindriana kitendry sy ny "
-#~ "_fihetsiky ny kitondro:"
-
-#~ msgid "Disa_ble if two keys pressed together"
-#~ msgstr "_Atsaharo raha toa ka kitendry roa no indray voatsindry"
-
-#~ msgid "E_nable Toggle Keys"
-#~ msgstr "_Alefaso ireo kitendrin'ny fiovana"
-
-#~ msgid "Filters"
-#~ msgstr "Sivana"
-
-#~ msgid "I_gnore duplicate keypresses within:"
-#~ msgstr "Aza raharahaina ny kitendry sahala voatsindry anatin'ny:"
-
-#~ msgid ""
-#~ "Ignore all subsequent presses of the SAME key if they happen within a "
-#~ "user selectable period of time."
-#~ msgstr ""
-#~ "Tsy mandraharaha ny fanindriana mifanarakaraka kitendry IRAY raha toa ka "
-#~ "mitranga anatin'ny fotoana azon'ny mpampiasa faritana izany.s"
-
-#~ msgid "Keyboard Accessibility Preferences (AccessX)"
-#~ msgstr "Safidy manokan'ny fahafahana mampiasa ny fafan-teny (AccessX)"
-
-#~ msgid "Ma_ximum pointer speed:"
-#~ msgstr "Hafainganan'ny kitondro _ambony indrindra:"
-
-#~ msgid "Mouse _Preferences..."
-#~ msgstr "_Safidy manokan'ny totozy..."
-
-#~ msgid ""
-#~ "Only accept keys after they have been pressed and held for a user "
-#~ "adjustable amount of time."
-#~ msgstr ""
-#~ "Aza ekena ireo kitendry raha tsy efa voatsindry mandritra ny fotoana "
-#~ "azon'ny mpampiasa faritana."
-
-#~ msgid ""
-#~ "Perform multiple simultaneous key press operations by pressing modifier "
-#~ "keys in sequence."
-#~ msgstr ""
-#~ "Manao fanindriana kitendry miara-miseho amin'ny alalan'ny fanidriana "
-#~ "misesisesy ireo kitendrin'ny fanovana."
-
-#~ msgid "S_peed:"
-#~ msgstr "_Hafainganana:"
-
-#~ msgid "Time to acce_lerate to maximum speed:"
-#~ msgstr "Ny fotoana ilaina _hahatratrarana ny hafainganana ambony indrindra:"
-
-#, fuzzy
-#~ msgid "Turn the numeric keypad into a mouse control pad."
-#~ msgstr "Manova ny kitendrin'isa ho kitendrin'ny totozy."
-
-#~ msgid "_Disable if unused for:"
-#~ msgstr "_Atsaharo raha tsy ampiasaina mandritra ny:"
-
-#~ msgid "_Import Feature Settings..."
-#~ msgstr "_Hanafatra fandrindrana fahasahaza..."
-
-#~ msgid "_Only accept keys held for:"
-#~ msgstr "_Aza manaiky afa-tsy ireo kitendry voatsindry mandritra ny:"
-
-#~ msgid "_Type to test settings:"
-#~ msgstr "_Manorata hitsapana ireo fandrindrana:"
-
-#~ msgid "_accepted"
-#~ msgstr "_Ekena"
-
-#~ msgid "_pressed"
-#~ msgstr "_voatsindry"
-
-#~ msgid "_rejected"
-#~ msgstr "_Lavina"
-
-#~ msgid "characters/second"
-#~ msgstr "marika/segaondra"
-
-#~ msgid "milliseconds"
-#~ msgstr "milisegaondra"
-
-#~ msgid "pixels/second"
-#~ msgstr "pixel/segaondra"
-
-#~ msgid "seconds"
-#~ msgstr "segaondra"
-
-#~ msgid "Change your Desktop Background settings"
-#~ msgstr "Manova ireo kirakiran'ny afaran'ny sehatr'asanao"
-
-#~ msgid "Desktop Background"
-#~ msgstr "Afaran'ny sehatr'asa"
-
-#~ msgid "<b>Desktop _Wallpaper</b>"
-#~ msgstr "<b>_Taratasy manaingo</b>"
-
-#~ msgid "<b>_Desktop Colors</b>"
-#~ msgstr "<b>Lokon'ny _sehatr'asa</b>"
-
-#~ msgid "Desktop Background Preferences"
-#~ msgstr "Safidy manokan'ny afaran'ny sehatr'asa"
-
-#~ msgid "Open a dialog to specify the color"
-#~ msgstr "Manokatra takelaka kely ahafahana mamaritra ny loko"
-
-#~ msgid "_Add Wallpaper"
-#~ msgstr "_Hanampy taratasy manaingo"
-
-#~ msgid "_Finish"
-#~ msgstr "_Vita"
-
-#~ msgid "_Remove"
-#~ msgstr "_Esory"
-
-#, fuzzy
-#~ msgid "_Style:"
-#~ msgstr "_Endrika:"
-
-#~ msgid "Centered"
-#~ msgstr "Mahazo afovoa"
-
-#~ msgid "Fill Screen"
-#~ msgstr "Mameno efijery"
-
-#~ msgid "Scaled"
-#~ msgstr "Novaina habe"
-
-#~ msgid "Zoom"
-#~ msgstr "Zòma"
-
-#~ msgid "Tiled"
-#~ msgstr "Mizarazara"
-
-#~ msgid "Solid Color"
-#~ msgstr "Loko tokana"
-
-#~ msgid "Horizontal Gradient"
-#~ msgstr "Mandry misompirana"
-
-#~ msgid "Vertical Gradient"
-#~ msgstr "Mitsangana misompirana"
-
-#~ msgid "Add Wallpaper"
-#~ msgstr "Hanampy taratasy manaingo"
-
-#~ msgid "Images"
-#~ msgstr "Sary"
-
-#~ msgid "All Files"
-#~ msgstr "Ireo akitra rehetra"
-
-#~ msgid "No Wallpaper"
-#~ msgstr "Tsy misy taratasy manaingo"
-
-#~ msgid "pixel"
-#~ msgid_plural "pixels"
-#~ msgstr[0] "pixel"
-#~ msgstr[1] "pixel"
-
-#~ msgid ""
-#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#~ "Without the GNOME settings manager running, some preferences may not take "
-#~ "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. "
-#~ "KDE) settings manager may already be active and conflicting with the "
-#~ "GNOME settings manager."
-#~ msgstr ""
-#~ "Tsy nahalefa ny mpandrindra kirakira 'gnome-settings-daemon'.\n"
-#~ "Mety tsy hihatra ny safidy manokana sasany raha tsy mandeha io "
-#~ "mpandrindra ny kirakiran'ny GNOME io. Mety midika izany fa misy olana "
-#~ "amin'ny Bonobo, na mety efa misy mpandrindra kirakira tsy an'ny GNOME "
-#~ "(ohatra: KDE) mandeha ka mifanipaka amin'ny an'ny GNOME."
-
-#~ msgid "Unable to load stock icon '%s'\n"
-#~ msgstr "Tsy afaka nangala ny kisary tahiry '%s'\n"
-
-#~ msgid "Just apply settings and quit"
-#~ msgstr "Ampiharo fotsiny ireo fandrindrana dia ajanony"
-
-#~ msgid "Retrieve and store legacy settings"
-#~ msgstr "Alaivo ary raiketo ireo fandrindrana taloha"
-
-#~ msgid "Copying file: %u of %u"
-#~ msgstr "Mandika ilay rakitra: %u amin'ny %u"
-
-#~ msgid "Copying '%s'"
-#~ msgstr "Mandika ny '%s'"
-
-#~ msgid "From URI"
-#~ msgstr "Avy amin'ny URI"
-
-#~ msgid "URI currently transferring from"
-#~ msgstr "Ny URI dia mamindra avy amin'ny"
-
-#~ msgid "To URI"
-#~ msgstr "Mankany amin'ny URI"
-
-#~ msgid "URI currently transferring to"
-#~ msgstr "Ny URI dia mamindra mankany amin'ny"
-
-#~ msgid "Fraction completed"
-#~ msgstr "Vita ny fizarana"
-
-#~ msgid "Fraction of transfer currently completed"
-#~ msgstr "Vita ny fizarana ny famindrana"
-
-#~ msgid "Current URI index"
-#~ msgstr "Fizahan-takilan'ity URI ity"
-
-#~ msgid "Current URI index - starts from 1"
-#~ msgstr "Fizahan-takilan'ity URI ity - manomboka amin'ny 1"
-
-#~ msgid "Total URIs"
-#~ msgstr "Tontalin'ireo URI"
-
-#~ msgid "Total number of URIs"
-#~ msgstr "Tontalin'ny isan'ny URI"
-
-#~ msgid "Copying files"
-#~ msgstr "Mandika rakitra"
-
-#~ msgid "From:"
-#~ msgstr "Avy amin'ny:"
-
-#~ msgid "To:"
-#~ msgstr "Mankany amin'ny:"
-
-#~ msgid "Connecting..."
-#~ msgstr "Mifandray..."
-
-#~ msgid "Key"
-#~ msgstr "Kitendry"
-
-#~ msgid "GConf key to which this property editor is attached"
-#~ msgstr "Ny famaha GConf arahan'ity mpanova toetoetra ity"
-
-#~ msgid "Callback"
-#~ msgstr "Antso"
-
-#~ msgid "Issue this callback when the value associated with key gets changed"
-#~ msgstr ""
-#~ "Mandefa ity antso rehefa miova ny sanda mifandraika amin'ilay famaha"
-
-#~ msgid "Change set"
-#~ msgstr "Fitambarana fanovana"
-
-#~ msgid ""
-#~ "GConf change set containing data to be forwarded to the gconf client on "
-#~ "apply"
-#~ msgstr ""
-#~ "Fitambarana fanovana misy data alefa mankany amin'ny mpivatsin'ny gconf "
-#~ "rehefa atao ny fampiharana"
-
-#~ msgid "Conversion to widget callback"
-#~ msgstr "Fivadihana mankany amin'ny antso widget"
-
-#~ msgid ""
-#~ "Callback to be issued when data are to be converted from GConf to the "
-#~ "widget"
-#~ msgstr ""
-#~ "Antso halefa rehefa misy data havadika avy amin'ny GConf mankany "
-#~ "amin'ilay widget"
-
-#~ msgid "Conversion from widget callback"
-#~ msgstr "Fivadihana avyamin'ny antso widget"
-
-#~ msgid ""
-#~ "Callback to be issued when data are to be converted to GConf from the "
-#~ "widget"
-#~ msgstr ""
-#~ "Antso halefa rehefa misy data havadika avy amin'ny widget mankany amin'ny "
-#~ "GConf s"
-
-#~ msgid "UI Control"
-#~ msgstr "Fifehezana ny UI"
-
-#~ msgid "Object that controls the property (normally a widget)"
-#~ msgstr "Zavatra iray izay mifehy ny toetoetra (tokony ho widget)"
-
-#~ msgid "Property editor object data"
-#~ msgstr "Datan'ny zavatry ny mpanova toetoetra"
-
-#~ msgid "Custom data required by the specific property editor"
-#~ msgstr "Data manokana ilain'ny mpanova toetoetra voafaritra"
-
-#~ msgid "Property editor data freeing callback"
-#~ msgstr "Datan'ny mpanova toetoetra mamotsotra antso"
-
-#~ msgid ""
-#~ "Callback to be issued when property editor object data is to be freed"
-#~ msgstr ""
-#~ "Antso halefa rehefa havotsotra ny datan'ny zavatry ny mpanova toetoetra"
-
-#~ msgid ""
-#~ "Couldn't find the file '%s'.\n"
-#~ "\n"
-#~ "Please make sure it exists and try again, or choose a different "
-#~ "background picture."
-#~ msgstr ""
-#~ "Tsy nahita ny rakitra '%s'.\n"
-#~ "\n"
-#~ "Amarino tsara hoe misy izy io dia andramo indray avy eo, na misafidiana "
-#~ "sary afara hafa."
-
-#~ msgid ""
-#~ "I don't know how to open the file '%s'.\n"
-#~ "Perhaps it's a kind of picture that is not yet supported.\n"
-#~ "\n"
-#~ "Please select a different picture instead."
-#~ msgstr ""
-#~ "Tsy haiko ny manokatra ny rakitra '%s'.\n"
-#~ "Mety karazan-tsary tsy mbola voaray an-tànana angamba izy io.\n"
-#~ "\n"
-#~ "Misafidiana sary hafa asolo azy."
-
-#~ msgid "Please select an image."
-#~ msgstr "Misafidiana sary iray."
-
-#~ msgid "_Select"
-#~ msgstr "_Ekeo"
-
-#~ msgid "Preferred Applications"
-#~ msgstr "Rindran'asa tiana kokoa"
-
-#~ msgid "Select your default applications"
-#~ msgstr "Safidio ireo rindran'asa ataonao fampiasa"
-
-#~ msgid "Error saving configuration: %s"
-#~ msgstr "Nisy olana teo am-pandraiketana ny kirakira: %s"
-
-#~ msgid "Custom"
-#~ msgstr "Safidy"
-
-#~ msgid "Could not load the main interface"
-#~ msgstr "Tsy afaka naka ny mpanera fototra"
-
-#~ msgid "Please make sure that the applet is properly installed"
-#~ msgstr "Amarino tsara hoe voapetraka araka ny tokony ho izy ilay applet"
-
-#~ msgid "Balsa"
-#~ msgstr "Balsa"
-
-#~ msgid "Debian Sensible Browser"
-#~ msgstr "Debian Sensible Browser"
-
-#~ msgid "Debian Terminal Emulator"
-#~ msgstr "Debian Terminal Emulator"
-
-#~ msgid "ETerm"
-#~ msgstr "ETerm"
-
-#~ msgid "Encompass"
-#~ msgstr "Encompass"
-
-#~ msgid "Epiphany Web Browser"
-#~ msgstr "Mpitety tranonkalan'ny Epiphany"
-
-#~ msgid "Evolution Mail Reader"
-#~ msgstr "Evolution Mail Reader"
-
-#~ msgid "Evolution Mail Reader 1.4"
-#~ msgstr "Evolution Mail Reader 1.4"
-
-#~ msgid "Evolution Mail Reader 1.5"
-#~ msgstr "Evolution Mail Reader 1.5"
-
-#~ msgid "Evolution Mail Reader 1.6"
-#~ msgstr "Evolution Mail Reader 1.6"
-
-#~ msgid "Evolution Mail Reader 2.0"
-#~ msgstr "Evolution Mail Reader 2.0"
-
-#~ msgid "Evolution Mail Reader 2.2"
-#~ msgstr "Evolution Mail Reader 2.2"
-
-#~ msgid "Evolution Mail Reader 2.4"
-#~ msgstr "Evolution Mail Reader 2.4"
-
-#~ msgid "Firebird"
-#~ msgstr "Firebird"
-
-#~ msgid "Firefox"
-#~ msgstr "Firefox"
-
-#~ msgid "GNOME Terminal"
-#~ msgstr "Terminal an'ny GNOME"
-
-#~ msgid "Galeon"
-#~ msgstr "Galeon"
-
-#~ msgid "KMail"
-#~ msgstr "KMail"
-
-#~ msgid "Konqueror"
-#~ msgstr "Konqueror"
-
-#~ msgid "Links Text Browser"
-#~ msgstr "Mpitety Links Text"
-
-#~ msgid "Lynx Text Browser"
-#~ msgstr "Mpitety Lynx Text"
-
-#~ msgid "Mozilla"
-#~ msgstr "Mozilla"
-
-#~ msgid "Mozilla 1.6"
-#~ msgstr "Mozilla 1.6"
-
-#~ msgid "Mozilla Mail"
-#~ msgstr "Mozilla Mail"
-
-#~ msgid "Mozilla Thunderbird"
-#~ msgstr "Mozilla Thunderbird"
-
-#~ msgid "Mutt"
-#~ msgstr "Mutt"
-
-#~ msgid "NXterm"
-#~ msgstr "NXterm"
-
-#~ msgid "Netscape Communicator"
-#~ msgstr "Netscape Communicator"
-
-#~ msgid "Opera"
-#~ msgstr "Opera"
-
-#~ msgid "RXVT"
-#~ msgstr "RXVT"
-
-#~ msgid "Standard XTerminal"
-#~ msgstr "XTerminal tsotra"
-
-#~ msgid "Sylpheed"
-#~ msgstr "Sylpheed"
-
-#~ msgid "Sylpheed-Claws"
-#~ msgstr "Sylpheed-Claws"
-
-#~ msgid "Thunderbird"
-#~ msgstr "Thunderbird"
-
-#~ msgid "W3M Text Browser"
-#~ msgstr "Mpitety Soratra W3M"
-
-#~ msgid "aterm"
-#~ msgstr "aterm"
-
-#~ msgid "<b>Audio Player</b>"
-#~ msgstr "<b>Fiahinoana raki-peo</b>"
-
-#~ msgid "<b>Image Viewer</b>"
-#~ msgstr "<b>Mpizaha sary</b>"
-
-#~ msgid "<b>Instant Messenger</b>"
-#~ msgstr "<b>Mpampifandray eo no eo</b>"
-
-#~ msgid "<b>Mail Reader</b>"
-#~ msgstr "<b>Mpamaky mailaka</b>"
-
-#~ msgid "<b>Terminal Emulator</b>"
-#~ msgstr "<b>Terminal Emulator</b>"
-
-#~ msgid "<b>Text Editor</b>"
-#~ msgstr "<b>Mpanova lahabolana</b>"
-
-#~ msgid "<b>Video Player</b>"
-#~ msgstr "<b>Fijerena horonan-tsary</b>"
-
-#~ msgid "<b>Web Browser</b>"
-#~ msgstr "<b>Mpitety tranonkala</b>"
-
-#~ msgid "All %s occurrences will be replaced with actual link"
-#~ msgstr "Ho soloina ity rohy ity daholo ireo %s rehetra"
-
-#~ msgid "Co_mmand:"
-#~ msgstr "Bai_ko:"
-
-#~ msgid "E_xecute flag:"
-#~ msgstr "Sain'ny takila _fanatanterahana:"
-
-#~ msgid "Internet"
-#~ msgstr "Internet"
-
-#~ msgid "Multimedia"
-#~ msgstr "Haino aman-jery"
-
-#~ msgid "Open link in new _tab"
-#~ msgstr "Sokafy anaty _vakizoro vaovao ilay rohy"
-
-#~ msgid "Open link in new _window"
-#~ msgstr "Sokafy anaty _fikandrana vaovao ilay rohy"
-
-#~ msgid "Open link with web browser _default"
-#~ msgstr ""
-#~ "Sokafy amin'ny alalan'ny safidy _tsotran'ny mpitety tranonkala ilay rohy"
-
-#~ msgid "Run in t_erminal"
-#~ msgstr "Alefaso amin'ny alalan'ny _Terminal"
-
-#~ msgid "System"
-#~ msgstr "Rafitra"
-
-#~ msgid "Change screen resolution"
-#~ msgstr "Hanova ny resolution'ny efijery"
-
-#~ msgid "Screen Resolution"
-#~ msgstr "Resolution'ny efijery"
-
-#~ msgid "%d Hz"
-#~ msgstr "%d Hz"
-
-#~ msgid "_Resolution:"
-#~ msgstr "_Resolution:"
-
-#~ msgid "Re_fresh rate:"
-#~ msgstr "Tahan'ny re_freshment:"
-
-#~ msgid "Default Settings"
-#~ msgstr "Fandrindrana tsotra"
-
-#~ msgid "Screen %d Settings\n"
-#~ msgstr "Fandrindran'ny efijery %d\n"
-
-#~ msgid "Screen Resolution Preferences"
-#~ msgstr "Safidy manokana mikasikan ny resolution'ny efijery"
-
-#~ msgid "_Make default for this computer (%s) only"
-#~ msgstr "_Ataovy safidy tsotra ho an'ity solosaina (%s) ity ihany"
-
-#~ msgid "Options"
-#~ msgstr "Safidy"
-
-#~ msgid ""
-#~ "Testing the new settings. If you don't respond in %d second the previous "
-#~ "settings will be restored."
-#~ msgid_plural ""
-#~ "Testing the new settings. If you don't respond in %d seconds the previous "
-#~ "settings will be restored."
-#~ msgstr[0] ""
-#~ "Mitsapa ireo fandrindrana vaovao. Raha tsy manome valin-teny anatin'ny %d "
-#~ "segaondra ianao dia haverina ireo fandrindrana teo aloha."
-#~ msgstr[1] ""
-#~ "Mitsapa ireo fandrindrana vaovao. Raha tsy manome valin-teny anatin'ny %d "
-#~ "segaondra ianao dia haverina ireo fandrindrana teo aloha."
-
-#~ msgid "Keep Resolution"
-#~ msgstr "Tano io resolution io"
-
-#~ msgid "Do you want to keep this resolution?"
-#~ msgstr "Tianao tanana io resolution io?"
-
-#~ msgid "Use _previous resolution"
-#~ msgstr "Ny resolution _teo aloha ampiasaina"
-
-#~ msgid "_Keep resolution"
-#~ msgstr "_Tano io resolution io"
-
-#~ msgid ""
-#~ "The X Server does not support the XRandR extension.  Runtime resolution "
-#~ "changes to the display size are not available."
-#~ msgstr ""
-#~ "Tsy mandray an-tànana ny tovana XRandR ny mpizara X. Tsy misy fanovana "
-#~ "resolution runtime azo ampiharina amin'ny haben'ny efijery ao."
-
-#~ msgid ""
-#~ "The version of the XRandR extension is incompatible with this program. "
-#~ "Runtime changes to the display size are not available."
-#~ msgstr ""
-#~ "Tsy mifanaraka amin'ity rindran'asa ity ny kinovan'ny tovana XRandR. Tsy "
-#~ "misy fanovana runtime azo ampiharina amin'ny haben'ny efijery ao."
-
-#~ msgid "Select fonts for the desktop"
-#~ msgstr "Ahafahana misafidy endri-tsoratra ho an'ny sehatr'asa"
-
-#~ msgid "<b>Font Rendering</b>"
-#~ msgstr "<b>Fivoakan'ny endri-tsoratra</b>"
-
-#~ msgid "<b>Smoothing</b>:"
-#~ msgstr "<b>Fandamalamana</b>:"
-
-#~ msgid "<b>Subpixel order</b>:"
-#~ msgstr "<b>Filaharan'ny subpixel</b>:"
-
-#~ msgid "Best _shapes"
-#~ msgstr "_Bika tsara indrindra"
-
-#~ msgid "Best co_ntrast"
-#~ msgstr "_Fifangarihana tsara indrindra"
-
-#~ msgid "D_etails..."
-#~ msgstr "An_tsipiriany..."
-
-#~ msgid "Des_ktop font:"
-#~ msgstr "Endri-tsoratry ny sehatr'asa:"
-
-#~ msgid "Font Preferences"
-#~ msgstr "Safidy manokan'ny endri-tsoratra"
-
-#~ msgid "Font Rendering Details"
-#~ msgstr "Antsipirian'ny fivoakan'ilay endri-tsoratra"
-
-#~ msgid "Go _to font folder"
-#~ msgstr "_Laha-tahirin'ny endri-tsoratra"
-
-#~ msgid "Gra_yscale"
-#~ msgstr "Ambara_tongan-doko mivolombatolalaka"
-
-#~ msgid "N_one"
-#~ msgstr "Tsy _misy"
-
-#~ msgid "R_esolution:"
-#~ msgstr "R_esolution:"
-
-#~ msgid "Sub_pixel (LCDs)"
-#~ msgstr "Sub_pixel (LCD)"
-
-#~ msgid "Sub_pixel smoothing (LCDs)"
-#~ msgstr "Fandamalamana sub_pixel (LCD)"
-
-#~ msgid "VB_GR"
-#~ msgstr "VB_GR"
-
-#~ msgid "_Application font:"
-#~ msgstr "Endri-tsoratry ny _rindran'asa:"
-
-#~ msgid "_BGR"
-#~ msgstr "_BGR"
-
-#~ msgid "_Document font:"
-#~ msgstr "_Endri-tsoratry ny tahirin-kevitra:"
-
-#~ msgid "_Fixed width font:"
-#~ msgstr "Sakan'endri-tsoratra voafetra:"
-
-#~ msgid "_Full"
-#~ msgstr "_Feno"
-
-#~ msgid "_Medium"
-#~ msgstr "_Antonony"
-
-#~ msgid "_Monochrome"
-#~ msgstr "_Tokan-doko"
-
-#~ msgid "_None"
-#~ msgstr "_Tsy misy"
-
-#~ msgid "_RGB"
-#~ msgstr "_RGB"
-
-#~ msgid "_Slight"
-#~ msgstr "_Malefaka"
-
-#~ msgid "_VRGB"
-#~ msgstr "_VRGB"
-
-#~ msgid "_Window title font:"
-#~ msgstr "Endri-tsoratra ho an'ny lohatenin'ny _fikandrana:"
-
-#~ msgid "dots per inch"
-#~ msgstr "dpi"
-
-#~ msgid "Font may be too large"
-#~ msgstr "Mety lehibe loatra ilay endri-tsoratra"
-
-#~ msgid ""
-#~ "The font selected is %d point large, and may make it difficult to "
-#~ "effectively use the computer.  It is recommended that you select a size "
-#~ "smaller than %d."
-#~ msgid_plural ""
-#~ "The font selected is %d points large, and may make it difficult to "
-#~ "effectively use the computer. It is recommended that you select a size "
-#~ "smaller than %d."
-#~ msgstr[0] ""
-#~ "Mety tsy afaka miasa araka ny tokony ho izy ilay solosaina satria lehibe "
-#~ "loatra (x %d) ny endri-tsoratra nosafidianao. Tsara raha mampiasa endri-"
-#~ "tsoratra kely noho ny %d ianao."
-#~ msgstr[1] ""
-#~ "Mety tsy afaka miasa araka ny tokony ho izy ilay solosaina satria lehibe "
-#~ "loatra (x %d) ny endri-tsoratra nosafidianao. Tsara raha mampiasa endri-"
-#~ "tsoratra kely noho ny %d ianao."
-
-#~ msgid ""
-#~ "The font selected is %d point large, and may make it difficult to "
-#~ "effectively use the computer.  It is recommended that you select a "
-#~ "smaller sized font."
-#~ msgid_plural ""
-#~ "The font selected is %d points large, and may make it difficult to "
-#~ "effectively use the computer. It is recommended that you select a smaller "
-#~ "sized font."
-#~ msgstr[0] ""
-#~ "Mety tsy afaka miasa araka ny tokony ho izy ilay solosaina satria lehibe "
-#~ "loatra ny endri-tsoratra nosafidianao. Tsara raha misafidy endri-tsoratra "
-#~ "kely noho io ianao."
-#~ msgstr[1] ""
-#~ "Mety tsy afaka miasa araka ny tokony ho izy ilay solosaina satria lehibe "
-#~ "loatra ny endri-tsoratra nosafidianao. Tsara raha misafidy endri-tsoratra "
-#~ "kely noho io ianao."
-
-#~ msgid "New accelerator..."
-#~ msgstr "Mpanfaingana vaovao..."
-
-#~ msgid "Accelerator key"
-#~ msgstr "Kitendry mpanafaingana"
-
-#~ msgid "Accelerator modifiers"
-#~ msgstr "Mpanova ireo mpanafaingana"
-
-#~ msgid "Accelerator keycode"
-#~ msgstr "Fangon'ny kitendry mpanafaingana"
-
-#~ msgid "Accel Mode"
-#~ msgstr "Fomban'ny mpanafaingana"
-
-#~ msgid "The type of accelerator."
-#~ msgstr "Ny karazan'ilay mpanafaingana."
-
-#~ msgid "Disabled"
-#~ msgstr "Natsahatra"
-
-#~ msgid "<Unknown Action>"
-#~ msgstr "<Ada tsy fantatra>"
-
-#~ msgid "Desktop"
-#~ msgstr "Sehatr'asa"
-
-#~ msgid "Window Management"
-#~ msgstr "Fandrindrana fikandrana"
-
-#~ msgid ""
-#~ "The shortcut \"%s\" cannot be used because it will become unusable to "
-#~ "type using this key.\n"
-#~ "Please try with a key such as Control, Alt or Shift at the same time.\n"
-#~ msgstr ""
-#~ "Tsy mety ampiasaina ny hitsin-dàlana \"%s\" satria tsy hety hampiasaina "
-#~ "hanoratana intsony io kitendry io.\n"
-#~ "Andramo ampiarahana amin'ny kitendry toy ny Control, Alt na Shift ilay "
-#~ "izy.\n"
-
-#~ msgid ""
-#~ "The shortcut \"%s\" is already used for:\n"
-#~ " \"%s\"\n"
-#~ msgstr ""
-#~ "Ny hitsin-dàlana \"%s\" dia efa ampiasaina amin'ny:\n"
-#~ "\"%s\"\n"
-
-#~ msgid "Error setting new accelerator in configuration database: %s\n"
-#~ msgstr ""
-#~ "Tsy nety ny famoronana mpanfaingana vaovao ao anatin'ny soratra fototry "
-#~ "ny kirakira: %s\n"
-
-#~ msgid "Error unsetting accelerator in configuration database: %s\n"
-#~ msgstr ""
-#~ "Tsy nety ny fanafoanana ilay mpanafaingana tao anatin'ny soratra fototry "
-#~ "ny kirakira: %s\n"
-
-#~ msgid "Action"
-#~ msgstr "Asa"
-
-#~ msgid "Shortcut"
-#~ msgstr "Hitsin-dàlana"
-
-#~ msgid "Keyboard Shortcuts"
-#~ msgstr "Hintsin-dàlan'ny kitendry"
-
-#~ msgid ""
-#~ "To edit a shortcut key, click on the corresponding row and type a new "
-#~ "accelerator, or press backspace to clear."
-#~ msgstr ""
-#~ "Raha hanova mpanfaingana, dia manorata mpanafaingana vaovao eo amin'ny "
-#~ "fariana voatokana amin'izany, na tsindrio ny kitendry miverina hamafana "
-#~ "azy."
-
-#~ msgid "Assign shortcut keys to commands"
-#~ msgstr "Hamorona kitendry hitsin-dàlana ho ana baiko"
-
-#~ msgid "Unknown"
-#~ msgstr "Tsy fantatra"
-
-#~ msgid "Layout"
-#~ msgstr "Fandaminana"
-
-#~ msgid "Default"
-#~ msgstr "Tsotra"
-
-#~ msgid "Models"
-#~ msgstr "Modely"
-
-#~ msgid "There was an error launching the keyboard tool: %s"
-#~ msgstr "Nisy olana teo am-pandefasana ny fikirakirana ny kitendry: %s"
-
-#~ msgid ""
-#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
-#~ msgstr ""
-#~ "Ampiharo fotsiny ireo fandrindrana dia ajanony (fifanarahana ihany; efa "
-#~ "raisin'ny daemon an-tànana izao)"
-
-#~ msgid "Start the page with the typing break settings showing"
-#~ msgstr ""
-#~ "Asehoy ireo fandrindrana ny fiatoan'ny fanoratana rehefa mandefa ilay pejy"
-
-#~ msgid "..."
-#~ msgstr "..."
-
-#~ msgid "<b>Cursor Blinking</b>"
-#~ msgstr "<b>Fipian'ny kitondro</b>"
-
-#~ msgid "<b>Repeat Keys</b>"
-#~ msgstr "<b>Kitendrin'ny famerenana</b>"
-
-#~ msgid "<b>_Lock screen to enforce typing break</b>"
-#~ msgstr "<b>_Gejao ny efijery hanamafisana ny fiatoan'ny fanoratana</b>"
-
-#~ msgid "<small><i>Fast</i></small>"
-#~ msgstr "<small><i>Faingana</i></small>"
-
-#~ msgid "<small><i>Long</i></small>"
-#~ msgstr "<small><i>Lava</i></small>"
-
-#~ msgid "<small><i>Short</i></small>"
-#~ msgstr "<small><i>Fohy</i></small>"
-
-#~ msgid "<small><i>Slow</i></small>"
-#~ msgstr "<small><i>Meda</i></small>"
-
-#~ msgid "A_vailable layouts:"
-#~ msgstr "Ireo fandaminana _misy:"
-
-#~ msgid "All_ow postponing of breaks"
-#~ msgstr "_Ekeo ny fanemorana ireo fiatoana"
-
-#~ msgid "Check if breaks are allowed to be postponed"
-#~ msgstr "Jereo raha toa ka azo ahemotra ireo fiatoana"
-
-#~ msgid "Choose a Keyboard Model"
-#~ msgstr "Misafidiana modelim-pafan-teny iray"
-
-#~ msgid "Choose a Layout"
-#~ msgstr "Misafidiana fandaminana iray"
-
-#~ msgid "Cursor _blinks in text boxes and fields"
-#~ msgstr "_Mipy ilay kitondro anatin'ny takila sy toeran-tsoratra"
-
-#~ msgid "Cursor blinks speed"
-#~ msgstr "Hafainganan'ny fipian'ny kitondro"
-
-#~ msgid "Duration of the break when typing is disallowed"
-#~ msgstr "Faharetan'ny fiatoana raha rehefa voarara ny fanoratana"
-
-#~ msgid "Duration of work before forcing a break"
-#~ msgstr "Faharetan'ny asa atao alohan'ny hanisiana fiatoana"
-
-#~ msgid "Key presses _repeat when key is held down"
-#~ msgstr ""
-#~ "_Famerenana izay voatsindry rehefa rehefa voatsindry tsy miato ny "
-#~ "kitendry iray"
-
-#~ msgid "Keyboard Preferences"
-#~ msgstr "Safidy manokan'ny fafan-teny"
-
-#~ msgid "Keyboard _model:"
-#~ msgstr "_Modelim-pafan-teny:"
-
-#~ msgid "Layout Options"
-#~ msgstr "Safidin'ny fandaminana"
-
-#~ msgid "Layouts"
-#~ msgstr "Fandaminana"
-
-#~ msgid ""
-#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
-#~ "use injuries"
-#~ msgstr ""
-#~ "Gejao ny efijery aorian'ny fotoana voafaritra mba hisorohana izay aretina "
-#~ "ateraky ny fampiasana fafan-teny matetika loatra"
-
-#~ msgid "Microsoft Natural Keyboard"
-#~ msgstr "Microsoft Natural Keyboard"
-
-#~ msgid "Preview:"
-#~ msgstr "Topy maso:"
-
-#~ msgid "Repeat keys speed"
-#~ msgstr "Hafainganan'ny kitendry famerenana"
-
-#~ msgid "Reset To De_faults"
-#~ msgstr "Avereno amin'ny toetra _tsotra"
-
-#~ msgid "Separate _group for each window"
-#~ msgstr "_Vondrona tokana isaka ny fikandrana"
-
-#~ msgid "_Accessibility..."
-#~ msgstr "_Fahafahana mampiasa..."
-
-#~ msgid "_Add..."
-#~ msgstr "_Hanampy..."
-
-#~ msgid "_Break interval lasts:"
-#~ msgstr "_Faharetan'ny elanelan'ireo fiatoana:"
-
-#~ msgid "_Delay:"
-#~ msgstr "_Elanelam-potoana:"
-
-#~ msgid "_Models:"
-#~ msgstr "_Modely:"
-
-#~ msgid "_Selected layouts:"
-#~ msgstr "_Fandaminana voasafidy:"
-
-#~ msgid "_Speed:"
-#~ msgstr "_Hafainganana:"
-
-#~ msgid "_Work interval lasts:"
-#~ msgstr "_Faharetan'ny elanelan'ny asa atao:"
-
-#~ msgid "minutes"
-#~ msgstr "minitra"
-
-#~ msgid "Set your keyboard preferences"
-#~ msgstr "Mamaritra ireo safidy manokan'ny fafan-teny"
-
-#~ msgid "%d milliseconds"
-#~ msgid_plural "%d milliseconds"
-#~ msgstr[0] "%d milisegaondra"
-#~ msgstr[1] "%d milisegaondra"
-
-#~ msgid "Unknown Pointer"
-#~ msgstr "Kitondro tsy fantatra"
-
-#~ msgid "Default Pointer"
-#~ msgstr "Kitondro tsotra"
-
-#~ msgid "Default Pointer - Current"
-#~ msgstr "Kitondro tsotra - Ny miasa izao"
-
-#~ msgid "The default pointer that ships with X"
-#~ msgstr "Ny kitondro tsotra nivoaka niaraka tamin'ny X"
-
-#~ msgid "White Pointer"
-#~ msgstr "Kitondro fotsy"
-
-#~ msgid "White Pointer - Current"
-#~ msgstr "Kitondro fotsy - Ny miasa izao"
-
-#~ msgid "The default pointer inverted"
-#~ msgstr "Ny kitondro tsotra navadika"
-
-#~ msgid "Large Pointer"
-#~ msgstr "Kitondro lehibe"
-
-#~ msgid "Large Pointer - Current"
-#~ msgstr "Kitondro lehibe - Ny miasa izao"
-
-#~ msgid "Large version of normal pointer"
-#~ msgstr "Ny kitondro ara-pitsipika amin'ny endriny lehibe"
-
-#~ msgid "Large White Pointer - Current"
-#~ msgstr "Kitondro fotsy lehibe - Ny miasa izao"
-
-#~ msgid "Large White Pointer"
-#~ msgstr "Kitondro fotsy lehibe"
-
-#~ msgid "Large version of white pointer"
-#~ msgstr "Ny kitondro fotsy amin'ny endriny lehibe"
-
-#~ msgid "Pointer Theme"
-#~ msgstr "Endriky ny kitondro"
-
-#~ msgid "<b>Double-Click Timeout </b>"
-#~ msgstr "<b>Elanelan'ny click miverina indroa </b>"
-
-#~ msgid "<b>Drag and Drop</b>"
-#~ msgstr "<b>Alaivo dia afindrao</b>"
-
-#~ msgid "<b>Locate Pointer</b>"
-#~ msgstr "<b>Farito ny toeran'ny kitondro</b>"
-
-#~ msgid "<b>Mouse Orientation</b>"
-#~ msgstr "<b>Fitodiky ny totozy</b>"
-
-#~ msgid "<b>Speed</b>"
-#~ msgstr "<b>Hafaingana</b>"
-
-#~ msgid "<i>Fast</i>"
-#~ msgstr "<i>Faingana</i>"
-
-#~ msgid "<i>High</i>"
-#~ msgstr "<i>Ambony</i>"
-
-#~ msgid "<i>Large</i>"
-#~ msgstr "<i>Lehibe</i>"
-
-#~ msgid "<i>Low</i>"
-#~ msgstr "<i>Ambany</i>"
-
-#~ msgid "<i>Slow</i>"
-#~ msgstr "<i>Meda</i>"
-
-#~ msgid "<i>Small</i>"
-#~ msgstr "<i>Kely</i>"
-
-#~ msgid "Buttons"
-#~ msgstr "Tsindry"
-
-#~ msgid "Highlight the _pointer when you press Ctrl"
-#~ msgstr "Manasongadina ilay _kitondro rehefa manindry ny Ctrl ianao"
-
-#~ msgid "Large"
-#~ msgstr "Lehibe"
-
-#~ msgid "Medium"
-#~ msgstr "Antonony"
-
-#~ msgid "Motion"
-#~ msgstr "Hetsika"
-
-#~ msgid "Pointer Size:"
-#~ msgstr "Haben'ny kitondro:"
-
-#~ msgid "Pointers"
-#~ msgstr "Kitondro"
-
-#~ msgid "Small"
-#~ msgstr "Kely"
-
-#~ msgid "_Acceleration:"
-#~ msgstr "_Fanafainganana:"
-
-#~ msgid "_Left-handed mouse"
-#~ msgstr "_Totozy ho an'ny tànana havia"
-
-#~ msgid "_Sensitivity:"
-#~ msgstr "_Fahamora mandray:"
-
-#~ msgid "_Threshold:"
-#~ msgstr "_Fetra:"
-
-#~ msgid "_Timeout:"
-#~ msgstr "_Elanelany:"
-
-#~ msgid "Set your mouse preferences"
-#~ msgstr "Mamaritra ny safidy manokan'ny totozinao"
-
-#~ msgid "Network Proxy"
-#~ msgstr "Proxy'ny rezo"
-
-#~ msgid "Set your network proxy preferences"
-#~ msgstr "Mamaritra ny safidy manokan'ny proxy'ny rezonao"
-
-#~ msgid "      "
-#~ msgstr "      "
-
-#~ msgid "<b>Di_rect internet connection</b>"
-#~ msgstr "<b>Fifandraisana Internet _mivantana</b>"
-
-#~ msgid "<b>Ignore Host List</b>"
-#~ msgstr "<b>Lisitry ny mpampiantrano tsy raharahaina</b>"
-
-#~ msgid "<b>_Automatic proxy configuration</b>"
-#~ msgstr "<b>Fikirakirana proxy mandeha _hoazy</b>"
-
-#~ msgid "<b>_Manual proxy configuration</b>"
-#~ msgstr "<b>Fikirakirana proxy ataon-tànana</b>"
-
-#~ msgid "<b>_Use authentication</b>"
-#~ msgstr "<b>Mampi_asà fanamarinana</b>"
-
-#~ msgid "Advanced Configuration"
-#~ msgstr "Fikirakirana avo lenta"
-
-#~ msgid "Autoconfiguration _URL:"
-#~ msgstr "_URL'ny fikirakirana mandeha hoazy:"
-
-#~ msgid "HTTP Proxy Details"
-#~ msgstr "Antsipirian'ny proxy HTTP"
-
-#~ msgid "H_TTP proxy:"
-#~ msgstr "Proxy H_TTP:"
-
-#~ msgid "Network Proxy Preferences"
-#~ msgstr "Safidy manokan'ny proxy'ny rezo"
-
-#~ msgid "Port:"
-#~ msgstr "Irika:"
-
-#~ msgid "Proxy Configuration"
-#~ msgstr "Kirakiran'ny proxy"
-
-#~ msgid "S_ocks host:"
-#~ msgstr "Mpampiantrano S_ocks:"
-
-#~ msgid "U_sername:"
-#~ msgstr "Anaran'ny _mpampiasa:"
-
-#~ msgid "_Details"
-#~ msgstr "_Antsipiriany"
-
-#~ msgid "_FTP proxy:"
-#~ msgstr "Proxy _FTP:"
-
-#~ msgid "_Password:"
-#~ msgstr "_Teny fanalahidy:"
-
-#~ msgid "_Secure HTTP proxy:"
-#~ msgstr "Proxy HTTP azo _antoka:"
-
-#~ msgid "Enable sound and associate sounds with events"
-#~ msgstr "Alefaso ireo feo ary ampifandraiso amin'ny zava-mitranga"
-
-#~ msgid "Not connected"
-#~ msgstr "Tsy mifandray"
-
-#~ msgid "Sound Preferences"
-#~ msgstr "Safidy manokan'ny feo"
-
-#~ msgid "<b>Audio Conferencing</b>"
-#~ msgstr "<b>Audio Conferencing</b>"
-
-#~ msgid "<b>Music and Movies</b>"
-#~ msgstr "<b>Hira sy horonantsary</b>"
-
-#~ msgid "<b>Sound Events</b>"
-#~ msgstr "<b>Zava-mitranga araham-peo</b>"
-
-#~ msgid "<span weight=\"bold\" size=\"x-large\">Testing...</span>"
-#~ msgstr "<span weight=\"bold\" size=\"x-large\">Mitsapa...</span>"
-
-#~ msgid "Click Ok to finish."
-#~ msgstr "Tsindrio ny Ok rehefa vita."
-
-#~ msgid "Devices"
-#~ msgstr "Periferika"
-
-#~ msgid "E_nable software sound mixing (ESD)"
-#~ msgstr "_Alefaso ny fampifangaroana feon'ilay rindran'asa (ESD)"
-
-#~ msgid "Flash _entire screen"
-#~ msgstr "Flasheo ny efijery _manontolo"
-
-#~ msgid "Flash _window titlebar"
-#~ msgstr "Flasheo ny anjan'ny lohaten'ny _fikandrana"
-
-#~ msgid "Sound & Video Preferences"
-#~ msgstr "Safidy manokan'ny feo sy ny horonantsary"
-
-#~ msgid "Sounds"
-#~ msgstr "Feo"
-
-#~ msgid "System Beep"
-#~ msgstr "Feon'ny rafitra"
-
-#~ msgid "Test"
-#~ msgstr "Fitsapana"
-
-#~ msgid "Testing Pipeline"
-#~ msgstr "Mitsapa ny fantsona"
-
-#~ msgid "_Enable system beep"
-#~ msgstr "_Alefaso ny feon'ny rafitra"
-
-#~ msgid "_Play system sounds"
-#~ msgstr "_Vakio ireo feon'ny rafitra"
-
-#~ msgid "_Visual system beep"
-#~ msgstr "_Feon'ny rafitry ny hita maso"
-
-#~ msgid "Would you like to remove this theme?"
-#~ msgstr "Tianao esorina ve ity endrika ity?"
-
-#~ msgid "Theme deleted succesfully. Please select another theme."
-#~ msgstr "Voafafa soa aman-tsara ilay endrika. Misafidiana endrika iray hafa."
-
-#~ msgid "Theme can not be deleted"
-#~ msgstr "Tsy mety fafàna ilay endrika"
-
-#~ msgid ""
-#~ "No themes could be found on your system.  This probably means that your "
-#~ "\"Theme Preferences\" dialog was improperly installed, or you haven't "
-#~ "installed the \"gnome-themes\" package."
-#~ msgstr ""
-#~ "Tsy ahitana endrika anatin'ny rafitrao. Mety mikika izany hoe tsy "
-#~ "voapetraka araka ny tokony ho izy ny \"Theme Preferences\" na tsy "
-#~ "napetrakao ny fehin-drindran'asa \"gnome-themes\"."
-
-#~ msgid "This theme is not in a supported format."
-#~ msgstr "Tsy raisina an-tànana ny lamin'ity endrika ity."
-
-#~ msgid "Failed to create temporary directory"
-#~ msgstr "Tsy nahaforona ny laha-tahiry vonjimaika"
-
-#~ msgid ""
-#~ "Can not install theme. \n"
-#~ "The bzip2 utility is not installed."
-#~ msgstr ""
-#~ "Tsy afaka mametraka ilay endrika. \n"
-#~ "Tsy voapetraka ny rindran'asa bzip2."
-
-#~ msgid "Installation Failed"
-#~ msgstr "Nandamoka ny fametrahana"
-
-#~ msgid ""
-#~ "Can not install themes. \n"
-#~ "The gzip utility is not installed."
-#~ msgstr ""
-#~ "Tsy afaka mametraka ireo endrika. \n"
-#~ "Tsy voapetraka ny rindran'asa gzip."
-
-#~ msgid ""
-#~ "Icon Theme %s correctly installed.\n"
-#~ "You can select it in the theme details."
-#~ msgstr ""
-#~ "Voapetraka tsara araka ny tokony ho izy ny endriky ny kisary %s. \n"
-#~ "Azonao safidiana ao anatin'ny antsipirian'ny endrika izy io."
-
-#~ msgid "Gnome Theme %s correctly installed"
-#~ msgstr "Voapetraka araka ny tokony ho izy ny Endriky ny Gnome %s"
-
-#~ msgid ""
-#~ "Windows Border Theme %s correctly installed.\n"
-#~ "You can select it in the theme details."
-#~ msgstr ""
-#~ "Voapetra araka ny tokony ho izy ny sisim-pikandrana %s.\n"
-#~ "Azonao safidiana ao amin'ny antsipirian'ny endrika izy io."
-
-#~ msgid ""
-#~ "Controls Theme %s correctly installed.\n"
-#~ "You can select it in the theme details."
-#~ msgstr ""
-#~ "Voapetraka araka ny tokony ho izy ny endriky ny fibaikoana %s.\n"
-#~ "Azonao safidiana ao amin'ny antsipirian'ny endrika izy io."
-
-#~ msgid "The theme is an engine. You need to compile the theme."
-#~ msgstr "Milina ilay endrika. Mila compile-nao io rakitra io."
-
-#~ msgid "The file format is invalid"
-#~ msgstr "Tsy ekena ny lamin'io rakitra io"
-
-#~ msgid "No theme file location specified to install"
-#~ msgstr "Tsy misy toeran'endrika nolazaina ny fametrahana"
-
-#~ msgid "The theme file location specified to install is invalid"
-#~ msgstr "Tsy ekena ilay toeran'endrika nolazaina ny fametrahana"
-
-#~ msgid ""
-#~ "Insufficient permissions to install the theme in:\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Tsy ampy ny fahazoan-dàlana ahafahana mametraka ilay endrika anatin'ny:\n"
-#~ "%s"
-
-#~ msgid "The file format is invalid."
-#~ msgstr "Tsy ekena ny lamin'io endrika io."
-
-#~ msgid ""
-#~ "%s is the path where the theme files will be installed. This can not be "
-#~ "selected as the source location"
-#~ msgstr ""
-#~ "%s no sori-dàlana ametrahana ireo rakitry ny endrika. Tsy mety faritana "
-#~ "ho toerana iaviana izy io"
-
-#~ msgid ""
-#~ "Cannot install theme.\n"
-#~ "The tar program is not installed on your system."
-#~ msgstr ""
-#~ "Tsy afaka mametraka ilay endrika.\n"
-#~ "Tsy voapetraka ao amin'ny solosainao ny rindran'asa tar."
-
-#~ msgid "Custom theme"
-#~ msgstr "Endrika safidy"
-
-#~ msgid "You can save this theme by pressing the Save Theme button."
-#~ msgstr "Azonao raiketina amin'ny alalan'ny tsindry Raiketo ity endrika ity."
-
-#~ msgid ""
-#~ "The default theme schemas could not be found on your system.  This means "
-#~ "that you probably don't have metacity installed, or that your gconf is "
-#~ "configured incorrectly."
-#~ msgstr ""
-#~ "Tsy hita ao amin'ny rafitrao ny drafitry ny endrika tsotra. Midika izany "
-#~ "fa tsy voapetraka ny metacity na tsy voakirakira araka ny tokony ho izy "
-#~ "ny gconf."
-
-#~ msgid "Theme name must be present"
-#~ msgstr "Tsy maintsy asiana anaran'endrika"
-
-#~ msgid "The theme already exists. Would you like to replace it?"
-#~ msgstr "Efa misy io endrika io. Tianao tsindriana ve izy io?"
-
-#~ msgid "Select themes for various parts of the desktop"
-#~ msgstr "Misafidy endrika ampiasaina amin'ny faritra maro amin'ny sehatr'asa"
-
-#~ msgid "Theme"
-#~ msgstr "Endrika"
-
-#~ msgid "Apply _Font"
-#~ msgstr "Ampiharo ilay _endri-tsoratra"
-
-#~ msgid "Controls"
-#~ msgstr "Fibaikoana"
-
-#~ msgid "Icons"
-#~ msgstr "Kisary"
-
-#~ msgid "Save Theme"
-#~ msgstr "Raiketo ilay endrika"
-
-#~ msgid "Select theme for the desktop"
-#~ msgstr "Misafidiana endrika ho an'ny sehatr'asa"
-
-#~ msgid "Theme Details"
-#~ msgstr "Antsipirian'ny endrika"
-
-#~ msgid "Theme Preferences"
-#~ msgstr "Safidy manokan'ny endrika"
-
-#~ msgid "Theme _Details"
-#~ msgstr "_Antsipirian'ny endrika"
-
-#~ msgid "This theme does not suggest any particular font or background."
-#~ msgstr "Tsy milaza endri-tsoratra na afara manokana ity endrika ity."
-
-#~ msgid "This theme suggests a background:"
-#~ msgstr "Milaza afara iray ity endrika ity:"
-
-#~ msgid "This theme suggests a font and a background:"
-#~ msgstr "Milaza endri-tsoratra sy afara ity endrika ity:"
-
-#~ msgid "This theme suggests a font:"
-#~ msgstr "Milaza endri-tsoratra ity endrika ity:"
-
-#~ msgid "Window Border"
-#~ msgstr "Sisim-pikandrana"
-
-#~ msgid "_Description:"
-#~ msgstr "_Fanoritsoritana:"
-
-#~ msgid "_Install Theme..."
-#~ msgstr "_Hametraka endrika..."
-
-#~ msgid "_Install..."
-#~ msgstr "_Apetrao..."
-
-#~ msgid "_Name:"
-#~ msgstr "_Anarana:"
-
-#~ msgid "_Revert"
-#~ msgstr "_Avereno"
-
-#~ msgid "_Save Theme..."
-#~ msgstr "_Raiketo ilay endrika..."
-
-#~ msgid "theme selection tree"
-#~ msgstr "Hazon'ny fisafidianana endrika"
-
-#~ msgid "Customize the appearance of toolbars and menubars in applications"
-#~ msgstr ""
-#~ "Mamaritra ny endriky ny anjan'ny fitaovana sy tolotra amin'ny rindran'asa"
-
-#~ msgid "Menus & Toolbars"
-#~ msgstr "Anjan'ny tolotra & fitaovana"
-
-#~ msgid "<b>Behavior and Appearance</b>"
-#~ msgstr "<b>Fiasa sy endrika</b>"
-
-#~ msgid "<b>Preview</b>"
-#~ msgstr "<b>Topy maso</b>"
-
-#~ msgid "C_ut"
-#~ msgstr "_Esory"
-
-#~ msgid "Icons only"
-#~ msgstr "Kisary fotsiny"
-
-#~ msgid "Menu and Toolbar Preferences"
-#~ msgstr "Safidy manokan'ny anjan'ny tolotra sy fitaovana"
-
-#~ msgid "New File"
-#~ msgstr "Rakitra vaovao"
-
-#~ msgid "Open File"
-#~ msgstr "Hanokatra rakitra"
-
-#~ msgid "Save File"
-#~ msgstr "Raiketo ilay rakitra"
-
-#~ msgid "Show _icons in menus"
-#~ msgstr "Asahoy anatin'ny tolotra ny _kisary"
-
-#~ msgid "Text below icons"
-#~ msgstr "Ny soratra ambanin'ny kisary"
-
-#~ msgid "Text beside icons"
-#~ msgstr "Ny soratra akaikin'ny kisary"
-
-#~ msgid "Text only"
-#~ msgstr "Soratra fotsiny"
-
-#~ msgid "Toolbar _button labels:"
-#~ msgstr "Mari-tsoratra amin'ny _tsindrin'ny anjan'ny fitaovana:"
-
-#~ msgid "_Copy"
-#~ msgstr "_Adikao"
-
-#~ msgid "_Detachable toolbars"
-#~ msgstr "_Anjan'ny fitaovana azo alàna"
-
-#~ msgid "_Edit"
-#~ msgstr "_Ovay"
-
-#~ msgid "_Editable menu accelerators"
-#~ msgstr "Mpanafaingan'ny tolotra _azo ovaina"
-
-#~ msgid "_File"
-#~ msgstr "_Rakitra"
-
-#~ msgid "_New"
-#~ msgstr "_Vaovao"
-
-#~ msgid "_Open"
-#~ msgstr "_Sokafy"
-
-#~ msgid "_Paste"
-#~ msgstr "_Apetao"
-
-#~ msgid "_Print"
-#~ msgstr "_Atontay"
-
-#~ msgid "_Quit"
-#~ msgstr "_Ajanony"
-
-#~ msgid "_Save"
-#~ msgstr "_Raiketo"
-
-#~ msgid ""
-#~ "<b>Cannot start the preferences application for your window manager</b>\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "<b>Tsy mahalefa ny rindran'asan'ny safidy manokan'ny mpandrindra "
-#~ "fikandrana</b>\n"
-#~ "\n"
-#~ "%s"
-
-#~ msgid "C_ontrol"
-#~ msgstr "Fi_baikoana"
-
-#~ msgid "_Alt"
-#~ msgstr "_Alt"
-
-#~ msgid "H_yper"
-#~ msgstr "H_yper"
-
-#~ msgid "S_uper (or \"Windows logo\")"
-#~ msgstr "S_uper (na \"Windows logo\")"
-
-#~ msgid "_Meta"
-#~ msgstr "_Meta"
-
-#~ msgid "<b>Movement Key</b>"
-#~ msgstr "<b>Kitendrin'ny fihetsika</b>"
-
-#~ msgid "<b>Titlebar Action</b>"
-#~ msgstr "<b>Asan'ny anjan'ny lohateny</b>"
-
-#~ msgid "<b>Window Selection</b>"
-#~ msgstr "<b>Fisafidianana fikandrana</b>"
-
-#~ msgid "To move a window, press-and-hold this key then grab the window:"
-#~ msgstr ""
-#~ "Raha hamindra fikandrana, dia tsindrio ka tano eo ity kitendry ity ary "
-#~ "raiso ilay fikandrana rehefa avy eo:"
-
-#~ msgid "Window Preferences"
-#~ msgstr "Safidy manokan'ny fikandrana"
-
-#~ msgid "_Double-click titlebar to perform this action:"
-#~ msgstr ""
-#~ "_Tsindrio in-2 eo amin'ny anjan'ny lohateny raha hanatanteraka ity asa "
-#~ "manaraka ity:"
-
-#~ msgid "_Interval before raising:"
-#~ msgstr "_Elanelam-potoana alohan'ny fampakarana:"
-
-#~ msgid "_Raise selected windows after an interval"
-#~ msgstr "_Ampiakaro ireo fikandrana voafaritra ao anatin'ny fe-potoana iray"
-
-#~ msgid "_Select windows when the mouse moves over them"
-#~ msgstr "_Safidio ireo fikandrana rehefa mankeo amboniny ny totozy"
-
-#~ msgid "Set your window properties"
-#~ msgstr "Mamaritra ny toetoetry ny fikandranao"
-
-#~ msgid "Windows"
-#~ msgstr "Windows"
-
-#~ msgid "Others"
-#~ msgstr "Hafa"
-
-#~ msgid "Desktop Preferences"
-#~ msgstr "Safidy manokan'ny sehatr'asa"
-
-#~ msgid "GNOME Control Center"
-#~ msgstr "Ivotoerana fifehezan'ny GNOME"
-
-#~ msgid "The GNOME configuration tool"
-#~ msgstr "Ny fitaovana fikirakiran'ny GNOME"
-
-#~ msgid "Could not initialize Bonobo"
-#~ msgstr "Tsy nahalefa ny Bonobo"
-
-#~ msgid ""
-#~ "Error activating XKB configuration.\n"
-#~ "It can happen under various circumstances:\n"
-#~ "- a bug in libxklavier library\n"
-#~ "- a bug in X server (xkbcomp, xmodmap utilities)\n"
-#~ "- X server with incompatible libxkbfile implementation\n"
-#~ "\n"
-#~ "X server version data:\n"
-#~ "%s\n"
-#~ "%d\n"
-#~ "%s\n"
-#~ "If you report this situation as a bug, please include:\n"
-#~ "- The result of <b>%s</b>\n"
-#~ "- The result of <b>%s</b>"
-#~ msgstr ""
-#~ "Nisy olana teo am-pandefasana ny kirakira XKB.\n"
-#~ "Maro ireo zavatra mety mahatonga izany:\n"
-#~ "- misy bug anatin'ny tahirin-boky libxklavier\n"
-#~ "- misy bug anatin'ny mpizara X  (ny rindran'asa xkbcomp, xmodmap)\n"
-#~ "- tsy mifanaraka amin'ny mpizara X fametrahana ny libxkbfile\n"
-#~ "\n"
-#~ "Datan'ny kinovan'ny mpizara X:\n"
-#~ "%s\n"
-#~ "%d\n"
-#~ "%s\n"
-#~ "Raha toa mitatitra ity zava-miseho ity ho toy ny bug ianao, dia lazao "
-#~ "ao:\n"
-#~ "- Ny valin'ny <b>%s</b>\n"
-#~ "- Ny valin'ny <b>%s</b>"
-
-#~ msgid ""
-#~ "You are using XFree 4.3.0.\n"
-#~ "There are known problems with complex XKB configurations.\n"
-#~ "Try using a simpler configuration or taking a fresher version of XFree "
-#~ "software."
-#~ msgstr ""
-#~ "Mampiasa XFree 4.3.0 ianao.\n"
-#~ "Ahitana olana maro ny kirakira XKB maro sosona.\n"
-#~ "Manandrama mampiasa kirakira tsotra kokoa na mametraka kinovan'ny "
-#~ "rindran'asa XFree vaovao."
-
-#~ msgid "Do _not show this warning again"
-#~ msgstr "_Aza aseho intsony ity fampilazana ity"
-
-#~ msgid ""
-#~ "<b>The X system keyboard settings differ from your current GNOME keyboard "
-#~ "settings.</b>\n"
-#~ "\n"
-#~ "Expected was %s, but the the following settings were found: %s.\n"
-#~ "\n"
-#~ "Which set would you like to use?"
-#~ msgstr ""
-#~ "<b>Tsy mitovy amin'ny fandrindran'ny fafan-tenin'ny GNOME ny "
-#~ "fandrindran'ny fafan-tenin'ny rafitra X.</b>\n"
-#~ "\n"
-#~ "%s no nampoizina, nefa ity fandrindrana manaraka ity no hita:%s.\n"
-#~ "\n"
-#~ "Iza amin'ireo no tianao ampiasaina?"
-
-#~ msgid "Keep GNOME settings"
-#~ msgstr "Ny fandrindran'ny GNOME no ampiasao"
-
-#~ msgid ""
-#~ "Couldn't load the Glade file.\n"
-#~ "Make sure that this daemon is properly installed."
-#~ msgstr ""
-#~ "Tsy afaka naka ny rakitra Glade.\n"
-#~ "Amarino hoe voapetraka araka ny tokony ho izy io daemon io."
-
-#~ msgid "Error creating signal pipe."
-#~ msgstr "Nisy olana teo am-pamoronana fantson'ny fambara."
-
-#~ msgid "Type"
-#~ msgstr "Karazana"
-
-#~ msgid ""
-#~ "Type of bg_applier: BG_APPLIER_ROOT for root window or BG_APPLIER_PREVIEW "
-#~ "for preview"
-#~ msgstr ""
-#~ "Karazan'ny bg_applier: BG_APPLIER_ROOT ho an'ny fikandran'ny faka na "
-#~ "BG_APPLIER_PREVIEW ho an'ny topy maso"
-
-#~ msgid "Preview Width"
-#~ msgstr "Topy maso ny sakany"
-
-#~ msgid "Width if applier is a preview: Defaults to 64."
-#~ msgstr ""
-#~ "Ny sakany raha toa ka topy maso ilay mpampihatra: 64 (sanda tsotra)."
-
-#~ msgid "Preview Height"
-#~ msgstr "Topy maso ny haavony"
-
-#~ msgid "Height if applier is a preview: Defaults to 48."
-#~ msgstr ""
-#~ "Ny haavony raha toa ka topy maso ilay mpampihatra: 48 (sanda tsotra)."
-
-#~ msgid "Screen"
-#~ msgstr "Efijery"
-
-#~ msgid "Screen on which BGApplier is to draw"
-#~ msgstr "Ny efijery hivelaran'ny BGApplier"
-
-#~ msgid "There was an error loading an image: %s"
-#~ msgstr "Nisy olana teo am-pakana ny sary iray: %s"
-
-#~ msgid "layout \"%s\""
-#~ msgid_plural "layouts \"%s\""
-#~ msgstr[0] "Fandaminana \"%s\""
-#~ msgstr[1] "Fandaminana \"%s\""
-
-#~ msgid "option \"%s\""
-#~ msgid_plural "options \"%s\""
-#~ msgstr[0] "Safidy \"%s\""
-#~ msgstr[1] "Safidy \"%s\""
-
-#~ msgid "model \"%s\", %s and %s"
-#~ msgstr "modely \"%s\", %s ary %s"
-
-#~ msgid "no layout"
-#~ msgstr "tsy misy fandaminana"
-
-#~ msgid "no options"
-#~ msgstr "tsy misy safidy"
-
-#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
-#~ msgstr ""
-#~ "Tsy nanambara fitaovana fikirakirana ny mpandrindra fikandrana \"%s\" \n"
-
-#~ msgid "Maximize"
-#~ msgstr "Alehibiazo"
-
-#~ msgid "Roll up"
-#~ msgstr "Aforeto miakatra"
-
-#~ msgid "E-mail"
-#~ msgstr "Mailaka"
-
-#~ msgid "E-mail's shortcut."
-#~ msgstr "Hitsin-dàlan'ny mailaka."
-
-#~ msgid "Eject's shortcut."
-#~ msgstr "Hitsin-dàlan'ny Tsoahy."
-
-#~ msgid "Home folder's shortcut."
-#~ msgstr "Hitsin-dàlan'ny laha-tahirin'ny fandraisana."
-
-#~ msgid "Launch help browser's shortcut."
-#~ msgstr "Hitsin-dàlan'ny Alefaso ny mpizaha toro-làlana."
-
-#~ msgid "Launch web browser's shortcut."
-#~ msgstr "Hitsin-dàlan'ny Alefaso ny mpitety tranonkala."
-
-#~ msgid "Lock screen's shortcut."
-#~ msgstr "Hitsin-dàlan'ny Gejao ny efijery."
-
-#~ msgid "Log out's shortcut."
-#~ msgstr "Hitsin-dàlan'ny Hivoaka."
-
-#~ msgid "Next track key's shortcut."
-#~ msgstr "Hitsin-dàlan'ny tsindry Manaraka."
-
-#~ msgid "Pause"
-#~ msgstr "Miato"
-
-#~ msgid "Pause key's shortcut."
-#~ msgstr "Hitsin-dàlan'ny tsindry Miato."
-
-#~ msgid "Play (or play/pause) key's shortcut."
-#~ msgstr "Hitsin-dàlan'ny tsindry Mamaky (na mamaky/miato)."
-
-#~ msgid "Previous track key's shortcut."
-#~ msgstr "Hitsin-dàlan'ny tsindry Aloha."
-
-#~ msgid "Search's shortcut."
-#~ msgstr "Hitsin-dàlan'ny Karohy."
-
-#~ msgid "Sleep"
-#~ msgstr "Fiatoana"
-
-#~ msgid "Sleep's shortcut."
-#~ msgstr "Hitsin-dàlan'ny Fiatoana."
-
-#~ msgid "Stop playback key's shortcut."
-#~ msgstr "Hitsin-dàlan'ny Ajanony."
-
-#~ msgid "Volume down's shortcut."
-#~ msgstr "Hitsin-dàlan'ny fanamorana feo."
-
-#~ msgid "Volume mute's shortcut"
-#~ msgstr "Hitsin-dàlan'ny Fanalefahana feo"
-
-#~ msgid "Volume up's shortcut."
-#~ msgstr "Hitsin-dàlan'ny Fanamafisana feo."
-
-#~ msgid ""
-#~ "A collection of scripts to run whenever the keyboard state is reloaded. "
-#~ "Useful for re-applying xmodmap based adjustments"
-#~ msgstr ""
-#~ "Fitambaran-teny baiko alefa isaky ny averina alaina ny toetry ny fafan-"
-#~ "teny. Ilaina ho an'ny fampiharana indray ireo fanitsiana mifototra "
-#~ "amin'ny xmodmap izy ireo"
-
-#~ msgid "A list of modmap files available in the $HOME directory."
-#~ msgstr "Lisitr'ireo rakitra modmap hita ao anatin'ny laha-tahiry $HOME."
-
-#~ msgid "Default group, assigned on window creation"
-#~ msgstr "Vondrona tsotra voafaritra mandritra ny famoronana fikandrana"
-
-#~ msgid "Keep and manage separate group per window"
-#~ msgstr "Tano ary arindrao isaka ny fikandrana iray ny vondrona iray"
-
-#~ msgid "Keyboard Update Handlers"
-#~ msgstr "Mpandray an-tànana ny fanavaozana ny fafan-teny"
-
-#~ msgid "Keyboard layout"
-#~ msgstr "Fandaminana ny fafan-teny"
-
-#~ msgid "Keyboard model"
-#~ msgstr "Modelim-pafan-teny"
-
-#~ msgid ""
-#~ "Keyboard settings in gconf will be overridden from the system ASAP "
-#~ "(deprecated)"
-#~ msgstr ""
-#~ "Ho fehezina avy amin'ny ASAP'ny rafitra ireo fandrindran'ny fafan-teny ao "
-#~ "amin'ny gconf (tsy ampiasaina intsony)"
-
-#~ msgid "Save/restore indicators together with layout groups"
-#~ msgstr "Raiketo/avereno miaraka amin'ny vondron'ny fandaminana ireo mpilaza"
-
-#~ msgid "Show layout names instead of group names"
-#~ msgstr "Ireo anaran'ny fandaminana no asehoy fa tsy ireo anaran'ny vondrona"
-
-#~ msgid ""
-#~ "Show layout names instead of group names (only for versions of XFree "
-#~ "supporting multiple layouts)"
-#~ msgstr ""
-#~ "Ireo anaran'ny fandaminana no asehoy fa tsy ireo anaran'ny vondrona (ho "
-#~ "an'ny kinovan'ny XFree izay mandray an-tànana fandaminana maro ihany)"
-
-#~ msgid "Suppress the \"X sysconfig changed\" warning message"
-#~ msgstr "Fafao ny fampilazana \"X sysconfig changed\""
-
-#~ msgid "The Keyboard Preview, X offset"
-#~ msgstr "Topy mason'ny fafan-teny, offset X"
-
-#~ msgid "The Keyboard Preview, Y offset"
-#~ msgstr "Topy mason'ny fafan-teny, offset Y"
-
-#~ msgid "The Keyboard Preview, height"
-#~ msgstr "Topy mason'ny fafan-teny, haavo"
-
-#~ msgid "The Keyboard Preview, width"
-#~ msgstr "Topy mason'ny fafan-teny, saka"
-
-#~ msgid ""
-#~ "Very soon, keyboard settings in gconf will be overridden (from the system "
-#~ "configuration) This key has been deprecated since GNOME 2.12, please "
-#~ "unset the model, layouts and options keys to get the default system "
-#~ "configuration."
-#~ msgstr ""
-#~ "Afaka fotoana fohy dia ho fehezina avy amin'ny kirakiran'ny rafitra ireo "
-#~ "fandrindrana ny fafan-teny ao amin'ny gconf. Efa hatramin'ny GNOME 2.12 "
-#~ "no tsy nampiasaina izany famaha izany, ka foano ireo famahan'ny modely, "
-#~ "fandaminana ary safidy mba ahazoana ny kirakiran-drafitra tsotra."
-
-#~ msgid "keyboard layout"
-#~ msgstr "fandaminana ny fafan-teny"
-
-#~ msgid "keyboard model"
-#~ msgstr "Modelim-pafan-teny"
-
-#~ msgid "modmap file list"
-#~ msgstr "lisitry ny rakitra modmap"
-
-#, fuzzy
-#~ msgid "_Postpone break"
-#~ msgstr "_Ahemory ny fiatoana"
-
-#~ msgid "Take a break!"
-#~ msgstr "Hiato kely!"
-
-#~ msgid "/_Preferences"
-#~ msgstr "/_Safidy manokana"
-
-#~ msgid "/_About"
-#~ msgstr "/_Mombamomba"
-
-#~ msgid "/_Take a Break"
-#~ msgstr "/_Hiato kely"
-
-#~ msgid "%d minute until the next break"
-#~ msgid_plural "%d minutes until the next break"
-#~ msgstr[0] "%d minitra mandra-pahatongan'ny fiatoana manaraka"
-#~ msgstr[1] "%d minitra mandra-pahatongan'ny fiatoana manaraka"
-
-#~ msgid "Less than one minute until the next break"
-#~ msgstr "Latsaka ny iray minitra mandra-pahatongan'ny fiatoana manaraka"
-
-#~ msgid ""
-#~ "Unable to bring up the typing break properties dialog with the following "
-#~ "error: %s"
-#~ msgstr ""
-#~ "Tsy afaka mampiseho ny takilan'ny toetoetry ny fiatona amin'ny fanoratana "
-#~ "miaraka amin'ny ity tsy fetezana manaraka ity: %s"
-
-#, fuzzy
-#~ msgid "About GNOME Typing Monitor"
-#~ msgstr "Mombamomba ny Mpandrindra Fanoratana an'ny GNOME"
-
-#~ msgid "A computer break reminder."
-#~ msgstr "Feo filazana fiatoana amin'ny solosaina."
-
-#~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
-#~ msgstr "Nosoratan'i Richard Hult &lt;richard@imendio.com&gt;"
-
-#~ msgid "Eye candy added by Anders Carlsson"
-#~ msgstr "Eye Candy nampidirin'i Anders Carlsson"
-
-#~ msgid "Break reminder"
-#~ msgstr "Mpampatsiahy fiatoana"
-
-#~ msgid "Orientation"
-#~ msgstr "Fitodika"
-
-#~ msgid "The orientation of the tray."
-#~ msgstr "Ny fitodiky ny tray."
-
-#~ msgid ""
-#~ "The typing monitor uses the notification area to display information. You "
-#~ "don't seem to have a notification area on your panel. You can add it by "
-#~ "right-clicking on your panel and choosing 'Add to panel', selecting "
-#~ "'Notification area' and clicking 'Add'."
-#~ msgstr ""
-#~ "Ny mpandrindra fanoratana dia mampiasa ny faritra filazana hanaovana "
-#~ "fampahalalana. Toa tsy misy faritra filazana eo amin'ny tontonanao. Raha "
-#~ "hametraka izany eo ianao, dia tondroy ny tontonana, tsindrio ny kitendry "
-#~ "havanan'ny totozy, tsindrio ny 'Atao eo amin'ny tontonana', safidio ny "
-#~ "'Faritra filazana' ary tsindrio ny 'Apetrao'."
-
-#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
-#~ msgstr ""
-#~ "Mitsambikina eo amibonin'ny ilay alika kamo ilay fosa miloko manja. "
-#~ "0123456789"
-
-#~ msgid "Name:"
-#~ msgstr "Anarana:"
-
-#~ msgid "Style:"
-#~ msgstr "Endrika:"
-
-#~ msgid "Type:"
-#~ msgstr "Karazana:"
-
-#~ msgid "Size:"
-#~ msgstr "Habe:"
-
-#~ msgid "Version:"
-#~ msgstr "Kinova:"
-
-#~ msgid "Copyright:"
-#~ msgstr "Fameran-jo:"
-
-#~ msgid "Description:"
-#~ msgstr "Fanoritsoritana:"
-
-#~ msgid "usage: %s fontfile\n"
-#~ msgstr "fampiasa: rakitr'endri-tsoratra %s\n"
-
-#~ msgid "Set as Application Font"
-#~ msgstr "Farito ho endri-tsoratry ny rindran'asa"
-
-#~ msgid "Sets the default application font"
-#~ msgstr "Mamaritra ny endri-tsoratry ny rindran'asa tsotra"
-
-#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
-#~ msgstr ""
-#~ "Raha voalaza ho marina, dia haseho anaty sary madinika ireo endri-"
-#~ "tsoratra OpenType."
-
-#~ msgid "If set to true, then PCF fonts will be thumbnailed."
-#~ msgstr ""
-#~ "Raha voalaza fa marina, dia haseho anaty sary madinika ireo endri-"
-#~ "tsoratra PCF."
-
-#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
-#~ msgstr ""
-#~ "Raha voalaza fa marina, dia haseho anaty sary madinika ireo endri-"
-#~ "tsoratra TrueType."
-
-#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
-#~ msgstr ""
-#~ "Raha voalaza fa marina, dia haseho anaty sary madinika ireo endri-"
-#~ "tsoratra Type1."
-
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for OpenType fonts."
-#~ msgstr ""
-#~ "Ampifanarao amin'ny baiko amoronana sary madinika ho an'ny endri-tsoratra "
-#~ "OpenType ity famaha ity."
-
-#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
-#~ msgstr ""
-#~ "Ampifanaraho amin'ny baiko amoronana sary madinika ho an'ny endri-"
-#~ "tsoratra PCF ity famaha ity."
-
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for TrueType fonts."
-#~ msgstr ""
-#~ "Ampifanaraho amin'ny baiko amoronana sary madinika ho an'ny endri-"
-#~ "tsoratra TrueType ity famaha ity."
-
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for Type1 fonts."
-#~ msgstr ""
-#~ "Ampifanaraho amin'ny baiko amoronana sary madinika ho an'ny endri-"
-#~ "tsoratra Type1 ity famaha ity."
-
-#~ msgid "Thumbnail command for OpenType fonts"
-#~ msgstr "Baiko famoronana sary madinika ho an'ny endri-tsoratra openType"
-
-#~ msgid "Thumbnail command for PCF fonts"
-#~ msgstr "Baiko famoronana sary madinika ho an'ny endri-tsoratra PCF"
-
-#~ msgid "Thumbnail command for TrueType fonts"
-#~ msgstr "Baiko famoronana sary madinika ho an'ny endri-tsoratra TrueType"
-
-#~ msgid "Thumbnail command for Type1 fonts"
-#~ msgstr "Baiko famoronana sary madinika ho an'ny endri-tsoratra Type1"
-
-#~ msgid "Whether to thumbnail OpenType fonts"
-#~ msgstr "(Tsy) maneho ny endri-tsoratra OpenType anaty sary madinika"
-
-#~ msgid "Whether to thumbnail PCF fonts"
-#~ msgstr "(Tsy) maneho ny endri-tsoratra PCF anaty sary madinika"
-
-#~ msgid "Whether to thumbnail TrueType fonts"
-#~ msgstr "(Tsy) maneho ny endri-tsoratra TrueType anaty sary madinika"
-
-#~ msgid "Whether to thumbnail Type1 fonts"
-#~ msgstr "(Tsy) maneho ny endri-tsoratra Type1 anaty sary madinika"
-
-#~ msgid "GNOME Font Viewer"
-#~ msgstr "Mpijery endri-tsoratra an'ny GNOME"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Ampiharina ilay endri-tsoratra "
-#~ "vaovao?</span>"
-
-#~ msgid "Do _not apply font"
-#~ msgstr "_Aza ampiharina"
-
-#~ msgid ""
-#~ "The theme you have selected suggests a new font. A preview of the font is "
-#~ "shown below."
-#~ msgstr ""
-#~ "Tahaka ny endri-tsoratra vaovao ilay endrika nosafidianao. Miseho etsy "
-#~ "ambany ny sariny."
-
-#~ msgid "_Apply font"
-#~ msgstr "_Ampiharo"
-
-#~ msgid "Themes"
-#~ msgstr "Endrika"
-
-#~ msgid "Description"
-#~ msgstr "Fanoritsoritana"
-
-#~ msgid "Control theme"
-#~ msgstr "Endriky ny fibaikoana"
-
-#~ msgid "Window border theme"
-#~ msgstr "Endriky ny sisin'ny fikandrana"
-
-#~ msgid "Icon theme"
-#~ msgstr "Endriky ny kisary"
-
-#~ msgid "ABCDEFG"
-#~ msgstr "ABCDEFG"
-
-#~ msgid "Apply theme"
-#~ msgstr "Ampiharo ilay endrika"
-
-#~ msgid "Sets the default theme"
-#~ msgstr "Mamaritra ny endrika tsotra"
-
-#~ msgid "If set to true, then installed themes will be thumbnailed."
-#~ msgstr ""
-#~ "Raha voalaza fa marina, dia haseho anaty sary madinika ireo endrika "
-#~ "voapetraka."
-
-#~ msgid "If set to true, then themes will be thumbnailed."
-#~ msgstr ""
-#~ "Raha voalaza ho marina, dia haseho anaty sary madinika ireo endrika."
-
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for installed "
-#~ "themes."
-#~ msgstr ""
-#~ "Ampifanaraho amin'ny baiko amoronana sary madinika ho an'ny endrika "
-#~ "voapetraka ity famaha ity."
-
-#~ msgid "Set this key to the command used to create thumbnails for themes."
-#~ msgstr ""
-#~ "Ampifanaraho amin'ny baiko amoronana sary madinika ho an'ny endrika ity "
-#~ "famaha ity."
-
-#~ msgid "Thumbnail command for installed themes"
-#~ msgstr "Baiko amoronana sary madinika ho an'ny sary voapetraka"
-
-#~ msgid "Thumbnail command for themes"
-#~ msgstr "Baiko amoronana sary madinika ho an'ny endrika"
-
-#~ msgid "Whether to thumbnail installed themes"
-#~ msgstr "(Tsy) maneho ireo endrika voapetraka anaty sary madinika"
-
-#~ msgid "Whether to thumbnail themes"
-#~ msgstr "(Tsy) maneho ireo endrika anaty sary madinika"
+#: plugins/power/gsd-power-manager.c:701
+#, c-format
+msgid ""
+"PDA is very low in power (%.0f%%). This device will soon stop functioning if"
+" not charged."
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:705
+#, c-format
+msgid ""
+"PDA is very low in power. This device will soon stop functioning if not "
+"charged."
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:715
+#, c-format
+msgid ""
+"Cell phone is very low in power (%.0f%%). This device will soon stop "
+"functioning if not charged."
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:719
+#, c-format
+msgid ""
+"Cell phone is very low in power. This device will soon stop functioning if "
+"not charged."
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:729
+#, c-format
+msgid ""
+"Media player is very low in power (%.0f%%). This device will soon stop "
+"functioning if not charged."
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:733
+#, c-format
+msgid ""
+"Media player is very low in power. This device will soon stop functioning if"
+" not charged."
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:743
+#, c-format
+msgid ""
+"Tablet is very low in power (%.0f%%). This device will soon stop functioning"
+" if not charged."
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:747
+#, c-format
+msgid ""
+"Tablet is very low in power. This device will soon stop functioning if not "
+"charged."
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:757
+#, c-format
+msgid ""
+"Attached computer is very low in power (%.0f%%). The device will soon "
+"shutdown if not charged."
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:761
+#, c-format
+msgid ""
+"Attached computer is very low in power. The device will soon shutdown if not"
+" charged."
+msgstr ""
+
+#. TRANSLATORS: computer will hibernate
+#: plugins/power/gsd-power-manager.c:826
+msgid ""
+"The battery is below the critical level and this computer is about to "
+"hibernate."
+msgstr ""
+
+#. TRANSLATORS: computer will just shutdown
+#: plugins/power/gsd-power-manager.c:831
+msgid ""
+"The battery is below the critical level and this computer is about to "
+"shutdown."
+msgstr ""
+
+#. TRANSLATORS: computer will hibernate
+#: plugins/power/gsd-power-manager.c:851
+msgid ""
+"UPS is below the critical level and this computer is about to hibernate."
+msgstr ""
+
+#. TRANSLATORS: computer will just shutdown
+#: plugins/power/gsd-power-manager.c:856
+msgid ""
+"UPS is below the critical level and this computer is about to shutdown."
+msgstr ""
+
+#. TRANSLATORS: this is the sound description
+#: plugins/power/gsd-power-manager.c:1339
+msgid "Lid has been opened"
+msgstr ""
+
+#. TRANSLATORS: this is the sound description
+#: plugins/power/gsd-power-manager.c:1373
+msgid "Lid has been closed"
+msgstr ""
+
+#. TRANSLATORS: this is the sound description
+#: plugins/power/gsd-power-manager.c:1942
+msgid "On battery power"
+msgstr ""
+
+#. TRANSLATORS: this is the sound description
+#: plugins/power/gsd-power-manager.c:1947
+msgid "On AC power"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:2135
+msgid "Automatic logout"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:2135
+msgid "You will soon log out because of inactivity."
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:2140
+msgid "Automatic suspend"
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:2140
+#: plugins/power/gsd-power-manager.c:2145
+msgid "Computer will suspend very soon because of inactivity."
+msgstr ""
+
+#: plugins/power/gsd-power-manager.c:2145
+msgid "Automatic hibernation"
+msgstr ""
+
+#. SECURITY:
+#. - A normal active user on the local machine does not need permission
+#. to change the backlight brightness.
+#: plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in:21
+msgid "Modify the laptop brightness"
+msgstr ""
+
+#: plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in:22
+msgid "Authentication is required to modify the laptop brightness"
+msgstr ""
+
+#. Translators: We are configuring new printer
+#: plugins/print-notifications/gsd-printer.c:890
+msgid "Configuring new printer"
+msgstr ""
+
+#. Translators: Just wait
+#: plugins/print-notifications/gsd-printer.c:892
+msgid "Please wait…"
+msgstr ""
+
+#. Translators: We have no driver installed for this printer
+#: plugins/print-notifications/gsd-printer.c:919
+msgid "Missing printer driver"
+msgstr ""
+
+#. Translators: We have no driver installed for the device
+#: plugins/print-notifications/gsd-printer.c:928
+#, c-format
+msgid "No printer driver for %s."
+msgstr ""
+
+#. Translators: We have no driver installed for this printer
+#: plugins/print-notifications/gsd-printer.c:933
+msgid "No driver for this printer."
+msgstr ""
+
+#: plugins/print-notifications/gsd-printer.c:1031
+#: plugins/print-notifications/gsd-print-notifications-manager.c:318
+#: plugins/print-notifications/gsd-print-notifications-manager.c:566
+#: plugins/print-notifications/gsd-print-notifications-manager.c:949
+#: plugins/print-notifications/gsd-print-notifications-manager.c:1040
+#: plugins/print-notifications/gsd-print-notifications-manager.c:1084
+msgid "Printers"
+msgstr ""
+
+#. Translators: The printer is low on toner (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:402
+#, c-format
+msgid "Printer “%s” is low on toner."
+msgstr ""
+
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:406
+#, c-format
+msgid "Printer “%s” has no toner left."
+msgstr ""
+
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:410
+#, c-format
+msgid "Printer “%s” may not be connected."
+msgstr ""
+
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:414
+#, c-format
+msgid "The cover is open on printer “%s”."
+msgstr ""
+
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:418
+#, c-format
+msgid "There is a missing print filter for printer “%s”."
+msgstr ""
+
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:423
+#, c-format
+msgid "The door is open on printer “%s”."
+msgstr ""
+
+#. Translators: "marker" is one color bin of the printer
+#: plugins/print-notifications/gsd-print-notifications-manager.c:427
+#, c-format
+msgid "Printer “%s” is low on a marker supply."
+msgstr ""
+
+#. Translators: "marker" is one color bin of the printer
+#: plugins/print-notifications/gsd-print-notifications-manager.c:431
+#, c-format
+msgid "Printer “%s” is out of a marker supply."
+msgstr ""
+
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:435
+#, c-format
+msgid "Printer “%s” is low on paper."
+msgstr ""
+
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:439
+#, c-format
+msgid "Printer “%s” is out of paper."
+msgstr ""
+
+#. Translators: The printer is offline (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:443
+#, c-format
+msgid "Printer “%s” is currently off-line."
+msgstr ""
+
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:447
+#, c-format
+msgid "There is a problem on printer “%s”."
+msgstr ""
+
+#. Translators: The printer has a job to print but the printer needs
+#. authentication to continue with the print
+#: plugins/print-notifications/gsd-print-notifications-manager.c:559
+#, c-format
+msgid "%s Requires Authentication"
+msgstr ""
+
+#. Translators: A printer needs credentials to continue printing a job
+#: plugins/print-notifications/gsd-print-notifications-manager.c:561
+#, c-format
+msgid "Credentials required in order to print"
+msgstr ""
+
+#. Translators: The printer is low on toner (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:628
+msgid "Toner low"
+msgstr ""
+
+#. Translators: The printer has no toner left (same as in system-config-
+#. printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:630
+msgid "Toner empty"
+msgstr ""
+
+#. Translators: The printer is in the process of connecting to a shared
+#. network output device (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:632
+msgid "Not connected?"
+msgstr ""
+
+#. Translators: One or more covers on the printer are open (same as in system-
+#. config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:634
+msgid "Cover open"
+msgstr ""
+
+#. Translators: A filter or backend is not installed (same as in system-
+#. config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:636
+msgid "Printer configuration error"
+msgstr ""
+
+#. Translators: One or more doors on the printer are open (same as in system-
+#. config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:638
+msgid "Door open"
+msgstr ""
+
+#. Translators: "marker" is one color bin of the printer
+#: plugins/print-notifications/gsd-print-notifications-manager.c:640
+msgid "Marker supply low"
+msgstr ""
+
+#. Translators: "marker" is one color bin of the printer
+#: plugins/print-notifications/gsd-print-notifications-manager.c:642
+msgid "Out of a marker supply"
+msgstr ""
+
+#. Translators: At least one input tray is low on media (same as in system-
+#. config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:644
+msgid "Paper low"
+msgstr ""
+
+#. Translators: At least one input tray is empty (same as in system-config-
+#. printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:646
+msgid "Out of paper"
+msgstr ""
+
+#. Translators: The printer is offline (same as in system-config-printer)
+#: plugins/print-notifications/gsd-print-notifications-manager.c:648
+msgid "Printer off-line"
+msgstr ""
+
+#. Translators: The printer has detected an error (same as in system-config-
+#. printer)
+#. Translators: This is a title of an error notification for a printer
+#: plugins/print-notifications/gsd-print-notifications-manager.c:650
+#: plugins/print-notifications/gsd-print-notifications-manager.c:1026
+msgid "Printer error"
+msgstr ""
+
+#. Translators: New printer has been added
+#: plugins/print-notifications/gsd-print-notifications-manager.c:699
+msgid "Printer added"
+msgstr ""
+
+#. Translators: A print job has been stopped
+#: plugins/print-notifications/gsd-print-notifications-manager.c:716
+#: plugins/print-notifications/gsd-print-notifications-manager.c:754
+msgctxt "print job state"
+msgid "Printing stopped"
+msgstr ""
+
+#. Translators: "print-job xy" on a printer
+#: plugins/print-notifications/gsd-print-notifications-manager.c:718
+#: plugins/print-notifications/gsd-print-notifications-manager.c:724
+#: plugins/print-notifications/gsd-print-notifications-manager.c:730
+#: plugins/print-notifications/gsd-print-notifications-manager.c:736
+#: plugins/print-notifications/gsd-print-notifications-manager.c:748
+#: plugins/print-notifications/gsd-print-notifications-manager.c:756
+#: plugins/print-notifications/gsd-print-notifications-manager.c:764
+#: plugins/print-notifications/gsd-print-notifications-manager.c:772
+#: plugins/print-notifications/gsd-print-notifications-manager.c:780
+#: plugins/print-notifications/gsd-print-notifications-manager.c:804
+#, c-format
+msgctxt "print job"
+msgid "“%s” on %s"
+msgstr ""
+
+#. Translators: A print job has been canceled
+#: plugins/print-notifications/gsd-print-notifications-manager.c:722
+#: plugins/print-notifications/gsd-print-notifications-manager.c:762
+msgctxt "print job state"
+msgid "Printing canceled"
+msgstr ""
+
+#. Translators: A print job has been aborted
+#: plugins/print-notifications/gsd-print-notifications-manager.c:728
+#: plugins/print-notifications/gsd-print-notifications-manager.c:770
+msgctxt "print job state"
+msgid "Printing aborted"
+msgstr ""
+
+#. Translators: A print job has been completed
+#: plugins/print-notifications/gsd-print-notifications-manager.c:734
+#: plugins/print-notifications/gsd-print-notifications-manager.c:778
+msgctxt "print job state"
+msgid "Printing completed"
+msgstr ""
+
+#. Translators: A job is printing
+#: plugins/print-notifications/gsd-print-notifications-manager.c:746
+#: plugins/print-notifications/gsd-print-notifications-manager.c:802
+msgctxt "print job state"
+msgid "Printing"
+msgstr ""
+
+#. Translators: This is a title of a report notification for a printer
+#: plugins/print-notifications/gsd-print-notifications-manager.c:1020
+msgid "Printer report"
+msgstr ""
+
+#. Translators: This is a title of a warning notification for a printer
+#: plugins/print-notifications/gsd-print-notifications-manager.c:1023
+msgid "Printer warning"
+msgstr ""
+
+#. Translators: "Printer 'MyPrinterName': 'Description of the
+#. report/warning/error from a PPD file'."
+#: plugins/print-notifications/gsd-print-notifications-manager.c:1033
+#, c-format
+msgid "Printer “%s”: “%s”."
+msgstr ""
+
+#: plugins/smartcard/gsd-smartcard-service.c:282
+msgid "User was not logged in with smartcard."
+msgstr ""
+
+#: plugins/usb-protection/gsd-usb-protection-manager.c:386
+msgid "USB Protection"
+msgstr ""
+
+#: plugins/usb-protection/gsd-usb-protection-manager.c:505
+msgid "New USB device"
+msgstr ""
+
+#: plugins/usb-protection/gsd-usb-protection-manager.c:506
+msgid ""
+"New device has been detected while the session was not locked. If you did "
+"not plug anything, check your system for any suspicious device."
+msgstr ""
+
+#: plugins/usb-protection/gsd-usb-protection-manager.c:589
+msgid "New device detected"
+msgstr ""
+
+#: plugins/usb-protection/gsd-usb-protection-manager.c:590
+msgid ""
+"Either one of your existing devices has been reconnected or a new one has "
+"been plugged in. If you did not do it, check your system for any suspicious "
+"device."
+msgstr ""
+
+#: plugins/usb-protection/gsd-usb-protection-manager.c:596
+msgid "Reconnect USB device"
+msgstr ""
+
+#: plugins/usb-protection/gsd-usb-protection-manager.c:597
+msgid ""
+"New device has been detected while you were away. Please disconnect and "
+"reconnect the device to start using it."
+msgstr ""
+
+#: plugins/usb-protection/gsd-usb-protection-manager.c:603
+#: plugins/usb-protection/gsd-usb-protection-manager.c:628
+msgid "USB device blocked"
+msgstr ""
+
+#: plugins/usb-protection/gsd-usb-protection-manager.c:604
+msgid ""
+"New device has been detected while you were away. It has been blocked "
+"because the USB protection is active."
+msgstr ""
+
+#: plugins/usb-protection/gsd-usb-protection-manager.c:629
+msgid ""
+"The new inserted device has been blocked because the USB protection is "
+"active."
+msgstr ""
+
+#. SECURITY:
+#. - A normal active user on the local machine does not need permission
+#. to change the LED setting for a Wacom tablet
+#: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:20
+msgid "Modify the lit LED for a Wacom tablet"
+msgstr ""
+
+#: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:21
+msgid "Authentication is required to modify the lit LED for a Wacom tablet"
+msgstr ""
+
+#. SECURITY:
+#. - A normal active user on the local machine does not need permission
+#. to change the OLED images for a Wacom tablet
+#: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:35
+msgid "Modify the OLED image for a Wacom tablet"
+msgstr ""
+
+#: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:36
+msgid "Authentication is required to modify the OLED image for a Wacom tablet"
+msgstr ""
+
+#: plugins/wwan/cc-wwan-errors-private.h:40
+msgid "Phone failure"
+msgstr ""
+
+#: plugins/wwan/cc-wwan-errors-private.h:41
+msgid "No connection to phone"
+msgstr ""
+
+#: plugins/wwan/cc-wwan-errors-private.h:43
+msgid "Operation not allowed"
+msgstr ""
+
+#: plugins/wwan/cc-wwan-errors-private.h:44
+msgid "Operation not supported"
+msgstr ""
+
+#: plugins/wwan/cc-wwan-errors-private.h:48
+msgid "SIM not inserted"
+msgstr ""
+
+#: plugins/wwan/cc-wwan-errors-private.h:49
+msgid "SIM PIN required"
+msgstr ""
+
+#: plugins/wwan/cc-wwan-errors-private.h:50
+msgid "SIM PUK required"
+msgstr ""
+
+#: plugins/wwan/cc-wwan-errors-private.h:51
+msgid "SIM failure"
+msgstr ""
+
+#: plugins/wwan/cc-wwan-errors-private.h:52
+msgid "SIM busy"
+msgstr ""
+
+#: plugins/wwan/cc-wwan-errors-private.h:53
+msgid "SIM wrong"
+msgstr ""
+
+#: plugins/wwan/cc-wwan-errors-private.h:54
+msgid "Incorrect password"
+msgstr ""
+
+#: plugins/wwan/cc-wwan-errors-private.h:55
+msgid "SIM PIN2 required"
+msgstr ""
+
+#: plugins/wwan/cc-wwan-errors-private.h:56
+msgid "SIM PUK2 required"
+msgstr ""
+
+#: plugins/wwan/cc-wwan-errors-private.h:72
+msgid "Unknown error"
+msgstr ""
+
+#: plugins/wwan/cc-wwan-errors-private.h:91
+msgid "Action Cancelled"
+msgstr ""
+
+#: plugins/wwan/cc-wwan-errors-private.h:94
+msgid "Access denied"
+msgstr ""
+
+#: plugins/wwan/cc-wwan-errors-private.h:103
+msgid "Unknown Error"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-manager.c:117
+msgid "New PIN for SIM"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-manager.c:118
+msgid "Set"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-manager.c:120
+msgid "Unlock SIM card"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-manager.c:121
+msgid "Unlock"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-manager.c:124
+msgid "Cancel"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-manager.c:129
+#, c-format
+msgid "Please provide a new PIN for SIM card %s"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-manager.c:131
+msgid "Enter a New PIN to unlock your SIM card"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-manager.c:133
+#, c-format
+msgid "Please provide the PIN for SIM card %s"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-manager.c:135
+msgid "Enter PIN to unlock your SIM card"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-manager.c:138
+#, c-format
+msgid "Please provide the PUK for SIM card %s"
+msgstr ""
+
+#: plugins/wwan/gsd-wwan-manager.c:140
+msgid "Enter PUK to unlock your SIM card"
+msgstr ""
+
+#. msg is already localised
+#: plugins/wwan/gsd-wwan-manager.c:156
+#, c-format
+msgid "%2$s. You have %1$u try left"
+msgid_plural "%2$s. You have %1$u tries left"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugins/wwan/gsd-wwan-manager.c:160
+#, c-format
+msgid "You have %u try left"
+msgid_plural "You have %u tries left"
+msgstr[0] ""
+msgstr[1] ""
