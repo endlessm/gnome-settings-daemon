@@ -10,6 +10,7 @@
 # Jan-Willem Harmanny <jwharmanny@hotmail.com>, 2002
 # Justin van Steijn <justin50@live.nl>, 2016
 # Justin van Steijn <jvs@fsfe.org>, 2016,2018
+# Kobe Boecquaert, 2021
 # Nathan Follens <nthn@unseen.is>, 2015-2016, 2019
 # redmar <redmar@ubuntu-nl.org>, 2011
 # Reinout van Schouwen <reinouts@gnome.org>, 2013
@@ -19,9 +20,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-settings-daemon\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-03 04:12+0000\n"
-"PO-Revision-Date: 2020-10-13 15:13+0000\n"
-"Last-Translator: endlessmobile_build <admin@endlessos.org>\n"
+"POT-Creation-Date: 2021-05-22 04:12+0000\n"
+"PO-Revision-Date: 2021-05-15 18:38+0000\n"
+"Last-Translator: Kobe Boecquaert\n"
 "Language-Team: Dutch (http://www.transifex.com/endless-os/gnome-settings-daemon/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1525,11 +1526,11 @@ msgstr "Weinig schijfruimte"
 msgid ""
 "Your computer is out of space.  You may free up some space by emptying the "
 "trash."
-msgstr ""
+msgstr "Uw computer heeft geen ruimte meer. U kunt wat ruimte vrijmaken door de prullenbak te legen."
 
 #: plugins/housekeeping/gsd-disk-space.c:702
 msgid "Your computer is out of space."
-msgstr ""
+msgstr "Uw computer heeft geen ruimte meer."
 
 #: plugins/housekeeping/gsd-disk-space.c:727
 #, c-format
@@ -1707,7 +1708,7 @@ msgstr "De accu van de draadloze muis is bijna leeg (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:516
 #, c-format
 msgid "Wireless mouse is low in power"
-msgstr ""
+msgstr "Batterij van draadloze muis is laag"
 
 #. TRANSLATORS: keyboard is getting a little low
 #. TRANSLATORS: the keyboard battery is very low
@@ -1723,7 +1724,7 @@ msgstr "De accu van het draadloze toetsenbord is bijna leeg (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:526
 #, c-format
 msgid "Wireless keyboard is low in power"
-msgstr ""
+msgstr "Batterij van draadloos toetsenbord is laag"
 
 #. TRANSLATORS: PDA is getting a little low
 #. TRANSLATORS: the PDA battery is very low
@@ -1739,7 +1740,7 @@ msgstr "De accu van de pda is bijna leeg (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:536
 #, c-format
 msgid "PDA is low in power"
-msgstr ""
+msgstr "Batterij van PDA is laag"
 
 #. TRANSLATORS: cell phone (mobile) is getting a little low
 #. TRANSLATORS: the cell battery is very low
@@ -1756,7 +1757,7 @@ msgstr "De accu van de mobiele telefoon is bijna leeg (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:546
 #, c-format
 msgid "Cell phone is low in power"
-msgstr ""
+msgstr "Batterij van gsm is laag"
 
 #. TRANSLATORS: media player, e.g. mp3 is getting a little low
 #: plugins/power/gsd-power-manager.c:550
@@ -1771,7 +1772,7 @@ msgstr "De accu van de mp3-speler is bijna leeg (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:556
 #, c-format
 msgid "Media player is low in power"
-msgstr ""
+msgstr "Batterij van mediaspeler is laag"
 
 #. TRANSLATORS: graphics tablet, e.g. wacom is getting a little low
 #. TRANSLATORS: the cell battery is very low
@@ -1787,7 +1788,7 @@ msgstr "De accu van de tablet is bijna leeg (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:566
 #, c-format
 msgid "Tablet is low in power"
-msgstr ""
+msgstr "Batterij van tablet is laag"
 
 #. TRANSLATORS: computer, e.g. ipad is getting a little low
 #. TRANSLATORS: the cell battery is very low
@@ -1803,7 +1804,7 @@ msgstr "De accu van de aangekoppelde computer is bijna leeg (%.0f%%)"
 #: plugins/power/gsd-power-manager.c:576
 #, c-format
 msgid "Attached computer is low in power"
-msgstr ""
+msgstr "Batterij van aangesloten computer is laag"
 
 #. TRANSLATORS: this is the sound description
 #: plugins/power/gsd-power-manager.c:597
@@ -1861,7 +1862,7 @@ msgstr "Draadloze muis zit bijna zonder stroom (%.0f%%). Dit apparaat stopt binn
 msgid ""
 "Wireless mouse is very low in power. This device will soon stop functioning "
 "if not charged."
-msgstr ""
+msgstr "Draadloze muis heeft zeer weinig stroom. Dit apparaat zal binnenkort stoppen met werken als het niet wordt opgeladen."
 
 #: plugins/power/gsd-power-manager.c:687
 #, c-format
